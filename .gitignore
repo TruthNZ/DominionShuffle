@@ -1,0 +1,5 @@
+.*
+!.gitignore
+local.properties
+/build
+/app/build
