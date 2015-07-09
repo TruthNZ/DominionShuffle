@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content" android:orientation="vertical"
+	android:layout_width="fill_parent" android:padding="8sp">
+
+	<include android:id="@+id/sourceGroupOrCard" layout="@layout/inex_listitem"
+		android:layout_width="fill_parent" android:layout_height="wrap_content" />
+	<ImageView android:layout_width="fill_parent"
+		android:layout_height="1dp" android:background="#FFFFFFFF"
+		android:src="@drawable/divider_horizontal" android:layout_marginBottom="2dp"></ImageView>
+	<LinearLayout android:layout_width="fill_parent"
+		android:baselineAligned="false" android:orientation="horizontal" android:layout_height="wrap_content">
+		<LinearLayout android:layout_height="wrap_content"
+			android:orientation="vertical" android:layout_width="fill_parent" android:layout_weight="1">
+			<TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="@string/minimum"></TextView>
+			<Spinner android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:id="@+id/minSpinner"></Spinner>
+			<TextView android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:text="@string/limit_condition_text"></TextView>
+			<Spinner android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:id="@+id/conditionSpinner"></Spinner>
+		</LinearLayout>
+		<LinearLayout android:layout_height="wrap_content"
+			android:orientation="vertical" android:layout_width="fill_parent" android:layout_weight="1">
+			
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/maximum"></TextView>
+			<Spinner android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:id="@+id/maxSpinner"></Spinner>
+		</LinearLayout>
+	</LinearLayout>
+
+</LinearLayout>
+<!-- From: file:/C:/Development/Personal/AndroidStudio/DominionShuffle/app/src/main/res/layout-land/limit_dialog.xml -->

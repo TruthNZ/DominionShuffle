@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="solveerror_rules_to_strict">Non è possibile selezionare le carte con le regole fornite, prova a cambiarle</string>
+<string name="solveerror_overconstrainted_mimumums">Non tutte le regole minime possono essere rispettate</string>
+<string name="solveerror_unsatisfied_rule">Regola non rispettata per le carte selezionate</string>
+<string name="solveerror_too_many_cards">Hai scelto più di 10 carte</string>
+<string name="solveerror_not_enough_cards">Non sono presenti abbastanza carte selezionabili</string>
+</resources>

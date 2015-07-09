@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Dominion Shuffle</string>
+	<string name="loading">Caricamento carte e gruppi di Dominion</string>
+	<string-array name="sort_items">
+		<item>Costo, Set, Nome</item>
+		<item>Set, Costo, Nome</item>
+		<item>Costo, Nome</item>
+		<item>Set, Nome</item>
+		<item>Nome</item>
+	</string-array>
+	<string-array name="minmax_array">
+		<item>Seleziona minimo</item>
+		<item>Seleziona massimo</item>
+		<item>Configura</item>
+		<item>Cancella i valori inseriti</item>
+	</string-array>
+	<string-array name="minumum_items_conditional">
+		<item>Nessun minimo</item>
+		<item>Condizionale</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+	</string-array>
+	<string-array name="minumum_items">
+		<item>Nessun minimo</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+	</string-array>
+	<string-array name="maximum_items">
+		<item>Nessun massimo</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+	</string-array>
+<string name="result_title">Dominion Shuffle - Risultati</string>
+<string name="show_group_title">Carte del gruppo \'%s\'</string>
+<string name="solve_dialog_title">Risolvi l\'errore</string>
+<string name="ok">OK</string>
+<string name="display_result_dialog_title">Mostra i risultati</string>
+<string name="result_no_result">Risultati non ancora prodotti.</string>
+<string name="sort_cards_dialog_title">Ordina le carte per</string>
+<string name="toast_all_cleared">Tutte le selezioni sono state cancellate</string>
+<string name="retry">Riprova</string>
+<string name="cancel">Cancella</string>
+<string name="error_loading">Errore caricando i dati</string>
+<string name="tab_select">Seleziona</string>
+<string name="tab_constraints">Limiti</string>
+<string name="tab_generate">Mischia</string>
+<string name="app_description">Scelgo casualmente 10 carte Dominion utilizzando i vincoli forniti</string>
+<string name="load_dialog_title">Dominion Shuffle - Carica Regole</string>
+<string name="save_dialog_title">Dominion Shuffle - Salva Regole</string>
+<string name="empty">Vuoto</string>
+<string name="unnamed">Senza Nome</string>
+<string name="save_rules_as">Salva le regole come</string>
+<string name="save">Salva</string>
+<string name="toast_loaded_rules">Caricate le regole \'%s\'</string>
+<string name="toast_no_data_found">Non sono stati trovati dati</string>
+<string name="toast_saved_rules_as">Salvate le regole come \'%s\'</string>
+<string name="toast_error_saving_rules">Errore salvando le regole</string>
+<string name="limit_title">Impostazioni Limiti</string>
+<string name="minimum">Minimo</string>
+<string name="maximum">Massimo</string>
+<string name="limit_condition_text">Imposta il minimo se almeno una carta dal gruppo/carta successivo/a viene selezionata</string>
+<string name="no_card_or_group_selected">Non è stato selezionato niente</string>
+<string name="choose_card_language">Scegli la lingua delle carte</string>
+<string name="loaded_cache">Impossibile fare il download delle carte, caricata la versione in cache.</string>
+<string name="group">Gruppo</string>
+<string name="card">Carta</string>
+<string name="bane">Scongiuro</string>
+</resources>

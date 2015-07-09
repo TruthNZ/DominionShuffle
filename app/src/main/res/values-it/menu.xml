@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="menu_lock_lists">Liste Bloccate</string>
+<string name="menu_unlock_lists">Liste Sbloccate</string>
+<string name="menu_sort">Ordina</string>
+<string name="menu_shuffle">Mischia</string>
+<string name="menu_last_result">Ultimo Risultato</string>
+<string name="menu_clear_all">Cancella Tutto</string>
+<string name="menu_close">Chiudi</string>
+<string name="menu_compact_view">Lista Compatta</string>
+<string name="menu_expanded_view">Lista Estesa</string>
+<string name="menu_exclude_all">Escludi Tutto</string>
+<string name="menu_require_all">Includi Tutto</string>
+<string name="menu_load">Carica</string>
+<string name="menu_save">Salva</string>
+<string name="menu_card_language">Lingua Carte</string>
+</resources>

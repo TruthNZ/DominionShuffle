@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="menu_lock_lists">Lijsten Gekoppeld</string>
+<string name="menu_unlock_lists">Lijsten Ongekoppeld</string>
+<string name="menu_sort">Sorteer</string>
+<string name="menu_shuffle">Schudden</string>
+<string name="menu_last_result">Laatste Resultaat</string>
+<string name="menu_clear_all">Wis Alles</string>
+<string name="menu_close">Sluiten</string>
+<string name="menu_compact_view">Compacte Lijst</string>
+<string name="menu_expanded_view">Uitgebreide Lijst</string>
+<string name="menu_exclude_all">Alles Uitsluiten</string>
+<string name="menu_require_all">Alles Verplichten</string>
+<string name="menu_load">Laden</string>
+<string name="menu_save">Bewaren</string>
+<string name="menu_card_language">Kaarttaal</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" android:layout_width="fill_parent"
+	android:id="@+id/generateButtons" android:orientation="horizontal">
+	<LinearLayout android:layout_height="wrap_content"
+		android:orientation="vertical" android:layout_gravity="center"
+		android:layout_width="fill_parent">
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="center_horizontal"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:id="@+id/generateButton" android:width="150dp" android:text="@string/menu_shuffle"></Button>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:textAppearance="?android:attr/textAppearanceLarge"
+			android:id="@+id/lastResultButton" android:width="150dp" android:text="@string/menu_last_result"></Button>
+	</LinearLayout>
+</LinearLayout>
+<!-- From: file:/C:/Development/Personal/AndroidStudio/DominionShuffle/app/src/main/res/layout/generate_tab.xml -->

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Development/Personal/AndroidStudio/DominionShuffle/app/src/main/res/values-cs/strings.xml -->
+    <eat-comment/>
+    <string-array name="maximum_items">
+		<item>Žádné maximum</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+	</string-array>
+    <string-array name="minmax_array">
+		<item>Zvolte minimum</item>
+		<item>Zvolte maximum</item>
+		<item>Nastavit</item>
+		<item>Vymazat hodnoty</item>
+	</string-array>
+    <string-array name="minumum_items">
+		<item>Žádné minimum</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+	</string-array>
+    <string-array name="minumum_items_conditional">
+		<item>Žádné minimum</item>
+		<item>Podmínka</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+	</string-array>
+    <string-array name="sort_items">
+		<item>Cena, Sada, Jméno</item>
+		<item>Sada, Cena, Jméno</item>
+		<item>Cena, Jméno</item>
+		<item>Sada, Jméno</item>
+		<item>Jméno</item>
+	</string-array>
+    <string name="app_description">Náhodně vybere 10 karet hry Dominion podle zadaných pravidel</string>
+    <string name="app_name">Dominion Shuffle</string>
+    <string name="bane">Bane</string>
+    <string name="cancel">Zrušit</string>
+    <string name="card">Karta</string>
+    <string name="choose_card_language">Zvolte jazyk karet</string>
+    <string name="display_result_dialog_title">Zobrazení výsledku</string>
+    <string name="empty">prázdný</string>
+    <string name="error_loading">Chyba při načítání dat</string>
+    <string name="group">Skupina</string>
+    <string name="limit_condition_text">Nastaví minimum, pokud je vybrána alespoň jedna karta z následující skupiny.</string>
+    <string name="limit_title">Nastavení omezení</string>
+    <string name="load_dialog_title">Dominion Shuffle - Nahrát pravidla</string>
+    <string name="loaded_cache">Nelze stáhnout karty, bude použita nakešovaná verze.</string>
+    <string name="loading">Nahrávám karty a skupiny Dominion</string>
+    <string name="maximum">Maximum</string>
+    <!-- From: file:/C:/Development/Personal/AndroidStudio/DominionShuffle/app/src/main/res/values-cs/menu.xml -->
+    <eat-comment/>
+    <string name="menu_card_language">Jazyk</string>
+    <string name="menu_clear_all">Vymazat vše</string>
+    <string name="menu_close">Zavřít</string>
+    <string name="menu_compact_view">Zjednodušeně</string>
+    <string name="menu_exclude_all">Vyřadit vše</string>
+    <string name="menu_expanded_view">Podrobně</string>
+    <string name="menu_last_result">Poslední míchání</string>
+    <string name="menu_load">Nahrát</string>
+    <string name="menu_lock_lists">Synchronně</string>
+    <string name="menu_require_all">Použít vše</string>
+    <string name="menu_save">Uložit</string>
+    <string name="menu_shuffle">Zamíchat</string>
+    <string name="menu_sort">Seřadit</string>
+    <string name="menu_unlock_lists">Volně</string>
+    <!-- From: file:/C:/Development/Personal/AndroidStudio/DominionShuffle/app/src/main/res/values-cs/strings.xml -->
+    <eat-comment/>
+    <string name="minimum">Minimum</string>
+    <string name="no_card_or_group_selected">Nic nevybráno</string>
+    <string name="ok">Ok</string>
+    <string name="result_no_result">Zatím nebylo mícháno</string>
+    <string name="result_title">Dominion Shuffle - Výsledek</string>
+    <string name="retry">Znovu</string>
+    <string name="save">Uložit</string>
+    <string name="save_dialog_title">Dominion Shuffle - Uložit pravidla</string>
+    <string name="save_rules_as">Uložit jako</string>
+    <string name="show_group_title">Karty skupiny \'%s\'</string>
+    <string name="solve_dialog_title">Chyba míchání</string>
+    <!-- From: file:/C:/Development/Personal/AndroidStudio/DominionShuffle/app/src/main/res/values-cs/solve_errors.xml -->
+    <eat-comment/>
+    <string name="solveerror_not_enough_cards">Příliš málo karet na výběr</string>
+    <string name="solveerror_overconstrainted_mimumums">Ne všechny požadavky na minimální počet karet nemohou být splněny</string>
+    <string name="solveerror_rules_to_strict">Ze zadaných pravidel nelze vybrat správný počet karet, zkuste pravidla zmírnit</string>
+    <string name="solveerror_too_many_cards">Máte vybráno více než 10 konkrétních karet</string>
+    <string name="solveerror_unsatisfied_rule">Pravidlo není splněno pro vybrané karty</string>
+    <!-- From: file:/C:/Development/Personal/AndroidStudio/DominionShuffle/app/src/main/res/values-cs/strings.xml -->
+    <eat-comment/>
+    <string name="sort_cards_dialog_title">Seřadit karty podle</string>
+    <string name="tab_constraints">Limity</string>
+    <string name="tab_generate">Míchání</string>
+    <string name="tab_select">Výběr</string>
+    <string name="toast_all_cleared">Všechno bylo smazáno</string>
+    <string name="toast_error_saving_rules">Chyba při ukládání</string>
+    <string name="toast_loaded_rules">Pravidla \'%s\' byla nahrána</string>
+    <string name="toast_no_data_found">Nenalezena žádná data</string>
+    <string name="toast_saved_rules_as">Pravidla uložena jako \'%s\'</string>
+    <string name="unnamed">název</string>
+</resources>

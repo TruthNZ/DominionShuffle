@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Development/Personal/AndroidStudio/DominionShuffle/app/src/main/res/values-pl/strings.xml -->
+    <eat-comment/>
+    <string-array name="maximum_items">
+		<item>Bez maksimum</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+	</string-array>
+    <string-array name="minmax_array">
+		<item>Wybierz minimum</item>
+		<item>Wybierz maksimum</item>
+		<item>Konfiguruj</item>
+		<item>Wyczyść wartości</item>
+	</string-array>
+    <string-array name="minumum_items">
+		<item>Bez minimum</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+	</string-array>
+    <string-array name="minumum_items_conditional">
+		<item>Bez minimum</item>
+		<item>Warunkowo</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+	</string-array>
+    <string-array name="sort_items">
+		<item>Koszt, Zestaw, Nazwa</item>
+		<item>Zestaw, Koszt, Nazwa</item>
+		<item>Koszt, Nazwa</item>
+		<item>Zestaw, Nazwa</item>
+		<item>Nazwa</item>
+	</string-array>
+    <string name="app_description">Losowo wybierz 10 kart według zadanych ograniczeń</string>
+    <string name="app_name">Dominion Shuffle</string>
+    <string name="bane">Bane</string>
+    <string name="cancel">Anuluj</string>
+    <string name="card">Karta</string>
+    <string name="choose_card_language">Wybierz język kart</string>
+    <string name="display_result_dialog_title">Pokaż wynik</string>
+    <string name="empty">Pusty</string>
+    <string name="error_loading">Błąd wczytywania danych</string>
+    <string name="group">Grupa</string>
+    <string name="limit_condition_text">Ustaw minium jeżeli co najmniej jedna z grup (lub karta) jest zaznaczona.</string>
+    <string name="limit_title">Ustawienia ograniczeń</string>
+    <string name="load_dialog_title">Dominion Shuffle - Wczytaj Zasady</string>
+    <string name="loading">Wczytywanie kart i grup</string>
+    <string name="maximum">Maksimum</string>
+    <!-- From: file:/C:/Development/Personal/AndroidStudio/DominionShuffle/app/src/main/res/values-pl/menu.xml -->
+    <eat-comment/>
+    <string name="menu_card_language">Język kart</string>
+    <string name="menu_clear_all">Wyczyść wszystko</string>
+    <string name="menu_close">Zamknij</string>
+    <string name="menu_compact_view">Lista kompaktowa</string>
+    <string name="menu_exclude_all">Wyklucz wszystkie</string>
+    <string name="menu_expanded_view">Lista rozszerzona</string>
+    <string name="menu_last_result">Ostatni wynik</string>
+    <string name="menu_load">Wczytaj</string>
+    <string name="menu_lock_lists">Listy zablokowane</string>
+    <string name="menu_require_all">Akceptuj wszystkie</string>
+    <string name="menu_save">Zapisz</string>
+    <string name="menu_shuffle">Losuj</string>
+    <string name="menu_sort">Sortuj</string>
+    <string name="menu_unlock_lists">Listy odblokowane</string>
+    <!-- From: file:/C:/Development/Personal/AndroidStudio/DominionShuffle/app/src/main/res/values-pl/strings.xml -->
+    <eat-comment/>
+    <string name="minimum">Minimum</string>
+    <string name="no_card_or_group_selected">Brak zaznaczenia.</string>
+    <string name="ok">OK</string>
+    <string name="result_no_result">Wynik nie wygenerowany.</string>
+    <string name="result_title">Dominion Shuffle - Wynik</string>
+    <string name="retry">Powtórz</string>
+    <string name="save">Zapisz</string>
+    <string name="save_dialog_title">Dominion Shuffle - Zapisz Zasady</string>
+    <string name="save_rules_as">Zapisz zasady jako</string>
+    <string name="show_group_title">Grupa \'%s\' kart</string>
+    <string name="solve_dialog_title">Rozwiąż problem</string>
+    <!-- From: file:/C:/Development/Personal/AndroidStudio/DominionShuffle/app/src/main/res/values-pl/solve_errors.xml -->
+    <eat-comment/>
+    <string name="solveerror_not_enough_cards">Brak wystarczającej liczby kart do wyboru</string>
+    <string name="solveerror_overconstrainted_mimumums">Minimalne wymagania nie mogą być spełnione</string>
+    <string name="solveerror_rules_to_strict">Nie można wybrać kart dla podanych zasad</string>
+    <string name="solveerror_too_many_cards">Więcej niż 10 kart jest wybranych</string>
+    <string name="solveerror_unsatisfied_rule">Zasada nie jest spełniona dla wybranych kart</string>
+    <!-- From: file:/C:/Development/Personal/AndroidStudio/DominionShuffle/app/src/main/res/values-pl/strings.xml -->
+    <eat-comment/>
+    <string name="sort_cards_dialog_title">Sortuj karty według</string>
+    <string name="tab_constraints">Ograniczenia</string>
+    <string name="tab_generate">Losuj</string>
+    <string name="tab_select">Wybierz</string>
+    <string name="toast_all_cleared">Wszystkie zaznaczenia wyczyszczone</string>
+    <string name="toast_error_saving_rules">Błąd podczas zapisu</string>
+    <string name="toast_loaded_rules">Wczytaj zasady \'%s\'</string>
+    <string name="toast_no_data_found">Dane nieodnalezione</string>
+    <string name="toast_saved_rules_as">Zasady zapisane jako \'%s\'</string>
+    <string name="unnamed">Brak nazwy</string>
+</resources>

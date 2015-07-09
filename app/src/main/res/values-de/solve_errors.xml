@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Translated by Rainer Schönbrunn <schoenbrunn@rs-medien.de> -->
+<resources>
+	<string name="solveerror_rules_to_strict">Karten können mit den gewählten Regeln nicht gemischt werden, bitte lockern</string>
+	<string name="solveerror_overconstrainted_mimumums">Nicht alle Minimalregeln können erfüllt werden</string>
+	<string name="solveerror_unsatisfied_rule">Regeln sind für die gewählten Karten nicht anwendbar</string>
+	<string name="solveerror_too_many_cards">Versuche mehr als 10 Karten zu nehmen</string>
+	<string name="solveerror_not_enough_cards">Es stehen nicht genug Karten zur Auswahl</string>
+</resources>

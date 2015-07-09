@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="menu_lock_lists">リストを同期</string>
+<string name="menu_unlock_lists">リストを非同期</string>
+<string name="menu_sort">並べ替え</string>
+<string name="menu_shuffle">シャッフル</string>
+<string name="menu_last_result">前回の結果</string>
+<string name="menu_clear_all">全てクリア</string>
+<string name="menu_close">閉じる</string>
+<string name="menu_compact_view">一覧リスト</string>
+<string name="menu_expanded_view">詳細リスト</string>
+<string name="menu_exclude_all">全て除外</string>
+<string name="menu_require_all">全て含める</string>
+<string name="menu_load">ロード</string>
+<string name="menu_save">セーブ</string>
+<string name="menu_card_language">カード言語</string>
+<string name="menu_launch_androminion">Androminionに送る</string>
+</resources>

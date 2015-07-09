@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="solveerror_rules_to_strict">Impossible de sélectionner des cartes avec les règles en vigueur, essayez de les rendre moins strictes</string>
+<string name="solveerror_overconstrainted_mimumums">Tous les minimums ne peuvent pas être respectés</string>
+<string name="solveerror_unsatisfied_rule">La règle ne peut pas être respectée avec les cartes sélectionnées</string>
+<string name="solveerror_too_many_cards">Tentative de sélectionner plus de 10 cartes</string>
+<string name="solveerror_not_enough_cards">Pas assez de cartes pour faire une sélection</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="menu_lock_lists">Listy zablokowane</string>
+<string name="menu_unlock_lists">Listy odblokowane</string>
+<string name="menu_sort">Sortuj</string>
+<string name="menu_shuffle">Losuj</string>
+<string name="menu_last_result">Ostatni wynik</string>
+<string name="menu_clear_all">Wyczyść wszystko</string>
+<string name="menu_close">Zamknij</string>
+<string name="menu_compact_view">Lista kompaktowa</string>
+<string name="menu_expanded_view">Lista rozszerzona</string>
+<string name="menu_exclude_all">Wyklucz wszystkie</string>
+<string name="menu_require_all">Akceptuj wszystkie</string>
+<string name="menu_load">Wczytaj</string>
+<string name="menu_save">Zapisz</string>
+<string name="menu_card_language">Język kart</string>
+</resources>

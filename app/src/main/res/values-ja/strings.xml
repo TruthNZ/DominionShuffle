@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">ドミニオン シャッフル</string>
+	<string name="loading">ドミニオンのカードとグループを読み込み中</string>
+	<string-array name="sort_items">
+		<item>コスト, セット, 名前</item>
+		<item>セット, コスト, 名前</item>
+		<item>コスト, 名前</item>
+		<item>セット, 名前</item>
+		<item>名前</item>
+	</string-array>
+	<string-array name="minmax_array">
+		<item>最小枚数選択</item>
+		<item>最大枚数選択</item>
+		<item>設定</item>
+		<item>値をクリア</item>
+	</string-array>
+	<string-array name="minumum_items_conditional">
+		<item>最小枚数なし</item>
+		<item>条件つき</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+	</string-array>
+	<string-array name="minumum_items">
+		<item>最小枚数なし</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+	</string-array>
+	<string-array name="maximum_items">
+		<item>最大枚数なし</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+	</string-array>
+<string name="result_title">ドミニオン シャッフル - 結果</string>
+<string name="show_group_title">グループ \'%s\' カード</string>
+<string name="solve_dialog_title">解決エラー</string>
+<string name="ok">OK</string>
+<string name="display_result_dialog_title">結果表示</string>
+<string name="result_no_result">まだ結果が生成されていません。</string>
+<string name="sort_cards_dialog_title">カードの並び替え</string>
+<string name="toast_all_cleared">全ての選択はクリアされました</string>
+<string name="retry">もう一度</string>
+<string name="cancel">キャンセル</string>
+<string name="error_loading">データ読み込みエラー</string>
+<string name="tab_select">選択</string>
+<string name="tab_constraints">制限</string>
+<string name="tab_generate">シャッフル</string>
+<string name="app_description">与えられた制限の下で、１０枚のドミニオンのカードをランダムに選びます。</string>
+<string name="load_dialog_title">ドミニオン シャッフル - ルールのセーブ</string>
+<string name="save_dialog_title">ドミニオン シャッフル - ルールのロード</string>
+<string name="empty">空</string>
+<string name="unnamed">名前なし</string>
+<string name="save_rules_as">名前をつけてルールをセーブ</string>
+<string name="save">セーブ</string>
+<string name="toast_loaded_rules">ルール \'%s\' をロード</string>
+<string name="toast_no_data_found">データが見つかりません</string>
+<string name="toast_saved_rules_as">ルールを \'%s\' としてセーブ</string>
+<string name="toast_error_saving_rules">ルールのセーブに失敗</string>
+<string name="limit_title">制限の準備</string>
+<string name="minimum">最小枚数</string>
+<string name="maximum">最大枚数</string>
+<string name="limit_condition_text">少なくとも１枚のカードが以下のグループ（またはカード）から選ばれた場合、最小枚数を適用します。</string>
+<string name="no_card_or_group_selected">何も選ばれていません</string>
+<string name="choose_card_language">カードの言語選択</string>
+<string name="loaded_cache">カードのダウンロードが出来ませんでした。キャッシュバージョンを使用します。</string>
+<string name="group">グループ</string>
+<string name="card">カード</string>
+<string name="bane">災い</string>
+</resources>

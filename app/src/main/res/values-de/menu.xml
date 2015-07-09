@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Translated by Rainer Schönbrunn <schoenbrunn@rs-medien.de> -->
+<resources>
+	<string name="menu_lock_lists">Listen gesperrt</string>
+	<string name="menu_unlock_lists">Listen entsperrt</string>
+	<string name="menu_sort">Sortierung</string>
+	<string name="menu_shuffle">Mischen</string>
+	<string name="menu_last_result">Letztes Ergebnis</string>
+	<string name="menu_clear_all">Auswahl löschen</string>
+	<string name="menu_close">Schließen</string>
+	<string name="menu_compact_view">Kompakte Liste</string>
+	<string name="menu_expanded_view">Erweiterte Liste</string>
+	<string name="menu_exclude_all">Alle ausschließen</string>
+	<string name="menu_require_all">Alle behalten</string>
+	<string name="menu_load">Laden</string>
+	<string name="menu_save">Speichern</string>
+	<string name="menu_card_language">Sprache der Karten</string>
+</resources>

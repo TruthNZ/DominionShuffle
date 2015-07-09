@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="solveerror_rules_to_strict">指定されたルールではカードを選べませんでした。ルールをゆるめてみて下さい。</string>
+<string name="solveerror_overconstrainted_mimumums">全ての最小枚数ルールを満たすことができません。</string>
+<string name="solveerror_unsatisfied_rule">選択されたカードに対するルールを満たせません。</string>
+<string name="solveerror_too_many_cards">１０枚以上のカードを選ぼうとしています。</string>
+<string name="solveerror_not_enough_cards">使用するカード枚数が不足しています。</string>
+</resources>

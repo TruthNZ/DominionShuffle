@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res"><file name="clear_all" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\drawable\clear_all.png" qualifiers="" type="drawable"/><file name="coin" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\drawable\coin.png" qualifiers="" type="drawable"/><file name="coin_token" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\drawable\coin_token.png" qualifiers="" type="drawable"/><file name="cond" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\drawable\cond.png" qualifiers="" type="drawable"/><file name="divider_horizontal" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\drawable\divider_horizontal.9.png" qualifiers="" type="drawable"/><file name="embargo_token" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\drawable\embargo_token.png" qualifiers="" type="drawable"/><file name="exclude" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\drawable\exclude.png" qualifiers="" type="drawable"/><file name="globe" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\drawable\globe.png" qualifiers="" type="drawable"/><file name="gray_min" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\drawable\gray_min.png" qualifiers="" type="drawable"/><file name="grey_circle" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\drawable\grey_circle.png" qualifiers="" type="drawable"/><file name="grey_max" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\drawable\grey_max.png" qualifiers="" type="drawable"/><file name="icon" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\drawable\icon.png" qualifiers="" type="drawable"/><file name="ic_menu_androminion" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\drawable\ic_menu_androminion.png" qualifiers="" type="drawable"/><file name="include" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\drawable\include.png" qualifiers="" type="drawable"/><file name="island_mat" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\drawable\island_mat.png" qualifiers="" type="drawable"/><file name="last_result" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\drawable\last_result.png" qualifiers="" type="drawable"/><file name="last_result_compact" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\drawable\last_result_compact.png" qualifiers="" type="drawable"/><file name="limits_tab" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\drawable\limits_tab.xml" qualifiers="" type="drawable"/><file name="max" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\drawable\max.png" qualifiers="" type="drawable"/><file name="min" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\drawable\min.png" qualifiers="" type="drawable"/><file name="min_exclude" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\drawable\min_exclude.png" qualifiers="" type="drawable"/><file name="min_exclude_all" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\drawable\min_exclude_all.png" qualifiers="" type="drawable"/><file name="pirate_ship_mat" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\drawable\pirate_ship_mat.png" qualifiers="" type="drawable"/><file name="plus_include" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\drawable\plus_include.png" qualifiers="" type="drawable"/><file name="potion" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\drawable\potion.png" qualifiers="" type="drawable"/><file name="require_all" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\drawable\require_all.png" qualifiers="" type="drawable"/><file name="scrollbar_handle_accelerated_anim2" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\drawable\scrollbar_handle_accelerated_anim2.9.png" qualifiers="" type="drawable"/><file name="select_tab" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\drawable\select_tab.xml" qualifiers="" type="drawable"/><file name="shuffle" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\drawable\shuffle.png" qualifiers="" type="drawable"/><file name="shuffle_tab" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\drawable\shuffle_tab.xml" qualifiers="" type="drawable"/><file name="tablimits_selected" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\drawable\tablimits_selected.png" qualifiers="" type="drawable"/><file name="tablimits_unselected" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\drawable\tablimits_unselected.png" qualifiers="" type="drawable"/><file name="tabselect_selected" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\drawable\tabselect_selected.png" qualifiers="" type="drawable"/><file name="tabselect_unselected" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\drawable\tabselect_unselected.png" qualifiers="" type="drawable"/><file name="tabshuffle_selected" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\drawable\tabshuffle_selected.png" qualifiers="" type="drawable"/><file name="tabshuffle_unselected" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\drawable\tabshuffle_unselected.png" qualifiers="" type="drawable"/><file name="village_mat" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\drawable\village_mat.png" qualifiers="" type="drawable"/><file name="scrollbar_handle_accelerated_anim2" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\drawable-hdpi\scrollbar_handle_accelerated_anim2.9.png" qualifiers="hdpi" type="drawable"/><file name="edit_dialog" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\layout\edit_dialog.xml" qualifiers="" type="layout"/><file name="generate_tab" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\layout\generate_tab.xml" qualifiers="" type="layout"/><file name="inex_listitem" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\layout\inex_listitem.xml" qualifiers="" type="layout"/><file name="limit_dialog" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\layout\limit_dialog.xml" qualifiers="" type="layout"/><file name="releasenotes" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\layout\releasenotes.xml" qualifiers="" type="layout"/><file name="result" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\layout\result.xml" qualifiers="" type="layout"/><file name="result_listitem" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\layout\result_listitem.xml" qualifiers="" type="layout"/><file name="select" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\layout\select.xml" qualifiers="" type="layout"/><file name="limit_dialog" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\layout-land\limit_dialog.xml" qualifiers="land" type="layout"/><file name="data" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\raw\data.json_gz" qualifiers="" type="raw"/><file name="data_cz" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\raw\data_cz.json_gz" qualifiers="" type="raw"/><file name="data_de" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\raw\data_de.json_gz" qualifiers="" type="raw"/><file name="data_es" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\raw\data_es.json_gz" qualifiers="" type="raw"/><file name="data_fi" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\raw\data_fi.json_gz" qualifiers="" type="raw"/><file name="data_fr" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\raw\data_fr.json_gz" qualifiers="" type="raw"/><file name="data_it" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\raw\data_it.json_gz" qualifiers="" type="raw"/><file name="data_ja" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\raw\data_ja.json_gz" qualifiers="" type="raw"/><file name="data_kr" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\raw\data_kr.json_gz" qualifiers="" type="raw"/><file name="data_nl" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\raw\data_nl.json_gz" qualifiers="" type="raw"/><file name="data_pl" path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\raw\data_pl.json_gz" qualifiers="" type="raw"/><file path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="CustomFastScrollView">
+        <attr format="dimension" name="overlayWidth"/>
+        <attr format="dimension" name="overlayHeight"/>
+        <attr format="dimension" name="overlayTextSize"/>
+        <attr format="dimension" name="overlayScrollThumbWidth"/>
+    </declare-styleable></file><file path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\values\colors.xml" qualifiers=""><color name="bane_color">#009900</color></file><file path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\values\languages.xml" qualifiers=""><string-array name="languages">
+        <item>English</item>
+        <item>Deutsch</item>
+        <item>Français</item>
+        <item>Italiano</item>
+        <item>Nederlands</item>
+        <item>Spanish</item>
+        <item>Polski</item>
+        <item>Suomi</item>
+        <item>Česky</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+    </string-array><string-array name="locales">
+        <item>en</item>
+        <item>de</item>
+        <item>fr</item>
+        <item>it</item>
+        <item>nl</item>
+        <item>es</item>
+        <item>pl</item>
+        <item>fi</item>
+        <item>cs</item>
+        <item>ja</item>
+        <item>kr</item>
+    </string-array></file><file path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\values\menu.xml" qualifiers=""><string name="menu_shuffle">Shuffle</string><string name="menu_require_all">Require All</string><string name="menu_lock_lists">Lists Locked</string><string name="menu_sort">Sort</string><string name="menu_compact_view">Compact List</string><string name="menu_load">Load</string><string name="menu_launch_androminion">Launch Androminion</string><string name="menu_close">Close</string><string name="menu_exclude_all">Exclude All</string><string name="menu_card_language">Card Language</string><string name="menu_last_result">Last Result</string><string name="menu_expanded_view">Expanded List</string><string name="menu_save">Save</string><string name="menu_unlock_lists">Lists Unlocked</string><string name="menu_clear_all">Clear All</string></file><file path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\values\releaseNotes.xml" qualifiers=""><string name="releasenotes_value">++ Version 1.9 ++\n
+Built upon Joran Jessurun\'s version\n
+Added Adventures Cards\n
+TODO: Add Events
+    </string><string name="releasenotes_title">Release Notes</string></file><file path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\values\solve_errors.xml" qualifiers=""><string name="solveerror_not_enough_cards">Not enough cards to select from</string><string name="solveerror_unsatisfied_rule">Rule is not satisfied for selected cards</string><string name="solveerror_too_many_cards">Trying to pick more than 10 cards</string><string name="solveerror_overconstrainted_mimumums">Not all minimum rules can be satisfied</string><string name="solveerror_rules_to_strict">Can not select cards using given rules, try relaxing them</string></file><file path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\values\strings.xml" qualifiers=""><string name="empty">Empty</string><string name="show_group_title">Group \'%s\' cards</string><string name="unnamed">Unnamed</string><string name="card">Card</string><string name="save_rules_as">Save rules as</string><string name="error_loading">Error loading data</string><string-array name="minumum_items">
+		<item>No minimum</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+	</string-array><string name="tab_select">Select</string><string name="toast_no_data_found">No data found</string><string-array name="minmax_array">
+		<item>Select minimum</item>
+		<item>Select maximum</item>
+		<item>Configure</item>
+		<item>Clear values</item>
+	</string-array><string name="display_result_dialog_title">Display result</string><string name="maximum">Maximum</string><string name="solve_dialog_title">Solve Error</string><string name="loading">Loading Dominion cards and groups</string><string-array name="minumum_items_conditional">
+		<item>No minimum</item>
+		<item>Conditional</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+	</string-array><string name="loaded_cache">Could not download the cards, using cached version.</string><string name="minimum">Minimum</string><string-array name="maximum_items">
+		<item>No maximum</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+	</string-array><string name="tab_generate">Shuffle</string><string name="toast_saved_rules_as">Saved rules as \'%s\'</string><string-array name="sort_items">
+		<item>Cost, Set, Name</item>
+		<item>Set, Cost, Name</item>
+		<item>Cost, Name</item>
+		<item>Set, Name</item>
+		<item>Name</item>
+	</string-array><string name="load_dialog_title">Dominion Shuffle - Load Rules</string><string name="save_dialog_title">Dominion Shuffle - Save Rules</string><string name="tab_constraints">Limits</string><string name="app_description">Randomly select 10 Dominion cards using the given constraints</string><string name="toast_loaded_rules">Loaded rules \'%s\'</string><string name="limit_title">Limit Setup</string><string name="app_name">Dominion Shuffle</string><string name="no_card_or_group_selected">Nothing Selected</string><string name="cancel">Cancel</string><string name="toast_error_saving_rules">Error saving rules</string><string name="retry">Retry</string><string name="result_no_result">No result generated yet.</string><string name="ok">OK</string><string name="group">Group</string><string name="save">Save</string><string name="choose_card_language">Choose card language</string><string name="sort_cards_dialog_title">Sort cards by</string><string name="result_title">Dominion Shuffle - Result</string><string name="toast_all_cleared">All selections are cleared</string><string name="limit_condition_text">Set the minimum if at least one card from the following group (or card) is selected.</string><string name="bane">Bane</string></file><file path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\values-cs\menu.xml" qualifiers="cs"><string name="menu_clear_all">Vymazat vše</string><string name="menu_exclude_all">Vyřadit vše</string><string name="menu_sort">Seřadit</string><string name="menu_close">Zavřít</string><string name="menu_save">Uložit</string><string name="menu_require_all">Použít vše</string><string name="menu_expanded_view">Podrobně</string><string name="menu_shuffle">Zamíchat</string><string name="menu_card_language">Jazyk</string><string name="menu_load">Nahrát</string><string name="menu_unlock_lists">Volně</string><string name="menu_compact_view">Zjednodušeně</string><string name="menu_last_result">Poslední míchání</string><string name="menu_lock_lists">Synchronně</string></file><file path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\values-cs\solve_errors.xml" qualifiers="cs"><string name="solveerror_not_enough_cards">Příliš málo karet na výběr</string><string name="solveerror_unsatisfied_rule">Pravidlo není splněno pro vybrané karty</string><string name="solveerror_overconstrainted_mimumums">Ne všechny požadavky na minimální počet karet nemohou být splněny</string><string name="solveerror_too_many_cards">Máte vybráno více než 10 konkrétních karet</string><string name="solveerror_rules_to_strict">Ze zadaných pravidel nelze vybrat správný počet karet, zkuste pravidla zmírnit</string></file><file path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\values-cs\strings.xml" qualifiers="cs"><string name="tab_constraints">Limity</string><string name="save_rules_as">Uložit jako</string><string name="loading">Nahrávám karty a skupiny Dominion</string><string name="error_loading">Chyba při načítání dat</string><string name="retry">Znovu</string><string-array name="minumum_items_conditional">
+		<item>Žádné minimum</item>
+		<item>Podmínka</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+	</string-array><string-array name="minumum_items">
+		<item>Žádné minimum</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+	</string-array><string name="toast_all_cleared">Všechno bylo smazáno</string><string name="toast_saved_rules_as">Pravidla uložena jako \'%s\'</string><string name="ok">Ok</string><string name="minimum">Minimum</string><string name="display_result_dialog_title">Zobrazení výsledku</string><string name="bane">Bane</string><string-array name="minmax_array">
+		<item>Zvolte minimum</item>
+		<item>Zvolte maximum</item>
+		<item>Nastavit</item>
+		<item>Vymazat hodnoty</item>
+	</string-array><string name="toast_no_data_found">Nenalezena žádná data</string><string-array name="sort_items">
+		<item>Cena, Sada, Jméno</item>
+		<item>Sada, Cena, Jméno</item>
+		<item>Cena, Jméno</item>
+		<item>Sada, Jméno</item>
+		<item>Jméno</item>
+	</string-array><string name="result_title">Dominion Shuffle - Výsledek</string><string name="maximum">Maximum</string><string name="choose_card_language">Zvolte jazyk karet</string><string name="tab_select">Výběr</string><string name="save_dialog_title">Dominion Shuffle - Uložit pravidla</string><string name="show_group_title">Karty skupiny \'%s\'</string><string name="toast_loaded_rules">Pravidla \'%s\' byla nahrána</string><string name="app_name">Dominion Shuffle</string><string name="save">Uložit</string><string name="sort_cards_dialog_title">Seřadit karty podle</string><string name="no_card_or_group_selected">Nic nevybráno</string><string name="group">Skupina</string><string name="limit_title">Nastavení omezení</string><string name="load_dialog_title">Dominion Shuffle - Nahrát pravidla</string><string name="limit_condition_text">Nastaví minimum, pokud je vybrána alespoň jedna karta z následující skupiny.</string><string name="cancel">Zrušit</string><string name="unnamed">název</string><string-array name="maximum_items">
+		<item>Žádné maximum</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+	</string-array><string name="loaded_cache">Nelze stáhnout karty, bude použita nakešovaná verze.</string><string name="card">Karta</string><string name="solve_dialog_title">Chyba míchání</string><string name="app_description">Náhodně vybere 10 karet hry Dominion podle zadaných pravidel</string><string name="toast_error_saving_rules">Chyba při ukládání</string><string name="result_no_result">Zatím nebylo mícháno</string><string name="tab_generate">Míchání</string><string name="empty">prázdný</string></file><file path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\values-de\menu.xml" qualifiers="de"><string name="menu_card_language">Sprache der Karten</string><string name="menu_clear_all">Auswahl löschen</string><string name="menu_exclude_all">Alle ausschließen</string><string name="menu_shuffle">Mischen</string><string name="menu_lock_lists">Listen gesperrt</string><string name="menu_save">Speichern</string><string name="menu_load">Laden</string><string name="menu_sort">Sortierung</string><string name="menu_require_all">Alle behalten</string><string name="menu_close">Schließen</string><string name="menu_compact_view">Kompakte Liste</string><string name="menu_unlock_lists">Listen entsperrt</string><string name="menu_last_result">Letztes Ergebnis</string><string name="menu_expanded_view">Erweiterte Liste</string></file><file path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\values-de\solve_errors.xml" qualifiers="de"><string name="solveerror_unsatisfied_rule">Regeln sind für die gewählten Karten nicht anwendbar</string><string name="solveerror_too_many_cards">Versuche mehr als 10 Karten zu nehmen</string><string name="solveerror_overconstrainted_mimumums">Nicht alle Minimalregeln können erfüllt werden</string><string name="solveerror_not_enough_cards">Es stehen nicht genug Karten zur Auswahl</string><string name="solveerror_rules_to_strict">Karten können mit den gewählten Regeln nicht gemischt werden, bitte lockern</string></file><file path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\values-de\strings.xml" qualifiers="de"><string name="save_rules_as">Speicher Regeln als</string><string name="card">Karte</string><string-array name="minumum_items_conditional">
+		<item>Kein Minimum</item>
+		<item>Abhängig</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+	</string-array><string name="sort_cards_dialog_title">Sortiere Karten nach</string><string name="show_group_title">Gruppe \'%s\' Karten</string><string name="retry">Wiederholen</string><string name="app_description">Zufällig gewählte 10 Dominion Karten mit den gewählten Beschränkungen</string><string-array name="sort_items">
+		<item>Kosten, Set, Name</item>
+		<item>Set, Kosten, Name</item>
+		<item>Kosten, Name</item>
+		<item>Set, Name</item>
+		<item>Name</item>
+	</string-array><string name="toast_all_cleared">Alle Auswahlpunkte sind gelöscht</string><string name="cancel">Zurücksetzen</string><string name="loading">Lade Dominion Karten und Gruppen</string><string name="limit_title">Beschränkungen einrichten</string><string-array name="minumum_items">
+		<item>Kein Minimum</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+	</string-array><string name="error_loading">Fehler beim laden der Daten</string><string name="app_name">Dominion Shuffle</string><string-array name="maximum_items">
+		<item>Kein Maximum</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+	</string-array><string name="unnamed">Unbenannt</string><string name="toast_no_data_found">Keine Daten gefunden</string><string name="group">Gruppe</string><string name="tab_constraints">Beschränkungen</string><string name="no_card_or_group_selected">Nichts ausgewählt</string><string name="toast_loaded_rules">Geladene Regeln \'%s\'</string><string name="toast_saved_rules_as">Regeln gespeichert als \'%s\'</string><string name="maximum">Maximum</string><string name="solve_dialog_title">Fehler</string><string name="load_dialog_title">Dominion Shuffle – Lade Regeln</string><string name="empty">Leer</string><string name="save_dialog_title">Dominion Shuffle – Speicher Regeln</string><string name="save">Speichern</string><string name="tab_generate">Mischen</string><string name="loaded_cache">Konnte die Karten nicht herunterladen, benutze die lokal gespeicherten Daten.</string><string name="result_title">Dominion Shuffle - Ergebnis</string><string name="bane">Bann</string><string name="tab_select">Auswählen</string><string-array name="minmax_array">
+		<item>Wähle Minimum</item>
+		<item>Wähle Maximum</item>
+		<item>Konfigurieren</item>
+		<item>Lösche Werte</item>
+	</string-array><string name="choose_card_language">Wähle die Sprache der Karten</string><string name="limit_condition_text">Setze das Minimum wenn wenigstens eine Karte von der folgenden Gruppe (oder Karte) ausgewählt ist.</string><string name="minimum">Minimum</string><string name="toast_error_saving_rules">Fehler beim speichern der Regeln</string><string name="result_no_result">Bis jetzt kein Resultat generiert.</string><string name="display_result_dialog_title">Resultat anzeigen</string><string name="ok">OK</string></file><file path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\values-es\menu.xml" qualifiers="es"><string name="menu_last_result">Ultimo resultado</string><string name="menu_card_language">Idioma cartas</string><string name="menu_close">Cerrar</string><string name="menu_expanded_view">Expandir</string><string name="menu_exclude_all">Excluir</string><string name="menu_save">Salvar</string><string name="menu_sort">Ordenar</string><string name="menu_compact_view">Compactar</string><string name="menu_unlock_lists">Desbloquear Lista</string><string name="menu_clear_all">Limpiar</string><string name="menu_load">Cargar</string><string name="menu_shuffle">Barajar</string><string name="menu_require_all">Requerir</string><string name="menu_lock_lists">Bloquear Lista</string></file><file path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\values-es\solve_errors.xml" qualifiers="es"><string name="solveerror_unsatisfied_rule">La regla no se cumple para las cartas seleccionadas</string><string name="solveerror_too_many_cards">Tratando de obtener mas de 10 cartas</string><string name="solveerror_not_enough_cards">No hay suficientes cartas para seleccionar</string><string name="solveerror_overconstrainted_mimumums">No todas las reglas minimas pueden ser sastisfechas</string><string name="solveerror_rules_to_strict">No se pueden seleccionar cartas usando las reglas dadas, trata de rebajarlas</string></file><file path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\values-es\strings.xml" qualifiers="es"><string name="ok">OK</string><string name="choose_card_language">Eligue idioma de las cartas</string><string name="retry">Reintentar</string><string name="show_group_title">Cartas del grupo \'%s\'</string><string name="no_card_or_group_selected">Nada seleccionado</string><string name="toast_saved_rules_as">Salvar Reglas como \'%s\'</string><string name="maximum">Maximo</string><string name="limit_condition_text">Selecciona el minimo si al menos una carta del grupo (o carta) es seleccionado.</string><string-array name="sort_items">
+		<item>Coste, Set, Nombre</item>
+		<item>Set, Coste, Nombre</item>
+		<item>Coste, Nombre</item>
+		<item>Set, Nombre</item>
+		<item>Nombre</item>
+	</string-array><string name="toast_no_data_found">No se encontraron datos</string><string name="save_dialog_title">Dominion Shuffle - Salvar Reglas</string><string name="toast_error_saving_rules">Error salvando reglas</string><string name="app_description">Aleatoriamente selecciona 10 cartas de dominion usando las restricciones dadas</string><string-array name="minmax_array">
+		<item>Seleccionar minimo</item>
+		<item>Seleccionar maximo</item>
+		<item>Configurar</item>
+		<item>Limpiar valores</item>
+	</string-array><string-array name="maximum_items">
+		<item>Sin maximo</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+	</string-array><string name="unnamed">Sin nombre</string><string name="solve_dialog_title">Error de resultado</string><string name="loaded_cache">No se pudieron bajar las cartas, usando version en cache.</string><string name="cancel">Cancelar</string><string name="tab_select">Seleccionar</string><string name="result_title">Dominion Shuffle - Resultado</string><string name="result_no_result">Ningun resultado generado todavia.</string><string-array name="minumum_items_conditional">
+		<item>Sin minimo</item>
+		<item>Condicional</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+	</string-array><string name="load_dialog_title">Dominion Shuffle - Cargar Reglas</string><string name="save_rules_as">Salvar reglas como</string><string name="tab_constraints">Límites</string><string name="group">Grupo</string><string name="error_loading">Error cargando datos</string><string-array name="minumum_items">
+		<item>Sin minimo</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+	</string-array><string name="empty">Vacio</string><string name="display_result_dialog_title">Mostrando resultado</string><string name="toast_all_cleared">Todas las selecciones fueron borradas</string><string name="toast_loaded_rules">Cargando Reglas \'%s\'</string><string name="save">Salvar</string><string name="tab_generate">Barajar</string><string name="card">Carta</string><string name="limit_title">Configuracion de limites</string><string name="minimum">Minimo</string><string name="app_name">Dominion Shuffle</string><string name="loading">Cargando cartas de dominion y grupos</string><string name="sort_cards_dialog_title">Ordenar cartas por</string></file><file path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\values-fi\menu.xml" qualifiers="fi"><string name="menu_expanded_view">Laajennettu lista</string><string name="menu_load">Lataa</string><string name="menu_clear_all">Tyhjennä kaikki</string><string name="menu_close">Sulje</string><string name="menu_card_language">Korttien kieli</string><string name="menu_lock_lists">Listat lukittu</string><string name="menu_require_all">Vaadi kaikki</string><string name="menu_unlock_lists">Listat avoinna</string><string name="menu_exclude_all">Kiellä kaikki</string><string name="menu_shuffle">Sekoita</string><string name="menu_save">Tallenna</string><string name="menu_last_result">Viimeiset tulokset</string><string name="menu_sort">Järjestä</string><string name="menu_compact_view">Tiivis lista</string></file><file path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\values-fi\solve_errors.xml" qualifiers="fi"><string name="solveerror_unsatisfied_rule">Sääntöjä ei voi noudattaa valituille korteille</string><string name="solveerror_too_many_cards">Yritetään valita enemmän kuin 10 korttia</string><string name="solveerror_overconstrainted_mimumums">Kaikkia minimisääntöjä ei voida noudattaa</string><string name="solveerror_rules_to_strict">Kortteja ei voida valita näillä säännöillä, löysää sääntöjä</string><string name="solveerror_not_enough_cards">Ei tarpeeksi kortteja valintaa varten</string></file><file path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\values-fi\strings.xml" qualifiers="fi"><string name="toast_no_data_found">Dataa ei löytynyt</string><string name="ok">OK</string><string name="maximum">Maksimi</string><string name="result_no_result">Tuloksia ei ole vielä luotu.</string><string name="bane">Bane</string><string name="tab_constraints">Rajat</string><string name="empty">Tyhjä</string><string name="save">Tallenna</string><string name="toast_loaded_rules">Ladattiin säännöt \'%s\'</string><string-array name="minmax_array">
+		<item>Valitse minimi</item>
+		<item>Valitse maksimi</item>
+		<item>Asetukset</item>
+		<item>Tyhjennä valinnat</item>
+	</string-array><string name="load_dialog_title">Dominion Shuffle - Lataa säännöt</string><string name="limit_title">Rajojen asetukset</string><string-array name="minumum_items">
+		<item>Ei minimiä</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+	</string-array><string name="unnamed">Nimeämätön</string><string name="minimum">Minimi</string><string name="result_title">Dominion Shuffle - Tulokset</string><string name="display_result_dialog_title">Näytä tulokset</string><string name="tab_select">Valinnat</string><string name="save_rules_as">Tallenna säännöt nimellä</string><string name="app_description">Valitse satunnaisesti 10 Dominion korttia ehtojen mukaan</string><string name="cancel">Peruuta</string><string-array name="maximum_items">
+		<item>Ei maksimia</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+	</string-array><string name="toast_saved_rules_as">Tallennettiin säännöt nimellä \'%s\'</string><string name="card">Kortti</string><string name="app_name">Dominion Shuffle</string><string name="toast_error_saving_rules">Virhe tallennettaessa sääntöjä</string><string name="no_card_or_group_selected">Ei mitään valittuna</string><string name="loading">Ladataan Dominionin kortteja ja ryhmiä</string><string-array name="minumum_items_conditional">
+		<item>Ei minimiä</item>
+		<item>Ehdollinen</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+	</string-array><string name="limit_condition_text">Aseta minimi jos vähintään yksi kortti seuraavista ryhmistä (tai yksittäinen kortti) on valittu.</string><string name="tab_generate">Sekoitus</string><string name="show_group_title">Ryhmän \'%s\' kortit</string><string name="sort_cards_dialog_title">Korttien järjestys</string><string name="save_dialog_title">Dominion Shuffle - Tallenna säännöt</string><string name="retry">Uudestaan</string><string name="group">Ryhmä</string><string name="choose_card_language">Valitse korttien kieli</string><string name="loaded_cache">Ei voitu ladata kortteja, käytetään muistissa olevaa versiota.</string><string name="toast_all_cleared">Kaikki valinnat tyhjennetty</string><string-array name="sort_items">
+		<item>Hinta, Setti, Nimi</item>
+		<item>Setti, Hinta, Nimi</item>
+		<item>Hinta, Nimi</item>
+		<item>Setti, Nimi</item>
+		<item>Nimi</item>
+	</string-array><string name="solve_dialog_title">Selvitä virhe</string><string name="error_loading">Virhe ladattaessa dataa</string></file><file path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\values-fr\menu.xml" qualifiers="fr"><string name="menu_shuffle">Mélanger</string><string name="menu_clear_all">Remettre à zéro</string><string name="menu_last_result">Dernier résultat</string><string name="menu_card_language">Langue des cartes</string><string name="menu_exclude_all">Tout exclure</string><string name="menu_unlock_lists">Listes indépendantes</string><string name="menu_sort">Trier</string><string name="menu_close">Fermer</string><string name="menu_save">Sauvergarder</string><string name="menu_lock_lists">Listes synchrones</string><string name="menu_require_all">Tout inclure</string><string name="menu_compact_view">Liste compacte</string><string name="menu_expanded_view">Liste étendue</string><string name="menu_load">Charger</string></file><file path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\values-fr\solve_errors.xml" qualifiers="fr"><string name="solveerror_too_many_cards">Tentative de sélectionner plus de 10 cartes</string><string name="solveerror_overconstrainted_mimumums">Tous les minimums ne peuvent pas être respectés</string><string name="solveerror_not_enough_cards">Pas assez de cartes pour faire une sélection</string><string name="solveerror_rules_to_strict">Impossible de sélectionner des cartes avec les règles en vigueur, essayez de les rendre moins strictes</string><string name="solveerror_unsatisfied_rule">La règle ne peut pas être respectée avec les cartes sélectionnées</string></file><file path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\values-fr\strings.xml" qualifiers="fr"><string name="result_title">Dominion Shuffle - Résultat</string><string name="save">Sauvegarder</string><string name="save_dialog_title">Dominion Shuffle - Sauvergarder les règles</string><string name="loaded_cache">Impossible de télécharger les cartes, utilisation de la version en cache.</string><string name="bane">Fléau</string><string-array name="sort_items">
+		<item>Coût, boîte, nom</item>
+		<item>Boîte, coût, nom</item>
+		<item>Coût, nom</item>
+		<item>Boîte, nom</item>
+		<item>Nom</item>
+	</string-array><string name="load_dialog_title">Dominion Shuffle - Charger les règles</string><string name="loading">Chargement des cartes et groupes de Dominion</string><string name="save_rules_as">Sauvergarder la règle sous</string><string name="group">Groupe</string><string name="choose_card_language">Choisir la langue des cartes</string><string name="result_no_result">Aucun résultat généré pour l\'instant</string><string-array name="minumum_items_conditional">
+		<item>Pas de minimum</item>
+		<item>Conditionnel</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+	</string-array><string name="display_result_dialog_title">Afficher le résultat</string><string name="minimum">Minimum</string><string name="no_card_or_group_selected">Aucune sélection</string><string name="empty">Vide</string><string name="tab_generate">Mélanger</string><string name="show_group_title">Groupe des cartes \'%s\'</string><string name="toast_loaded_rules">Règles \'%s\' chargées</string><string name="app_description">Sélectionner 10 cartes Dominion au hasard, en tenant compte des contraintes définies</string><string-array name="minumum_items">
+		<item>Pas de minimum</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+	</string-array><string name="cancel">Annuler</string><string name="toast_saved_rules_as">Règle sauvegardée sous \'%s\'</string><string name="maximum">Maximum</string><string name="retry">Réessayer</string><string name="card">Carte</string><string name="tab_select">Sélectionner</string><string name="toast_no_data_found">Pas de données</string><string name="ok">OK</string><string-array name="maximum_items">
+		<item>Pas de maximum</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+	</string-array><string name="unnamed">Sans nom</string><string name="solve_dialog_title">Erreur</string><string name="toast_all_cleared">Toutes les sélections ont été effacées</string><string name="tab_constraints">Limites</string><string name="sort_cards_dialog_title">Trier les cartes par</string><string-array name="minmax_array">
+		<item>Choisir un minimum</item>
+		<item>Choisir un maximum</item>
+		<item>Configurer</item>
+		<item>Tout effacer</item>
+	</string-array><string name="error_loading">Erreur de chargement des données</string><string name="limit_title">Définition des limites</string><string name="toast_error_saving_rules">Erreur en sauvegardant les règles</string><string name="app_name">Dominion Shuffle</string><string name="limit_condition_text">Définir un minimum si au moins une carte du groupe suivant (ou la carte suivante) est sélectionnée.</string></file><file path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\values-it\menu.xml" qualifiers="it"><string name="menu_load">Carica</string><string name="menu_compact_view">Lista Compatta</string><string name="menu_expanded_view">Lista Estesa</string><string name="menu_last_result">Ultimo Risultato</string><string name="menu_unlock_lists">Liste Sbloccate</string><string name="menu_lock_lists">Liste Bloccate</string><string name="menu_exclude_all">Escludi Tutto</string><string name="menu_shuffle">Mischia</string><string name="menu_save">Salva</string><string name="menu_close">Chiudi</string><string name="menu_sort">Ordina</string><string name="menu_clear_all">Cancella Tutto</string><string name="menu_require_all">Includi Tutto</string><string name="menu_card_language">Lingua Carte</string></file><file path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\values-it\solve_errors.xml" qualifiers="it"><string name="solveerror_overconstrainted_mimumums">Non tutte le regole minime possono essere rispettate</string><string name="solveerror_unsatisfied_rule">Regola non rispettata per le carte selezionate</string><string name="solveerror_not_enough_cards">Non sono presenti abbastanza carte selezionabili</string><string name="solveerror_rules_to_strict">Non è possibile selezionare le carte con le regole fornite, prova a cambiarle</string><string name="solveerror_too_many_cards">Hai scelto più di 10 carte</string></file><file path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\values-it\strings.xml" qualifiers="it"><string name="solve_dialog_title">Risolvi l\'errore</string><string name="tab_select">Seleziona</string><string name="card">Carta</string><string name="loading">Caricamento carte e gruppi di Dominion</string><string name="toast_loaded_rules">Caricate le regole \'%s\'</string><string name="loaded_cache">Impossibile fare il download delle carte, caricata la versione in cache.</string><string name="display_result_dialog_title">Mostra i risultati</string><string name="save_rules_as">Salva le regole come</string><string name="toast_no_data_found">Non sono stati trovati dati</string><string-array name="minumum_items">
+		<item>Nessun minimo</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+	</string-array><string-array name="minumum_items_conditional">
+		<item>Nessun minimo</item>
+		<item>Condizionale</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+	</string-array><string name="toast_error_saving_rules">Errore salvando le regole</string><string name="maximum">Massimo</string><string name="tab_constraints">Limiti</string><string name="tab_generate">Mischia</string><string name="ok">OK</string><string name="toast_all_cleared">Tutte le selezioni sono state cancellate</string><string name="minimum">Minimo</string><string name="no_card_or_group_selected">Non è stato selezionato niente</string><string name="limit_condition_text">Imposta il minimo se almeno una carta dal gruppo/carta successivo/a viene selezionata</string><string name="app_name">Dominion Shuffle</string><string name="app_description">Scelgo casualmente 10 carte Dominion utilizzando i vincoli forniti</string><string name="load_dialog_title">Dominion Shuffle - Carica Regole</string><string name="save_dialog_title">Dominion Shuffle - Salva Regole</string><string name="bane">Scongiuro</string><string name="empty">Vuoto</string><string name="save">Salva</string><string name="unnamed">Senza Nome</string><string name="sort_cards_dialog_title">Ordina le carte per</string><string name="choose_card_language">Scegli la lingua delle carte</string><string name="error_loading">Errore caricando i dati</string><string name="cancel">Cancella</string><string name="result_no_result">Risultati non ancora prodotti.</string><string-array name="minmax_array">
+		<item>Seleziona minimo</item>
+		<item>Seleziona massimo</item>
+		<item>Configura</item>
+		<item>Cancella i valori inseriti</item>
+	</string-array><string name="show_group_title">Carte del gruppo \'%s\'</string><string name="result_title">Dominion Shuffle - Risultati</string><string name="retry">Riprova</string><string name="group">Gruppo</string><string-array name="sort_items">
+		<item>Costo, Set, Nome</item>
+		<item>Set, Costo, Nome</item>
+		<item>Costo, Nome</item>
+		<item>Set, Nome</item>
+		<item>Nome</item>
+	</string-array><string name="toast_saved_rules_as">Salvate le regole come \'%s\'</string><string name="limit_title">Impostazioni Limiti</string><string-array name="maximum_items">
+		<item>Nessun massimo</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+	</string-array></file><file path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\values-ja\menu.xml" qualifiers="ja"><string name="menu_lock_lists">リストを同期</string><string name="menu_card_language">カード言語</string><string name="menu_unlock_lists">リストを非同期</string><string name="menu_require_all">全て含める</string><string name="menu_shuffle">シャッフル</string><string name="menu_expanded_view">詳細リスト</string><string name="menu_sort">並べ替え</string><string name="menu_exclude_all">全て除外</string><string name="menu_launch_androminion">Androminionに送る</string><string name="menu_save">セーブ</string><string name="menu_clear_all">全てクリア</string><string name="menu_load">ロード</string><string name="menu_close">閉じる</string><string name="menu_last_result">前回の結果</string><string name="menu_compact_view">一覧リスト</string></file><file path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\values-ja\solve_errors.xml" qualifiers="ja"><string name="solveerror_not_enough_cards">使用するカード枚数が不足しています。</string><string name="solveerror_rules_to_strict">指定されたルールではカードを選べませんでした。ルールをゆるめてみて下さい。</string><string name="solveerror_too_many_cards">１０枚以上のカードを選ぼうとしています。</string><string name="solveerror_overconstrainted_mimumums">全ての最小枚数ルールを満たすことができません。</string><string name="solveerror_unsatisfied_rule">選択されたカードに対するルールを満たせません。</string></file><file path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\values-ja\strings.xml" qualifiers="ja"><string name="unnamed">名前なし</string><string name="tab_constraints">制限</string><string name="loaded_cache">カードのダウンロードが出来ませんでした。キャッシュバージョンを使用します。</string><string-array name="minmax_array">
+		<item>最小枚数選択</item>
+		<item>最大枚数選択</item>
+		<item>設定</item>
+		<item>値をクリア</item>
+	</string-array><string-array name="sort_items">
+		<item>コスト, セット, 名前</item>
+		<item>セット, コスト, 名前</item>
+		<item>コスト, 名前</item>
+		<item>セット, 名前</item>
+		<item>名前</item>
+	</string-array><string name="save_rules_as">名前をつけてルールをセーブ</string><string name="toast_all_cleared">全ての選択はクリアされました</string><string name="cancel">キャンセル</string><string name="choose_card_language">カードの言語選択</string><string name="retry">もう一度</string><string name="limit_title">制限の準備</string><string name="app_description">与えられた制限の下で、１０枚のドミニオンのカードをランダムに選びます。</string><string name="group">グループ</string><string name="maximum">最大枚数</string><string name="save_dialog_title">ドミニオン シャッフル - ルールのロード</string><string name="error_loading">データ読み込みエラー</string><string name="show_group_title">グループ \'%s\' カード</string><string name="limit_condition_text">少なくとも１枚のカードが以下のグループ（またはカード）から選ばれた場合、最小枚数を適用します。</string><string name="card">カード</string><string name="ok">OK</string><string name="result_title">ドミニオン シャッフル - 結果</string><string name="sort_cards_dialog_title">カードの並び替え</string><string name="minimum">最小枚数</string><string name="solve_dialog_title">解決エラー</string><string name="tab_select">選択</string><string name="save">セーブ</string><string name="no_card_or_group_selected">何も選ばれていません</string><string name="toast_no_data_found">データが見つかりません</string><string name="bane">災い</string><string name="app_name">ドミニオン シャッフル</string><string-array name="maximum_items">
+		<item>最大枚数なし</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+	</string-array><string name="loading">ドミニオンのカードとグループを読み込み中</string><string-array name="minumum_items_conditional">
+		<item>最小枚数なし</item>
+		<item>条件つき</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+	</string-array><string name="toast_error_saving_rules">ルールのセーブに失敗</string><string name="load_dialog_title">ドミニオン シャッフル - ルールのセーブ</string><string name="toast_saved_rules_as">ルールを \'%s\' としてセーブ</string><string name="tab_generate">シャッフル</string><string-array name="minumum_items">
+		<item>最小枚数なし</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+	</string-array><string name="toast_loaded_rules">ルール \'%s\' をロード</string><string name="empty">空</string><string name="result_no_result">まだ結果が生成されていません。</string><string name="display_result_dialog_title">結果表示</string></file><file path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\values-nl\menu.xml" qualifiers="nl"><string name="menu_load">Laden</string><string name="menu_clear_all">Wis Alles</string><string name="menu_require_all">Alles Verplichten</string><string name="menu_expanded_view">Uitgebreide Lijst</string><string name="menu_unlock_lists">Lijsten Ongekoppeld</string><string name="menu_lock_lists">Lijsten Gekoppeld</string><string name="menu_close">Sluiten</string><string name="menu_last_result">Laatste Resultaat</string><string name="menu_compact_view">Compacte Lijst</string><string name="menu_save">Bewaren</string><string name="menu_sort">Sorteer</string><string name="menu_card_language">Kaarttaal</string><string name="menu_shuffle">Schudden</string><string name="menu_exclude_all">Alles Uitsluiten</string></file><file path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\values-nl\solve_errors.xml" qualifiers="nl"><string name="solveerror_unsatisfied_rule">Er kon niet aan een regel voldaan worden voor de geselecteerde kaarten</string><string name="solveerror_overconstrainted_mimumums">Er kan niet aan alle minimum eisen voldaan worden</string><string name="solveerror_too_many_cards">Er wordt geprobeerd meer dan tien kaarten te kiezen</string><string name="solveerror_rules_to_strict">Kan geen kaarten selecteren met de huidige regels, probeer de regels minder strict te maken</string><string name="solveerror_not_enough_cards">Er zijn niet genoeg kaarten om uit te kiezen</string></file><file path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\values-nl\strings.xml" qualifiers="nl"><string name="app_name">Dominion Shuffle</string><string name="loading">Dominionkaarten en groepen aan het laden</string><string name="toast_no_data_found">Geen gegevens gevonden</string><string name="display_result_dialog_title">Toon resultaat</string><string name="toast_all_cleared">Alle selecties zijn gewist</string><string-array name="maximum_items">
+		<item>Geen maximum</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+	</string-array><string name="empty">Leeg</string><string name="sort_cards_dialog_title">Sorteer kaarten op</string><string name="tab_select">Selecteer</string><string name="card">Kaart</string><string name="unnamed">Naamloos</string><string name="show_group_title">Groep \'%s\' kaarten</string><string name="error_loading">Fout bij laden gegevens</string><string name="save_dialog_title">Dominion Shuffle - Bewaar Regels</string><string name="choose_card_language">Kies taal voor de kaarten</string><string-array name="minmax_array">
+		<item>Kies minimum</item>
+		<item>Kies maximum</item>
+		<item>Configureer</item>
+		<item>Wis instellingen</item>
+	</string-array><string name="load_dialog_title">Dominion Shuffle - Laad Regels</string><string-array name="sort_items">
+		<item>Kosten, Uitbreiding, Naam</item>
+		<item>Uitbreiding, Kosten Naam</item>
+		<item>Kosten, Naam</item>
+		<item>Uitbreiding, Naam</item>
+		<item>Naam</item>
+	</string-array><string name="toast_saved_rules_as">Regels bewaard als \'%s\'</string><string name="maximum">Maximum</string><string name="limit_condition_text">Gebruik het minimum als minimaal één kaart uit de volgende groep (of kaart) geselecteerd wordt.</string><string name="app_description">Selecteer tien willekeurige Dominion kaarten gegeven de opgelegde regels</string><string name="save">Bewaar</string><string name="toast_loaded_rules">Geladen regels \'%s\'</string><string name="loaded_cache">Kan de kaarten niet downloaden. Er wordt nu een (oude) kopie gebruikt.</string><string name="tab_generate">Schud</string><string name="result_title">Dominion Shuffle - Resultaat</string><string name="solve_dialog_title">Fout bij Oplossen</string><string name="ok">OK</string><string name="tab_constraints">Beperk</string><string name="toast_error_saving_rules">Fout bij het bewaren van de regels</string><string name="limit_title">Configureer Grensen</string><string name="cancel">Annuleer</string><string-array name="minumum_items_conditional">
+		<item>Geen minimum</item>
+		<item>Voorwaardelijk</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+	</string-array><string name="result_no_result">Er is nog geen resultaat gegenereerd.</string><string name="retry">Opnieuw</string><string name="save_rules_as">Bewaar de regels als</string><string-array name="minumum_items">
+		<item>Geen minimum</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+	</string-array><string name="minimum">Minimum</string><string name="no_card_or_group_selected">Niets geselecteerd</string><string name="group">Groep</string></file><file path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\values-pl\menu.xml" qualifiers="pl"><string name="menu_card_language">Język kart</string><string name="menu_lock_lists">Listy zablokowane</string><string name="menu_require_all">Akceptuj wszystkie</string><string name="menu_unlock_lists">Listy odblokowane</string><string name="menu_sort">Sortuj</string><string name="menu_clear_all">Wyczyść wszystko</string><string name="menu_close">Zamknij</string><string name="menu_save">Zapisz</string><string name="menu_compact_view">Lista kompaktowa</string><string name="menu_shuffle">Losuj</string><string name="menu_exclude_all">Wyklucz wszystkie</string><string name="menu_expanded_view">Lista rozszerzona</string><string name="menu_load">Wczytaj</string><string name="menu_last_result">Ostatni wynik</string></file><file path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\values-pl\solve_errors.xml" qualifiers="pl"><string name="solveerror_too_many_cards">Więcej niż 10 kart jest wybranych</string><string name="solveerror_rules_to_strict">Nie można wybrać kart dla podanych zasad</string><string name="solveerror_overconstrainted_mimumums">Minimalne wymagania nie mogą być spełnione</string><string name="solveerror_not_enough_cards">Brak wystarczającej liczby kart do wyboru</string><string name="solveerror_unsatisfied_rule">Zasada nie jest spełniona dla wybranych kart</string></file><file path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\main\res\values-pl\strings.xml" qualifiers="pl"><string name="app_description">Losowo wybierz 10 kart według zadanych ograniczeń</string><string name="app_name">Dominion Shuffle</string><string name="tab_select">Wybierz</string><string name="sort_cards_dialog_title">Sortuj karty według</string><string name="empty">Pusty</string><string name="choose_card_language">Wybierz język kart</string><string name="toast_error_saving_rules">Błąd podczas zapisu</string><string name="loading">Wczytywanie kart i grup</string><string-array name="minumum_items_conditional">
+		<item>Bez minimum</item>
+		<item>Warunkowo</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+	</string-array><string name="save">Zapisz</string><string name="cancel">Anuluj</string><string name="result_title">Dominion Shuffle - Wynik</string><string name="toast_loaded_rules">Wczytaj zasady \'%s\'</string><string name="card">Karta</string><string-array name="minumum_items">
+		<item>Bez minimum</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+	</string-array><string name="result_no_result">Wynik nie wygenerowany.</string><string name="limit_condition_text">Ustaw minium jeżeli co najmniej jedna z grup (lub karta) jest zaznaczona.</string><string name="tab_constraints">Ograniczenia</string><string name="no_card_or_group_selected">Brak zaznaczenia.</string><string name="display_result_dialog_title">Pokaż wynik</string><string-array name="sort_items">
+		<item>Koszt, Zestaw, Nazwa</item>
+		<item>Zestaw, Koszt, Nazwa</item>
+		<item>Koszt, Nazwa</item>
+		<item>Zestaw, Nazwa</item>
+		<item>Nazwa</item>
+	</string-array><string name="save_rules_as">Zapisz zasady jako</string><string name="tab_generate">Losuj</string><string name="unnamed">Brak nazwy</string><string name="load_dialog_title">Dominion Shuffle - Wczytaj Zasady</string><string-array name="minmax_array">
+		<item>Wybierz minimum</item>
+		<item>Wybierz maksimum</item>
+		<item>Konfiguruj</item>
+		<item>Wyczyść wartości</item>
+	</string-array><string name="show_group_title">Grupa \'%s\' kart</string><string-array name="maximum_items">
+		<item>Bez maksimum</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+	</string-array><string name="ok">OK</string><string name="minimum">Minimum</string><string name="group">Grupa</string><string name="solve_dialog_title">Rozwiąż problem</string><string name="toast_all_cleared">Wszystkie zaznaczenia wyczyszczone</string><string name="bane">Bane</string><string name="limit_title">Ustawienia ograniczeń</string><string name="maximum">Maksimum</string><string name="toast_no_data_found">Dane nieodnalezione</string><string name="toast_saved_rules_as">Zasady zapisane jako \'%s\'</string><string name="retry">Powtórz</string><string name="error_loading">Błąd wczytywania danych</string><string name="save_dialog_title">Dominion Shuffle - Zapisz Zasady</string></file></source><source path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\build\generated\res\rs\debug"/><source path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\build\generated\res\generated\debug"/></dataSet><dataSet config="debug"><source path="C:\Development\Personal\AndroidStudio\DominionShuffle\app\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="CustomFastScrollView"><attr format="dimension" name="overlayWidth"/><attr format="dimension" name="overlayHeight"/><attr format="dimension" name="overlayTextSize"/><attr format="dimension" name="overlayScrollThumbWidth"/></declare-styleable></configuration></mergedItems></merger>

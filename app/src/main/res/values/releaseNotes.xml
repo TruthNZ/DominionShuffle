@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="releasenotes_title">Release Notes</string>
+    <string name="releasenotes_value">++ Version 1.9 ++\n
+Built upon Joran Jessurun\'s version\n
+Added Adventures Cards\n
+TODO: Add Events
+    </string>
+</resources>

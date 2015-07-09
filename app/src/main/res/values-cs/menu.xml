@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="menu_lock_lists">Synchronně</string>
+<string name="menu_unlock_lists">Volně</string>
+<string name="menu_sort">Seřadit</string>
+<string name="menu_shuffle">Zamíchat</string>
+<string name="menu_last_result">Poslední míchání</string>
+<string name="menu_clear_all">Vymazat vše</string>
+<string name="menu_close">Zavřít</string>
+<string name="menu_compact_view">Zjednodušeně</string>
+<string name="menu_expanded_view">Podrobně</string>
+<string name="menu_exclude_all">Vyřadit vše</string>
+<string name="menu_require_all">Použít vše</string>
+<string name="menu_load">Nahrát</string>
+<string name="menu_save">Uložit</string>
+<string name="menu_card_language">Jazyk</string>
+</resources>

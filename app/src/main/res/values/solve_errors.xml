@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="solveerror_rules_to_strict">Can not select cards using given rules, try relaxing them</string>
+<string name="solveerror_overconstrainted_mimumums">Not all minimum rules can be satisfied</string>
+<string name="solveerror_unsatisfied_rule">Rule is not satisfied for selected cards</string>
+<string name="solveerror_too_many_cards">Trying to pick more than 10 cards</string>
+<string name="solveerror_not_enough_cards">Not enough cards to select from</string>
+</resources>
