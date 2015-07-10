@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools"
+           tools:ignore="MissingTranslation">
     <string name="releasenotes_title">Release Notes</string>
     <string name="releasenotes_value">++ Version 1.9 ++\n
 Built upon Joran Jessurun\'s version\n
@@ -7,6 +8,7 @@ Added Adventures Cards\n
 Added Events, and updated behaviour to not count Events against drawn Kingdom Cards.\n
 \n
 ++ Known Bugs ++\n
+Non-English Languages are not working (Sorry).\n
 Forcibly selecting a non-Kingdom Card (e.g. Potion, Platinum, Shelters, an Event, etc.) sometimes results in more or less than 10 actual Kingdom cards being drawn.
     </string>
 </resources>

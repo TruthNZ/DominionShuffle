@@ -1,5 +1,5 @@
 .*
 !.gitignore
 local.properties
-/build
-/app/build
+/build/
+/app/build/

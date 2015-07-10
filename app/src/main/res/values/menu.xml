@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools"
+           tools:ignore="MissingTranslation">
 <string name="menu_lock_lists">Lists Locked</string>
 <string name="menu_unlock_lists">Lists Unlocked</string>
 <string name="menu_sort">Sort</string>

@@ -7,10 +7,13 @@ android {
     defaultConfig {
         applicationId "nl.spellenclubeindhoven.dominionshuffle"
         minSdkVersion 3
-        targetSdkVersion 4
+        targetSdkVersion 14
     }
 
     buildTypes {
+        debug {
+            debuggable true
+        }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'

@@ -47,7 +47,7 @@ public class ResultActivity extends CardListActivity {
 	private static final int MENU_REQUIRE_ALL = MENU_LAST + 3;
 	private static final int MENU_LAUNCH_ANDROMINION = MENU_LAST + 4;
 	private int screenTimeout = 3 * 60000;
-	private PowerManager.WakeLock wakeLock;
+	//private PowerManager.WakeLock wakeLock;
 	private DataReader dataReader;
 	
 	@Override
@@ -66,10 +66,10 @@ public class ResultActivity extends CardListActivity {
 		getListView().setOnItemClickListener(onItemClickListener);
 
 		PowerManager powerManager = (PowerManager) getSystemService(POWER_SERVICE);
-		wakeLock = powerManager.newWakeLock(
-				PowerManager.SCREEN_BRIGHT_WAKE_LOCK
-						| PowerManager.ON_AFTER_RELEASE, TAG);
-		wakeLock.setReferenceCounted(false);
+//		wakeLock = powerManager.newWakeLock(
+//				PowerManager.SCREEN_BRIGHT_WAKE_LOCK
+//						| PowerManager.ON_AFTER_RELEASE, TAG);
+//		wakeLock.setReferenceCounted(false);
 	}
 
 	@Override
@@ -170,14 +170,14 @@ public class ResultActivity extends CardListActivity {
 		dataReader.saveCardSelectorState(this, getCardSelector());
 		((Application) getApplication()).saveResult();
 
-		wakeLock.release();
+		//wakeLock.release();
 	}
 
 	@Override
 	protected void onResume() {
 		super.onResume();
 		
-		wakeLock.acquire(screenTimeout);
+		//wakeLock.acquire(screenTimeout);
 	}
 	
 	private CardSelector getCardSelector() {
