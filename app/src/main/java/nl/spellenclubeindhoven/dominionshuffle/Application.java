@@ -34,7 +34,7 @@ import org.json.JSONObject;
 
 public class Application extends android.app.Application {
 	private DataReader dataReader = new DataReader(this);
-	private CardSelector cardSelector = new CardSelector();
+	private CardSelector cardSelector = new CardSelector(this);
 	private boolean cardSelectorLoaded = false;
 	private Result result;
 

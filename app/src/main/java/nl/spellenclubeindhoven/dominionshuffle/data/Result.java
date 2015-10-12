@@ -22,38 +22,44 @@
 
 package nl.spellenclubeindhoven.dominionshuffle.data;
 
-import java.util.Collection;
 import java.util.LinkedList;
+import java.util.List;
 
 /**
  * Class containing result of a shuffle including extra information like Bane card.
- * @author joran
  *
+ * @author joran
+ * @author Truth
  */
 public class Result {
-	private Card baneCard;
-	private Collection<Card> cards = new LinkedList<Card>();
-	
-	public Result() {		
-	}
-	
-	public Result(Collection<Card> cards) {
-		this.cards = cards;
-	}
-		
-	public void setBaneCard(Card baneCard) {
-		this.baneCard = baneCard;
-	}
-	
-	public Card getBaneCard() {
-		return baneCard;
-	}
-	
-	public void setCards(Collection<Card> cards) {
-		this.cards = cards;
-	}
-	
-	public Collection<Card> getCards() {
-		return cards;
-	}	
+    private Card baneCard;
+    private List<Card> cards = new LinkedList<>();
+
+    public Result() {
+    }
+
+    public Result(Result result) {
+        this.baneCard = result.baneCard;
+        this.cards = new LinkedList<>(result.cards);
+    }
+
+    public void addCard(Card card) {
+        this.cards.add(card);
+    }
+
+    public Card getBaneCard() {
+        return baneCard;
+    }
+
+    public void setBaneCard(Card baneCard) {
+        this.baneCard = baneCard;
+    }
+
+    public List<Card> getCards() {
+        return cards;
+    }
+
+    public void setCards(List<Card> cards) {
+        this.cards = cards;
+    }
 }

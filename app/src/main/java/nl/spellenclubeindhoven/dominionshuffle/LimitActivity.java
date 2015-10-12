@@ -22,16 +22,6 @@
 
 package nl.spellenclubeindhoven.dominionshuffle;
 
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
-
-import nl.spellenclubeindhoven.dominionshuffle.data.CardComparator;
-import nl.spellenclubeindhoven.dominionshuffle.data.CardSelector;
-import nl.spellenclubeindhoven.dominionshuffle.data.Data;
-import nl.spellenclubeindhoven.dominionshuffle.data.Group;
-import nl.spellenclubeindhoven.dominionshuffle.data.GroupOrCard;
-import nl.spellenclubeindhoven.dominionshuffle.data.Nothing;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -42,10 +32,21 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.TextView;
-import android.widget.AdapterView.OnItemSelectedListener;
+
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
+
+import nl.spellenclubeindhoven.dominionshuffle.data.CardComparator;
+import nl.spellenclubeindhoven.dominionshuffle.data.CardSelector;
+import nl.spellenclubeindhoven.dominionshuffle.data.Data;
+import nl.spellenclubeindhoven.dominionshuffle.data.Group;
+import nl.spellenclubeindhoven.dominionshuffle.data.GroupOrCard;
+import nl.spellenclubeindhoven.dominionshuffle.data.Nothing;
 
 public class LimitActivity extends Activity {
 	private CardOrGroupHolder sourceHolder;
@@ -81,10 +82,7 @@ public class LimitActivity extends Activity {
 		groupsAndCards.addAll(data.getAll());
 		
 		SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);		
-		Collections.sort(groupsAndCards, new CardComparator(
-				CardComparator.SORT_SET_NAME,
-				getResources().getStringArray(R.array.locales)[prefs.getInt("lang", 0)]
-		));
+		Collections.sort(groupsAndCards, new CardComparator(CardComparator.SORT_SET_NAME, prefs.getString("lang", "en")));
 		
 		conditionSpinner = (Spinner) findViewById(R.id.conditionSpinner);
 		conditionSpinner.setOnItemSelectedListener(onConditionSpinnerItemSelected);

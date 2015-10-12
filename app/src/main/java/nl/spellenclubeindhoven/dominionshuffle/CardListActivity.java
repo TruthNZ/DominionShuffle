@@ -22,14 +22,6 @@
 
 package nl.spellenclubeindhoven.dominionshuffle;
 
-import java.util.Collection;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
-
-import nl.spellenclubeindhoven.dominionshuffle.data.Card;
-import nl.spellenclubeindhoven.dominionshuffle.data.CardComparator;
-import nl.spellenclubeindhoven.dominionshuffle.data.Result;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.ListActivity;
@@ -40,6 +32,15 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import java.util.Collection;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
+
+import nl.spellenclubeindhoven.dominionshuffle.data.Card;
+import nl.spellenclubeindhoven.dominionshuffle.data.CardComparator;
+import nl.spellenclubeindhoven.dominionshuffle.data.Result;
 
 public abstract class CardListActivity extends ListActivity {
 	private static final int MENU_SORT = 1;
@@ -64,9 +65,7 @@ public abstract class CardListActivity extends ListActivity {
 		
 		compact = prefs.getBoolean("compact", compact);
 
-		Collections.sort(cards, new CardComparator(
-				prefs.getInt("sort", CardComparator.SORT_SET_COST_NAME),
-				getResources().getStringArray(R.array.locales)[globalPrefs.getInt("lang", 0)]));
+		Collections.sort(cards, new CardComparator(prefs.getInt("sort", CardComparator.SORT_SET_COST_NAME), globalPrefs.getString("lang", "en")));
 		adapter = new CardAdapter(this, cards);
 		adapter.setCompact(compact);
 		adapter.setResult(result);
@@ -176,10 +175,7 @@ public abstract class CardListActivity extends ListActivity {
 			SharedPreferences globalPrefs = PreferenceManager.getDefaultSharedPreferences(CardListActivity.this);
 			prefs.edit().putInt("sort", which).commit();
 			
-			Collections.sort(cards, new CardComparator(
-					which,
-					getResources().getStringArray(R.array.locales)[globalPrefs.getInt("lang", 0)]
-			));
+			Collections.sort(cards, new CardComparator(which, globalPrefs.getString("lang", "en")));
 			((CardAdapter) getListAdapter()).notifyDataSetChanged();
 			dialog.dismiss();
 		}

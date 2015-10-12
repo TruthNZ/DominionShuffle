@@ -10,6 +10,7 @@
 			</intent-filter>
 		</activity>
 		<activity android:name=".ReleaseNotesActivity"></activity>
+		<activity android:name=".SettingsActivity" android:label="@string/settings_title"></activity>
 		<activity android:name=".ResultActivity" android:label="@string/result_title"></activity>
 		<activity android:name=".ShowGroupActivity"></activity>
 		<activity android:name=".LoadSaveActivity"></activity>

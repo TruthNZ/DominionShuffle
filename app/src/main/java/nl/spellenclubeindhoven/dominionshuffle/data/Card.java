@@ -22,64 +22,62 @@
 
 package nl.spellenclubeindhoven.dominionshuffle.data;
 
-import java.util.Collection;
 import java.util.Collections;
+import java.util.List;
+import java.util.Set;
 
 public class Card extends GroupOrCard {
-	private String set;
-	private String cost;
-	private String type;
-	private boolean nonKingdom;
-	
-	public Card(String name, String display, String set, String cost, String type) {
-		super(name, display);
-		this.set = set;
-		this.cost = cost;
-		this.type = type;
-		this.nonKingdom = false;
-	}
+    private final String set;
+    private final String cost;
+    private final List<String> types;
+    /**
+     * Basic and Non-Supply Cards do not count against those drawn,
+     * and in addition will not be shown in the list unless a special condition requires them to be
+     * (e.g. Platinum/Colony/Potion)
+     **/
+    private final boolean basicOrNonSupply;
 
-	public Card(String name, String display, String set, String cost, String type, boolean nonKingdom) {
-		super(name, display);
-		this.set = set;
-		this.cost = cost;
-		this.type = type;
-		this.nonKingdom = nonKingdom;
-	}
-		
-	public String getSet() {
-		return set;
-	}
-	
-	public String getCost() {
-		return cost;
-	}
+    public Card(String name, String display, String set, String cost, List<String> types, boolean basicOrNonSupply) {
+        super(name, display);
+        this.set = set;
+        this.cost = cost;
+        this.types = types;
+        this.basicOrNonSupply = basicOrNonSupply;
+    }
 
-	public String getType() {
-		return type;
-	}
+    public String getSet() {
+        return set;
+    }
 
-	public boolean isNonKingdom() {
-		return nonKingdom;
-	}
+    public String getCost() {
+        return cost;
+    }
 
-	@Override
-	public String toString() {
-		return "Card " + getDisplay();
-	}
+    public List<String> getTypes() {
+        return types;
+    }
 
-	@Override
-	public Collection<Card> getCards() {
-		return Collections.singletonList(this);
-	}
+    public boolean isBasicOrNonSupply() {
+        return basicOrNonSupply;
+    }
 
-	@Override
-	public boolean isCard() {
-		return true;
-	}
+    @Override
+    public String toString() {
+        return "Card " + getDisplay();
+    }
 
-	@Override
-	public boolean isGroup() {
-		return false;
-	}	
+    @Override
+    public Set<Card> getCards() {
+        return Collections.singleton(this);
+    }
+
+    @Override
+    public boolean isCard() {
+        return true;
+    }
+
+    @Override
+    public boolean isGroup() {
+        return false;
+    }
 }

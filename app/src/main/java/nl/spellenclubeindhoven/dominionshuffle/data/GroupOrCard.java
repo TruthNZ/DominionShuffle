@@ -22,7 +22,7 @@
 
 package nl.spellenclubeindhoven.dominionshuffle.data;
 
-import java.util.Collection;
+import java.util.Set;
 
 /*
  * Immutable GroupOrCard object that can represent a group or card.
@@ -62,5 +62,5 @@ public abstract class GroupOrCard {
 		
 	public abstract boolean isGroup();
 	public abstract boolean isCard();
-	public abstract Collection<Card> getCards();
+	public abstract Set<Card> getCards();
 }

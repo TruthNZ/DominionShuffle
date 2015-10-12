@@ -24,15 +24,16 @@ package nl.spellenclubeindhoven.dominionshuffle.data;
 
 import java.util.Collection;
 import java.util.Collections;
+import java.util.Set;
 
 public class Group extends GroupOrCard {
 	private String description;
-	private Collection<Card> cards;
+	private Set<Card> cards;
 	
-	public Group(String name, String display, String description, Collection<Card> cards) {
+	public Group(String name, String display, String description, Set<Card> cards) {
 		super(name, display);
 		this.description = description;
-		this.cards = Collections.unmodifiableCollection(cards);
+		this.cards = Collections.unmodifiableSet(cards);
 	}
 	
 	public String getDescription() {
@@ -40,7 +41,7 @@ public class Group extends GroupOrCard {
 	}
 	
 	@Override
-	public Collection<Card> getCards() {
+	public Set<Card> getCards() {
 		return cards;
 	}
 	

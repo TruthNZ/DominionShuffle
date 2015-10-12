@@ -22,6 +22,36 @@
 
 package nl.spellenclubeindhoven.dominionshuffle;
 
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.app.TabActivity;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.os.Bundle;
+import android.preference.PreferenceManager;
+import android.view.KeyEvent;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.MotionEvent;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.view.View.OnKeyListener;
+import android.view.View.OnTouchListener;
+import android.view.ViewGroup;
+import android.widget.AbsListView;
+import android.widget.AbsListView.OnScrollListener;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
+import android.widget.AdapterView.OnItemLongClickListener;
+import android.widget.Button;
+import android.widget.ListView;
+import android.widget.TabHost;
+import android.widget.Toast;
+
+import org.json.JSONException;
+
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
@@ -35,37 +65,6 @@ import nl.spellenclubeindhoven.dominionshuffle.data.SectionedCardOrGroupAdapter;
 import nl.spellenclubeindhoven.dominionshuffle.data.SolveError;
 import nl.spellenclubeindhoven.dominionshuffle.widget.CustomFastScrollView;
 
-import org.json.JSONException;
-
-import android.app.AlertDialog;
-import android.app.Dialog;
-import android.app.TabActivity;
-import android.content.Context;
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.content.SharedPreferences;
-import android.content.SharedPreferences.Editor;
-import android.os.Bundle;
-import android.preference.PreferenceManager;
-import android.view.KeyEvent;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.MotionEvent;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.view.View.OnKeyListener;
-import android.view.View.OnTouchListener;
-import android.view.ViewGroup;
-import android.widget.AbsListView;
-import android.widget.AdapterView;
-import android.widget.AbsListView.OnScrollListener;
-import android.widget.AdapterView.OnItemClickListener;
-import android.widget.AdapterView.OnItemLongClickListener;
-import android.widget.Button;
-import android.widget.ListView;
-import android.widget.TabHost;
-import android.widget.Toast;
-
 public class SelectActivity extends TabActivity implements OnScrollListener {
 	private static final int MENU_SORT = 1;
 	private static final int MENU_SHUFFLE = 2;
@@ -73,13 +72,12 @@ public class SelectActivity extends TabActivity implements OnScrollListener {
 	private static final int MENU_CLEAR_ALL = 4;
 	private static final int MENU_LOAD = 5;
 	private static final int MENU_SAVE = 6;
-	private static final int MENU_CARD_LANGUAGE = 7;
+	private static final int MENU_SETTINGS = 7;
 	private static final int MENU_ABOUT = 8;
 	private static final int DIALOG_SOLVE_ERROR = 1;
 	private static final int DIALOG_NO_RESULT_ERROR = 2;
 	private static final int DIALOG_SORT = 3;
 	private static final int DIALOG_MINMAX = 4;
-	private static final int DIALOG_CARD_LANGUAGE = 5;
 	private static final int DIALOG_MINIMUM = 100;
 	private static final int DIALOG_MAXIMUM = 200;
 	private ListView inexList;
@@ -105,6 +103,8 @@ public class SelectActivity extends TabActivity implements OnScrollListener {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.select);
+
+		PreferenceManager.setDefaultValues(this, R.xml.preferences, false);
 
 		application = (Application) getApplication();
 		dataReader = application.getDataReader();
@@ -279,17 +279,6 @@ public class SelectActivity extends TabActivity implements OnScrollListener {
 			alertDialog.setCanceledOnTouchOutside(true);
 			return alertDialog;
 		}
-		case DIALOG_CARD_LANGUAGE: {
-			SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
-			int langIndex = prefs.getInt("lang", 0);
-			
-			AlertDialog.Builder builder = new AlertDialog.Builder(this);
-			AlertDialog alertDialog = builder
-				.setTitle(R.string.choose_card_language)
-				.setSingleChoiceItems(R.array.languages, langIndex, onChooseLanguageClickListener)
-				.create();
-			return alertDialog;
-		}
 		default:
 			return super.onCreateDialog(id);
 		}
@@ -383,7 +372,7 @@ public class SelectActivity extends TabActivity implements OnScrollListener {
 		item = menu.add(Menu.NONE, MENU_SAVE, Menu.NONE, R.string.menu_save);
 		item.setIcon(android.R.drawable.ic_menu_save);
 		
-		item = menu.add(Menu.NONE, MENU_CARD_LANGUAGE, Menu.NONE, R.string.menu_card_language);
+		item = menu.add(Menu.NONE, MENU_SETTINGS, Menu.NONE, R.string.menu_settings);
 		item.setIcon(R.drawable.globe);
 
 		item = menu.add(Menu.NONE, MENU_SHUFFLE, Menu.NONE, R.string.menu_shuffle);
@@ -392,7 +381,7 @@ public class SelectActivity extends TabActivity implements OnScrollListener {
 		item = menu.add(Menu.NONE, MENU_LAST_RESULT, Menu.NONE, R.string.menu_last_result);
 		item.setIcon(R.drawable.last_result);
 
-		item = menu.add(Menu.NONE, MENU_ABOUT, Menu.NONE, "About");
+		item = menu.add(Menu.NONE, MENU_ABOUT, Menu.NONE, R.string.menu_about);
 		item.setIcon(android.R.drawable.stat_sys_warning);
 				
 		return super.onCreateOptionsMenu(menu);
@@ -419,8 +408,8 @@ public class SelectActivity extends TabActivity implements OnScrollListener {
 		case MENU_SAVE:
 			doSaveSelection();
 			return true;
-		case MENU_CARD_LANGUAGE:
-			showDialog(DIALOG_CARD_LANGUAGE);
+		case MENU_SETTINGS:
+			showSettings();
 			return true;
 		case MENU_ABOUT:
 			showAbout();
@@ -453,7 +442,6 @@ public class SelectActivity extends TabActivity implements OnScrollListener {
 	private void doShuffle() {
 		Application application = (Application) getApplication();
 		try {
-			cardSelector.setSolveAttempts(20);
 			application.setResult(cardSelector.generate(dataReader.getData()));
 			startActivity(new Intent(getApplicationContext(),
 					ResultActivity.class));
@@ -481,7 +469,11 @@ public class SelectActivity extends TabActivity implements OnScrollListener {
 		Intent intent = new Intent(getApplicationContext(), LimitActivity.class);
 		intent.putExtra("source", selectedGroup.getName());
 		startActivity(intent);
-	}	
+	}
+
+	private void showSettings() {
+		startActivity(new Intent(getApplicationContext(), SettingsActivity.class));
+	}
 
 	private OnItemClickListener onItemClickListener = new OnItemClickListener() {
 		public void onItemClick(AdapterView<?> parent, View view, int position,
@@ -581,11 +573,8 @@ public class SelectActivity extends TabActivity implements OnScrollListener {
 			SharedPreferences globalPrefs = PreferenceManager.getDefaultSharedPreferences(SelectActivity.this);
 			
 			prefs.edit().putInt("sort", which).commit();
-			CardComparator comparator = new CardComparator(
-				which,
-				getResources().getStringArray(R.array.locales)[globalPrefs.getInt("lang", 0)]
-			);
-			Collections.sort(groupsAndCards, comparator);
+			CardComparator comparator = new CardComparator(which, globalPrefs.getString("lang", "en"));
+            Collections.sort(groupsAndCards, comparator);
 			inExAdapter.setCardComparator(comparator);
 			constraintAdapter.setCardComparator(comparator);
 			inExAdapter.notifyDataSetChanged();
@@ -601,10 +590,7 @@ public class SelectActivity extends TabActivity implements OnScrollListener {
 	private CardComparator getPreferredCardComparator() {
 		SharedPreferences prefs = getPreferences(MODE_PRIVATE);
 		SharedPreferences globalPrefs = PreferenceManager.getDefaultSharedPreferences(SelectActivity.this);
-		return new CardComparator(
-			prefs.getInt("sort", CardComparator.SORT_SET_NAME),
-			getResources().getStringArray(R.array.locales)[globalPrefs.getInt("lang", 0)]
-		);
+		return new CardComparator(prefs.getInt("sort", CardComparator.SORT_SET_NAME), globalPrefs.getString("lang", "en"));
 	}
 
 	private android.content.DialogInterface.OnClickListener onMinMaxClickListener = new android.content.DialogInterface.OnClickListener() {
@@ -681,26 +667,6 @@ public class SelectActivity extends TabActivity implements OnScrollListener {
 		inExAdapter.refreshSections();
 		inexFastScrollView.listItemsChanged();
 	}
-		
-	private DialogInterface.OnClickListener onChooseLanguageClickListener = new DialogInterface.OnClickListener() {
-		public void onClick(DialogInterface dialog, int which) {
-			SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(SelectActivity.this);
-			
-			if(prefs.getInt("lang", 0) != which) {			
-				Editor editor = prefs.edit();
-				editor.putInt("lang", which);
-				editor.commit();
-				
-				reloadData();
-								
-				// Completely cleanup this dialog
-				removeDialog(DIALOG_CARD_LANGUAGE);
-			}
-			else {			
-				dialog.dismiss();
-			}
-		}
-	};	
 
 	private static class InExAdapter extends SectionedCardOrGroupAdapter {
 
@@ -780,7 +746,7 @@ public class SelectActivity extends TabActivity implements OnScrollListener {
 				holder.setDescription(group.getDescription());
 				if (cardSelector.hasLimit(group)) {
 					Limit rule = cardSelector.getLimit(group);
-					holder.setMinValue(rule.getLimitMinimum(), rule.getCondition() != null);
+					holder.setMinValue(rule.getMinimum(), rule.getCondition() != null);
 					holder.setMaxValue(rule.getMaximum());
 				} else {
 					holder.setMinValue(0, false);

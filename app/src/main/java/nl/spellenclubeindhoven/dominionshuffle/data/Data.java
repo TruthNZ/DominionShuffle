@@ -22,14 +22,18 @@
 
 package nl.spellenclubeindhoven.dominionshuffle.data;
 
-import java.util.Collection;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Set;
 
 public class Data {
 	private HashMap<String, Card> cardsMap = new HashMap<String, Card>();
@@ -109,13 +113,19 @@ public class Data {
 		JSONArray jsonCards = jsonData.getJSONArray("cards");
 		for(int i = 0; i < jsonCards.length(); i++) {
 			JSONObject jsonCard = jsonCards.getJSONObject(i);
+			JSONArray jsonTypes = jsonCard.getJSONArray("type");
+			List<String> types = new ArrayList<>(jsonTypes.length());
+			for (int j = 0; j < jsonTypes.length(); j++) {
+				types.add(jsonTypes.getString(j));
+			}
+			boolean basicOrNonSupply = jsonCard.optBoolean("basic", false) || jsonCard.optBoolean("nonSupply", false);
 			Card card = new Card(
 				jsonCard.getString("card"),
 				jsonCard.optString("display"),
 				jsonCard.getString("set"),
 				jsonCard.getString("cost"),
-				jsonCard.getString("type"),
-				jsonCard.optBoolean("nonKingdom", false));
+				types,
+				basicOrNonSupply);
 			cards.add(card);
 			cardsMap.put(card.getName(), card);
 		}
@@ -125,7 +135,7 @@ public class Data {
 		for(int i = 0; i < jsonGroups.length(); i++) {
 			JSONObject jsonGroup = jsonGroups.getJSONObject(i);
 			JSONArray jsonGroupCards = jsonGroup.getJSONArray("cards");
-			LinkedList<Card> groupCards = new LinkedList<Card>();
+			Set<Card> groupCards = new HashSet<>();
 			for(int j = 0; j < jsonGroupCards.length(); j++) {
 				Card groupCard = cardsMap.get(jsonGroupCards.getString(j));
 				if(groupCard == null) {
@@ -147,12 +157,18 @@ public class Data {
 		JSONArray jsonNonKingdomCards = jsonData.getJSONArray("non_kingdom_cards");
 		for(int i = 0; i < jsonNonKingdomCards.length(); i++) {
 			JSONObject jsonCard = jsonNonKingdomCards.getJSONObject(i);
+			JSONArray jsonTypes = jsonCard.getJSONArray("type");
+			List<String> types = new ArrayList<>(jsonTypes.length());
+			for (int j = 0; j < jsonTypes.length(); j++) {
+				types.add(jsonTypes.getString(j));
+			}
 			Card card = new Card(
 					jsonCard.getString("card"),
 					jsonCard.optString("display"),
 					jsonCard.getString("set"),
 					jsonCard.getString("cost"),
-					jsonCard.getString("type"));
+					types,
+					true);
 			nonKingdomCards.add(card);
 		}
 

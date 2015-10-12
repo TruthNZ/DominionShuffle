@@ -2,7 +2,13 @@
 <resources xmlns:tools="http://schemas.android.com/tools"
            tools:ignore="MissingTranslation">
     <string name="releasenotes_title">Release Notes</string>
-    <string name="releasenotes_value">++ Version 1.9 ++\n
+    <string name="releasenotes_value">++ Version 1.10 ++\n
+Added ability to draw more or less than 10 cards.\n
+Don\'t draw Potions, Ruins, Spoils, or Supplementary cards (e.g. Madman for Hermit) - These aren\'t needed in the App, as you should know to grab them when you pull out the other card.
+Disabled Card Language Selector (since it\'s currently broken, apologies again to non-English speakers).
+Moved both of the above options into a single Settings area.
+\n
+++ Version 1.9 ++\n
 Built upon Joran Jessurun\'s version\n
 Added Adventures Cards\n
 Added Events, and updated behaviour to not count Events against drawn Kingdom Cards.\n

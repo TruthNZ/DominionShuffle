@@ -22,194 +22,364 @@
 
 package nl.spellenclubeindhoven.dominionshuffle.data;
 
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.Map;
-import java.util.Random;
-import java.util.Set;
-
-import nl.spellenclubeindhoven.dominionshuffle.R;
+import android.content.Context;
+import android.preference.PreferenceManager;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.util.Collection;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.Map;
+import java.util.Random;
+import java.util.Set;
+import java.util.SortedSet;
+import java.util.TreeSet;
+
+import nl.spellenclubeindhoven.dominionshuffle.R;
+import nl.spellenclubeindhoven.dominionshuffle.SettingsFragment;
+
 public class CardSelector {
-	private final static int cardsToDraw = 10;
-	private int solveAttempts = 100;
-	private Set<Group> includedGroups = new HashSet<Group>();
-	private Set<Group> excludedGroups = new HashSet<Group>();
-	private Set<Card> includedCards = new HashSet<Card>();
-	private Set<Card> excludedCards = new HashSet<Card>();
-	private Set<Card> requiredCards = new HashSet<Card>();
-	private Map<Group, Limit> limits = new HashMap<Group, Limit>();
-	private Random random = new Random();
+    // Static Constants
+    private final static int DEFAULT_CARDS_TO_DRAW = 10;
+    private final static String EVENT = "Event";
+    private final static String COST_2_Group = "Cost 2";
+    private final static String COST_3_Group = "Cost 3";
+    private final static String POTION_CARD = "Potion";
+    private final static String POTION_COST = "P";
+    private final static String PROSPERITY_GROUP = "Prosperity";
+    private final static String COLONY_CARD = "Colony";
+    private final static String PLATINUM_CARD = "Platinum";
+    private final static String SHELTER_CARD = "Shelter";
+    private final static String YOUNG_WITCH_CARD = "Young Witch";
+    private final static String DARK_AGES_GROUP = "Dark Ages";
+    private final static String LOOTER_GROUP = "Looter";
+    private final static String RUINS_CARD = "Ruins";
 
-	public CardSelector() {
-	}
+    // Final Class variables
+    final private Context context;
+    final private Set<Group> includedGroups = new HashSet<>();
+    final private Set<Group> excludedGroups = new HashSet<>();
+    final private Set<Card> includedCards = new HashSet<>();
+    final private Set<Card> excludedCards = new HashSet<>();
+    final private Set<Card> requiredCards = new HashSet<>();
+    final private Map<Group, Limit> allLimits = new HashMap<>();
+    final private Random random = new Random();
 
-	public Result generate(Data data) throws SolveError {
-		Solution baseSolution = new Solution();
+    // Dynamic Class variables
+    private SortedSet<Limit> minimumLimits;
+    private Data data;
 
-		Card platinum = data.getCard("Platinum");
-		Card colony = data.getCard("Colony");
-		Card shelter = data.getCard("Shelter");
+    public CardSelector(Context context) {
+        this.context = context;
+    }
 
-		if(requiredCards.contains(platinum) || requiredCards.contains(colony)) {
-			baseSolution.setSelectPlatinumColony(true);
-		}
-		
-		if(requiredCards.contains(shelter)) {
-			baseSolution.setSelectShelter(true);
-		}
-		
-		for (Group group : includedGroups) {
-			baseSolution.add(group.getCards());
-		}
+    private static JSONArray createJSONArray(Collection<?> list) {
+        LinkedList<String> result = new LinkedList<String>();
+        for (Object item : list) {
+            if (item instanceof GroupOrCard) {
+                result.add(((GroupOrCard) item).getName());
+            } else {
+                result.add(item.toString());
+            }
+        }
+        return new JSONArray(result);
+    }
 
-		for (Group group : excludedGroups) {
-			baseSolution.remove(group.getCards());
-		}
+    public Result generate(Data data) throws SolveError {
+        this.data = data;
 
-		for (Card card : excludedCards) {
-			// We ignore exluded colony or platinum cards
-			baseSolution.remove(card);
-		}
+        Set<Card> availableCards = new HashSet<>();
 
-		for (Card card : includedCards) {
-			baseSolution.add(card);
-		}
+        // Add all included groups
+        for (Group group : includedGroups) {
+            availableCards.addAll(group.getCards());
+        }
 
-		for (Card card : requiredCards) {
-			// shelter, colony and platinum can only be required (or excluded) so only here they need
-			// to be filtered out.
-			if(card != colony && card != platinum && card != shelter) {
-				baseSolution.add(card);
-				baseSolution.pick(card);
-			}
-		}
-		
-		// If these go wrong the first time, we don't need to
-		// do multiple search attempts
-		ensureMaximumConstraints(baseSolution);
-		selectBestMinimumLimit(baseSolution);
+        // Excluded groups take priority over included groups
+        for (Group group : excludedGroups) {
+            availableCards.removeAll(group.getCards());
+        }
 
-		for (int i = 0; i < solveAttempts; i++) {
-			Solution solution = new Solution(baseSolution);
+        // Specifically excluded Cards have higher priority over groups
+        availableCards.removeAll(excludedCards);
 
-			try {
-				while (solution.countKingdomCards() < cardsToDraw) {
-					ensureMaximumConstraints(solution);
-					Limit selectedLimit = selectBestMinimumLimit(solution);
+        // Specifically included Cards are highest priority
+        availableCards.addAll(includedCards);
 
-					if (selectedLimit == null) {
-						solution.pick(solution.getPool());
-					} else {
-						Set<Card> intersection = new HashSet<Card>(selectedLimit
-								.getGroup().getCards());
-						intersection.retainAll(solution.getPool());
-						solution.pick(intersection);
-					}
-					
-					activateLimits(solution, limits);
-				}
+        // Sort Minimum Limits as we want smallest first
+        minimumLimits = new TreeSet<>(new Comparator<Limit>() {
+            public int compare(Limit a1, Limit a2) {
+                return a1.getGroup().getCards().size() - a2.getGroup().getCards().size();
+            }
+        });
+        for (Limit limit : allLimits.values()) {
+            if (limit.getMinimum() > 0) {
+                minimumLimits.add(limit);
+            }
+        }
 
-				// Check that all constraints satisfy
-				for (Limit limit : limits.values())
-					limit.satisfy(solution, solution.getCards());
+        Result result = new Result();
 
-				Result result = new Result();
-				handleAlchemy(data, solution);
-				handleProsperity(data, solution);
-				handleCornucopia(data, solution, result);
-				handleDarkAges(data, solution);
-				result.setCards(solution.getCards());
-				
-				return result;
-			} catch (SolveError e) {
-				// Ignore, let's try it again
-			}
-		}
+        // First add required Cards
+        for (Card card : requiredCards) {
+            result.getCards().add(card);
+        }
 
-		throw new SolveError(
-				R.string.solveerror_rules_to_strict, "Can not select cards using given rules, try relaxing them");
-	}
+        // Generate a Solution
+        result = generateSolution(result, availableCards);
 
-	private void handleAlchemy(Data data, Solution solution) {
-		Group potionCards = data.getGroup("Potion");
-		for (Card card : solution.getCards()) {
-			if (potionCards.contains(card)) {
-				// Force potions to be added
-				solution.forcePick(data.getCard("Potion"));
-				return;
-			}
-		}
-	}
+        // We have a valid solution in terms of draw cards
+        // Now check for and apply rules for specific cards
+        //addPotionIfNeeded(result);
+        drawColonyPlatinum(result);
+        drawShelter(result);
 
-	private void handleProsperity(Data data, Solution solution) {
-		if(solution.isSelectPlatinumColony()) {
-			// Force the cards to be added
-			solution.forcePick(data.getCard("Colony"));
-			solution.forcePick(data.getCard("Platinum"));
-		}
-		else {
-			// Count the number of prosperity cards
-			Group prosperityCards = data.getGroup("Prosperity");
-			int count = 0;
-			for(Card card : solution.getCards()) {
-				if(prosperityCards.contains(card)) count++;
-			}
-			
-			// Randomly determine if prosperity cards should be added
-			if(random.nextInt(cardsToDraw) < count) {
-				solution.forcePick(data.getCard("Colony"));
-				solution.forcePick(data.getCard("Platinum"));
-			}
-		}
-	}
-	
-	private void handleCornucopia(Data data, Solution solution, Result result) throws SolveError {
-		// Is Young Witch selected, no? Don't do anything
-		if(!solution.getCards().contains(data.getCard("Young Witch"))) return;
-		
-		Set<Card> cost2Or3Cards = new HashSet<Card>();
-		Group cost2 = data.getGroup("Cost 2");
-		Group cost3 = data.getGroup("Cost 3");
-		for(Card card : solution.getPool()) {
-			if(cost2.contains(card) || cost3.contains(card)) {
-				cost2Or3Cards.add(card);
-			}
-		}
-		
-		if(cost2Or3Cards.isEmpty()) {
-			throw new SolveError(R.string.solveerror_not_enough_cards, "Not enough cost 2 or 3 cards for selecting a bane card");
-		}
-		
-		Card baneCard = solution.forcePick(cost2Or3Cards);
-		result.setBaneCard(baneCard);
-	}
-	
-	private void handleDarkAges(Data data, Solution solution) {
-		if(solution.isSelectShelter()) {
-			// Force the cards to be added
-			solution.forcePick(data.getCard("Shelter"));
-		}
-		else {
-			// Count the number of dark ages cards
-			Group darkAgesCards = data.getGroup("Dark Ages");
-			int count = 0;
-			for(Card card : solution.getCards()) {
-				if(darkAgesCards.contains(card)) count++;
-			}
-			
-			// Randomly determine if the shelter cards should be used
-			if(random.nextInt(cardsToDraw) < count) {
-				solution.forcePick(data.getCard("Shelter"));
-			}
-		}
+        return result;
+    }
 
+    private Result generateSolution(final Result existingResult, final Set<Card> existingAvailableCards) throws SolveError {
+        // Check if we have completed the Solution
+        if (countDrawCards(existingResult.getCards()) == getCardsToDraw()) {
+            // We've drawn the correct number of cards, now check our limits
+            if (checkLimitsSatisfied(existingResult)) {
+                // This is a valid Solution!
+                return existingResult;
+            } else {
+                // Not a valid Solution.
+                throw new SolveError(R.string.solveerror_unsatisfied_rule, "");
+            }
+        }
+
+        // Loop trying cards, and seeing if having picked that card we can complete a Solution
+        final Set<Card> availableCards = new HashSet<>(existingAvailableCards);
+        while (true) { // Loop until we either return, or throw an exception
+
+            // Pick the next card
+            final Result result = pickCard(existingResult, availableCards);
+
+            // Try generating more of the Solution with this card
+            try {
+                return generateSolution(result, availableCards);
+            } catch (SolveError solveError) {
+                // Nope, continue loop to try next card
+            }
+        }
+    }
+
+
+    private boolean checkLimitsSatisfied(final Result result) {
+        for (final Limit limit : allLimits.values()) {
+            if (!limit.isSatisfied(result.getCards())) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    /**
+     * Pick a Card and remove it from the availableCards List.<br/>
+     * If we have any minimumLimit, pick from the smallest (first in list) to satisfy it.
+     */
+    private Result pickCard(final Result existingResult, final Set<Card> availableCards) throws SolveError {
+        Set<Card> pickSource = availableCards;
+
+        // Check to see if there's still a minimumLimit to satisfy
+        for (final Limit minimumLimit : minimumLimits) {
+            if (!minimumLimit.minimumSatisfied(existingResult.getCards())) {
+                pickSource = new HashSet<>(availableCards);
+                pickSource.retainAll(minimumLimit.getGroup().getCards());
+                break;
+            }
+        }
+
+        if (pickSource.isEmpty()) {
+            throw new SolveError(R.string.solveerror_rules_to_strict, "Can not select cards using given rules, try relaxing them");
+        }
+
+        // Randomise selection from the set
+        final int cardToFetch = this.random.nextInt(pickSource.size());
+        final Iterator<Card> iterator = pickSource.iterator();
+        for (int i = 0; i < cardToFetch; i++) {
+            iterator.next();
+        }
+        final Card pickedCard = iterator.next();
+
+        // Remove from the availableList
+        availableCards.remove(pickedCard);
+
+        Result result = new Result(existingResult);
+        result.addCard(pickedCard);
+
+        addBaneIfNeeded(pickedCard, result, availableCards);
+
+        return result;
+    }
+
+    /**
+     * Counts the cards, excluding those that don't count against the draw limit.<br/>
+     * E.g. Events, Basic Cards, Non-Supply Cards
+     */
+    private int countDrawCards(final Collection<Card> cards) {
+        int count = 0;
+        for (final Card card : cards) {
+            if (!card.isBasicOrNonSupply() && !card.getTypes().contains(EVENT)) {
+                count++;
+            }
+        }
+        return count;
+    }
+
+    /*
+    private void addPotionIfNeeded(final Result result) {
+        for (Card card : result.getCards()) {
+            if (card.getCost().startsWith(POTION_COST)) {
+                // Check Potion hasn't already been added (e.g. by forced selection)
+                Card potion = data.getCard(POTION_CARD);
+                if (!result.getCards().contains(potion)) {
+                    result.addCard(potion);
+                }
+                return;
+            }
+        }
+    }
+    */
+
+    /**
+     * If either Colony or Platinum have been added, add the other (if not excluded).<br/>
+     * If they're not both excluded
+     * Checks the number of prosperity cards to the total drawn, and randomly draws the Colony and Platinum based on the ratio
+     */
+    private void drawColonyPlatinum(final Result result) {
+        final Card colony = data.getCard(COLONY_CARD);
+        final Card platinum = data.getCard(PLATINUM_CARD);
+        final boolean colonyExcluded = this.excludedCards.contains(colony);
+        final boolean platinumExcluded = this.excludedCards.contains(platinum);
+
+        // If they have both been explicitly excluded, do nothing
+        if (colonyExcluded && platinumExcluded) {
+            return;
+        }
+
+        final boolean colonyAlreadyAdded = result.getCards().contains(colony);
+        final boolean platinumAlreadyAdded = result.getCards().contains(platinum);
+
+        if (colonyAlreadyAdded) {
+            if (platinumAlreadyAdded) {
+                // We already have both, do nothing
+                return;
+            }
+            if (!platinumExcluded) {
+                // If we have Colony, and Platinum isn't excluded, add it.
+                result.addCard(platinum);
+            }
+            return;
+        }
+        if (platinumAlreadyAdded) {
+            if (!colonyExcluded) {
+                // If we have Platinum, and Colony isn't excluded, add it.
+                result.addCard(colony);
+            }
+            return;
+        }
+
+        // We have neither Colony nor Platinum, do calculation to determine if we should add them
+
+        // Count the number of prosperity cards
+        Group prosperityCards = data.getGroup(PROSPERITY_GROUP);
+        int count = 0;
+        for (Card card : result.getCards()) {
+            if (prosperityCards.contains(card)) {
+                count++;
+            }
+        }
+
+        // Randomly determine if prosperity cards should be added
+        if (random.nextInt(getCardsToDraw()) < count) {
+            // Add the Colony and Platinum, where they're not excluded.
+            if (!colonyExcluded) {
+                result.addCard(colony);
+            }
+            if (!platinumExcluded) {
+                result.addCard(platinum);
+            }
+        }
+    }
+
+    /**
+     * Check the just picked card to determine if need to pick a Bane
+     */
+    private void addBaneIfNeeded(final Card pickedCard, final Result result, final Set<Card> availableCards) throws SolveError {
+        // Is Young Witch selected, no? Don't do anything
+        if (pickedCard != data.getCard(YOUNG_WITCH_CARD)) {
+            return;
+        }
+
+        final Group cost2 = data.getGroup(COST_2_Group);
+        final Group cost3 = data.getGroup(COST_3_Group);
+        final Set<Card> cost2Or3Cards = new HashSet<>(cost2.getCards());
+        cost2Or3Cards.addAll(cost3.getCards());
+        cost2Or3Cards.retainAll(availableCards);
+
+        // Filter out Basic and Non-Supply Cards
+        // While it means looping through again before we find our random card, we have to so we know how many to count from.
+        for (Iterator<Card> i = cost2Or3Cards.iterator(); i.hasNext(); ) {
+            if (i.next().isBasicOrNonSupply()) {
+                i.remove();
+            }
+        }
+
+        if (cost2Or3Cards.isEmpty()) {
+            throw new SolveError(R.string.solveerror_not_enough_cards, "Not enough cost 2 or 3 cards for selecting a bane card");
+        }
+
+        // Randomise selection from the set
+        final int cardToFetch = this.random.nextInt(cost2Or3Cards.size());
+        final Iterator<Card> iterator = cost2Or3Cards.iterator();
+        for (int i = 0; i < cardToFetch; i++) {
+            iterator.next();
+        }
+        final Card baneCard = iterator.next();
+
+        result.setBaneCard(baneCard);
+
+        availableCards.remove(baneCard);
+    }
+
+    /**
+     * Shelter is actually a type of Basic cards, but we treat and display it as a single card for convenience.
+     */
+    private void drawShelter(Result result) {
+        final Card shelter = data.getCard(SHELTER_CARD);
+
+        // Check if it was already a required card
+        if (result.getCards().contains(shelter)) {
+            return;
+        }
+
+        // Count the number of dark ages cards
+        Group darkAgesCards = data.getGroup(DARK_AGES_GROUP);
+        int count = 0;
+        for (Card card : result.getCards()) {
+            if (darkAgesCards.contains(card)) {
+                count++;
+            }
+        }
+
+        // Randomly determine if shelter cards should be added
+        if (random.nextInt(getCardsToDraw()) < count) {
+            // Add the Colony and Platinum, where they're not excluded.
+            result.addCard(shelter);
+        }
+    }
+
+    /*
+    private void handleDarkAges(Data data, Solution solution) {
 		Group looterCards = data.getGroup("Looter");
 		for (Card card : solution.getCards()) {
 			if (looterCards.contains(card)) {
@@ -253,408 +423,352 @@ public class CardSelector {
 				break;
 			}
 		}
-	}
+	} */
 
-	private void activateLimits(Solution solution, Map<Group, Limit> limits) {
-		for(Limit limit : limits.values()) {
-			if(!limit.hasCondition()) continue;
-			if(solution.isActive(limit)) continue;
-			
-			if(solution.containsCardOrCardFromGroup(limit.getCondition())) {
-				solution.activate(limit);
-			}
-		}
-	}
+    private int getCardsToDraw() {
+        String cardsToDraw = PreferenceManager.getDefaultSharedPreferences(this.context).getString(SettingsFragment.CARDS_TO_DRAW, null);
+        if (cardsToDraw == null) {
+            return DEFAULT_CARDS_TO_DRAW;
+        }
+        return Integer.parseInt(cardsToDraw);
+    }
 
-	private Limit selectBestMinimumLimit(Solution solution) throws SolveError {
-		// Select a minimum rule that has the least number of cards
-		// in the group that is still selectable
-		Collection<Limit> minimumLimits = new LinkedList<Limit>();
-		int minimumScore = Integer.MAX_VALUE;
-		for (Limit limit : limits.values()) {
-			if (limit.getMinimum(solution) <= 0)
-				continue; // check that this is a minimum rule
-			if (!solution.isActive(limit))
-				continue; // Skip inactive mimimum rules
+    public void addIncludedGroup(Group group) {
+        includedGroups.add(group);
+    }
 
-			int count = limit.count(solution.getCards());
-			if (count >= limit.getMinimum(solution))
-				continue; // rule is already satisfied
+    public void removeIncludedGroup(Group group) {
+        includedGroups.remove(group);
+    }
 
-			count += limit.count(solution.getPool());
+    public boolean hasIncludedGroup(Group group) {
+        return includedGroups.contains(group);
+    }
 
-			int score = count - limit.getMinimum(solution);
-			if (score < minimumScore) {
-				minimumLimits.clear();
-				minimumLimits.add(limit);
-				minimumScore = score;
-			} else if (score == minimumScore) {
-				minimumLimits.add(limit);
-			}
-		}
+    public void addExcludedGroup(Group group) {
+        excludedGroups.add(group);
+    }
 
-		if (minimumScore < 0) {
-			throw new SolveError(R.string.solveerror_overconstrainted_mimumums, "Not all minimum rules can be satisfied");
-		}
+    public void removeExcludedGroup(Group group) {
+        excludedGroups.remove(group);
+    }
 
-		if (minimumLimits.isEmpty())
-			return null;
+    public boolean hasExcludedGroup(Group group) {
+        return excludedGroups.contains(group);
+    }
 
-		return RandomCardPicker.pickRandom(minimumLimits);
-	}
+    public void addIncludedCard(Card card) {
+        includedCards.add(card);
+    }
 
-	private void ensureMaximumConstraints(Solution solution) throws SolveError {
-		for (Limit limit : limits.values()) {
-			int count = limit.count(solution.getCards());
-			if (count == limit.getMaximum()) {
-				solution.remove(limit.getGroup().getCards());
-			}
-		}
+    public void removeIncludedCard(Card card) {
+        includedCards.remove(card);
+    }
 
-		solution.validateEnoughCardsToSolve();
-	}
+    public boolean hasIncludedCard(Card card) {
+        return includedCards.contains(card);
+    }
 
-	public void addIncludedGroup(Group group) {
-		includedGroups.add(group);
-	}
+    public void addExcludedCard(Card card) {
+        excludedCards.add(card);
+    }
 
-	public void removeIncludedGroup(Group group) {
-		includedGroups.remove(group);
-	}
+    public void removeExcludedCard(Card cards) {
+        excludedCards.remove(cards);
+    }
 
-	public boolean hasIncludedGroup(Group group) {
-		return includedGroups.contains(group);
-	}
+    public boolean hasExlcudedCard(Card card) {
+        return excludedCards.contains(card);
+    }
 
-	public void addExcludedGroup(Group group) {
-		excludedGroups.add(group);
-	}
+    public void addRequiredCard(Card card) {
+        requiredCards.add(card);
+    }
 
-	public void removeExcludedGroup(Group group) {
-		excludedGroups.remove(group);
-	}
+    public void removeRequiredCard(Card card) {
+        requiredCards.remove(card);
+    }
 
-	public boolean hasExcludedGroup(Group group) {
-		return excludedGroups.contains(group);
-	}
+    public boolean hasRequiredCard(Card card) {
+        return requiredCards.contains(card);
+    }
 
-	public void addIncludedCard(Card card) {
-		includedCards.add(card);
-	}
+    public void removeLimit(Group group) {
+        allLimits.remove(group);
+    }
 
-	public void removeIncludedCard(Card card) {
-		includedCards.remove(card);
-	}
+    public Limit getLimit(Group group) {
+        if (!allLimits.containsKey(group)) {
+            allLimits.put(group, new Limit(group));
+        }
 
-	public boolean hasIncludedCard(Card card) {
-		return includedCards.contains(card);
-	}
+        return allLimits.get(group);
+    }
 
-	public void addExcludedCard(Card card) {
-		excludedCards.add(card);
-	}
+    public boolean hasLimit(Group group) {
+        return allLimits.containsKey(group);
+    }
 
-	public void removeExcludedCard(Card cards) {
-		excludedCards.remove(cards);
-	}
+    public void clear() {
+        includedGroups.clear();
+        excludedGroups.clear();
+        includedCards.clear();
+        excludedCards.clear();
+        requiredCards.clear();
+        allLimits.clear();
+    }
 
-	public boolean hasExlcudedCard(Card card) {
-		return excludedCards.contains(card);
-	}
+    public void cycleIncludeExclude(Object cardOrGroup) {
+        if (cardOrGroup instanceof Card) {
+            cycleIncludeExclude((Card) cardOrGroup);
+        } else if (cardOrGroup instanceof Group) {
+            cycleIncludeExclude((Group) cardOrGroup);
+        }
+    }
 
-	public void addRequiredCard(Card card) {
-		requiredCards.add(card);
-	}
+    private void cycleIncludeExclude(Card card) {
+        if (hasIncludedCard(card)) {
+            removeIncludedCard(card);
+            addExcludedCard(card);
+        } else if (hasExlcudedCard(card)) {
+            removeExcludedCard(card);
+        } else {
+            addIncludedCard(card);
+        }
+    }
 
-	public void removeRequiredCard(Card card) {
-		requiredCards.remove(card);
-	}
+    private void cycleIncludeExclude(Group group) {
+        if (hasIncludedGroup(group)) {
+            removeIncludedGroup(group);
+            addExcludedGroup(group);
+        } else if (hasExcludedGroup(group)) {
+            removeExcludedGroup(group);
+        } else {
+            addIncludedGroup(group);
+        }
+    }
 
-	public boolean hasRequiredCard(Card card) {
-		return requiredCards.contains(card);
-	}
+    public void cycleRequireExclude(Card card) {
+        if (hasRequiredCard(card)) {
+            removeRequiredCard(card);
+            removeExcludedCard(card);
+        } else if (hasExlcudedCard(card)) {
+            removeExcludedCard(card);
+            addRequiredCard(card);
+        } else {
+            addExcludedCard(card);
+            removeRequiredCard(card);
+        }
+    }
 
-	public void removeLimit(Group group) {
-		limits.remove(group);
-	}
+    public int getLimitMinimum(Group group) {
+        if (hasLimit(group)) {
+            return getLimit(group).getMinimum();
+        } else {
+            return 0;
+        }
+    }
 
-	public Limit getLimit(Group group) {
-		if (!limits.containsKey(group)) {
-			limits.put(group, new Limit(group));
-		}
+    // Will map MAX_VALUE back to 0
+    public int getLimitMaximum(Group group) {
+        if (hasLimit(group)) {
+            Limit limit = getLimit(group);
+            if (limit.getMaximum() == Integer.MAX_VALUE) {
+                return 0;
+            } else {
+                return limit.getMaximum();
+            }
+        } else {
+            return 0;
+        }
+    }
 
-		return limits.get(group);
-	}
+    public GroupOrCard getCondition(Group group) {
+        if (hasLimit(group)) {
+            Limit limit = getLimit(group);
+            return limit.getCondition();
+        } else {
+            return null;
+        }
+    }
 
-	public boolean hasLimit(Group group) {
-		return limits.containsKey(group);
-	}
-	
-	public void setSolveAttempts(int solveAttempts) {
-		this.solveAttempts = solveAttempts;
-	}
+    public void setLimitMinimum(Group group, int which) {
+        if (which == 0 && !hasLimit(group)) {
+            return;
+        }
+        Limit limit = getLimit(group);
+        limit.setMinimum(which);
+        removeLimitIfUseless(group);
+    }
 
-	public void clear() {
-		includedGroups.clear();
-		excludedGroups.clear();
-		includedCards.clear();
-		excludedCards.clear();
-		requiredCards.clear();
-		limits.clear();
-	}
+    // Will map the value 0 to MAX_VALUE
+    public void setLimitMaximum(Group group, int which) {
+        if (which == 0 && !hasLimit(group)) {
+            return;
+        }
+        if (which == 0) {
+            which = Integer.MAX_VALUE;
+        }
+        Limit limit = getLimit(group);
+        limit.setMaximum(which);
+        removeLimitIfUseless(group);
+    }
 
-	public void cycleIncludeExclude(Object cardOrGroup) {
-		if (cardOrGroup instanceof Card) {
-			cycleIncludeExclude((Card) cardOrGroup);
-		} else if (cardOrGroup instanceof Group) {
-			cycleIncludeExclude((Group) cardOrGroup);
-		}
-	}
+    public void removeLimitIfUseless(Group group) {
+        if (hasLimit(group)) {
+            Limit limit = getLimit(group);
+            if (limit.getMinimum() == 0 && limit.getMaximum() == Integer.MAX_VALUE && limit.getCondition() == null) {
+                removeLimit(group);
+            }
+        }
+    }
 
-	private void cycleIncludeExclude(Card card) {
-		if (hasIncludedCard(card)) {
-			removeIncludedCard(card);
-			addExcludedCard(card);
-		} else if (hasExlcudedCard(card)) {
-			removeExcludedCard(card);
-		} else {
-			addIncludedCard(card);
-		}
-	}
+    public void setCondition(Group group, GroupOrCard groupOrCard) {
+        if (groupOrCard == null || groupOrCard instanceof Nothing && !hasLimit(group)) {
+            return;
+        }
+        Limit limit = getLimit(group);
+        if (groupOrCard instanceof Nothing) {
+            limit.setCondition(null);
+        } else {
+            limit.setCondition(groupOrCard);
+        }
+        removeLimitIfUseless(group);
+    }
 
-	private void cycleIncludeExclude(Group group) {
-		if (hasIncludedGroup(group)) {
-			removeIncludedGroup(group);
-			addExcludedGroup(group);
-		} else if (hasExcludedGroup(group)) {
-			removeExcludedGroup(group);
-		} else {
-			addIncludedGroup(group);
-		}
-	}
-	
-	public void cycleRequireExclude(Card card) {
-		if(hasRequiredCard(card)) {
-			removeRequiredCard(card);
-			removeExcludedCard(card);
-		}
-		else if(hasExlcudedCard(card)) {
-			removeExcludedCard(card);
-			addRequiredCard(card);
-		}
-		else {
-			addExcludedCard(card);
-			removeRequiredCard(card);
-		}
-	}
+    public void fromJson(String json, Data data) throws JSONException {
+        JSONObject root = new JSONObject(json);
+        JSONArray array;
 
-	public int getLimitMinimum(Group group) {
-		if (hasLimit(group)) {
-			return getLimit(group).getLimitMinimum();
-		} else {
-			return 0;
-		}
-	}
-	
-	// Will map MAX_VALUE back to 0
-	public int getLimitMaximum(Group group) {
-		if (hasLimit(group)) {
-			Limit limit = getLimit(group);
-			if (limit.getMaximum() == Integer.MAX_VALUE) {
-				return 0;
-			} else {
-				return limit.getMaximum();
-			}
-		} else {
-			return 0;
-		}
-	}
+        includedCards.clear();
+        array = root.getJSONArray("includedCards");
+        if (array != null) {
+            for (int i = 0; i < array.length(); i++) {
+                Card card = data.getCard(array.getString(i));
+                if (card != null) {
+                    includedCards.add(card);
+                }
+            }
+        }
 
-	public GroupOrCard getCondition(Group group) {
-		if(hasLimit(group)) {
-			Limit limit = getLimit(group);
-			return limit.getCondition();
-		}
-		else {
-			return null;
-		}
-	}
-	
-	public void setLimitMinimum(Group group, int which) {
-		if (which == 0 && !hasLimit(group))
-			return;
-		Limit limit = getLimit(group);
-		limit.setMinimum(which);
-		removeLimitIfUseless(group);
-	}
+        excludedCards.clear();
+        array = root.getJSONArray("excludedCards");
+        if (array != null) {
+            for (int i = 0; i < array.length(); i++) {
+                Card card = data.getCard(array.getString(i));
+                if (card != null) {
+                    excludedCards.add(card);
+                }
+            }
+        }
 
-	// Will map the value 0 to MAX_VALUE
-	public void setLimitMaximum(Group group, int which) {
-		if (which == 0 && !hasLimit(group))
-			return;
-		if (which == 0)
-			which = Integer.MAX_VALUE;
-		Limit limit = getLimit(group);
-		limit.setMaximum(which);
-		removeLimitIfUseless(group);
-	}
+        requiredCards.clear();
+        array = root.getJSONArray("requiredCards");
+        if (array != null) {
+            for (int i = 0; i < array.length(); i++) {
+                Card card = data.getCard(array.getString(i));
+                if (card != null) {
+                    requiredCards.add(card);
+                }
+            }
+        }
 
-	public void removeLimitIfUseless(Group group) {
-		if (hasLimit(group)) {
-			Limit limit = getLimit(group);
-			if (limit.getLimitMinimum() == 0 && limit.getMaximum() == Integer.MAX_VALUE && limit.getCondition() == null) {
-				removeLimit(group);
-			}
-		}
-	}
+        includedGroups.clear();
+        array = root.getJSONArray("includedGroups");
+        if (array != null) {
+            for (int i = 0; i < array.length(); i++) {
+                Group group = data.getGroup(array.getString(i));
+                if (group != null) {
+                    includedGroups.add(group);
+                }
+            }
+        }
 
-	public void setCondition(Group group, GroupOrCard groupOrCard) {
-		if(groupOrCard == null || groupOrCard instanceof Nothing && !hasLimit(group)) return;
-		Limit limit = getLimit(group);
-		if(groupOrCard instanceof Nothing) {
-			limit.setCondition(null);
-		}
-		else {
-			limit.setCondition(groupOrCard);
-		}
-		removeLimitIfUseless(group);
-	}
-	
-	private static JSONArray createJSONArray(Collection<?> list) {
-		LinkedList<String> result = new LinkedList<String>();
-		for (Object item : list) {
-			if (item instanceof GroupOrCard) {
-				result.add(((GroupOrCard) item).getName());
-			} else {
-				result.add(item.toString());
-			}
-		}
-		return new JSONArray(result);
-	}
+        excludedGroups.clear();
+        array = root.getJSONArray("excludedGroups");
+        if (array != null) {
+            for (int i = 0; i < array.length(); i++) {
+                Group group = data.getGroup(array.getString(i));
+                if (group != null) {
+                    excludedGroups.add(group);
+                }
+            }
+        }
 
-	public void fromJson(String json, Data data) throws JSONException {
-		JSONObject root = new JSONObject(json);
-		JSONArray array;
+        allLimits.clear();
+        array = root.getJSONArray("rules");
+        if (array != null) {
+            for (int i = 0; i < array.length(); i++) {
+                JSONObject jsonLimit = array.getJSONObject(i);
+                if (jsonLimit == null) {
+                    continue;
+                }
+                Group group = data.getGroup(jsonLimit.getString("group"));
+                if (group == null) {
+                    continue;
+                }
+                Limit limit = getLimit(group);
+                if (jsonLimit.has("min")) {
+                    limit.setMinimum(jsonLimit.getInt("min"));
+                }
+                if (jsonLimit.has("max")) {
+                    limit.setMaximum(jsonLimit.getInt("max"));
+                }
+                if (jsonLimit.has("condition")) {
+                    limit.setCondition(data.getGroupOrCard(jsonLimit.getString("condition")));
+                }
+                allLimits.put(group, limit);
+            }
+        }
+    }
 
-		includedCards.clear();
-		array = root.getJSONArray("includedCards");
-		if (array != null) {
-			for (int i = 0; i < array.length(); i++) {
-				Card card = data.getCard(array.getString(i));
-				if (card != null)
-					includedCards.add(card);
-			}
-		}
+    public String toJson() throws JSONException {
+        JSONObject root = new JSONObject();
 
-		excludedCards.clear();
-		array = root.getJSONArray("excludedCards");
-		if (array != null) {
-			for (int i = 0; i < array.length(); i++) {
-				Card card = data.getCard(array.getString(i));
-				if (card != null)
-					excludedCards.add(card);
-			}
-		}
+        root.put("includedCards", createJSONArray(includedCards));
+        root.put("excludedCards", createJSONArray(excludedCards));
+        root.put("requiredCards", createJSONArray(requiredCards));
+        root.put("includedGroups", createJSONArray(includedGroups));
+        root.put("excludedGroups", createJSONArray(excludedGroups));
 
-		requiredCards.clear();
-		array = root.getJSONArray("requiredCards");
-		if (array != null) {
-			for (int i = 0; i < array.length(); i++) {
-				Card card = data.getCard(array.getString(i));
-				if (card != null)
-					requiredCards.add(card);
-			}
-		}
+        JSONArray jsonRules = new JSONArray();
+        for (Group group : allLimits.keySet()) {
+            Limit limit = allLimits.get(group);
+            JSONObject jsonLimit = new JSONObject();
+            jsonLimit.put("group", group.getName());
+            jsonLimit.put("min", limit.getMinimum());
+            jsonLimit.put("max", limit.getMaximum());
+            if (limit.getCondition() != null) {
+                jsonLimit.put("condition", limit.getCondition().getName());
+            }
+            jsonRules.put(jsonLimit);
+        }
+        root.put("rules", jsonRules);
 
-		includedGroups.clear();
-		array = root.getJSONArray("includedGroups");
-		if (array != null) {
-			for (int i = 0; i < array.length(); i++) {
-				Group group = data.getGroup(array.getString(i));
-				if (group != null)
-					includedGroups.add(group);
-			}
-		}
+        return root.toString();
+    }
 
-		excludedGroups.clear();
-		array = root.getJSONArray("excludedGroups");
-		if (array != null) {
-			for (int i = 0; i < array.length(); i++) {
-				Group group = data.getGroup(array.getString(i));
-				if (group != null)
-					excludedGroups.add(group);
-			}
-		}
+    public void removeExcludedCard(Collection<Card> cards) {
+        for (Card card : cards) {
+            removeExcludedCard(card);
+        }
+    }
 
-		limits.clear();
-		array = root.getJSONArray("rules");
-		if (array != null) {
-			for (int i = 0; i < array.length(); i++) {
-				JSONObject jsonLimit = array.getJSONObject(i);
-				if (jsonLimit == null)
-					continue;
-				Group group = data.getGroup(jsonLimit.getString("group"));
-				if (group == null)
-					continue;
-				Limit limit = getLimit(group);
-				if (jsonLimit.has("min"))
-					limit.setMinimum(jsonLimit.getInt("min"));
-				if (jsonLimit.has("max"))
-					limit.setMaximum(jsonLimit.getInt("max"));
-				if (jsonLimit.has("condition"))
-					limit.setCondition(data.getGroupOrCard(jsonLimit.getString("condition")));
-				limits.put(group, limit);
-			}
-		}
-	}
+    public void removeRequiredCard(Collection<Card> cards) {
+        for (Card card : cards) {
+            removeRequiredCard(card);
+        }
+    }
 
-	public String toJson() throws JSONException {
-		JSONObject root = new JSONObject();
+    public void addExcludedCard(Collection<Card> cards) {
+        for (Card card : cards) {
+            addExcludedCard(card);
+        }
+    }
 
-		root.put("includedCards", createJSONArray(includedCards));
-		root.put("excludedCards", createJSONArray(excludedCards));
-		root.put("requiredCards", createJSONArray(requiredCards));
-		root.put("includedGroups", createJSONArray(includedGroups));
-		root.put("excludedGroups", createJSONArray(excludedGroups));
-
-		JSONArray jsonRules = new JSONArray();
-		for (Group group : limits.keySet()) {
-			Limit limit = limits.get(group);
-			JSONObject jsonLimit = new JSONObject();
-			jsonLimit.put("group", group.getName());
-			jsonLimit.put("min", limit.getLimitMinimum());
-			jsonLimit.put("max", limit.getMaximum());
-			if(limit.getCondition() != null) {
-				jsonLimit.put("condition", limit.getCondition().getName());
-			}
-			jsonRules.put(jsonLimit);
-		}
-		root.put("rules", jsonRules);
-		
-		return root.toString();
-	}
-
-	public void removeExcludedCard(Collection<Card> cards) {
-		for(Card card : cards) {
-			removeExcludedCard(card);
-		}
-	}
-
-	public void removeRequiredCard(Collection<Card> cards) {
-		for(Card card : cards) {
-			removeRequiredCard(card);
-		}
-	}
-
-	public void addExcludedCard(Collection<Card> cards) {
-		for(Card card : cards) {
-			addExcludedCard(card);
-		}
-	}
-
-	public void addRequiredCard(Collection<Card> cards) {
-		for(Card card : cards) {
-			addRequiredCard(card);
-		}
-	}
+    public void addRequiredCard(Collection<Card> cards) {
+        for (Card card : cards) {
+            addRequiredCard(card);
+        }
+    }
 }

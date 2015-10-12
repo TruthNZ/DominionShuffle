@@ -24,16 +24,17 @@ package nl.spellenclubeindhoven.dominionshuffle.data;
 
 import java.util.Collection;
 import java.util.Collections;
+import java.util.Set;
 
 public class Nothing extends GroupOrCard {
-	private Collection<Card> cards = Collections.emptyList();
+	private Set<Card> cards = Collections.emptySet();
 
 	public Nothing(String text) {
 		super(text, text);
 	}
 
 	@Override
-	public Collection<Card> getCards() {
+	public Set<Card> getCards() {
 		return cards;
 	}
 

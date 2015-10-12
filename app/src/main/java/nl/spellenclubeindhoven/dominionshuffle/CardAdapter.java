@@ -61,7 +61,14 @@ class CardAdapter extends ArrayAdapter<Card> {
 		holder.setBaneCard(result != null && card == result.getBaneCard());
 		holder.setCompact(compact);
 		holder.setName(card.getDisplay());
-		holder.setDescription(card.getType());
+		StringBuilder type = new StringBuilder();
+		for (String cardType: card.getTypes()) {
+			if (type.length() > 0) {
+				type.append(" - ");
+			}
+			type.append(cardType);
+		}
+		holder.setDescription(type.toString());
 		holder.setIconValue(card.getCost());
 		holder.setSet(card.getSet());		
 		if(cardSelector == null) {

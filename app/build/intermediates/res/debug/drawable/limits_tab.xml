@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-	<item android:state_selected="false" android:drawable="@drawable/tablimits_unselected" />
-	<item android:state_selected="true" android:drawable="@drawable/tablimits_selected" />
-</selector><!-- From: file:/C:/Development/Personal/AndroidStudio/DominionShuffle/app/src/main/res/drawable/limits_tab.xml -->

@@ -50,27 +50,9 @@ public class DataReader {
 
 	public boolean loadData() {
 		if(dominionData != null) return false;
-		
-		SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(application);
-		int langIndex = prefs.getInt("lang", 0);
-				
-		int id;
-		switch(langIndex) {
-		case 1: id = R.raw.data_de; break;
-		case 2: id = R.raw.data_fr; break;
-		case 3: id = R.raw.data_it; break;
-		case 4: id = R.raw.data_nl; break;
-		case 5: id = R.raw.data_es; break;
-		case 6: id = R.raw.data_pl; break;
-		case 7: id = R.raw.data_fi; break;
-		case 8: id = R.raw.data_cz; break;
-		case 9: id = R.raw.data_ja; break;
-		case 10: id = R.raw.data_kr; break;
-		default: id = R.raw.data; break;
-		}
-		
+
 		try {
-			InputStream inputStream = new GZIPInputStream(application.getResources().openRawResource(id));
+			InputStream inputStream = new GZIPInputStream(application.getResources().openRawResource(R.raw.data));
 			dominionData = Data.read(readStringFromStream(inputStream));
 		} catch (Exception ignore) {
 			ignore.printStackTrace();

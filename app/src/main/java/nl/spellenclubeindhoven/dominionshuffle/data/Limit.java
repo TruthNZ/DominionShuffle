@@ -24,86 +24,122 @@ package nl.spellenclubeindhoven.dominionshuffle.data;
 
 import java.util.Collection;
 
-import nl.spellenclubeindhoven.dominionshuffle.R;
-
 public class Limit {
-	private Group group;
-	private int minimum = 0;
-	private int maximum = Integer.MAX_VALUE;
-	private GroupOrCard condition;
+    private Group group;
+    private int minimum = 0;
+    private int maximum = Integer.MAX_VALUE;
+    private GroupOrCard condition;
 
-	public Limit(Limit original) {
-		this.group = original.group;
-		this.minimum = original.minimum;
-		this.maximum = original.maximum;
-		this.condition = original.condition;
-	}
-	
-	public Limit(Group group) {
-		this.group = group;
-	}
-	
-	public int getMinimum(Solution solution) {
-		if(solution.isActive(this)) {
-			return minimum;
-		}
-		else {
-			return 0;
-		}
-	}
-		
-	public int getLimitMinimum() {
-		return minimum;
-	}
-	
-	public void setMinimum(int minimum) {
-		this.minimum = minimum;
-	}
-	
-	public int getMaximum() {
-		return maximum;
-	}
-	
-	public void setMaximum(int maximum) {
-		this.maximum = maximum;
-	}
+    public Limit(Limit original) {
+        this.group = original.group;
+        this.minimum = original.minimum;
+        this.maximum = original.maximum;
+        this.condition = original.condition;
+    }
 
-	public Group getGroup() {
-		return group;
-	}
-	
-	public void setCondition(GroupOrCard condition) {
-		this.condition = condition;
-	}
+    public Limit(Group group) {
+        this.group = group;
+    }
 
-	public GroupOrCard getCondition() {
-		return condition;
-	}
-	
-	public boolean hasCondition() {
-		return condition != null;
-	}
-		
-	/**
-	 * Count the number of cards in the given collection that this rule
-	 * applies to.
-	 * @param cards the cards to countKingdomCards
-	 * @return the number of cards
-	 */
-	public int count(Collection<Card> cards) {
-		int count = 0;
-		for(Card card : cards) {
-			if(group.getCards().contains(card)) {
-				count++;
-			}
-		}
-		return count;
-	}
-	
-	public void satisfy(Solution solution, Collection<Card> cards) throws SolveError {
-		int count = count(cards);
-		if((solution.isActive(this) && minimum > count) || count > maximum) {
-			throw new SolveError(R.string.solveerror_unsatisfied_rule, "Rule is not satisfied for selected cards");
-		}
-	}
+    public int getMinimum() {
+        return minimum;
+    }
+
+    public void setMinimum(int minimum) {
+        this.minimum = minimum;
+    }
+
+    public int getMaximum() {
+        return maximum;
+    }
+
+    public void setMaximum(int maximum) {
+        this.maximum = maximum;
+    }
+
+    public Group getGroup() {
+        return group;
+    }
+
+    public GroupOrCard getCondition() {
+        return condition;
+    }
+
+    public void setCondition(GroupOrCard condition) {
+        this.condition = condition;
+    }
+
+    public boolean hasCondition() {
+        return condition != null;
+    }
+
+    /**
+     * Count the number of cards in the given collection that this rule
+     * applies to.
+     *
+     * @param cards the cards to countKingdomCards
+     * @return the number of cards
+     */
+    public int count(Collection<Card> cards) {
+        int count = 0;
+        for (Card card : cards) {
+            if (group.getCards().contains(card)) {
+                count++;
+            }
+        }
+        return count;
+    }
+
+    /**
+     * Checks to see if this Limit applies to the set of cards.<br/>
+     * If this Limit is not conditional, it applies to all sets and will always return true.
+     */
+    public boolean appliesTo(Collection<Card> cards) {
+        if (condition == null) {
+            return true;
+        }
+        if (condition.isCard()) {
+            // This is a card, check to see if it is in the provided set
+            if (cards.contains(condition)) {
+                return true;
+            }
+        } else if (condition.isGroup()) {
+            // Technically we don't need the if check, we should only be a group or a card.
+            for (Card card : condition.getCards()) {
+                if (cards.contains(card)) {
+                    // As soon as we find any card in the set, this limit applies
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    /**
+     * Checks to see if this limit is satisfied by the provided collection of cards.
+     */
+    public boolean isSatisfied(Collection<Card> cards) {
+        if (this.appliesTo(cards)) {
+            int count = count(cards);
+            if (minimum > count || count > maximum) {
+                return false;
+            }
+        }
+        // If we don't apply, we're satisfied anyway
+        return true;
+    }
+
+    /**
+     * Checks to see if this limit's minimum is satisfied by the provided collection of cards.<br/>
+     * If this limit has no minimum it is always satisfied.
+     */
+    public boolean minimumSatisfied(Collection<Card> cards) {
+        if (minimum > 0 && this.appliesTo(cards)) {
+            int count = count(cards);
+            if (minimum > count) {
+                return false;
+            }
+        }
+        return true;
+    }
 }

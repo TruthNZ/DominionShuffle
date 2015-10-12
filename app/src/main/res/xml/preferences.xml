@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="cardsToDraw"
+        android:defaultValue="10"
+        android:inputType="number"
+        android:title="@string/cards_to_draw"/>
+
+        <ListPreference
+            android:key="lang"
+            android:title="@string/card_language"
+            android:dialogTitle="@string/card_language"
+            android:entries="@array/languages"
+            android:entryValues="@array/locales"
+            android:defaultValue="@string/default_card_language"
+            android:enabled="false"
+            />
+
+</PreferenceScreen>

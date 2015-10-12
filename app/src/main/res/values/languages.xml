@@ -27,4 +27,5 @@
         <item>ja</item>
         <item>kr</item>
     </string-array>
+    <string name="default_card_language">en</string>
 </resources>
