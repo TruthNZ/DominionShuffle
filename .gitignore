@@ -1,6 +1,6 @@
 .*
 !.gitignore
 local.properties
-/build/
-/app/build/
-/app/DominionShuffle.apk
+build/
+app/build/
+app/DominionShuffle.apk
