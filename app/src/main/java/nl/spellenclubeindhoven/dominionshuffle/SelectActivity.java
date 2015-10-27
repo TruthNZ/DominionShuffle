@@ -59,6 +59,7 @@ import java.util.List;
 import nl.spellenclubeindhoven.dominionshuffle.data.Card;
 import nl.spellenclubeindhoven.dominionshuffle.data.CardComparator;
 import nl.spellenclubeindhoven.dominionshuffle.data.CardSelector;
+import nl.spellenclubeindhoven.dominionshuffle.data.Data;
 import nl.spellenclubeindhoven.dominionshuffle.data.Group;
 import nl.spellenclubeindhoven.dominionshuffle.data.Limit;
 import nl.spellenclubeindhoven.dominionshuffle.data.SectionedCardOrGroupAdapter;
@@ -326,11 +327,21 @@ public class SelectActivity extends TabActivity implements OnScrollListener {
 	}
 
 	private void loadCardSelectorState() {
-		if (dataReader.getData() == null)
+        Data data = dataReader.getData();
+		if (data == null)
 			return;
 		
 		try {
-			cardSelector.fromJson(DataReader.readStringFromFile(this, "card_selector.json"), dataReader.getData());
+            String selectorData = DataReader.readStringFromFile(this, "card_selector.json");
+            if (selectorData == null || "".equals(selectorData)) {
+                // Load Default Settings instead
+
+                cardSelector.addIncludedGroup(data.getGroup("All"));
+                cardSelector.setLimitMaximum(data.getGroup("Events"), 2);
+
+            } else {
+                cardSelector.fromJson(selectorData, dataReader.getData());
+            }
 		} catch (JSONException ignore) {
 			ignore.printStackTrace();
 		}
