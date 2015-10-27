@@ -84,7 +84,7 @@
 <string name="maximum">Maximo</string>
 <string name="limit_condition_text">Selecciona el minimo si al menos una carta del grupo (o carta) es seleccionado.</string>
 <string name="no_card_or_group_selected">Nada seleccionado</string>
-<string name="choose_card_language">Eligue idioma de las cartas</string>
+<string name="card_language">Idioma cartas</string>
 <string name="loaded_cache">No se pudieron bajar las cartas, usando version en cache.</string>
 <string name="group">Grupo</string>
 <string name="card">Carta</string>

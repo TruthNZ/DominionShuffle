@@ -84,7 +84,7 @@
 <string name="maximum">Maximum</string>
 <string name="limit_condition_text">Nastaví minimum, pokud je vybrána alespoň jedna karta z následující skupiny.</string>
 <string name="no_card_or_group_selected">Nic nevybráno</string>
-<string name="choose_card_language">Zvolte jazyk karet</string>
+<string name="card_language">Jazyk</string>
 <string name="loaded_cache">Nelze stáhnout karty, bude použita nakešovaná verze.</string>
 <string name="group">Skupina</string>
 <string name="card">Karta</string>

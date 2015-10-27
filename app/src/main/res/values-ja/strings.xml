@@ -84,7 +84,7 @@
 <string name="maximum">最大枚数</string>
 <string name="limit_condition_text">少なくとも１枚のカードが以下のグループ（またはカード）から選ばれた場合、最小枚数を適用します。</string>
 <string name="no_card_or_group_selected">何も選ばれていません</string>
-<string name="choose_card_language">カードの言語選択</string>
+<string name="card_language">カード言語</string>
 <string name="loaded_cache">カードのダウンロードが出来ませんでした。キャッシュバージョンを使用します。</string>
 <string name="group">グループ</string>
 <string name="card">カード</string>

@@ -84,7 +84,7 @@
 <string name="maximum">Maksimi</string>
 <string name="limit_condition_text">Aseta minimi jos vähintään yksi kortti seuraavista ryhmistä (tai yksittäinen kortti) on valittu.</string>
 <string name="no_card_or_group_selected">Ei mitään valittuna</string>
-<string name="choose_card_language">Valitse korttien kieli</string>
+<string name="card_language">Korttien kieli</string>
 <string name="loaded_cache">Ei voitu ladata kortteja, käytetään muistissa olevaa versiota.</string>
 <string name="group">Ryhmä</string>
 <string name="card">Kortti</string>

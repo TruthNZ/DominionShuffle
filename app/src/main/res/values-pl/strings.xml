@@ -84,7 +84,7 @@
 <string name="maximum">Maksimum</string>
 <string name="limit_condition_text">Ustaw minium jeżeli co najmniej jedna z grup (lub karta) jest zaznaczona.</string>
 <string name="no_card_or_group_selected">Brak zaznaczenia.</string>
-<string name="choose_card_language">Wybierz język kart</string>
+<string name="card_language">Język kart</string>
 <string name="group">Grupa</string>
 <string name="card">Karta</string>
 <string name="bane">Bane</string>

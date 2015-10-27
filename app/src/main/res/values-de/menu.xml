@@ -14,5 +14,4 @@
 	<string name="menu_require_all">Alle behalten</string>
 	<string name="menu_load">Laden</string>
 	<string name="menu_save">Speichern</string>
-	<string name="menu_card_language">Sprache der Karten</string>
 </resources>

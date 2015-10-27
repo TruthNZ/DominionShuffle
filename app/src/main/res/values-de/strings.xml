@@ -85,7 +85,7 @@
 	<string name="maximum">Maximum</string>
 	<string name="limit_condition_text">Setze das Minimum wenn wenigstens eine Karte von der folgenden Gruppe (oder Karte) ausgewählt ist.</string>
 	<string name="no_card_or_group_selected">Nichts ausgewählt</string>
-	<string name="choose_card_language">Wähle die Sprache der Karten</string>
+    <string name="card_language">Sprache der Karten</string>
 	<string name="loaded_cache">Konnte die Karten nicht herunterladen, benutze die lokal gespeicherten Daten.</string>
 	<string name="group">Gruppe</string>
 	<string name="card">Karte</string>	

@@ -13,6 +13,5 @@
 <string name="menu_require_all">全て含める</string>
 <string name="menu_load">ロード</string>
 <string name="menu_save">セーブ</string>
-<string name="menu_card_language">カード言語</string>
 <string name="menu_launch_androminion">Androminionに送る</string>
 </resources>

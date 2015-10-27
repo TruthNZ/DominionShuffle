@@ -84,7 +84,7 @@
 <string name="maximum">Maximum</string>
 <string name="limit_condition_text">Gebruik het minimum als minimaal één kaart uit de volgende groep (of kaart) geselecteerd wordt.</string>
 <string name="no_card_or_group_selected">Niets geselecteerd</string>
-<string name="choose_card_language">Kies taal voor de kaarten</string>
+<string name="card_language">Kaarttaal</string>
 <string name="loaded_cache">Kan de kaarten niet downloaden. Er wordt nu een (oude) kopie gebruikt.</string>
 <string name="group">Groep</string>
 <string name="card">Kaart</string>
