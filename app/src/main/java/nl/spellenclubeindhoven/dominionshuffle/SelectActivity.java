@@ -386,9 +386,6 @@ public class SelectActivity extends TabActivity implements OnScrollListener {
 		item = menu.add(Menu.NONE, MENU_SETTINGS, Menu.NONE, R.string.menu_settings);
 		item.setIcon(R.drawable.globe);
 
-		item = menu.add(Menu.NONE, MENU_SHUFFLE, Menu.NONE, R.string.menu_shuffle);
-		item.setIcon(R.drawable.shuffle);
-
 		item = menu.add(Menu.NONE, MENU_LAST_RESULT, Menu.NONE, R.string.menu_last_result);
 		item.setIcon(R.drawable.last_result);
 
@@ -403,9 +400,6 @@ public class SelectActivity extends TabActivity implements OnScrollListener {
 		switch (item.getItemId()) {
 		case MENU_SORT:
 			showDialog(DIALOG_SORT);
-			return true;
-		case MENU_SHUFFLE:
-			doShuffle();
 			return true;
 		case MENU_LAST_RESULT:
 			showLastResult();

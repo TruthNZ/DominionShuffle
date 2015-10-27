@@ -8,6 +8,7 @@ Don\'t draw Potions, Ruins, Spoils, or Supplementary cards (e.g. Madman for Herm
 Disabled Card Language Selector (since it\'s currently broken, apologies again to non-English speakers).
 Moved both of the above options into a single Settings area.
 Added Default Settings of: All Cards included. Maximum of 2 Events. Will only be set if the App is started with no pre-existing data.
+Remove Shuffle from Menu - Should be accessed from the Shuffle Tab.
 \n
 ++ Version 1.9 ++\n
 Built upon Joran Jessurun\'s version\n
