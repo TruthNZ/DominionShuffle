@@ -30,7 +30,7 @@ public class Nothing extends GroupOrCard {
 	private Set<Card> cards = Collections.emptySet();
 
 	public Nothing(String text) {
-		super(text, text);
+		super(text);
 	}
 
 	@Override

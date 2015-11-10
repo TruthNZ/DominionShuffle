@@ -48,16 +48,16 @@ public class CardSelector {
     // Static Constants
     private final static int DEFAULT_CARDS_TO_DRAW = 10;
     private final static String EVENT = "Event";
-    private final static String COST_2_Group = "Cost 2";
-    private final static String COST_3_Group = "Cost 3";
+    private final static String COST_2_Group = "Cost_2";
+    private final static String COST_3_Group = "Cost_3";
     private final static String POTION_CARD = "Potion";
     private final static String POTION_COST = "P";
     private final static String PROSPERITY_GROUP = "Prosperity";
     private final static String COLONY_CARD = "Colony";
     private final static String PLATINUM_CARD = "Platinum";
     private final static String SHELTER_CARD = "Shelter";
-    private final static String YOUNG_WITCH_CARD = "Young Witch";
-    private final static String DARK_AGES_GROUP = "Dark Ages";
+    private final static String YOUNG_WITCH_CARD = "Young_Witch";
+    private final static String DARK_AGES_GROUP = "Dark_Ages";
     private final static String LOOTER_GROUP = "Looter";
     private final static String RUINS_CARD = "Ruins";
 

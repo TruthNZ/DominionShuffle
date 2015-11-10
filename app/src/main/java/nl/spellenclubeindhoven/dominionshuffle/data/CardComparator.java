@@ -55,23 +55,23 @@ public class CardComparator implements Comparator<Object> {
 			case SORT_COST_SET_NAME:
 				result = card1.getCost().compareTo(card2.getCost());
 				if(result == 0) result = collator.compare(card1.getSet(), card2.getSet());
-				if(result == 0) result = collator.compare(card1.getDisplay(), card2.getDisplay());
+				if(result == 0) result = collator.compare(card1.getName(), card2.getName());
 				return result;
 			case SORT_SET_COST_NAME:
 				result = collator.compare(card1.getSet(), card2.getSet());
 				if(result == 0) result = card1.getCost().compareTo(card2.getCost());
-				if(result == 0) result = collator.compare(card1.getDisplay(), card2.getDisplay());
+				if(result == 0) result = collator.compare(card1.getName(), card2.getName());
 				return result;
 			case SORT_SET_NAME:
 				result = collator.compare(card1.getSet(), card2.getSet());
-				if(result == 0) result = collator.compare(card1.getDisplay(), card2.getDisplay());
+				if(result == 0) result = collator.compare(card1.getName(), card2.getName());
 				return result;
 			case SORT_COST_NAME:
 				result = card1.getCost().compareTo(card2.getCost());
-				if(result == 0) result = collator.compare(card1.getDisplay(), card2.getDisplay());
+				if(result == 0) result = collator.compare(card1.getName(), card2.getName());
 				return result;
 			case SORT_NAME:
-				return collator.compare(card1.getDisplay(), card2.getDisplay());
+				return collator.compare(card1.getName(), card2.getName());
 			}
 		}
 		

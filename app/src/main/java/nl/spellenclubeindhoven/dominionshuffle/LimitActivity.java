@@ -49,6 +49,7 @@ import nl.spellenclubeindhoven.dominionshuffle.data.GroupOrCard;
 import nl.spellenclubeindhoven.dominionshuffle.data.Nothing;
 
 public class LimitActivity extends Activity {
+
 	private CardOrGroupHolder sourceHolder;
 	private Application application;
 	private Data data;
@@ -99,8 +100,8 @@ public class LimitActivity extends Activity {
 
 		sourceHolder.setMinValue(cardSelector.getLimitMinimum(group), cardSelector.getCondition(group) != null);
 		sourceHolder.setMaxValue(cardSelector.getLimitMaximum(group));
-		sourceHolder.setName(group.getDisplay() + " (" + group.getCards().size() + ")");
-		sourceHolder.setDescription(group.getDescription());
+		sourceHolder.setName(Localise.getSetName(group.getName(), getBaseContext()) + " (" + group.getCards().size() + ")");
+		sourceHolder.setDescription(Localise.getSetDescription(group.getName(), getBaseContext()));
 
 		int maxCards = group.getCards().size();
 
@@ -194,8 +195,8 @@ public class LimitActivity extends Activity {
 		
 		public String getText1(int position) {
 			GroupOrCard groupOrCard = getItem(position);
-			if(groupOrCard.isCard()) return getContext().getString(R.string.card) + " " + groupOrCard.getDisplay();
-			else if(groupOrCard.isGroup()) return getContext().getString(R.string.group) + " " + groupOrCard.getDisplay();
+			if(groupOrCard.isCard()) return getContext().getString(R.string.card) + " " + groupOrCard.getName();
+			else if(groupOrCard.isGroup()) return getContext().getString(R.string.group) + " " + groupOrCard.getName();
 			else return groupOrCard.toString();
 		}
 	}

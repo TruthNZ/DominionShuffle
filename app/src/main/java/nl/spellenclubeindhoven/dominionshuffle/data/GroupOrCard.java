@@ -30,32 +30,15 @@ import java.util.Set;
  */
 public abstract class GroupOrCard {
 	private String name;
-	private String display;
 			
-	public GroupOrCard(String name, String display) {
+	public GroupOrCard(String name) {
 		this.name = name;
-		
-		if(display.length() == 0) {
-			this.display = null;
-		}
-		else {
-			this.display = display;
-		}
 	}
 	
 	public String getName() {
 		return name;
 	}
-	
-	public String getDisplay() {
-		if(display == null) {
-			return name;
-		}
-		else {
-			return display;
-		}
-	}
-	
+
 	public boolean contains(Card card) {
 		return getCards().contains(card);
 	}

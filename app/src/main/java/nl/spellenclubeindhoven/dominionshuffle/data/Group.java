@@ -27,19 +27,13 @@ import java.util.Collections;
 import java.util.Set;
 
 public class Group extends GroupOrCard {
-	private String description;
 	private Set<Card> cards;
 	
-	public Group(String name, String display, String description, Set<Card> cards) {
-		super(name, display);
-		this.description = description;
+	public Group(String name, Set<Card> cards) {
+		super(name);
 		this.cards = Collections.unmodifiableSet(cards);
 	}
-	
-	public String getDescription() {
-		return description;
-	}
-	
+
 	@Override
 	public Set<Card> getCards() {
 		return cards;
@@ -47,7 +41,7 @@ public class Group extends GroupOrCard {
 	
 	@Override
 	public String toString() {
-		return "Group " + getDisplay();
+		return "Group " + getName();
 	}
 
 	@Override

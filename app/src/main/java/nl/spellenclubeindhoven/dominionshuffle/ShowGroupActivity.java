@@ -37,6 +37,6 @@ public class ShowGroupActivity extends CardListActivity {
 		super.onCreate(savedInstanceState);
 
 		String format = getResources().getString(R.string.show_group_title);		
-		this.setTitle(String.format(format, group.getDisplay()));
+		this.setTitle(String.format(format, group.getName()));
 	}
 } 

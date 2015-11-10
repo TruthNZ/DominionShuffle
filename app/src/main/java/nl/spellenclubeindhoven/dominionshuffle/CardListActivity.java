@@ -96,11 +96,11 @@ public abstract class CardListActivity extends ListActivity {
 		MenuItem item;
 		
 		if(compact) {
-			item = menu.add(Menu.NONE, MENU_COMPACT, Menu.NONE, R.string.menu_compact_view);
+			item = menu.add(Menu.NONE, MENU_COMPACT, Menu.NONE, R.string.menu_expanded_view);
 			item.setIcon(R.drawable.last_result_compact);
 		}
 		else {
-			item = menu.add(Menu.NONE, MENU_COMPACT, Menu.NONE, R.string.menu_expanded_view);
+			item = menu.add(Menu.NONE, MENU_COMPACT, Menu.NONE, R.string.menu_compact_view);
 			item.setIcon(R.drawable.last_result);			
 		}
 		
@@ -134,11 +134,11 @@ public abstract class CardListActivity extends ListActivity {
 			
 			if(compact) {
 				item.setIcon(R.drawable.last_result_compact);
-				item.setTitle(R.string.menu_compact_view);
+				item.setTitle(R.string.menu_expanded_view);
 			}
 			else {
 				item.setIcon(R.drawable.last_result);
-				item.setTitle(R.string.menu_expanded_view);
+				item.setTitle(R.string.menu_compact_view);
 			}
 		}
 

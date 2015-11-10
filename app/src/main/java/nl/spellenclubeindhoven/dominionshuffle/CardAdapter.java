@@ -60,17 +60,17 @@ class CardAdapter extends ArrayAdapter<Card> {
 
 		holder.setBaneCard(result != null && card == result.getBaneCard());
 		holder.setCompact(compact);
-		holder.setName(card.getDisplay());
+		holder.setName(Localise.getSetName(card.getName(), getContext()));
 		StringBuilder type = new StringBuilder();
 		for (String cardType: card.getTypes()) {
 			if (type.length() > 0) {
 				type.append(" - ");
 			}
-			type.append(cardType);
+			type.append(Localise.getTypeName(cardType, getContext()));
 		}
 		holder.setDescription(type.toString());
 		holder.setIconValue(card.getCost());
-		holder.setSet(card.getSet());		
+		holder.setSet(Localise.getSetName(card.getSet(), getContext()));
 		if(cardSelector == null) {
 			holder.hideCheckBox();
 		}
@@ -81,7 +81,7 @@ class CardAdapter extends ArrayAdapter<Card> {
 		return convertView;
 	}
 
-	public boolean isCompact() {
+    public boolean isCompact() {
 		return compact;
 	}
 

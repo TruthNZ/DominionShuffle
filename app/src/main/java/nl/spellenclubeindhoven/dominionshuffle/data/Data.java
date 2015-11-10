@@ -121,7 +121,6 @@ public class Data {
 			boolean basicOrNonSupply = jsonCard.optBoolean("basic", false) || jsonCard.optBoolean("nonSupply", false);
 			Card card = new Card(
 				jsonCard.getString("card"),
-				jsonCard.optString("display"),
 				jsonCard.getString("set"),
 				jsonCard.getString("cost"),
 				types,
@@ -145,8 +144,6 @@ public class Data {
 			}
 			Group group = new Group(
 					jsonGroup.getString("group"),
-					jsonGroup.optString("display"),
-					jsonGroup.getString("description"),
 					groupCards
 					);
 			groups.add(group);			
@@ -164,7 +161,6 @@ public class Data {
 			}
 			Card card = new Card(
 					jsonCard.getString("card"),
-					jsonCard.optString("display"),
 					jsonCard.getString("set"),
 					jsonCard.getString("cost"),
 					types,

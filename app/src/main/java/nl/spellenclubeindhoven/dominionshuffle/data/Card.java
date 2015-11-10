@@ -37,8 +37,8 @@ public class Card extends GroupOrCard {
      **/
     private final boolean basicOrNonSupply;
 
-    public Card(String name, String display, String set, String cost, List<String> types, boolean basicOrNonSupply) {
-        super(name, display);
+    public Card(String name, String set, String cost, List<String> types, boolean basicOrNonSupply) {
+        super(name);
         this.set = set;
         this.cost = cost;
         this.types = types;
@@ -63,7 +63,7 @@ public class Card extends GroupOrCard {
 
     @Override
     public String toString() {
-        return "Card " + getDisplay();
+        return "Card " + getName();
     }
 
     @Override

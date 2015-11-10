@@ -698,16 +698,15 @@ public class SelectActivity extends TabActivity implements OnScrollListener {
 			if (cardOrGroup instanceof Card) {
 				Card card = (Card) cardOrGroup;
 
-				holder.setName(card.getDisplay());
-				holder.setDescription(card.getSet());
+				holder.setName(Localise.getCardName(card.getName(), getContext()));
+				holder.setDescription(Localise.getSetName(card.getSet(), getContext()));
 				holder.setIconValue(card.getCost());
 				holder.setCheckBox(cardSelector, card);
 			} else if (cardOrGroup instanceof Group) {
 				Group group = (Group) cardOrGroup;
 
-				holder.setName(group.getDisplay() + " (" + group.getCards().size()
-						+ ")");
-				holder.setDescription(group.getDescription());
+				holder.setGroupName(Localise.getSetName(group.getName(), getContext()), group.getCards().size());
+				holder.setDescription(Localise.getSetDescription(group.getName(), getContext()));
 				holder.setIconValue(null);
 				holder.setCheckBox(cardSelector, group);
 			}
@@ -739,16 +738,15 @@ public class SelectActivity extends TabActivity implements OnScrollListener {
 			if (cardOrGroup instanceof Card) {
 				Card card = (Card) cardOrGroup;
 
-				holder.setName(card.getDisplay());
-				holder.setDescription(card.getSet());
+				holder.setName(Localise.getCardName(card.getName(), getContext()));
+				holder.setDescription(Localise.getSetName(card.getSet(), getContext()));
 				holder.setIconValue(card.getCost());
 				holder.setRequiredCheckBox(cardSelector.hasRequiredCard(card));
 			} else if (cardOrGroup instanceof Group) {
 				Group group = (Group) cardOrGroup;
 
-				holder.setName(group.getDisplay() + " (" + group.getCards().size()
-						+ ")");
-				holder.setDescription(group.getDescription());
+				holder.setGroupName(Localise.getSetName(group.getName(), getContext()), group.getCards().size());
+				holder.setDescription(Localise.getSetDescription(group.getName(), getContext()));
 				if (cardSelector.hasLimit(group)) {
 					Limit rule = cardSelector.getLimit(group);
 					holder.setMinValue(rule.getMinimum(), rule.getCondition() != null);

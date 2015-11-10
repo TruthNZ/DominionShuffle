@@ -25,6 +25,8 @@ package nl.spellenclubeindhoven.dominionshuffle;
 import nl.spellenclubeindhoven.dominionshuffle.data.Card;
 import nl.spellenclubeindhoven.dominionshuffle.data.CardSelector;
 import nl.spellenclubeindhoven.dominionshuffle.data.Group;
+
+import android.content.Context;
 import android.text.Spannable;
 import android.text.SpannableString;
 import android.text.style.ForegroundColorSpan;
@@ -34,6 +36,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 class CardOrGroupHolder {
+
 	public enum CheckBoxEnum {
 		INCLUDE, EXCLUDE, NONE, REQUIRE
 	}
@@ -182,6 +185,11 @@ class CardOrGroupHolder {
 		}			
 	}
 
+    public void setGroupName(String name, int groupSize) {
+        String displayName = name + " (" + groupSize + ")";
+        nameView.setText(displayName);
+    }
+
 	public void setName(String name) {
 		if(baneCard) {
 			Spannable spannable = new SpannableString(name + baneText);
@@ -190,8 +198,9 @@ class CardOrGroupHolder {
 			spannable.setSpan(new ForegroundColorSpan(baneColor), start, end, 0);
 			spannable.setSpan(new RelativeSizeSpan(0.60f), start, end, 0);
 			nameView.setText(spannable);
-		}
-		else nameView.setText(name);
+		} else {
+            nameView.setText(name);
+        }
 	}
 	
 	public void setDescription(String description) {

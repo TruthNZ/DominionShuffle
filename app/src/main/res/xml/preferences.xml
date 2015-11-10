@@ -7,14 +7,4 @@
         android:inputType="number"
         android:title="@string/cards_to_draw"/>
 
-        <ListPreference
-            android:key="lang"
-            android:title="@string/card_language"
-            android:dialogTitle="@string/card_language"
-            android:entries="@array/languages"
-            android:entryValues="@array/locales"
-            android:defaultValue="@string/default_card_language"
-            android:enabled="false"
-            />
-
 </PreferenceScreen>
