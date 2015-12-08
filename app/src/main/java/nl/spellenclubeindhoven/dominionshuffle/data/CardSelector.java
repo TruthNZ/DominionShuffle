@@ -24,6 +24,7 @@ package nl.spellenclubeindhoven.dominionshuffle.data;
 
 import android.content.Context;
 import android.preference.PreferenceManager;
+import android.util.Log;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -144,8 +145,11 @@ public class CardSelector {
     }
 
     private Result generateSolution(final Result existingResult, final Set<Card> existingAvailableCards) throws SolveError {
+        // First add the Bane card if needed.
+        addBaneIfNeeded(existingResult, existingAvailableCards);
+
         // Check if we have completed the Solution
-        if (countDrawCards(existingResult.getCards()) == getCardsToDraw()) {
+        if (countDrawCards(existingResult.getCards(), existingResult) == getCardsToDraw()) {
             // We've drawn the correct number of cards, now check our limits
             if (checkLimitsSatisfied(existingResult)) {
                 // This is a valid Solution!
@@ -216,8 +220,6 @@ public class CardSelector {
         Result result = new Result(existingResult);
         result.addCard(pickedCard);
 
-        addBaneIfNeeded(pickedCard, result, availableCards);
-
         return result;
     }
 
@@ -225,10 +227,10 @@ public class CardSelector {
      * Counts the cards, excluding those that don't count against the draw limit.<br/>
      * E.g. Events, Basic Cards, Non-Supply Cards
      */
-    private int countDrawCards(final Collection<Card> cards) {
+    private int countDrawCards(final Collection<Card> cards, final Result result) {
         int count = 0;
         for (final Card card : cards) {
-            if (!card.isBasicOrNonSupply() && !card.getTypes().contains(EVENT)) {
+            if (!card.isBasicOrNonSupply() && !card.getTypes().contains(EVENT) && !(result.getBaneCard() == card)) {
                 count++;
             }
         }
@@ -312,11 +314,25 @@ public class CardSelector {
     }
 
     /**
-     * Check the just picked card to determine if need to pick a Bane
+     * Check the current results to determine if need to pick a Bane
      */
-    private void addBaneIfNeeded(final Card pickedCard, final Result result, final Set<Card> availableCards) throws SolveError {
-        // Is Young Witch selected, no? Don't do anything
-        if (pickedCard != data.getCard(YOUNG_WITCH_CARD)) {
+    private void addBaneIfNeeded(final Result result, final Set<Card> availableCards) throws SolveError {
+        // Firstly have we already done the bane card
+        if (result.getBaneCard() != null) {
+            return;
+        }
+
+        // Check if Young Witch is in the selection
+        boolean youngWitchInSelection = false;
+        Card youngWitch = data.getCard(YOUNG_WITCH_CARD);
+        for (Card card: result.getCards()) {
+            if (card == youngWitch) {
+                youngWitchInSelection = true;
+                break;
+            }
+        }
+        if (!youngWitchInSelection) {
+            // Young Witch isn't in selection, don't do anything.
             return;
         }
 
@@ -347,6 +363,7 @@ public class CardSelector {
         final Card baneCard = iterator.next();
 
         result.setBaneCard(baneCard);
+        result.addCard(baneCard);
 
         availableCards.remove(baneCard);
     }

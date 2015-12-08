@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!--  Translated by Rainer Schönbrunn <schoenbrunn@rs-medien.de> -->
+<!--  Additional translations by Christoph Moritz <cmoritz@web.de> -->
 <resources>
 	<string name="menu_lock_lists">Listen gesperrt</string>
 	<string name="menu_unlock_lists">Listen entsperrt</string>
@@ -14,4 +15,9 @@
 	<string name="menu_require_all">Alle behalten</string>
 	<string name="menu_load">Laden</string>
 	<string name="menu_save">Speichern</string>
+	<string name="menu_about">Über</string>
+    
+	<string name="menu_settings">Einstellungen</string>
+    
+	<string name="menu_launch_androminion">Androminion starten</string>
 </resources>
