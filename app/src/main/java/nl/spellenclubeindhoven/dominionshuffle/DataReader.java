@@ -50,8 +50,13 @@ public class DataReader {
 	public boolean loadData() {
 		if(dominionData != null) return false;
 
+		SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(application);
+		String langCode = prefs.getString("lang", "en");
+		String resourceName = langCode.equals("en") ? "data" : "data_" + langCode;
+		int resourceId = application.getResources().getIdentifier(resourceName, "raw", application.getPackageName());
+
 		try {
-			InputStream inputStream = application.getResources().openRawResource(R.raw.data);
+			InputStream inputStream = application.getResources().openRawResource(resourceId);
 			dominionData = Data.read(readStringFromStream(inputStream));
 		} catch (Exception ignore) {
 			ignore.printStackTrace();

@@ -14,7 +14,6 @@
             android:entries="@array/languages"
             android:entryValues="@array/locales"
             android:defaultValue="@string/default_card_language"
-            android:enabled="false"
             />
 
 </PreferenceScreen>
