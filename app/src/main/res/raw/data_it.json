@@ -4,1361 +4,1829 @@
       "card": "Alchemist",
       "set": "Alchemia",
       "cost": "P3",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Alchimista"
     },
     {
       "card": "Apothecary",
       "set": "Alchemia",
       "cost": "P2",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Farmacista"
     },
     {
       "card": "Apprentice",
       "set": "Alchemia",
       "cost": "5",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Apprendista"
     },
     {
       "card": "Familiar",
       "set": "Alchemia",
       "cost": "P3",
-      "type": "Azione - Attacco",
+      "type": [
+        "Azione",
+        "Attacco"
+      ],
       "display": "Famiglio"
     },
     {
       "card": "Golem",
       "set": "Alchemia",
       "cost": "P4",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Herbalist",
       "set": "Alchemia",
       "cost": "2",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Erborista"
     },
     {
       "card": "Philosopher's Stone",
       "set": "Alchemia",
       "cost": "P3",
-      "type": "Tesoro",
+      "type": [
+        "Tesoro"
+      ],
       "display": "Pietra Filosofale"
     },
     {
       "card": "Possession",
       "set": "Alchemia",
       "cost": "P6",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Possessione"
     },
     {
       "card": "Scrying Pool",
       "set": "Alchemia",
       "cost": "P2",
-      "type": "Azione - Attacco",
+      "type": [
+        "Azione",
+        "Attacco"
+      ],
       "display": "Divinazione"
     },
     {
       "card": "Transmute",
       "set": "Alchemia",
       "cost": "P0",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Trasmutazione"
     },
     {
       "card": "University",
       "set": "Alchemia",
       "cost": "P2",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Università"
     },
     {
       "card": "Vineyard",
       "set": "Alchemia",
       "cost": "P0",
-      "type": "Vittoria",
+      "type": [
+        "Vittoria"
+      ],
       "display": "Vigna"
     },
     {
       "card": "Fairgrounds",
       "set": "Cornucopia",
       "cost": "6",
-      "type": "Vittoria",
+      "type": [
+        "Vittoria"
+      ],
       "display": "Mercatino"
     },
     {
       "card": "Farming Village",
       "set": "Cornucopia",
       "cost": "4",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Villaggio Agricolo"
     },
     {
       "card": "Fortune Teller ",
       "set": "Cornucopia",
       "cost": "3",
-      "type": "Azione - Attacco",
+      "type": [
+        "Azione",
+        "Attacco"
+      ],
       "display": "Indovina"
     },
     {
       "card": "Hamlet",
       "set": "Cornucopia",
       "cost": "2",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Borgo"
     },
     {
       "card": "Harvest",
       "set": "Cornucopia",
       "cost": "5",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Mietitura"
     },
     {
       "card": "Horn of Plenty",
       "set": "Cornucopia",
       "cost": "5",
-      "type": "Tesoro",
+      "type": [
+        "Tesoro"
+      ],
       "display": "Cornucopia"
     },
     {
       "card": "Horse Traders",
       "set": "Cornucopia",
       "cost": "4",
-      "type": "Azione - Reazione",
+      "type": [
+        "Azione",
+        "Reazione"
+      ],
       "display": "Mercanti di Cavalli"
     },
     {
       "card": "Hunting Party",
       "set": "Cornucopia",
       "cost": "5",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Battuta di Caccia"
     },
     {
       "card": "Jester",
       "set": "Cornucopia",
       "cost": "5",
-      "type": "Azione - Attacco",
+      "type": [
+        "Azione",
+        "Attacco"
+      ],
       "display": "Giullare"
     },
     {
       "card": "Menagerie",
       "set": "Cornucopia",
       "cost": "3",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Serraglio"
     },
     {
       "card": "Remake",
       "set": "Cornucopia",
       "cost": "4",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Rifacimento"
     },
     {
       "card": "Tournament",
       "set": "Cornucopia",
       "cost": "4",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Torneo"
     },
     {
       "card": "Young Witch",
       "set": "Cornucopia",
       "cost": "4",
-      "type": "Azione - Attacco",
+      "type": [
+        "Azione",
+        "Attacco"
+      ],
       "display": "Giovane Strega"
     },
     {
       "card": "Border Village",
       "set": "Hinterlands",
       "cost": "6",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Cache",
       "set": "Hinterlands",
       "cost": "5",
-      "type": "Tesoro"
+      "type": [
+        "Tesoro"
+      ]
     },
     {
       "card": "Cartographer",
       "set": "Hinterlands",
       "cost": "5",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Crossroads",
       "set": "Hinterlands",
       "cost": "2",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Develop",
       "set": "Hinterlands",
       "cost": "3",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Duchess",
       "set": "Hinterlands",
       "cost": "2",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Embassy",
       "set": "Hinterlands",
       "cost": "5",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Farmland",
       "set": "Hinterlands",
       "cost": "6",
-      "type": "Vittoria"
+      "type": [
+        "Vittoria"
+      ]
     },
     {
       "card": "Fool's Gold",
       "set": "Hinterlands",
       "cost": "2",
-      "type": "Tesoro - Reazione"
+      "type": [
+        "Tesoro",
+        "Reazione"
+      ]
     },
     {
       "card": "Haggler",
       "set": "Hinterlands",
       "cost": "5",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Highway",
       "set": "Hinterlands",
       "cost": "5",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Ill-Gotten Gains",
       "set": "Hinterlands",
       "cost": "5",
-      "type": "Tesoro"
+      "type": [
+        "Tesoro"
+      ]
     },
     {
       "card": "Inn",
       "set": "Hinterlands",
       "cost": "5",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Jack of all Trades",
       "set": "Hinterlands",
       "cost": "4",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Mandarin",
       "set": "Hinterlands",
       "cost": "5",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Margrave",
       "set": "Hinterlands",
       "cost": "5",
-      "type": "Azione - Attacco"
+      "type": [
+        "Azione",
+        "Attacco"
+      ]
     },
     {
       "card": "Noble Brigand",
       "set": "Hinterlands",
       "cost": "4",
-      "type": "Azione - Attacco"
+      "type": [
+        "Azione",
+        "Attacco"
+      ]
     },
     {
       "card": "Nomad Camp",
       "set": "Hinterlands",
       "cost": "4",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Oasis",
       "set": "Hinterlands",
       "cost": "3",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Oracle",
       "set": "Hinterlands",
       "cost": "3",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Scheme",
       "set": "Hinterlands",
       "cost": "3",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Silk Road",
       "set": "Hinterlands",
       "cost": "4",
-      "type": "Vittoria"
+      "type": [
+        "Vittoria"
+      ]
     },
     {
       "card": "Spice Merchant",
       "set": "Hinterlands",
       "cost": "4",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Stables",
       "set": "Hinterlands",
       "cost": "5",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Trader",
       "set": "Hinterlands",
       "cost": "4",
-      "type": "Azione - Reazione"
+      "type": [
+        "Azione",
+        "Reazione"
+      ]
     },
     {
       "card": "Tunnel",
       "set": "Hinterlands",
       "cost": "3",
-      "type": "Vittoria - Reazione"
+      "type": [
+        "Vittoria",
+        "Reazione"
+      ]
     },
     {
       "card": "Baron",
       "set": "Intrigo",
       "cost": "4",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Barone"
     },
     {
       "card": "Bridge",
       "set": "Intrigo",
       "cost": "4",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Ponte"
     },
     {
       "card": "Conspirator",
       "set": "Intrigo",
       "cost": "4",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Cospiratore"
     },
     {
       "card": "Coppersmith",
       "set": "Intrigo",
       "cost": "4",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Battirame"
     },
     {
       "card": "Courtyard",
       "set": "Intrigo",
       "cost": "2",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Cortile di Campagna"
     },
     {
       "card": "Duke",
       "set": "Intrigo",
       "cost": "5",
-      "type": "Vittoria",
+      "type": [
+        "Vittoria"
+      ],
       "display": "Duca"
     },
     {
       "card": "Great Hall",
       "set": "Intrigo",
       "cost": "3",
-      "type": "Azione - Vittoria",
+      "type": [
+        "Azione",
+        "Vittoria"
+      ],
       "display": "Grande Salone"
     },
     {
       "card": "Harem",
       "set": "Intrigo",
       "cost": "6",
-      "type": "Tesoro - Vittoria"
+      "type": [
+        "Tesoro",
+        "Vittoria"
+      ]
     },
     {
       "card": "Ironworks",
       "set": "Intrigo",
       "cost": "4",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Fonderia"
     },
     {
       "card": "Masquerade",
       "set": "Intrigo",
       "cost": "3",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Ballo in Maschera"
     },
     {
       "card": "Mining Village",
       "set": "Intrigo",
       "cost": "4",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Villaggio Minerario"
     },
     {
       "card": "Minion",
       "set": "Intrigo",
       "cost": "5",
-      "type": "Azione - Attacco",
+      "type": [
+        "Azione",
+        "Attacco"
+      ],
       "display": "Tirapiedi"
     },
     {
       "card": "Nobles",
       "set": "Intrigo",
       "cost": "6",
-      "type": "Azione - Vittoria",
+      "type": [
+        "Azione",
+        "Vittoria"
+      ],
       "display": "Nobili"
     },
     {
       "card": "Pawn",
       "set": "Intrigo",
       "cost": "2",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Pedina"
     },
     {
       "card": "Saboteur",
       "set": "Intrigo",
       "cost": "5",
-      "type": "Azione - Attacco",
+      "type": [
+        "Azione",
+        "Attacco"
+      ],
       "display": "Sabotatore"
     },
     {
       "card": "Scout",
       "set": "Intrigo",
       "cost": "4",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Secret Chamber",
       "set": "Intrigo",
       "cost": "2",
-      "type": "Azione - Reazione",
+      "type": [
+        "Azione",
+        "Reazione"
+      ],
       "display": "Stanza Segreta"
     },
     {
       "card": "Shanty Town",
       "set": "Intrigo",
       "cost": "3",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Baraccopoli"
     },
     {
       "card": "Steward",
       "set": "Intrigo",
       "cost": "3",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Maggiordomo"
     },
     {
       "card": "Swindler",
       "set": "Intrigo",
       "cost": "3",
-      "type": "Azione - Attacco",
+      "type": [
+        "Azione",
+        "Attacco"
+      ],
       "display": "Truffatore"
     },
     {
       "card": "Torturer",
       "set": "Intrigo",
       "cost": "5",
-      "type": "Azione - Attacco",
+      "type": [
+        "Azione",
+        "Attacco"
+      ],
       "display": "Carceriere"
     },
     {
       "card": "Trading Post",
       "set": "Intrigo",
       "cost": "5",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Stazione Commerciale"
     },
     {
       "card": "Tribute",
       "set": "Intrigo",
       "cost": "5",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Tributo"
     },
     {
       "card": "Upgrade",
       "set": "Intrigo",
       "cost": "5",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Potenziamento"
     },
     {
       "card": "Wishing Well",
       "set": "Intrigo",
       "cost": "3",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Pozzo dei Desideri"
     },
     {
       "card": "Adventurer",
       "set": "Set Base",
       "cost": "6",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Esploratore"
     },
     {
       "card": "Bureaucrat",
       "set": "Set Base",
       "cost": "4",
-      "type": "Azione - Attacco",
+      "type": [
+        "Azione",
+        "Attacco"
+      ],
       "display": "Burocrate"
     },
     {
       "card": "Cellar",
       "set": "Set Base",
       "cost": "2",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Sotterraneo"
     },
     {
       "card": "Chancellor",
       "set": "Set Base",
       "cost": "3",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Cancelliere"
     },
     {
       "card": "Chapel",
       "set": "Set Base",
       "cost": "2",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Cappella"
     },
     {
       "card": "Council Room",
       "set": "Set Base",
       "cost": "5",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Sala del Consiglio"
     },
     {
       "card": "Feast",
       "set": "Set Base",
       "cost": "4",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Banchetto"
     },
     {
       "card": "Festival",
       "set": "Set Base",
       "cost": "5",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Fiera"
     },
     {
       "card": "Gardens",
       "set": "Set Base",
       "cost": "4",
-      "type": "Vittoria",
+      "type": [
+        "Vittoria"
+      ],
       "display": "Giardini"
     },
     {
       "card": "Laboratory",
       "set": "Set Base",
       "cost": "5",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Laboratorio"
     },
     {
       "card": "Library",
       "set": "Set Base",
       "cost": "5",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Biblioteca"
     },
     {
       "card": "Market",
       "set": "Set Base",
       "cost": "5",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Mercato"
     },
     {
       "card": "Militia",
       "set": "Set Base",
       "cost": "4",
-      "type": "Azione - Attacco",
+      "type": [
+        "Azione",
+        "Attacco"
+      ],
       "display": "Milizia"
     },
     {
       "card": "Mine",
       "set": "Set Base",
       "cost": "5",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Miniera"
     },
     {
       "card": "Moat",
       "set": "Set Base",
       "cost": "2",
-      "type": "Azione - Reazione",
+      "type": [
+        "Azione",
+        "Reazione"
+      ],
       "display": "Fossato"
     },
     {
       "card": "Moneylender",
       "set": "Set Base",
       "cost": "4",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Usuraio"
     },
     {
       "card": "Remodel",
       "set": "Set Base",
       "cost": "4",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Miglioria"
     },
     {
       "card": "Smithy",
       "set": "Set Base",
       "cost": "4",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Fucina"
     },
     {
       "card": "Spy",
       "set": "Set Base",
       "cost": "4",
-      "type": "Azione - Attacco",
+      "type": [
+        "Azione",
+        "Attacco"
+      ],
       "display": "Spia"
     },
     {
       "card": "Thief",
       "set": "Set Base",
       "cost": "4",
-      "type": "Azione - Attacco",
+      "type": [
+        "Azione",
+        "Attacco"
+      ],
       "display": "Ladro"
     },
     {
       "card": "Throne Room",
       "set": "Set Base",
       "cost": "4",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Sala del Trono"
     },
     {
       "card": "Village",
       "set": "Set Base",
       "cost": "3",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Villaggio"
     },
     {
       "card": "Witch",
       "set": "Set Base",
       "cost": "5",
-      "type": "Azione - Attacco",
+      "type": [
+        "Azione",
+        "Attacco"
+      ],
       "display": "Strega"
     },
     {
       "card": "Woodcutter",
       "set": "Set Base",
       "cost": "3",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Taglialegna"
     },
     {
       "card": "Workshop",
       "set": "Set Base",
       "cost": "3",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Officina"
     },
     {
       "card": "Black Market",
       "set": "Promo",
       "cost": "3",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Mercato Nero"
     },
     {
       "card": "Envoy",
       "set": "Promo",
       "cost": "4",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Inviato"
     },
     {
       "card": "Stash",
       "set": "Promo",
       "cost": "5",
-      "type": "Tesoro"
+      "type": [
+        "Tesoro"
+      ]
     },
     {
       "card": "Walled Village",
       "set": "Promo",
       "cost": "4",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Governor",
       "set": "Promo",
       "cost": "5",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Prince",
       "set": "Promo",
       "cost": "8",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Bank",
       "set": "Prosperità",
       "cost": "7",
-      "type": "Tesoro",
+      "type": [
+        "Tesoro"
+      ],
       "display": "Banca"
     },
     {
       "card": "Bishop",
       "set": "Prosperità",
       "cost": "4",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Vescovo"
     },
     {
       "card": "City",
       "set": "Prosperità",
       "cost": "5",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Città"
     },
     {
       "card": "Contraband",
       "set": "Prosperità",
       "cost": "5",
-      "type": "Tesoro",
+      "type": [
+        "Tesoro"
+      ],
       "display": "Contrabbando"
     },
     {
       "card": "Counting House",
       "set": "Prosperità",
       "cost": "5",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Contabilità"
     },
     {
       "card": "Expand",
       "set": "Prosperità",
       "cost": "7",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Ampliamento"
     },
     {
       "card": "Forge",
       "set": "Prosperità",
       "cost": "7",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Incastonare"
     },
     {
       "card": "Goons",
       "set": "Prosperità",
       "cost": "6",
-      "type": "Azione - Attacco",
+      "type": [
+        "Azione",
+        "Attacco"
+      ],
       "display": "Scagnozzi"
     },
     {
       "card": "Grand Market",
       "set": "Prosperità",
       "cost": "6",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Mercato di Lusso"
     },
     {
       "card": "Hoard",
       "set": "Prosperità",
       "cost": "6",
-      "type": "Tesoro",
+      "type": [
+        "Tesoro"
+      ],
       "display": "Mucchio"
     },
     {
       "card": "King's Court",
       "set": "Prosperità",
       "cost": "7",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Corte"
     },
     {
       "card": "Loan",
       "set": "Prosperità",
       "cost": "3",
-      "type": "Tesoro",
+      "type": [
+        "Tesoro"
+      ],
       "display": "Prestito"
     },
     {
       "card": "Mint",
       "set": "Prosperità",
       "cost": "5",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Zecca"
     },
     {
       "card": "Monument",
       "set": "Prosperità",
       "cost": "4",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Monumento"
     },
     {
       "card": "Mountebank",
       "set": "Prosperità",
       "cost": "5",
-      "type": "Azione - Attacco",
+      "type": [
+        "Azione",
+        "Attacco"
+      ],
       "display": "Ciarlatano"
     },
     {
       "card": "Peddler",
       "set": "Prosperità",
       "cost": "8*",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Ambulante"
     },
     {
       "card": "Quarry",
       "set": "Prosperità",
       "cost": "4",
-      "type": "Tesoro",
+      "type": [
+        "Tesoro"
+      ],
       "display": "Cava"
     },
     {
       "card": "Rabble",
       "set": "Prosperità",
       "cost": "5",
-      "type": "Azione - Attacco",
+      "type": [
+        "Azione",
+        "Attacco"
+      ],
       "display": "Tumulto"
     },
     {
       "card": "Royal Seal",
       "set": "Prosperità",
       "cost": "5",
-      "type": "Tesoro",
+      "type": [
+        "Tesoro"
+      ],
       "display": "Sigillo Reale"
     },
     {
       "card": "Talisman",
       "set": "Prosperità",
       "cost": "4",
-      "type": "Tesoro",
+      "type": [
+        "Tesoro"
+      ],
       "display": "Talismano"
     },
     {
       "card": "Trade Route",
       "set": "Prosperità",
       "cost": "3",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Mercante"
     },
     {
       "card": "Vault",
       "set": "Prosperità",
       "cost": "5",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Nascondiglio"
     },
     {
       "card": "Venture",
       "set": "Prosperità",
       "cost": "5",
-      "type": "Tesoro",
+      "type": [
+        "Tesoro"
+      ],
       "display": "Soldo"
     },
     {
       "card": "Watchtower",
       "set": "Prosperità",
       "cost": "3",
-      "type": "Azione - Reazione",
+      "type": [
+        "Azione",
+        "Reazione"
+      ],
       "display": "Torre di Guardia"
     },
     {
       "card": "Worker's Village",
       "set": "Prosperità",
       "cost": "4",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Cantiere"
     },
     {
       "card": "Ambassador",
       "set": "Seaside",
       "cost": "3",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Ambasciatore"
     },
     {
       "card": "Bazaar",
       "set": "Seaside",
       "cost": "5",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Bazar"
     },
     {
       "card": "Caravan",
       "set": "Seaside",
       "cost": "4",
-      "type": "Azione - Durata",
+      "type": [
+        "Azione",
+        "Durata"
+      ],
       "display": "Caravana"
     },
     {
       "card": "Cutpurse",
       "set": "Seaside",
       "cost": "4",
-      "type": "Azione - Attacco",
+      "type": [
+        "Azione",
+        "Attacco"
+      ],
       "display": "Borseggiatore"
     },
     {
       "card": "Embargo",
       "set": "Seaside",
       "cost": "2",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Explorer",
       "set": "Seaside",
       "cost": "5",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Avventuriero"
     },
     {
       "card": "Fishing Village",
       "set": "Seaside",
       "cost": "3",
-      "type": "Azione - Durata",
+      "type": [
+        "Azione",
+        "Durata"
+      ],
       "display": "Villaggio di Pescatori"
     },
     {
       "card": "Ghost Ship",
       "set": "Seaside",
       "cost": "5",
-      "type": "Azione - Attacco",
+      "type": [
+        "Azione",
+        "Attacco"
+      ],
       "display": "Nave Fantasma"
     },
     {
       "card": "Haven",
       "set": "Seaside",
       "cost": "2",
-      "type": "Azione - Durata",
+      "type": [
+        "Azione",
+        "Durata"
+      ],
       "display": "Rada"
     },
     {
       "card": "Island",
       "set": "Seaside",
       "cost": "4",
-      "type": "Azione - Vittoria",
+      "type": [
+        "Azione",
+        "Vittoria"
+      ],
       "display": "Isola"
     },
     {
       "card": "Lighthouse",
       "set": "Seaside",
       "cost": "2",
-      "type": "Azione - Durata",
+      "type": [
+        "Azione",
+        "Durata"
+      ],
       "display": "Faro"
     },
     {
       "card": "Lookout",
       "set": "Seaside",
       "cost": "3",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Vedetta"
     },
     {
       "card": "Merchant Ship",
       "set": "Seaside",
       "cost": "5",
-      "type": "Azione - Durata",
+      "type": [
+        "Azione",
+        "Durata"
+      ],
       "display": "Nave Mercantile"
     },
     {
       "card": "Native Village",
       "set": "Seaside",
       "cost": "2",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Villaggio Indigeno"
     },
     {
       "card": "Navigator",
       "set": "Seaside",
       "cost": "4",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Navigatore"
     },
     {
       "card": "Outpost",
       "set": "Seaside",
       "cost": "5",
-      "type": "Azione - Durata",
+      "type": [
+        "Azione",
+        "Durata"
+      ],
       "display": "Avamposto"
     },
     {
       "card": "Pearl Diver",
       "set": "Seaside",
       "cost": "2",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Pescatore di Perle"
     },
     {
       "card": "Pirate Ship",
       "set": "Seaside",
       "cost": "4",
-      "type": "Azione - Attacco",
+      "type": [
+        "Azione",
+        "Attacco"
+      ],
       "display": "Nave Pirata"
     },
     {
       "card": "Salvager",
       "set": "Seaside",
       "cost": "4",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Recupero"
     },
     {
       "card": "Sea Hag",
       "set": "Seaside",
       "cost": "4",
-      "type": "Azione - Attacco",
+      "type": [
+        "Azione",
+        "Attacco"
+      ],
       "display": "Megera del Mare"
     },
     {
       "card": "Smugglers",
       "set": "Seaside",
       "cost": "3",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Contrabbandiere"
     },
     {
       "card": "Tactician",
       "set": "Seaside",
       "cost": "5",
-      "type": "Azione - Durata",
+      "type": [
+        "Azione",
+        "Durata"
+      ],
       "display": "Stratega"
     },
     {
       "card": "Treasure Map",
       "set": "Seaside",
       "cost": "4",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Mappa del Tesoro"
     },
     {
       "card": "Treasury",
       "set": "Seaside",
       "cost": "5",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Tesoreria"
     },
     {
       "card": "Warehouse",
       "set": "Seaside",
       "cost": "3",
-      "type": "Azione",
+      "type": [
+        "Azione"
+      ],
       "display": "Magazzino"
     },
     {
       "card": "Wharf",
       "set": "Seaside",
       "cost": "5",
-      "type": "Azione - Durata",
+      "type": [
+        "Azione",
+        "Durata"
+      ],
       "display": "Molo"
     },
     {
       "card": "Altar",
       "set": "Dark Ages",
       "cost": "6",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Armory",
       "set": "Dark Ages",
       "cost": "4",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Band of Misfits",
       "set": "Dark Ages",
       "cost": "5",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Bandit Camp",
       "set": "Dark Ages",
       "cost": "5",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Beggar",
       "set": "Dark Ages",
       "cost": "2",
-      "type": "Azione - Reazione"
+      "type": [
+        "Azione",
+        "Reazione"
+      ]
     },
     {
       "card": "Catacombs",
       "set": "Dark Ages",
       "cost": "5",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Count",
       "set": "Dark Ages",
       "cost": "5",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Cultist",
       "set": "Dark Ages",
       "cost": "5",
-      "type": "Action - Attack - Looter"
+      "type": [
+        "Action",
+        "Attack",
+        "Looter"
+      ]
     },
     {
       "card": "Death Cart",
       "set": "Dark Ages",
       "cost": "4",
-      "type": "Action - Looter"
+      "type": [
+        "Action",
+        "Looter"
+      ]
     },
     {
       "card": "Forager",
       "set": "Dark Ages",
       "cost": "3",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Fortress",
       "set": "Dark Ages",
       "cost": "4",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Graverobber",
       "set": "Dark Ages",
       "cost": "5",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Hermit",
       "set": "Dark Ages",
       "cost": "3",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Hunting Grounds",
       "set": "Dark Ages",
       "cost": "6",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Ironmonger",
       "set": "Dark Ages",
       "cost": "4",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Junk Dealer",
       "set": "Dark Ages",
       "cost": "5",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Marauder",
       "set": "Dark Ages",
       "cost": "4",
-      "type": "Action - Attack - Looter"
+      "type": [
+        "Action",
+        "Attack",
+        "Looter"
+      ]
     },
     {
       "card": "Market Square",
       "set": "Dark Ages",
       "cost": "3",
-      "type": "Azione - Reazione"
+      "type": [
+        "Azione",
+        "Reazione"
+      ]
     },
     {
       "card": "Mystic",
       "set": "Dark Ages",
       "cost": "5",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Pillage",
       "set": "Dark Ages",
       "cost": "5",
-      "type": "Azione - Attacco"
+      "type": [
+        "Azione",
+        "Attacco"
+      ]
     },
     {
       "card": "Poor House",
       "set": "Dark Ages",
       "cost": "1",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Procession",
       "set": "Dark Ages",
       "cost": "4",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Rebuild",
       "set": "Dark Ages",
       "cost": "5",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Rogue",
       "set": "Dark Ages",
       "cost": "5",
-      "type": "Azione - Attacco"
+      "type": [
+        "Azione",
+        "Attacco"
+      ]
     },
     {
       "card": "Sage",
       "set": "Dark Ages",
       "cost": "3",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Scavenger",
       "set": "Dark Ages",
       "cost": "4",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Squire",
       "set": "Dark Ages",
       "cost": "2",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Storeroom",
       "set": "Dark Ages",
       "cost": "3",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Urchin",
       "set": "Dark Ages",
       "cost": "3",
-      "type": "Azione - Attacco"
+      "type": [
+        "Azione",
+        "Attacco"
+      ]
     },
     {
       "card": "Vagrant",
       "set": "Dark Ages",
       "cost": "2",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Wandering Minstrel",
       "set": "Dark Ages",
       "cost": "4",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Counterfeit",
       "set": "Dark Ages",
       "cost": "5",
-      "type": "Tesoro"
+      "type": [
+        "Tesoro"
+      ]
     },
     {
       "card": "Feodum",
       "set": "Dark Ages",
       "cost": "4",
-      "type": "Vittoria"
+      "type": [
+        "Vittoria"
+      ]
     },
     {
       "card": "Rats",
       "set": "Dark Ages",
       "cost": "4",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Knights",
       "set": "Dark Ages",
       "cost": "5",
-      "type": "Action - Attack - Knight"
+      "type": [
+        "Action",
+        "Attack",
+        "Knight"
+      ]
     },
     {
       "card": "Advisor",
       "set": "Guilds",
       "cost": "4",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Baker",
       "set": "Guilds",
       "cost": "5",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Butcher",
       "set": "Guilds",
       "cost": "5",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Candlestick Maker",
       "set": "Guilds",
       "cost": "2",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Doctor",
       "set": "Guilds",
       "cost": "3+",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Herald",
       "set": "Guilds",
       "cost": "4+",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Journeyman",
       "set": "Guilds",
       "cost": "5",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Masterpiece",
       "set": "Guilds",
       "cost": "3+",
-      "type": "Tesoro"
+      "type": [
+        "Tesoro"
+      ]
     },
     {
       "card": "Merchant Guild",
       "set": "Guilds",
       "cost": "5",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Plaza",
       "set": "Guilds",
       "cost": "4",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Soothsayer",
       "set": "Guilds",
       "cost": "5",
-      "type": "Azione - Attacco"
+      "type": [
+        "Azione",
+        "Attacco"
+      ]
     },
     {
       "card": "Stonemason",
       "set": "Guilds",
       "cost": "2+",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Taxman",
       "set": "Guilds",
       "cost": "4",
-      "type": "Azione - Attacco"
+      "type": [
+        "Azione",
+        "Attacco"
+      ]
     }
   ],
   "groups": [
@@ -2788,57 +3256,75 @@
       ]
     }
   ],
-  "basic_cards": [
+  "non_kingdom_cards": [
     {
       "card": "Potion",
       "set": "Alchemia",
       "cost": "4",
-      "type": "Tesoro",
+      "type": [
+        "Tesoro"
+      ],
       "display": "Pozione"
     },
     {
       "card": "Colony",
       "set": "Prosperità",
       "cost": "11",
-      "type": "Vittoria",
+      "type": [
+        "Vittoria"
+      ],
       "display": "Colonia"
     },
     {
       "card": "Platinum",
       "set": "Prosperità",
       "cost": "9",
-      "type": "Tesoro",
+      "type": [
+        "Tesoro"
+      ],
       "display": "Platino"
     },
     {
       "card": "Shelter",
       "set": "Dark Ages",
       "cost": "1",
-      "type": "Shelter"
+      "type": [
+        "Shelter"
+      ]
     },
     {
       "card": "Ruins",
       "set": "Dark Ages",
       "cost": "0",
-      "type": "Azione - Attacco"
+      "type": [
+        "Azione",
+        "Attacco"
+      ]
     },
     {
       "card": "Spoils",
       "set": "Dark Ages",
       "cost": "0*",
-      "type": "Tesoro"
+      "type": [
+        "Tesoro"
+      ]
     },
     {
       "card": "Madman",
       "set": "Dark Ages",
       "cost": "0*",
-      "type": "Azione"
+      "type": [
+        "Azione"
+      ]
     },
     {
       "card": "Mercenary",
       "set": "Dark Ages",
       "cost": "0*",
-      "type": "Azione - Attacco"
+      "type": [
+        "Azione",
+        "Attacco"
+      ]
     }
   ]
 }

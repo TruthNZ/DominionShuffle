@@ -4,1428 +4,1896 @@
       "card": "Alchemist",
       "set": "Alkemia",
       "cost": "P3",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Alkemisti"
     },
     {
       "card": "Apothecary",
       "set": "Alkemia",
       "cost": "P2",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Apteekkari"
     },
     {
       "card": "Apprentice",
       "set": "Alkemia",
       "cost": "5",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Oppipoika"
     },
     {
       "card": "Familiar",
       "set": "Alkemia",
       "cost": "P3",
-      "type": "Toiminta - Hyökkäys",
+      "type": [
+        "Toiminta",
+        "Hyökkäys"
+      ],
       "display": "Apuolento"
     },
     {
       "card": "Golem",
       "set": "Alkemia",
       "cost": "P4",
-      "type": "Toiminta"
+      "type": [
+        "Toiminta"
+      ]
     },
     {
       "card": "Herbalist",
       "set": "Alkemia",
       "cost": "2",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Yrttikauppias"
     },
     {
       "card": "Philosopher's Stone",
       "set": "Alkemia",
       "cost": "P3",
-      "type": "Raha",
+      "type": [
+        "Raha"
+      ],
       "display": "Viisasten Kivi"
     },
     {
       "card": "Possession",
       "set": "Alkemia",
       "cost": "P6",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Riivaus"
     },
     {
       "card": "Scrying Pool",
       "set": "Alkemia",
       "cost": "P2",
-      "type": "Toiminta - Hyökkäys",
+      "type": [
+        "Toiminta",
+        "Hyökkäys"
+      ],
       "display": "Ennemalja"
     },
     {
       "card": "Transmute",
       "set": "Alkemia",
       "cost": "P0",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Transmutaatio"
     },
     {
       "card": "University",
       "set": "Alkemia",
       "cost": "P2",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Yliopisto"
     },
     {
       "card": "Vineyard",
       "set": "Alkemia",
       "cost": "P0",
-      "type": "Piste",
+      "type": [
+        "Piste"
+      ],
       "display": "Viinitarha"
     },
     {
       "card": "Fairgrounds",
       "set": "Elonkorjuu",
       "cost": "6",
-      "type": "Piste",
+      "type": [
+        "Piste"
+      ],
       "display": "Markkinat"
     },
     {
       "card": "Farming Village",
       "set": "Elonkorjuu",
       "cost": "4",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Talonpoikaiskylä"
     },
     {
       "card": "Fortune Teller ",
       "set": "Elonkorjuu",
       "cost": "3",
-      "type": "Toiminta - Hyökkäys",
+      "type": [
+        "Toiminta",
+        "Hyökkäys"
+      ],
       "display": "Ennustaja"
     },
     {
       "card": "Hamlet",
       "set": "Elonkorjuu",
       "cost": "2",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Kyläraitti"
     },
     {
       "card": "Harvest",
       "set": "Elonkorjuu",
       "cost": "5",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Sadonkorjuu"
     },
     {
       "card": "Horn of Plenty",
       "set": "Elonkorjuu",
       "cost": "5",
-      "type": "Raha",
+      "type": [
+        "Raha"
+      ],
       "display": "Runsaudensarvi"
     },
     {
       "card": "Horse Traders",
       "set": "Elonkorjuu",
       "cost": "4",
-      "type": "Toiminta - Vastaveto",
+      "type": [
+        "Toiminta",
+        "Vastaveto"
+      ],
       "display": "Hevoskauppias"
     },
     {
       "card": "Hunting Party",
       "set": "Elonkorjuu",
       "cost": "5",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Jahti"
     },
     {
       "card": "Jester",
       "set": "Elonkorjuu",
       "cost": "5",
-      "type": "Toiminta - Hyökkäys",
+      "type": [
+        "Toiminta",
+        "Hyökkäys"
+      ],
       "display": "Narri"
     },
     {
       "card": "Menagerie",
       "set": "Elonkorjuu",
       "cost": "3",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Villieläintarha"
     },
     {
       "card": "Remake",
       "set": "Elonkorjuu",
       "cost": "4",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Jälleenrakennus"
     },
     {
       "card": "Tournament",
       "set": "Elonkorjuu",
       "cost": "4",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Turnajaiset"
     },
     {
       "card": "Young Witch",
       "set": "Elonkorjuu",
       "cost": "4",
-      "type": "Toiminta - Hyökkäys",
+      "type": [
+        "Toiminta",
+        "Hyökkäys"
+      ],
       "display": "Nuori Noita"
     },
     {
       "card": "Border Village",
       "set": "Rajaseudut",
       "cost": "6",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Rajakylä"
     },
     {
       "card": "Cache",
       "set": "Rajaseudut",
       "cost": "5",
-      "type": "Raha",
+      "type": [
+        "Raha"
+      ],
       "display": "Piilo"
     },
     {
       "card": "Cartographer",
       "set": "Rajaseudut",
       "cost": "5",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Kartanpiirtäjä"
     },
     {
       "card": "Crossroads",
       "set": "Rajaseudut",
       "cost": "2",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Tienristeys"
     },
     {
       "card": "Develop",
       "set": "Rajaseudut",
       "cost": "3",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Grynderi"
     },
     {
       "card": "Duchess",
       "set": "Rajaseudut",
       "cost": "2",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Herttuatar"
     },
     {
       "card": "Embassy",
       "set": "Rajaseudut",
       "cost": "5",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Lähetystö"
     },
     {
       "card": "Farmland",
       "set": "Rajaseudut",
       "cost": "6",
-      "type": "Piste",
+      "type": [
+        "Piste"
+      ],
       "display": "Viljelysmaat"
     },
     {
       "card": "Fool's Gold",
       "set": "Rajaseudut",
       "cost": "2",
-      "type": "Raha - Vastaveto",
+      "type": [
+        "Raha",
+        "Vastaveto"
+      ],
       "display": "Katinkulta"
     },
     {
       "card": "Haggler",
       "set": "Rajaseudut",
       "cost": "5",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Tinkijä"
     },
     {
       "card": "Highway",
       "set": "Rajaseudut",
       "cost": "5",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Maantie"
     },
     {
       "card": "Ill-Gotten Gains",
       "set": "Rajaseudut",
       "cost": "5",
-      "type": "Raha",
+      "type": [
+        "Raha"
+      ],
       "display": "Epäonnen saalis"
     },
     {
       "card": "Inn",
       "set": "Rajaseudut",
       "cost": "5",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Majatalo"
     },
     {
       "card": "Jack of all Trades",
       "set": "Rajaseudut",
       "cost": "4",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Monitaituri"
     },
     {
       "card": "Mandarin",
       "set": "Rajaseudut",
       "cost": "5",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Mandariini"
     },
     {
       "card": "Margrave",
       "set": "Rajaseudut",
       "cost": "5",
-      "type": "Toiminta - Hyökkäys",
+      "type": [
+        "Toiminta",
+        "Hyökkäys"
+      ],
       "display": "Markiisi"
     },
     {
       "card": "Noble Brigand",
       "set": "Rajaseudut",
       "cost": "4",
-      "type": "Toiminta - Hyökkäys",
+      "type": [
+        "Toiminta",
+        "Hyökkäys"
+      ],
       "display": "Jalo maantierosvo"
     },
     {
       "card": "Nomad Camp",
       "set": "Rajaseudut",
       "cost": "4",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Paimentolaisleiri"
     },
     {
       "card": "Oasis",
       "set": "Rajaseudut",
       "cost": "3",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Keidas"
     },
     {
       "card": "Oracle",
       "set": "Rajaseudut",
       "cost": "3",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Oraakkeli"
     },
     {
       "card": "Scheme",
       "set": "Rajaseudut",
       "cost": "3",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Juoni"
     },
     {
       "card": "Silk Road",
       "set": "Rajaseudut",
       "cost": "4",
-      "type": "Piste",
+      "type": [
+        "Piste"
+      ],
       "display": "Silkkitie"
     },
     {
       "card": "Spice Merchant",
       "set": "Rajaseudut",
       "cost": "4",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Maustekauppias"
     },
     {
       "card": "Stables",
       "set": "Rajaseudut",
       "cost": "5",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Hevostalli"
     },
     {
       "card": "Trader",
       "set": "Rajaseudut",
       "cost": "4",
-      "type": "Toiminta - Vastaveto",
+      "type": [
+        "Toiminta",
+        "Vastaveto"
+      ],
       "display": "Kaupustelija"
     },
     {
       "card": "Tunnel",
       "set": "Rajaseudut",
       "cost": "3",
-      "type": "Piste - Vastaveto",
+      "type": [
+        "Piste",
+        "Vastaveto"
+      ],
       "display": "Tunneli"
     },
     {
       "card": "Baron",
       "set": "Hovin juonet",
       "cost": "4",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Paroni"
     },
     {
       "card": "Bridge",
       "set": "Hovin juonet",
       "cost": "4",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Silta"
     },
     {
       "card": "Conspirator",
       "set": "Hovin juonet",
       "cost": "4",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Vehkeilijä"
     },
     {
       "card": "Coppersmith",
       "set": "Hovin juonet",
       "cost": "4",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Kupariseppä"
     },
     {
       "card": "Courtyard",
       "set": "Hovin juonet",
       "cost": "2",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Sisäpiha"
     },
     {
       "card": "Duke",
       "set": "Hovin juonet",
       "cost": "5",
-      "type": "Piste",
+      "type": [
+        "Piste"
+      ],
       "display": "Herttua"
     },
     {
       "card": "Great Hall",
       "set": "Hovin juonet",
       "cost": "3",
-      "type": "Toiminta - Piste",
+      "type": [
+        "Toiminta",
+        "Piste"
+      ],
       "display": "Suuri Sali"
     },
     {
       "card": "Harem",
       "set": "Hovin juonet",
       "cost": "6",
-      "type": "Raha - Piste",
+      "type": [
+        "Raha",
+        "Piste"
+      ],
       "display": "Haaremi"
     },
     {
       "card": "Ironworks",
       "set": "Hovin juonet",
       "cost": "4",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Rautapaja"
     },
     {
       "card": "Masquerade",
       "set": "Hovin juonet",
       "cost": "3",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Naamiaiset"
     },
     {
       "card": "Mining Village",
       "set": "Hovin juonet",
       "cost": "4",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Kaivoskylä"
     },
     {
       "card": "Minion",
       "set": "Hovin juonet",
       "cost": "5",
-      "type": "Toiminta - Hyökkäys",
+      "type": [
+        "Toiminta",
+        "Hyökkäys"
+      ],
       "display": "Kätyri"
     },
     {
       "card": "Nobles",
       "set": "Hovin juonet",
       "cost": "6",
-      "type": "Toiminta - Piste",
+      "type": [
+        "Toiminta",
+        "Piste"
+      ],
       "display": "Aateliset"
     },
     {
       "card": "Pawn",
       "set": "Hovin juonet",
       "cost": "2",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Apuri"
     },
     {
       "card": "Saboteur",
       "set": "Hovin juonet",
       "cost": "5",
-      "type": "Toiminta - Hyökkäys",
+      "type": [
+        "Toiminta",
+        "Hyökkäys"
+      ],
       "display": "Tihulainen"
     },
     {
       "card": "Scout",
       "set": "Hovin juonet",
       "cost": "4",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Tiedustelija"
     },
     {
       "card": "Secret Chamber",
       "set": "Hovin juonet",
       "cost": "2",
-      "type": "Toiminta - Vastaveto",
+      "type": [
+        "Toiminta",
+        "Vastaveto"
+      ],
       "display": "Salainen Kammio"
     },
     {
       "card": "Shanty Town",
       "set": "Hovin juonet",
       "cost": "3",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Hökkelikylä"
     },
     {
       "card": "Steward",
       "set": "Hovin juonet",
       "cost": "3",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Käskynhaltija "
     },
     {
       "card": "Swindler",
       "set": "Hovin juonet",
       "cost": "3",
-      "type": "Toiminta - Hyökkäys",
+      "type": [
+        "Toiminta",
+        "Hyökkäys"
+      ],
       "display": "Huijari"
     },
     {
       "card": "Torturer",
       "set": "Hovin juonet",
       "cost": "5",
-      "type": "Toiminta - Hyökkäys",
+      "type": [
+        "Toiminta",
+        "Hyökkäys"
+      ],
       "display": "Kiduttaja"
     },
     {
       "card": "Trading Post",
       "set": "Hovin juonet",
       "cost": "5",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Kauppa-asema"
     },
     {
       "card": "Tribute",
       "set": "Hovin juonet",
       "cost": "5",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Kymmenykset"
     },
     {
       "card": "Upgrade",
       "set": "Hovin juonet",
       "cost": "5",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Parannustyö"
     },
     {
       "card": "Wishing Well",
       "set": "Hovin juonet",
       "cost": "3",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Toivomuskaivo"
     },
     {
       "card": "Adventurer",
       "set": "Valtakunta",
       "cost": "6",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Seikkailija"
     },
     {
       "card": "Bureaucrat",
       "set": "Valtakunta",
       "cost": "4",
-      "type": "Toiminta - Hyökkäys",
+      "type": [
+        "Toiminta",
+        "Hyökkäys"
+      ],
       "display": "Byrokraatti"
     },
     {
       "card": "Cellar",
       "set": "Valtakunta",
       "cost": "2",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Kellari"
     },
     {
       "card": "Chancellor",
       "set": "Valtakunta",
       "cost": "3",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Kansleri"
     },
     {
       "card": "Chapel",
       "set": "Valtakunta",
       "cost": "2",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Kappeli"
     },
     {
       "card": "Council Room",
       "set": "Valtakunta",
       "cost": "5",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Raatihuone"
     },
     {
       "card": "Feast",
       "set": "Valtakunta",
       "cost": "4",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Pidot"
     },
     {
       "card": "Festival",
       "set": "Valtakunta",
       "cost": "5",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Juhlat"
     },
     {
       "card": "Gardens",
       "set": "Valtakunta",
       "cost": "4",
-      "type": "Piste",
+      "type": [
+        "Piste"
+      ],
       "display": "Puutarha"
     },
     {
       "card": "Laboratory",
       "set": "Valtakunta",
       "cost": "5",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Laboratorio"
     },
     {
       "card": "Library",
       "set": "Valtakunta",
       "cost": "5",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Kirjasto"
     },
     {
       "card": "Market",
       "set": "Valtakunta",
       "cost": "5",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Tori"
     },
     {
       "card": "Militia",
       "set": "Valtakunta",
       "cost": "4",
-      "type": "Toiminta - Hyökkäys",
+      "type": [
+        "Toiminta",
+        "Hyökkäys"
+      ],
       "display": "Nostoväki"
     },
     {
       "card": "Mine",
       "set": "Valtakunta",
       "cost": "5",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Kaivos"
     },
     {
       "card": "Moat",
       "set": "Valtakunta",
       "cost": "2",
-      "type": "Toiminta - Vastaveto",
+      "type": [
+        "Toiminta",
+        "Vastaveto"
+      ],
       "display": "Vallihauta"
     },
     {
       "card": "Moneylender",
       "set": "Valtakunta",
       "cost": "4",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Koronkiskuri"
     },
     {
       "card": "Remodel",
       "set": "Valtakunta",
       "cost": "4",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Muutostyö"
     },
     {
       "card": "Smithy",
       "set": "Valtakunta",
       "cost": "4",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Takomo"
     },
     {
       "card": "Spy",
       "set": "Valtakunta",
       "cost": "4",
-      "type": "Toiminta - Hyökkäys",
+      "type": [
+        "Toiminta",
+        "Hyökkäys"
+      ],
       "display": "Vakooja"
     },
     {
       "card": "Thief",
       "set": "Valtakunta",
       "cost": "4",
-      "type": "Toiminta - Hyökkäys",
+      "type": [
+        "Toiminta",
+        "Hyökkäys"
+      ],
       "display": "Varas"
     },
     {
       "card": "Throne Room",
       "set": "Valtakunta",
       "cost": "4",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Valtaistuinsali"
     },
     {
       "card": "Village",
       "set": "Valtakunta",
       "cost": "3",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Kylä"
     },
     {
       "card": "Witch",
       "set": "Valtakunta",
       "cost": "5",
-      "type": "Toiminta - Hyökkäys",
+      "type": [
+        "Toiminta",
+        "Hyökkäys"
+      ],
       "display": "Noita"
     },
     {
       "card": "Woodcutter",
       "set": "Valtakunta",
       "cost": "3",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Metsuri"
     },
     {
       "card": "Workshop",
       "set": "Valtakunta",
       "cost": "3",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Työpaja"
     },
     {
       "card": "Black Market",
       "set": "Promo",
       "cost": "3",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Musta Pörssi"
     },
     {
       "card": "Envoy",
       "set": "Promo",
       "cost": "4",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Lähettiläs"
     },
     {
       "card": "Stash",
       "set": "Promo",
       "cost": "5",
-      "type": "Raha",
+      "type": [
+        "Raha"
+      ],
       "display": "Kätkö"
     },
     {
       "card": "Walled Village",
       "set": "Promo",
       "cost": "4",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Linnoitettu Kylä"
     },
     {
       "card": "Governor",
       "set": "Promo",
       "cost": "5",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Kuvernööri"
     },
     {
       "card": "Prince",
       "set": "Promo",
       "cost": "8",
-      "type": "Toiminta"
+      "type": [
+        "Toiminta"
+      ]
     },
     {
       "card": "Bank",
       "set": "Nousukausi",
       "cost": "7",
-      "type": "Raha",
+      "type": [
+        "Raha"
+      ],
       "display": "Pankki"
     },
     {
       "card": "Bishop",
       "set": "Nousukausi",
       "cost": "4",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Piispa"
     },
     {
       "card": "City",
       "set": "Nousukausi",
       "cost": "5",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Kaupunki"
     },
     {
       "card": "Contraband",
       "set": "Nousukausi",
       "cost": "5",
-      "type": "Raha",
+      "type": [
+        "Raha"
+      ],
       "display": "Hämärät Varat"
     },
     {
       "card": "Counting House",
       "set": "Nousukausi",
       "cost": "5",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Tilitoimisto"
     },
     {
       "card": "Expand",
       "set": "Nousukausi",
       "cost": "7",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Laajennus"
     },
     {
       "card": "Forge",
       "set": "Nousukausi",
       "cost": "7",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Ahjo"
     },
     {
       "card": "Goons",
       "set": "Nousukausi",
       "cost": "6",
-      "type": "Toiminta - Hyökkäys",
+      "type": [
+        "Toiminta",
+        "Hyökkäys"
+      ],
       "display": "Roistot"
     },
     {
       "card": "Grand Market",
       "set": "Nousukausi",
       "cost": "6",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Suurtori"
     },
     {
       "card": "Hoard",
       "set": "Nousukausi",
       "cost": "6",
-      "type": "Raha",
+      "type": [
+        "Raha"
+      ],
       "display": "Aarre"
     },
     {
       "card": "King's Court",
       "set": "Nousukausi",
       "cost": "7",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Kuninkaan Hovi"
     },
     {
       "card": "Loan",
       "set": "Nousukausi",
       "cost": "3",
-      "type": "Raha",
+      "type": [
+        "Raha"
+      ],
       "display": "Laina"
     },
     {
       "card": "Mint",
       "set": "Nousukausi",
       "cost": "5",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Rahapaja"
     },
     {
       "card": "Monument",
       "set": "Nousukausi",
       "cost": "4",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Monumentti"
     },
     {
       "card": "Mountebank",
       "set": "Nousukausi",
       "cost": "5",
-      "type": "Toiminta - Hyökkäys",
+      "type": [
+        "Toiminta",
+        "Hyökkäys"
+      ],
       "display": "Petkuttaja"
     },
     {
       "card": "Peddler",
       "set": "Nousukausi",
       "cost": "8*",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Kulkukauppias"
     },
     {
       "card": "Quarry",
       "set": "Nousukausi",
       "cost": "4",
-      "type": "Raha",
+      "type": [
+        "Raha"
+      ],
       "display": "Louhos"
     },
     {
       "card": "Rabble",
       "set": "Nousukausi",
       "cost": "5",
-      "type": "Toiminta - Hyökkäys",
+      "type": [
+        "Toiminta",
+        "Hyökkäys"
+      ],
       "display": "Rahvas"
     },
     {
       "card": "Royal Seal",
       "set": "Nousukausi",
       "cost": "5",
-      "type": "Raha",
+      "type": [
+        "Raha"
+      ],
       "display": "Sinetti"
     },
     {
       "card": "Talisman",
       "set": "Nousukausi",
       "cost": "4",
-      "type": "Raha",
+      "type": [
+        "Raha"
+      ],
       "display": "Talismaani"
     },
     {
       "card": "Trade Route",
       "set": "Nousukausi",
       "cost": "3",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Kauppareitti"
     },
     {
       "card": "Vault",
       "set": "Nousukausi",
       "cost": "5",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Holvi"
     },
     {
       "card": "Venture",
       "set": "Nousukausi",
       "cost": "5",
-      "type": "Raha",
+      "type": [
+        "Raha"
+      ],
       "display": "Palkkio"
     },
     {
       "card": "Watchtower",
       "set": "Nousukausi",
       "cost": "3",
-      "type": "Toiminta - Vastaveto",
+      "type": [
+        "Toiminta",
+        "Vastaveto"
+      ],
       "display": "Vartiotorni"
     },
     {
       "card": "Worker's Village",
       "set": "Nousukausi",
       "cost": "4",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Työläiskylä"
     },
     {
       "card": "Ambassador",
       "set": "Kaukaiset rannat",
       "cost": "3",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Suurlähettiläs"
     },
     {
       "card": "Bazaar",
       "set": "Kaukaiset rannat",
       "cost": "5",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Basaari"
     },
     {
       "card": "Caravan",
       "set": "Kaukaiset rannat",
       "cost": "4",
-      "type": "Toiminta - Toistuva",
+      "type": [
+        "Toiminta",
+        "Toistuva"
+      ],
       "display": "Karavaani"
     },
     {
       "card": "Cutpurse",
       "set": "Kaukaiset rannat",
       "cost": "4",
-      "type": "Toiminta - Hyökkäys",
+      "type": [
+        "Toiminta",
+        "Hyökkäys"
+      ],
       "display": "Taskuvaras"
     },
     {
       "card": "Embargo",
       "set": "Kaukaiset rannat",
       "cost": "2",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Saarto"
     },
     {
       "card": "Explorer",
       "set": "Kaukaiset rannat",
       "cost": "5",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Tutkimusmatkailija"
     },
     {
       "card": "Fishing Village",
       "set": "Kaukaiset rannat",
       "cost": "3",
-      "type": "Toiminta - Toistuva",
+      "type": [
+        "Toiminta",
+        "Toistuva"
+      ],
       "display": "Kalastuskylä"
     },
     {
       "card": "Ghost Ship",
       "set": "Kaukaiset rannat",
       "cost": "5",
-      "type": "Toiminta - Hyökkäys",
+      "type": [
+        "Toiminta",
+        "Hyökkäys"
+      ],
       "display": "Aavelaiva"
     },
     {
       "card": "Haven",
       "set": "Kaukaiset rannat",
       "cost": "2",
-      "type": "Toiminta - Toistuva",
+      "type": [
+        "Toiminta",
+        "Toistuva"
+      ],
       "display": "Satama"
     },
     {
       "card": "Island",
       "set": "Kaukaiset rannat",
       "cost": "4",
-      "type": "Toiminta - Piste",
+      "type": [
+        "Toiminta",
+        "Piste"
+      ],
       "display": "Saari"
     },
     {
       "card": "Lighthouse",
       "set": "Kaukaiset rannat",
       "cost": "2",
-      "type": "Toiminta - Toistuva",
+      "type": [
+        "Toiminta",
+        "Toistuva"
+      ],
       "display": "Majakka"
     },
     {
       "card": "Lookout",
       "set": "Kaukaiset rannat",
       "cost": "3",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Tähystäjä"
     },
     {
       "card": "Merchant Ship",
       "set": "Kaukaiset rannat",
       "cost": "5",
-      "type": "Toiminta - Toistuva",
+      "type": [
+        "Toiminta",
+        "Toistuva"
+      ],
       "display": "Kauppalaiva"
     },
     {
       "card": "Native Village",
       "set": "Kaukaiset rannat",
       "cost": "2",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Alkuasukaskylä"
     },
     {
       "card": "Navigator",
       "set": "Kaukaiset rannat",
       "cost": "4",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Luotsi"
     },
     {
       "card": "Outpost",
       "set": "Kaukaiset rannat",
       "cost": "5",
-      "type": "Toiminta - Toistuva",
+      "type": [
+        "Toiminta",
+        "Toistuva"
+      ],
       "display": "Rannikkoasema"
     },
     {
       "card": "Pearl Diver",
       "set": "Kaukaiset rannat",
       "cost": "2",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Helmenkalastaja"
     },
     {
       "card": "Pirate Ship",
       "set": "Kaukaiset rannat",
       "cost": "4",
-      "type": "Toiminta - Hyökkäys",
+      "type": [
+        "Toiminta",
+        "Hyökkäys"
+      ],
       "display": "Merirosvolaiva"
     },
     {
       "card": "Salvager",
       "set": "Kaukaiset rannat",
       "cost": "4",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Hylkysukeltaja"
     },
     {
       "card": "Sea Hag",
       "set": "Kaukaiset rannat",
       "cost": "4",
-      "type": "Toiminta - Hyökkäys",
+      "type": [
+        "Toiminta",
+        "Hyökkäys"
+      ],
       "display": "Merennoita"
     },
     {
       "card": "Smugglers",
       "set": "Kaukaiset rannat",
       "cost": "3",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Salakuljettajat"
     },
     {
       "card": "Tactician",
       "set": "Kaukaiset rannat",
       "cost": "5",
-      "type": "Toiminta - Toistuva",
+      "type": [
+        "Toiminta",
+        "Toistuva"
+      ],
       "display": "Taktikko"
     },
     {
       "card": "Treasure Map",
       "set": "Kaukaiset rannat",
       "cost": "4",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Aarrekartta"
     },
     {
       "card": "Treasury",
       "set": "Kaukaiset rannat",
       "cost": "5",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Aarrekammio"
     },
     {
       "card": "Warehouse",
       "set": "Kaukaiset rannat",
       "cost": "3",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Varasto"
     },
     {
       "card": "Wharf",
       "set": "Kaukaiset rannat",
       "cost": "5",
-      "type": "Toiminta - Toistuva",
+      "type": [
+        "Toiminta",
+        "Toistuva"
+      ],
       "display": "Laituri"
     },
     {
       "card": "Altar",
       "set": "Katovuodet",
       "cost": "6",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Alttari"
     },
     {
       "card": "Armory",
       "set": "Katovuodet",
       "cost": "4",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Asevarasto"
     },
     {
       "card": "Band of Misfits",
       "set": "Katovuodet",
       "cost": "5",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Hurja Joukko"
     },
     {
       "card": "Bandit Camp",
       "set": "Katovuodet",
       "cost": "5",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Rosvoleiri"
     },
     {
       "card": "Beggar",
       "set": "Katovuodet",
       "cost": "2",
-      "type": "Toiminta - Vastaveto",
+      "type": [
+        "Toiminta",
+        "Vastaveto"
+      ],
       "display": "Kerjäläinen"
     },
     {
       "card": "Catacombs",
       "set": "Katovuodet",
       "cost": "5",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Katakombit"
     },
     {
       "card": "Count",
       "set": "Katovuodet",
       "cost": "5",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Jaarli"
     },
     {
       "card": "Cultist",
       "set": "Katovuodet",
       "cost": "5",
-      "type": "Toiminta - Hyökkäys - Ryöstäjä",
+      "type": [
+        "Toiminta",
+        "Hyökkäys",
+        "Ryöstäjä"
+      ],
       "display": "Okkultisti"
     },
     {
       "card": "Death Cart",
       "set": "Katovuodet",
       "cost": "4",
-      "type": "Toiminta - Ryöstäjä",
+      "type": [
+        "Toiminta",
+        "Ryöstäjä"
+      ],
       "display": "Ruumisvaunu"
     },
     {
       "card": "Forager",
       "set": "Katovuodet",
       "cost": "3",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Keräilijä"
     },
     {
       "card": "Fortress",
       "set": "Katovuodet",
       "cost": "4",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Linnoitus"
     },
     {
       "card": "Graverobber",
       "set": "Katovuodet",
       "cost": "5",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Haudanryöstäjä"
     },
     {
       "card": "Hermit",
       "set": "Katovuodet",
       "cost": "3",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Erakko"
     },
     {
       "card": "Hunting Grounds",
       "set": "Katovuodet",
       "cost": "6",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Metsästysmaat"
     },
     {
       "card": "Ironmonger",
       "set": "Katovuodet",
       "cost": "4",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Reppuryssä"
     },
     {
       "card": "Junk Dealer",
       "set": "Katovuodet",
       "cost": "5",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Romukauppias"
     },
     {
       "card": "Marauder",
       "set": "Katovuodet",
       "cost": "4",
-      "type": "Toiminta - Hyökkäys - Ryöstäjä",
+      "type": [
+        "Toiminta",
+        "Hyökkäys",
+        "Ryöstäjä"
+      ],
       "display": "Vandaali"
     },
     {
       "card": "Market Square",
       "set": "Katovuodet",
       "cost": "3",
-      "type": "Toiminta - Vastaveto",
+      "type": [
+        "Toiminta",
+        "Vastaveto"
+      ],
       "display": "Kauppatori"
     },
     {
       "card": "Mystic",
       "set": "Katovuodet",
       "cost": "5",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Mystikko"
     },
     {
       "card": "Pillage",
       "set": "Katovuodet",
       "cost": "5",
-      "type": "Toiminta - Hyökkäys",
+      "type": [
+        "Toiminta",
+        "Hyökkäys"
+      ],
       "display": "Ryöstöretki"
     },
     {
       "card": "Poor House",
       "set": "Katovuodet",
       "cost": "1",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Köyhäintalo"
     },
     {
       "card": "Procession",
       "set": "Katovuodet",
       "cost": "4",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Virkanimitys"
     },
     {
       "card": "Rebuild",
       "set": "Katovuodet",
       "cost": "5",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Kunnostus"
     },
     {
       "card": "Rogue",
       "set": "Katovuodet",
       "cost": "5",
-      "type": "Toiminta - Hyökkäys",
+      "type": [
+        "Toiminta",
+        "Hyökkäys"
+      ],
       "display": "Ryöstäjä"
     },
     {
       "card": "Sage",
       "set": "Katovuodet",
       "cost": "3",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Tietäjä"
     },
     {
       "card": "Scavenger",
       "set": "Katovuodet",
       "cost": "4",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Haaskalintu"
     },
     {
       "card": "Squire",
       "set": "Katovuodet",
       "cost": "2",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Aseenkantaja"
     },
     {
       "card": "Storeroom",
       "set": "Katovuodet",
       "cost": "3",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Kellarivarasto"
     },
     {
       "card": "Urchin",
       "set": "Katovuodet",
       "cost": "3",
-      "type": "Toiminta - Hyökkäys",
+      "type": [
+        "Toiminta",
+        "Hyökkäys"
+      ],
       "display": "Katulapsi"
     },
     {
       "card": "Vagrant",
       "set": "Katovuodet",
       "cost": "2",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Kulkuri"
     },
     {
       "card": "Wandering Minstrel",
       "set": "Katovuodet",
       "cost": "4",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Trubaduuri"
     },
     {
       "card": "Counterfeit",
       "set": "Katovuodet",
       "cost": "5",
-      "type": "Raha",
+      "type": [
+        "Raha"
+      ],
       "display": "Väärennös"
     },
     {
       "card": "Feodum",
       "set": "Katovuodet",
       "cost": "4",
-      "type": "Piste",
+      "type": [
+        "Piste"
+      ],
       "display": "Sarka"
     },
     {
       "card": "Rats",
       "set": "Katovuodet",
       "cost": "4",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Rotta"
     },
     {
       "card": "Knights",
       "set": "Katovuodet",
       "cost": "5",
-      "type": "Toiminta - Hyökkäys - Ritari",
+      "type": [
+        "Toiminta",
+        "Hyökkäys",
+        "Ritari"
+      ],
       "display": "Ritarit"
     },
     {
       "card": "Advisor",
       "set": "Killat",
       "cost": "4",
-      "type": "Toiminta"
+      "type": [
+        "Toiminta"
+      ]
     },
     {
       "card": "Baker",
       "set": "Killat",
       "cost": "5",
-      "type": "Toiminta"
+      "type": [
+        "Toiminta"
+      ]
     },
     {
       "card": "Butcher",
       "set": "Killat",
       "cost": "5",
-      "type": "Toiminta"
+      "type": [
+        "Toiminta"
+      ]
     },
     {
       "card": "Candlestick Maker",
       "set": "Killat",
       "cost": "2",
-      "type": "Toiminta"
+      "type": [
+        "Toiminta"
+      ]
     },
     {
       "card": "Doctor",
       "set": "Killat",
       "cost": "3+",
-      "type": "Toiminta"
+      "type": [
+        "Toiminta"
+      ]
     },
     {
       "card": "Herald",
       "set": "Killat",
       "cost": "4+",
-      "type": "Toiminta"
+      "type": [
+        "Toiminta"
+      ]
     },
     {
       "card": "Journeyman",
       "set": "Killat",
       "cost": "5",
-      "type": "Toiminta"
+      "type": [
+        "Toiminta"
+      ]
     },
     {
       "card": "Masterpiece",
       "set": "Killat",
       "cost": "3+",
-      "type": "Raha"
+      "type": [
+        "Raha"
+      ]
     },
     {
       "card": "Merchant Guild",
       "set": "Killat",
       "cost": "5",
-      "type": "Toiminta"
+      "type": [
+        "Toiminta"
+      ]
     },
     {
       "card": "Plaza",
       "set": "Killat",
       "cost": "4",
-      "type": "Toiminta"
+      "type": [
+        "Toiminta"
+      ]
     },
     {
       "card": "Soothsayer",
       "set": "Killat",
       "cost": "5",
-      "type": "Toiminta - Hyökkäys"
+      "type": [
+        "Toiminta",
+        "Hyökkäys"
+      ]
     },
     {
       "card": "Stonemason",
       "set": "Killat",
       "cost": "2+",
-      "type": "Toiminta"
+      "type": [
+        "Toiminta"
+      ]
     },
     {
       "card": "Taxman",
       "set": "Killat",
       "cost": "4",
-      "type": "Toiminta - Hyökkäys"
+      "type": [
+        "Toiminta",
+        "Hyökkäys"
+      ]
     }
   ],
   "groups": [
@@ -2865,61 +3333,79 @@
       "display": "Sotasaalis"
     }
   ],
-  "basic_cards": [
+  "non_kingdom_cards": [
     {
       "card": "Potion",
       "set": "Alkemia",
       "cost": "4",
-      "type": "Raha",
+      "type": [
+        "Raha"
+      ],
       "display": "Rohto"
     },
     {
       "card": "Colony",
       "set": "Nousukausi",
       "cost": "11",
-      "type": "Piste",
+      "type": [
+        "Piste"
+      ],
       "display": "Siirtomaa"
     },
     {
       "card": "Platinum",
       "set": "Nousukausi",
       "cost": "9",
-      "type": "Raha",
+      "type": [
+        "Raha"
+      ],
       "display": "Platina"
     },
     {
       "card": "Shelter",
       "set": "Katovuodet",
       "cost": "1",
-      "type": "Suoja",
+      "type": [
+        "Suoja"
+      ],
       "display": "Suoja"
     },
     {
       "card": "Ruins",
       "set": "Katovuodet",
       "cost": "0",
-      "type": "Toiminta - Hyökkäys",
+      "type": [
+        "Toiminta",
+        "Hyökkäys"
+      ],
       "display": "Raunio"
     },
     {
       "card": "Spoils",
       "set": "Katovuodet",
       "cost": "0*",
-      "type": "Raha",
+      "type": [
+        "Raha"
+      ],
       "display": "Sotasaalis"
     },
     {
       "card": "Madman",
       "set": "Katovuodet",
       "cost": "0*",
-      "type": "Toiminta",
+      "type": [
+        "Toiminta"
+      ],
       "display": "Kylähullu"
     },
     {
       "card": "Mercenary",
       "set": "Katovuodet",
       "cost": "0*",
-      "type": "Toiminta - Hyökkäys",
+      "type": [
+        "Toiminta",
+        "Hyökkäys"
+      ],
       "display": "Palkkasoturi"
     }
   ]

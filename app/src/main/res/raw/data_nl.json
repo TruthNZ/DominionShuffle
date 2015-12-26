@@ -4,1421 +4,1889 @@
       "card": "Alchemist",
       "set": "Alchemisten",
       "cost": "P3",
-      "type": "Actie"
+      "type": [
+        "Actie"
+      ]
     },
     {
       "card": "Apothecary",
       "set": "Alchemisten",
       "cost": "P2",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Apotheker"
     },
     {
       "card": "Apprentice",
       "set": "Alchemisten",
       "cost": "5",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Leerling"
     },
     {
       "card": "Familiar",
       "set": "Alchemisten",
       "cost": "P3",
-      "type": "Actie - Aanval",
+      "type": [
+        "Actie",
+        "Aanval"
+      ],
       "display": "Oude bekende"
     },
     {
       "card": "Golem",
       "set": "Alchemisten",
       "cost": "P4",
-      "type": "Actie"
+      "type": [
+        "Actie"
+      ]
     },
     {
       "card": "Herbalist",
       "set": "Alchemisten",
       "cost": "2",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Kruidenexpert"
     },
     {
       "card": "Philosopher's Stone",
       "set": "Alchemisten",
       "cost": "P3",
-      "type": "Geld",
+      "type": [
+        "Geld"
+      ],
       "display": "Steen der Wijzen"
     },
     {
       "card": "Possession",
       "set": "Alchemisten",
       "cost": "P6",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Bezeten"
     },
     {
       "card": "Scrying Pool",
       "set": "Alchemisten",
       "cost": "P2",
-      "type": "Actie - Aanval",
+      "type": [
+        "Actie",
+        "Aanval"
+      ],
       "display": "Visioen"
     },
     {
       "card": "Transmute",
       "set": "Alchemisten",
       "cost": "P0",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Transformatie"
     },
     {
       "card": "University",
       "set": "Alchemisten",
       "cost": "P2",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Universiteit"
     },
     {
       "card": "Vineyard",
       "set": "Alchemisten",
       "cost": "P0",
-      "type": "Overwinning",
+      "type": [
+        "Overwinning"
+      ],
       "display": "Wijnberg"
     },
     {
       "card": "Fairgrounds",
       "set": "Overvloed",
       "cost": "6",
-      "type": "Overwinning",
+      "type": [
+        "Overwinning"
+      ],
       "display": "Kermisterrein"
     },
     {
       "card": "Farming Village",
       "set": "Overvloed",
       "cost": "4",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Boerendorp"
     },
     {
       "card": "Fortune Teller ",
       "set": "Overvloed",
       "cost": "3",
-      "type": "Actie - Aanval",
+      "type": [
+        "Actie",
+        "Aanval"
+      ],
       "display": "Waarzegster"
     },
     {
       "card": "Hamlet",
       "set": "Overvloed",
       "cost": "2",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Gehucht"
     },
     {
       "card": "Harvest",
       "set": "Overvloed",
       "cost": "5",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Oogst"
     },
     {
       "card": "Horn of Plenty",
       "set": "Overvloed",
       "cost": "5",
-      "type": "Geld",
+      "type": [
+        "Geld"
+      ],
       "display": "Hoorn des Overvloeds"
     },
     {
       "card": "Horse Traders",
       "set": "Overvloed",
       "cost": "4",
-      "type": "Actie - Reactie",
+      "type": [
+        "Actie",
+        "Reactie"
+      ],
       "display": "Paardenhandelaars"
     },
     {
       "card": "Hunting Party",
       "set": "Overvloed",
       "cost": "5",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Jachtgezelschap"
     },
     {
       "card": "Jester",
       "set": "Overvloed",
       "cost": "5",
-      "type": "Actie - Aanval",
+      "type": [
+        "Actie",
+        "Aanval"
+      ],
       "display": "Nar"
     },
     {
       "card": "Menagerie",
       "set": "Overvloed",
       "cost": "3",
-      "type": "Actie"
+      "type": [
+        "Actie"
+      ]
     },
     {
       "card": "Remake",
       "set": "Overvloed",
       "cost": "4",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Nieuwe versie"
     },
     {
       "card": "Tournament",
       "set": "Overvloed",
       "cost": "4",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Toernooi"
     },
     {
       "card": "Young Witch",
       "set": "Overvloed",
       "cost": "4",
-      "type": "Actie - Aanval",
+      "type": [
+        "Actie",
+        "Aanval"
+      ],
       "display": "Jonge heks"
     },
     {
       "card": "Border Village",
       "set": "Achterland",
       "cost": "6",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Grensdorp"
     },
     {
       "card": "Cache",
       "set": "Achterland",
       "cost": "5",
-      "type": "Geld",
+      "type": [
+        "Geld"
+      ],
       "display": "Bewaarplaats"
     },
     {
       "card": "Cartographer",
       "set": "Achterland",
       "cost": "5",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Cartograaf"
     },
     {
       "card": "Crossroads",
       "set": "Achterland",
       "cost": "2",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Splitsing"
     },
     {
       "card": "Develop",
       "set": "Achterland",
       "cost": "3",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Ontwikkelen"
     },
     {
       "card": "Duchess",
       "set": "Achterland",
       "cost": "2",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Hertogin"
     },
     {
       "card": "Embassy",
       "set": "Achterland",
       "cost": "5",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Ambassade"
     },
     {
       "card": "Farmland",
       "set": "Achterland",
       "cost": "6",
-      "type": "Overwinning",
+      "type": [
+        "Overwinning"
+      ],
       "display": "Landbouwgrond"
     },
     {
       "card": "Fool's Gold",
       "set": "Achterland",
       "cost": "2",
-      "type": "Geld - Reactie",
+      "type": [
+        "Geld",
+        "Reactie"
+      ],
       "display": "Klatergoud"
     },
     {
       "card": "Haggler",
       "set": "Achterland",
       "cost": "5",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Sjacheraar"
     },
     {
       "card": "Highway",
       "set": "Achterland",
       "cost": "5",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Hoofdweg"
     },
     {
       "card": "Ill-Gotten Gains",
       "set": "Achterland",
       "cost": "5",
-      "type": "Geld",
+      "type": [
+        "Geld"
+      ],
       "display": "Gestolen Goed"
     },
     {
       "card": "Inn",
       "set": "Achterland",
       "cost": "5",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Herberg"
     },
     {
       "card": "Jack of all Trades",
       "set": "Achterland",
       "cost": "4",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Manusje-van-alles"
     },
     {
       "card": "Mandarin",
       "set": "Achterland",
       "cost": "5",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Mandarijn"
     },
     {
       "card": "Margrave",
       "set": "Achterland",
       "cost": "5",
-      "type": "Actie - Aanval",
+      "type": [
+        "Actie",
+        "Aanval"
+      ],
       "display": "Markgraaf"
     },
     {
       "card": "Noble Brigand",
       "set": "Achterland",
       "cost": "4",
-      "type": "Actie - Aanval",
+      "type": [
+        "Actie",
+        "Aanval"
+      ],
       "display": "Nobele Bandiet"
     },
     {
       "card": "Nomad Camp",
       "set": "Achterland",
       "cost": "4",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Nomadenkamp"
     },
     {
       "card": "Oasis",
       "set": "Achterland",
       "cost": "3",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Oase"
     },
     {
       "card": "Oracle",
       "set": "Achterland",
       "cost": "3",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Orakel"
     },
     {
       "card": "Scheme",
       "set": "Achterland",
       "cost": "3",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Gekonkel"
     },
     {
       "card": "Silk Road",
       "set": "Achterland",
       "cost": "4",
-      "type": "Overwinning",
+      "type": [
+        "Overwinning"
+      ],
       "display": "Zijderoute"
     },
     {
       "card": "Spice Merchant",
       "set": "Achterland",
       "cost": "4",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Specerijenkoopman"
     },
     {
       "card": "Stables",
       "set": "Achterland",
       "cost": "5",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Stallen"
     },
     {
       "card": "Trader",
       "set": "Achterland",
       "cost": "4",
-      "type": "Actie - Reactie",
+      "type": [
+        "Actie",
+        "Reactie"
+      ],
       "display": "Handelaar"
     },
     {
       "card": "Tunnel",
       "set": "Achterland",
       "cost": "3",
-      "type": "Overwinning - Reactie"
+      "type": [
+        "Overwinning",
+        "Reactie"
+      ]
     },
     {
       "card": "Baron",
       "set": "Intrige",
       "cost": "4",
-      "type": "Actie"
+      "type": [
+        "Actie"
+      ]
     },
     {
       "card": "Bridge",
       "set": "Intrige",
       "cost": "4",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Brug"
     },
     {
       "card": "Conspirator",
       "set": "Intrige",
       "cost": "4",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Samenzweerder"
     },
     {
       "card": "Coppersmith",
       "set": "Intrige",
       "cost": "4",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Kopersmid"
     },
     {
       "card": "Courtyard",
       "set": "Intrige",
       "cost": "2",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Binnenplaats"
     },
     {
       "card": "Duke",
       "set": "Intrige",
       "cost": "5",
-      "type": "Overwinning",
+      "type": [
+        "Overwinning"
+      ],
       "display": "Hertog"
     },
     {
       "card": "Great Hall",
       "set": "Intrige",
       "cost": "3",
-      "type": "Actie - Overwinning",
+      "type": [
+        "Actie",
+        "Overwinning"
+      ],
       "display": "Grote zaal"
     },
     {
       "card": "Harem",
       "set": "Intrige",
       "cost": "6",
-      "type": "Geld - Overwinning"
+      "type": [
+        "Geld",
+        "Overwinning"
+      ]
     },
     {
       "card": "Ironworks",
       "set": "Intrige",
       "cost": "4",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "IJzergieterij"
     },
     {
       "card": "Masquerade",
       "set": "Intrige",
       "cost": "3",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Maskerade"
     },
     {
       "card": "Mining Village",
       "set": "Intrige",
       "cost": "4",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Mijndorp"
     },
     {
       "card": "Minion",
       "set": "Intrige",
       "cost": "5",
-      "type": "Actie - Aanval",
+      "type": [
+        "Actie",
+        "Aanval"
+      ],
       "display": "Dienaar"
     },
     {
       "card": "Nobles",
       "set": "Intrige",
       "cost": "6",
-      "type": "Actie - Overwinning",
+      "type": [
+        "Actie",
+        "Overwinning"
+      ],
       "display": "Adel"
     },
     {
       "card": "Pawn",
       "set": "Intrige",
       "cost": "2",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Pion"
     },
     {
       "card": "Saboteur",
       "set": "Intrige",
       "cost": "5",
-      "type": "Actie - Aanval"
+      "type": [
+        "Actie",
+        "Aanval"
+      ]
     },
     {
       "card": "Scout",
       "set": "Intrige",
       "cost": "4",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Verkenner"
     },
     {
       "card": "Secret Chamber",
       "set": "Intrige",
       "cost": "2",
-      "type": "Actie - Reactie",
+      "type": [
+        "Actie",
+        "Reactie"
+      ],
       "display": "Geheime Kamer"
     },
     {
       "card": "Shanty Town",
       "set": "Intrige",
       "cost": "3",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Sloppenwijk"
     },
     {
       "card": "Steward",
       "set": "Intrige",
       "cost": "3",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Lakei"
     },
     {
       "card": "Swindler",
       "set": "Intrige",
       "cost": "3",
-      "type": "Actie - Aanval",
+      "type": [
+        "Actie",
+        "Aanval"
+      ],
       "display": "Oplichter"
     },
     {
       "card": "Torturer",
       "set": "Intrige",
       "cost": "5",
-      "type": "Actie - Aanval",
+      "type": [
+        "Actie",
+        "Aanval"
+      ],
       "display": "Folteraar"
     },
     {
       "card": "Trading Post",
       "set": "Intrige",
       "cost": "5",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Handelspost"
     },
     {
       "card": "Tribute",
       "set": "Intrige",
       "cost": "5",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Tolheffing"
     },
     {
       "card": "Upgrade",
       "set": "Intrige",
       "cost": "5",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Opwaardering"
     },
     {
       "card": "Wishing Well",
       "set": "Intrige",
       "cost": "3",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Wensput"
     },
     {
       "card": "Adventurer",
       "set": "Basisspel",
       "cost": "6",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Avonturier"
     },
     {
       "card": "Bureaucrat",
       "set": "Basisspel",
       "cost": "4",
-      "type": "Actie - Aanval",
+      "type": [
+        "Actie",
+        "Aanval"
+      ],
       "display": "Bureaucraat"
     },
     {
       "card": "Cellar",
       "set": "Basisspel",
       "cost": "2",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Kelder"
     },
     {
       "card": "Chancellor",
       "set": "Basisspel",
       "cost": "3",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Raadsheer"
     },
     {
       "card": "Chapel",
       "set": "Basisspel",
       "cost": "2",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Kapel"
     },
     {
       "card": "Council Room",
       "set": "Basisspel",
       "cost": "5",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Raadszaal"
     },
     {
       "card": "Feast",
       "set": "Basisspel",
       "cost": "4",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Feest"
     },
     {
       "card": "Festival",
       "set": "Basisspel",
       "cost": "5",
-      "type": "Actie"
+      "type": [
+        "Actie"
+      ]
     },
     {
       "card": "Gardens",
       "set": "Basisspel",
       "cost": "4",
-      "type": "Overwinning",
+      "type": [
+        "Overwinning"
+      ],
       "display": "Tuinen"
     },
     {
       "card": "Laboratory",
       "set": "Basisspel",
       "cost": "5",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Laboratorium"
     },
     {
       "card": "Library",
       "set": "Basisspel",
       "cost": "5",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Bibliotheek"
     },
     {
       "card": "Market",
       "set": "Basisspel",
       "cost": "5",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Markt"
     },
     {
       "card": "Militia",
       "set": "Basisspel",
       "cost": "4",
-      "type": "Actie - Aanval",
+      "type": [
+        "Actie",
+        "Aanval"
+      ],
       "display": "Militie"
     },
     {
       "card": "Mine",
       "set": "Basisspel",
       "cost": "5",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Mijn"
     },
     {
       "card": "Moat",
       "set": "Basisspel",
       "cost": "2",
-      "type": "Actie - Reactie",
+      "type": [
+        "Actie",
+        "Reactie"
+      ],
       "display": "Slotgracht"
     },
     {
       "card": "Moneylender",
       "set": "Basisspel",
       "cost": "4",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Geldschieter"
     },
     {
       "card": "Remodel",
       "set": "Basisspel",
       "cost": "4",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Verbouwing"
     },
     {
       "card": "Smithy",
       "set": "Basisspel",
       "cost": "4",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Smidse"
     },
     {
       "card": "Spy",
       "set": "Basisspel",
       "cost": "4",
-      "type": "Actie - Aanval",
+      "type": [
+        "Actie",
+        "Aanval"
+      ],
       "display": "Spion"
     },
     {
       "card": "Thief",
       "set": "Basisspel",
       "cost": "4",
-      "type": "Actie - Aanval",
+      "type": [
+        "Actie",
+        "Aanval"
+      ],
       "display": "Dief"
     },
     {
       "card": "Throne Room",
       "set": "Basisspel",
       "cost": "4",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Troonzaal"
     },
     {
       "card": "Village",
       "set": "Basisspel",
       "cost": "3",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Dorp"
     },
     {
       "card": "Witch",
       "set": "Basisspel",
       "cost": "5",
-      "type": "Actie - Aanval",
+      "type": [
+        "Actie",
+        "Aanval"
+      ],
       "display": "Heks"
     },
     {
       "card": "Woodcutter",
       "set": "Basisspel",
       "cost": "3",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Houthakker"
     },
     {
       "card": "Workshop",
       "set": "Basisspel",
       "cost": "3",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Werkplaats"
     },
     {
       "card": "Black Market",
       "set": "Promotie",
       "cost": "3",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Zwarte Markt"
     },
     {
       "card": "Envoy",
       "set": "Promotie",
       "cost": "4",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Gezant"
     },
     {
       "card": "Stash",
       "set": "Promotie",
       "cost": "5",
-      "type": "Geld",
+      "type": [
+        "Geld"
+      ],
       "display": "Geldbuidel"
     },
     {
       "card": "Walled Village",
       "set": "Promotie",
       "cost": "4",
-      "type": "Actie"
+      "type": [
+        "Actie"
+      ]
     },
     {
       "card": "Governor",
       "set": "Promotie",
       "cost": "5",
-      "type": "Actie"
+      "type": [
+        "Actie"
+      ]
     },
     {
       "card": "Prince",
       "set": "Promotie",
       "cost": "8",
-      "type": "Actie"
+      "type": [
+        "Actie"
+      ]
     },
     {
       "card": "Bank",
       "set": "Welvaart",
       "cost": "7",
-      "type": "Geld"
+      "type": [
+        "Geld"
+      ]
     },
     {
       "card": "Bishop",
       "set": "Welvaart",
       "cost": "4",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Bisschop"
     },
     {
       "card": "City",
       "set": "Welvaart",
       "cost": "5",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Stad"
     },
     {
       "card": "Contraband",
       "set": "Welvaart",
       "cost": "5",
-      "type": "Geld",
+      "type": [
+        "Geld"
+      ],
       "display": "Smokkelwaar"
     },
     {
       "card": "Counting House",
       "set": "Welvaart",
       "cost": "5",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Boekhouding"
     },
     {
       "card": "Expand",
       "set": "Welvaart",
       "cost": "7",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Uitbreiden"
     },
     {
       "card": "Forge",
       "set": "Welvaart",
       "cost": "7",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Vervalsen"
     },
     {
       "card": "Goons",
       "set": "Welvaart",
       "cost": "6",
-      "type": "Actie - Aanval",
+      "type": [
+        "Actie",
+        "Aanval"
+      ],
       "display": "Domkoppen"
     },
     {
       "card": "Grand Market",
       "set": "Welvaart",
       "cost": "6",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Grote markt"
     },
     {
       "card": "Hoard",
       "set": "Welvaart",
       "cost": "6",
-      "type": "Geld",
+      "type": [
+        "Geld"
+      ],
       "display": "Spaargeld"
     },
     {
       "card": "King's Court",
       "set": "Welvaart",
       "cost": "7",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Koningshof"
     },
     {
       "card": "Loan",
       "set": "Welvaart",
       "cost": "3",
-      "type": "Geld",
+      "type": [
+        "Geld"
+      ],
       "display": "Lening"
     },
     {
       "card": "Mint",
       "set": "Welvaart",
       "cost": "5",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Aanmunten"
     },
     {
       "card": "Monument",
       "set": "Welvaart",
       "cost": "4",
-      "type": "Actie"
+      "type": [
+        "Actie"
+      ]
     },
     {
       "card": "Mountebank",
       "set": "Welvaart",
       "cost": "5",
-      "type": "Actie - Aanval",
+      "type": [
+        "Actie",
+        "Aanval"
+      ],
       "display": "Charlatan"
     },
     {
       "card": "Peddler",
       "set": "Welvaart",
       "cost": "8*",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Venter"
     },
     {
       "card": "Quarry",
       "set": "Welvaart",
       "cost": "4",
-      "type": "Geld",
+      "type": [
+        "Geld"
+      ],
       "display": "Steengroeve"
     },
     {
       "card": "Rabble",
       "set": "Welvaart",
       "cost": "5",
-      "type": "Actie - Aanval",
+      "type": [
+        "Actie",
+        "Aanval"
+      ],
       "display": "Gespuis"
     },
     {
       "card": "Royal Seal",
       "set": "Welvaart",
       "cost": "5",
-      "type": "Geld",
+      "type": [
+        "Geld"
+      ],
       "display": "Koninklijk zegel"
     },
     {
       "card": "Talisman",
       "set": "Welvaart",
       "cost": "4",
-      "type": "Geld"
+      "type": [
+        "Geld"
+      ]
     },
     {
       "card": "Trade Route",
       "set": "Welvaart",
       "cost": "3",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Handelsroute"
     },
     {
       "card": "Vault",
       "set": "Welvaart",
       "cost": "5",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Schatkelder"
     },
     {
       "card": "Venture",
       "set": "Welvaart",
       "cost": "5",
-      "type": "Geld",
+      "type": [
+        "Geld"
+      ],
       "display": "Waagstuk"
     },
     {
       "card": "Watchtower",
       "set": "Welvaart",
       "cost": "3",
-      "type": "Actie - Reactie",
+      "type": [
+        "Actie",
+        "Reactie"
+      ],
       "display": "Uitkijktoren"
     },
     {
       "card": "Worker's Village",
       "set": "Welvaart",
       "cost": "4",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Arbeidersdorp"
     },
     {
       "card": "Ambassador",
       "set": "Hijs de Zeilen",
       "cost": "3",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Boodschapper"
     },
     {
       "card": "Bazaar",
       "set": "Hijs de Zeilen",
       "cost": "5",
-      "type": "Actie"
+      "type": [
+        "Actie"
+      ]
     },
     {
       "card": "Caravan",
       "set": "Hijs de Zeilen",
       "cost": "4",
-      "type": "Actie - Duurzaam",
+      "type": [
+        "Actie",
+        "Duurzaam"
+      ],
       "display": "Karavaan"
     },
     {
       "card": "Cutpurse",
       "set": "Hijs de Zeilen",
       "cost": "4",
-      "type": "Actie - Aanval",
+      "type": [
+        "Actie",
+        "Aanval"
+      ],
       "display": "Beurzensnijder"
     },
     {
       "card": "Embargo",
       "set": "Hijs de Zeilen",
       "cost": "2",
-      "type": "Actie"
+      "type": [
+        "Actie"
+      ]
     },
     {
       "card": "Explorer",
       "set": "Hijs de Zeilen",
       "cost": "5",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Ontdekkingsreiziger"
     },
     {
       "card": "Fishing Village",
       "set": "Hijs de Zeilen",
       "cost": "3",
-      "type": "Actie - Duurzaam",
+      "type": [
+        "Actie",
+        "Duurzaam"
+      ],
       "display": "Vissersdorp"
     },
     {
       "card": "Ghost Ship",
       "set": "Hijs de Zeilen",
       "cost": "5",
-      "type": "Actie - Aanval",
+      "type": [
+        "Actie",
+        "Aanval"
+      ],
       "display": "De Vliegende Hollander"
     },
     {
       "card": "Haven",
       "set": "Hijs de Zeilen",
       "cost": "2",
-      "type": "Actie - Duurzaam"
+      "type": [
+        "Actie",
+        "Duurzaam"
+      ]
     },
     {
       "card": "Island",
       "set": "Hijs de Zeilen",
       "cost": "4",
-      "type": "Actie - Overwinning",
+      "type": [
+        "Actie",
+        "Overwinning"
+      ],
       "display": "Eiland"
     },
     {
       "card": "Lighthouse",
       "set": "Hijs de Zeilen",
       "cost": "2",
-      "type": "Actie - Duurzaam",
+      "type": [
+        "Actie",
+        "Duurzaam"
+      ],
       "display": "Vuurtoren"
     },
     {
       "card": "Lookout",
       "set": "Hijs de Zeilen",
       "cost": "3",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Uitkijk"
     },
     {
       "card": "Merchant Ship",
       "set": "Hijs de Zeilen",
       "cost": "5",
-      "type": "Actie - Duurzaam",
+      "type": [
+        "Actie",
+        "Duurzaam"
+      ],
       "display": "Handelsschip"
     },
     {
       "card": "Native Village",
       "set": "Hijs de Zeilen",
       "cost": "2",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Inheems dorp"
     },
     {
       "card": "Navigator",
       "set": "Hijs de Zeilen",
       "cost": "4",
-      "type": "Actie"
+      "type": [
+        "Actie"
+      ]
     },
     {
       "card": "Outpost",
       "set": "Hijs de Zeilen",
       "cost": "5",
-      "type": "Actie - Duurzaam",
+      "type": [
+        "Actie",
+        "Duurzaam"
+      ],
       "display": "Voorpost"
     },
     {
       "card": "Pearl Diver",
       "set": "Hijs de Zeilen",
       "cost": "2",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Parelduiker"
     },
     {
       "card": "Pirate Ship",
       "set": "Hijs de Zeilen",
       "cost": "4",
-      "type": "Actie - Aanval",
+      "type": [
+        "Actie",
+        "Aanval"
+      ],
       "display": "Piratenschip"
     },
     {
       "card": "Salvager",
       "set": "Hijs de Zeilen",
       "cost": "4",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Afvalverwerker"
     },
     {
       "card": "Sea Hag",
       "set": "Hijs de Zeilen",
       "cost": "4",
-      "type": "Actie - Aanval",
+      "type": [
+        "Actie",
+        "Aanval"
+      ],
       "display": "Zeeheks"
     },
     {
       "card": "Smugglers",
       "set": "Hijs de Zeilen",
       "cost": "3",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Smokkelaar"
     },
     {
       "card": "Tactician",
       "set": "Hijs de Zeilen",
       "cost": "5",
-      "type": "Actie - Duurzaam",
+      "type": [
+        "Actie",
+        "Duurzaam"
+      ],
       "display": "Strateeg"
     },
     {
       "card": "Treasure Map",
       "set": "Hijs de Zeilen",
       "cost": "4",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Schatkaart"
     },
     {
       "card": "Treasury",
       "set": "Hijs de Zeilen",
       "cost": "5",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Schatkamer"
     },
     {
       "card": "Warehouse",
       "set": "Hijs de Zeilen",
       "cost": "3",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Pakhuis"
     },
     {
       "card": "Wharf",
       "set": "Hijs de Zeilen",
       "cost": "5",
-      "type": "Actie - Duurzaam",
+      "type": [
+        "Actie",
+        "Duurzaam"
+      ],
       "display": "Scheepswerf"
     },
     {
       "card": "Altar",
       "set": "Middeleeuwen",
       "cost": "6",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Altaar"
     },
     {
       "card": "Armory",
       "set": "Middeleeuwen",
       "cost": "4",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Wapenkamer"
     },
     {
       "card": "Band of Misfits",
       "set": "Middeleeuwen",
       "cost": "5",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Groep mislukkelingen"
     },
     {
       "card": "Bandit Camp",
       "set": "Middeleeuwen",
       "cost": "5",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Bandietenkamp"
     },
     {
       "card": "Beggar",
       "set": "Middeleeuwen",
       "cost": "2",
-      "type": "Actie - Reactie",
+      "type": [
+        "Actie",
+        "Reactie"
+      ],
       "display": "Bedelaar"
     },
     {
       "card": "Catacombs",
       "set": "Middeleeuwen",
       "cost": "5",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Gewelven"
     },
     {
       "card": "Count",
       "set": "Middeleeuwen",
       "cost": "5",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Graaf"
     },
     {
       "card": "Cultist",
       "set": "Middeleeuwen",
       "cost": "5",
-      "type": "Actie - Aanval - Plunderaar"
+      "type": [
+        "Actie",
+        "Aanval",
+        "Plunderaar"
+      ]
     },
     {
       "card": "Death Cart",
       "set": "Middeleeuwen",
       "cost": "4",
-      "type": "Acite - Plunderaar",
+      "type": [
+        "Acite",
+        "Plunderaar"
+      ],
       "display": "Dodenkar"
     },
     {
       "card": "Forager",
       "set": "Middeleeuwen",
       "cost": "3",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Jager-verzamelaar"
     },
     {
       "card": "Fortress",
       "set": "Middeleeuwen",
       "cost": "4",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Vesting"
     },
     {
       "card": "Graverobber",
       "set": "Middeleeuwen",
       "cost": "5",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Grafrover"
     },
     {
       "card": "Hermit",
       "set": "Middeleeuwen",
       "cost": "3",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Kluizenaar"
     },
     {
       "card": "Hunting Grounds",
       "set": "Middeleeuwen",
       "cost": "6",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Jachtvelden"
     },
     {
       "card": "Ironmonger",
       "set": "Middeleeuwen",
       "cost": "4",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Metaalhandelaar"
     },
     {
       "card": "Junk Dealer",
       "set": "Middeleeuwen",
       "cost": "5",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Opkoper"
     },
     {
       "card": "Marauder",
       "set": "Middeleeuwen",
       "cost": "4",
-      "type": "Actie - Aanval - Plunderaar",
+      "type": [
+        "Actie",
+        "Aanval",
+        "Plunderaar"
+      ],
       "display": "Stroper"
     },
     {
       "card": "Market Square",
       "set": "Middeleeuwen",
       "cost": "3",
-      "type": "Actie - Reactie",
+      "type": [
+        "Actie",
+        "Reactie"
+      ],
       "display": "Marktplein"
     },
     {
       "card": "Mystic",
       "set": "Middeleeuwen",
       "cost": "5",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Toverfeeks"
     },
     {
       "card": "Pillage",
       "set": "Middeleeuwen",
       "cost": "5",
-      "type": "Actie - Aanval",
+      "type": [
+        "Actie",
+        "Aanval"
+      ],
       "display": "Plundering"
     },
     {
       "card": "Poor House",
       "set": "Middeleeuwen",
       "cost": "1",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Armenhuis"
     },
     {
       "card": "Procession",
       "set": "Middeleeuwen",
       "cost": "4",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Optocht"
     },
     {
       "card": "Rebuild",
       "set": "Middeleeuwen",
       "cost": "5",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Wederopbouw"
     },
     {
       "card": "Rogue",
       "set": "Middeleeuwen",
       "cost": "5",
-      "type": "Actie - Aanval",
+      "type": [
+        "Actie",
+        "Aanval"
+      ],
       "display": "Schurk"
     },
     {
       "card": "Sage",
       "set": "Middeleeuwen",
       "cost": "3",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Wijsgeer"
     },
     {
       "card": "Scavenger",
       "set": "Middeleeuwen",
       "cost": "4",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Scharrelaar"
     },
     {
       "card": "Squire",
       "set": "Middeleeuwen",
       "cost": "2",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Schildknaap"
     },
     {
       "card": "Storeroom",
       "set": "Middeleeuwen",
       "cost": "3",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Berghok"
     },
     {
       "card": "Urchin",
       "set": "Middeleeuwen",
       "cost": "3",
-      "type": "Actie - Aanval",
+      "type": [
+        "Actie",
+        "Aanval"
+      ],
       "display": "Straatjongen"
     },
     {
       "card": "Vagrant",
       "set": "Middeleeuwen",
       "cost": "2",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Landloper"
     },
     {
       "card": "Wandering Minstrel",
       "set": "Middeleeuwen",
       "cost": "4",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Reizende minstreel"
     },
     {
       "card": "Counterfeit",
       "set": "Middeleeuwen",
       "cost": "5",
-      "type": "Geld",
+      "type": [
+        "Geld"
+      ],
       "display": "Vals geld"
     },
     {
       "card": "Feodum",
       "set": "Middeleeuwen",
       "cost": "4",
-      "type": "Overwinning"
+      "type": [
+        "Overwinning"
+      ]
     },
     {
       "card": "Rats",
       "set": "Middeleeuwen",
       "cost": "4",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Ratten"
     },
     {
       "card": "Knights",
       "set": "Middeleeuwen",
       "cost": "5",
-      "type": "Actie - Aanval - Ridder",
+      "type": [
+        "Actie",
+        "Aanval",
+        "Ridder"
+      ],
       "display": "Ridders"
     },
     {
       "card": "Advisor",
       "set": "De Gilden",
       "cost": "4",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Adviseur"
     },
     {
       "card": "Baker",
       "set": "De Gilden",
       "cost": "5",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Bakker"
     },
     {
       "card": "Butcher",
       "set": "De Gilden",
       "cost": "5",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Slager"
     },
     {
       "card": "Candlestick Maker",
       "set": "De Gilden",
       "cost": "2",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Kandelaarmaker"
     },
     {
       "card": "Doctor",
       "set": "De Gilden",
       "cost": "3+",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Arts"
     },
     {
       "card": "Herald",
       "set": "De Gilden",
       "cost": "4+",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Heraut"
     },
     {
       "card": "Journeyman",
       "set": "De Gilden",
       "cost": "5",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Gezel"
     },
     {
       "card": "Masterpiece",
       "set": "De Gilden",
       "cost": "3+",
-      "type": "Geld",
+      "type": [
+        "Geld"
+      ],
       "display": "Meesterwerk"
     },
     {
       "card": "Merchant Guild",
       "set": "De Gilden",
       "cost": "5",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Koopmansgilde"
     },
     {
       "card": "Plaza",
       "set": "De Gilden",
       "cost": "4",
-      "type": "Actie"
+      "type": [
+        "Actie"
+      ]
     },
     {
       "card": "Soothsayer",
       "set": "De Gilden",
       "cost": "5",
-      "type": "Actie - Aanval",
+      "type": [
+        "Actie",
+        "Aanval"
+      ],
       "display": "Helderziende"
     },
     {
       "card": "Stonemason",
       "set": "De Gilden",
       "cost": "2+",
-      "type": "Actie",
+      "type": [
+        "Actie"
+      ],
       "display": "Steenhouwer"
     },
     {
       "card": "Taxman",
       "set": "De Gilden",
       "cost": "4",
-      "type": "Actie - Aanval",
+      "type": [
+        "Actie",
+        "Aanval"
+      ],
       "display": "Belastinginner"
     }
   ],
@@ -2855,58 +3323,76 @@
       ]
     }
   ],
-  "basic_cards": [
+  "non_kingdom_cards": [
     {
       "card": "Potion",
       "set": "Alchemisten",
       "cost": "4",
-      "type": "Geld",
+      "type": [
+        "Geld"
+      ],
       "display": "Toverdrank"
     },
     {
       "card": "Colony",
       "set": "Welvaart",
       "cost": "11",
-      "type": "Overwinning",
+      "type": [
+        "Overwinning"
+      ],
       "display": "Kolonie"
     },
     {
       "card": "Platinum",
       "set": "Welvaart",
       "cost": "9",
-      "type": "Geld",
+      "type": [
+        "Geld"
+      ],
       "display": "Platina"
     },
     {
       "card": "Shelter",
       "set": "Middeleeuwen",
       "cost": "1",
-      "type": "Onderdak",
+      "type": [
+        "Onderdak"
+      ],
       "display": "Onderdak"
     },
     {
       "card": "Ruins",
       "set": "Middeleeuwen",
       "cost": "0",
-      "type": "Actie - Aanval"
+      "type": [
+        "Actie",
+        "Aanval"
+      ]
     },
     {
       "card": "Spoils",
       "set": "Middeleeuwen",
       "cost": "0*",
-      "type": "Geld"
+      "type": [
+        "Geld"
+      ]
     },
     {
       "card": "Madman",
       "set": "Middeleeuwen",
       "cost": "0*",
-      "type": "Actie"
+      "type": [
+        "Actie"
+      ]
     },
     {
       "card": "Mercenary",
       "set": "Middeleeuwen",
       "cost": "0*",
-      "type": "Actie - Aanval"
+      "type": [
+        "Actie",
+        "Aanval"
+      ]
     }
   ]
 }

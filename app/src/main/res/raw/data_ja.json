@@ -4,1429 +4,1893 @@
       "card": "Alchemist",
       "set": "錬金術",
       "cost": "P3",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "錬金術師"
     },
     {
       "card": "Apothecary",
       "set": "錬金術",
       "cost": "P2",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "薬師"
     },
     {
       "card": "Apprentice",
       "set": "錬金術",
       "cost": "5",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "弟子"
     },
     {
       "card": "Familiar",
       "set": "錬金術",
       "cost": "P3",
-      "type": "アクション - アタック",
+      "type": [
+        "アクション",
+        "アタック"
+      ],
       "display": "使い魔"
     },
     {
       "card": "Golem",
       "set": "錬金術",
       "cost": "P4",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "ゴーレム"
     },
     {
       "card": "Herbalist",
       "set": "錬金術",
       "cost": "2",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "薬草商"
     },
     {
       "card": "Philosopher's Stone",
       "set": "錬金術",
       "cost": "P3",
-      "type": "財宝",
+      "type": [
+        "財宝"
+      ],
       "display": "賢者の石"
     },
     {
       "card": "Possession",
       "set": "錬金術",
       "cost": "P6",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "支配"
     },
     {
       "card": "Scrying Pool",
       "set": "錬金術",
       "cost": "P2",
-      "type": "アクション - アタック",
+      "type": [
+        "アクション",
+        "アタック"
+      ],
       "display": "念視の泉"
     },
     {
       "card": "Transmute",
       "set": "錬金術",
       "cost": "P0",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "変成"
     },
     {
       "card": "University",
       "set": "錬金術",
       "cost": "P2",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "大学"
     },
     {
       "card": "Vineyard",
       "set": "錬金術",
       "cost": "P0",
-      "type": "勝利点",
+      "type": [
+        "勝利点"
+      ],
       "display": "ブドウ園"
     },
     {
       "card": "Fairgrounds",
       "set": "収穫祭",
       "cost": "6",
-      "type": "勝利点",
+      "type": [
+        "勝利点"
+      ],
       "display": "品評会"
     },
     {
       "card": "Farming Village",
       "set": "収穫祭",
       "cost": "4",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "農村"
     },
     {
       "card": "Fortune Teller ",
       "set": "収穫祭",
       "cost": "3",
-      "type": "アクション - アタック",
+      "type": [
+        "アクション",
+        "アタック"
+      ],
       "display": "占い師"
     },
     {
       "card": "Hamlet",
       "set": "収穫祭",
       "cost": "2",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "村落"
     },
     {
       "card": "Harvest",
       "set": "収穫祭",
       "cost": "5",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "収穫"
     },
     {
       "card": "Horn of Plenty",
       "set": "収穫祭",
       "cost": "5",
-      "type": "財宝",
+      "type": [
+        "財宝"
+      ],
       "display": "豊穣の角笛"
     },
     {
       "card": "Horse Traders",
       "set": "収穫祭",
       "cost": "4",
-      "type": "アクション - リアクション",
+      "type": [
+        "アクション",
+        "リアクション"
+      ],
       "display": "馬商人"
     },
     {
       "card": "Hunting Party",
       "set": "収穫祭",
       "cost": "5",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "狩猟団"
     },
     {
       "card": "Jester",
       "set": "収穫祭",
       "cost": "5",
-      "type": "アクション - アタック",
+      "type": [
+        "アクション",
+        "アタック"
+      ],
       "display": "道化師"
     },
     {
       "card": "Menagerie",
       "set": "収穫祭",
       "cost": "3",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "移動動物園"
     },
     {
       "card": "Remake",
       "set": "収穫祭",
       "cost": "4",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "再建"
     },
     {
       "card": "Tournament",
       "set": "収穫祭",
       "cost": "4",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "馬上槍試合"
     },
     {
       "card": "Young Witch",
       "set": "収穫祭",
       "cost": "4",
-      "type": "アクション - アタック",
+      "type": [
+        "アクション",
+        "アタック"
+      ],
       "display": "魔女娘"
     },
     {
       "card": "Border Village",
       "set": "異郷",
       "cost": "6",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "国境の村"
     },
     {
       "card": "Cache",
       "set": "異郷",
       "cost": "5",
-      "type": "財宝",
+      "type": [
+        "財宝"
+      ],
       "display": "埋蔵金"
     },
     {
       "card": "Cartographer",
       "set": "異郷",
       "cost": "5",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "地図職人"
     },
     {
       "card": "Crossroads",
       "set": "異郷",
       "cost": "2",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "岐路"
     },
     {
       "card": "Develop",
       "set": "異郷",
       "cost": "3",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "開発"
     },
     {
       "card": "Duchess",
       "set": "異郷",
       "cost": "2",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "公爵夫人"
     },
     {
       "card": "Embassy",
       "set": "異郷",
       "cost": "5",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "大使館"
     },
     {
       "card": "Farmland",
       "set": "異郷",
       "cost": "6",
-      "type": "勝利点",
+      "type": [
+        "勝利点"
+      ],
       "display": "農地"
     },
     {
       "card": "Fool's Gold",
       "set": "異郷",
       "cost": "2",
-      "type": "財宝 - リアクション",
+      "type": [
+        "財宝",
+        "リアクション"
+      ],
       "display": "愚者の黄金"
     },
     {
       "card": "Haggler",
       "set": "異郷",
       "cost": "5",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "値切り屋"
     },
     {
       "card": "Highway",
       "set": "異郷",
       "cost": "5",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "街道"
     },
     {
       "card": "Ill-Gotten Gains",
       "set": "異郷",
       "cost": "5",
-      "type": "財宝",
+      "type": [
+        "財宝"
+      ],
       "display": "不正利得"
     },
     {
       "card": "Inn",
       "set": "異郷",
       "cost": "5",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "宿屋"
     },
     {
       "card": "Jack of all Trades",
       "set": "異郷",
       "cost": "4",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "よろずや"
     },
     {
       "card": "Mandarin",
       "set": "異郷",
       "cost": "5",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "官吏"
     },
     {
       "card": "Margrave",
       "set": "異郷",
       "cost": "5",
-      "type": "アクション - アタック",
+      "type": [
+        "アクション",
+        "アタック"
+      ],
       "display": "辺境伯"
     },
     {
       "card": "Noble Brigand",
       "set": "異郷",
       "cost": "4",
-      "type": "アクション - アタック",
+      "type": [
+        "アクション",
+        "アタック"
+      ],
       "display": "義賊"
     },
     {
       "card": "Nomad Camp",
       "set": "異郷",
       "cost": "4",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "遊牧民の野営地"
     },
     {
       "card": "Oasis",
       "set": "異郷",
       "cost": "3",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "オアシス"
     },
     {
       "card": "Oracle",
       "set": "異郷",
       "cost": "3",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "神託"
     },
     {
       "card": "Scheme",
       "set": "異郷",
       "cost": "3",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "画策"
     },
     {
       "card": "Silk Road",
       "set": "異郷",
       "cost": "4",
-      "type": "勝利点",
+      "type": [
+        "勝利点"
+      ],
       "display": "シルクロード"
     },
     {
       "card": "Spice Merchant",
       "set": "異郷",
       "cost": "4",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "香辛料商人"
     },
     {
       "card": "Stables",
       "set": "異郷",
       "cost": "5",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "厩舎"
     },
     {
       "card": "Trader",
       "set": "異郷",
       "cost": "4",
-      "type": "アクション - リアクション",
+      "type": [
+        "アクション",
+        "リアクション"
+      ],
       "display": "交易人"
     },
     {
       "card": "Tunnel",
       "set": "異郷",
       "cost": "3",
-      "type": "勝利点 - リアクション",
+      "type": [
+        "勝利点",
+        "リアクション"
+      ],
       "display": "坑道"
     },
     {
       "card": "Baron",
       "set": "陰謀",
       "cost": "4",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "男爵"
     },
     {
       "card": "Bridge",
       "set": "陰謀",
       "cost": "4",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "橋"
     },
     {
       "card": "Conspirator",
       "set": "陰謀",
       "cost": "4",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "共謀者"
     },
     {
       "card": "Coppersmith",
       "set": "陰謀",
       "cost": "4",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "銅細工師"
     },
     {
       "card": "Courtyard",
       "set": "陰謀",
       "cost": "2",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "中庭"
     },
     {
       "card": "Duke",
       "set": "陰謀",
       "cost": "5",
-      "type": "勝利点",
+      "type": [
+        "勝利点"
+      ],
       "display": "公爵"
     },
     {
       "card": "Great Hall",
       "set": "陰謀",
       "cost": "3",
-      "type": "アクション - 勝利点",
+      "type": [
+        "アクション",
+        "勝利点"
+      ],
       "display": "大広間"
     },
     {
       "card": "Harem",
       "set": "陰謀",
       "cost": "6",
-      "type": "財宝 - 勝利点",
+      "type": [
+        "財宝",
+        "勝利点"
+      ],
       "display": "ハーレム"
     },
     {
       "card": "Ironworks",
       "set": "陰謀",
       "cost": "4",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "鉄工所"
     },
     {
       "card": "Masquerade",
       "set": "陰謀",
       "cost": "3",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "仮面舞踏会"
     },
     {
       "card": "Mining Village",
       "set": "陰謀",
       "cost": "4",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "鉱山の村"
     },
     {
       "card": "Minion",
       "set": "陰謀",
       "cost": "5",
-      "type": "アクション - アタック",
+      "type": [
+        "アクション",
+        "アタック"
+      ],
       "display": "寵臣"
     },
     {
       "card": "Nobles",
       "set": "陰謀",
       "cost": "6",
-      "type": "アクション - 勝利点",
+      "type": [
+        "アクション",
+        "勝利点"
+      ],
       "display": "貴族"
     },
     {
       "card": "Pawn",
       "set": "陰謀",
       "cost": "2",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "手先"
     },
     {
       "card": "Saboteur",
       "set": "陰謀",
       "cost": "5",
-      "type": "アクション - アタック",
+      "type": [
+        "アクション",
+        "アタック"
+      ],
       "display": "破壊工作員"
     },
     {
       "card": "Scout",
       "set": "陰謀",
       "cost": "4",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "偵察員"
     },
     {
       "card": "Secret Chamber",
       "set": "陰謀",
       "cost": "2",
-      "type": "アクション - リアクション",
+      "type": [
+        "アクション",
+        "リアクション"
+      ],
       "display": "秘密の部屋"
     },
     {
       "card": "Shanty Town",
       "set": "陰謀",
       "cost": "3",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "貧民街"
     },
     {
       "card": "Steward",
       "set": "陰謀",
       "cost": "3",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "執事"
     },
     {
       "card": "Swindler",
       "set": "陰謀",
       "cost": "3",
-      "type": "アクション - アタック",
+      "type": [
+        "アクション",
+        "アタック"
+      ],
       "display": "詐欺師"
     },
     {
       "card": "Torturer",
       "set": "陰謀",
       "cost": "5",
-      "type": "アクション - アタック",
+      "type": [
+        "アクション",
+        "アタック"
+      ],
       "display": "拷問人"
     },
     {
       "card": "Trading Post",
       "set": "陰謀",
       "cost": "5",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "交易場"
     },
     {
       "card": "Tribute",
       "set": "陰謀",
       "cost": "5",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "貢物"
     },
     {
       "card": "Upgrade",
       "set": "陰謀",
       "cost": "5",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "改良"
     },
     {
       "card": "Wishing Well",
       "set": "陰謀",
       "cost": "3",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "願いの井戸"
     },
     {
       "card": "Adventurer",
       "set": "基本セット",
       "cost": "6",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "冒険者"
     },
     {
       "card": "Bureaucrat",
       "set": "基本セット",
       "cost": "4",
-      "type": "アクション - アタック",
+      "type": [
+        "アクション",
+        "アタック"
+      ],
       "display": "役人"
     },
     {
       "card": "Cellar",
       "set": "基本セット",
       "cost": "2",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "地下貯蔵庫"
     },
     {
       "card": "Chancellor",
       "set": "基本セット",
       "cost": "3",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "宰相"
     },
     {
       "card": "Chapel",
       "set": "基本セット",
       "cost": "2",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "礼拝堂"
     },
     {
       "card": "Council Room",
       "set": "基本セット",
       "cost": "5",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "議事堂"
     },
     {
       "card": "Feast",
       "set": "基本セット",
       "cost": "4",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "祝宴"
     },
     {
       "card": "Festival",
       "set": "基本セット",
       "cost": "5",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "祝祭"
     },
     {
       "card": "Gardens",
       "set": "基本セット",
       "cost": "4",
-      "type": "勝利点",
+      "type": [
+        "勝利点"
+      ],
       "display": "庭園"
     },
     {
       "card": "Laboratory",
       "set": "基本セット",
       "cost": "5",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "研究所"
     },
     {
       "card": "Library",
       "set": "基本セット",
       "cost": "5",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "書庫"
     },
     {
       "card": "Market",
       "set": "基本セット",
       "cost": "5",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "市場"
     },
     {
       "card": "Militia",
       "set": "基本セット",
       "cost": "4",
-      "type": "アクション - アタック",
+      "type": [
+        "アクション",
+        "アタック"
+      ],
       "display": "民兵"
     },
     {
       "card": "Mine",
       "set": "基本セット",
       "cost": "5",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "鉱山"
     },
     {
       "card": "Moat",
       "set": "基本セット",
       "cost": "2",
-      "type": "アクション - リアクション",
+      "type": [
+        "アクション",
+        "リアクション"
+      ],
       "display": "堀"
     },
     {
       "card": "Moneylender",
       "set": "基本セット",
       "cost": "4",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "金貸し"
     },
     {
       "card": "Remodel",
       "set": "基本セット",
       "cost": "4",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "改築"
     },
     {
       "card": "Smithy",
       "set": "基本セット",
       "cost": "4",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "鍛冶屋"
     },
     {
       "card": "Spy",
       "set": "基本セット",
       "cost": "4",
-      "type": "アクション - アタック",
+      "type": [
+        "アクション",
+        "アタック"
+      ],
       "display": "密偵"
     },
     {
       "card": "Thief",
       "set": "基本セット",
       "cost": "4",
-      "type": "アクション - アタック",
+      "type": [
+        "アクション",
+        "アタック"
+      ],
       "display": "泥棒"
     },
     {
       "card": "Throne Room",
       "set": "基本セット",
       "cost": "4",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "玉座の間"
     },
     {
       "card": "Village",
       "set": "基本セット",
       "cost": "3",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "村"
     },
     {
       "card": "Witch",
       "set": "基本セット",
       "cost": "5",
-      "type": "アクション - アタック",
+      "type": [
+        "アクション",
+        "アタック"
+      ],
       "display": "魔女"
     },
     {
       "card": "Woodcutter",
       "set": "基本セット",
       "cost": "3",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "木こり"
     },
     {
       "card": "Workshop",
       "set": "基本セット",
       "cost": "3",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "工房"
     },
     {
       "card": "Black Market",
       "set": "プロモ",
       "cost": "3",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "闇市場"
     },
     {
       "card": "Envoy",
       "set": "プロモ",
       "cost": "4",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "公使"
     },
     {
       "card": "Stash",
       "set": "プロモ",
       "cost": "5",
-      "type": "財宝",
+      "type": [
+        "財宝"
+      ],
       "display": "へそくり"
     },
     {
       "card": "Walled Village",
       "set": "プロモ",
       "cost": "4",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "囲郭村"
     },
     {
       "card": "Governor",
       "set": "プロモ",
       "cost": "5",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "総督"
     },
     {
       "card": "Prince",
       "set": "プロモ",
       "cost": "8",
-      "type": "アクション"
+      "type": [
+        "アクション"
+      ]
     },
     {
       "card": "Bank",
       "set": "繁栄",
       "cost": "7",
-      "type": "財宝",
+      "type": [
+        "財宝"
+      ],
       "display": "銀行"
     },
     {
       "card": "Bishop",
       "set": "繁栄",
       "cost": "4",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "司教"
     },
     {
       "card": "City",
       "set": "繁栄",
       "cost": "5",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "都市"
     },
     {
       "card": "Contraband",
       "set": "繁栄",
       "cost": "5",
-      "type": "財宝",
+      "type": [
+        "財宝"
+      ],
       "display": "禁制品"
     },
     {
       "card": "Counting House",
       "set": "繁栄",
       "cost": "5",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "会計所"
     },
     {
       "card": "Expand",
       "set": "繁栄",
       "cost": "7",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "拡張"
     },
     {
       "card": "Forge",
       "set": "繁栄",
       "cost": "7",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "鍛造"
     },
     {
       "card": "Goons",
       "set": "繁栄",
       "cost": "6",
-      "type": "アクション - アタック",
+      "type": [
+        "アクション",
+        "アタック"
+      ],
       "display": "ならず者"
     },
     {
       "card": "Grand Market",
       "set": "繁栄",
       "cost": "6",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "大市場"
     },
     {
       "card": "Hoard",
       "set": "繁栄",
       "cost": "6",
-      "type": "財宝",
+      "type": [
+        "財宝"
+      ],
       "display": "隠し財産"
     },
     {
       "card": "King's Court",
       "set": "繁栄",
       "cost": "7",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "宮廷"
     },
     {
       "card": "Loan",
       "set": "繁栄",
       "cost": "3",
-      "type": "財宝",
+      "type": [
+        "財宝"
+      ],
       "display": "借金"
     },
     {
       "card": "Mint",
       "set": "繁栄",
       "cost": "5",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "造幣所"
     },
     {
       "card": "Monument",
       "set": "繁栄",
       "cost": "4",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "記念碑"
     },
     {
       "card": "Mountebank",
       "set": "繁栄",
       "cost": "5",
-      "type": "アクション - アタック",
+      "type": [
+        "アクション",
+        "アタック"
+      ],
       "display": "香具師"
     },
     {
       "card": "Peddler",
       "set": "繁栄",
       "cost": "8*",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "行商人"
     },
     {
       "card": "Quarry",
       "set": "繁栄",
       "cost": "4",
-      "type": "財宝",
+      "type": [
+        "財宝"
+      ],
       "display": "石切り場"
     },
     {
       "card": "Rabble",
       "set": "繁栄",
       "cost": "5",
-      "type": "アクション - アタック",
+      "type": [
+        "アクション",
+        "アタック"
+      ],
       "display": "大衆"
     },
     {
       "card": "Royal Seal",
       "set": "繁栄",
       "cost": "5",
-      "type": "財宝",
+      "type": [
+        "財宝"
+      ],
       "display": "玉璽"
     },
     {
       "card": "Talisman",
       "set": "繁栄",
       "cost": "4",
-      "type": "財宝",
+      "type": [
+        "財宝"
+      ],
       "display": "護符"
     },
     {
       "card": "Trade Route",
       "set": "繁栄",
       "cost": "3",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "交易路"
     },
     {
       "card": "Vault",
       "set": "繁栄",
       "cost": "5",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "保管庫"
     },
     {
       "card": "Venture",
       "set": "繁栄",
       "cost": "5",
-      "type": "財宝",
+      "type": [
+        "財宝"
+      ],
       "display": "投機"
     },
     {
       "card": "Watchtower",
       "set": "繁栄",
       "cost": "3",
-      "type": "アクション - リアクション",
+      "type": [
+        "アクション",
+        "リアクション"
+      ],
       "display": "望楼"
     },
     {
       "card": "Worker's Village",
       "set": "繁栄",
       "cost": "4",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "労働者の村"
     },
     {
       "card": "Ambassador",
       "set": "海辺",
       "cost": "3",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "大使"
     },
     {
       "card": "Bazaar",
       "set": "海辺",
       "cost": "5",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "バザー"
     },
     {
       "card": "Caravan",
       "set": "海辺",
       "cost": "4",
-      "type": "アクション - 持続",
+      "type": [
+        "アクション",
+        "持続"
+      ],
       "display": "隊商"
     },
     {
       "card": "Cutpurse",
       "set": "海辺",
       "cost": "4",
-      "type": "アクション - アタック",
+      "type": [
+        "アクション",
+        "アタック"
+      ],
       "display": "巾着切り"
     },
     {
       "card": "Embargo",
       "set": "海辺",
       "cost": "2",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "抑留"
     },
     {
       "card": "Explorer",
       "set": "海辺",
       "cost": "5",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "探検家"
     },
     {
       "card": "Fishing Village",
       "set": "海辺",
       "cost": "3",
-      "type": "アクション - 持続",
+      "type": [
+        "アクション",
+        "持続"
+      ],
       "display": "漁村"
     },
     {
       "card": "Ghost Ship",
       "set": "海辺",
       "cost": "5",
-      "type": "アクション - アタック",
+      "type": [
+        "アクション",
+        "アタック"
+      ],
       "display": "幽霊船"
     },
     {
       "card": "Haven",
       "set": "海辺",
       "cost": "2",
-      "type": "アクション - 持続",
+      "type": [
+        "アクション",
+        "持続"
+      ],
       "display": "停泊所"
     },
     {
       "card": "Island",
       "set": "海辺",
       "cost": "4",
-      "type": "アクション - 勝利点",
+      "type": [
+        "アクション",
+        "勝利点"
+      ],
       "display": "島"
     },
     {
       "card": "Lighthouse",
       "set": "海辺",
       "cost": "2",
-      "type": "アクション - 持続",
+      "type": [
+        "アクション",
+        "持続"
+      ],
       "display": "灯台"
     },
     {
       "card": "Lookout",
       "set": "海辺",
       "cost": "3",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "見張り"
     },
     {
       "card": "Merchant Ship",
       "set": "海辺",
       "cost": "5",
-      "type": "アクション - 持続",
+      "type": [
+        "アクション",
+        "持続"
+      ],
       "display": "商船"
     },
     {
       "card": "Native Village",
       "set": "海辺",
       "cost": "2",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "原住民の村"
     },
     {
       "card": "Navigator",
       "set": "海辺",
       "cost": "4",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "航海士"
     },
     {
       "card": "Outpost",
       "set": "海辺",
       "cost": "5",
-      "type": "アクション - 持続",
+      "type": [
+        "アクション",
+        "持続"
+      ],
       "display": "前哨地"
     },
     {
       "card": "Pearl Diver",
       "set": "海辺",
       "cost": "2",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "真珠採り"
     },
     {
       "card": "Pirate Ship",
       "set": "海辺",
       "cost": "4",
-      "type": "アクション - アタック",
+      "type": [
+        "アクション",
+        "アタック"
+      ],
       "display": "海賊船"
     },
     {
       "card": "Salvager",
       "set": "海辺",
       "cost": "4",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "引揚水夫"
     },
     {
       "card": "Sea Hag",
       "set": "海辺",
       "cost": "4",
-      "type": "アクション - アタック",
+      "type": [
+        "アクション",
+        "アタック"
+      ],
       "display": "海の妖婆"
     },
     {
       "card": "Smugglers",
       "set": "海辺",
       "cost": "3",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "密輸人"
     },
     {
       "card": "Tactician",
       "set": "海辺",
       "cost": "5",
-      "type": "アクション - 持続",
+      "type": [
+        "アクション",
+        "持続"
+      ],
       "display": "策士"
     },
     {
       "card": "Treasure Map",
       "set": "海辺",
       "cost": "4",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "宝の地図"
     },
     {
       "card": "Treasury",
       "set": "海辺",
       "cost": "5",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "宝物庫"
     },
     {
       "card": "Warehouse",
       "set": "海辺",
       "cost": "3",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "倉庫"
     },
     {
       "card": "Wharf",
       "set": "海辺",
       "cost": "5",
-      "type": "アクション - 持続",
+      "type": [
+        "アクション",
+        "持続"
+      ],
       "display": "船着場"
     },
     {
       "card": "Altar",
       "set": "暗黒時代",
       "cost": "6",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "祭壇"
     },
     {
       "card": "Armory",
       "set": "暗黒時代",
       "cost": "4",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "武器庫"
     },
     {
       "card": "Band of Misfits",
       "set": "暗黒時代",
       "cost": "5",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "はみだし者"
     },
     {
       "card": "Bandit Camp",
       "set": "暗黒時代",
       "cost": "5",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "山賊の宿営地"
     },
     {
       "card": "Beggar",
       "set": "暗黒時代",
       "cost": "2",
-      "type": "アクション - リアクション",
+      "type": [
+        "アクション",
+        "リアクション"
+      ],
       "display": "物乞い"
     },
     {
       "card": "Catacombs",
       "set": "暗黒時代",
       "cost": "5",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "地下墓所"
     },
     {
       "card": "Count",
       "set": "暗黒時代",
       "cost": "5",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "伯爵"
     },
     {
       "card": "Cultist",
       "set": "暗黒時代",
       "cost": "5",
-      "type": "アクション - アタック – 略奪者",
+      "type": [
+        "アクション",
+        "アタック – 略奪者"
+      ],
       "display": "狂信者"
     },
     {
       "card": "Death Cart",
       "set": "暗黒時代",
       "cost": "4",
-      "type": "アクション – 略奪者",
+      "type": [
+        "アクション – 略奪者"
+      ],
       "display": "死の荷車"
     },
     {
       "card": "Forager",
       "set": "暗黒時代",
       "cost": "3",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "採集者"
     },
     {
       "card": "Fortress",
       "set": "暗黒時代",
       "cost": "4",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "城塞"
     },
     {
       "card": "Graverobber",
       "set": "暗黒時代",
       "cost": "5",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "墓暴き"
     },
     {
       "card": "Hermit",
       "set": "暗黒時代",
       "cost": "3",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "隠遁者"
     },
     {
       "card": "Hunting Grounds",
       "set": "暗黒時代",
       "cost": "6",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "狩場"
     },
     {
       "card": "Ironmonger",
       "set": "暗黒時代",
       "cost": "4",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "金物商"
     },
     {
       "card": "Junk Dealer",
       "set": "暗黒時代",
       "cost": "5",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "屑屋"
     },
     {
       "card": "Marauder",
       "set": "暗黒時代",
       "cost": "4",
-      "type": "アクション - アタック – 略奪者",
+      "type": [
+        "アクション",
+        "アタック – 略奪者"
+      ],
       "display": "襲撃者"
     },
     {
       "card": "Market Square",
       "set": "暗黒時代",
       "cost": "3",
-      "type": "アクション - リアクション",
+      "type": [
+        "アクション",
+        "リアクション"
+      ],
       "display": "青空市場"
     },
     {
       "card": "Mystic",
       "set": "暗黒時代",
       "cost": "5",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "秘術師"
     },
     {
       "card": "Pillage",
       "set": "暗黒時代",
       "cost": "5",
-      "type": "アクション - アタック",
+      "type": [
+        "アクション",
+        "アタック"
+      ],
       "display": "略奪"
     },
     {
       "card": "Poor House",
       "set": "暗黒時代",
       "cost": "1",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "救貧院"
     },
     {
       "card": "Procession",
       "set": "暗黒時代",
       "cost": "4",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "行進"
     },
     {
       "card": "Rebuild",
       "set": "暗黒時代",
       "cost": "5",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "建て直し"
     },
     {
       "card": "Rogue",
       "set": "暗黒時代",
       "cost": "5",
-      "type": "アクション - アタック",
+      "type": [
+        "アクション",
+        "アタック"
+      ],
       "display": "盗賊"
     },
     {
       "card": "Sage",
       "set": "暗黒時代",
       "cost": "3",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "賢者"
     },
     {
       "card": "Scavenger",
       "set": "暗黒時代",
       "cost": "4",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "ゴミあさり"
     },
     {
       "card": "Squire",
       "set": "暗黒時代",
       "cost": "2",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "従者"
     },
     {
       "card": "Storeroom",
       "set": "暗黒時代",
       "cost": "3",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "物置"
     },
     {
       "card": "Urchin",
       "set": "暗黒時代",
       "cost": "3",
-      "type": "アクション - アタック",
+      "type": [
+        "アクション",
+        "アタック"
+      ],
       "display": "浮浪児"
     },
     {
       "card": "Vagrant",
       "set": "暗黒時代",
       "cost": "2",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "浮浪者"
     },
     {
       "card": "Wandering Minstrel",
       "set": "暗黒時代",
       "cost": "4",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "吟遊詩人"
     },
     {
       "card": "Counterfeit",
       "set": "暗黒時代",
       "cost": "5",
-      "type": "財宝",
+      "type": [
+        "財宝"
+      ],
       "display": "偽造通貨"
     },
     {
       "card": "Feodum",
       "set": "暗黒時代",
       "cost": "4",
-      "type": "勝利点",
+      "type": [
+        "勝利点"
+      ],
       "display": "封土"
     },
     {
       "card": "Rats",
       "set": "暗黒時代",
       "cost": "4",
-      "type": "アクション",
+      "type": [
+        "アクション"
+      ],
       "display": "ネズミ"
     },
     {
       "card": "Knights",
       "set": "暗黒時代",
       "cost": "5",
-      "type": "アクション - アタック – 騎士",
+      "type": [
+        "アクション",
+        "アタック – 騎士"
+      ],
       "display": "騎士"
     },
     {
       "card": "Advisor",
       "set": "Guilds",
       "cost": "4",
-      "type": "アクション"
+      "type": [
+        "アクション"
+      ]
     },
     {
       "card": "Baker",
       "set": "Guilds",
       "cost": "5",
-      "type": "アクション"
+      "type": [
+        "アクション"
+      ]
     },
     {
       "card": "Butcher",
       "set": "Guilds",
       "cost": "5",
-      "type": "アクション"
+      "type": [
+        "アクション"
+      ]
     },
     {
       "card": "Candlestick Maker",
       "set": "Guilds",
       "cost": "2",
-      "type": "アクション"
+      "type": [
+        "アクション"
+      ]
     },
     {
       "card": "Doctor",
       "set": "Guilds",
       "cost": "3+",
-      "type": "アクション"
+      "type": [
+        "アクション"
+      ]
     },
     {
       "card": "Herald",
       "set": "Guilds",
       "cost": "4+",
-      "type": "アクション"
+      "type": [
+        "アクション"
+      ]
     },
     {
       "card": "Journeyman",
       "set": "Guilds",
       "cost": "5",
-      "type": "アクション"
+      "type": [
+        "アクション"
+      ]
     },
     {
       "card": "Masterpiece",
       "set": "Guilds",
       "cost": "3+",
-      "type": "財宝"
+      "type": [
+        "財宝"
+      ]
     },
     {
       "card": "Merchant Guild",
       "set": "Guilds",
       "cost": "5",
-      "type": "アクション"
+      "type": [
+        "アクション"
+      ]
     },
     {
       "card": "Plaza",
       "set": "Guilds",
       "cost": "4",
-      "type": "アクション"
+      "type": [
+        "アクション"
+      ]
     },
     {
       "card": "Soothsayer",
       "set": "Guilds",
       "cost": "5",
-      "type": "アクション - アタック"
+      "type": [
+        "アクション",
+        "アタック"
+      ]
     },
     {
       "card": "Stonemason",
       "set": "Guilds",
       "cost": "2+",
-      "type": "アクション"
+      "type": [
+        "アクション"
+      ]
     },
     {
       "card": "Taxman",
       "set": "Guilds",
       "cost": "4",
-      "type": "アクション - アタック"
+      "type": [
+        "アクション",
+        "アタック"
+      ]
     }
   ],
   "groups": [
@@ -2862,58 +3326,76 @@
       ]
     }
   ],
-  "basic_cards": [
+  "non_kingdom_cards": [
     {
       "card": "Potion",
       "set": "錬金術",
       "cost": "4",
-      "type": "財宝",
+      "type": [
+        "財宝"
+      ],
       "display": "ポーション"
     },
     {
       "card": "Colony",
       "set": "繁栄",
       "cost": "11",
-      "type": "勝利点",
+      "type": [
+        "勝利点"
+      ],
       "display": "植民地"
     },
     {
       "card": "Platinum",
       "set": "繁栄",
       "cost": "9",
-      "type": "財宝",
+      "type": [
+        "財宝"
+      ],
       "display": "白金貨"
     },
     {
       "card": "Shelter",
       "set": "暗黒時代",
       "cost": "1",
-      "type": "避難所",
+      "type": [
+        "避難所"
+      ],
       "display": "避難所"
     },
     {
       "card": "Ruins",
       "set": "暗黒時代",
       "cost": "0",
-      "type": "アクション - アタック"
+      "type": [
+        "アクション",
+        "アタック"
+      ]
     },
     {
       "card": "Spoils",
       "set": "暗黒時代",
       "cost": "0*",
-      "type": "財宝"
+      "type": [
+        "財宝"
+      ]
     },
     {
       "card": "Madman",
       "set": "暗黒時代",
       "cost": "0*",
-      "type": "アクション"
+      "type": [
+        "アクション"
+      ]
     },
     {
       "card": "Mercenary",
       "set": "暗黒時代",
       "cost": "0*",
-      "type": "アクション - アタック"
+      "type": [
+        "アクション",
+        "アタック"
+      ]
     }
   ]
 }

@@ -4,1365 +4,1777 @@
       "card": "Alchemist",
       "set": "현자의 연금술",
       "cost": "P3",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Apothecary",
       "set": "현자의 연금술",
       "cost": "P2",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Apprentice",
       "set": "현자의 연금술",
       "cost": "5",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Familiar",
       "set": "현자의 연금술",
       "cost": "P3",
-      "type": "액션 – 공격"
+      "type": [
+        "액션 – 공격"
+      ]
     },
     {
       "card": "Golem",
       "set": "현자의 연금술",
       "cost": "P4",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Herbalist",
       "set": "현자의 연금술",
       "cost": "2",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Philosopher's Stone",
       "set": "현자의 연금술",
       "cost": "P3",
-      "type": "재물"
+      "type": [
+        "재물"
+      ]
     },
     {
       "card": "Possession",
       "set": "현자의 연금술",
       "cost": "P6",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Scrying Pool",
       "set": "현자의 연금술",
       "cost": "P2",
-      "type": "액션 – 공격"
+      "type": [
+        "액션 – 공격"
+      ]
     },
     {
       "card": "Transmute",
       "set": "현자의 연금술",
       "cost": "P0",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "University",
       "set": "현자의 연금술",
       "cost": "P2",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Vineyard",
       "set": "현자의 연금술",
       "cost": "P0",
-      "type": "승점"
+      "type": [
+        "승점"
+      ]
     },
     {
       "card": "Fairgrounds",
       "set": "풍요의 뿔",
       "cost": "6",
-      "type": "승점"
+      "type": [
+        "승점"
+      ]
     },
     {
       "card": "Farming Village",
       "set": "풍요의 뿔",
       "cost": "4",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Fortune Teller ",
       "set": "풍요의 뿔",
       "cost": "3",
-      "type": "액션 – 공격"
+      "type": [
+        "액션 – 공격"
+      ]
     },
     {
       "card": "Hamlet",
       "set": "풍요의 뿔",
       "cost": "2",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Harvest",
       "set": "풍요의 뿔",
       "cost": "5",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Horn of Plenty",
       "set": "풍요의 뿔",
       "cost": "5",
-      "type": "재물"
+      "type": [
+        "재물"
+      ]
     },
     {
       "card": "Horse Traders",
       "set": "풍요의 뿔",
       "cost": "4",
-      "type": "액션 – 반응"
+      "type": [
+        "액션 – 반응"
+      ]
     },
     {
       "card": "Hunting Party",
       "set": "풍요의 뿔",
       "cost": "5",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Jester",
       "set": "풍요의 뿔",
       "cost": "5",
-      "type": "액션 – 공격"
+      "type": [
+        "액션 – 공격"
+      ]
     },
     {
       "card": "Menagerie",
       "set": "풍요의 뿔",
       "cost": "3",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Remake",
       "set": "풍요의 뿔",
       "cost": "4",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Tournament",
       "set": "풍요의 뿔",
       "cost": "4",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Young Witch",
       "set": "풍요의 뿔",
       "cost": "4",
-      "type": "액션 – 공격"
+      "type": [
+        "액션 – 공격"
+      ]
     },
     {
       "card": "Border Village",
       "set": "오지의 사람들",
       "cost": "6",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Cache",
       "set": "오지의 사람들",
       "cost": "5",
-      "type": "재물"
+      "type": [
+        "재물"
+      ]
     },
     {
       "card": "Cartographer",
       "set": "오지의 사람들",
       "cost": "5",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Crossroads",
       "set": "오지의 사람들",
       "cost": "2",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Develop",
       "set": "오지의 사람들",
       "cost": "3",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Duchess",
       "set": "오지의 사람들",
       "cost": "2",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Embassy",
       "set": "오지의 사람들",
       "cost": "5",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Farmland",
       "set": "오지의 사람들",
       "cost": "6",
-      "type": "승점"
+      "type": [
+        "승점"
+      ]
     },
     {
       "card": "Fool's Gold",
       "set": "오지의 사람들",
       "cost": "2",
-      "type": "재물 – 반응"
+      "type": [
+        "재물 – 반응"
+      ]
     },
     {
       "card": "Haggler",
       "set": "오지의 사람들",
       "cost": "5",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Highway",
       "set": "오지의 사람들",
       "cost": "5",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Ill-Gotten Gains",
       "set": "오지의 사람들",
       "cost": "5",
-      "type": "재물"
+      "type": [
+        "재물"
+      ]
     },
     {
       "card": "Inn",
       "set": "오지의 사람들",
       "cost": "5",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Jack of all Trades",
       "set": "오지의 사람들",
       "cost": "4",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Mandarin",
       "set": "오지의 사람들",
       "cost": "5",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Margrave",
       "set": "오지의 사람들",
       "cost": "5",
-      "type": "액션 – 공격"
+      "type": [
+        "액션 – 공격"
+      ]
     },
     {
       "card": "Noble Brigand",
       "set": "오지의 사람들",
       "cost": "4",
-      "type": "액션 – 공격"
+      "type": [
+        "액션 – 공격"
+      ]
     },
     {
       "card": "Nomad Camp",
       "set": "오지의 사람들",
       "cost": "4",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Oasis",
       "set": "오지의 사람들",
       "cost": "3",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Oracle",
       "set": "오지의 사람들",
       "cost": "3",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Scheme",
       "set": "오지의 사람들",
       "cost": "3",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Silk Road",
       "set": "오지의 사람들",
       "cost": "4",
-      "type": "승점"
+      "type": [
+        "승점"
+      ]
     },
     {
       "card": "Spice Merchant",
       "set": "오지의 사람들",
       "cost": "4",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Stables",
       "set": "오지의 사람들",
       "cost": "5",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Trader",
       "set": "오지의 사람들",
       "cost": "4",
-      "type": "액션 – 반응"
+      "type": [
+        "액션 – 반응"
+      ]
     },
     {
       "card": "Tunnel",
       "set": "오지의 사람들",
       "cost": "3",
-      "type": "승점 – 반응"
+      "type": [
+        "승점 – 반응"
+      ]
     },
     {
       "card": "Baron",
       "set": "정복자의 바다",
       "cost": "4",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "남작"
     },
     {
       "card": "Bridge",
       "set": "정복자의 바다",
       "cost": "4",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "다리"
     },
     {
       "card": "Conspirator",
       "set": "정복자의 바다",
       "cost": "4",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "공모자"
     },
     {
       "card": "Coppersmith",
       "set": "정복자의 바다",
       "cost": "4",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "동세공인"
     },
     {
       "card": "Courtyard",
       "set": "정복자의 바다",
       "cost": "2",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "안마당"
     },
     {
       "card": "Duke",
       "set": "정복자의 바다",
       "cost": "5",
-      "type": "승점",
+      "type": [
+        "승점"
+      ],
       "display": "공작"
     },
     {
       "card": "Great Hall",
       "set": "정복자의 바다",
       "cost": "3",
-      "type": "액션 – 승점",
+      "type": [
+        "액션 – 승점"
+      ],
       "display": "대회당"
     },
     {
       "card": "Harem",
       "set": "정복자의 바다",
       "cost": "6",
-      "type": "재물 – 승점",
+      "type": [
+        "재물 – 승점"
+      ],
       "display": "하렘"
     },
     {
       "card": "Ironworks",
       "set": "정복자의 바다",
       "cost": "4",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "철공소"
     },
     {
       "card": "Masquerade",
       "set": "정복자의 바다",
       "cost": "3",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "가면무도회"
     },
     {
       "card": "Mining Village",
       "set": "정복자의 바다",
       "cost": "4",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "광산촌"
     },
     {
       "card": "Minion",
       "set": "정복자의 바다",
       "cost": "5",
-      "type": "액션 – 공격",
+      "type": [
+        "액션 – 공격"
+      ],
       "display": "하수인"
     },
     {
       "card": "Nobles",
       "set": "정복자의 바다",
       "cost": "6",
-      "type": "액션 – 승점",
+      "type": [
+        "액션 – 승점"
+      ],
       "display": "귀족"
     },
     {
       "card": "Pawn",
       "set": "정복자의 바다",
       "cost": "2",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "졸개"
     },
     {
       "card": "Saboteur",
       "set": "정복자의 바다",
       "cost": "5",
-      "type": "액션 – 공격",
+      "type": [
+        "액션 – 공격"
+      ],
       "display": "파괴공작원"
     },
     {
       "card": "Scout",
       "set": "정복자의 바다",
       "cost": "4",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "정찰병"
     },
     {
       "card": "Secret Chamber",
       "set": "정복자의 바다",
       "cost": "2",
-      "type": "액션 – 반응",
+      "type": [
+        "액션 – 반응"
+      ],
       "display": "비밀의 방"
     },
     {
       "card": "Shanty Town",
       "set": "정복자의 바다",
       "cost": "3",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "빈민가"
     },
     {
       "card": "Steward",
       "set": "정복자의 바다",
       "cost": "3",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "집사"
     },
     {
       "card": "Swindler",
       "set": "정복자의 바다",
       "cost": "3",
-      "type": "액션 – 공격",
+      "type": [
+        "액션 – 공격"
+      ],
       "display": "사기꾼"
     },
     {
       "card": "Torturer",
       "set": "정복자의 바다",
       "cost": "5",
-      "type": "액션 – 공격",
+      "type": [
+        "액션 – 공격"
+      ],
       "display": "고문기술자"
     },
     {
       "card": "Trading Post",
       "set": "정복자의 바다",
       "cost": "5",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "교역소"
     },
     {
       "card": "Tribute",
       "set": "정복자의 바다",
       "cost": "5",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "공물"
     },
     {
       "card": "Upgrade",
       "set": "정복자의 바다",
       "cost": "5",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "개선"
     },
     {
       "card": "Wishing Well",
       "set": "정복자의 바다",
       "cost": "3",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "소원의 우물"
     },
     {
       "card": "Adventurer",
       "set": "기본판",
       "cost": "6",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "모험가"
     },
     {
       "card": "Bureaucrat",
       "set": "기본판",
       "cost": "4",
-      "type": "액션 – 공격",
+      "type": [
+        "액션 – 공격"
+      ],
       "display": "관료"
     },
     {
       "card": "Cellar",
       "set": "기본판",
       "cost": "2",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "저장고"
     },
     {
       "card": "Chancellor",
       "set": "기본판",
       "cost": "3",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "법관"
     },
     {
       "card": "Chapel",
       "set": "기본판",
       "cost": "2",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "예배당"
     },
     {
       "card": "Council Room",
       "set": "기본판",
       "cost": "5",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "회의실"
     },
     {
       "card": "Feast",
       "set": "기본판",
       "cost": "4",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "연회"
     },
     {
       "card": "Festival",
       "set": "기본판",
       "cost": "5",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "축제"
     },
     {
       "card": "Gardens",
       "set": "기본판",
       "cost": "4",
-      "type": "승점",
+      "type": [
+        "승점"
+      ],
       "display": "정원"
     },
     {
       "card": "Laboratory",
       "set": "기본판",
       "cost": "5",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "실험실"
     },
     {
       "card": "Library",
       "set": "기본판",
       "cost": "5",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "도서관"
     },
     {
       "card": "Market",
       "set": "기본판",
       "cost": "5",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "시장"
     },
     {
       "card": "Militia",
       "set": "기본판",
       "cost": "4",
-      "type": "액션 – 공격",
+      "type": [
+        "액션 – 공격"
+      ],
       "display": "민병대"
     },
     {
       "card": "Mine",
       "set": "기본판",
       "cost": "5",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "광산"
     },
     {
       "card": "Moat",
       "set": "기본판",
       "cost": "2",
-      "type": "액션 – 반응",
+      "type": [
+        "액션 – 반응"
+      ],
       "display": "해자"
     },
     {
       "card": "Moneylender",
       "set": "기본판",
       "cost": "4",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "대금업자"
     },
     {
       "card": "Remodel",
       "set": "기본판",
       "cost": "4",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "개조"
     },
     {
       "card": "Smithy",
       "set": "기본판",
       "cost": "4",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "대장장이"
     },
     {
       "card": "Spy",
       "set": "기본판",
       "cost": "4",
-      "type": "액션 – 공격",
+      "type": [
+        "액션 – 공격"
+      ],
       "display": "첩자"
     },
     {
       "card": "Thief",
       "set": "기본판",
       "cost": "4",
-      "type": "액션 – 공격",
+      "type": [
+        "액션 – 공격"
+      ],
       "display": "도둑"
     },
     {
       "card": "Throne Room",
       "set": "기본판",
       "cost": "4",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "알현실"
     },
     {
       "card": "Village",
       "set": "기본판",
       "cost": "3",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "마을"
     },
     {
       "card": "Witch",
       "set": "기본판",
       "cost": "5",
-      "type": "액션 – 공격",
+      "type": [
+        "액션 – 공격"
+      ],
       "display": "마녀"
     },
     {
       "card": "Woodcutter",
       "set": "기본판",
       "cost": "3",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "나무꾼"
     },
     {
       "card": "Workshop",
       "set": "기본판",
       "cost": "3",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "작업장"
     },
     {
       "card": "Black Market",
       "set": "프로모션 카드",
       "cost": "3",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "암시장"
     },
     {
       "card": "Envoy",
       "set": "프로모션 카드",
       "cost": "4",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "사절"
     },
     {
       "card": "Stash",
       "set": "프로모션 카드",
       "cost": "5",
-      "type": "재물",
+      "type": [
+        "재물"
+      ],
       "display": "비자금"
     },
     {
       "card": "Walled Village",
       "set": "프로모션 카드",
       "cost": "4",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "성벽 마을"
     },
     {
       "card": "Governor",
       "set": "프로모션 카드",
       "cost": "5",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "주지사"
     },
     {
       "card": "Prince",
       "set": "프로모션 카드",
       "cost": "8",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Bank",
       "set": "번영",
       "cost": "7",
-      "type": "재물"
+      "type": [
+        "재물"
+      ]
     },
     {
       "card": "Bishop",
       "set": "번영",
       "cost": "4",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "City",
       "set": "번영",
       "cost": "5",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Contraband",
       "set": "번영",
       "cost": "5",
-      "type": "재물"
+      "type": [
+        "재물"
+      ]
     },
     {
       "card": "Counting House",
       "set": "번영",
       "cost": "5",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Expand",
       "set": "번영",
       "cost": "7",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Forge",
       "set": "번영",
       "cost": "7",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Goons",
       "set": "번영",
       "cost": "6",
-      "type": "액션 – 공격"
+      "type": [
+        "액션 – 공격"
+      ]
     },
     {
       "card": "Grand Market",
       "set": "번영",
       "cost": "6",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Hoard",
       "set": "번영",
       "cost": "6",
-      "type": "재물"
+      "type": [
+        "재물"
+      ]
     },
     {
       "card": "King's Court",
       "set": "번영",
       "cost": "7",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Loan",
       "set": "번영",
       "cost": "3",
-      "type": "재물"
+      "type": [
+        "재물"
+      ]
     },
     {
       "card": "Mint",
       "set": "번영",
       "cost": "5",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Monument",
       "set": "번영",
       "cost": "4",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Mountebank",
       "set": "번영",
       "cost": "5",
-      "type": "액션 – 공격"
+      "type": [
+        "액션 – 공격"
+      ]
     },
     {
       "card": "Peddler",
       "set": "번영",
       "cost": "8*",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Quarry",
       "set": "번영",
       "cost": "4",
-      "type": "재물"
+      "type": [
+        "재물"
+      ]
     },
     {
       "card": "Rabble",
       "set": "번영",
       "cost": "5",
-      "type": "액션 – 공격"
+      "type": [
+        "액션 – 공격"
+      ]
     },
     {
       "card": "Royal Seal",
       "set": "번영",
       "cost": "5",
-      "type": "재물"
+      "type": [
+        "재물"
+      ]
     },
     {
       "card": "Talisman",
       "set": "번영",
       "cost": "4",
-      "type": "재물"
+      "type": [
+        "재물"
+      ]
     },
     {
       "card": "Trade Route",
       "set": "번영",
       "cost": "3",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Vault",
       "set": "번영",
       "cost": "5",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Venture",
       "set": "번영",
       "cost": "5",
-      "type": "재물"
+      "type": [
+        "재물"
+      ]
     },
     {
       "card": "Watchtower",
       "set": "번영",
       "cost": "3",
-      "type": "액션 – 반응"
+      "type": [
+        "액션 – 반응"
+      ]
     },
     {
       "card": "Worker's Village",
       "set": "번영",
       "cost": "4",
-      "type": "액션"
+      "type": [
+        "액션"
+      ]
     },
     {
       "card": "Ambassador",
       "set": "정복자의 바다",
       "cost": "3",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "대사"
     },
     {
       "card": "Bazaar",
       "set": "정복자의 바다",
       "cost": "5",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "상점가"
     },
     {
       "card": "Caravan",
       "set": "정복자의 바다",
       "cost": "4",
-      "type": "액션 – 지속",
+      "type": [
+        "액션 – 지속"
+      ],
       "display": "대상"
     },
     {
       "card": "Cutpurse",
       "set": "정복자의 바다",
       "cost": "4",
-      "type": "액션 – 공격",
+      "type": [
+        "액션 – 공격"
+      ],
       "display": "소매치기"
     },
     {
       "card": "Embargo",
       "set": "정복자의 바다",
       "cost": "2",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "입항금지"
     },
     {
       "card": "Explorer",
       "set": "정복자의 바다",
       "cost": "5",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "탐험가"
     },
     {
       "card": "Fishing Village",
       "set": "정복자의 바다",
       "cost": "3",
-      "type": "액션 – 지속",
+      "type": [
+        "액션 – 지속"
+      ],
       "display": "어촌"
     },
     {
       "card": "Ghost Ship",
       "set": "정복자의 바다",
       "cost": "5",
-      "type": "액션 – 공격",
+      "type": [
+        "액션 – 공격"
+      ],
       "display": "유령선"
     },
     {
       "card": "Haven",
       "set": "정복자의 바다",
       "cost": "2",
-      "type": "액션 – 지속",
+      "type": [
+        "액션 – 지속"
+      ],
       "display": "정박소"
     },
     {
       "card": "Island",
       "set": "정복자의 바다",
       "cost": "4",
-      "type": "액션 – 승점",
+      "type": [
+        "액션 – 승점"
+      ],
       "display": "섬"
     },
     {
       "card": "Lighthouse",
       "set": "정복자의 바다",
       "cost": "2",
-      "type": "액션 – 지속",
+      "type": [
+        "액션 – 지속"
+      ],
       "display": "등대"
     },
     {
       "card": "Lookout",
       "set": "정복자의 바다",
       "cost": "3",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "망루"
     },
     {
       "card": "Merchant Ship",
       "set": "정복자의 바다",
       "cost": "5",
-      "type": "액션 – 지속",
+      "type": [
+        "액션 – 지속"
+      ],
       "display": "상선"
     },
     {
       "card": "Native Village",
       "set": "정복자의 바다",
       "cost": "2",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "원주민 마을"
     },
     {
       "card": "Navigator",
       "set": "정복자의 바다",
       "cost": "4",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "항해사"
     },
     {
       "card": "Outpost",
       "set": "정복자의 바다",
       "cost": "5",
-      "type": "액션 – 지속",
+      "type": [
+        "액션 – 지속"
+      ],
       "display": "전진기지"
     },
     {
       "card": "Pearl Diver",
       "set": "정복자의 바다",
       "cost": "2",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "진주조개잡이"
     },
     {
       "card": "Pirate Ship",
       "set": "정복자의 바다",
       "cost": "4",
-      "type": "액션 – 공격",
+      "type": [
+        "액션 – 공격"
+      ],
       "display": "해적선"
     },
     {
       "card": "Salvager",
       "set": "정복자의 바다",
       "cost": "4",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "인양작업"
     },
     {
       "card": "Sea Hag",
       "set": "정복자의 바다",
       "cost": "4",
-      "type": "액션 – 공격",
+      "type": [
+        "액션 – 공격"
+      ],
       "display": "바다 마녀"
     },
     {
       "card": "Smugglers",
       "set": "정복자의 바다",
       "cost": "3",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "밀수업자"
     },
     {
       "card": "Tactician",
       "set": "정복자의 바다",
       "cost": "5",
-      "type": "액션 – 지속",
+      "type": [
+        "액션 – 지속"
+      ],
       "display": "책략가"
     },
     {
       "card": "Treasure Map",
       "set": "정복자의 바다",
       "cost": "4",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "보물지도"
     },
     {
       "card": "Treasury",
       "set": "정복자의 바다",
       "cost": "5",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "보물창고"
     },
     {
       "card": "Warehouse",
       "set": "정복자의 바다",
       "cost": "3",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "창고"
     },
     {
       "card": "Wharf",
       "set": "정복자의 바다",
       "cost": "5",
-      "type": "액션 – 지속",
+      "type": [
+        "액션 – 지속"
+      ],
       "display": "부두"
     },
     {
       "card": "Altar",
       "set": "암흑의 시대",
       "cost": "6",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "제단"
     },
     {
       "card": "Armory",
       "set": "암흑의 시대",
       "cost": "4",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "무기고"
     },
     {
       "card": "Band of Misfits",
       "set": "암흑의 시대",
       "cost": "5",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "부적응자"
     },
     {
       "card": "Bandit Camp",
       "set": "암흑의 시대",
       "cost": "5",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "산적 소굴"
     },
     {
       "card": "Beggar",
       "set": "암흑의 시대",
       "cost": "2",
-      "type": "액션 – 반응",
+      "type": [
+        "액션 – 반응"
+      ],
       "display": "거지"
     },
     {
       "card": "Catacombs",
       "set": "암흑의 시대",
       "cost": "5",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "납골당"
     },
     {
       "card": "Count",
       "set": "암흑의 시대",
       "cost": "5",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "백작"
     },
     {
       "card": "Cultist",
       "set": "암흑의 시대",
       "cost": "5",
-      "type": "액션 – 공격 – 약탈",
+      "type": [
+        "액션 – 공격 – 약탈"
+      ],
       "display": "광신도"
     },
     {
       "card": "Death Cart",
       "set": "암흑의 시대",
       "cost": "4",
-      "type": "액션 – 약탈",
+      "type": [
+        "액션 – 약탈"
+      ],
       "display": "시체운반수레"
     },
     {
       "card": "Forager",
       "set": "암흑의 시대",
       "cost": "3",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "식량 약탈자"
     },
     {
       "card": "Fortress",
       "set": "암흑의 시대",
       "cost": "4",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "요새"
     },
     {
       "card": "Graverobber",
       "set": "암흑의 시대",
       "cost": "5",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "도굴꾼"
     },
     {
       "card": "Hermit",
       "set": "암흑의 시대",
       "cost": "3",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "은둔자"
     },
     {
       "card": "Hunting Grounds",
       "set": "암흑의 시대",
       "cost": "6",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "사냥터"
     },
     {
       "card": "Ironmonger",
       "set": "암흑의 시대",
       "cost": "4",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "철물상"
     },
     {
       "card": "Junk Dealer",
       "set": "암흑의 시대",
       "cost": "5",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "고물상"
     },
     {
       "card": "Marauder",
       "set": "암흑의 시대",
       "cost": "4",
-      "type": "액션 – 공격 – 약탈",
+      "type": [
+        "액션 – 공격 – 약탈"
+      ],
       "display": "습격자"
     },
     {
       "card": "Market Square",
       "set": "암흑의 시대",
       "cost": "3",
-      "type": "액션 – 반응",
+      "type": [
+        "액션 – 반응"
+      ],
       "display": "시장 광장"
     },
     {
       "card": "Mystic",
       "set": "암흑의 시대",
       "cost": "5",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "신비주의자"
     },
     {
       "card": "Pillage",
       "set": "암흑의 시대",
       "cost": "5",
-      "type": "액션 – 공격",
+      "type": [
+        "액션 – 공격"
+      ],
       "display": "강탈"
     },
     {
       "card": "Poor House",
       "set": "암흑의 시대",
       "cost": "1",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "빈민구제소"
     },
     {
       "card": "Procession",
       "set": "암흑의 시대",
       "cost": "4",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "행렬"
     },
     {
       "card": "Rebuild",
       "set": "암흑의 시대",
       "cost": "5",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "재건축"
     },
     {
       "card": "Rogue",
       "set": "암흑의 시대",
       "cost": "5",
-      "type": "액션 – 공격",
+      "type": [
+        "액션 – 공격"
+      ],
       "display": "방랑자"
     },
     {
       "card": "Sage",
       "set": "암흑의 시대",
       "cost": "3",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "현자"
     },
     {
       "card": "Scavenger",
       "set": "암흑의 시대",
       "cost": "4",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "쓰레기 뒤지는 사람"
     },
     {
       "card": "Squire",
       "set": "암흑의 시대",
       "cost": "2",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "종자"
     },
     {
       "card": "Storeroom",
       "set": "암흑의 시대",
       "cost": "3",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "저장실"
     },
     {
       "card": "Urchin",
       "set": "암흑의 시대",
       "cost": "3",
-      "type": "액션 – 공격",
+      "type": [
+        "액션 – 공격"
+      ],
       "display": "양아치"
     },
     {
       "card": "Vagrant",
       "set": "암흑의 시대",
       "cost": "2",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "부랑자"
     },
     {
       "card": "Wandering Minstrel",
       "set": "암흑의 시대",
       "cost": "4",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "방랑 시인"
     },
     {
       "card": "Counterfeit",
       "set": "암흑의 시대",
       "cost": "5",
-      "type": "재물",
+      "type": [
+        "재물"
+      ],
       "display": "위조"
     },
     {
       "card": "Feodum",
       "set": "암흑의 시대",
       "cost": "4",
-      "type": "승점",
+      "type": [
+        "승점"
+      ],
       "display": "봉토"
     },
     {
       "card": "Rats",
       "set": "암흑의 시대",
       "cost": "4",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "쥐떼"
     },
     {
       "card": "Knights",
       "set": "암흑의 시대",
       "cost": "5",
-      "type": "액션 – 공격 – 기사",
+      "type": [
+        "액션 – 공격 – 기사"
+      ],
       "display": "기사"
     },
     {
       "card": "Advisor",
       "set": "길드를 위하여",
       "cost": "4",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "고문"
     },
     {
       "card": "Baker",
       "set": "길드를 위하여",
       "cost": "5",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "제빵사"
     },
     {
       "card": "Butcher",
       "set": "길드를 위하여",
       "cost": "5",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "도살자"
     },
     {
       "card": "Candlestick Maker",
       "set": "길드를 위하여",
       "cost": "2",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "촛대제작자"
     },
     {
       "card": "Doctor",
       "set": "길드를 위하여",
       "cost": "3+",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "의사"
     },
     {
       "card": "Herald",
       "set": "길드를 위하여",
       "cost": "4+",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "전령"
     },
     {
       "card": "Journeyman",
       "set": "길드를 위하여",
       "cost": "5",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "여행자"
     },
     {
       "card": "Masterpiece",
       "set": "길드를 위하여",
       "cost": "3+",
-      "type": "재물",
+      "type": [
+        "재물"
+      ],
       "display": "명작"
     },
     {
       "card": "Merchant Guild",
       "set": "길드를 위하여",
       "cost": "5",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "상인조합"
     },
     {
       "card": "Plaza",
       "set": "길드를 위하여",
       "cost": "4",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "광장"
     },
     {
       "card": "Soothsayer",
       "set": "길드를 위하여",
       "cost": "5",
-      "type": "액션 – 공격",
+      "type": [
+        "액션 – 공격"
+      ],
       "display": "예언자"
     },
     {
       "card": "Stonemason",
       "set": "길드를 위하여",
       "cost": "2+",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "석공"
     },
     {
       "card": "Taxman",
       "set": "길드를 위하여",
       "cost": "4",
-      "type": "액션 – 공격",
+      "type": [
+        "액션 – 공격"
+      ],
       "display": "세금징수원"
     }
   ],
@@ -2799,58 +3211,74 @@
       "display": "전리품 획득"
     }
   ],
-  "basic_cards": [
+  "non_kingdom_cards": [
     {
       "card": "Potion",
       "set": "현자의 연금술",
       "cost": "4",
-      "type": "재물"
+      "type": [
+        "재물"
+      ]
     },
     {
       "card": "Colony",
       "set": "번영",
       "cost": "11",
-      "type": "승점"
+      "type": [
+        "승점"
+      ]
     },
     {
       "card": "Platinum",
       "set": "번영",
       "cost": "9",
-      "type": "재물"
+      "type": [
+        "재물"
+      ]
     },
     {
       "card": "Shelter",
       "set": "암흑의 시대",
       "cost": "1",
-      "type": "Shelter",
+      "type": [
+        "Shelter"
+      ],
       "display": "피난처"
     },
     {
       "card": "Ruins",
       "set": "암흑의 시대",
       "cost": "0",
-      "type": "액션 – 공격",
+      "type": [
+        "액션 – 공격"
+      ],
       "display": "폐허"
     },
     {
       "card": "Spoils",
       "set": "암흑의 시대",
       "cost": "0*",
-      "type": "재물",
+      "type": [
+        "재물"
+      ],
       "display": "전리품"
     },
     {
       "card": "Madman",
       "set": "암흑의 시대",
       "cost": "0*",
-      "type": "액션",
+      "type": [
+        "액션"
+      ],
       "display": "미치광이"
     },
     {
       "card": "Mercenary",
       "set": "암흑의 시대",
       "cost": "0*",
-      "type": "액션 – 공격",
+      "type": [
+        "액션 – 공격"
+      ],
       "display": "용병"
     }
   ]

@@ -4,1388 +4,1856 @@
       "card": "Alchemist",
       "set": "Alchymie",
       "cost": "P3",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Alchymista"
     },
     {
       "card": "Apothecary",
       "set": "Alchymie",
       "cost": "P2",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Lékárník"
     },
     {
       "card": "Apprentice",
       "set": "Alchymie",
       "cost": "5",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Učedník"
     },
     {
       "card": "Familiar",
       "set": "Alchymie",
       "cost": "P3",
-      "type": "Akce - Útok",
+      "type": [
+        "Akce",
+        "Útok"
+      ],
       "display": "Alchymistův poskok"
     },
     {
       "card": "Golem",
       "set": "Alchymie",
       "cost": "P4",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Herbalist",
       "set": "Alchymie",
       "cost": "2",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Bylinkář"
     },
     {
       "card": "Philosopher's Stone",
       "set": "Alchymie",
       "cost": "P3",
-      "type": "Peníze",
+      "type": [
+        "Peníze"
+      ],
       "display": "Kámen mudrců"
     },
     {
       "card": "Possession",
       "set": "Alchymie",
       "cost": "P6",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Posedlost"
     },
     {
       "card": "Scrying Pool",
       "set": "Alchymie",
       "cost": "P2",
-      "type": "Akce - Útok",
+      "type": [
+        "Akce",
+        "Útok"
+      ],
       "display": "Vidění"
     },
     {
       "card": "Transmute",
       "set": "Alchymie",
       "cost": "P0",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Přeměna"
     },
     {
       "card": "University",
       "set": "Alchymie",
       "cost": "P2",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Univerzita"
     },
     {
       "card": "Vineyard",
       "set": "Alchymie",
       "cost": "P0",
-      "type": "Vítězné body",
+      "type": [
+        "Vítězné body"
+      ],
       "display": "Vinice"
     },
     {
       "card": "Fairgrounds",
       "set": "Roh hojnosti",
       "cost": "6",
-      "type": "Vítězné body",
+      "type": [
+        "Vítězné body"
+      ],
       "display": "Tržiště"
     },
     {
       "card": "Farming Village",
       "set": "Roh hojnosti",
       "cost": "4",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Selský dvůr"
     },
     {
       "card": "Fortune Teller ",
       "set": "Roh hojnosti",
       "cost": "3",
-      "type": "Akce - Útok",
+      "type": [
+        "Akce",
+        "Útok"
+      ],
       "display": "Věštkyně"
     },
     {
       "card": "Hamlet",
       "set": "Roh hojnosti",
       "cost": "2",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Osada"
     },
     {
       "card": "Harvest",
       "set": "Roh hojnosti",
       "cost": "5",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Sklizeň"
     },
     {
       "card": "Horn of Plenty",
       "set": "Roh hojnosti",
       "cost": "5",
-      "type": "Peníze",
+      "type": [
+        "Peníze"
+      ],
       "display": "Roh hojnosti"
     },
     {
       "card": "Horse Traders",
       "set": "Roh hojnosti",
       "cost": "4",
-      "type": "Akce - Reakce",
+      "type": [
+        "Akce",
+        "Reakce"
+      ],
       "display": "Konští handlíři"
     },
     {
       "card": "Hunting Party",
       "set": "Roh hojnosti",
       "cost": "5",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Lovci"
     },
     {
       "card": "Jester",
       "set": "Roh hojnosti",
       "cost": "5",
-      "type": "Akce - Útok",
+      "type": [
+        "Akce",
+        "Útok"
+      ],
       "display": "Šašek"
     },
     {
       "card": "Menagerie",
       "set": "Roh hojnosti",
       "cost": "3",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Zvěřinec"
     },
     {
       "card": "Remake",
       "set": "Roh hojnosti",
       "cost": "4",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Nové provedení"
     },
     {
       "card": "Tournament",
       "set": "Roh hojnosti",
       "cost": "4",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Turnaj"
     },
     {
       "card": "Young Witch",
       "set": "Roh hojnosti",
       "cost": "4",
-      "type": "Akce - Útok",
+      "type": [
+        "Akce",
+        "Útok"
+      ],
       "display": "Mladá čarodějka"
     },
     {
       "card": "Border Village",
       "set": "Vzdálené kraje",
       "cost": "6",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Pohraniční vesnice"
     },
     {
       "card": "Cache",
       "set": "Vzdálené kraje",
       "cost": "5",
-      "type": "Peníze",
+      "type": [
+        "Peníze"
+      ],
       "display": "Úkryt"
     },
     {
       "card": "Cartographer",
       "set": "Vzdálené kraje",
       "cost": "5",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Kartograf"
     },
     {
       "card": "Crossroads",
       "set": "Vzdálené kraje",
       "cost": "2",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Křižovatka"
     },
     {
       "card": "Develop",
       "set": "Vzdálené kraje",
       "cost": "3",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Výstavba"
     },
     {
       "card": "Duchess",
       "set": "Vzdálené kraje",
       "cost": "2",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Vévodkyně"
     },
     {
       "card": "Embassy",
       "set": "Vzdálené kraje",
       "cost": "5",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Vyslanectví"
     },
     {
       "card": "Farmland",
       "set": "Vzdálené kraje",
       "cost": "6",
-      "type": "Vítězné body",
+      "type": [
+        "Vítězné body"
+      ],
       "display": "Úrodná země"
     },
     {
       "card": "Fool's Gold",
       "set": "Vzdálené kraje",
       "cost": "2",
-      "type": "Peníze - Reakce",
+      "type": [
+        "Peníze",
+        "Reakce"
+      ],
       "display": "Kočičí zlato"
     },
     {
       "card": "Haggler",
       "set": "Vzdálené kraje",
       "cost": "5",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Handlíř"
     },
     {
       "card": "Highway",
       "set": "Vzdálené kraje",
       "cost": "5",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Silnice"
     },
     {
       "card": "Ill-Gotten Gains",
       "set": "Vzdálené kraje",
       "cost": "5",
-      "type": "Peníze",
+      "type": [
+        "Peníze"
+      ],
       "display": "Nečestné zisky"
     },
     {
       "card": "Inn",
       "set": "Vzdálené kraje",
       "cost": "5",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Hostinec"
     },
     {
       "card": "Jack of all Trades",
       "set": "Vzdálené kraje",
       "cost": "4",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Všeuměl"
     },
     {
       "card": "Mandarin",
       "set": "Vzdálené kraje",
       "cost": "5",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Mandarín"
     },
     {
       "card": "Margrave",
       "set": "Vzdálené kraje",
       "cost": "5",
-      "type": "Akce - Útok",
+      "type": [
+        "Akce",
+        "Útok"
+      ],
       "display": "Markrabě"
     },
     {
       "card": "Noble Brigand",
       "set": "Vzdálené kraje",
       "cost": "4",
-      "type": "Akce - Útok",
+      "type": [
+        "Akce",
+        "Útok"
+      ],
       "display": "Zbojník"
     },
     {
       "card": "Nomad Camp",
       "set": "Vzdálené kraje",
       "cost": "4",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Tábor nomádů"
     },
     {
       "card": "Oasis",
       "set": "Vzdálené kraje",
       "cost": "3",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Oáza"
     },
     {
       "card": "Oracle",
       "set": "Vzdálené kraje",
       "cost": "3",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Věštírna"
     },
     {
       "card": "Scheme",
       "set": "Vzdálené kraje",
       "cost": "3",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Pleticha"
     },
     {
       "card": "Silk Road",
       "set": "Vzdálené kraje",
       "cost": "4",
-      "type": "Vítězné body",
+      "type": [
+        "Vítězné body"
+      ],
       "display": "Hedvábná stezka"
     },
     {
       "card": "Spice Merchant",
       "set": "Vzdálené kraje",
       "cost": "4",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Kořenář"
     },
     {
       "card": "Stables",
       "set": "Vzdálené kraje",
       "cost": "5",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Stáje"
     },
     {
       "card": "Trader",
       "set": "Vzdálené kraje",
       "cost": "4",
-      "type": "Akce - Reakce",
+      "type": [
+        "Akce",
+        "Reakce"
+      ],
       "display": "Kramář"
     },
     {
       "card": "Tunnel",
       "set": "Vzdálené kraje",
       "cost": "3",
-      "type": "Vítězné body - Reakce",
+      "type": [
+        "Vítězné body",
+        "Reakce"
+      ],
       "display": "Tunel"
     },
     {
       "card": "Baron",
       "set": "Intriky",
       "cost": "4",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Bridge",
       "set": "Intriky",
       "cost": "4",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Most"
     },
     {
       "card": "Conspirator",
       "set": "Intriky",
       "cost": "4",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Spiklenec"
     },
     {
       "card": "Coppersmith",
       "set": "Intriky",
       "cost": "4",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Měditepec"
     },
     {
       "card": "Courtyard",
       "set": "Intriky",
       "cost": "2",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Hradní nádvoří"
     },
     {
       "card": "Duke",
       "set": "Intriky",
       "cost": "5",
-      "type": "Vítězné body",
+      "type": [
+        "Vítězné body"
+      ],
       "display": "Vévoda"
     },
     {
       "card": "Great Hall",
       "set": "Intriky",
       "cost": "3",
-      "type": "Akce - Vítězné body",
+      "type": [
+        "Akce",
+        "Vítězné body"
+      ],
       "display": "Velký sál"
     },
     {
       "card": "Harem",
       "set": "Intriky",
       "cost": "6",
-      "type": "Peníze - Vítězné body",
+      "type": [
+        "Peníze",
+        "Vítězné body"
+      ],
       "display": "Harém"
     },
     {
       "card": "Ironworks",
       "set": "Intriky",
       "cost": "4",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Hutě"
     },
     {
       "card": "Masquerade",
       "set": "Intriky",
       "cost": "3",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Maškary"
     },
     {
       "card": "Mining Village",
       "set": "Intriky",
       "cost": "4",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Důlní osada"
     },
     {
       "card": "Minion",
       "set": "Intriky",
       "cost": "5",
-      "type": "Akce - Útok",
+      "type": [
+        "Akce",
+        "Útok"
+      ],
       "display": "Služebník"
     },
     {
       "card": "Nobles",
       "set": "Intriky",
       "cost": "6",
-      "type": "Akce - Vítězné body",
+      "type": [
+        "Akce",
+        "Vítězné body"
+      ],
       "display": "Šlechtici"
     },
     {
       "card": "Pawn",
       "set": "Intriky",
       "cost": "2",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Pěšák"
     },
     {
       "card": "Saboteur",
       "set": "Intriky",
       "cost": "5",
-      "type": "Akce - Útok",
+      "type": [
+        "Akce",
+        "Útok"
+      ],
       "display": "Sabotér"
     },
     {
       "card": "Scout",
       "set": "Intriky",
       "cost": "4",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Zvěd"
     },
     {
       "card": "Secret Chamber",
       "set": "Intriky",
       "cost": "2",
-      "type": "Akce - Reakce",
+      "type": [
+        "Akce",
+        "Reakce"
+      ],
       "display": "Tajemná komnata"
     },
     {
       "card": "Shanty Town",
       "set": "Intriky",
       "cost": "3",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Chudinská čtvrť"
     },
     {
       "card": "Steward",
       "set": "Intriky",
       "cost": "3",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Správce"
     },
     {
       "card": "Swindler",
       "set": "Intriky",
       "cost": "3",
-      "type": "Akce - Útok",
+      "type": [
+        "Akce",
+        "Útok"
+      ],
       "display": "Podvodník"
     },
     {
       "card": "Torturer",
       "set": "Intriky",
       "cost": "5",
-      "type": "Akce - Útok",
+      "type": [
+        "Akce",
+        "Útok"
+      ],
       "display": "Žalářník"
     },
     {
       "card": "Trading Post",
       "set": "Intriky",
       "cost": "5",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Obchodní místo"
     },
     {
       "card": "Tribute",
       "set": "Intriky",
       "cost": "5",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Dar poddaných"
     },
     {
       "card": "Upgrade",
       "set": "Intriky",
       "cost": "5",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Pokrok"
     },
     {
       "card": "Wishing Well",
       "set": "Intriky",
       "cost": "3",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Studna přání"
     },
     {
       "card": "Adventurer",
       "set": "Základní sada",
       "cost": "6",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Dobrodruh"
     },
     {
       "card": "Bureaucrat",
       "set": "Základní sada",
       "cost": "4",
-      "type": "Akce - Útok",
+      "type": [
+        "Akce",
+        "Útok"
+      ],
       "display": "Úředník"
     },
     {
       "card": "Cellar",
       "set": "Základní sada",
       "cost": "2",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Sklepení"
     },
     {
       "card": "Chancellor",
       "set": "Základní sada",
       "cost": "3",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Kancléř"
     },
     {
       "card": "Chapel",
       "set": "Základní sada",
       "cost": "2",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Kaple"
     },
     {
       "card": "Council Room",
       "set": "Základní sada",
       "cost": "5",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Zasedání rady"
     },
     {
       "card": "Feast",
       "set": "Základní sada",
       "cost": "4",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Hostina"
     },
     {
       "card": "Festival",
       "set": "Základní sada",
       "cost": "5",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Jarmark"
     },
     {
       "card": "Gardens",
       "set": "Základní sada",
       "cost": "4",
-      "type": "Vítězné body",
+      "type": [
+        "Vítězné body"
+      ],
       "display": "Zahrady"
     },
     {
       "card": "Laboratory",
       "set": "Základní sada",
       "cost": "5",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Laboratoř"
     },
     {
       "card": "Library",
       "set": "Základní sada",
       "cost": "5",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Knihovna"
     },
     {
       "card": "Market",
       "set": "Základní sada",
       "cost": "5",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Trh"
     },
     {
       "card": "Militia",
       "set": "Základní sada",
       "cost": "4",
-      "type": "Akce - Útok",
+      "type": [
+        "Akce",
+        "Útok"
+      ],
       "display": "Milice"
     },
     {
       "card": "Mine",
       "set": "Základní sada",
       "cost": "5",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Důl"
     },
     {
       "card": "Moat",
       "set": "Základní sada",
       "cost": "2",
-      "type": "Akce - Reakce",
+      "type": [
+        "Akce",
+        "Reakce"
+      ],
       "display": "Hradní příkop"
     },
     {
       "card": "Moneylender",
       "set": "Základní sada",
       "cost": "4",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Lichvář"
     },
     {
       "card": "Remodel",
       "set": "Základní sada",
       "cost": "4",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Přestavba"
     },
     {
       "card": "Smithy",
       "set": "Základní sada",
       "cost": "4",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Kovárna"
     },
     {
       "card": "Spy",
       "set": "Základní sada",
       "cost": "4",
-      "type": "Akce - Útok",
+      "type": [
+        "Akce",
+        "Útok"
+      ],
       "display": "Špion"
     },
     {
       "card": "Thief",
       "set": "Základní sada",
       "cost": "4",
-      "type": "Akce - Útok",
+      "type": [
+        "Akce",
+        "Útok"
+      ],
       "display": "Zloděj"
     },
     {
       "card": "Throne Room",
       "set": "Základní sada",
       "cost": "4",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Trůnní sál"
     },
     {
       "card": "Village",
       "set": "Základní sada",
       "cost": "3",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Vesnice"
     },
     {
       "card": "Witch",
       "set": "Základní sada",
       "cost": "5",
-      "type": "Akce - Útok",
+      "type": [
+        "Akce",
+        "Útok"
+      ],
       "display": "Čarodějnice"
     },
     {
       "card": "Woodcutter",
       "set": "Základní sada",
       "cost": "3",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Dřevorubec"
     },
     {
       "card": "Workshop",
       "set": "Základní sada",
       "cost": "3",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Dílna"
     },
     {
       "card": "Black Market",
       "set": "Promo karty",
       "cost": "3",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Černý trh"
     },
     {
       "card": "Envoy",
       "set": "Promo karty",
       "cost": "4",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Posel"
     },
     {
       "card": "Stash",
       "set": "Promo karty",
       "cost": "5",
-      "type": "Peníze",
+      "type": [
+        "Peníze"
+      ],
       "display": "Skrýš"
     },
     {
       "card": "Walled Village",
       "set": "Promo karty",
       "cost": "4",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Governor",
       "set": "Promo karty",
       "cost": "5",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Prince",
       "set": "Promo karty",
       "cost": "8",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Bank",
       "set": "Prosperita",
       "cost": "7",
-      "type": "Peníze",
+      "type": [
+        "Peníze"
+      ],
       "display": "Banka"
     },
     {
       "card": "Bishop",
       "set": "Prosperita",
       "cost": "4",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Biskup"
     },
     {
       "card": "City",
       "set": "Prosperita",
       "cost": "5",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Město"
     },
     {
       "card": "Contraband",
       "set": "Prosperita",
       "cost": "5",
-      "type": "Peníze",
+      "type": [
+        "Peníze"
+      ],
       "display": "Kontraband"
     },
     {
       "card": "Counting House",
       "set": "Prosperita",
       "cost": "5",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Zastavárna"
     },
     {
       "card": "Expand",
       "set": "Prosperita",
       "cost": "7",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Růst"
     },
     {
       "card": "Forge",
       "set": "Prosperita",
       "cost": "7",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Kování"
     },
     {
       "card": "Goons",
       "set": "Prosperita",
       "cost": "6",
-      "type": "Akce - Útok",
+      "type": [
+        "Akce",
+        "Útok"
+      ],
       "display": "Hrdlořez"
     },
     {
       "card": "Grand Market",
       "set": "Prosperita",
       "cost": "6",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Velký trh"
     },
     {
       "card": "Hoard",
       "set": "Prosperita",
       "cost": "6",
-      "type": "Peníze",
+      "type": [
+        "Peníze"
+      ],
       "display": "Bohatství"
     },
     {
       "card": "King's Court",
       "set": "Prosperita",
       "cost": "7",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Královský dvůr"
     },
     {
       "card": "Loan",
       "set": "Prosperita",
       "cost": "3",
-      "type": "Peníze",
+      "type": [
+        "Peníze"
+      ],
       "display": "Půjčka"
     },
     {
       "card": "Mint",
       "set": "Prosperita",
       "cost": "5",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Mincovna"
     },
     {
       "card": "Monument",
       "set": "Prosperita",
       "cost": "4",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Památník"
     },
     {
       "card": "Mountebank",
       "set": "Prosperita",
       "cost": "5",
-      "type": "Akce - Útok",
+      "type": [
+        "Akce",
+        "Útok"
+      ],
       "display": "Mastičkář"
     },
     {
       "card": "Peddler",
       "set": "Prosperita",
       "cost": "8*",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Podomní obchodník"
     },
     {
       "card": "Quarry",
       "set": "Prosperita",
       "cost": "4",
-      "type": "Peníze",
+      "type": [
+        "Peníze"
+      ],
       "display": "Kamenolom"
     },
     {
       "card": "Rabble",
       "set": "Prosperita",
       "cost": "5",
-      "type": "Akce - Útok",
+      "type": [
+        "Akce",
+        "Útok"
+      ],
       "display": "Dav"
     },
     {
       "card": "Royal Seal",
       "set": "Prosperita",
       "cost": "5",
-      "type": "Peníze",
+      "type": [
+        "Peníze"
+      ],
       "display": "Královská pečeť"
     },
     {
       "card": "Talisman",
       "set": "Prosperita",
       "cost": "4",
-      "type": "Peníze"
+      "type": [
+        "Peníze"
+      ]
     },
     {
       "card": "Trade Route",
       "set": "Prosperita",
       "cost": "3",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Obchodní stezka"
     },
     {
       "card": "Vault",
       "set": "Prosperita",
       "cost": "5",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Trezor"
     },
     {
       "card": "Venture",
       "set": "Prosperita",
       "cost": "5",
-      "type": "Peníze",
+      "type": [
+        "Peníze"
+      ],
       "display": "Odvážlivec"
     },
     {
       "card": "Watchtower",
       "set": "Prosperita",
       "cost": "3",
-      "type": "Akce - Reakce",
+      "type": [
+        "Akce",
+        "Reakce"
+      ],
       "display": "Strážní věž"
     },
     {
       "card": "Worker's Village",
       "set": "Prosperita",
       "cost": "4",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Dělnická čtvrť"
     },
     {
       "card": "Ambassador",
       "set": "Pobřeží",
       "cost": "3",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Velvyslanec"
     },
     {
       "card": "Bazaar",
       "set": "Pobřeží",
       "cost": "5",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Bazar"
     },
     {
       "card": "Caravan",
       "set": "Pobřeží",
       "cost": "4",
-      "type": "Akce - Dlouhodobá",
+      "type": [
+        "Akce",
+        "Dlouhodobá"
+      ],
       "display": "Karavana"
     },
     {
       "card": "Cutpurse",
       "set": "Pobřeží",
       "cost": "4",
-      "type": "Akce - Útok",
+      "type": [
+        "Akce",
+        "Útok"
+      ],
       "display": "Kapsář"
     },
     {
       "card": "Embargo",
       "set": "Pobřeží",
       "cost": "2",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Explorer",
       "set": "Pobřeží",
       "cost": "5",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Objevitel"
     },
     {
       "card": "Fishing Village",
       "set": "Pobřeží",
       "cost": "3",
-      "type": "Akce - Dlouhodobá",
+      "type": [
+        "Akce",
+        "Dlouhodobá"
+      ],
       "display": "Rybářská vesnice"
     },
     {
       "card": "Ghost Ship",
       "set": "Pobřeží",
       "cost": "5",
-      "type": "Akce - Útok",
+      "type": [
+        "Akce",
+        "Útok"
+      ],
       "display": "Loď duchů"
     },
     {
       "card": "Haven",
       "set": "Pobřeží",
       "cost": "2",
-      "type": "Akce - Dlouhodobá",
+      "type": [
+        "Akce",
+        "Dlouhodobá"
+      ],
       "display": "Přístav"
     },
     {
       "card": "Island",
       "set": "Pobřeží",
       "cost": "4",
-      "type": "Akce - Vítězné body",
+      "type": [
+        "Akce",
+        "Vítězné body"
+      ],
       "display": "Ostrov"
     },
     {
       "card": "Lighthouse",
       "set": "Pobřeží",
       "cost": "2",
-      "type": "Akce - Dlouhodobá",
+      "type": [
+        "Akce",
+        "Dlouhodobá"
+      ],
       "display": "Maják"
     },
     {
       "card": "Lookout",
       "set": "Pobřeží",
       "cost": "3",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Strážní koš"
     },
     {
       "card": "Merchant Ship",
       "set": "Pobřeží",
       "cost": "5",
-      "type": "Akce - Dlouhodobá",
+      "type": [
+        "Akce",
+        "Dlouhodobá"
+      ],
       "display": "Obchodní loď"
     },
     {
       "card": "Native Village",
       "set": "Pobřeží",
       "cost": "2",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Domorodá vesnice"
     },
     {
       "card": "Navigator",
       "set": "Pobřeží",
       "cost": "4",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Navigátor"
     },
     {
       "card": "Outpost",
       "set": "Pobřeží",
       "cost": "5",
-      "type": "Akce - Dlouhodobá",
+      "type": [
+        "Akce",
+        "Dlouhodobá"
+      ],
       "display": "Strážnice"
     },
     {
       "card": "Pearl Diver",
       "set": "Pobřeží",
       "cost": "2",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Lovec perel"
     },
     {
       "card": "Pirate Ship",
       "set": "Pobřeží",
       "cost": "4",
-      "type": "Akce - Útok",
+      "type": [
+        "Akce",
+        "Útok"
+      ],
       "display": "Pirátská loď"
     },
     {
       "card": "Salvager",
       "set": "Pobřeží",
       "cost": "4",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Zachránce"
     },
     {
       "card": "Sea Hag",
       "set": "Pobřeží",
       "cost": "4",
-      "type": "Akce - Útok",
+      "type": [
+        "Akce",
+        "Útok"
+      ],
       "display": "Mořská čarodějnice"
     },
     {
       "card": "Smugglers",
       "set": "Pobřeží",
       "cost": "3",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Pašeráci"
     },
     {
       "card": "Tactician",
       "set": "Pobřeží",
       "cost": "5",
-      "type": "Akce - Dlouhodobá",
+      "type": [
+        "Akce",
+        "Dlouhodobá"
+      ],
       "display": "Taktik"
     },
     {
       "card": "Treasure Map",
       "set": "Pobřeží",
       "cost": "4",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Mapa pokladu"
     },
     {
       "card": "Treasury",
       "set": "Pobřeží",
       "cost": "5",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Pokladnice"
     },
     {
       "card": "Warehouse",
       "set": "Pobřeží",
       "cost": "3",
-      "type": "Akce",
+      "type": [
+        "Akce"
+      ],
       "display": "Skladiště"
     },
     {
       "card": "Wharf",
       "set": "Pobřeží",
       "cost": "5",
-      "type": "Akce - Dlouhodobá",
+      "type": [
+        "Akce",
+        "Dlouhodobá"
+      ],
       "display": "Loděnice"
     },
     {
       "card": "Altar",
       "set": "Dark Ages",
       "cost": "6",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Armory",
       "set": "Dark Ages",
       "cost": "4",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Band of Misfits",
       "set": "Dark Ages",
       "cost": "5",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Bandit Camp",
       "set": "Dark Ages",
       "cost": "5",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Beggar",
       "set": "Dark Ages",
       "cost": "2",
-      "type": "Akce - Reakce"
+      "type": [
+        "Akce",
+        "Reakce"
+      ]
     },
     {
       "card": "Catacombs",
       "set": "Dark Ages",
       "cost": "5",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Count",
       "set": "Dark Ages",
       "cost": "5",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Cultist",
       "set": "Dark Ages",
       "cost": "5",
-      "type": "Action - Attack - Looter"
+      "type": [
+        "Action",
+        "Attack",
+        "Looter"
+      ]
     },
     {
       "card": "Death Cart",
       "set": "Dark Ages",
       "cost": "4",
-      "type": "Action - Looter"
+      "type": [
+        "Action",
+        "Looter"
+      ]
     },
     {
       "card": "Forager",
       "set": "Dark Ages",
       "cost": "3",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Fortress",
       "set": "Dark Ages",
       "cost": "4",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Graverobber",
       "set": "Dark Ages",
       "cost": "5",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Hermit",
       "set": "Dark Ages",
       "cost": "3",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Hunting Grounds",
       "set": "Dark Ages",
       "cost": "6",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Ironmonger",
       "set": "Dark Ages",
       "cost": "4",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Junk Dealer",
       "set": "Dark Ages",
       "cost": "5",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Marauder",
       "set": "Dark Ages",
       "cost": "4",
-      "type": "Action - Attack - Looter"
+      "type": [
+        "Action",
+        "Attack",
+        "Looter"
+      ]
     },
     {
       "card": "Market Square",
       "set": "Dark Ages",
       "cost": "3",
-      "type": "Akce - Reakce"
+      "type": [
+        "Akce",
+        "Reakce"
+      ]
     },
     {
       "card": "Mystic",
       "set": "Dark Ages",
       "cost": "5",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Pillage",
       "set": "Dark Ages",
       "cost": "5",
-      "type": "Akce - Útok"
+      "type": [
+        "Akce",
+        "Útok"
+      ]
     },
     {
       "card": "Poor House",
       "set": "Dark Ages",
       "cost": "1",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Procession",
       "set": "Dark Ages",
       "cost": "4",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Rebuild",
       "set": "Dark Ages",
       "cost": "5",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Rogue",
       "set": "Dark Ages",
       "cost": "5",
-      "type": "Akce - Útok"
+      "type": [
+        "Akce",
+        "Útok"
+      ]
     },
     {
       "card": "Sage",
       "set": "Dark Ages",
       "cost": "3",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Scavenger",
       "set": "Dark Ages",
       "cost": "4",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Squire",
       "set": "Dark Ages",
       "cost": "2",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Storeroom",
       "set": "Dark Ages",
       "cost": "3",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Urchin",
       "set": "Dark Ages",
       "cost": "3",
-      "type": "Akce - Útok"
+      "type": [
+        "Akce",
+        "Útok"
+      ]
     },
     {
       "card": "Vagrant",
       "set": "Dark Ages",
       "cost": "2",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Wandering Minstrel",
       "set": "Dark Ages",
       "cost": "4",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Counterfeit",
       "set": "Dark Ages",
       "cost": "5",
-      "type": "Peníze"
+      "type": [
+        "Peníze"
+      ]
     },
     {
       "card": "Feodum",
       "set": "Dark Ages",
       "cost": "4",
-      "type": "Vítězné body"
+      "type": [
+        "Vítězné body"
+      ]
     },
     {
       "card": "Rats",
       "set": "Dark Ages",
       "cost": "4",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Knights",
       "set": "Dark Ages",
       "cost": "5",
-      "type": "Action - Attack - Knight"
+      "type": [
+        "Action",
+        "Attack",
+        "Knight"
+      ]
     },
     {
       "card": "Advisor",
       "set": "Guilds",
       "cost": "4",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Baker",
       "set": "Guilds",
       "cost": "5",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Butcher",
       "set": "Guilds",
       "cost": "5",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Candlestick Maker",
       "set": "Guilds",
       "cost": "2",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Doctor",
       "set": "Guilds",
       "cost": "3+",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Herald",
       "set": "Guilds",
       "cost": "4+",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Journeyman",
       "set": "Guilds",
       "cost": "5",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Masterpiece",
       "set": "Guilds",
       "cost": "3+",
-      "type": "Peníze"
+      "type": [
+        "Peníze"
+      ]
     },
     {
       "card": "Merchant Guild",
       "set": "Guilds",
       "cost": "5",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Plaza",
       "set": "Guilds",
       "cost": "4",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Soothsayer",
       "set": "Guilds",
       "cost": "5",
-      "type": "Akce - Útok"
+      "type": [
+        "Akce",
+        "Útok"
+      ]
     },
     {
       "card": "Stonemason",
       "set": "Guilds",
       "cost": "2+",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Taxman",
       "set": "Guilds",
       "cost": "4",
-      "type": "Akce - Útok"
+      "type": [
+        "Akce",
+        "Útok"
+      ]
     }
   ],
   "groups": [
@@ -2821,57 +3289,75 @@
       ]
     }
   ],
-  "basic_cards": [
+  "non_kingdom_cards": [
     {
       "card": "Potion",
       "set": "Alchymie",
       "cost": "4",
-      "type": "Peníze",
+      "type": [
+        "Peníze"
+      ],
       "display": "Elixír"
     },
     {
       "card": "Colony",
       "set": "Prosperita",
       "cost": "11",
-      "type": "Vítězné body",
+      "type": [
+        "Vítězné body"
+      ],
       "display": "Kolonie"
     },
     {
       "card": "Platinum",
       "set": "Prosperita",
       "cost": "9",
-      "type": "Peníze",
+      "type": [
+        "Peníze"
+      ],
       "display": "Platina"
     },
     {
       "card": "Shelter",
       "set": "Dark Ages",
       "cost": "1",
-      "type": "Shelter"
+      "type": [
+        "Shelter"
+      ]
     },
     {
       "card": "Ruins",
       "set": "Dark Ages",
       "cost": "0",
-      "type": "Akce - Útok"
+      "type": [
+        "Akce",
+        "Útok"
+      ]
     },
     {
       "card": "Spoils",
       "set": "Dark Ages",
       "cost": "0*",
-      "type": "Peníze"
+      "type": [
+        "Peníze"
+      ]
     },
     {
       "card": "Madman",
       "set": "Dark Ages",
       "cost": "0*",
-      "type": "Akce"
+      "type": [
+        "Akce"
+      ]
     },
     {
       "card": "Mercenary",
       "set": "Dark Ages",
       "cost": "0*",
-      "type": "Akce - Útok"
+      "type": [
+        "Akce",
+        "Útok"
+      ]
     }
   ]
 }

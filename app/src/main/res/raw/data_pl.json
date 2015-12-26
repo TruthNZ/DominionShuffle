@@ -4,1302 +4,1770 @@
       "card": "Alchemist",
       "set": "Alchemy",
       "cost": "P3",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Apothecary",
       "set": "Alchemy",
       "cost": "P2",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Apprentice",
       "set": "Alchemy",
       "cost": "5",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Familiar",
       "set": "Alchemy",
       "cost": "P3",
-      "type": "Akcja - Atak"
+      "type": [
+        "Akcja",
+        "Atak"
+      ]
     },
     {
       "card": "Golem",
       "set": "Alchemy",
       "cost": "P4",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Herbalist",
       "set": "Alchemy",
       "cost": "2",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Philosopher's Stone",
       "set": "Alchemy",
       "cost": "P3",
-      "type": "Skarb"
+      "type": [
+        "Skarb"
+      ]
     },
     {
       "card": "Possession",
       "set": "Alchemy",
       "cost": "P6",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Scrying Pool",
       "set": "Alchemy",
       "cost": "P2",
-      "type": "Akcja - Atak"
+      "type": [
+        "Akcja",
+        "Atak"
+      ]
     },
     {
       "card": "Transmute",
       "set": "Alchemy",
       "cost": "P0",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "University",
       "set": "Alchemy",
       "cost": "P2",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Vineyard",
       "set": "Alchemy",
       "cost": "P0",
-      "type": "Zwycięstwo"
+      "type": [
+        "Zwycięstwo"
+      ]
     },
     {
       "card": "Fairgrounds",
       "set": "Róg Obfitości",
       "cost": "6",
-      "type": "Zwycięstwo",
+      "type": [
+        "Zwycięstwo"
+      ],
       "display": "Odpust"
     },
     {
       "card": "Farming Village",
       "set": "Róg Obfitości",
       "cost": "4",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Farma"
     },
     {
       "card": "Fortune Teller ",
       "set": "Róg Obfitości",
       "cost": "3",
-      "type": "Akcja - Atak",
+      "type": [
+        "Akcja",
+        "Atak"
+      ],
       "display": "Cyganka"
     },
     {
       "card": "Hamlet",
       "set": "Róg Obfitości",
       "cost": "2",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Folwark"
     },
     {
       "card": "Harvest",
       "set": "Róg Obfitości",
       "cost": "5",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Żniwa"
     },
     {
       "card": "Horn of Plenty",
       "set": "Róg Obfitości",
       "cost": "5",
-      "type": "Skarb",
+      "type": [
+        "Skarb"
+      ],
       "display": "Róg Obfitości"
     },
     {
       "card": "Horse Traders",
       "set": "Róg Obfitości",
       "cost": "4",
-      "type": "Akcja - Reakcja",
+      "type": [
+        "Akcja",
+        "Reakcja"
+      ],
       "display": "Banda Koniokradów"
     },
     {
       "card": "Hunting Party",
       "set": "Róg Obfitości",
       "cost": "5",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Polowanie"
     },
     {
       "card": "Jester",
       "set": "Róg Obfitości",
       "cost": "5",
-      "type": "Akcja - Atak",
+      "type": [
+        "Akcja",
+        "Atak"
+      ],
       "display": "Błazen"
     },
     {
       "card": "Menagerie",
       "set": "Róg Obfitości",
       "cost": "3",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Menażeria"
     },
     {
       "card": "Remake",
       "set": "Róg Obfitości",
       "cost": "4",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Rozbiórka"
     },
     {
       "card": "Tournament",
       "set": "Róg Obfitości",
       "cost": "4",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Turniej Rycerski"
     },
     {
       "card": "Young Witch",
       "set": "Róg Obfitości",
       "cost": "4",
-      "type": "Akcja - Atak",
+      "type": [
+        "Akcja",
+        "Atak"
+      ],
       "display": "Młoda Wiedźma"
     },
     {
       "card": "Border Village",
       "set": "Hinterlands",
       "cost": "6",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Cache",
       "set": "Hinterlands",
       "cost": "5",
-      "type": "Skarb"
+      "type": [
+        "Skarb"
+      ]
     },
     {
       "card": "Cartographer",
       "set": "Hinterlands",
       "cost": "5",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Crossroads",
       "set": "Hinterlands",
       "cost": "2",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Develop",
       "set": "Hinterlands",
       "cost": "3",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Duchess",
       "set": "Hinterlands",
       "cost": "2",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Embassy",
       "set": "Hinterlands",
       "cost": "5",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Farmland",
       "set": "Hinterlands",
       "cost": "6",
-      "type": "Zwycięstwo"
+      "type": [
+        "Zwycięstwo"
+      ]
     },
     {
       "card": "Fool's Gold",
       "set": "Hinterlands",
       "cost": "2",
-      "type": "Skarb - Reakcja"
+      "type": [
+        "Skarb",
+        "Reakcja"
+      ]
     },
     {
       "card": "Haggler",
       "set": "Hinterlands",
       "cost": "5",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Highway",
       "set": "Hinterlands",
       "cost": "5",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Ill-Gotten Gains",
       "set": "Hinterlands",
       "cost": "5",
-      "type": "Skarb"
+      "type": [
+        "Skarb"
+      ]
     },
     {
       "card": "Inn",
       "set": "Hinterlands",
       "cost": "5",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Jack of all Trades",
       "set": "Hinterlands",
       "cost": "4",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Mandarin",
       "set": "Hinterlands",
       "cost": "5",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Margrave",
       "set": "Hinterlands",
       "cost": "5",
-      "type": "Akcja - Atak"
+      "type": [
+        "Akcja",
+        "Atak"
+      ]
     },
     {
       "card": "Noble Brigand",
       "set": "Hinterlands",
       "cost": "4",
-      "type": "Akcja - Atak"
+      "type": [
+        "Akcja",
+        "Atak"
+      ]
     },
     {
       "card": "Nomad Camp",
       "set": "Hinterlands",
       "cost": "4",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Oasis",
       "set": "Hinterlands",
       "cost": "3",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Oracle",
       "set": "Hinterlands",
       "cost": "3",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Scheme",
       "set": "Hinterlands",
       "cost": "3",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Silk Road",
       "set": "Hinterlands",
       "cost": "4",
-      "type": "Zwycięstwo"
+      "type": [
+        "Zwycięstwo"
+      ]
     },
     {
       "card": "Spice Merchant",
       "set": "Hinterlands",
       "cost": "4",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Stables",
       "set": "Hinterlands",
       "cost": "5",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Trader",
       "set": "Hinterlands",
       "cost": "4",
-      "type": "Akcja - Reakcja"
+      "type": [
+        "Akcja",
+        "Reakcja"
+      ]
     },
     {
       "card": "Tunnel",
       "set": "Hinterlands",
       "cost": "3",
-      "type": "Zwycięstwo - Reakcja"
+      "type": [
+        "Zwycięstwo",
+        "Reakcja"
+      ]
     },
     {
       "card": "Baron",
       "set": "Intryga",
       "cost": "4",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Bridge",
       "set": "Intryga",
       "cost": "4",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Most"
     },
     {
       "card": "Conspirator",
       "set": "Intryga",
       "cost": "4",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Spiskowiec"
     },
     {
       "card": "Coppersmith",
       "set": "Intryga",
       "cost": "4",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Mennica"
     },
     {
       "card": "Courtyard",
       "set": "Intryga",
       "cost": "2",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Dziedziniec"
     },
     {
       "card": "Duke",
       "set": "Intryga",
       "cost": "5",
-      "type": "Zwycięstwo",
+      "type": [
+        "Zwycięstwo"
+      ],
       "display": "Starosta"
     },
     {
       "card": "Great Hall",
       "set": "Intryga",
       "cost": "3",
-      "type": "Akcja - Zwycięstwo",
+      "type": [
+        "Akcja",
+        "Zwycięstwo"
+      ],
       "display": "Westybul"
     },
     {
       "card": "Harem",
       "set": "Intryga",
       "cost": "6",
-      "type": "Skarb - Zwycięstwo"
+      "type": [
+        "Skarb",
+        "Zwycięstwo"
+      ]
     },
     {
       "card": "Ironworks",
       "set": "Intryga",
       "cost": "4",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Huta Żelaza"
     },
     {
       "card": "Masquerade",
       "set": "Intryga",
       "cost": "3",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Maskarada"
     },
     {
       "card": "Mining Village",
       "set": "Intryga",
       "cost": "4",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Osada Górnicza"
     },
     {
       "card": "Minion",
       "set": "Intryga",
       "cost": "5",
-      "type": "Akcja - Atak",
+      "type": [
+        "Akcja",
+        "Atak"
+      ],
       "display": "Sługus"
     },
     {
       "card": "Nobles",
       "set": "Intryga",
       "cost": "6",
-      "type": "Akcja - Zwycięstwo",
+      "type": [
+        "Akcja",
+        "Zwycięstwo"
+      ],
       "display": "Szlachta"
     },
     {
       "card": "Pawn",
       "set": "Intryga",
       "cost": "2",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Giermek"
     },
     {
       "card": "Saboteur",
       "set": "Intryga",
       "cost": "5",
-      "type": "Akcja - Atak",
+      "type": [
+        "Akcja",
+        "Atak"
+      ],
       "display": "Sabotażysta"
     },
     {
       "card": "Scout",
       "set": "Intryga",
       "cost": "4",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Zwiadowca"
     },
     {
       "card": "Secret Chamber",
       "set": "Intryga",
       "cost": "2",
-      "type": "Akcja - Reakcja",
+      "type": [
+        "Akcja",
+        "Reakcja"
+      ],
       "display": "Tajna Komnata"
     },
     {
       "card": "Shanty Town",
       "set": "Intryga",
       "cost": "3",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Rudera"
     },
     {
       "card": "Steward",
       "set": "Intryga",
       "cost": "3",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Zarządca"
     },
     {
       "card": "Swindler",
       "set": "Intryga",
       "cost": "3",
-      "type": "Akcja - Atak",
+      "type": [
+        "Akcja",
+        "Atak"
+      ],
       "display": "Kanciarz"
     },
     {
       "card": "Torturer",
       "set": "Intryga",
       "cost": "5",
-      "type": "Akcja - Atak",
+      "type": [
+        "Akcja",
+        "Atak"
+      ],
       "display": "Oprawca"
     },
     {
       "card": "Trading Post",
       "set": "Intryga",
       "cost": "5",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Faktoria"
     },
     {
       "card": "Tribute",
       "set": "Intryga",
       "cost": "5",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Danina"
     },
     {
       "card": "Upgrade",
       "set": "Intryga",
       "cost": "5",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Rozbudowa"
     },
     {
       "card": "Wishing Well",
       "set": "Intryga",
       "cost": "3",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Studnia Życzeń"
     },
     {
       "card": "Adventurer",
       "set": "Zestaw podstawowy",
       "cost": "6",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Odkrywca"
     },
     {
       "card": "Bureaucrat",
       "set": "Zestaw podstawowy",
       "cost": "4",
-      "type": "Akcja - Atak",
+      "type": [
+        "Akcja",
+        "Atak"
+      ],
       "display": "Urzędnik"
     },
     {
       "card": "Cellar",
       "set": "Zestaw podstawowy",
       "cost": "2",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Piwnica"
     },
     {
       "card": "Chancellor",
       "set": "Zestaw podstawowy",
       "cost": "3",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Kanclerz"
     },
     {
       "card": "Chapel",
       "set": "Zestaw podstawowy",
       "cost": "2",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Kaplica"
     },
     {
       "card": "Council Room",
       "set": "Zestaw podstawowy",
       "cost": "5",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Sala Obrad"
     },
     {
       "card": "Feast",
       "set": "Zestaw podstawowy",
       "cost": "4",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Uczta"
     },
     {
       "card": "Festival",
       "set": "Zestaw podstawowy",
       "cost": "5",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Festyn"
     },
     {
       "card": "Gardens",
       "set": "Zestaw podstawowy",
       "cost": "4",
-      "type": "Zwycięstwo",
+      "type": [
+        "Zwycięstwo"
+      ],
       "display": "Ogrody"
     },
     {
       "card": "Laboratory",
       "set": "Zestaw podstawowy",
       "cost": "5",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Laboratorium"
     },
     {
       "card": "Library",
       "set": "Zestaw podstawowy",
       "cost": "5",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Biblioteka"
     },
     {
       "card": "Market",
       "set": "Zestaw podstawowy",
       "cost": "5",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Targowisko"
     },
     {
       "card": "Militia",
       "set": "Zestaw podstawowy",
       "cost": "4",
-      "type": "Akcja - Atak",
+      "type": [
+        "Akcja",
+        "Atak"
+      ],
       "display": "Milicja"
     },
     {
       "card": "Mine",
       "set": "Zestaw podstawowy",
       "cost": "5",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Kopalnia"
     },
     {
       "card": "Moat",
       "set": "Zestaw podstawowy",
       "cost": "2",
-      "type": "Akcja - Reakcja",
+      "type": [
+        "Akcja",
+        "Reakcja"
+      ],
       "display": "Fosa"
     },
     {
       "card": "Moneylender",
       "set": "Zestaw podstawowy",
       "cost": "4",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Lichwiarz"
     },
     {
       "card": "Remodel",
       "set": "Zestaw podstawowy",
       "cost": "4",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Przebudowa"
     },
     {
       "card": "Smithy",
       "set": "Zestaw podstawowy",
       "cost": "4",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Kuźnia"
     },
     {
       "card": "Spy",
       "set": "Zestaw podstawowy",
       "cost": "4",
-      "type": "Akcja - Atak",
+      "type": [
+        "Akcja",
+        "Atak"
+      ],
       "display": "Szpieg"
     },
     {
       "card": "Thief",
       "set": "Zestaw podstawowy",
       "cost": "4",
-      "type": "Akcja - Atak",
+      "type": [
+        "Akcja",
+        "Atak"
+      ],
       "display": "Złodziej"
     },
     {
       "card": "Throne Room",
       "set": "Zestaw podstawowy",
       "cost": "4",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Sala Tronowa"
     },
     {
       "card": "Village",
       "set": "Zestaw podstawowy",
       "cost": "3",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Wioska"
     },
     {
       "card": "Witch",
       "set": "Zestaw podstawowy",
       "cost": "5",
-      "type": "Akcja - Atak",
+      "type": [
+        "Akcja",
+        "Atak"
+      ],
       "display": "Wiedźma"
     },
     {
       "card": "Woodcutter",
       "set": "Zestaw podstawowy",
       "cost": "3",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Drwal"
     },
     {
       "card": "Workshop",
       "set": "Zestaw podstawowy",
       "cost": "3",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Warsztat"
     },
     {
       "card": "Black Market",
       "set": "Karty promocyjne",
       "cost": "3",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Czarny Rynek"
     },
     {
       "card": "Envoy",
       "set": "Karty promocyjne",
       "cost": "4",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Poseł"
     },
     {
       "card": "Stash",
       "set": "Karty promocyjne",
       "cost": "5",
-      "type": "Skarb",
+      "type": [
+        "Skarb"
+      ],
       "display": "Zaskórniak"
     },
     {
       "card": "Walled Village",
       "set": "Karty promocyjne",
       "cost": "4",
-      "type": "Akcja",
+      "type": [
+        "Akcja"
+      ],
       "display": "Kasztel"
     },
     {
       "card": "Governor",
       "set": "Karty promocyjne",
       "cost": "5",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Prince",
       "set": "Karty promocyjne",
       "cost": "8",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Bank",
       "set": "Prosperity",
       "cost": "7",
-      "type": "Skarb"
+      "type": [
+        "Skarb"
+      ]
     },
     {
       "card": "Bishop",
       "set": "Prosperity",
       "cost": "4",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "City",
       "set": "Prosperity",
       "cost": "5",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Contraband",
       "set": "Prosperity",
       "cost": "5",
-      "type": "Skarb"
+      "type": [
+        "Skarb"
+      ]
     },
     {
       "card": "Counting House",
       "set": "Prosperity",
       "cost": "5",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Expand",
       "set": "Prosperity",
       "cost": "7",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Forge",
       "set": "Prosperity",
       "cost": "7",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Goons",
       "set": "Prosperity",
       "cost": "6",
-      "type": "Akcja - Atak"
+      "type": [
+        "Akcja",
+        "Atak"
+      ]
     },
     {
       "card": "Grand Market",
       "set": "Prosperity",
       "cost": "6",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Hoard",
       "set": "Prosperity",
       "cost": "6",
-      "type": "Skarb"
+      "type": [
+        "Skarb"
+      ]
     },
     {
       "card": "King's Court",
       "set": "Prosperity",
       "cost": "7",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Loan",
       "set": "Prosperity",
       "cost": "3",
-      "type": "Skarb"
+      "type": [
+        "Skarb"
+      ]
     },
     {
       "card": "Mint",
       "set": "Prosperity",
       "cost": "5",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Monument",
       "set": "Prosperity",
       "cost": "4",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Mountebank",
       "set": "Prosperity",
       "cost": "5",
-      "type": "Akcja - Atak"
+      "type": [
+        "Akcja",
+        "Atak"
+      ]
     },
     {
       "card": "Peddler",
       "set": "Prosperity",
       "cost": "8*",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Quarry",
       "set": "Prosperity",
       "cost": "4",
-      "type": "Skarb"
+      "type": [
+        "Skarb"
+      ]
     },
     {
       "card": "Rabble",
       "set": "Prosperity",
       "cost": "5",
-      "type": "Akcja - Atak"
+      "type": [
+        "Akcja",
+        "Atak"
+      ]
     },
     {
       "card": "Royal Seal",
       "set": "Prosperity",
       "cost": "5",
-      "type": "Skarb"
+      "type": [
+        "Skarb"
+      ]
     },
     {
       "card": "Talisman",
       "set": "Prosperity",
       "cost": "4",
-      "type": "Skarb"
+      "type": [
+        "Skarb"
+      ]
     },
     {
       "card": "Trade Route",
       "set": "Prosperity",
       "cost": "3",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Vault",
       "set": "Prosperity",
       "cost": "5",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Venture",
       "set": "Prosperity",
       "cost": "5",
-      "type": "Skarb"
+      "type": [
+        "Skarb"
+      ]
     },
     {
       "card": "Watchtower",
       "set": "Prosperity",
       "cost": "3",
-      "type": "Akcja - Reakcja"
+      "type": [
+        "Akcja",
+        "Reakcja"
+      ]
     },
     {
       "card": "Worker's Village",
       "set": "Prosperity",
       "cost": "4",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Ambassador",
       "set": "Seaside",
       "cost": "3",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Bazaar",
       "set": "Seaside",
       "cost": "5",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Caravan",
       "set": "Seaside",
       "cost": "4",
-      "type": "Action - Duration"
+      "type": [
+        "Action",
+        "Duration"
+      ]
     },
     {
       "card": "Cutpurse",
       "set": "Seaside",
       "cost": "4",
-      "type": "Akcja - Atak"
+      "type": [
+        "Akcja",
+        "Atak"
+      ]
     },
     {
       "card": "Embargo",
       "set": "Seaside",
       "cost": "2",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Explorer",
       "set": "Seaside",
       "cost": "5",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Fishing Village",
       "set": "Seaside",
       "cost": "3",
-      "type": "Action - Duration"
+      "type": [
+        "Action",
+        "Duration"
+      ]
     },
     {
       "card": "Ghost Ship",
       "set": "Seaside",
       "cost": "5",
-      "type": "Akcja - Atak"
+      "type": [
+        "Akcja",
+        "Atak"
+      ]
     },
     {
       "card": "Haven",
       "set": "Seaside",
       "cost": "2",
-      "type": "Action - Duration"
+      "type": [
+        "Action",
+        "Duration"
+      ]
     },
     {
       "card": "Island",
       "set": "Seaside",
       "cost": "4",
-      "type": "Akcja - Zwycięstwo"
+      "type": [
+        "Akcja",
+        "Zwycięstwo"
+      ]
     },
     {
       "card": "Lighthouse",
       "set": "Seaside",
       "cost": "2",
-      "type": "Action - Duration"
+      "type": [
+        "Action",
+        "Duration"
+      ]
     },
     {
       "card": "Lookout",
       "set": "Seaside",
       "cost": "3",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Merchant Ship",
       "set": "Seaside",
       "cost": "5",
-      "type": "Action - Duration"
+      "type": [
+        "Action",
+        "Duration"
+      ]
     },
     {
       "card": "Native Village",
       "set": "Seaside",
       "cost": "2",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Navigator",
       "set": "Seaside",
       "cost": "4",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Outpost",
       "set": "Seaside",
       "cost": "5",
-      "type": "Action - Duration"
+      "type": [
+        "Action",
+        "Duration"
+      ]
     },
     {
       "card": "Pearl Diver",
       "set": "Seaside",
       "cost": "2",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Pirate Ship",
       "set": "Seaside",
       "cost": "4",
-      "type": "Akcja - Atak"
+      "type": [
+        "Akcja",
+        "Atak"
+      ]
     },
     {
       "card": "Salvager",
       "set": "Seaside",
       "cost": "4",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Sea Hag",
       "set": "Seaside",
       "cost": "4",
-      "type": "Akcja - Atak"
+      "type": [
+        "Akcja",
+        "Atak"
+      ]
     },
     {
       "card": "Smugglers",
       "set": "Seaside",
       "cost": "3",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Tactician",
       "set": "Seaside",
       "cost": "5",
-      "type": "Action - Duration"
+      "type": [
+        "Action",
+        "Duration"
+      ]
     },
     {
       "card": "Treasure Map",
       "set": "Seaside",
       "cost": "4",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Treasury",
       "set": "Seaside",
       "cost": "5",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Warehouse",
       "set": "Seaside",
       "cost": "3",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Wharf",
       "set": "Seaside",
       "cost": "5",
-      "type": "Action - Duration"
+      "type": [
+        "Action",
+        "Duration"
+      ]
     },
     {
       "card": "Altar",
       "set": "Dark Ages",
       "cost": "6",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Armory",
       "set": "Dark Ages",
       "cost": "4",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Band of Misfits",
       "set": "Dark Ages",
       "cost": "5",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Bandit Camp",
       "set": "Dark Ages",
       "cost": "5",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Beggar",
       "set": "Dark Ages",
       "cost": "2",
-      "type": "Akcja - Reakcja"
+      "type": [
+        "Akcja",
+        "Reakcja"
+      ]
     },
     {
       "card": "Catacombs",
       "set": "Dark Ages",
       "cost": "5",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Count",
       "set": "Dark Ages",
       "cost": "5",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Cultist",
       "set": "Dark Ages",
       "cost": "5",
-      "type": "Action - Attack - Looter"
+      "type": [
+        "Action",
+        "Attack",
+        "Looter"
+      ]
     },
     {
       "card": "Death Cart",
       "set": "Dark Ages",
       "cost": "4",
-      "type": "Action - Looter"
+      "type": [
+        "Action",
+        "Looter"
+      ]
     },
     {
       "card": "Forager",
       "set": "Dark Ages",
       "cost": "3",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Fortress",
       "set": "Dark Ages",
       "cost": "4",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Graverobber",
       "set": "Dark Ages",
       "cost": "5",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Hermit",
       "set": "Dark Ages",
       "cost": "3",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Hunting Grounds",
       "set": "Dark Ages",
       "cost": "6",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Ironmonger",
       "set": "Dark Ages",
       "cost": "4",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Junk Dealer",
       "set": "Dark Ages",
       "cost": "5",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Marauder",
       "set": "Dark Ages",
       "cost": "4",
-      "type": "Action - Attack - Looter"
+      "type": [
+        "Action",
+        "Attack",
+        "Looter"
+      ]
     },
     {
       "card": "Market Square",
       "set": "Dark Ages",
       "cost": "3",
-      "type": "Akcja - Reakcja"
+      "type": [
+        "Akcja",
+        "Reakcja"
+      ]
     },
     {
       "card": "Mystic",
       "set": "Dark Ages",
       "cost": "5",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Pillage",
       "set": "Dark Ages",
       "cost": "5",
-      "type": "Akcja - Atak"
+      "type": [
+        "Akcja",
+        "Atak"
+      ]
     },
     {
       "card": "Poor House",
       "set": "Dark Ages",
       "cost": "1",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Procession",
       "set": "Dark Ages",
       "cost": "4",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Rebuild",
       "set": "Dark Ages",
       "cost": "5",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Rogue",
       "set": "Dark Ages",
       "cost": "5",
-      "type": "Akcja - Atak"
+      "type": [
+        "Akcja",
+        "Atak"
+      ]
     },
     {
       "card": "Sage",
       "set": "Dark Ages",
       "cost": "3",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Scavenger",
       "set": "Dark Ages",
       "cost": "4",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Squire",
       "set": "Dark Ages",
       "cost": "2",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Storeroom",
       "set": "Dark Ages",
       "cost": "3",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Urchin",
       "set": "Dark Ages",
       "cost": "3",
-      "type": "Akcja - Atak"
+      "type": [
+        "Akcja",
+        "Atak"
+      ]
     },
     {
       "card": "Vagrant",
       "set": "Dark Ages",
       "cost": "2",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Wandering Minstrel",
       "set": "Dark Ages",
       "cost": "4",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Counterfeit",
       "set": "Dark Ages",
       "cost": "5",
-      "type": "Skarb"
+      "type": [
+        "Skarb"
+      ]
     },
     {
       "card": "Feodum",
       "set": "Dark Ages",
       "cost": "4",
-      "type": "Zwycięstwo"
+      "type": [
+        "Zwycięstwo"
+      ]
     },
     {
       "card": "Rats",
       "set": "Dark Ages",
       "cost": "4",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Knights",
       "set": "Dark Ages",
       "cost": "5",
-      "type": "Action - Attack - Knight"
+      "type": [
+        "Action",
+        "Attack",
+        "Knight"
+      ]
     },
     {
       "card": "Advisor",
       "set": "Guilds",
       "cost": "4",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Baker",
       "set": "Guilds",
       "cost": "5",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Butcher",
       "set": "Guilds",
       "cost": "5",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Candlestick Maker",
       "set": "Guilds",
       "cost": "2",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Doctor",
       "set": "Guilds",
       "cost": "3+",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Herald",
       "set": "Guilds",
       "cost": "4+",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Journeyman",
       "set": "Guilds",
       "cost": "5",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Masterpiece",
       "set": "Guilds",
       "cost": "3+",
-      "type": "Skarb"
+      "type": [
+        "Skarb"
+      ]
     },
     {
       "card": "Merchant Guild",
       "set": "Guilds",
       "cost": "5",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Plaza",
       "set": "Guilds",
       "cost": "4",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Soothsayer",
       "set": "Guilds",
       "cost": "5",
-      "type": "Akcja - Atak"
+      "type": [
+        "Akcja",
+        "Atak"
+      ]
     },
     {
       "card": "Stonemason",
       "set": "Guilds",
       "cost": "2+",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Taxman",
       "set": "Guilds",
       "cost": "4",
-      "type": "Akcja - Atak"
+      "type": [
+        "Akcja",
+        "Atak"
+      ]
     }
   ],
   "groups": [
@@ -2726,54 +3194,72 @@
       ]
     }
   ],
-  "basic_cards": [
+  "non_kingdom_cards": [
     {
       "card": "Potion",
       "set": "Alchemy",
       "cost": "4",
-      "type": "Skarb"
+      "type": [
+        "Skarb"
+      ]
     },
     {
       "card": "Colony",
       "set": "Prosperity",
       "cost": "11",
-      "type": "Zwycięstwo"
+      "type": [
+        "Zwycięstwo"
+      ]
     },
     {
       "card": "Platinum",
       "set": "Prosperity",
       "cost": "9",
-      "type": "Skarb"
+      "type": [
+        "Skarb"
+      ]
     },
     {
       "card": "Shelter",
       "set": "Dark Ages",
       "cost": "1",
-      "type": "Shelter"
+      "type": [
+        "Shelter"
+      ]
     },
     {
       "card": "Ruins",
       "set": "Dark Ages",
       "cost": "0",
-      "type": "Akcja - Atak"
+      "type": [
+        "Akcja",
+        "Atak"
+      ]
     },
     {
       "card": "Spoils",
       "set": "Dark Ages",
       "cost": "0*",
-      "type": "Skarb"
+      "type": [
+        "Skarb"
+      ]
     },
     {
       "card": "Madman",
       "set": "Dark Ages",
       "cost": "0*",
-      "type": "Akcja"
+      "type": [
+        "Akcja"
+      ]
     },
     {
       "card": "Mercenary",
       "set": "Dark Ages",
       "cost": "0*",
-      "type": "Akcja - Atak"
+      "type": [
+        "Akcja",
+        "Atak"
+      ]
     }
   ]
 }
