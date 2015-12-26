@@ -1,2103 +1,3820 @@
 {
-	"cards" : [{
-			"card" : "Alchemist",
-			"set" : "Alchemy",
-			"cost" : "P3",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Apothecary",
-			"set" : "Alchemy",
-			"cost" : "P2",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Apprentice",
-			"set" : "Alchemy",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Familiar",
-			"set" : "Alchemy",
-			"cost" : "P3",
-			"type" : [
-				"Action",
-				"Attack"
-			]
-		}, {
-			"card" : "Golem",
-			"set" : "Alchemy",
-			"cost" : "P4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Herbalist",
-			"set" : "Alchemy",
-			"cost" : "2",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Philosopher's Stone",
-			"set" : "Alchemy",
-			"cost" : "P3",
-			"type" : [
-				"Treasure"
-			]
-		}, {
-			"card" : "Possession",
-			"set" : "Alchemy",
-			"cost" : "P6",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Scrying Pool",
-			"set" : "Alchemy",
-			"cost" : "P2",
-			"type" : [
-				"Action",
-				"Attack"
-			]
-		}, {
-			"card" : "Transmute",
-			"set" : "Alchemy",
-			"cost" : "P0",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "University",
-			"set" : "Alchemy",
-			"cost" : "P2",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Vineyard",
-			"set" : "Alchemy",
-			"cost" : "P0",
-			"type" : [
-				"Victory"
-			]
-		}, {
-			"card" : "Fairgrounds",
-			"set" : "Cornucopia",
-			"cost" : "6",
-			"type" : [
-				"Victory"
-			]
-		}, {
-			"card" : "Farming Village",
-			"set" : "Cornucopia",
-			"cost" : "4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Fortune Teller ",
-			"set" : "Cornucopia",
-			"cost" : "3",
-			"type" : [
-				"Action",
-				"Attack"
-			]
-		}, {
-			"card" : "Hamlet",
-			"set" : "Cornucopia",
-			"cost" : "2",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Harvest",
-			"set" : "Cornucopia",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Horn of Plenty",
-			"set" : "Cornucopia",
-			"cost" : "5",
-			"type" : [
-				"Treasure"
-			]
-		}, {
-			"card" : "Horse Traders",
-			"set" : "Cornucopia",
-			"cost" : "4",
-			"type" : [
-				"Action",
-				"Reaction"
-			]
-		}, {
-			"card" : "Hunting Party",
-			"set" : "Cornucopia",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Jester",
-			"set" : "Cornucopia",
-			"cost" : "5",
-			"type" : [
-				"Action",
-				"Attack"
-			]
-		}, {
-			"card" : "Menagerie",
-			"set" : "Cornucopia",
-			"cost" : "3",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Remake",
-			"set" : "Cornucopia",
-			"cost" : "4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Tournament",
-			"set" : "Cornucopia",
-			"cost" : "4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Young Witch",
-			"set" : "Cornucopia",
-			"cost" : "4",
-			"type" : [
-				"Action",
-				"Attack"
-			]
-		}, {
-			"card" : "Border Village",
-			"set" : "Hinterlands",
-			"cost" : "6",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Cache",
-			"set" : "Hinterlands",
-			"cost" : "5",
-			"type" : [
-				"Treasure"
-			]
-		}, {
-			"card" : "Cartographer",
-			"set" : "Hinterlands",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Crossroads",
-			"set" : "Hinterlands",
-			"cost" : "2",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Develop",
-			"set" : "Hinterlands",
-			"cost" : "3",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Duchess",
-			"set" : "Hinterlands",
-			"cost" : "2",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Embassy",
-			"set" : "Hinterlands",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Farmland",
-			"set" : "Hinterlands",
-			"cost" : "6",
-			"type" : [
-				"Victory"
-			]
-		}, {
-			"card" : "Fool's Gold",
-			"set" : "Hinterlands",
-			"cost" : "2",
-			"type" : [
-				"Treasure",
-				"Reaction"
-			]
-		}, {
-			"card" : "Haggler",
-			"set" : "Hinterlands",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Highway",
-			"set" : "Hinterlands",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Ill-Gotten Gains",
-			"set" : "Hinterlands",
-			"cost" : "5",
-			"type" : [
-				"Treasure"
-			]
-		}, {
-			"card" : "Inn",
-			"set" : "Hinterlands",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Jack of all Trades",
-			"set" : "Hinterlands",
-			"cost" : "4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Mandarin",
-			"set" : "Hinterlands",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Margrave",
-			"set" : "Hinterlands",
-			"cost" : "5",
-			"type" : [
-				"Action",
-				"Attack"
-			]
-		}, {
-			"card" : "Noble Brigand",
-			"set" : "Hinterlands",
-			"cost" : "4",
-			"type" : [
-				"Action",
-				"Attack"
-			]
-		}, {
-			"card" : "Nomad Camp",
-			"set" : "Hinterlands",
-			"cost" : "4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Oasis",
-			"set" : "Hinterlands",
-			"cost" : "3",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Oracle",
-			"set" : "Hinterlands",
-			"cost" : "3",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Scheme",
-			"set" : "Hinterlands",
-			"cost" : "3",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Silk Road",
-			"set" : "Hinterlands",
-			"cost" : "4",
-			"type" : [
-				"Victory"
-			]
-		}, {
-			"card" : "Spice Merchant",
-			"set" : "Hinterlands",
-			"cost" : "4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Stables",
-			"set" : "Hinterlands",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Trader",
-			"set" : "Hinterlands",
-			"cost" : "4",
-			"type" : [
-				"Action",
-				"Reaction"
-			]
-		}, {
-			"card" : "Tunnel",
-			"set" : "Hinterlands",
-			"cost" : "3",
-			"type" : [
-				"Victory",
-				"Reaction"
-			]
-		}, {
-			"card" : "Baron",
-			"set" : "Intrigue",
-			"cost" : "4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Bridge",
-			"set" : "Intrigue",
-			"cost" : "4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Conspirator",
-			"set" : "Intrigue",
-			"cost" : "4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Coppersmith",
-			"set" : "Intrigue",
-			"cost" : "4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Courtyard",
-			"set" : "Intrigue",
-			"cost" : "2",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Duke",
-			"set" : "Intrigue",
-			"cost" : "5",
-			"type" : [
-				"Victory"
-			]
-		}, {
-			"card" : "Great Hall",
-			"set" : "Intrigue",
-			"cost" : "3",
-			"type" : [
-				"Action",
-				"Victory"
-			]
-		}, {
-			"card" : "Harem",
-			"set" : "Intrigue",
-			"cost" : "6",
-			"type" : [
-				"Treasure",
-				"Victory"
-			]
-		}, {
-			"card" : "Ironworks",
-			"set" : "Intrigue",
-			"cost" : "4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Masquerade",
-			"set" : "Intrigue",
-			"cost" : "3",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Mining Village",
-			"set" : "Intrigue",
-			"cost" : "4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Minion",
-			"set" : "Intrigue",
-			"cost" : "5",
-			"type" : [
-				"Action",
-				"Attack"
-			]
-		}, {
-			"card" : "Nobles",
-			"set" : "Intrigue",
-			"cost" : "6",
-			"type" : [
-				"Action",
-				"Victory"
-			]
-		}, {
-			"card" : "Pawn",
-			"set" : "Intrigue",
-			"cost" : "2",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Saboteur",
-			"set" : "Intrigue",
-			"cost" : "5",
-			"type" : [
-				"Action",
-				"Attack"
-			]
-		}, {
-			"card" : "Scout",
-			"set" : "Intrigue",
-			"cost" : "4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Secret Chamber",
-			"set" : "Intrigue",
-			"cost" : "2",
-			"type" : [
-				"Action",
-				"Reaction"
-			]
-		}, {
-			"card" : "Shanty Town",
-			"set" : "Intrigue",
-			"cost" : "3",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Steward",
-			"set" : "Intrigue",
-			"cost" : "3",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Swindler",
-			"set" : "Intrigue",
-			"cost" : "3",
-			"type" : [
-				"Action",
-				"Attack"
-			]
-		}, {
-			"card" : "Torturer",
-			"set" : "Intrigue",
-			"cost" : "5",
-			"type" : [
-				"Action",
-				"Attack"
-			]
-		}, {
-			"card" : "Trading Post",
-			"set" : "Intrigue",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Tribute",
-			"set" : "Intrigue",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Upgrade",
-			"set" : "Intrigue",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Wishing Well",
-			"set" : "Intrigue",
-			"cost" : "3",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Adventurer",
-			"set" : "Main Set",
-			"cost" : "6",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Bureaucrat",
-			"set" : "Main Set",
-			"cost" : "4",
-			"type" : [
-				"Action",
-				"Attack"
-			]
-		}, {
-			"card" : "Cellar",
-			"set" : "Main Set",
-			"cost" : "2",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Chancellor",
-			"set" : "Main Set",
-			"cost" : "3",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Chapel",
-			"set" : "Main Set",
-			"cost" : "2",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Council Room",
-			"set" : "Main Set",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Feast",
-			"set" : "Main Set",
-			"cost" : "4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Festival",
-			"set" : "Main Set",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Gardens",
-			"set" : "Main Set",
-			"cost" : "4",
-			"type" : [
-				"Victory"
-			]
-		}, {
-			"card" : "Laboratory",
-			"set" : "Main Set",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Library",
-			"set" : "Main Set",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Market",
-			"set" : "Main Set",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Militia",
-			"set" : "Main Set",
-			"cost" : "4",
-			"type" : [
-				"Action",
-				"Attack"
-			]
-		}, {
-			"card" : "Mine",
-			"set" : "Main Set",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Moat",
-			"set" : "Main Set",
-			"cost" : "2",
-			"type" : [
-				"Action",
-				"Reaction"
-			]
-		}, {
-			"card" : "Moneylender",
-			"set" : "Main Set",
-			"cost" : "4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Remodel",
-			"set" : "Main Set",
-			"cost" : "4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Smithy",
-			"set" : "Main Set",
-			"cost" : "4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Spy",
-			"set" : "Main Set",
-			"cost" : "4",
-			"type" : [
-				"Action",
-				"Attack"
-			]
-		}, {
-			"card" : "Thief",
-			"set" : "Main Set",
-			"cost" : "4",
-			"type" : [
-				"Action",
-				"Attack"
-			]
-		}, {
-			"card" : "Throne Room",
-			"set" : "Main Set",
-			"cost" : "4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Village",
-			"set" : "Main Set",
-			"cost" : "3",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Witch",
-			"set" : "Main Set",
-			"cost" : "5",
-			"type" : [
-				"Action",
-				"Attack"
-			]
-		}, {
-			"card" : "Woodcutter",
-			"set" : "Main Set",
-			"cost" : "3",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Workshop",
-			"set" : "Main Set",
-			"cost" : "3",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Black Market",
-			"set" : "Promo",
-			"cost" : "3",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Envoy",
-			"set" : "Promo",
-			"cost" : "4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Stash",
-			"set" : "Promo",
-			"cost" : "5",
-			"type" : [
-				"Treasure"
-			]
-		}, {
-			"card" : "Walled Village",
-			"set" : "Promo",
-			"cost" : "4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Governor",
-			"set" : "Promo",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Prince",
-			"set" : "Promo",
-			"cost" : "8",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Bank",
-			"set" : "Prosperity",
-			"cost" : "7",
-			"type" : [
-				"Treasure"
-			]
-		}, {
-			"card" : "Bishop",
-			"set" : "Prosperity",
-			"cost" : "4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "City",
-			"set" : "Prosperity",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Contraband",
-			"set" : "Prosperity",
-			"cost" : "5",
-			"type" : [
-				"Treasure"
-			]
-		}, {
-			"card" : "Counting House",
-			"set" : "Prosperity",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Expand",
-			"set" : "Prosperity",
-			"cost" : "7",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Forge",
-			"set" : "Prosperity",
-			"cost" : "7",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Goons",
-			"set" : "Prosperity",
-			"cost" : "6",
-			"type" : [
-				"Action",
-				"Attack"
-			]
-		}, {
-			"card" : "Grand Market",
-			"set" : "Prosperity",
-			"cost" : "6",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Hoard",
-			"set" : "Prosperity",
-			"cost" : "6",
-			"type" : [
-				"Treasure"
-			]
-		}, {
-			"card" : "King's Court",
-			"set" : "Prosperity",
-			"cost" : "7",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Loan",
-			"set" : "Prosperity",
-			"cost" : "3",
-			"type" : [
-				"Treasure"
-			]
-		}, {
-			"card" : "Mint",
-			"set" : "Prosperity",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Monument",
-			"set" : "Prosperity",
-			"cost" : "4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Mountebank",
-			"set" : "Prosperity",
-			"cost" : "5",
-			"type" : [
-				"Action",
-				"Attack"
-			]
-		}, {
-			"card" : "Peddler",
-			"set" : "Prosperity",
-			"cost" : "8*",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Quarry",
-			"set" : "Prosperity",
-			"cost" : "4",
-			"type" : [
-				"Treasure"
-			]
-		}, {
-			"card" : "Rabble",
-			"set" : "Prosperity",
-			"cost" : "5",
-			"type" : [
-				"Action",
-				"Attack"
-			]
-		}, {
-			"card" : "Royal Seal",
-			"set" : "Prosperity",
-			"cost" : "5",
-			"type" : [
-				"Treasure"
-			]
-		}, {
-			"card" : "Talisman",
-			"set" : "Prosperity",
-			"cost" : "4",
-			"type" : [
-				"Treasure"
-			]
-		}, {
-			"card" : "Trade Route",
-			"set" : "Prosperity",
-			"cost" : "3",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Vault",
-			"set" : "Prosperity",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Venture",
-			"set" : "Prosperity",
-			"cost" : "5",
-			"type" : [
-				"Treasure"
-			]
-		}, {
-			"card" : "Watchtower",
-			"set" : "Prosperity",
-			"cost" : "3",
-			"type" : [
-				"Action",
-				"Reaction"
-			]
-		}, {
-			"card" : "Worker's Village",
-			"set" : "Prosperity",
-			"cost" : "4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Ambassador",
-			"set" : "Seaside",
-			"cost" : "3",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Bazaar",
-			"set" : "Seaside",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Caravan",
-			"set" : "Seaside",
-			"cost" : "4",
-			"type" : [
-				"Action",
-				"Duration"
-			]
-		}, {
-			"card" : "Cutpurse",
-			"set" : "Seaside",
-			"cost" : "4",
-			"type" : [
-				"Action",
-				"Attack"
-			]
-		}, {
-			"card" : "Embargo",
-			"set" : "Seaside",
-			"cost" : "2",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Explorer",
-			"set" : "Seaside",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Fishing Village",
-			"set" : "Seaside",
-			"cost" : "3",
-			"type" : [
-				"Action",
-				"Duration"
-			]
-		}, {
-			"card" : "Ghost Ship",
-			"set" : "Seaside",
-			"cost" : "5",
-			"type" : [
-				"Action",
-				"Attack"
-			]
-		}, {
-			"card" : "Haven",
-			"set" : "Seaside",
-			"cost" : "2",
-			"type" : [
-				"Action",
-				"Duration"
-			]
-		}, {
-			"card" : "Island",
-			"set" : "Seaside",
-			"cost" : "4",
-			"type" : [
-				"Action",
-				"Victory"
-			]
-		}, {
-			"card" : "Lighthouse",
-			"set" : "Seaside",
-			"cost" : "2",
-			"type" : [
-				"Action",
-				"Duration"
-			]
-		}, {
-			"card" : "Lookout",
-			"set" : "Seaside",
-			"cost" : "3",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Merchant Ship",
-			"set" : "Seaside",
-			"cost" : "5",
-			"type" : [
-				"Action",
-				"Duration"
-			]
-		}, {
-			"card" : "Native Village",
-			"set" : "Seaside",
-			"cost" : "2",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Navigator",
-			"set" : "Seaside",
-			"cost" : "4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Outpost",
-			"set" : "Seaside",
-			"cost" : "5",
-			"type" : [
-				"Action",
-				"Duration"
-			]
-		}, {
-			"card" : "Pearl Diver",
-			"set" : "Seaside",
-			"cost" : "2",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Pirate Ship",
-			"set" : "Seaside",
-			"cost" : "4",
-			"type" : [
-				"Action",
-				"Attack"
-			]
-		}, {
-			"card" : "Salvager",
-			"set" : "Seaside",
-			"cost" : "4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Sea Hag",
-			"set" : "Seaside",
-			"cost" : "4",
-			"type" : [
-				"Action",
-				"Attack"
-			]
-		}, {
-			"card" : "Smugglers",
-			"set" : "Seaside",
-			"cost" : "3",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Tactician",
-			"set" : "Seaside",
-			"cost" : "5",
-			"type" : [
-				"Action",
-				"Duration"
-			]
-		}, {
-			"card" : "Treasure Map",
-			"set" : "Seaside",
-			"cost" : "4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Treasury",
-			"set" : "Seaside",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Warehouse",
-			"set" : "Seaside",
-			"cost" : "3",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Wharf",
-			"set" : "Seaside",
-			"cost" : "5",
-			"type" : [
-				"Action",
-				"Duration"
-			]
-		}, {
-			"card" : "Altar",
-			"set" : "Dark Ages",
-			"cost" : "6",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Armory",
-			"set" : "Dark Ages",
-			"cost" : "4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Band of Misfits",
-			"set" : "Dark Ages",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Bandit Camp",
-			"set" : "Dark Ages",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Beggar",
-			"set" : "Dark Ages",
-			"cost" : "2",
-			"type" : [
-				"Action",
-				"Reaction"
-			]
-		}, {
-			"card" : "Catacombs",
-			"set" : "Dark Ages",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Count",
-			"set" : "Dark Ages",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Cultist",
-			"set" : "Dark Ages",
-			"cost" : "5",
-			"type" : [
-				"Action",
-				"Attack",
-				"Looter"
-			]
-		}, {
-			"card" : "Death Cart",
-			"set" : "Dark Ages",
-			"cost" : "4",
-			"type" : [
-				"Action",
-				"Looter"
-			]
-		}, {
-			"card" : "Forager",
-			"set" : "Dark Ages",
-			"cost" : "3",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Fortress",
-			"set" : "Dark Ages",
-			"cost" : "4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Graverobber",
-			"set" : "Dark Ages",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Hermit",
-			"set" : "Dark Ages",
-			"cost" : "3",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Hunting Grounds",
-			"set" : "Dark Ages",
-			"cost" : "6",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Ironmonger",
-			"set" : "Dark Ages",
-			"cost" : "4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Junk Dealer",
-			"set" : "Dark Ages",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Marauder",
-			"set" : "Dark Ages",
-			"cost" : "4",
-			"type" : [
-				"Action",
-				"Attack",
-				"Looter"
-			]
-		}, {
-			"card" : "Market Square",
-			"set" : "Dark Ages",
-			"cost" : "3",
-			"type" : [
-				"Action",
-				"Reaction"
-			]
-		}, {
-			"card" : "Mystic",
-			"set" : "Dark Ages",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Pillage",
-			"set" : "Dark Ages",
-			"cost" : "5",
-			"type" : [
-				"Action",
-				"Attack"
-			]
-		}, {
-			"card" : "Poor House",
-			"set" : "Dark Ages",
-			"cost" : "1",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Procession",
-			"set" : "Dark Ages",
-			"cost" : "4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Rebuild",
-			"set" : "Dark Ages",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Rogue",
-			"set" : "Dark Ages",
-			"cost" : "5",
-			"type" : [
-				"Action",
-				"Attack"
-			]
-		}, {
-			"card" : "Sage",
-			"set" : "Dark Ages",
-			"cost" : "3",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Scavenger",
-			"set" : "Dark Ages",
-			"cost" : "4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Squire",
-			"set" : "Dark Ages",
-			"cost" : "2",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Storeroom",
-			"set" : "Dark Ages",
-			"cost" : "3",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Urchin",
-			"set" : "Dark Ages",
-			"cost" : "3",
-			"type" : [
-				"Action",
-				"Attack"
-			]
-		}, {
-			"card" : "Vagrant",
-			"set" : "Dark Ages",
-			"cost" : "2",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Wandering Minstrel",
-			"set" : "Dark Ages",
-			"cost" : "4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Counterfeit",
-			"set" : "Dark Ages",
-			"cost" : "5",
-			"type" : [
-				"Treasure"
-			]
-		}, {
-			"card" : "Feodum",
-			"set" : "Dark Ages",
-			"cost" : "4",
-			"type" : [
-				"Victory"
-			]
-		}, {
-			"card" : "Rats",
-			"set" : "Dark Ages",
-			"cost" : "4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Knights",
-			"set" : "Dark Ages",
-			"cost" : "5",
-			"type" : [
-				"Action",
-				"Attack",
-				"Knight"
-			]
-		}, {
-			"card" : "Advisor",
-			"set" : "Guilds",
-			"cost" : "4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Baker",
-			"set" : "Guilds",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Butcher",
-			"set" : "Guilds",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Candlestick Maker",
-			"set" : "Guilds",
-			"cost" : "2",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Doctor",
-			"set" : "Guilds",
-			"cost" : "3+",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Herald",
-			"set" : "Guilds",
-			"cost" : "4+",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Journeyman",
-			"set" : "Guilds",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Masterpiece",
-			"set" : "Guilds",
-			"cost" : "3+",
-			"type" : [
-				"Treasure"
-			]
-		}, {
-			"card" : "Merchant Guild",
-			"set" : "Guilds",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Plaza",
-			"set" : "Guilds",
-			"cost" : "4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Soothsayer",
-			"set" : "Guilds",
-			"cost" : "5",
-			"type" : [
-				"Action",
-				"Attack"
-			]
-		}, {
-			"card" : "Stonemason",
-			"set" : "Guilds",
-			"cost" : "2+",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Taxman",
-			"set" : "Guilds",
-			"cost" : "4",
-			"type" : [
-				"Action",
-				"Attack"
-			]
-		}, {
-			"card" : "Amulet",
-			"set" : "Adventures",
-			"cost" : "3",
-			"type" : [
-				"Action",
-				"Duration"
-			]
-		}, {
-			"card" : "Artificer",
-			"set" : "Adventures",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Bridge Troll",
-			"set" : "Adventures",
-			"cost" : "5",
-			"type" : [
-				"Action",
-				"Attack",
-				"Duration"
-			]
-		}, {
-			"card" : "Caravan Guard",
-			"set" : "Adventures",
-			"cost" : "3",
-			"type" : [
-				"Action",
-				"Duration",
-				"Reaction"
-			]
-		}, {
-			"card" : "Coin of the Realm",
-			"set" : "Adventures",
-			"cost" : "2",
-			"type" : [
-				"Treasure",
-				"Reserve"
-			]
-		}, {
-			"card" : "Distant Lands",
-			"set" : "Adventures",
-			"cost" : "5",
-			"type" : [
-				"Action",
-				"Reserve",
-				"Victory"
-			]
-		}, {
-			"card" : "Dungeon",
-			"set" : "Adventures",
-			"cost" : "3",
-			"type" : [
-				"Action",
-				"Duration"
-			]
-		}, {
-			"card" : "Duplicate",
-			"set" : "Adventures",
-			"cost" : "4",
-			"type" : [
-				"Action",
-				"Reserve"
-			]
-		}, {
-			"card" : "Gear",
-			"set" : "Adventures",
-			"cost" : "3",
-			"type" : [
-				"Action",
-				"Duration"
-			]
-		}, {
-			"card" : "Giant",
-			"set" : "Adventures",
-			"cost" : "5",
-			"type" : [
-				"Action",
-				"Attack"
-			]
-		}, {
-			"card" : "Guide",
-			"set" : "Adventures",
-			"cost" : "3",
-			"type" : [
-				"Action",
-				"Reserve"
-			]
-		}, {
-			"card" : "Haunted Woods",
-			"set" : "Adventures",
-			"cost" : "5",
-			"type" : [
-				"Action",
-				"Attack",
-				"Duration"
-			]
-		}, {
-			"card" : "Hireling",
-			"set" : "Adventures",
-			"cost" : "6",
-			"type" : [
-				"Action",
-				"Duration"
-			]
-		}, {
-			"card" : "Lost City",
-			"set" : "Adventures",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Magpie",
-			"set" : "Adventures",
-			"cost" : "4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Messenger",
-			"set" : "Adventures",
-			"cost" : "4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Miser",
-			"set" : "Adventures",
-			"cost" : "4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Page",
-			"set" : "Adventures",
-			"cost" : "2",
-			"type" : [
-				"Action",
-				"Traveller"
-			]
-		}, {
-			"card" : "Peasant",
-			"set" : "Adventures",
-			"cost" : "2",
-			"type" : [
-				"Action",
-				"Traveller"
-			]
-		}, {
-			"card" : "Port",
-			"set" : "Adventures",
-			"cost" : "4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Ranger",
-			"set" : "Adventures",
-			"cost" : "4",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Ratcatcher",
-			"set" : "Adventures",
-			"cost" : "2",
-			"type" : [
-				"Action",
-				"Reserve"
-			]
-		}, {
-			"card" : "Raze",
-			"set" : "Adventures",
-			"cost" : "2",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Relic",
-			"set" : "Adventures",
-			"cost" : "5",
-			"type" : [
-				"Treasure",
-				"Attack"
-			]
-		}, {
-			"card" : "Royal Carriage",
-			"set" : "Adventures",
-			"cost" : "5",
-			"type" : [
-				"Action",
-				"Reserve"
-			]
-		}, {
-			"card" : "Storyteller",
-			"set" : "Adventures",
-			"cost" : "5",
-			"type" : [
-				"Action"
-			]
-		}, {
-			"card" : "Swamp Hag",
-			"set" : "Adventures",
-			"cost" : "5",
-			"type" : [
-				"Action",
-				"Attack",
-				"Duration"
-			]
-		}, {
-			"card" : "Transmogrify",
-			"set" : "Adventures",
-			"cost" : "4",
-			"type" : [
-				"Action",
-				"Reserve"
-			]
-		}, {
-			"card" : "Treasure Trove",
-			"set" : "Adventures",
-			"cost" : "5",
-			"type" : [
-				"Treasure"
-			]
-		}, {
-			"card" : "Wine Merchant",
-			"set" : "Adventures",
-			"cost" : "5",
-			"type" : [
-				"Action",
-				"Reserve"
-			]
-		}, {
-			"card" : "Alms",
-			"set" : "Adventures",
-			"cost" : "0",
-			"type" : [
-				"Event"
-			]
-		}, {
-			"card" : "Ball",
-			"set" : "Adventures",
-			"cost" : "5",
-			"type" : [
-				"Event"
-			]
-		}, {
-			"card" : "Bonfire",
-			"set" : "Adventures",
-			"cost" : "3",
-			"type" : [
-				"Event"
-			]
-		}, {
-			"card" : "Borrow",
-			"set" : "Adventures",
-			"cost" : "0",
-			"type" : [
-				"Event"
-			]
-		}, {
-			"card" : "Expedition",
-			"set" : "Adventures",
-			"cost" : "3",
-			"type" : [
-				"Event"
-			]
-		}, {
-			"card" : "Ferry",
-			"set" : "Adventures",
-			"cost" : "3",
-			"type" : [
-				"Event"
-			]
-		}, {
-			"card" : "Inheritance",
-			"set" : "Adventures",
-			"cost" : "7",
-			"type" : [
-				"Event"
-			]
-		}, {
-			"card" : "Lost Arts",
-			"set" : "Adventures",
-			"cost" : "6",
-			"type" : [
-				"Event"
-			]
-		}, {
-			"card" : "Mission",
-			"set" : "Adventures",
-			"cost" : "4",
-			"type" : [
-				"Event"
-			]
-		}, {
-			"card" : "Pathfinding",
-			"set" : "Adventures",
-			"cost" : "8",
-			"type" : [
-				"Event"
-			]
-		}, {
-			"card" : "Pilgrimage",
-			"set" : "Adventures",
-			"cost" : "4",
-			"type" : [
-				"Event"
-			]
-		}, {
-			"card" : "Plan",
-			"set" : "Adventures",
-			"cost" : "3",
-			"type" : [
-				"Event"
-			]
-		}, {
-			"card" : "Quest",
-			"set" : "Adventures",
-			"cost" : "0",
-			"type" : [
-				"Event"
-			]
-		}, {
-			"card" : "Raid",
-			"set" : "Adventures",
-			"cost" : "5",
-			"type" : [
-				"Event"
-			]
-		}, {
-			"card" : "Save",
-			"set" : "Adventures",
-			"cost" : "1",
-			"type" : [
-				"Event"
-			]
-		}, {
-			"card" : "Scouting Party",
-			"set" : "Adventures",
-			"cost" : "2",
-			"type" : [
-				"Event"
-			]
-		}, {
-			"card" : "Seaway",
-			"set" : "Adventures",
-			"cost" : "5",
-			"type" : [
-				"Event"
-			]
-		}, {
-			"card" : "Trade",
-			"set" : "Adventures",
-			"cost" : "5",
-			"type" : [
-				"Event"
-			]
-		}, {
-			"card" : "Training",
-			"set" : "Adventures",
-			"cost" : "6",
-			"type" : [
-				"Event"
-			]
-		}, {
-			"card" : "Travelling Fair",
-			"set" : "Adventures",
-			"cost" : "2",
-			"type" : [
-				"Event"
-			]
-		}
-	],
-	"groups" : [{
-			"group" : "All",
-			"description" : "All Dominion cards",
-			"cards" : ["Adventurer", "Alchemist", "Ambassador", "Apothecary", "Apprentice", "Baron", "Bazaar", "Black Market", "Bridge", "Bureaucrat", "Caravan", "Cellar", "Chancellor", "Chapel", "Conspirator", "Coppersmith", "Council Room", "Courtyard", "Cutpurse", "Duke", "Embargo", "Envoy", "Explorer", "Familiar", "Feast", "Festival", "Fishing Village", "Gardens", "Ghost Ship", "Golem", "Great Hall", "Harem", "Haven", "Herbalist", "Ironworks", "Island", "Laboratory", "Library", "Lighthouse", "Lookout", "Market", "Masquerade", "Merchant Ship", "Militia", "Mine", "Mining Village", "Minion", "Moat", "Moneylender", "Native Village", "Navigator", "Nobles", "Outpost", "Pawn", "Pearl Diver", "Philosopher's Stone", "Pirate Ship", "Possession", "Remodel", "Saboteur", "Salvager", "Scout", "Scrying Pool", "Sea Hag", "Secret Chamber", "Shanty Town", "Smithy", "Smugglers", "Spy", "Stash", "Steward", "Swindler", "Tactician", "Thief", "Throne Room", "Torturer", "Trading Post", "Transmute", "Treasure Map", "Treasury", "Tribute", "University", "Upgrade", "Village", "Vineyard", "Warehouse", "Wharf", "Wishing Well", "Witch", "Woodcutter", "Workshop", "Bank", "Bishop", "City", "Contraband", "Counting House", "Expand", "Forge", "Goons", "Grand Market", "Hoard", "King's Court", "Loan", "Mint", "Monument", "Mountebank", "Peddler", "Quarry", "Rabble", "Royal Seal", "Talisman", "Trade Route", "Vault", "Venture", "Watchtower", "Worker's Village", "Fairgrounds", "Farming Village", "Fortune Teller ", "Hamlet", "Harvest", "Horn of Plenty", "Horse Traders", "Hunting Party", "Jester", "Menagerie", "Remake", "Tournament", "Young Witch", "Walled Village", "Border Village", "Cache", "Cartographer", "Crossroads", "Develop", "Duchess", "Embassy", "Farmland", "Fool's Gold", "Haggler", "Highway", "Ill-Gotten Gains", "Inn", "Jack of all Trades", "Mandarin", "Margrave", "Noble Brigand", "Nomad Camp", "Oasis", "Oracle", "Scheme", "Silk Road", "Spice Merchant", "Stables", "Trader", "Tunnel", "Governor", "Prince", "Altar", "Armory", "Band of Misfits", "Bandit Camp", "Beggar", "Catacombs", "Count", "Cultist", "Death Cart", "Forager", "Fortress", "Graverobber", "Hermit", "Hunting Grounds", "Ironmonger", "Junk Dealer", "Marauder", "Market Square", "Mystic", "Pillage", "Poor House", "Procession", "Rebuild", "Rogue", "Sage", "Scavenger", "Squire", "Storeroom", "Urchin", "Vagrant", "Wandering Minstrel", "Counterfeit", "Feodum", "Rats", "Knights", "Advisor", "Baker", "Butcher", "Candlestick Maker", "Doctor", "Herald", "Journeyman", "Masterpiece", "Merchant Guild", "Plaza", "Soothsayer", "Stonemason", "Taxman", "Amulet", "Artificer", "Bridge Troll", "Caravan Guard", "Coin of the Realm", "Distant Lands", "Dungeon", "Duplicate", "Gear", "Giant", "Guide", "Haunted Woods", "Hireling", "Lost City", "Magpie", "Messenger", "Miser", "Page", "Peasant", "Port", "Ranger", "Ratcatcher", "Raze", "Relic", "Royal Carriage", "Storyteller", "Swamp Hag", "Transmogrify", "Treasure Trove", "Wine Merchant", "Alms", "Borrow", "Quest", "Save", "Scouting Party", "Travelling Fair", "Bonfire", "Expedition", "Ferry", "Plan", "Mission", "Pilgrimage", "Ball", "Raid", "Seaway", "Trade", "Lost Arts", "Training", "Inheritance", "Pathfinding"]
-		}, {
-			"group" : "Main Set",
-			"description" : "Cards from the first Dominion",
-			"cards" : ["Adventurer", "Bureaucrat", "Cellar", "Chancellor", "Chapel", "Council Room", "Feast", "Festival", "Gardens", "Laboratory", "Library", "Market", "Militia", "Mine", "Moat", "Moneylender", "Remodel", "Smithy", "Spy", "Thief", "Throne Room", "Village", "Witch", "Woodcutter", "Workshop"]
-		}, {
-			"group" : "Intrigue",
-			"description" : "Cards from Dominion: Intrigue",
-			"cards" : ["Baron", "Bridge", "Conspirator", "Coppersmith", "Courtyard", "Duke", "Great Hall", "Harem", "Ironworks", "Masquerade", "Mining Village", "Minion", "Nobles", "Pawn", "Saboteur", "Scout", "Secret Chamber", "Shanty Town", "Steward", "Swindler", "Torturer", "Trading Post", "Tribute", "Upgrade", "Wishing Well"]
-		}, {
-			"group" : "Seaside",
-			"description" : "Cards from Dominion: Seaside",
-			"cards" : ["Ambassador", "Bazaar", "Caravan", "Cutpurse", "Embargo", "Explorer", "Fishing Village", "Ghost Ship", "Haven", "Island", "Lighthouse", "Lookout", "Merchant Ship", "Native Village", "Navigator", "Outpost", "Pearl Diver", "Pirate Ship", "Salvager", "Sea Hag", "Smugglers", "Tactician", "Treasure Map", "Treasury", "Warehouse", "Wharf"]
-		}, {
-			"group" : "Alchemy",
-			"description" : "Cards from Dominion: Alchemy",
-			"cards" : ["Alchemist", "Apothecary", "Apprentice", "Familiar", "Golem", "Herbalist", "Philosopher's Stone", "Possession", "Scrying Pool", "Transmute", "University", "Vineyard"]
-		}, {
-			"group" : "Prosperity",
-			"description" : "Cards from Dominion: Prosperity",
-			"cards" : ["Bank", "Bishop", "City", "Contraband", "Counting House", "Expand", "Forge", "Goons", "Grand Market", "Hoard", "King's Court", "Loan", "Mint", "Monument", "Mountebank", "Peddler", "Quarry", "Rabble", "Royal Seal", "Talisman", "Trade Route", "Vault", "Venture", "Watchtower", "Worker's Village"]
-		}, {
-			"group" : "Cornucopia",
-			"description" : "Cards from Dominion: Cornucopia",
-			"cards" : ["Fairgrounds", "Farming Village", "Fortune Teller ", "Hamlet", "Harvest", "Horn of Plenty", "Horse Traders", "Hunting Party", "Jester", "Menagerie", "Remake", "Tournament", "Young Witch"]
-		}, {
-			"group" : "Hinterlands",
-			"description" : "Cards from Dominion: Hinterlands",
-			"cards" : ["Border Village", "Cache", "Cartographer", "Crossroads", "Develop", "Duchess", "Embassy", "Farmland", "Fool's Gold", "Haggler", "Highway", "Ill-Gotten Gains", "Inn", "Jack of all Trades", "Mandarin", "Margrave", "Noble Brigand", "Nomad Camp", "Oasis", "Oracle", "Scheme", "Silk Road", "Spice Merchant", "Stables", "Trader", "Tunnel"]
-		}, {
-			"group" : "Dark Ages",
-			"description" : "Cards from Dominion: Dark Ages",
-			"cards" : ["Altar", "Armory", "Band of Misfits", "Bandit Camp", "Beggar", "Catacombs", "Count", "Cultist", "Death Cart", "Forager", "Fortress", "Graverobber", "Hermit", "Hunting Grounds", "Ironmonger", "Junk Dealer", "Marauder", "Market Square", "Mystic", "Pillage", "Poor House", "Procession", "Rebuild", "Rogue", "Sage", "Scavenger", "Squire", "Storeroom", "Urchin", "Vagrant", "Wandering Minstrel", "Counterfeit", "Feodum", "Rats", "Knights"]
-		}, {
-			"group" : "Guilds",
-			"description" : "Cards from Dominion: Guilds",
-			"cards" : ["Advisor", "Baker", "Butcher", "Candlestick Maker", "Doctor", "Herald", "Journeyman", "Masterpiece", "Merchant Guild", "Plaza", "Soothsayer", "Stonemason", "Taxman"]
-		}, {
-			"group" : "Adventures",
-			"description" : "Cards from Dominion: Adventures",
-			"cards" : ["Amulet", "Artificer", "Bridge Troll", "Caravan Guard", "Coin of the Realm", "Distant Lands", "Dungeon", "Duplicate", "Gear", "Giant", "Guide", "Haunted Woods", "Hireling", "Lost City", "Magpie", "Messenger", "Miser", "Page", "Peasant", "Port", "Ranger", "Ratcatcher", "Raze", "Relic", "Royal Carriage", "Storyteller", "Swamp Hag", "Transmogrify", "Treasure Trove", "Wine Merchant", "Alms", "Borrow", "Quest", "Save", "Scouting Party", "Travelling Fair", "Bonfire", "Expedition", "Ferry", "Plan", "Mission", "Pilgrimage", "Ball", "Raid", "Seaway", "Trade", "Lost Arts", "Training", "Inheritance", "Pathfinding", "Alms", "Borrow", "Quest", "Save", "Scouting Party", "Travelling Fair", "Bonfire", "Expedition", "Ferry", "Plan", "Mission", "Pilgrimage", "Ball", "Raid", "Seaway", "Trade", "Lost Arts", "Training", "Inheritance", "Pathfinding"]
-		}, {
-			"group" : "Promo",
-			"description" : "Promotion cards",
-			"cards" : ["Black Market", "Envoy", "Stash", "Walled Village", "Governor", "Prince"]
-		}, {
-			"group" : "Events",
-			"description" : "Events",
-			"cards" : ["Alms", "Borrow", "Quest", "Save", "Scouting Party", "Travelling Fair", "Bonfire", "Expedition", "Ferry", "Plan", "Mission", "Pilgrimage", "Ball", "Raid", "Seaway", "Trade", "Lost Arts", "Training", "Inheritance", "Pathfinding"]
-		}, {
-			"group" : "Defense",
-			"description" : "Cards that protect from attack cards",
-			"cards" : ["Lighthouse", "Moat", "Secret Chamber", "Watchtower", "Horse Traders", "Fool's Gold", "Trader", "Tunnel", "Market Square", "Caravan Guard"]
-		}, {
-			"group" : "Attack",
-			"description" : "Cards to attack other players",
-			"cards" : ["Ambassador", "Bureaucrat", "Cutpurse", "Familiar", "Ghost Ship", "Militia", "Minion", "Pirate Ship", "Saboteur", "Scrying Pool", "Sea Hag", "Spy", "Swindler", "Thief", "Torturer", "Witch", "Goons", "Mountebank", "Rabble", "Fortune Teller ", "Jester", "Young Witch", "Margrave", "Noble Brigand", "Oracle", "Cultist", "Marauder", "Pillage", "Rogue", "Urchin", "Knights", "Soothsayer", "Taxman", "Bridge Troll", "Giant", "Haunted Woods", "Relic", "Swamp Hag"]
-		}, {
-			"group" : "Cost 2",
-			"description" : "Cards of cost 2 or less",
-			"cards" : ["Cellar", "Chapel", "Courtyard", "Embargo", "Haven", "Herbalist", "Lighthouse", "Moat", "Native Village", "Pawn", "Pearl Diver", "Secret Chamber", "Hamlet", "Crossroads", "Duchess", "Fool's Gold", "Beggar", "Poor House", "Squire", "Vagrant", "Candlestick Maker", "Stonemason", "Coin of the Realm", "Page", "Peasant", "Ratcatcher", "Raze"]
-		}, {
-			"group" : "Cost 3",
-			"description" : "Cards of cost 3",
-			"cards" : ["Ambassador", "Black Market", "Chancellor", "Fishing Village", "Great Hall", "Lookout", "Masquerade", "Shanty Town", "Smugglers", "Steward", "Swindler", "Village", "Warehouse", "Wishing Well", "Woodcutter", "Workshop", "Loan", "Trade Route", "Watchtower", "Fortune Teller ", "Menagerie", "Develop", "Oasis", "Oracle", "Scheme", "Tunnel", "Forager", "Hermit", "Market Square", "Sage", "Storeroom", "Urchin", "Doctor", "Masterpiece", "Amulet", "Caravan Guard", "Dungeon", "Gear", "Guide"]
-		}, {
-			"group" : "Cost 4",
-			"description" : "Card of cost 4",
-			"cards" : ["Baron", "Bridge", "Bureaucrat", "Caravan", "Conspirator", "Coppersmith", "Cutpurse", "Envoy", "Feast", "Gardens", "Ironworks", "Island", "Militia", "Mining Village", "Moneylender", "Navigator", "Pirate Ship", "Remodel", "Salvager", "Scout", "Sea Hag", "Smithy", "Spy", "Thief", "Throne Room", "Treasure Map", "Bishop", "Monument", "Quarry", "Talisman", "Worker's Village", "Farming Village", "Horse Traders", "Remake", "Tournament", "Young Witch", "Walled Village", "Jack of all Trades", "Noble Brigand", "Nomad Camp", "Silk Road", "Spice Merchant", "Trader", "Armory", "Death Cart", "Fortress", "Ironmonger", "Marauder", "Procession", "Scavenger", "Wandering Minstrel", "Feodum", "Rats", "Advisor", "Herald", "Plaza", "Taxman", "Duplicate", "Magpie", "Messenger", "Miser", "Port", "Ranger", "Transmogrify"]
-		}, {
-			"group" : "Cost 5",
-			"description" : "Cards of cost 5",
-			"cards" : ["Apprentice", "Bazaar", "Council Room", "Duke", "Explorer", "Festival", "Ghost Ship", "Laboratory", "Library", "Market", "Merchant Ship", "Mine", "Minion", "Outpost", "Saboteur", "Stash", "Tactician", "Torturer", "Trading Post", "Treasury", "Tribute", "Upgrade", "Wharf", "Witch", "City", "Contraband", "Counting House", "Mint", "Mountebank", "Rabble", "Royal Seal", "Vault", "Venture", "Harvest", "Horn of Plenty", "Hunting Party", "Jester", "Cache", "Cartographer", "Embassy", "Haggler", "Highway", "Ill-Gotten Gains", "Inn", "Mandarin", "Margrave", "Stables", "Governor", "Band of Misfits", "Bandit Camp", "Catacombs", "Count", "Cultist", "Graverobber", "Junk Dealer", "Mystic", "Pillage", "Rebuild", "Rogue", "Counterfeit", "Knights", "Baker", "Butcher", "Journeyman", "Merchant Guild", "Soothsayer", "Artificer", "Bridge Troll", "Distant Lands", "Giant", "Haunted Woods", "Lost City", "Relic", "Royal Carriage", "Storyteller", "Swamp Hag", "Treasure Trove", "Wine Merchant"]
-		}, {
-			"group" : "Cost 6",
-			"description" : "Cards of cost 6",
-			"cards" : ["Adventurer", "Harem", "Nobles", "Goons", "Grand Market", "Hoard", "Fairgrounds", "Border Village", "Farmland", "Altar", "Hunting Grounds", "Hireling"]
-		}, {
-			"group" : "Cost 6+",
-			"description" : "Cards of cost 6 or more",
-			"cards" : ["Adventurer", "Harem", "Nobles", "Bank", "Expand", "Forge", "Goons", "Grand Market", "Hoard", "King's Court", "Peddler", "Fairgrounds", "Border Village", "Farmland", "Altar", "Hunting Grounds", "Hireling"]
-		}, {
-			"group" : "Cost 7+",
-			"description" : "Cards of cost 7 or more",
-			"cards" : ["Bank", "Expand", "Forge", "King's Court", "Peddler"]
-		}, {
-			"group" : "Potion",
-			"description" : "Cards that cost or use potions",
-			"cards" : ["Alchemist", "Apothecary", "Apprentice", "Familiar", "Golem", "Philosopher's Stone", "Possession", "Scrying Pool", "Transmute", "University", "Vineyard"]
-		}, {
-			"group" : "Component",
-			"description" : "Cards for which a component is needed",
-			"cards" : ["Embargo", "Island", "Native Village", "Pirate Ship", "Bishop", "Goons", "Monument", "Trade Route", "Baker", "Butcher", "Candlestick Maker", "Merchant Guild", "Plaza", "Bridge Troll", "Duplicate", "Giant", "Guide", "Miser", "Ranger", "Ratcatcher", "Royal Carriage", "Transmogrify", "Wine Merchant", "Coin of the Realm", "Relic", "Distant Lands"]
-		}, {
-			"group" : "Victory",
-			"description" : "Cards that score victory points",
-			"cards" : ["Duke", "Gardens", "Great Hall", "Harem", "Island", "Nobles", "Vineyard", "Fairgrounds", "Farmland", "Silk Road", "Tunnel", "Feodum", "Distant Lands"]
-		}, {
-			"group" : "Duration",
-			"description" : "Duration cards",
-			"cards" : ["Caravan", "Fishing Village", "Haven", "Lighthouse", "Merchant Ship", "Outpost", "Tactician", "Wharf", "Amulet", "Bridge Troll", "Caravan Guard", "Gear", "Haunted Woods", "Hireling", "Swamp Hag"]
-		}, {
-			"group" : "Treasure",
-			"description" : "Treasure cards",
-			"cards" : ["Harem", "Philosopher's Stone", "Stash", "Bank", "Contraband", "Hoard", "Loan", "Quarry", "Royal Seal", "Talisman", "Venture", "Horn of Plenty", "Cache", "Fool's Gold", "Ill-Gotten Gains", "Counterfeit", "Masterpiece", "Coin of the Realm", "Relic", "Treasure Trove"]
-		}, {
-			"group" : "Double Type",
-			"description" : "Cards that are multiple types",
-			"cards" : ["Great Hall", "Harem", "Island", "Nobles", "Fool's Gold", "Tunnel", "Caravan Guard", "Distant Lands"]
-		}, {
-			"group" : "Deck Reduction",
-			"description" : "Cards that can make your deck smaller",
-			"cards" : ["Ambassador", "Apprentice", "Chapel", "Island", "Lookout", "Masquerade", "Moneylender", "Salvager", "Steward", "Trading Post", "Upgrade", "Bishop", "Forge", "Loan", "Trade Route", "Remake", "Jack of all Trades", "Count", "Death Cart", "Forager", "Junk Dealer", "Counterfeit", "Doctor", "Amulet", "Miser", "Raze", "Transmogrify"]
-		}, {
-			"group" : "Card Ordering",
-			"description" : "Change the order of the cards in your deck",
-			"cards" : ["Apothecary", "Courtyard", "Navigator", "Pearl Diver", "Scout", "Treasury", "Rabble", "Royal Seal", "Watchtower", "Walled Village", "Cartographer", "Develop", "Duchess", "Jack of all Trades", "Mandarin", "Oracle", "Armory", "Beggar", "Count", "Graverobber", "Scavenger", "Wandering Minstrel", "Doctor", "Taxman"]
-		}, {
-			"group" : "Plus Curses",
-			"description" : "Cards that can be used to give curses",
-			"cards" : ["Ambassador", "Embargo", "Familiar", "Masquerade", "Sea Hag", "Swindler", "Torturer", "Witch", "Mountebank", "Jester", "Young Witch", "Ill-Gotten Gains", "Soothsayer", "Giant", "Messenger", "Swamp Hag"]
-		}, {
-			"group" : "Plus Card",
-			"description" : "Cards that let you draw cards",
-			"cards" : ["Alchemist", "Apothecary", "Caravan", "Conspirator", "Council Room", "Courtyard", "Familiar", "Ghost Ship", "Golem", "Great Hall", "Haven", "Ironworks", "Laboratory", "Library", "Market", "Masquerade", "Mining Village", "Minion", "Moat", "Nobles", "Pawn", "Pearl Diver", "Scrying Pool", "Shanty Town", "Smithy", "Spy", "Steward", "Tactician", "Torturer", "Treasury", "Tribute", "Upgrade", "Village", "Warehouse", "Wharf", "Wishing Well", "Witch", "Bank", "Counting House", "Grand Market", "Peddler", "Rabble", "Vault", "Venture", "Watchtower", "Worker's Village", "Hamlet", "Hunting Party", "Menagerie", "Tournament", "Young Witch", "Walled Village", "Border Village", "Cartographer", "Crossroads", "Embassy", "Highway", "Inn", "Jack of all Trades", "Margrave", "Oasis", "Oracle", "Scheme", "Spice Merchant", "Stables", "Governor", "Bandit Camp", "Catacombs", "Cultist", "Fortress", "Hunting Grounds", "Ironmonger", "Junk Dealer", "Market Square", "Mystic", "Sage", "Storeroom", "Urchin", "Vagrant", "Wandering Minstrel", "Rats", "Advisor", "Baker", "Herald", "Journeyman", "Plaza", "Artificer", "Caravan Guard", "Dungeon", "Gear", "Guide", "Haunted Woods", "Hireling", "Lost City", "Magpie", "Ranger", "Ratcatcher", "Storyteller", "Port", "Page"]
-		}, {
-			"group" : "Plus Action",
-			"description" : "Cards that add actions",
-			"cards" : ["Alchemist", "Apothecary", "Apprentice", "Bazaar", "Caravan", "Cellar", "Conspirator", "Familiar", "Festival", "Fishing Village", "Golem", "Great Hall", "Haven", "Ironworks", "Laboratory", "Lighthouse", "Lookout", "Market", "Mining Village", "Minion", "Native Village", "Nobles", "Pawn", "Pearl Diver", "Scout", "Scrying Pool", "Shanty Town", "Spy", "Tactician", "Treasury", "Tribute", "University", "Upgrade", "Village", "Warehouse", "Wishing Well", "City", "Grand Market", "Peddler", "Worker's Village", "Farming Village", "Hamlet", "Hunting Party", "Menagerie", "Tournament", "Walled Village", "Border Village", "Cartographer", "Crossroads", "Highway", "Inn", "Oasis", "Scheme", "Spice Merchant", "Stables", "Governor", "Prince", "Bandit Camp", "Forager", "Fortress", "Ironmonger", "Junk Dealer", "Market Square", "Mystic", "Rebuild", "Sage", "Squire", "Urchin", "Vagrant", "Wandering Minstrel", "Rats", "Advisor", "Baker", "Candlestick Maker", "Herald", "Plaza", "Artificer", "Caravan", "Dungeon", "Guide", "Lost City", "Magpie", "Ratcatcher", "Raze", "Royal Carriage", "Storyteller", "Transmogrify", "Port", "Page", "Coin of the Realm"]
-		}, {
-			"group" : "Plus More Action",
-			"description" : "Cards that adds two or more actions",
-			"cards" : ["Bazaar", "Festival", "Fishing Village", "Golem", "Mining Village", "Native Village", "Nobles", "Shanty Town", "Tribute", "University", "Village", "City", "Worker's Village", "Farming Village", "Hamlet", "Walled Village", "Border Village", "Crossroads", "Inn", "Bandit Camp", "Fortress", "Ironmonger", "Squire", "Wandering Minstrel", "Herald", "Plaza", "Lost City", "Port", "Coin of the Realm"]
-		}, {
-			"group" : "Plus Coin",
-			"description" : "Cards that add money",
-			"cards" : ["Baron", "Bazaar", "Black Market", "Bridge", "Chancellor", "Conspirator", "Cutpurse", "Embargo", "Festival", "Fishing Village", "Herbalist", "Ironworks", "Lighthouse", "Market", "Merchant Ship", "Militia", "Mining Village", "Minion", "Navigator", "Pawn", "Philosopher's Stone", "Salvager", "Steward", "Swindler", "Treasury", "Tribute", "Woodcutter", "Bishop", "City", "Goons", "Grand Market", "Monument", "Mountebank", "Peddler", "Trade Route", "Vault", "Fortune Teller ", "Harvest", "Horse Traders", "Jester", "Tournament", "Duchess", "Haggler", "Mandarin", "Noble Brigand", "Nomad Camp", "Oasis", "Spice Merchant", "Count", "Death Cart", "Forager", "Ironmonger", "Junk Dealer", "Mystic", "Poor House", "Rogue", "Scavenger", "Squire", "Storeroom", "Baker", "Butcher", "Candlestick Maker", "Merchant Guild", "Plaza", "Amulet", "Artificer", "Caravan Guard", "Giant", "Messenger", "Miser", "Storyteller", "Swamp Hag", "Wine Merchant", "Peasant"]
-		}, {
-			"group" : "Plus Buy",
-			"description" : "Cards that add buys",
-			"cards" : ["Baron", "Bridge", "Council Room", "Festival", "Herbalist", "Market", "Pawn", "Salvager", "Tactician", "Wharf", "Woodcutter", "City", "Contraband", "Goons", "Grand Market", "Trade Route", "Worker's Village", "Horse Traders", "Develop", "Margrave", "Nomad Camp", "Spice Merchant", "Forager", "Market Square", "Squire", "Storeroom", "Counterfeit", "Candlestick Maker", "Merchant Guild", "Bridge Troll", "Messenger", "Ranger", "Wine Merchant", "Peasant"]
-		}, {
-			"group" : "Gain",
-			"description" : "Cards that let you gain cards without buying",
-			"cards" : ["Baron", "Bureaucrat", "Explorer", "Ironworks", "Smugglers", "Thief", "Treasure Map", "University", "Workshop", "Hoard", "Mint", "Talisman", "Horn of Plenty", "Tournament", "Duchess", "Jack of all Trades", "Altar", "Armory", "Bandit Camp", "Beggar", "Catacombs", "Count", "Graverobber", "Hermit", "Hunting Grounds", "Marauder", "Pillage", "Rogue", "Squire", "Urchin", "Feodum", "Rats", "Soothsayer", "Stonemason", "Taxman", "Artificer", "Duplicate", "Messenger", "Port", "Treasure Trove"]
-		}, {
-			"group" : "Looter",
-			"description" : "Cards that let someone gain ruins",
-			"cards" : ["Cultist", "Death Cart", "Marauder"]
-		}, {
-			"group" : "Gain Spoils",
-			"description" : "Cards that let you gain spoils",
-			"cards" : ["Bandit Camp", "Marauder", "Pillage"]
-		}
-	],
-	"non_kingdom_cards" : [{
-			"card" : "Potion",
-			"set" : "Alchemy",
-			"cost" : "4",
-			"type" : [
-				"Treasure"
-			],
-			"basic" : true
-		}, {
-			"card" : "Colony",
-			"set" : "Prosperity",
-			"cost" : "11",
-			"type" : [
-				"Victory"
-			],
-			"basic" : true
-		}, {
-			"card" : "Platinum",
-			"set" : "Prosperity",
-			"cost" : "9",
-			"type" : [
-				"Treasure"
-			],
-			"basic" : true
-		}, {
-			"card" : "Shelter",
-			"set" : "Dark Ages",
-			"cost" : "1",
-			"type" : [
-				"Shelter"
-			],
-			"basic" : true
-		}, {
-			"card" : "Ruins",
-			"set" : "Dark Ages",
-			"cost" : "0",
-			"type" : [
-				"Action",
-				"Attack"
-			],
-			"basic" : true
-		}, {
-			"card" : "Spoils",
-			"set" : "Dark Ages",
-			"cost" : "0*",
-			"type" : [
-				"Treasure"
-			],
-			"basic" : true
-		}, {
-			"card" : "Madman",
-			"set" : "Dark Ages",
-			"cost" : "0*",
-			"type" : [
-				"Action"
-			],
-			"nonSupply" : true
-		}, {
-			"card" : "Mercenary",
-			"set" : "Dark Ages",
-			"cost" : "0*",
-			"type" : [
-				"Action",
-				"Attack"
-			],
-			"nonSupply" : true
-		}
-	]
+  "cards": [
+    {
+      "card": "Alchemist",
+      "set": "Alchemy",
+      "cost": "P3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Apothecary",
+      "set": "Alchemy",
+      "cost": "P2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Apprentice",
+      "set": "Alchemy",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Familiar",
+      "set": "Alchemy",
+      "cost": "P3",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "card": "Golem",
+      "set": "Alchemy",
+      "cost": "P4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Herbalist",
+      "set": "Alchemy",
+      "cost": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Philosopher's Stone",
+      "set": "Alchemy",
+      "cost": "P3",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "card": "Possession",
+      "set": "Alchemy",
+      "cost": "P6",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Scrying Pool",
+      "set": "Alchemy",
+      "cost": "P2",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "card": "Transmute",
+      "set": "Alchemy",
+      "cost": "P0",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "University",
+      "set": "Alchemy",
+      "cost": "P2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Vineyard",
+      "set": "Alchemy",
+      "cost": "P0",
+      "type": [
+        "Victory"
+      ]
+    },
+    {
+      "card": "Fairgrounds",
+      "set": "Cornucopia",
+      "cost": "6",
+      "type": [
+        "Victory"
+      ]
+    },
+    {
+      "card": "Farming Village",
+      "set": "Cornucopia",
+      "cost": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Fortune Teller ",
+      "set": "Cornucopia",
+      "cost": "3",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "card": "Hamlet",
+      "set": "Cornucopia",
+      "cost": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Harvest",
+      "set": "Cornucopia",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Horn of Plenty",
+      "set": "Cornucopia",
+      "cost": "5",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "card": "Horse Traders",
+      "set": "Cornucopia",
+      "cost": "4",
+      "type": [
+        "Action",
+        "Reaction"
+      ]
+    },
+    {
+      "card": "Hunting Party",
+      "set": "Cornucopia",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Jester",
+      "set": "Cornucopia",
+      "cost": "5",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "card": "Menagerie",
+      "set": "Cornucopia",
+      "cost": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Remake",
+      "set": "Cornucopia",
+      "cost": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Tournament",
+      "set": "Cornucopia",
+      "cost": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Young Witch",
+      "set": "Cornucopia",
+      "cost": "4",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "card": "Border Village",
+      "set": "Hinterlands",
+      "cost": "6",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Cache",
+      "set": "Hinterlands",
+      "cost": "5",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "card": "Cartographer",
+      "set": "Hinterlands",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Crossroads",
+      "set": "Hinterlands",
+      "cost": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Develop",
+      "set": "Hinterlands",
+      "cost": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Duchess",
+      "set": "Hinterlands",
+      "cost": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Embassy",
+      "set": "Hinterlands",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Farmland",
+      "set": "Hinterlands",
+      "cost": "6",
+      "type": [
+        "Victory"
+      ]
+    },
+    {
+      "card": "Fool's Gold",
+      "set": "Hinterlands",
+      "cost": "2",
+      "type": [
+        "Treasure",
+        "Reaction"
+      ]
+    },
+    {
+      "card": "Haggler",
+      "set": "Hinterlands",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Highway",
+      "set": "Hinterlands",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Ill-Gotten Gains",
+      "set": "Hinterlands",
+      "cost": "5",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "card": "Inn",
+      "set": "Hinterlands",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Jack of all Trades",
+      "set": "Hinterlands",
+      "cost": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Mandarin",
+      "set": "Hinterlands",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Margrave",
+      "set": "Hinterlands",
+      "cost": "5",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "card": "Noble Brigand",
+      "set": "Hinterlands",
+      "cost": "4",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "card": "Nomad Camp",
+      "set": "Hinterlands",
+      "cost": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Oasis",
+      "set": "Hinterlands",
+      "cost": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Oracle",
+      "set": "Hinterlands",
+      "cost": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Scheme",
+      "set": "Hinterlands",
+      "cost": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Silk Road",
+      "set": "Hinterlands",
+      "cost": "4",
+      "type": [
+        "Victory"
+      ]
+    },
+    {
+      "card": "Spice Merchant",
+      "set": "Hinterlands",
+      "cost": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Stables",
+      "set": "Hinterlands",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Trader",
+      "set": "Hinterlands",
+      "cost": "4",
+      "type": [
+        "Action",
+        "Reaction"
+      ]
+    },
+    {
+      "card": "Tunnel",
+      "set": "Hinterlands",
+      "cost": "3",
+      "type": [
+        "Victory",
+        "Reaction"
+      ]
+    },
+    {
+      "card": "Baron",
+      "set": "Intrigue",
+      "cost": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Bridge",
+      "set": "Intrigue",
+      "cost": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Conspirator",
+      "set": "Intrigue",
+      "cost": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Coppersmith",
+      "set": "Intrigue",
+      "cost": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Courtyard",
+      "set": "Intrigue",
+      "cost": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Duke",
+      "set": "Intrigue",
+      "cost": "5",
+      "type": [
+        "Victory"
+      ]
+    },
+    {
+      "card": "Great Hall",
+      "set": "Intrigue",
+      "cost": "3",
+      "type": [
+        "Action",
+        "Victory"
+      ]
+    },
+    {
+      "card": "Harem",
+      "set": "Intrigue",
+      "cost": "6",
+      "type": [
+        "Treasure",
+        "Victory"
+      ]
+    },
+    {
+      "card": "Ironworks",
+      "set": "Intrigue",
+      "cost": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Masquerade",
+      "set": "Intrigue",
+      "cost": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Mining Village",
+      "set": "Intrigue",
+      "cost": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Minion",
+      "set": "Intrigue",
+      "cost": "5",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "card": "Nobles",
+      "set": "Intrigue",
+      "cost": "6",
+      "type": [
+        "Action",
+        "Victory"
+      ]
+    },
+    {
+      "card": "Pawn",
+      "set": "Intrigue",
+      "cost": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Saboteur",
+      "set": "Intrigue",
+      "cost": "5",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "card": "Scout",
+      "set": "Intrigue",
+      "cost": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Secret Chamber",
+      "set": "Intrigue",
+      "cost": "2",
+      "type": [
+        "Action",
+        "Reaction"
+      ]
+    },
+    {
+      "card": "Shanty Town",
+      "set": "Intrigue",
+      "cost": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Steward",
+      "set": "Intrigue",
+      "cost": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Swindler",
+      "set": "Intrigue",
+      "cost": "3",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "card": "Torturer",
+      "set": "Intrigue",
+      "cost": "5",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "card": "Trading Post",
+      "set": "Intrigue",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Tribute",
+      "set": "Intrigue",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Upgrade",
+      "set": "Intrigue",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Wishing Well",
+      "set": "Intrigue",
+      "cost": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Adventurer",
+      "set": "Main Set",
+      "cost": "6",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Bureaucrat",
+      "set": "Main Set",
+      "cost": "4",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "card": "Cellar",
+      "set": "Main Set",
+      "cost": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Chancellor",
+      "set": "Main Set",
+      "cost": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Chapel",
+      "set": "Main Set",
+      "cost": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Council Room",
+      "set": "Main Set",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Feast",
+      "set": "Main Set",
+      "cost": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Festival",
+      "set": "Main Set",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Gardens",
+      "set": "Main Set",
+      "cost": "4",
+      "type": [
+        "Victory"
+      ]
+    },
+    {
+      "card": "Laboratory",
+      "set": "Main Set",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Library",
+      "set": "Main Set",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Market",
+      "set": "Main Set",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Militia",
+      "set": "Main Set",
+      "cost": "4",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "card": "Mine",
+      "set": "Main Set",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Moat",
+      "set": "Main Set",
+      "cost": "2",
+      "type": [
+        "Action",
+        "Reaction"
+      ]
+    },
+    {
+      "card": "Moneylender",
+      "set": "Main Set",
+      "cost": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Remodel",
+      "set": "Main Set",
+      "cost": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Smithy",
+      "set": "Main Set",
+      "cost": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Spy",
+      "set": "Main Set",
+      "cost": "4",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "card": "Thief",
+      "set": "Main Set",
+      "cost": "4",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "card": "Throne Room",
+      "set": "Main Set",
+      "cost": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Village",
+      "set": "Main Set",
+      "cost": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Witch",
+      "set": "Main Set",
+      "cost": "5",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "card": "Woodcutter",
+      "set": "Main Set",
+      "cost": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Workshop",
+      "set": "Main Set",
+      "cost": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Black Market",
+      "set": "Promo",
+      "cost": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Envoy",
+      "set": "Promo",
+      "cost": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Stash",
+      "set": "Promo",
+      "cost": "5",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "card": "Walled Village",
+      "set": "Promo",
+      "cost": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Governor",
+      "set": "Promo",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Prince",
+      "set": "Promo",
+      "cost": "8",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Bank",
+      "set": "Prosperity",
+      "cost": "7",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "card": "Bishop",
+      "set": "Prosperity",
+      "cost": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "City",
+      "set": "Prosperity",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Contraband",
+      "set": "Prosperity",
+      "cost": "5",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "card": "Counting House",
+      "set": "Prosperity",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Expand",
+      "set": "Prosperity",
+      "cost": "7",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Forge",
+      "set": "Prosperity",
+      "cost": "7",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Goons",
+      "set": "Prosperity",
+      "cost": "6",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "card": "Grand Market",
+      "set": "Prosperity",
+      "cost": "6",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Hoard",
+      "set": "Prosperity",
+      "cost": "6",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "card": "King's Court",
+      "set": "Prosperity",
+      "cost": "7",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Loan",
+      "set": "Prosperity",
+      "cost": "3",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "card": "Mint",
+      "set": "Prosperity",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Monument",
+      "set": "Prosperity",
+      "cost": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Mountebank",
+      "set": "Prosperity",
+      "cost": "5",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "card": "Peddler",
+      "set": "Prosperity",
+      "cost": "8*",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Quarry",
+      "set": "Prosperity",
+      "cost": "4",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "card": "Rabble",
+      "set": "Prosperity",
+      "cost": "5",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "card": "Royal Seal",
+      "set": "Prosperity",
+      "cost": "5",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "card": "Talisman",
+      "set": "Prosperity",
+      "cost": "4",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "card": "Trade Route",
+      "set": "Prosperity",
+      "cost": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Vault",
+      "set": "Prosperity",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Venture",
+      "set": "Prosperity",
+      "cost": "5",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "card": "Watchtower",
+      "set": "Prosperity",
+      "cost": "3",
+      "type": [
+        "Action",
+        "Reaction"
+      ]
+    },
+    {
+      "card": "Worker's Village",
+      "set": "Prosperity",
+      "cost": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Ambassador",
+      "set": "Seaside",
+      "cost": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Bazaar",
+      "set": "Seaside",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Caravan",
+      "set": "Seaside",
+      "cost": "4",
+      "type": [
+        "Action",
+        "Duration"
+      ]
+    },
+    {
+      "card": "Cutpurse",
+      "set": "Seaside",
+      "cost": "4",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "card": "Embargo",
+      "set": "Seaside",
+      "cost": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Explorer",
+      "set": "Seaside",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Fishing Village",
+      "set": "Seaside",
+      "cost": "3",
+      "type": [
+        "Action",
+        "Duration"
+      ]
+    },
+    {
+      "card": "Ghost Ship",
+      "set": "Seaside",
+      "cost": "5",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "card": "Haven",
+      "set": "Seaside",
+      "cost": "2",
+      "type": [
+        "Action",
+        "Duration"
+      ]
+    },
+    {
+      "card": "Island",
+      "set": "Seaside",
+      "cost": "4",
+      "type": [
+        "Action",
+        "Victory"
+      ]
+    },
+    {
+      "card": "Lighthouse",
+      "set": "Seaside",
+      "cost": "2",
+      "type": [
+        "Action",
+        "Duration"
+      ]
+    },
+    {
+      "card": "Lookout",
+      "set": "Seaside",
+      "cost": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Merchant Ship",
+      "set": "Seaside",
+      "cost": "5",
+      "type": [
+        "Action",
+        "Duration"
+      ]
+    },
+    {
+      "card": "Native Village",
+      "set": "Seaside",
+      "cost": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Navigator",
+      "set": "Seaside",
+      "cost": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Outpost",
+      "set": "Seaside",
+      "cost": "5",
+      "type": [
+        "Action",
+        "Duration"
+      ]
+    },
+    {
+      "card": "Pearl Diver",
+      "set": "Seaside",
+      "cost": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Pirate Ship",
+      "set": "Seaside",
+      "cost": "4",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "card": "Salvager",
+      "set": "Seaside",
+      "cost": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Sea Hag",
+      "set": "Seaside",
+      "cost": "4",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "card": "Smugglers",
+      "set": "Seaside",
+      "cost": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Tactician",
+      "set": "Seaside",
+      "cost": "5",
+      "type": [
+        "Action",
+        "Duration"
+      ]
+    },
+    {
+      "card": "Treasure Map",
+      "set": "Seaside",
+      "cost": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Treasury",
+      "set": "Seaside",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Warehouse",
+      "set": "Seaside",
+      "cost": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Wharf",
+      "set": "Seaside",
+      "cost": "5",
+      "type": [
+        "Action",
+        "Duration"
+      ]
+    },
+    {
+      "card": "Altar",
+      "set": "Dark Ages",
+      "cost": "6",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Armory",
+      "set": "Dark Ages",
+      "cost": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Band of Misfits",
+      "set": "Dark Ages",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Bandit Camp",
+      "set": "Dark Ages",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Beggar",
+      "set": "Dark Ages",
+      "cost": "2",
+      "type": [
+        "Action",
+        "Reaction"
+      ]
+    },
+    {
+      "card": "Catacombs",
+      "set": "Dark Ages",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Count",
+      "set": "Dark Ages",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Cultist",
+      "set": "Dark Ages",
+      "cost": "5",
+      "type": [
+        "Action",
+        "Attack",
+        "Looter"
+      ]
+    },
+    {
+      "card": "Death Cart",
+      "set": "Dark Ages",
+      "cost": "4",
+      "type": [
+        "Action",
+        "Looter"
+      ]
+    },
+    {
+      "card": "Forager",
+      "set": "Dark Ages",
+      "cost": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Fortress",
+      "set": "Dark Ages",
+      "cost": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Graverobber",
+      "set": "Dark Ages",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Hermit",
+      "set": "Dark Ages",
+      "cost": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Hunting Grounds",
+      "set": "Dark Ages",
+      "cost": "6",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Ironmonger",
+      "set": "Dark Ages",
+      "cost": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Junk Dealer",
+      "set": "Dark Ages",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Marauder",
+      "set": "Dark Ages",
+      "cost": "4",
+      "type": [
+        "Action",
+        "Attack",
+        "Looter"
+      ]
+    },
+    {
+      "card": "Market Square",
+      "set": "Dark Ages",
+      "cost": "3",
+      "type": [
+        "Action",
+        "Reaction"
+      ]
+    },
+    {
+      "card": "Mystic",
+      "set": "Dark Ages",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Pillage",
+      "set": "Dark Ages",
+      "cost": "5",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "card": "Poor House",
+      "set": "Dark Ages",
+      "cost": "1",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Procession",
+      "set": "Dark Ages",
+      "cost": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Rebuild",
+      "set": "Dark Ages",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Rogue",
+      "set": "Dark Ages",
+      "cost": "5",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "card": "Sage",
+      "set": "Dark Ages",
+      "cost": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Scavenger",
+      "set": "Dark Ages",
+      "cost": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Squire",
+      "set": "Dark Ages",
+      "cost": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Storeroom",
+      "set": "Dark Ages",
+      "cost": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Urchin",
+      "set": "Dark Ages",
+      "cost": "3",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "card": "Vagrant",
+      "set": "Dark Ages",
+      "cost": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Wandering Minstrel",
+      "set": "Dark Ages",
+      "cost": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Counterfeit",
+      "set": "Dark Ages",
+      "cost": "5",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "card": "Feodum",
+      "set": "Dark Ages",
+      "cost": "4",
+      "type": [
+        "Victory"
+      ]
+    },
+    {
+      "card": "Rats",
+      "set": "Dark Ages",
+      "cost": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Knights",
+      "set": "Dark Ages",
+      "cost": "5",
+      "type": [
+        "Action",
+        "Attack",
+        "Knight"
+      ]
+    },
+    {
+      "card": "Advisor",
+      "set": "Guilds",
+      "cost": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Baker",
+      "set": "Guilds",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Butcher",
+      "set": "Guilds",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Candlestick Maker",
+      "set": "Guilds",
+      "cost": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Doctor",
+      "set": "Guilds",
+      "cost": "3+",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Herald",
+      "set": "Guilds",
+      "cost": "4+",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Journeyman",
+      "set": "Guilds",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Masterpiece",
+      "set": "Guilds",
+      "cost": "3+",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "card": "Merchant Guild",
+      "set": "Guilds",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Plaza",
+      "set": "Guilds",
+      "cost": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Soothsayer",
+      "set": "Guilds",
+      "cost": "5",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "card": "Stonemason",
+      "set": "Guilds",
+      "cost": "2+",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Taxman",
+      "set": "Guilds",
+      "cost": "4",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "card": "Amulet",
+      "set": "Adventures",
+      "cost": "3",
+      "type": [
+        "Action",
+        "Duration"
+      ]
+    },
+    {
+      "card": "Artificer",
+      "set": "Adventures",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Bridge Troll",
+      "set": "Adventures",
+      "cost": "5",
+      "type": [
+        "Action",
+        "Attack",
+        "Duration"
+      ]
+    },
+    {
+      "card": "Caravan Guard",
+      "set": "Adventures",
+      "cost": "3",
+      "type": [
+        "Action",
+        "Duration",
+        "Reaction"
+      ]
+    },
+    {
+      "card": "Coin of the Realm",
+      "set": "Adventures",
+      "cost": "2",
+      "type": [
+        "Treasure",
+        "Reserve"
+      ]
+    },
+    {
+      "card": "Distant Lands",
+      "set": "Adventures",
+      "cost": "5",
+      "type": [
+        "Action",
+        "Reserve",
+        "Victory"
+      ]
+    },
+    {
+      "card": "Dungeon",
+      "set": "Adventures",
+      "cost": "3",
+      "type": [
+        "Action",
+        "Duration"
+      ]
+    },
+    {
+      "card": "Duplicate",
+      "set": "Adventures",
+      "cost": "4",
+      "type": [
+        "Action",
+        "Reserve"
+      ]
+    },
+    {
+      "card": "Gear",
+      "set": "Adventures",
+      "cost": "3",
+      "type": [
+        "Action",
+        "Duration"
+      ]
+    },
+    {
+      "card": "Giant",
+      "set": "Adventures",
+      "cost": "5",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "card": "Guide",
+      "set": "Adventures",
+      "cost": "3",
+      "type": [
+        "Action",
+        "Reserve"
+      ]
+    },
+    {
+      "card": "Haunted Woods",
+      "set": "Adventures",
+      "cost": "5",
+      "type": [
+        "Action",
+        "Attack",
+        "Duration"
+      ]
+    },
+    {
+      "card": "Hireling",
+      "set": "Adventures",
+      "cost": "6",
+      "type": [
+        "Action",
+        "Duration"
+      ]
+    },
+    {
+      "card": "Lost City",
+      "set": "Adventures",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Magpie",
+      "set": "Adventures",
+      "cost": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Messenger",
+      "set": "Adventures",
+      "cost": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Miser",
+      "set": "Adventures",
+      "cost": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Page",
+      "set": "Adventures",
+      "cost": "2",
+      "type": [
+        "Action",
+        "Traveller"
+      ]
+    },
+    {
+      "card": "Peasant",
+      "set": "Adventures",
+      "cost": "2",
+      "type": [
+        "Action",
+        "Traveller"
+      ]
+    },
+    {
+      "card": "Port",
+      "set": "Adventures",
+      "cost": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Ranger",
+      "set": "Adventures",
+      "cost": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Ratcatcher",
+      "set": "Adventures",
+      "cost": "2",
+      "type": [
+        "Action",
+        "Reserve"
+      ]
+    },
+    {
+      "card": "Raze",
+      "set": "Adventures",
+      "cost": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Relic",
+      "set": "Adventures",
+      "cost": "5",
+      "type": [
+        "Treasure",
+        "Attack"
+      ]
+    },
+    {
+      "card": "Royal Carriage",
+      "set": "Adventures",
+      "cost": "5",
+      "type": [
+        "Action",
+        "Reserve"
+      ]
+    },
+    {
+      "card": "Storyteller",
+      "set": "Adventures",
+      "cost": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "card": "Swamp Hag",
+      "set": "Adventures",
+      "cost": "5",
+      "type": [
+        "Action",
+        "Attack",
+        "Duration"
+      ]
+    },
+    {
+      "card": "Transmogrify",
+      "set": "Adventures",
+      "cost": "4",
+      "type": [
+        "Action",
+        "Reserve"
+      ]
+    },
+    {
+      "card": "Treasure Trove",
+      "set": "Adventures",
+      "cost": "5",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "card": "Wine Merchant",
+      "set": "Adventures",
+      "cost": "5",
+      "type": [
+        "Action",
+        "Reserve"
+      ]
+    },
+    {
+      "card": "Alms",
+      "set": "Adventures",
+      "cost": "0",
+      "type": [
+        "Event"
+      ]
+    },
+    {
+      "card": "Ball",
+      "set": "Adventures",
+      "cost": "5",
+      "type": [
+        "Event"
+      ]
+    },
+    {
+      "card": "Bonfire",
+      "set": "Adventures",
+      "cost": "3",
+      "type": [
+        "Event"
+      ]
+    },
+    {
+      "card": "Borrow",
+      "set": "Adventures",
+      "cost": "0",
+      "type": [
+        "Event"
+      ]
+    },
+    {
+      "card": "Expedition",
+      "set": "Adventures",
+      "cost": "3",
+      "type": [
+        "Event"
+      ]
+    },
+    {
+      "card": "Ferry",
+      "set": "Adventures",
+      "cost": "3",
+      "type": [
+        "Event"
+      ]
+    },
+    {
+      "card": "Inheritance",
+      "set": "Adventures",
+      "cost": "7",
+      "type": [
+        "Event"
+      ]
+    },
+    {
+      "card": "Lost Arts",
+      "set": "Adventures",
+      "cost": "6",
+      "type": [
+        "Event"
+      ]
+    },
+    {
+      "card": "Mission",
+      "set": "Adventures",
+      "cost": "4",
+      "type": [
+        "Event"
+      ]
+    },
+    {
+      "card": "Pathfinding",
+      "set": "Adventures",
+      "cost": "8",
+      "type": [
+        "Event"
+      ]
+    },
+    {
+      "card": "Pilgrimage",
+      "set": "Adventures",
+      "cost": "4",
+      "type": [
+        "Event"
+      ]
+    },
+    {
+      "card": "Plan",
+      "set": "Adventures",
+      "cost": "3",
+      "type": [
+        "Event"
+      ]
+    },
+    {
+      "card": "Quest",
+      "set": "Adventures",
+      "cost": "0",
+      "type": [
+        "Event"
+      ]
+    },
+    {
+      "card": "Raid",
+      "set": "Adventures",
+      "cost": "5",
+      "type": [
+        "Event"
+      ]
+    },
+    {
+      "card": "Save",
+      "set": "Adventures",
+      "cost": "1",
+      "type": [
+        "Event"
+      ]
+    },
+    {
+      "card": "Scouting Party",
+      "set": "Adventures",
+      "cost": "2",
+      "type": [
+        "Event"
+      ]
+    },
+    {
+      "card": "Seaway",
+      "set": "Adventures",
+      "cost": "5",
+      "type": [
+        "Event"
+      ]
+    },
+    {
+      "card": "Trade",
+      "set": "Adventures",
+      "cost": "5",
+      "type": [
+        "Event"
+      ]
+    },
+    {
+      "card": "Training",
+      "set": "Adventures",
+      "cost": "6",
+      "type": [
+        "Event"
+      ]
+    },
+    {
+      "card": "Travelling Fair",
+      "set": "Adventures",
+      "cost": "2",
+      "type": [
+        "Event"
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "group": "All",
+      "description": "All Dominion cards",
+      "cards": [
+        "Adventurer",
+        "Alchemist",
+        "Ambassador",
+        "Apothecary",
+        "Apprentice",
+        "Baron",
+        "Bazaar",
+        "Black Market",
+        "Bridge",
+        "Bureaucrat",
+        "Caravan",
+        "Cellar",
+        "Chancellor",
+        "Chapel",
+        "Conspirator",
+        "Coppersmith",
+        "Council Room",
+        "Courtyard",
+        "Cutpurse",
+        "Duke",
+        "Embargo",
+        "Envoy",
+        "Explorer",
+        "Familiar",
+        "Feast",
+        "Festival",
+        "Fishing Village",
+        "Gardens",
+        "Ghost Ship",
+        "Golem",
+        "Great Hall",
+        "Harem",
+        "Haven",
+        "Herbalist",
+        "Ironworks",
+        "Island",
+        "Laboratory",
+        "Library",
+        "Lighthouse",
+        "Lookout",
+        "Market",
+        "Masquerade",
+        "Merchant Ship",
+        "Militia",
+        "Mine",
+        "Mining Village",
+        "Minion",
+        "Moat",
+        "Moneylender",
+        "Native Village",
+        "Navigator",
+        "Nobles",
+        "Outpost",
+        "Pawn",
+        "Pearl Diver",
+        "Philosopher's Stone",
+        "Pirate Ship",
+        "Possession",
+        "Remodel",
+        "Saboteur",
+        "Salvager",
+        "Scout",
+        "Scrying Pool",
+        "Sea Hag",
+        "Secret Chamber",
+        "Shanty Town",
+        "Smithy",
+        "Smugglers",
+        "Spy",
+        "Stash",
+        "Steward",
+        "Swindler",
+        "Tactician",
+        "Thief",
+        "Throne Room",
+        "Torturer",
+        "Trading Post",
+        "Transmute",
+        "Treasure Map",
+        "Treasury",
+        "Tribute",
+        "University",
+        "Upgrade",
+        "Village",
+        "Vineyard",
+        "Warehouse",
+        "Wharf",
+        "Wishing Well",
+        "Witch",
+        "Woodcutter",
+        "Workshop",
+        "Bank",
+        "Bishop",
+        "City",
+        "Contraband",
+        "Counting House",
+        "Expand",
+        "Forge",
+        "Goons",
+        "Grand Market",
+        "Hoard",
+        "King's Court",
+        "Loan",
+        "Mint",
+        "Monument",
+        "Mountebank",
+        "Peddler",
+        "Quarry",
+        "Rabble",
+        "Royal Seal",
+        "Talisman",
+        "Trade Route",
+        "Vault",
+        "Venture",
+        "Watchtower",
+        "Worker's Village",
+        "Fairgrounds",
+        "Farming Village",
+        "Fortune Teller ",
+        "Hamlet",
+        "Harvest",
+        "Horn of Plenty",
+        "Horse Traders",
+        "Hunting Party",
+        "Jester",
+        "Menagerie",
+        "Remake",
+        "Tournament",
+        "Young Witch",
+        "Walled Village",
+        "Border Village",
+        "Cache",
+        "Cartographer",
+        "Crossroads",
+        "Develop",
+        "Duchess",
+        "Embassy",
+        "Farmland",
+        "Fool's Gold",
+        "Haggler",
+        "Highway",
+        "Ill-Gotten Gains",
+        "Inn",
+        "Jack of all Trades",
+        "Mandarin",
+        "Margrave",
+        "Noble Brigand",
+        "Nomad Camp",
+        "Oasis",
+        "Oracle",
+        "Scheme",
+        "Silk Road",
+        "Spice Merchant",
+        "Stables",
+        "Trader",
+        "Tunnel",
+        "Governor",
+        "Prince",
+        "Altar",
+        "Armory",
+        "Band of Misfits",
+        "Bandit Camp",
+        "Beggar",
+        "Catacombs",
+        "Count",
+        "Cultist",
+        "Death Cart",
+        "Forager",
+        "Fortress",
+        "Graverobber",
+        "Hermit",
+        "Hunting Grounds",
+        "Ironmonger",
+        "Junk Dealer",
+        "Marauder",
+        "Market Square",
+        "Mystic",
+        "Pillage",
+        "Poor House",
+        "Procession",
+        "Rebuild",
+        "Rogue",
+        "Sage",
+        "Scavenger",
+        "Squire",
+        "Storeroom",
+        "Urchin",
+        "Vagrant",
+        "Wandering Minstrel",
+        "Counterfeit",
+        "Feodum",
+        "Rats",
+        "Knights",
+        "Advisor",
+        "Baker",
+        "Butcher",
+        "Candlestick Maker",
+        "Doctor",
+        "Herald",
+        "Journeyman",
+        "Masterpiece",
+        "Merchant Guild",
+        "Plaza",
+        "Soothsayer",
+        "Stonemason",
+        "Taxman",
+        "Amulet",
+        "Artificer",
+        "Bridge Troll",
+        "Caravan Guard",
+        "Coin of the Realm",
+        "Distant Lands",
+        "Dungeon",
+        "Duplicate",
+        "Gear",
+        "Giant",
+        "Guide",
+        "Haunted Woods",
+        "Hireling",
+        "Lost City",
+        "Magpie",
+        "Messenger",
+        "Miser",
+        "Page",
+        "Peasant",
+        "Port",
+        "Ranger",
+        "Ratcatcher",
+        "Raze",
+        "Relic",
+        "Royal Carriage",
+        "Storyteller",
+        "Swamp Hag",
+        "Transmogrify",
+        "Treasure Trove",
+        "Wine Merchant",
+        "Alms",
+        "Borrow",
+        "Quest",
+        "Save",
+        "Scouting Party",
+        "Travelling Fair",
+        "Bonfire",
+        "Expedition",
+        "Ferry",
+        "Plan",
+        "Mission",
+        "Pilgrimage",
+        "Ball",
+        "Raid",
+        "Seaway",
+        "Trade",
+        "Lost Arts",
+        "Training",
+        "Inheritance",
+        "Pathfinding"
+      ]
+    },
+    {
+      "group": "Main Set",
+      "description": "Cards from the first Dominion",
+      "cards": [
+        "Adventurer",
+        "Bureaucrat",
+        "Cellar",
+        "Chancellor",
+        "Chapel",
+        "Council Room",
+        "Feast",
+        "Festival",
+        "Gardens",
+        "Laboratory",
+        "Library",
+        "Market",
+        "Militia",
+        "Mine",
+        "Moat",
+        "Moneylender",
+        "Remodel",
+        "Smithy",
+        "Spy",
+        "Thief",
+        "Throne Room",
+        "Village",
+        "Witch",
+        "Woodcutter",
+        "Workshop"
+      ]
+    },
+    {
+      "group": "Intrigue",
+      "description": "Cards from Dominion: Intrigue",
+      "cards": [
+        "Baron",
+        "Bridge",
+        "Conspirator",
+        "Coppersmith",
+        "Courtyard",
+        "Duke",
+        "Great Hall",
+        "Harem",
+        "Ironworks",
+        "Masquerade",
+        "Mining Village",
+        "Minion",
+        "Nobles",
+        "Pawn",
+        "Saboteur",
+        "Scout",
+        "Secret Chamber",
+        "Shanty Town",
+        "Steward",
+        "Swindler",
+        "Torturer",
+        "Trading Post",
+        "Tribute",
+        "Upgrade",
+        "Wishing Well"
+      ]
+    },
+    {
+      "group": "Seaside",
+      "description": "Cards from Dominion: Seaside",
+      "cards": [
+        "Ambassador",
+        "Bazaar",
+        "Caravan",
+        "Cutpurse",
+        "Embargo",
+        "Explorer",
+        "Fishing Village",
+        "Ghost Ship",
+        "Haven",
+        "Island",
+        "Lighthouse",
+        "Lookout",
+        "Merchant Ship",
+        "Native Village",
+        "Navigator",
+        "Outpost",
+        "Pearl Diver",
+        "Pirate Ship",
+        "Salvager",
+        "Sea Hag",
+        "Smugglers",
+        "Tactician",
+        "Treasure Map",
+        "Treasury",
+        "Warehouse",
+        "Wharf"
+      ]
+    },
+    {
+      "group": "Alchemy",
+      "description": "Cards from Dominion: Alchemy",
+      "cards": [
+        "Alchemist",
+        "Apothecary",
+        "Apprentice",
+        "Familiar",
+        "Golem",
+        "Herbalist",
+        "Philosopher's Stone",
+        "Possession",
+        "Scrying Pool",
+        "Transmute",
+        "University",
+        "Vineyard"
+      ]
+    },
+    {
+      "group": "Prosperity",
+      "description": "Cards from Dominion: Prosperity",
+      "cards": [
+        "Bank",
+        "Bishop",
+        "City",
+        "Contraband",
+        "Counting House",
+        "Expand",
+        "Forge",
+        "Goons",
+        "Grand Market",
+        "Hoard",
+        "King's Court",
+        "Loan",
+        "Mint",
+        "Monument",
+        "Mountebank",
+        "Peddler",
+        "Quarry",
+        "Rabble",
+        "Royal Seal",
+        "Talisman",
+        "Trade Route",
+        "Vault",
+        "Venture",
+        "Watchtower",
+        "Worker's Village"
+      ]
+    },
+    {
+      "group": "Cornucopia",
+      "description": "Cards from Dominion: Cornucopia",
+      "cards": [
+        "Fairgrounds",
+        "Farming Village",
+        "Fortune Teller ",
+        "Hamlet",
+        "Harvest",
+        "Horn of Plenty",
+        "Horse Traders",
+        "Hunting Party",
+        "Jester",
+        "Menagerie",
+        "Remake",
+        "Tournament",
+        "Young Witch"
+      ]
+    },
+    {
+      "group": "Hinterlands",
+      "description": "Cards from Dominion: Hinterlands",
+      "cards": [
+        "Border Village",
+        "Cache",
+        "Cartographer",
+        "Crossroads",
+        "Develop",
+        "Duchess",
+        "Embassy",
+        "Farmland",
+        "Fool's Gold",
+        "Haggler",
+        "Highway",
+        "Ill-Gotten Gains",
+        "Inn",
+        "Jack of all Trades",
+        "Mandarin",
+        "Margrave",
+        "Noble Brigand",
+        "Nomad Camp",
+        "Oasis",
+        "Oracle",
+        "Scheme",
+        "Silk Road",
+        "Spice Merchant",
+        "Stables",
+        "Trader",
+        "Tunnel"
+      ]
+    },
+    {
+      "group": "Dark Ages",
+      "description": "Cards from Dominion: Dark Ages",
+      "cards": [
+        "Altar",
+        "Armory",
+        "Band of Misfits",
+        "Bandit Camp",
+        "Beggar",
+        "Catacombs",
+        "Count",
+        "Cultist",
+        "Death Cart",
+        "Forager",
+        "Fortress",
+        "Graverobber",
+        "Hermit",
+        "Hunting Grounds",
+        "Ironmonger",
+        "Junk Dealer",
+        "Marauder",
+        "Market Square",
+        "Mystic",
+        "Pillage",
+        "Poor House",
+        "Procession",
+        "Rebuild",
+        "Rogue",
+        "Sage",
+        "Scavenger",
+        "Squire",
+        "Storeroom",
+        "Urchin",
+        "Vagrant",
+        "Wandering Minstrel",
+        "Counterfeit",
+        "Feodum",
+        "Rats",
+        "Knights"
+      ]
+    },
+    {
+      "group": "Guilds",
+      "description": "Cards from Dominion: Guilds",
+      "cards": [
+        "Advisor",
+        "Baker",
+        "Butcher",
+        "Candlestick Maker",
+        "Doctor",
+        "Herald",
+        "Journeyman",
+        "Masterpiece",
+        "Merchant Guild",
+        "Plaza",
+        "Soothsayer",
+        "Stonemason",
+        "Taxman"
+      ]
+    },
+    {
+      "group": "Adventures",
+      "description": "Cards from Dominion: Adventures",
+      "cards": [
+        "Amulet",
+        "Artificer",
+        "Bridge Troll",
+        "Caravan Guard",
+        "Coin of the Realm",
+        "Distant Lands",
+        "Dungeon",
+        "Duplicate",
+        "Gear",
+        "Giant",
+        "Guide",
+        "Haunted Woods",
+        "Hireling",
+        "Lost City",
+        "Magpie",
+        "Messenger",
+        "Miser",
+        "Page",
+        "Peasant",
+        "Port",
+        "Ranger",
+        "Ratcatcher",
+        "Raze",
+        "Relic",
+        "Royal Carriage",
+        "Storyteller",
+        "Swamp Hag",
+        "Transmogrify",
+        "Treasure Trove",
+        "Wine Merchant",
+        "Alms",
+        "Borrow",
+        "Quest",
+        "Save",
+        "Scouting Party",
+        "Travelling Fair",
+        "Bonfire",
+        "Expedition",
+        "Ferry",
+        "Plan",
+        "Mission",
+        "Pilgrimage",
+        "Ball",
+        "Raid",
+        "Seaway",
+        "Trade",
+        "Lost Arts",
+        "Training",
+        "Inheritance",
+        "Pathfinding",
+        "Alms",
+        "Borrow",
+        "Quest",
+        "Save",
+        "Scouting Party",
+        "Travelling Fair",
+        "Bonfire",
+        "Expedition",
+        "Ferry",
+        "Plan",
+        "Mission",
+        "Pilgrimage",
+        "Ball",
+        "Raid",
+        "Seaway",
+        "Trade",
+        "Lost Arts",
+        "Training",
+        "Inheritance",
+        "Pathfinding"
+      ]
+    },
+    {
+      "group": "Promo",
+      "description": "Promotion cards",
+      "cards": [
+        "Black Market",
+        "Envoy",
+        "Stash",
+        "Walled Village",
+        "Governor",
+        "Prince"
+      ]
+    },
+    {
+      "group": "Events",
+      "description": "Events",
+      "cards": [
+        "Alms",
+        "Borrow",
+        "Quest",
+        "Save",
+        "Scouting Party",
+        "Travelling Fair",
+        "Bonfire",
+        "Expedition",
+        "Ferry",
+        "Plan",
+        "Mission",
+        "Pilgrimage",
+        "Ball",
+        "Raid",
+        "Seaway",
+        "Trade",
+        "Lost Arts",
+        "Training",
+        "Inheritance",
+        "Pathfinding"
+      ]
+    },
+    {
+      "group": "Defense",
+      "description": "Cards that protect from attack cards",
+      "cards": [
+        "Lighthouse",
+        "Moat",
+        "Secret Chamber",
+        "Watchtower",
+        "Horse Traders",
+        "Fool's Gold",
+        "Trader",
+        "Tunnel",
+        "Market Square",
+        "Caravan Guard"
+      ]
+    },
+    {
+      "group": "Attack",
+      "description": "Cards to attack other players",
+      "cards": [
+        "Ambassador",
+        "Bureaucrat",
+        "Cutpurse",
+        "Familiar",
+        "Ghost Ship",
+        "Militia",
+        "Minion",
+        "Pirate Ship",
+        "Saboteur",
+        "Scrying Pool",
+        "Sea Hag",
+        "Spy",
+        "Swindler",
+        "Thief",
+        "Torturer",
+        "Witch",
+        "Goons",
+        "Mountebank",
+        "Rabble",
+        "Fortune Teller ",
+        "Jester",
+        "Young Witch",
+        "Margrave",
+        "Noble Brigand",
+        "Oracle",
+        "Cultist",
+        "Marauder",
+        "Pillage",
+        "Rogue",
+        "Urchin",
+        "Knights",
+        "Soothsayer",
+        "Taxman",
+        "Bridge Troll",
+        "Giant",
+        "Haunted Woods",
+        "Relic",
+        "Swamp Hag"
+      ]
+    },
+    {
+      "group": "Cost 2",
+      "description": "Cards of cost 2 or less",
+      "cards": [
+        "Cellar",
+        "Chapel",
+        "Courtyard",
+        "Embargo",
+        "Haven",
+        "Herbalist",
+        "Lighthouse",
+        "Moat",
+        "Native Village",
+        "Pawn",
+        "Pearl Diver",
+        "Secret Chamber",
+        "Hamlet",
+        "Crossroads",
+        "Duchess",
+        "Fool's Gold",
+        "Beggar",
+        "Poor House",
+        "Squire",
+        "Vagrant",
+        "Candlestick Maker",
+        "Stonemason",
+        "Coin of the Realm",
+        "Page",
+        "Peasant",
+        "Ratcatcher",
+        "Raze"
+      ]
+    },
+    {
+      "group": "Cost 3",
+      "description": "Cards of cost 3",
+      "cards": [
+        "Ambassador",
+        "Black Market",
+        "Chancellor",
+        "Fishing Village",
+        "Great Hall",
+        "Lookout",
+        "Masquerade",
+        "Shanty Town",
+        "Smugglers",
+        "Steward",
+        "Swindler",
+        "Village",
+        "Warehouse",
+        "Wishing Well",
+        "Woodcutter",
+        "Workshop",
+        "Loan",
+        "Trade Route",
+        "Watchtower",
+        "Fortune Teller ",
+        "Menagerie",
+        "Develop",
+        "Oasis",
+        "Oracle",
+        "Scheme",
+        "Tunnel",
+        "Forager",
+        "Hermit",
+        "Market Square",
+        "Sage",
+        "Storeroom",
+        "Urchin",
+        "Doctor",
+        "Masterpiece",
+        "Amulet",
+        "Caravan Guard",
+        "Dungeon",
+        "Gear",
+        "Guide"
+      ]
+    },
+    {
+      "group": "Cost 4",
+      "description": "Card of cost 4",
+      "cards": [
+        "Baron",
+        "Bridge",
+        "Bureaucrat",
+        "Caravan",
+        "Conspirator",
+        "Coppersmith",
+        "Cutpurse",
+        "Envoy",
+        "Feast",
+        "Gardens",
+        "Ironworks",
+        "Island",
+        "Militia",
+        "Mining Village",
+        "Moneylender",
+        "Navigator",
+        "Pirate Ship",
+        "Remodel",
+        "Salvager",
+        "Scout",
+        "Sea Hag",
+        "Smithy",
+        "Spy",
+        "Thief",
+        "Throne Room",
+        "Treasure Map",
+        "Bishop",
+        "Monument",
+        "Quarry",
+        "Talisman",
+        "Worker's Village",
+        "Farming Village",
+        "Horse Traders",
+        "Remake",
+        "Tournament",
+        "Young Witch",
+        "Walled Village",
+        "Jack of all Trades",
+        "Noble Brigand",
+        "Nomad Camp",
+        "Silk Road",
+        "Spice Merchant",
+        "Trader",
+        "Armory",
+        "Death Cart",
+        "Fortress",
+        "Ironmonger",
+        "Marauder",
+        "Procession",
+        "Scavenger",
+        "Wandering Minstrel",
+        "Feodum",
+        "Rats",
+        "Advisor",
+        "Herald",
+        "Plaza",
+        "Taxman",
+        "Duplicate",
+        "Magpie",
+        "Messenger",
+        "Miser",
+        "Port",
+        "Ranger",
+        "Transmogrify"
+      ]
+    },
+    {
+      "group": "Cost 5",
+      "description": "Cards of cost 5",
+      "cards": [
+        "Apprentice",
+        "Bazaar",
+        "Council Room",
+        "Duke",
+        "Explorer",
+        "Festival",
+        "Ghost Ship",
+        "Laboratory",
+        "Library",
+        "Market",
+        "Merchant Ship",
+        "Mine",
+        "Minion",
+        "Outpost",
+        "Saboteur",
+        "Stash",
+        "Tactician",
+        "Torturer",
+        "Trading Post",
+        "Treasury",
+        "Tribute",
+        "Upgrade",
+        "Wharf",
+        "Witch",
+        "City",
+        "Contraband",
+        "Counting House",
+        "Mint",
+        "Mountebank",
+        "Rabble",
+        "Royal Seal",
+        "Vault",
+        "Venture",
+        "Harvest",
+        "Horn of Plenty",
+        "Hunting Party",
+        "Jester",
+        "Cache",
+        "Cartographer",
+        "Embassy",
+        "Haggler",
+        "Highway",
+        "Ill-Gotten Gains",
+        "Inn",
+        "Mandarin",
+        "Margrave",
+        "Stables",
+        "Governor",
+        "Band of Misfits",
+        "Bandit Camp",
+        "Catacombs",
+        "Count",
+        "Cultist",
+        "Graverobber",
+        "Junk Dealer",
+        "Mystic",
+        "Pillage",
+        "Rebuild",
+        "Rogue",
+        "Counterfeit",
+        "Knights",
+        "Baker",
+        "Butcher",
+        "Journeyman",
+        "Merchant Guild",
+        "Soothsayer",
+        "Artificer",
+        "Bridge Troll",
+        "Distant Lands",
+        "Giant",
+        "Haunted Woods",
+        "Lost City",
+        "Relic",
+        "Royal Carriage",
+        "Storyteller",
+        "Swamp Hag",
+        "Treasure Trove",
+        "Wine Merchant"
+      ]
+    },
+    {
+      "group": "Cost 6",
+      "description": "Cards of cost 6",
+      "cards": [
+        "Adventurer",
+        "Harem",
+        "Nobles",
+        "Goons",
+        "Grand Market",
+        "Hoard",
+        "Fairgrounds",
+        "Border Village",
+        "Farmland",
+        "Altar",
+        "Hunting Grounds",
+        "Hireling"
+      ]
+    },
+    {
+      "group": "Cost 6+",
+      "description": "Cards of cost 6 or more",
+      "cards": [
+        "Adventurer",
+        "Harem",
+        "Nobles",
+        "Bank",
+        "Expand",
+        "Forge",
+        "Goons",
+        "Grand Market",
+        "Hoard",
+        "King's Court",
+        "Peddler",
+        "Fairgrounds",
+        "Border Village",
+        "Farmland",
+        "Altar",
+        "Hunting Grounds",
+        "Hireling"
+      ]
+    },
+    {
+      "group": "Cost 7+",
+      "description": "Cards of cost 7 or more",
+      "cards": [
+        "Bank",
+        "Expand",
+        "Forge",
+        "King's Court",
+        "Peddler"
+      ]
+    },
+    {
+      "group": "Potion",
+      "description": "Cards that cost or use potions",
+      "cards": [
+        "Alchemist",
+        "Apothecary",
+        "Apprentice",
+        "Familiar",
+        "Golem",
+        "Philosopher's Stone",
+        "Possession",
+        "Scrying Pool",
+        "Transmute",
+        "University",
+        "Vineyard"
+      ]
+    },
+    {
+      "group": "Component",
+      "description": "Cards for which a component is needed",
+      "cards": [
+        "Embargo",
+        "Island",
+        "Native Village",
+        "Pirate Ship",
+        "Bishop",
+        "Goons",
+        "Monument",
+        "Trade Route",
+        "Baker",
+        "Butcher",
+        "Candlestick Maker",
+        "Merchant Guild",
+        "Plaza",
+        "Bridge Troll",
+        "Duplicate",
+        "Giant",
+        "Guide",
+        "Miser",
+        "Ranger",
+        "Ratcatcher",
+        "Royal Carriage",
+        "Transmogrify",
+        "Wine Merchant",
+        "Coin of the Realm",
+        "Relic",
+        "Distant Lands"
+      ]
+    },
+    {
+      "group": "Victory",
+      "description": "Cards that score victory points",
+      "cards": [
+        "Duke",
+        "Gardens",
+        "Great Hall",
+        "Harem",
+        "Island",
+        "Nobles",
+        "Vineyard",
+        "Fairgrounds",
+        "Farmland",
+        "Silk Road",
+        "Tunnel",
+        "Feodum",
+        "Distant Lands"
+      ]
+    },
+    {
+      "group": "Duration",
+      "description": "Duration cards",
+      "cards": [
+        "Caravan",
+        "Fishing Village",
+        "Haven",
+        "Lighthouse",
+        "Merchant Ship",
+        "Outpost",
+        "Tactician",
+        "Wharf",
+        "Amulet",
+        "Bridge Troll",
+        "Caravan Guard",
+        "Gear",
+        "Haunted Woods",
+        "Hireling",
+        "Swamp Hag"
+      ]
+    },
+    {
+      "group": "Treasure",
+      "description": "Treasure cards",
+      "cards": [
+        "Harem",
+        "Philosopher's Stone",
+        "Stash",
+        "Bank",
+        "Contraband",
+        "Hoard",
+        "Loan",
+        "Quarry",
+        "Royal Seal",
+        "Talisman",
+        "Venture",
+        "Horn of Plenty",
+        "Cache",
+        "Fool's Gold",
+        "Ill-Gotten Gains",
+        "Counterfeit",
+        "Masterpiece",
+        "Coin of the Realm",
+        "Relic",
+        "Treasure Trove"
+      ]
+    },
+    {
+      "group": "Double Type",
+      "description": "Cards that are multiple types",
+      "cards": [
+        "Great Hall",
+        "Harem",
+        "Island",
+        "Nobles",
+        "Fool's Gold",
+        "Tunnel",
+        "Caravan Guard",
+        "Distant Lands"
+      ]
+    },
+    {
+      "group": "Deck Reduction",
+      "description": "Cards that can make your deck smaller",
+      "cards": [
+        "Ambassador",
+        "Apprentice",
+        "Chapel",
+        "Island",
+        "Lookout",
+        "Masquerade",
+        "Moneylender",
+        "Salvager",
+        "Steward",
+        "Trading Post",
+        "Upgrade",
+        "Bishop",
+        "Forge",
+        "Loan",
+        "Trade Route",
+        "Remake",
+        "Jack of all Trades",
+        "Count",
+        "Death Cart",
+        "Forager",
+        "Junk Dealer",
+        "Counterfeit",
+        "Doctor",
+        "Amulet",
+        "Miser",
+        "Raze",
+        "Transmogrify"
+      ]
+    },
+    {
+      "group": "Card Ordering",
+      "description": "Change the order of the cards in your deck",
+      "cards": [
+        "Apothecary",
+        "Courtyard",
+        "Navigator",
+        "Pearl Diver",
+        "Scout",
+        "Treasury",
+        "Rabble",
+        "Royal Seal",
+        "Watchtower",
+        "Walled Village",
+        "Cartographer",
+        "Develop",
+        "Duchess",
+        "Jack of all Trades",
+        "Mandarin",
+        "Oracle",
+        "Armory",
+        "Beggar",
+        "Count",
+        "Graverobber",
+        "Scavenger",
+        "Wandering Minstrel",
+        "Doctor",
+        "Taxman"
+      ]
+    },
+    {
+      "group": "Plus Curses",
+      "description": "Cards that can be used to give curses",
+      "cards": [
+        "Ambassador",
+        "Embargo",
+        "Familiar",
+        "Masquerade",
+        "Sea Hag",
+        "Swindler",
+        "Torturer",
+        "Witch",
+        "Mountebank",
+        "Jester",
+        "Young Witch",
+        "Ill-Gotten Gains",
+        "Soothsayer",
+        "Giant",
+        "Messenger",
+        "Swamp Hag"
+      ]
+    },
+    {
+      "group": "Plus Card",
+      "description": "Cards that let you draw cards",
+      "cards": [
+        "Alchemist",
+        "Apothecary",
+        "Caravan",
+        "Conspirator",
+        "Council Room",
+        "Courtyard",
+        "Familiar",
+        "Ghost Ship",
+        "Golem",
+        "Great Hall",
+        "Haven",
+        "Ironworks",
+        "Laboratory",
+        "Library",
+        "Market",
+        "Masquerade",
+        "Mining Village",
+        "Minion",
+        "Moat",
+        "Nobles",
+        "Pawn",
+        "Pearl Diver",
+        "Scrying Pool",
+        "Shanty Town",
+        "Smithy",
+        "Spy",
+        "Steward",
+        "Tactician",
+        "Torturer",
+        "Treasury",
+        "Tribute",
+        "Upgrade",
+        "Village",
+        "Warehouse",
+        "Wharf",
+        "Wishing Well",
+        "Witch",
+        "Bank",
+        "Counting House",
+        "Grand Market",
+        "Peddler",
+        "Rabble",
+        "Vault",
+        "Venture",
+        "Watchtower",
+        "Worker's Village",
+        "Hamlet",
+        "Hunting Party",
+        "Menagerie",
+        "Tournament",
+        "Young Witch",
+        "Walled Village",
+        "Border Village",
+        "Cartographer",
+        "Crossroads",
+        "Embassy",
+        "Highway",
+        "Inn",
+        "Jack of all Trades",
+        "Margrave",
+        "Oasis",
+        "Oracle",
+        "Scheme",
+        "Spice Merchant",
+        "Stables",
+        "Governor",
+        "Bandit Camp",
+        "Catacombs",
+        "Cultist",
+        "Fortress",
+        "Hunting Grounds",
+        "Ironmonger",
+        "Junk Dealer",
+        "Market Square",
+        "Mystic",
+        "Sage",
+        "Storeroom",
+        "Urchin",
+        "Vagrant",
+        "Wandering Minstrel",
+        "Rats",
+        "Advisor",
+        "Baker",
+        "Herald",
+        "Journeyman",
+        "Plaza",
+        "Artificer",
+        "Caravan Guard",
+        "Dungeon",
+        "Gear",
+        "Guide",
+        "Haunted Woods",
+        "Hireling",
+        "Lost City",
+        "Magpie",
+        "Ranger",
+        "Ratcatcher",
+        "Storyteller",
+        "Port",
+        "Page"
+      ]
+    },
+    {
+      "group": "Plus Action",
+      "description": "Cards that add actions",
+      "cards": [
+        "Alchemist",
+        "Apothecary",
+        "Apprentice",
+        "Bazaar",
+        "Caravan",
+        "Cellar",
+        "Conspirator",
+        "Familiar",
+        "Festival",
+        "Fishing Village",
+        "Golem",
+        "Great Hall",
+        "Haven",
+        "Ironworks",
+        "Laboratory",
+        "Lighthouse",
+        "Lookout",
+        "Market",
+        "Mining Village",
+        "Minion",
+        "Native Village",
+        "Nobles",
+        "Pawn",
+        "Pearl Diver",
+        "Scout",
+        "Scrying Pool",
+        "Shanty Town",
+        "Spy",
+        "Tactician",
+        "Treasury",
+        "Tribute",
+        "University",
+        "Upgrade",
+        "Village",
+        "Warehouse",
+        "Wishing Well",
+        "City",
+        "Grand Market",
+        "Peddler",
+        "Worker's Village",
+        "Farming Village",
+        "Hamlet",
+        "Hunting Party",
+        "Menagerie",
+        "Tournament",
+        "Walled Village",
+        "Border Village",
+        "Cartographer",
+        "Crossroads",
+        "Highway",
+        "Inn",
+        "Oasis",
+        "Scheme",
+        "Spice Merchant",
+        "Stables",
+        "Governor",
+        "Prince",
+        "Bandit Camp",
+        "Forager",
+        "Fortress",
+        "Ironmonger",
+        "Junk Dealer",
+        "Market Square",
+        "Mystic",
+        "Rebuild",
+        "Sage",
+        "Squire",
+        "Urchin",
+        "Vagrant",
+        "Wandering Minstrel",
+        "Rats",
+        "Advisor",
+        "Baker",
+        "Candlestick Maker",
+        "Herald",
+        "Plaza",
+        "Artificer",
+        "Caravan",
+        "Dungeon",
+        "Guide",
+        "Lost City",
+        "Magpie",
+        "Ratcatcher",
+        "Raze",
+        "Royal Carriage",
+        "Storyteller",
+        "Transmogrify",
+        "Port",
+        "Page",
+        "Coin of the Realm"
+      ]
+    },
+    {
+      "group": "Plus More Action",
+      "description": "Cards that adds two or more actions",
+      "cards": [
+        "Bazaar",
+        "Festival",
+        "Fishing Village",
+        "Golem",
+        "Mining Village",
+        "Native Village",
+        "Nobles",
+        "Shanty Town",
+        "Tribute",
+        "University",
+        "Village",
+        "City",
+        "Worker's Village",
+        "Farming Village",
+        "Hamlet",
+        "Walled Village",
+        "Border Village",
+        "Crossroads",
+        "Inn",
+        "Bandit Camp",
+        "Fortress",
+        "Ironmonger",
+        "Squire",
+        "Wandering Minstrel",
+        "Herald",
+        "Plaza",
+        "Lost City",
+        "Port",
+        "Coin of the Realm"
+      ]
+    },
+    {
+      "group": "Plus Coin",
+      "description": "Cards that add money",
+      "cards": [
+        "Baron",
+        "Bazaar",
+        "Black Market",
+        "Bridge",
+        "Chancellor",
+        "Conspirator",
+        "Cutpurse",
+        "Embargo",
+        "Festival",
+        "Fishing Village",
+        "Herbalist",
+        "Ironworks",
+        "Lighthouse",
+        "Market",
+        "Merchant Ship",
+        "Militia",
+        "Mining Village",
+        "Minion",
+        "Navigator",
+        "Pawn",
+        "Philosopher's Stone",
+        "Salvager",
+        "Steward",
+        "Swindler",
+        "Treasury",
+        "Tribute",
+        "Woodcutter",
+        "Bishop",
+        "City",
+        "Goons",
+        "Grand Market",
+        "Monument",
+        "Mountebank",
+        "Peddler",
+        "Trade Route",
+        "Vault",
+        "Fortune Teller ",
+        "Harvest",
+        "Horse Traders",
+        "Jester",
+        "Tournament",
+        "Duchess",
+        "Haggler",
+        "Mandarin",
+        "Noble Brigand",
+        "Nomad Camp",
+        "Oasis",
+        "Spice Merchant",
+        "Count",
+        "Death Cart",
+        "Forager",
+        "Ironmonger",
+        "Junk Dealer",
+        "Mystic",
+        "Poor House",
+        "Rogue",
+        "Scavenger",
+        "Squire",
+        "Storeroom",
+        "Baker",
+        "Butcher",
+        "Candlestick Maker",
+        "Merchant Guild",
+        "Plaza",
+        "Amulet",
+        "Artificer",
+        "Caravan Guard",
+        "Giant",
+        "Messenger",
+        "Miser",
+        "Storyteller",
+        "Swamp Hag",
+        "Wine Merchant",
+        "Peasant"
+      ]
+    },
+    {
+      "group": "Plus Buy",
+      "description": "Cards that add buys",
+      "cards": [
+        "Baron",
+        "Bridge",
+        "Council Room",
+        "Festival",
+        "Herbalist",
+        "Market",
+        "Pawn",
+        "Salvager",
+        "Tactician",
+        "Wharf",
+        "Woodcutter",
+        "City",
+        "Contraband",
+        "Goons",
+        "Grand Market",
+        "Trade Route",
+        "Worker's Village",
+        "Horse Traders",
+        "Develop",
+        "Margrave",
+        "Nomad Camp",
+        "Spice Merchant",
+        "Forager",
+        "Market Square",
+        "Squire",
+        "Storeroom",
+        "Counterfeit",
+        "Candlestick Maker",
+        "Merchant Guild",
+        "Bridge Troll",
+        "Messenger",
+        "Ranger",
+        "Wine Merchant",
+        "Peasant"
+      ]
+    },
+    {
+      "group": "Gain",
+      "description": "Cards that let you gain cards without buying",
+      "cards": [
+        "Baron",
+        "Bureaucrat",
+        "Explorer",
+        "Ironworks",
+        "Smugglers",
+        "Thief",
+        "Treasure Map",
+        "University",
+        "Workshop",
+        "Hoard",
+        "Mint",
+        "Talisman",
+        "Horn of Plenty",
+        "Tournament",
+        "Duchess",
+        "Jack of all Trades",
+        "Altar",
+        "Armory",
+        "Bandit Camp",
+        "Beggar",
+        "Catacombs",
+        "Count",
+        "Graverobber",
+        "Hermit",
+        "Hunting Grounds",
+        "Marauder",
+        "Pillage",
+        "Rogue",
+        "Squire",
+        "Urchin",
+        "Feodum",
+        "Rats",
+        "Soothsayer",
+        "Stonemason",
+        "Taxman",
+        "Artificer",
+        "Duplicate",
+        "Messenger",
+        "Port",
+        "Treasure Trove"
+      ]
+    },
+    {
+      "group": "Looter",
+      "description": "Cards that let someone gain ruins",
+      "cards": [
+        "Cultist",
+        "Death Cart",
+        "Marauder"
+      ]
+    },
+    {
+      "group": "Gain Spoils",
+      "description": "Cards that let you gain spoils",
+      "cards": [
+        "Bandit Camp",
+        "Marauder",
+        "Pillage"
+      ]
+    }
+  ],
+  "non_kingdom_cards": [
+    {
+      "card": "Potion",
+      "set": "Alchemy",
+      "cost": "4",
+      "type": [
+        "Treasure"
+      ],
+      "basic": true
+    },
+    {
+      "card": "Colony",
+      "set": "Prosperity",
+      "cost": "11",
+      "type": [
+        "Victory"
+      ],
+      "basic": true
+    },
+    {
+      "card": "Platinum",
+      "set": "Prosperity",
+      "cost": "9",
+      "type": [
+        "Treasure"
+      ],
+      "basic": true
+    },
+    {
+      "card": "Shelter",
+      "set": "Dark Ages",
+      "cost": "1",
+      "type": [
+        "Shelter"
+      ],
+      "basic": true
+    },
+    {
+      "card": "Ruins",
+      "set": "Dark Ages",
+      "cost": "0",
+      "type": [
+        "Action",
+        "Attack"
+      ],
+      "basic": true
+    },
+    {
+      "card": "Spoils",
+      "set": "Dark Ages",
+      "cost": "0*",
+      "type": [
+        "Treasure"
+      ],
+      "basic": true
+    },
+    {
+      "card": "Madman",
+      "set": "Dark Ages",
+      "cost": "0*",
+      "type": [
+        "Action"
+      ],
+      "nonSupply": true
+    },
+    {
+      "card": "Mercenary",
+      "set": "Dark Ages",
+      "cost": "0*",
+      "type": [
+        "Action",
+        "Attack"
+      ],
+      "nonSupply": true
+    }
+  ]
 }

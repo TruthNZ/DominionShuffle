@@ -1,1 +1,2926 @@
-{"cards":[{"card":"Alchemist","set":"Alkemia","cost":"P3","type":"Toiminta","display":"Alkemisti"},{"card":"Apothecary","set":"Alkemia","cost":"P2","type":"Toiminta","display":"Apteekkari"},{"card":"Apprentice","set":"Alkemia","cost":"5","type":"Toiminta","display":"Oppipoika"},{"card":"Familiar","set":"Alkemia","cost":"P3","type":"Toiminta - Hyökkäys","display":"Apuolento"},{"card":"Golem","set":"Alkemia","cost":"P4","type":"Toiminta"},{"card":"Herbalist","set":"Alkemia","cost":"2","type":"Toiminta","display":"Yrttikauppias"},{"card":"Philosopher's Stone","set":"Alkemia","cost":"P3","type":"Raha","display":"Viisasten Kivi"},{"card":"Possession","set":"Alkemia","cost":"P6","type":"Toiminta","display":"Riivaus"},{"card":"Scrying Pool","set":"Alkemia","cost":"P2","type":"Toiminta - Hyökkäys","display":"Ennemalja"},{"card":"Transmute","set":"Alkemia","cost":"P0","type":"Toiminta","display":"Transmutaatio"},{"card":"University","set":"Alkemia","cost":"P2","type":"Toiminta","display":"Yliopisto"},{"card":"Vineyard","set":"Alkemia","cost":"P0","type":"Piste","display":"Viinitarha"},{"card":"Fairgrounds","set":"Elonkorjuu","cost":"6","type":"Piste","display":"Markkinat"},{"card":"Farming Village","set":"Elonkorjuu","cost":"4","type":"Toiminta","display":"Talonpoikaiskylä"},{"card":"Fortune Teller ","set":"Elonkorjuu","cost":"3","type":"Toiminta - Hyökkäys","display":"Ennustaja"},{"card":"Hamlet","set":"Elonkorjuu","cost":"2","type":"Toiminta","display":"Kyläraitti"},{"card":"Harvest","set":"Elonkorjuu","cost":"5","type":"Toiminta","display":"Sadonkorjuu"},{"card":"Horn of Plenty","set":"Elonkorjuu","cost":"5","type":"Raha","display":"Runsaudensarvi"},{"card":"Horse Traders","set":"Elonkorjuu","cost":"4","type":"Toiminta - Vastaveto","display":"Hevoskauppias"},{"card":"Hunting Party","set":"Elonkorjuu","cost":"5","type":"Toiminta","display":"Jahti"},{"card":"Jester","set":"Elonkorjuu","cost":"5","type":"Toiminta - Hyökkäys","display":"Narri"},{"card":"Menagerie","set":"Elonkorjuu","cost":"3","type":"Toiminta","display":"Villieläintarha"},{"card":"Remake","set":"Elonkorjuu","cost":"4","type":"Toiminta","display":"Jälleenrakennus"},{"card":"Tournament","set":"Elonkorjuu","cost":"4","type":"Toiminta","display":"Turnajaiset"},{"card":"Young Witch","set":"Elonkorjuu","cost":"4","type":"Toiminta - Hyökkäys","display":"Nuori Noita"},{"card":"Border Village","set":"Rajaseudut","cost":"6","type":"Toiminta","display":"Rajakylä"},{"card":"Cache","set":"Rajaseudut","cost":"5","type":"Raha","display":"Piilo"},{"card":"Cartographer","set":"Rajaseudut","cost":"5","type":"Toiminta","display":"Kartanpiirtäjä"},{"card":"Crossroads","set":"Rajaseudut","cost":"2","type":"Toiminta","display":"Tienristeys"},{"card":"Develop","set":"Rajaseudut","cost":"3","type":"Toiminta","display":"Grynderi"},{"card":"Duchess","set":"Rajaseudut","cost":"2","type":"Toiminta","display":"Herttuatar"},{"card":"Embassy","set":"Rajaseudut","cost":"5","type":"Toiminta","display":"Lähetystö"},{"card":"Farmland","set":"Rajaseudut","cost":"6","type":"Piste","display":"Viljelysmaat"},{"card":"Fool's Gold","set":"Rajaseudut","cost":"2","type":"Raha - Vastaveto","display":"Katinkulta"},{"card":"Haggler","set":"Rajaseudut","cost":"5","type":"Toiminta","display":"Tinkijä"},{"card":"Highway","set":"Rajaseudut","cost":"5","type":"Toiminta","display":"Maantie"},{"card":"Ill-Gotten Gains","set":"Rajaseudut","cost":"5","type":"Raha","display":"Epäonnen saalis"},{"card":"Inn","set":"Rajaseudut","cost":"5","type":"Toiminta","display":"Majatalo"},{"card":"Jack of all Trades","set":"Rajaseudut","cost":"4","type":"Toiminta","display":"Monitaituri"},{"card":"Mandarin","set":"Rajaseudut","cost":"5","type":"Toiminta","display":"Mandariini"},{"card":"Margrave","set":"Rajaseudut","cost":"5","type":"Toiminta - Hyökkäys","display":"Markiisi"},{"card":"Noble Brigand","set":"Rajaseudut","cost":"4","type":"Toiminta - Hyökkäys","display":"Jalo maantierosvo"},{"card":"Nomad Camp","set":"Rajaseudut","cost":"4","type":"Toiminta","display":"Paimentolaisleiri"},{"card":"Oasis","set":"Rajaseudut","cost":"3","type":"Toiminta","display":"Keidas"},{"card":"Oracle","set":"Rajaseudut","cost":"3","type":"Toiminta","display":"Oraakkeli"},{"card":"Scheme","set":"Rajaseudut","cost":"3","type":"Toiminta","display":"Juoni"},{"card":"Silk Road","set":"Rajaseudut","cost":"4","type":"Piste","display":"Silkkitie"},{"card":"Spice Merchant","set":"Rajaseudut","cost":"4","type":"Toiminta","display":"Maustekauppias"},{"card":"Stables","set":"Rajaseudut","cost":"5","type":"Toiminta","display":"Hevostalli"},{"card":"Trader","set":"Rajaseudut","cost":"4","type":"Toiminta - Vastaveto","display":"Kaupustelija"},{"card":"Tunnel","set":"Rajaseudut","cost":"3","type":"Piste - Vastaveto","display":"Tunneli"},{"card":"Baron","set":"Hovin juonet","cost":"4","type":"Toiminta","display":"Paroni"},{"card":"Bridge","set":"Hovin juonet","cost":"4","type":"Toiminta","display":"Silta"},{"card":"Conspirator","set":"Hovin juonet","cost":"4","type":"Toiminta","display":"Vehkeilijä"},{"card":"Coppersmith","set":"Hovin juonet","cost":"4","type":"Toiminta","display":"Kupariseppä"},{"card":"Courtyard","set":"Hovin juonet","cost":"2","type":"Toiminta","display":"Sisäpiha"},{"card":"Duke","set":"Hovin juonet","cost":"5","type":"Piste","display":"Herttua"},{"card":"Great Hall","set":"Hovin juonet","cost":"3","type":"Toiminta - Piste","display":"Suuri Sali"},{"card":"Harem","set":"Hovin juonet","cost":"6","type":"Raha - Piste","display":"Haaremi"},{"card":"Ironworks","set":"Hovin juonet","cost":"4","type":"Toiminta","display":"Rautapaja"},{"card":"Masquerade","set":"Hovin juonet","cost":"3","type":"Toiminta","display":"Naamiaiset"},{"card":"Mining Village","set":"Hovin juonet","cost":"4","type":"Toiminta","display":"Kaivoskylä"},{"card":"Minion","set":"Hovin juonet","cost":"5","type":"Toiminta - Hyökkäys","display":"Kätyri"},{"card":"Nobles","set":"Hovin juonet","cost":"6","type":"Toiminta - Piste","display":"Aateliset"},{"card":"Pawn","set":"Hovin juonet","cost":"2","type":"Toiminta","display":"Apuri"},{"card":"Saboteur","set":"Hovin juonet","cost":"5","type":"Toiminta - Hyökkäys","display":"Tihulainen"},{"card":"Scout","set":"Hovin juonet","cost":"4","type":"Toiminta","display":"Tiedustelija"},{"card":"Secret Chamber","set":"Hovin juonet","cost":"2","type":"Toiminta - Vastaveto","display":"Salainen Kammio"},{"card":"Shanty Town","set":"Hovin juonet","cost":"3","type":"Toiminta","display":"Hökkelikylä"},{"card":"Steward","set":"Hovin juonet","cost":"3","type":"Toiminta","display":"Käskynhaltija "},{"card":"Swindler","set":"Hovin juonet","cost":"3","type":"Toiminta - Hyökkäys","display":"Huijari"},{"card":"Torturer","set":"Hovin juonet","cost":"5","type":"Toiminta - Hyökkäys","display":"Kiduttaja"},{"card":"Trading Post","set":"Hovin juonet","cost":"5","type":"Toiminta","display":"Kauppa-asema"},{"card":"Tribute","set":"Hovin juonet","cost":"5","type":"Toiminta","display":"Kymmenykset"},{"card":"Upgrade","set":"Hovin juonet","cost":"5","type":"Toiminta","display":"Parannustyö"},{"card":"Wishing Well","set":"Hovin juonet","cost":"3","type":"Toiminta","display":"Toivomuskaivo"},{"card":"Adventurer","set":"Valtakunta","cost":"6","type":"Toiminta","display":"Seikkailija"},{"card":"Bureaucrat","set":"Valtakunta","cost":"4","type":"Toiminta - Hyökkäys","display":"Byrokraatti"},{"card":"Cellar","set":"Valtakunta","cost":"2","type":"Toiminta","display":"Kellari"},{"card":"Chancellor","set":"Valtakunta","cost":"3","type":"Toiminta","display":"Kansleri"},{"card":"Chapel","set":"Valtakunta","cost":"2","type":"Toiminta","display":"Kappeli"},{"card":"Council Room","set":"Valtakunta","cost":"5","type":"Toiminta","display":"Raatihuone"},{"card":"Feast","set":"Valtakunta","cost":"4","type":"Toiminta","display":"Pidot"},{"card":"Festival","set":"Valtakunta","cost":"5","type":"Toiminta","display":"Juhlat"},{"card":"Gardens","set":"Valtakunta","cost":"4","type":"Piste","display":"Puutarha"},{"card":"Laboratory","set":"Valtakunta","cost":"5","type":"Toiminta","display":"Laboratorio"},{"card":"Library","set":"Valtakunta","cost":"5","type":"Toiminta","display":"Kirjasto"},{"card":"Market","set":"Valtakunta","cost":"5","type":"Toiminta","display":"Tori"},{"card":"Militia","set":"Valtakunta","cost":"4","type":"Toiminta - Hyökkäys","display":"Nostoväki"},{"card":"Mine","set":"Valtakunta","cost":"5","type":"Toiminta","display":"Kaivos"},{"card":"Moat","set":"Valtakunta","cost":"2","type":"Toiminta - Vastaveto","display":"Vallihauta"},{"card":"Moneylender","set":"Valtakunta","cost":"4","type":"Toiminta","display":"Koronkiskuri"},{"card":"Remodel","set":"Valtakunta","cost":"4","type":"Toiminta","display":"Muutostyö"},{"card":"Smithy","set":"Valtakunta","cost":"4","type":"Toiminta","display":"Takomo"},{"card":"Spy","set":"Valtakunta","cost":"4","type":"Toiminta - Hyökkäys","display":"Vakooja"},{"card":"Thief","set":"Valtakunta","cost":"4","type":"Toiminta - Hyökkäys","display":"Varas"},{"card":"Throne Room","set":"Valtakunta","cost":"4","type":"Toiminta","display":"Valtaistuinsali"},{"card":"Village","set":"Valtakunta","cost":"3","type":"Toiminta","display":"Kylä"},{"card":"Witch","set":"Valtakunta","cost":"5","type":"Toiminta - Hyökkäys","display":"Noita"},{"card":"Woodcutter","set":"Valtakunta","cost":"3","type":"Toiminta","display":"Metsuri"},{"card":"Workshop","set":"Valtakunta","cost":"3","type":"Toiminta","display":"Työpaja"},{"card":"Black Market","set":"Promo","cost":"3","type":"Toiminta","display":"Musta Pörssi"},{"card":"Envoy","set":"Promo","cost":"4","type":"Toiminta","display":"Lähettiläs"},{"card":"Stash","set":"Promo","cost":"5","type":"Raha","display":"Kätkö"},{"card":"Walled Village","set":"Promo","cost":"4","type":"Toiminta","display":"Linnoitettu Kylä"},{"card":"Governor","set":"Promo","cost":"5","type":"Toiminta","display":"Kuvernööri"},{"card":"Prince","set":"Promo","cost":"8","type":"Toiminta"},{"card":"Bank","set":"Nousukausi","cost":"7","type":"Raha","display":"Pankki"},{"card":"Bishop","set":"Nousukausi","cost":"4","type":"Toiminta","display":"Piispa"},{"card":"City","set":"Nousukausi","cost":"5","type":"Toiminta","display":"Kaupunki"},{"card":"Contraband","set":"Nousukausi","cost":"5","type":"Raha","display":"Hämärät Varat"},{"card":"Counting House","set":"Nousukausi","cost":"5","type":"Toiminta","display":"Tilitoimisto"},{"card":"Expand","set":"Nousukausi","cost":"7","type":"Toiminta","display":"Laajennus"},{"card":"Forge","set":"Nousukausi","cost":"7","type":"Toiminta","display":"Ahjo"},{"card":"Goons","set":"Nousukausi","cost":"6","type":"Toiminta - Hyökkäys","display":"Roistot"},{"card":"Grand Market","set":"Nousukausi","cost":"6","type":"Toiminta","display":"Suurtori"},{"card":"Hoard","set":"Nousukausi","cost":"6","type":"Raha","display":"Aarre"},{"card":"King's Court","set":"Nousukausi","cost":"7","type":"Toiminta","display":"Kuninkaan Hovi"},{"card":"Loan","set":"Nousukausi","cost":"3","type":"Raha","display":"Laina"},{"card":"Mint","set":"Nousukausi","cost":"5","type":"Toiminta","display":"Rahapaja"},{"card":"Monument","set":"Nousukausi","cost":"4","type":"Toiminta","display":"Monumentti"},{"card":"Mountebank","set":"Nousukausi","cost":"5","type":"Toiminta - Hyökkäys","display":"Petkuttaja"},{"card":"Peddler","set":"Nousukausi","cost":"8*","type":"Toiminta","display":"Kulkukauppias"},{"card":"Quarry","set":"Nousukausi","cost":"4","type":"Raha","display":"Louhos"},{"card":"Rabble","set":"Nousukausi","cost":"5","type":"Toiminta - Hyökkäys","display":"Rahvas"},{"card":"Royal Seal","set":"Nousukausi","cost":"5","type":"Raha","display":"Sinetti"},{"card":"Talisman","set":"Nousukausi","cost":"4","type":"Raha","display":"Talismaani"},{"card":"Trade Route","set":"Nousukausi","cost":"3","type":"Toiminta","display":"Kauppareitti"},{"card":"Vault","set":"Nousukausi","cost":"5","type":"Toiminta","display":"Holvi"},{"card":"Venture","set":"Nousukausi","cost":"5","type":"Raha","display":"Palkkio"},{"card":"Watchtower","set":"Nousukausi","cost":"3","type":"Toiminta - Vastaveto","display":"Vartiotorni"},{"card":"Worker's Village","set":"Nousukausi","cost":"4","type":"Toiminta","display":"Työläiskylä"},{"card":"Ambassador","set":"Kaukaiset rannat","cost":"3","type":"Toiminta","display":"Suurlähettiläs"},{"card":"Bazaar","set":"Kaukaiset rannat","cost":"5","type":"Toiminta","display":"Basaari"},{"card":"Caravan","set":"Kaukaiset rannat","cost":"4","type":"Toiminta - Toistuva","display":"Karavaani"},{"card":"Cutpurse","set":"Kaukaiset rannat","cost":"4","type":"Toiminta - Hyökkäys","display":"Taskuvaras"},{"card":"Embargo","set":"Kaukaiset rannat","cost":"2","type":"Toiminta","display":"Saarto"},{"card":"Explorer","set":"Kaukaiset rannat","cost":"5","type":"Toiminta","display":"Tutkimusmatkailija"},{"card":"Fishing Village","set":"Kaukaiset rannat","cost":"3","type":"Toiminta - Toistuva","display":"Kalastuskylä"},{"card":"Ghost Ship","set":"Kaukaiset rannat","cost":"5","type":"Toiminta - Hyökkäys","display":"Aavelaiva"},{"card":"Haven","set":"Kaukaiset rannat","cost":"2","type":"Toiminta - Toistuva","display":"Satama"},{"card":"Island","set":"Kaukaiset rannat","cost":"4","type":"Toiminta - Piste","display":"Saari"},{"card":"Lighthouse","set":"Kaukaiset rannat","cost":"2","type":"Toiminta - Toistuva","display":"Majakka"},{"card":"Lookout","set":"Kaukaiset rannat","cost":"3","type":"Toiminta","display":"Tähystäjä"},{"card":"Merchant Ship","set":"Kaukaiset rannat","cost":"5","type":"Toiminta - Toistuva","display":"Kauppalaiva"},{"card":"Native Village","set":"Kaukaiset rannat","cost":"2","type":"Toiminta","display":"Alkuasukaskylä"},{"card":"Navigator","set":"Kaukaiset rannat","cost":"4","type":"Toiminta","display":"Luotsi"},{"card":"Outpost","set":"Kaukaiset rannat","cost":"5","type":"Toiminta - Toistuva","display":"Rannikkoasema"},{"card":"Pearl Diver","set":"Kaukaiset rannat","cost":"2","type":"Toiminta","display":"Helmenkalastaja"},{"card":"Pirate Ship","set":"Kaukaiset rannat","cost":"4","type":"Toiminta - Hyökkäys","display":"Merirosvolaiva"},{"card":"Salvager","set":"Kaukaiset rannat","cost":"4","type":"Toiminta","display":"Hylkysukeltaja"},{"card":"Sea Hag","set":"Kaukaiset rannat","cost":"4","type":"Toiminta - Hyökkäys","display":"Merennoita"},{"card":"Smugglers","set":"Kaukaiset rannat","cost":"3","type":"Toiminta","display":"Salakuljettajat"},{"card":"Tactician","set":"Kaukaiset rannat","cost":"5","type":"Toiminta - Toistuva","display":"Taktikko"},{"card":"Treasure Map","set":"Kaukaiset rannat","cost":"4","type":"Toiminta","display":"Aarrekartta"},{"card":"Treasury","set":"Kaukaiset rannat","cost":"5","type":"Toiminta","display":"Aarrekammio"},{"card":"Warehouse","set":"Kaukaiset rannat","cost":"3","type":"Toiminta","display":"Varasto"},{"card":"Wharf","set":"Kaukaiset rannat","cost":"5","type":"Toiminta - Toistuva","display":"Laituri"},{"card":"Altar","set":"Katovuodet","cost":"6","type":"Toiminta","display":"Alttari"},{"card":"Armory","set":"Katovuodet","cost":"4","type":"Toiminta","display":"Asevarasto"},{"card":"Band of Misfits","set":"Katovuodet","cost":"5","type":"Toiminta","display":"Hurja Joukko"},{"card":"Bandit Camp","set":"Katovuodet","cost":"5","type":"Toiminta","display":"Rosvoleiri"},{"card":"Beggar","set":"Katovuodet","cost":"2","type":"Toiminta - Vastaveto","display":"Kerjäläinen"},{"card":"Catacombs","set":"Katovuodet","cost":"5","type":"Toiminta","display":"Katakombit"},{"card":"Count","set":"Katovuodet","cost":"5","type":"Toiminta","display":"Jaarli"},{"card":"Cultist","set":"Katovuodet","cost":"5","type":"Toiminta - Hyökkäys - Ryöstäjä","display":"Okkultisti"},{"card":"Death Cart","set":"Katovuodet","cost":"4","type":"Toiminta - Ryöstäjä","display":"Ruumisvaunu"},{"card":"Forager","set":"Katovuodet","cost":"3","type":"Toiminta","display":"Keräilijä"},{"card":"Fortress","set":"Katovuodet","cost":"4","type":"Toiminta","display":"Linnoitus"},{"card":"Graverobber","set":"Katovuodet","cost":"5","type":"Toiminta","display":"Haudanryöstäjä"},{"card":"Hermit","set":"Katovuodet","cost":"3","type":"Toiminta","display":"Erakko"},{"card":"Hunting Grounds","set":"Katovuodet","cost":"6","type":"Toiminta","display":"Metsästysmaat"},{"card":"Ironmonger","set":"Katovuodet","cost":"4","type":"Toiminta","display":"Reppuryssä"},{"card":"Junk Dealer","set":"Katovuodet","cost":"5","type":"Toiminta","display":"Romukauppias"},{"card":"Marauder","set":"Katovuodet","cost":"4","type":"Toiminta - Hyökkäys - Ryöstäjä","display":"Vandaali"},{"card":"Market Square","set":"Katovuodet","cost":"3","type":"Toiminta - Vastaveto","display":"Kauppatori"},{"card":"Mystic","set":"Katovuodet","cost":"5","type":"Toiminta","display":"Mystikko"},{"card":"Pillage","set":"Katovuodet","cost":"5","type":"Toiminta - Hyökkäys","display":"Ryöstöretki"},{"card":"Poor House","set":"Katovuodet","cost":"1","type":"Toiminta","display":"Köyhäintalo"},{"card":"Procession","set":"Katovuodet","cost":"4","type":"Toiminta","display":"Virkanimitys"},{"card":"Rebuild","set":"Katovuodet","cost":"5","type":"Toiminta","display":"Kunnostus"},{"card":"Rogue","set":"Katovuodet","cost":"5","type":"Toiminta - Hyökkäys","display":"Ryöstäjä"},{"card":"Sage","set":"Katovuodet","cost":"3","type":"Toiminta","display":"Tietäjä"},{"card":"Scavenger","set":"Katovuodet","cost":"4","type":"Toiminta","display":"Haaskalintu"},{"card":"Squire","set":"Katovuodet","cost":"2","type":"Toiminta","display":"Aseenkantaja"},{"card":"Storeroom","set":"Katovuodet","cost":"3","type":"Toiminta","display":"Kellarivarasto"},{"card":"Urchin","set":"Katovuodet","cost":"3","type":"Toiminta - Hyökkäys","display":"Katulapsi"},{"card":"Vagrant","set":"Katovuodet","cost":"2","type":"Toiminta","display":"Kulkuri"},{"card":"Wandering Minstrel","set":"Katovuodet","cost":"4","type":"Toiminta","display":"Trubaduuri"},{"card":"Counterfeit","set":"Katovuodet","cost":"5","type":"Raha","display":"Väärennös"},{"card":"Feodum","set":"Katovuodet","cost":"4","type":"Piste","display":"Sarka"},{"card":"Rats","set":"Katovuodet","cost":"4","type":"Toiminta","display":"Rotta"},{"card":"Knights","set":"Katovuodet","cost":"5","type":"Toiminta - Hyökkäys - Ritari","display":"Ritarit"},{"card":"Advisor","set":"Killat","cost":"4","type":"Toiminta"},{"card":"Baker","set":"Killat","cost":"5","type":"Toiminta"},{"card":"Butcher","set":"Killat","cost":"5","type":"Toiminta"},{"card":"Candlestick Maker","set":"Killat","cost":"2","type":"Toiminta"},{"card":"Doctor","set":"Killat","cost":"3+","type":"Toiminta"},{"card":"Herald","set":"Killat","cost":"4+","type":"Toiminta"},{"card":"Journeyman","set":"Killat","cost":"5","type":"Toiminta"},{"card":"Masterpiece","set":"Killat","cost":"3+","type":"Raha"},{"card":"Merchant Guild","set":"Killat","cost":"5","type":"Toiminta"},{"card":"Plaza","set":"Killat","cost":"4","type":"Toiminta"},{"card":"Soothsayer","set":"Killat","cost":"5","type":"Toiminta - Hyökkäys"},{"card":"Stonemason","set":"Killat","cost":"2+","type":"Toiminta"},{"card":"Taxman","set":"Killat","cost":"4","type":"Toiminta - Hyökkäys"}],"groups":[{"group":"All","description":"Kaikki Dominion kortit","cards":["Adventurer","Alchemist","Ambassador","Apothecary","Apprentice","Baron","Bazaar","Black Market","Bridge","Bureaucrat","Caravan","Cellar","Chancellor","Chapel","Conspirator","Coppersmith","Council Room","Courtyard","Cutpurse","Duke","Embargo","Envoy","Explorer","Familiar","Feast","Festival","Fishing Village","Gardens","Ghost Ship","Golem","Great Hall","Harem","Haven","Herbalist","Ironworks","Island","Laboratory","Library","Lighthouse","Lookout","Market","Masquerade","Merchant Ship","Militia","Mine","Mining Village","Minion","Moat","Moneylender","Native Village","Navigator","Nobles","Outpost","Pawn","Pearl Diver","Philosopher's Stone","Pirate Ship","Possession","Remodel","Saboteur","Salvager","Scout","Scrying Pool","Sea Hag","Secret Chamber","Shanty Town","Smithy","Smugglers","Spy","Stash","Steward","Swindler","Tactician","Thief","Throne Room","Torturer","Trading Post","Transmute","Treasure Map","Treasury","Tribute","University","Upgrade","Village","Vineyard","Warehouse","Wharf","Wishing Well","Witch","Woodcutter","Workshop","Bank","Bishop","City","Contraband","Counting House","Expand","Forge","Goons","Grand Market","Hoard","King's Court","Loan","Mint","Monument","Mountebank","Peddler","Quarry","Rabble","Royal Seal","Talisman","Trade Route","Vault","Venture","Watchtower","Worker's Village","Fairgrounds","Farming Village","Fortune Teller ","Hamlet","Harvest","Horn of Plenty","Horse Traders","Hunting Party","Jester","Menagerie","Remake","Tournament","Young Witch","Walled Village","Border Village","Cache","Cartographer","Crossroads","Develop","Duchess","Embassy","Farmland","Fool's Gold","Haggler","Highway","Ill-Gotten Gains","Inn","Jack of all Trades","Mandarin","Margrave","Noble Brigand","Nomad Camp","Oasis","Oracle","Scheme","Silk Road","Spice Merchant","Stables","Trader","Tunnel","Governor","Prince","Altar","Armory","Band of Misfits","Bandit Camp","Beggar","Catacombs","Count","Cultist","Death Cart","Forager","Fortress","Graverobber","Hermit","Hunting Grounds","Ironmonger","Junk Dealer","Marauder","Market Square","Mystic","Pillage","Poor House","Procession","Rebuild","Rogue","Sage","Scavenger","Squire","Storeroom","Urchin","Vagrant","Wandering Minstrel","Counterfeit","Feodum","Rats","Knights","Advisor","Baker","Butcher","Candlestick Maker","Doctor","Herald","Journeyman","Masterpiece","Merchant Guild","Plaza","Soothsayer","Stonemason","Taxman"],"display":"Kaikki"},{"group":"Main Set","description":"Dominion perussetin kortit","cards":["Adventurer","Bureaucrat","Cellar","Chancellor","Chapel","Council Room","Feast","Festival","Gardens","Laboratory","Library","Market","Militia","Mine","Moat","Moneylender","Remodel","Smithy","Spy","Thief","Throne Room","Village","Witch","Woodcutter","Workshop"],"display":"Valtakunta"},{"group":"Intrigue","description":"Kortit Dominion: Hovin juonista","cards":["Baron","Bridge","Conspirator","Coppersmith","Courtyard","Duke","Great Hall","Harem","Ironworks","Masquerade","Mining Village","Minion","Nobles","Pawn","Saboteur","Scout","Secret Chamber","Shanty Town","Steward","Swindler","Torturer","Trading Post","Tribute","Upgrade","Wishing Well"],"display":"Hovin Juonet"},{"group":"Seaside","description":"Kortit Dominion: Kaukaisista rannoista","cards":["Ambassador","Bazaar","Caravan","Cutpurse","Embargo","Explorer","Fishing Village","Ghost Ship","Haven","Island","Lighthouse","Lookout","Merchant Ship","Native Village","Navigator","Outpost","Pearl Diver","Pirate Ship","Salvager","Sea Hag","Smugglers","Tactician","Treasure Map","Treasury","Warehouse","Wharf"],"display":"Kaukaiset Rannat"},{"group":"Alchemy","description":"Kortit Dominion: Alkemiasta","cards":["Alchemist","Apothecary","Apprentice","Familiar","Golem","Herbalist","Philosopher's Stone","Possession","Scrying Pool","Transmute","University","Vineyard"],"display":"Alkemia"},{"group":"Prosperity","description":"Kortit Dominion: Nousukaudesta","cards":["Bank","Bishop","City","Contraband","Counting House","Expand","Forge","Goons","Grand Market","Hoard","King's Court","Loan","Mint","Monument","Mountebank","Peddler","Quarry","Rabble","Royal Seal","Talisman","Trade Route","Vault","Venture","Watchtower","Worker's Village"],"display":"Nousukausi"},{"group":"Cornucopia","description":"Kortit Dominion: Elonkorjuusta","cards":["Fairgrounds","Farming Village","Fortune Teller ","Hamlet","Harvest","Horn of Plenty","Horse Traders","Hunting Party","Jester","Menagerie","Remake","Tournament","Young Witch"],"display":"Elonkorjuu"},{"group":"Hinterlands","description":"Kortit Dominion: Rajaseuduista","cards":["Border Village","Cache","Cartographer","Crossroads","Develop","Duchess","Embassy","Farmland","Fool's Gold","Haggler","Highway","Ill-Gotten Gains","Inn","Jack of all Trades","Mandarin","Margrave","Noble Brigand","Nomad Camp","Oasis","Oracle","Scheme","Silk Road","Spice Merchant","Stables","Trader","Tunnel"],"display":"Rajaseudut"},{"group":"Dark Ages","description":"Kortit Dominion: Katovuosista","cards":["Altar","Armory","Band of Misfits","Bandit Camp","Beggar","Catacombs","Count","Cultist","Death Cart","Forager","Fortress","Graverobber","Hermit","Hunting Grounds","Ironmonger","Junk Dealer","Marauder","Market Square","Mystic","Pillage","Poor House","Procession","Rebuild","Rogue","Sage","Scavenger","Squire","Storeroom","Urchin","Vagrant","Wandering Minstrel","Counterfeit","Feodum","Rats","Knights"],"display":"Katovuodet"},{"group":"Guilds","description":"Kortit Dominion: Killoista","cards":["Advisor","Baker","Butcher","Candlestick Maker","Doctor","Herald","Journeyman","Masterpiece","Merchant Guild","Plaza","Soothsayer","Stonemason","Taxman"],"display":"Killat"},{"group":"Promo","description":"Dominionin promokortit","cards":["Black Market","Envoy","Stash","Walled Village","Governor","Prince"]},{"group":"Defense","description":"Kortit joka suojaavat hyökkäykseltä","cards":["Lighthouse","Moat","Secret Chamber","Watchtower","Horse Traders","Fool's Gold","Trader","Tunnel","Market Square"],"display":"Vastaveto"},{"group":"Attack","description":"Kortit joilla voi hyökätä","cards":["Ambassador","Bureaucrat","Cutpurse","Familiar","Ghost Ship","Militia","Minion","Pirate Ship","Saboteur","Scrying Pool","Sea Hag","Spy","Swindler","Thief","Torturer","Witch","Goons","Mountebank","Rabble","Fortune Teller ","Jester","Young Witch","Margrave","Noble Brigand","Oracle","Cultist","Marauder","Pillage","Rogue","Urchin","Knights","Soothsayer","Taxman"],"display":"Hyökkäys"},{"group":"Cost 2","description":"Kortit jotka maksavat 2","cards":["Cellar","Chapel","Courtyard","Embargo","Haven","Herbalist","Lighthouse","Moat","Native Village","Pawn","Pearl Diver","Secret Chamber","Hamlet","Crossroads","Duchess","Fool's Gold","Beggar","Poor House","Squire","Vagrant","Candlestick Maker","Stonemason"],"display":"Hinta 2"},{"group":"Cost 3","description":"Kortit jotka maksavat 3","cards":["Ambassador","Black Market","Chancellor","Fishing Village","Great Hall","Lookout","Masquerade","Shanty Town","Smugglers","Steward","Swindler","Village","Warehouse","Wishing Well","Woodcutter","Workshop","Loan","Trade Route","Watchtower","Fortune Teller ","Menagerie","Develop","Oasis","Oracle","Scheme","Tunnel","Forager","Hermit","Market Square","Sage","Storeroom","Urchin","Doctor","Masterpiece"],"display":"Hinta 3"},{"group":"Cost 3-","description":"Kortit jotka maksavat 3 tai vähemmän","cards":["Ambassador","Black Market","Cellar","Chancellor","Chapel","Courtyard","Embargo","Fishing Village","Great Hall","Haven","Herbalist","Lighthouse","Lookout","Masquerade","Moat","Native Village","Pawn","Pearl Diver","Secret Chamber","Shanty Town","Smugglers","Steward","Swindler","Village","Warehouse","Wishing Well","Woodcutter","Workshop","Loan","Trade Route","Watchtower","Fortune Teller ","Hamlet","Menagerie","Crossroads","Develop","Duchess","Fool's Gold","Oasis","Oracle","Scheme","Tunnel","Beggar","Forager","Hermit","Market Square","Poor House","Sage","Squire","Storeroom","Urchin","Vagrant","Candlestick Maker","Doctor","Masterpiece","Stonemason"],"display":"Hinta 3-"},{"group":"Cost 4","description":"Kortit jotka maksavat 4","cards":["Baron","Bridge","Bureaucrat","Caravan","Conspirator","Coppersmith","Cutpurse","Envoy","Feast","Gardens","Ironworks","Island","Militia","Mining Village","Moneylender","Navigator","Pirate Ship","Remodel","Salvager","Scout","Sea Hag","Smithy","Spy","Thief","Throne Room","Treasure Map","Bishop","Monument","Quarry","Talisman","Worker's Village","Farming Village","Horse Traders","Remake","Tournament","Young Witch","Walled Village","Jack of all Trades","Noble Brigand","Nomad Camp","Silk Road","Spice Merchant","Trader","Armory","Death Cart","Fortress","Ironmonger","Marauder","Procession","Scavenger","Wandering Minstrel","Feodum","Rats","Advisor","Herald","Plaza","Taxman"],"display":"Hinta 4"},{"group":"Cost 5","description":"Kortit jotka maksavat 5","cards":["Apprentice","Bazaar","Council Room","Duke","Explorer","Festival","Ghost Ship","Laboratory","Library","Market","Merchant Ship","Mine","Minion","Outpost","Saboteur","Stash","Tactician","Torturer","Trading Post","Treasury","Tribute","Upgrade","Wharf","Witch","City","Contraband","Counting House","Mint","Mountebank","Rabble","Royal Seal","Vault","Venture","Harvest","Horn of Plenty","Hunting Party","Jester","Cache","Cartographer","Embassy","Haggler","Highway","Ill-Gotten Gains","Inn","Mandarin","Margrave","Stables","Governor","Band of Misfits","Bandit Camp","Catacombs","Count","Cultist","Graverobber","Junk Dealer","Mystic","Pillage","Rebuild","Rogue","Counterfeit","Knights","Baker","Butcher","Journeyman","Merchant Guild","Soothsayer"],"display":"Hinta 5"},{"group":"Cost 6","description":"Kortit jotka maksavat 6","cards":["Adventurer","Harem","Nobles","Goons","Grand Market","Hoard","Fairgrounds","Border Village","Farmland","Altar","Hunting Grounds"],"display":"Hinta 6"},{"group":"Cost 6+","description":"Kortit jotka maksavat 6 tai enemmän","cards":["Adventurer","Harem","Nobles","Bank","Expand","Forge","Goons","Grand Market","Hoard","King's Court","Peddler","Fairgrounds","Border Village","Farmland","Altar","Hunting Grounds"],"display":"Hinta 6+"},{"group":"Cost 7+","description":"Kortit jotka maksavat 7 tai enemmän","cards":["Bank","Expand","Forge","King's Court","Peddler"],"display":"Hinta 7+"},{"group":"Potion","description":"Kortit jotka maksavat tai käyttävät rohtoa","cards":["Alchemist","Apothecary","Apprentice","Familiar","Golem","Philosopher's Stone","Possession","Scrying Pool","Transmute","University","Vineyard"],"display":"Rohto"},{"group":"Component","description":"Kortit jotka tarvitsevat komponenttia","cards":["Embargo","Island","Native Village","Pirate Ship","Bishop","Goons","Monument","Trade Route","Baker","Butcher","Candlestick Maker","Merchant Guild","Plaza"],"display":"Komponentti"},{"group":"Victory","description":"Kortit jotka lisäävät voittopisteitä","cards":["Duke","Gardens","Great Hall","Harem","Island","Nobles","Vineyard","Fairgrounds","Farmland","Silk Road","Tunnel","Feodum"],"display":"Piste"},{"group":"Duration","description":"Kortit joissa toistuva toiminto","cards":["Caravan","Fishing Village","Haven","Lighthouse","Merchant Ship","Outpost","Tactician","Wharf"],"display":"Toistuva"},{"group":"Treasure","description":"Rahakortit","cards":["Harem","Philosopher's Stone","Stash","Bank","Contraband","Hoard","Loan","Quarry","Royal Seal","Talisman","Venture","Horn of Plenty","Cache","Fool's Gold","Ill-Gotten Gains","Counterfeit","Masterpiece"],"display":"Raha"},{"group":"Double Type","description":"Kortit jotka ovat usempaa tyyppiä","cards":["Great Hall","Harem","Island","Nobles","Fool's Gold","Tunnel"],"display":"Kaksoistyyppi"},{"group":"Deck Reduction","description":"Kortit jotka pienentävät pakkaasi","cards":["Ambassador","Apprentice","Chapel","Island","Lookout","Masquerade","Moneylender","Salvager","Steward","Trading Post","Upgrade","Bishop","Forge","Loan","Trade Route","Remake","Jack of all Trades","Count","Death Cart","Forager","Junk Dealer","Counterfeit","Doctor"],"display":"Pakan pienennys"},{"group":"Card Ordering","description":"Kortit jotka järjestelevät pakkaasi","cards":["Apothecary","Courtyard","Navigator","Pearl Diver","Scout","Treasury","Rabble","Royal Seal","Watchtower","Walled Village","Cartographer","Develop","Duchess","Jack of all Trades","Mandarin","Oracle","Armory","Beggar","Count","Graverobber","Scavenger","Wandering Minstrel","Doctor","Taxman"],"display":"Pakan järjestely"},{"group":"Plus Curses","description":"Kortit joilla annetaan kirouksia","cards":["Ambassador","Embargo","Familiar","Masquerade","Sea Hag","Swindler","Torturer","Witch","Mountebank","Jester","Young Witch","Ill-Gotten Gains","Soothsayer"],"display":"Lisää kirouksia"},{"group":"Plus Card","description":"Kortit jotka antavat nostaa kortteja","cards":["Alchemist","Apothecary","Caravan","Conspirator","Council Room","Courtyard","Familiar","Ghost Ship","Golem","Great Hall","Haven","Ironworks","Laboratory","Library","Market","Masquerade","Mining Village","Minion","Moat","Nobles","Pawn","Pearl Diver","Scrying Pool","Shanty Town","Smithy","Spy","Steward","Tactician","Torturer","Treasury","Tribute","Upgrade","Village","Warehouse","Wharf","Wishing Well","Witch","Bank","Counting House","Grand Market","Peddler","Rabble","Vault","Venture","Watchtower","Worker's Village","Hamlet","Hunting Party","Menagerie","Tournament","Young Witch","Walled Village","Border Village","Cartographer","Crossroads","Embassy","Highway","Inn","Jack of all Trades","Margrave","Oasis","Oracle","Scheme","Spice Merchant","Stables","Governor","Bandit Camp","Catacombs","Cultist","Fortress","Hunting Grounds","Ironmonger","Junk Dealer","Market Square","Mystic","Sage","Storeroom","Urchin","Vagrant","Wandering Minstrel","Rats","Advisor","Baker","Herald","Journeyman","Plaza"],"display":"Lisää kortteja"},{"group":"Plus Action","description":"Kortit jotka lisäävät toimintoja","cards":["Alchemist","Apothecary","Apprentice","Bazaar","Caravan","Cellar","Conspirator","Familiar","Festival","Fishing Village","Golem","Great Hall","Haven","Ironworks","Laboratory","Lighthouse","Lookout","Market","Mining Village","Minion","Native Village","Nobles","Pawn","Pearl Diver","Scout","Scrying Pool","Shanty Town","Spy","Tactician","Treasury","Tribute","University","Upgrade","Village","Warehouse","Wishing Well","City","Grand Market","Peddler","Worker's Village","Farming Village","Hamlet","Hunting Party","Menagerie","Tournament","Walled Village","Border Village","Cartographer","Crossroads","Highway","Inn","Oasis","Scheme","Spice Merchant","Stables","Governor","Prince","Bandit Camp","Forager","Fortress","Ironmonger","Junk Dealer","Market Square","Mystic","Rebuild","Sage","Squire","Urchin","Vagrant","Wandering Minstrel","Rats","Advisor","Baker","Candlestick Maker","Herald","Plaza"],"display":"Lisää toimintoja"},{"group":"Plus More Action","description":"Kortit jotka lisäävät useamman toiminnon","cards":["Bazaar","Festival","Fishing Village","Golem","Mining Village","Native Village","Nobles","Shanty Town","Tribute","University","Village","City","Worker's Village","Farming Village","Hamlet","Walled Village","Border Village","Crossroads","Inn","Bandit Camp","Fortress","Ironmonger","Squire","Wandering Minstrel","Herald","Plaza"],"display":"Lisää useampi toiminto"},{"group":"Plus Coin","description":"Kortit jotka lisäävät rahaa","cards":["Baron","Bazaar","Black Market","Bridge","Chancellor","Conspirator","Cutpurse","Embargo","Festival","Fishing Village","Herbalist","Ironworks","Lighthouse","Market","Merchant Ship","Militia","Mining Village","Minion","Navigator","Pawn","Philosopher's Stone","Salvager","Steward","Swindler","Treasury","Tribute","Woodcutter","Bishop","City","Goons","Grand Market","Monument","Mountebank","Peddler","Trade Route","Vault","Fortune Teller ","Harvest","Horse Traders","Jester","Tournament","Duchess","Haggler","Mandarin","Noble Brigand","Nomad Camp","Oasis","Spice Merchant","Count","Death Cart","Forager","Ironmonger","Junk Dealer","Mystic","Poor House","Rogue","Scavenger","Squire","Storeroom","Baker","Butcher","Candlestick Maker","Merchant Guild","Plaza"],"display":"Lisää rahaa"},{"group":"Plus Buy","description":"Kortit jotka lisäävät ostoja","cards":["Baron","Bridge","Council Room","Festival","Herbalist","Market","Pawn","Salvager","Tactician","Wharf","Woodcutter","City","Contraband","Goons","Grand Market","Trade Route","Worker's Village","Horse Traders","Develop","Margrave","Nomad Camp","Spice Merchant","Forager","Market Square","Squire","Storeroom","Counterfeit","Candlestick Maker","Merchant Guild"],"display":"Lisää ostoja"},{"group":"Gain","description":"Kortit joilla saat kortteja ostamatta","cards":["Baron","Bureaucrat","Explorer","Ironworks","Smugglers","Thief","Treasure Map","University","Workshop","Hoard","Mint","Talisman","Horn of Plenty","Tournament","Duchess","Jack of all Trades","Altar","Armory","Bandit Camp","Beggar","Catacombs","Count","Graverobber","Hermit","Hunting Grounds","Marauder","Pillage","Rogue","Squire","Urchin","Feodum","Rats","Soothsayer","Stonemason","Taxman"],"display":"Otto"},{"group":"Looter","description":"Kortit jotka antavat jollekkin raunion","cards":["Cultist","Death Cart","Marauder"],"display":"Ryöstäjä"},{"group":"Gain Spoils","description":"Kortit joilla saat sotasaaliin","cards":["Bandit Camp","Marauder","Pillage"],"display":"Sotasaalis"}],"basic_cards":[{"card":"Potion","set":"Alkemia","cost":"4","type":"Raha","display":"Rohto"},{"card":"Colony","set":"Nousukausi","cost":"11","type":"Piste","display":"Siirtomaa"},{"card":"Platinum","set":"Nousukausi","cost":"9","type":"Raha","display":"Platina"},{"card":"Shelter","set":"Katovuodet","cost":"1","type":"Suoja","display":"Suoja"},{"card":"Ruins","set":"Katovuodet","cost":"0","type":"Toiminta - Hyökkäys","display":"Raunio"},{"card":"Spoils","set":"Katovuodet","cost":"0*","type":"Raha","display":"Sotasaalis"},{"card":"Madman","set":"Katovuodet","cost":"0*","type":"Toiminta","display":"Kylähullu"},{"card":"Mercenary","set":"Katovuodet","cost":"0*","type":"Toiminta - Hyökkäys","display":"Palkkasoturi"}]}
+{
+  "cards": [
+    {
+      "card": "Alchemist",
+      "set": "Alkemia",
+      "cost": "P3",
+      "type": "Toiminta",
+      "display": "Alkemisti"
+    },
+    {
+      "card": "Apothecary",
+      "set": "Alkemia",
+      "cost": "P2",
+      "type": "Toiminta",
+      "display": "Apteekkari"
+    },
+    {
+      "card": "Apprentice",
+      "set": "Alkemia",
+      "cost": "5",
+      "type": "Toiminta",
+      "display": "Oppipoika"
+    },
+    {
+      "card": "Familiar",
+      "set": "Alkemia",
+      "cost": "P3",
+      "type": "Toiminta - Hyökkäys",
+      "display": "Apuolento"
+    },
+    {
+      "card": "Golem",
+      "set": "Alkemia",
+      "cost": "P4",
+      "type": "Toiminta"
+    },
+    {
+      "card": "Herbalist",
+      "set": "Alkemia",
+      "cost": "2",
+      "type": "Toiminta",
+      "display": "Yrttikauppias"
+    },
+    {
+      "card": "Philosopher's Stone",
+      "set": "Alkemia",
+      "cost": "P3",
+      "type": "Raha",
+      "display": "Viisasten Kivi"
+    },
+    {
+      "card": "Possession",
+      "set": "Alkemia",
+      "cost": "P6",
+      "type": "Toiminta",
+      "display": "Riivaus"
+    },
+    {
+      "card": "Scrying Pool",
+      "set": "Alkemia",
+      "cost": "P2",
+      "type": "Toiminta - Hyökkäys",
+      "display": "Ennemalja"
+    },
+    {
+      "card": "Transmute",
+      "set": "Alkemia",
+      "cost": "P0",
+      "type": "Toiminta",
+      "display": "Transmutaatio"
+    },
+    {
+      "card": "University",
+      "set": "Alkemia",
+      "cost": "P2",
+      "type": "Toiminta",
+      "display": "Yliopisto"
+    },
+    {
+      "card": "Vineyard",
+      "set": "Alkemia",
+      "cost": "P0",
+      "type": "Piste",
+      "display": "Viinitarha"
+    },
+    {
+      "card": "Fairgrounds",
+      "set": "Elonkorjuu",
+      "cost": "6",
+      "type": "Piste",
+      "display": "Markkinat"
+    },
+    {
+      "card": "Farming Village",
+      "set": "Elonkorjuu",
+      "cost": "4",
+      "type": "Toiminta",
+      "display": "Talonpoikaiskylä"
+    },
+    {
+      "card": "Fortune Teller ",
+      "set": "Elonkorjuu",
+      "cost": "3",
+      "type": "Toiminta - Hyökkäys",
+      "display": "Ennustaja"
+    },
+    {
+      "card": "Hamlet",
+      "set": "Elonkorjuu",
+      "cost": "2",
+      "type": "Toiminta",
+      "display": "Kyläraitti"
+    },
+    {
+      "card": "Harvest",
+      "set": "Elonkorjuu",
+      "cost": "5",
+      "type": "Toiminta",
+      "display": "Sadonkorjuu"
+    },
+    {
+      "card": "Horn of Plenty",
+      "set": "Elonkorjuu",
+      "cost": "5",
+      "type": "Raha",
+      "display": "Runsaudensarvi"
+    },
+    {
+      "card": "Horse Traders",
+      "set": "Elonkorjuu",
+      "cost": "4",
+      "type": "Toiminta - Vastaveto",
+      "display": "Hevoskauppias"
+    },
+    {
+      "card": "Hunting Party",
+      "set": "Elonkorjuu",
+      "cost": "5",
+      "type": "Toiminta",
+      "display": "Jahti"
+    },
+    {
+      "card": "Jester",
+      "set": "Elonkorjuu",
+      "cost": "5",
+      "type": "Toiminta - Hyökkäys",
+      "display": "Narri"
+    },
+    {
+      "card": "Menagerie",
+      "set": "Elonkorjuu",
+      "cost": "3",
+      "type": "Toiminta",
+      "display": "Villieläintarha"
+    },
+    {
+      "card": "Remake",
+      "set": "Elonkorjuu",
+      "cost": "4",
+      "type": "Toiminta",
+      "display": "Jälleenrakennus"
+    },
+    {
+      "card": "Tournament",
+      "set": "Elonkorjuu",
+      "cost": "4",
+      "type": "Toiminta",
+      "display": "Turnajaiset"
+    },
+    {
+      "card": "Young Witch",
+      "set": "Elonkorjuu",
+      "cost": "4",
+      "type": "Toiminta - Hyökkäys",
+      "display": "Nuori Noita"
+    },
+    {
+      "card": "Border Village",
+      "set": "Rajaseudut",
+      "cost": "6",
+      "type": "Toiminta",
+      "display": "Rajakylä"
+    },
+    {
+      "card": "Cache",
+      "set": "Rajaseudut",
+      "cost": "5",
+      "type": "Raha",
+      "display": "Piilo"
+    },
+    {
+      "card": "Cartographer",
+      "set": "Rajaseudut",
+      "cost": "5",
+      "type": "Toiminta",
+      "display": "Kartanpiirtäjä"
+    },
+    {
+      "card": "Crossroads",
+      "set": "Rajaseudut",
+      "cost": "2",
+      "type": "Toiminta",
+      "display": "Tienristeys"
+    },
+    {
+      "card": "Develop",
+      "set": "Rajaseudut",
+      "cost": "3",
+      "type": "Toiminta",
+      "display": "Grynderi"
+    },
+    {
+      "card": "Duchess",
+      "set": "Rajaseudut",
+      "cost": "2",
+      "type": "Toiminta",
+      "display": "Herttuatar"
+    },
+    {
+      "card": "Embassy",
+      "set": "Rajaseudut",
+      "cost": "5",
+      "type": "Toiminta",
+      "display": "Lähetystö"
+    },
+    {
+      "card": "Farmland",
+      "set": "Rajaseudut",
+      "cost": "6",
+      "type": "Piste",
+      "display": "Viljelysmaat"
+    },
+    {
+      "card": "Fool's Gold",
+      "set": "Rajaseudut",
+      "cost": "2",
+      "type": "Raha - Vastaveto",
+      "display": "Katinkulta"
+    },
+    {
+      "card": "Haggler",
+      "set": "Rajaseudut",
+      "cost": "5",
+      "type": "Toiminta",
+      "display": "Tinkijä"
+    },
+    {
+      "card": "Highway",
+      "set": "Rajaseudut",
+      "cost": "5",
+      "type": "Toiminta",
+      "display": "Maantie"
+    },
+    {
+      "card": "Ill-Gotten Gains",
+      "set": "Rajaseudut",
+      "cost": "5",
+      "type": "Raha",
+      "display": "Epäonnen saalis"
+    },
+    {
+      "card": "Inn",
+      "set": "Rajaseudut",
+      "cost": "5",
+      "type": "Toiminta",
+      "display": "Majatalo"
+    },
+    {
+      "card": "Jack of all Trades",
+      "set": "Rajaseudut",
+      "cost": "4",
+      "type": "Toiminta",
+      "display": "Monitaituri"
+    },
+    {
+      "card": "Mandarin",
+      "set": "Rajaseudut",
+      "cost": "5",
+      "type": "Toiminta",
+      "display": "Mandariini"
+    },
+    {
+      "card": "Margrave",
+      "set": "Rajaseudut",
+      "cost": "5",
+      "type": "Toiminta - Hyökkäys",
+      "display": "Markiisi"
+    },
+    {
+      "card": "Noble Brigand",
+      "set": "Rajaseudut",
+      "cost": "4",
+      "type": "Toiminta - Hyökkäys",
+      "display": "Jalo maantierosvo"
+    },
+    {
+      "card": "Nomad Camp",
+      "set": "Rajaseudut",
+      "cost": "4",
+      "type": "Toiminta",
+      "display": "Paimentolaisleiri"
+    },
+    {
+      "card": "Oasis",
+      "set": "Rajaseudut",
+      "cost": "3",
+      "type": "Toiminta",
+      "display": "Keidas"
+    },
+    {
+      "card": "Oracle",
+      "set": "Rajaseudut",
+      "cost": "3",
+      "type": "Toiminta",
+      "display": "Oraakkeli"
+    },
+    {
+      "card": "Scheme",
+      "set": "Rajaseudut",
+      "cost": "3",
+      "type": "Toiminta",
+      "display": "Juoni"
+    },
+    {
+      "card": "Silk Road",
+      "set": "Rajaseudut",
+      "cost": "4",
+      "type": "Piste",
+      "display": "Silkkitie"
+    },
+    {
+      "card": "Spice Merchant",
+      "set": "Rajaseudut",
+      "cost": "4",
+      "type": "Toiminta",
+      "display": "Maustekauppias"
+    },
+    {
+      "card": "Stables",
+      "set": "Rajaseudut",
+      "cost": "5",
+      "type": "Toiminta",
+      "display": "Hevostalli"
+    },
+    {
+      "card": "Trader",
+      "set": "Rajaseudut",
+      "cost": "4",
+      "type": "Toiminta - Vastaveto",
+      "display": "Kaupustelija"
+    },
+    {
+      "card": "Tunnel",
+      "set": "Rajaseudut",
+      "cost": "3",
+      "type": "Piste - Vastaveto",
+      "display": "Tunneli"
+    },
+    {
+      "card": "Baron",
+      "set": "Hovin juonet",
+      "cost": "4",
+      "type": "Toiminta",
+      "display": "Paroni"
+    },
+    {
+      "card": "Bridge",
+      "set": "Hovin juonet",
+      "cost": "4",
+      "type": "Toiminta",
+      "display": "Silta"
+    },
+    {
+      "card": "Conspirator",
+      "set": "Hovin juonet",
+      "cost": "4",
+      "type": "Toiminta",
+      "display": "Vehkeilijä"
+    },
+    {
+      "card": "Coppersmith",
+      "set": "Hovin juonet",
+      "cost": "4",
+      "type": "Toiminta",
+      "display": "Kupariseppä"
+    },
+    {
+      "card": "Courtyard",
+      "set": "Hovin juonet",
+      "cost": "2",
+      "type": "Toiminta",
+      "display": "Sisäpiha"
+    },
+    {
+      "card": "Duke",
+      "set": "Hovin juonet",
+      "cost": "5",
+      "type": "Piste",
+      "display": "Herttua"
+    },
+    {
+      "card": "Great Hall",
+      "set": "Hovin juonet",
+      "cost": "3",
+      "type": "Toiminta - Piste",
+      "display": "Suuri Sali"
+    },
+    {
+      "card": "Harem",
+      "set": "Hovin juonet",
+      "cost": "6",
+      "type": "Raha - Piste",
+      "display": "Haaremi"
+    },
+    {
+      "card": "Ironworks",
+      "set": "Hovin juonet",
+      "cost": "4",
+      "type": "Toiminta",
+      "display": "Rautapaja"
+    },
+    {
+      "card": "Masquerade",
+      "set": "Hovin juonet",
+      "cost": "3",
+      "type": "Toiminta",
+      "display": "Naamiaiset"
+    },
+    {
+      "card": "Mining Village",
+      "set": "Hovin juonet",
+      "cost": "4",
+      "type": "Toiminta",
+      "display": "Kaivoskylä"
+    },
+    {
+      "card": "Minion",
+      "set": "Hovin juonet",
+      "cost": "5",
+      "type": "Toiminta - Hyökkäys",
+      "display": "Kätyri"
+    },
+    {
+      "card": "Nobles",
+      "set": "Hovin juonet",
+      "cost": "6",
+      "type": "Toiminta - Piste",
+      "display": "Aateliset"
+    },
+    {
+      "card": "Pawn",
+      "set": "Hovin juonet",
+      "cost": "2",
+      "type": "Toiminta",
+      "display": "Apuri"
+    },
+    {
+      "card": "Saboteur",
+      "set": "Hovin juonet",
+      "cost": "5",
+      "type": "Toiminta - Hyökkäys",
+      "display": "Tihulainen"
+    },
+    {
+      "card": "Scout",
+      "set": "Hovin juonet",
+      "cost": "4",
+      "type": "Toiminta",
+      "display": "Tiedustelija"
+    },
+    {
+      "card": "Secret Chamber",
+      "set": "Hovin juonet",
+      "cost": "2",
+      "type": "Toiminta - Vastaveto",
+      "display": "Salainen Kammio"
+    },
+    {
+      "card": "Shanty Town",
+      "set": "Hovin juonet",
+      "cost": "3",
+      "type": "Toiminta",
+      "display": "Hökkelikylä"
+    },
+    {
+      "card": "Steward",
+      "set": "Hovin juonet",
+      "cost": "3",
+      "type": "Toiminta",
+      "display": "Käskynhaltija "
+    },
+    {
+      "card": "Swindler",
+      "set": "Hovin juonet",
+      "cost": "3",
+      "type": "Toiminta - Hyökkäys",
+      "display": "Huijari"
+    },
+    {
+      "card": "Torturer",
+      "set": "Hovin juonet",
+      "cost": "5",
+      "type": "Toiminta - Hyökkäys",
+      "display": "Kiduttaja"
+    },
+    {
+      "card": "Trading Post",
+      "set": "Hovin juonet",
+      "cost": "5",
+      "type": "Toiminta",
+      "display": "Kauppa-asema"
+    },
+    {
+      "card": "Tribute",
+      "set": "Hovin juonet",
+      "cost": "5",
+      "type": "Toiminta",
+      "display": "Kymmenykset"
+    },
+    {
+      "card": "Upgrade",
+      "set": "Hovin juonet",
+      "cost": "5",
+      "type": "Toiminta",
+      "display": "Parannustyö"
+    },
+    {
+      "card": "Wishing Well",
+      "set": "Hovin juonet",
+      "cost": "3",
+      "type": "Toiminta",
+      "display": "Toivomuskaivo"
+    },
+    {
+      "card": "Adventurer",
+      "set": "Valtakunta",
+      "cost": "6",
+      "type": "Toiminta",
+      "display": "Seikkailija"
+    },
+    {
+      "card": "Bureaucrat",
+      "set": "Valtakunta",
+      "cost": "4",
+      "type": "Toiminta - Hyökkäys",
+      "display": "Byrokraatti"
+    },
+    {
+      "card": "Cellar",
+      "set": "Valtakunta",
+      "cost": "2",
+      "type": "Toiminta",
+      "display": "Kellari"
+    },
+    {
+      "card": "Chancellor",
+      "set": "Valtakunta",
+      "cost": "3",
+      "type": "Toiminta",
+      "display": "Kansleri"
+    },
+    {
+      "card": "Chapel",
+      "set": "Valtakunta",
+      "cost": "2",
+      "type": "Toiminta",
+      "display": "Kappeli"
+    },
+    {
+      "card": "Council Room",
+      "set": "Valtakunta",
+      "cost": "5",
+      "type": "Toiminta",
+      "display": "Raatihuone"
+    },
+    {
+      "card": "Feast",
+      "set": "Valtakunta",
+      "cost": "4",
+      "type": "Toiminta",
+      "display": "Pidot"
+    },
+    {
+      "card": "Festival",
+      "set": "Valtakunta",
+      "cost": "5",
+      "type": "Toiminta",
+      "display": "Juhlat"
+    },
+    {
+      "card": "Gardens",
+      "set": "Valtakunta",
+      "cost": "4",
+      "type": "Piste",
+      "display": "Puutarha"
+    },
+    {
+      "card": "Laboratory",
+      "set": "Valtakunta",
+      "cost": "5",
+      "type": "Toiminta",
+      "display": "Laboratorio"
+    },
+    {
+      "card": "Library",
+      "set": "Valtakunta",
+      "cost": "5",
+      "type": "Toiminta",
+      "display": "Kirjasto"
+    },
+    {
+      "card": "Market",
+      "set": "Valtakunta",
+      "cost": "5",
+      "type": "Toiminta",
+      "display": "Tori"
+    },
+    {
+      "card": "Militia",
+      "set": "Valtakunta",
+      "cost": "4",
+      "type": "Toiminta - Hyökkäys",
+      "display": "Nostoväki"
+    },
+    {
+      "card": "Mine",
+      "set": "Valtakunta",
+      "cost": "5",
+      "type": "Toiminta",
+      "display": "Kaivos"
+    },
+    {
+      "card": "Moat",
+      "set": "Valtakunta",
+      "cost": "2",
+      "type": "Toiminta - Vastaveto",
+      "display": "Vallihauta"
+    },
+    {
+      "card": "Moneylender",
+      "set": "Valtakunta",
+      "cost": "4",
+      "type": "Toiminta",
+      "display": "Koronkiskuri"
+    },
+    {
+      "card": "Remodel",
+      "set": "Valtakunta",
+      "cost": "4",
+      "type": "Toiminta",
+      "display": "Muutostyö"
+    },
+    {
+      "card": "Smithy",
+      "set": "Valtakunta",
+      "cost": "4",
+      "type": "Toiminta",
+      "display": "Takomo"
+    },
+    {
+      "card": "Spy",
+      "set": "Valtakunta",
+      "cost": "4",
+      "type": "Toiminta - Hyökkäys",
+      "display": "Vakooja"
+    },
+    {
+      "card": "Thief",
+      "set": "Valtakunta",
+      "cost": "4",
+      "type": "Toiminta - Hyökkäys",
+      "display": "Varas"
+    },
+    {
+      "card": "Throne Room",
+      "set": "Valtakunta",
+      "cost": "4",
+      "type": "Toiminta",
+      "display": "Valtaistuinsali"
+    },
+    {
+      "card": "Village",
+      "set": "Valtakunta",
+      "cost": "3",
+      "type": "Toiminta",
+      "display": "Kylä"
+    },
+    {
+      "card": "Witch",
+      "set": "Valtakunta",
+      "cost": "5",
+      "type": "Toiminta - Hyökkäys",
+      "display": "Noita"
+    },
+    {
+      "card": "Woodcutter",
+      "set": "Valtakunta",
+      "cost": "3",
+      "type": "Toiminta",
+      "display": "Metsuri"
+    },
+    {
+      "card": "Workshop",
+      "set": "Valtakunta",
+      "cost": "3",
+      "type": "Toiminta",
+      "display": "Työpaja"
+    },
+    {
+      "card": "Black Market",
+      "set": "Promo",
+      "cost": "3",
+      "type": "Toiminta",
+      "display": "Musta Pörssi"
+    },
+    {
+      "card": "Envoy",
+      "set": "Promo",
+      "cost": "4",
+      "type": "Toiminta",
+      "display": "Lähettiläs"
+    },
+    {
+      "card": "Stash",
+      "set": "Promo",
+      "cost": "5",
+      "type": "Raha",
+      "display": "Kätkö"
+    },
+    {
+      "card": "Walled Village",
+      "set": "Promo",
+      "cost": "4",
+      "type": "Toiminta",
+      "display": "Linnoitettu Kylä"
+    },
+    {
+      "card": "Governor",
+      "set": "Promo",
+      "cost": "5",
+      "type": "Toiminta",
+      "display": "Kuvernööri"
+    },
+    {
+      "card": "Prince",
+      "set": "Promo",
+      "cost": "8",
+      "type": "Toiminta"
+    },
+    {
+      "card": "Bank",
+      "set": "Nousukausi",
+      "cost": "7",
+      "type": "Raha",
+      "display": "Pankki"
+    },
+    {
+      "card": "Bishop",
+      "set": "Nousukausi",
+      "cost": "4",
+      "type": "Toiminta",
+      "display": "Piispa"
+    },
+    {
+      "card": "City",
+      "set": "Nousukausi",
+      "cost": "5",
+      "type": "Toiminta",
+      "display": "Kaupunki"
+    },
+    {
+      "card": "Contraband",
+      "set": "Nousukausi",
+      "cost": "5",
+      "type": "Raha",
+      "display": "Hämärät Varat"
+    },
+    {
+      "card": "Counting House",
+      "set": "Nousukausi",
+      "cost": "5",
+      "type": "Toiminta",
+      "display": "Tilitoimisto"
+    },
+    {
+      "card": "Expand",
+      "set": "Nousukausi",
+      "cost": "7",
+      "type": "Toiminta",
+      "display": "Laajennus"
+    },
+    {
+      "card": "Forge",
+      "set": "Nousukausi",
+      "cost": "7",
+      "type": "Toiminta",
+      "display": "Ahjo"
+    },
+    {
+      "card": "Goons",
+      "set": "Nousukausi",
+      "cost": "6",
+      "type": "Toiminta - Hyökkäys",
+      "display": "Roistot"
+    },
+    {
+      "card": "Grand Market",
+      "set": "Nousukausi",
+      "cost": "6",
+      "type": "Toiminta",
+      "display": "Suurtori"
+    },
+    {
+      "card": "Hoard",
+      "set": "Nousukausi",
+      "cost": "6",
+      "type": "Raha",
+      "display": "Aarre"
+    },
+    {
+      "card": "King's Court",
+      "set": "Nousukausi",
+      "cost": "7",
+      "type": "Toiminta",
+      "display": "Kuninkaan Hovi"
+    },
+    {
+      "card": "Loan",
+      "set": "Nousukausi",
+      "cost": "3",
+      "type": "Raha",
+      "display": "Laina"
+    },
+    {
+      "card": "Mint",
+      "set": "Nousukausi",
+      "cost": "5",
+      "type": "Toiminta",
+      "display": "Rahapaja"
+    },
+    {
+      "card": "Monument",
+      "set": "Nousukausi",
+      "cost": "4",
+      "type": "Toiminta",
+      "display": "Monumentti"
+    },
+    {
+      "card": "Mountebank",
+      "set": "Nousukausi",
+      "cost": "5",
+      "type": "Toiminta - Hyökkäys",
+      "display": "Petkuttaja"
+    },
+    {
+      "card": "Peddler",
+      "set": "Nousukausi",
+      "cost": "8*",
+      "type": "Toiminta",
+      "display": "Kulkukauppias"
+    },
+    {
+      "card": "Quarry",
+      "set": "Nousukausi",
+      "cost": "4",
+      "type": "Raha",
+      "display": "Louhos"
+    },
+    {
+      "card": "Rabble",
+      "set": "Nousukausi",
+      "cost": "5",
+      "type": "Toiminta - Hyökkäys",
+      "display": "Rahvas"
+    },
+    {
+      "card": "Royal Seal",
+      "set": "Nousukausi",
+      "cost": "5",
+      "type": "Raha",
+      "display": "Sinetti"
+    },
+    {
+      "card": "Talisman",
+      "set": "Nousukausi",
+      "cost": "4",
+      "type": "Raha",
+      "display": "Talismaani"
+    },
+    {
+      "card": "Trade Route",
+      "set": "Nousukausi",
+      "cost": "3",
+      "type": "Toiminta",
+      "display": "Kauppareitti"
+    },
+    {
+      "card": "Vault",
+      "set": "Nousukausi",
+      "cost": "5",
+      "type": "Toiminta",
+      "display": "Holvi"
+    },
+    {
+      "card": "Venture",
+      "set": "Nousukausi",
+      "cost": "5",
+      "type": "Raha",
+      "display": "Palkkio"
+    },
+    {
+      "card": "Watchtower",
+      "set": "Nousukausi",
+      "cost": "3",
+      "type": "Toiminta - Vastaveto",
+      "display": "Vartiotorni"
+    },
+    {
+      "card": "Worker's Village",
+      "set": "Nousukausi",
+      "cost": "4",
+      "type": "Toiminta",
+      "display": "Työläiskylä"
+    },
+    {
+      "card": "Ambassador",
+      "set": "Kaukaiset rannat",
+      "cost": "3",
+      "type": "Toiminta",
+      "display": "Suurlähettiläs"
+    },
+    {
+      "card": "Bazaar",
+      "set": "Kaukaiset rannat",
+      "cost": "5",
+      "type": "Toiminta",
+      "display": "Basaari"
+    },
+    {
+      "card": "Caravan",
+      "set": "Kaukaiset rannat",
+      "cost": "4",
+      "type": "Toiminta - Toistuva",
+      "display": "Karavaani"
+    },
+    {
+      "card": "Cutpurse",
+      "set": "Kaukaiset rannat",
+      "cost": "4",
+      "type": "Toiminta - Hyökkäys",
+      "display": "Taskuvaras"
+    },
+    {
+      "card": "Embargo",
+      "set": "Kaukaiset rannat",
+      "cost": "2",
+      "type": "Toiminta",
+      "display": "Saarto"
+    },
+    {
+      "card": "Explorer",
+      "set": "Kaukaiset rannat",
+      "cost": "5",
+      "type": "Toiminta",
+      "display": "Tutkimusmatkailija"
+    },
+    {
+      "card": "Fishing Village",
+      "set": "Kaukaiset rannat",
+      "cost": "3",
+      "type": "Toiminta - Toistuva",
+      "display": "Kalastuskylä"
+    },
+    {
+      "card": "Ghost Ship",
+      "set": "Kaukaiset rannat",
+      "cost": "5",
+      "type": "Toiminta - Hyökkäys",
+      "display": "Aavelaiva"
+    },
+    {
+      "card": "Haven",
+      "set": "Kaukaiset rannat",
+      "cost": "2",
+      "type": "Toiminta - Toistuva",
+      "display": "Satama"
+    },
+    {
+      "card": "Island",
+      "set": "Kaukaiset rannat",
+      "cost": "4",
+      "type": "Toiminta - Piste",
+      "display": "Saari"
+    },
+    {
+      "card": "Lighthouse",
+      "set": "Kaukaiset rannat",
+      "cost": "2",
+      "type": "Toiminta - Toistuva",
+      "display": "Majakka"
+    },
+    {
+      "card": "Lookout",
+      "set": "Kaukaiset rannat",
+      "cost": "3",
+      "type": "Toiminta",
+      "display": "Tähystäjä"
+    },
+    {
+      "card": "Merchant Ship",
+      "set": "Kaukaiset rannat",
+      "cost": "5",
+      "type": "Toiminta - Toistuva",
+      "display": "Kauppalaiva"
+    },
+    {
+      "card": "Native Village",
+      "set": "Kaukaiset rannat",
+      "cost": "2",
+      "type": "Toiminta",
+      "display": "Alkuasukaskylä"
+    },
+    {
+      "card": "Navigator",
+      "set": "Kaukaiset rannat",
+      "cost": "4",
+      "type": "Toiminta",
+      "display": "Luotsi"
+    },
+    {
+      "card": "Outpost",
+      "set": "Kaukaiset rannat",
+      "cost": "5",
+      "type": "Toiminta - Toistuva",
+      "display": "Rannikkoasema"
+    },
+    {
+      "card": "Pearl Diver",
+      "set": "Kaukaiset rannat",
+      "cost": "2",
+      "type": "Toiminta",
+      "display": "Helmenkalastaja"
+    },
+    {
+      "card": "Pirate Ship",
+      "set": "Kaukaiset rannat",
+      "cost": "4",
+      "type": "Toiminta - Hyökkäys",
+      "display": "Merirosvolaiva"
+    },
+    {
+      "card": "Salvager",
+      "set": "Kaukaiset rannat",
+      "cost": "4",
+      "type": "Toiminta",
+      "display": "Hylkysukeltaja"
+    },
+    {
+      "card": "Sea Hag",
+      "set": "Kaukaiset rannat",
+      "cost": "4",
+      "type": "Toiminta - Hyökkäys",
+      "display": "Merennoita"
+    },
+    {
+      "card": "Smugglers",
+      "set": "Kaukaiset rannat",
+      "cost": "3",
+      "type": "Toiminta",
+      "display": "Salakuljettajat"
+    },
+    {
+      "card": "Tactician",
+      "set": "Kaukaiset rannat",
+      "cost": "5",
+      "type": "Toiminta - Toistuva",
+      "display": "Taktikko"
+    },
+    {
+      "card": "Treasure Map",
+      "set": "Kaukaiset rannat",
+      "cost": "4",
+      "type": "Toiminta",
+      "display": "Aarrekartta"
+    },
+    {
+      "card": "Treasury",
+      "set": "Kaukaiset rannat",
+      "cost": "5",
+      "type": "Toiminta",
+      "display": "Aarrekammio"
+    },
+    {
+      "card": "Warehouse",
+      "set": "Kaukaiset rannat",
+      "cost": "3",
+      "type": "Toiminta",
+      "display": "Varasto"
+    },
+    {
+      "card": "Wharf",
+      "set": "Kaukaiset rannat",
+      "cost": "5",
+      "type": "Toiminta - Toistuva",
+      "display": "Laituri"
+    },
+    {
+      "card": "Altar",
+      "set": "Katovuodet",
+      "cost": "6",
+      "type": "Toiminta",
+      "display": "Alttari"
+    },
+    {
+      "card": "Armory",
+      "set": "Katovuodet",
+      "cost": "4",
+      "type": "Toiminta",
+      "display": "Asevarasto"
+    },
+    {
+      "card": "Band of Misfits",
+      "set": "Katovuodet",
+      "cost": "5",
+      "type": "Toiminta",
+      "display": "Hurja Joukko"
+    },
+    {
+      "card": "Bandit Camp",
+      "set": "Katovuodet",
+      "cost": "5",
+      "type": "Toiminta",
+      "display": "Rosvoleiri"
+    },
+    {
+      "card": "Beggar",
+      "set": "Katovuodet",
+      "cost": "2",
+      "type": "Toiminta - Vastaveto",
+      "display": "Kerjäläinen"
+    },
+    {
+      "card": "Catacombs",
+      "set": "Katovuodet",
+      "cost": "5",
+      "type": "Toiminta",
+      "display": "Katakombit"
+    },
+    {
+      "card": "Count",
+      "set": "Katovuodet",
+      "cost": "5",
+      "type": "Toiminta",
+      "display": "Jaarli"
+    },
+    {
+      "card": "Cultist",
+      "set": "Katovuodet",
+      "cost": "5",
+      "type": "Toiminta - Hyökkäys - Ryöstäjä",
+      "display": "Okkultisti"
+    },
+    {
+      "card": "Death Cart",
+      "set": "Katovuodet",
+      "cost": "4",
+      "type": "Toiminta - Ryöstäjä",
+      "display": "Ruumisvaunu"
+    },
+    {
+      "card": "Forager",
+      "set": "Katovuodet",
+      "cost": "3",
+      "type": "Toiminta",
+      "display": "Keräilijä"
+    },
+    {
+      "card": "Fortress",
+      "set": "Katovuodet",
+      "cost": "4",
+      "type": "Toiminta",
+      "display": "Linnoitus"
+    },
+    {
+      "card": "Graverobber",
+      "set": "Katovuodet",
+      "cost": "5",
+      "type": "Toiminta",
+      "display": "Haudanryöstäjä"
+    },
+    {
+      "card": "Hermit",
+      "set": "Katovuodet",
+      "cost": "3",
+      "type": "Toiminta",
+      "display": "Erakko"
+    },
+    {
+      "card": "Hunting Grounds",
+      "set": "Katovuodet",
+      "cost": "6",
+      "type": "Toiminta",
+      "display": "Metsästysmaat"
+    },
+    {
+      "card": "Ironmonger",
+      "set": "Katovuodet",
+      "cost": "4",
+      "type": "Toiminta",
+      "display": "Reppuryssä"
+    },
+    {
+      "card": "Junk Dealer",
+      "set": "Katovuodet",
+      "cost": "5",
+      "type": "Toiminta",
+      "display": "Romukauppias"
+    },
+    {
+      "card": "Marauder",
+      "set": "Katovuodet",
+      "cost": "4",
+      "type": "Toiminta - Hyökkäys - Ryöstäjä",
+      "display": "Vandaali"
+    },
+    {
+      "card": "Market Square",
+      "set": "Katovuodet",
+      "cost": "3",
+      "type": "Toiminta - Vastaveto",
+      "display": "Kauppatori"
+    },
+    {
+      "card": "Mystic",
+      "set": "Katovuodet",
+      "cost": "5",
+      "type": "Toiminta",
+      "display": "Mystikko"
+    },
+    {
+      "card": "Pillage",
+      "set": "Katovuodet",
+      "cost": "5",
+      "type": "Toiminta - Hyökkäys",
+      "display": "Ryöstöretki"
+    },
+    {
+      "card": "Poor House",
+      "set": "Katovuodet",
+      "cost": "1",
+      "type": "Toiminta",
+      "display": "Köyhäintalo"
+    },
+    {
+      "card": "Procession",
+      "set": "Katovuodet",
+      "cost": "4",
+      "type": "Toiminta",
+      "display": "Virkanimitys"
+    },
+    {
+      "card": "Rebuild",
+      "set": "Katovuodet",
+      "cost": "5",
+      "type": "Toiminta",
+      "display": "Kunnostus"
+    },
+    {
+      "card": "Rogue",
+      "set": "Katovuodet",
+      "cost": "5",
+      "type": "Toiminta - Hyökkäys",
+      "display": "Ryöstäjä"
+    },
+    {
+      "card": "Sage",
+      "set": "Katovuodet",
+      "cost": "3",
+      "type": "Toiminta",
+      "display": "Tietäjä"
+    },
+    {
+      "card": "Scavenger",
+      "set": "Katovuodet",
+      "cost": "4",
+      "type": "Toiminta",
+      "display": "Haaskalintu"
+    },
+    {
+      "card": "Squire",
+      "set": "Katovuodet",
+      "cost": "2",
+      "type": "Toiminta",
+      "display": "Aseenkantaja"
+    },
+    {
+      "card": "Storeroom",
+      "set": "Katovuodet",
+      "cost": "3",
+      "type": "Toiminta",
+      "display": "Kellarivarasto"
+    },
+    {
+      "card": "Urchin",
+      "set": "Katovuodet",
+      "cost": "3",
+      "type": "Toiminta - Hyökkäys",
+      "display": "Katulapsi"
+    },
+    {
+      "card": "Vagrant",
+      "set": "Katovuodet",
+      "cost": "2",
+      "type": "Toiminta",
+      "display": "Kulkuri"
+    },
+    {
+      "card": "Wandering Minstrel",
+      "set": "Katovuodet",
+      "cost": "4",
+      "type": "Toiminta",
+      "display": "Trubaduuri"
+    },
+    {
+      "card": "Counterfeit",
+      "set": "Katovuodet",
+      "cost": "5",
+      "type": "Raha",
+      "display": "Väärennös"
+    },
+    {
+      "card": "Feodum",
+      "set": "Katovuodet",
+      "cost": "4",
+      "type": "Piste",
+      "display": "Sarka"
+    },
+    {
+      "card": "Rats",
+      "set": "Katovuodet",
+      "cost": "4",
+      "type": "Toiminta",
+      "display": "Rotta"
+    },
+    {
+      "card": "Knights",
+      "set": "Katovuodet",
+      "cost": "5",
+      "type": "Toiminta - Hyökkäys - Ritari",
+      "display": "Ritarit"
+    },
+    {
+      "card": "Advisor",
+      "set": "Killat",
+      "cost": "4",
+      "type": "Toiminta"
+    },
+    {
+      "card": "Baker",
+      "set": "Killat",
+      "cost": "5",
+      "type": "Toiminta"
+    },
+    {
+      "card": "Butcher",
+      "set": "Killat",
+      "cost": "5",
+      "type": "Toiminta"
+    },
+    {
+      "card": "Candlestick Maker",
+      "set": "Killat",
+      "cost": "2",
+      "type": "Toiminta"
+    },
+    {
+      "card": "Doctor",
+      "set": "Killat",
+      "cost": "3+",
+      "type": "Toiminta"
+    },
+    {
+      "card": "Herald",
+      "set": "Killat",
+      "cost": "4+",
+      "type": "Toiminta"
+    },
+    {
+      "card": "Journeyman",
+      "set": "Killat",
+      "cost": "5",
+      "type": "Toiminta"
+    },
+    {
+      "card": "Masterpiece",
+      "set": "Killat",
+      "cost": "3+",
+      "type": "Raha"
+    },
+    {
+      "card": "Merchant Guild",
+      "set": "Killat",
+      "cost": "5",
+      "type": "Toiminta"
+    },
+    {
+      "card": "Plaza",
+      "set": "Killat",
+      "cost": "4",
+      "type": "Toiminta"
+    },
+    {
+      "card": "Soothsayer",
+      "set": "Killat",
+      "cost": "5",
+      "type": "Toiminta - Hyökkäys"
+    },
+    {
+      "card": "Stonemason",
+      "set": "Killat",
+      "cost": "2+",
+      "type": "Toiminta"
+    },
+    {
+      "card": "Taxman",
+      "set": "Killat",
+      "cost": "4",
+      "type": "Toiminta - Hyökkäys"
+    }
+  ],
+  "groups": [
+    {
+      "group": "All",
+      "description": "Kaikki Dominion kortit",
+      "cards": [
+        "Adventurer",
+        "Alchemist",
+        "Ambassador",
+        "Apothecary",
+        "Apprentice",
+        "Baron",
+        "Bazaar",
+        "Black Market",
+        "Bridge",
+        "Bureaucrat",
+        "Caravan",
+        "Cellar",
+        "Chancellor",
+        "Chapel",
+        "Conspirator",
+        "Coppersmith",
+        "Council Room",
+        "Courtyard",
+        "Cutpurse",
+        "Duke",
+        "Embargo",
+        "Envoy",
+        "Explorer",
+        "Familiar",
+        "Feast",
+        "Festival",
+        "Fishing Village",
+        "Gardens",
+        "Ghost Ship",
+        "Golem",
+        "Great Hall",
+        "Harem",
+        "Haven",
+        "Herbalist",
+        "Ironworks",
+        "Island",
+        "Laboratory",
+        "Library",
+        "Lighthouse",
+        "Lookout",
+        "Market",
+        "Masquerade",
+        "Merchant Ship",
+        "Militia",
+        "Mine",
+        "Mining Village",
+        "Minion",
+        "Moat",
+        "Moneylender",
+        "Native Village",
+        "Navigator",
+        "Nobles",
+        "Outpost",
+        "Pawn",
+        "Pearl Diver",
+        "Philosopher's Stone",
+        "Pirate Ship",
+        "Possession",
+        "Remodel",
+        "Saboteur",
+        "Salvager",
+        "Scout",
+        "Scrying Pool",
+        "Sea Hag",
+        "Secret Chamber",
+        "Shanty Town",
+        "Smithy",
+        "Smugglers",
+        "Spy",
+        "Stash",
+        "Steward",
+        "Swindler",
+        "Tactician",
+        "Thief",
+        "Throne Room",
+        "Torturer",
+        "Trading Post",
+        "Transmute",
+        "Treasure Map",
+        "Treasury",
+        "Tribute",
+        "University",
+        "Upgrade",
+        "Village",
+        "Vineyard",
+        "Warehouse",
+        "Wharf",
+        "Wishing Well",
+        "Witch",
+        "Woodcutter",
+        "Workshop",
+        "Bank",
+        "Bishop",
+        "City",
+        "Contraband",
+        "Counting House",
+        "Expand",
+        "Forge",
+        "Goons",
+        "Grand Market",
+        "Hoard",
+        "King's Court",
+        "Loan",
+        "Mint",
+        "Monument",
+        "Mountebank",
+        "Peddler",
+        "Quarry",
+        "Rabble",
+        "Royal Seal",
+        "Talisman",
+        "Trade Route",
+        "Vault",
+        "Venture",
+        "Watchtower",
+        "Worker's Village",
+        "Fairgrounds",
+        "Farming Village",
+        "Fortune Teller ",
+        "Hamlet",
+        "Harvest",
+        "Horn of Plenty",
+        "Horse Traders",
+        "Hunting Party",
+        "Jester",
+        "Menagerie",
+        "Remake",
+        "Tournament",
+        "Young Witch",
+        "Walled Village",
+        "Border Village",
+        "Cache",
+        "Cartographer",
+        "Crossroads",
+        "Develop",
+        "Duchess",
+        "Embassy",
+        "Farmland",
+        "Fool's Gold",
+        "Haggler",
+        "Highway",
+        "Ill-Gotten Gains",
+        "Inn",
+        "Jack of all Trades",
+        "Mandarin",
+        "Margrave",
+        "Noble Brigand",
+        "Nomad Camp",
+        "Oasis",
+        "Oracle",
+        "Scheme",
+        "Silk Road",
+        "Spice Merchant",
+        "Stables",
+        "Trader",
+        "Tunnel",
+        "Governor",
+        "Prince",
+        "Altar",
+        "Armory",
+        "Band of Misfits",
+        "Bandit Camp",
+        "Beggar",
+        "Catacombs",
+        "Count",
+        "Cultist",
+        "Death Cart",
+        "Forager",
+        "Fortress",
+        "Graverobber",
+        "Hermit",
+        "Hunting Grounds",
+        "Ironmonger",
+        "Junk Dealer",
+        "Marauder",
+        "Market Square",
+        "Mystic",
+        "Pillage",
+        "Poor House",
+        "Procession",
+        "Rebuild",
+        "Rogue",
+        "Sage",
+        "Scavenger",
+        "Squire",
+        "Storeroom",
+        "Urchin",
+        "Vagrant",
+        "Wandering Minstrel",
+        "Counterfeit",
+        "Feodum",
+        "Rats",
+        "Knights",
+        "Advisor",
+        "Baker",
+        "Butcher",
+        "Candlestick Maker",
+        "Doctor",
+        "Herald",
+        "Journeyman",
+        "Masterpiece",
+        "Merchant Guild",
+        "Plaza",
+        "Soothsayer",
+        "Stonemason",
+        "Taxman"
+      ],
+      "display": "Kaikki"
+    },
+    {
+      "group": "Main Set",
+      "description": "Dominion perussetin kortit",
+      "cards": [
+        "Adventurer",
+        "Bureaucrat",
+        "Cellar",
+        "Chancellor",
+        "Chapel",
+        "Council Room",
+        "Feast",
+        "Festival",
+        "Gardens",
+        "Laboratory",
+        "Library",
+        "Market",
+        "Militia",
+        "Mine",
+        "Moat",
+        "Moneylender",
+        "Remodel",
+        "Smithy",
+        "Spy",
+        "Thief",
+        "Throne Room",
+        "Village",
+        "Witch",
+        "Woodcutter",
+        "Workshop"
+      ],
+      "display": "Valtakunta"
+    },
+    {
+      "group": "Intrigue",
+      "description": "Kortit Dominion: Hovin juonista",
+      "cards": [
+        "Baron",
+        "Bridge",
+        "Conspirator",
+        "Coppersmith",
+        "Courtyard",
+        "Duke",
+        "Great Hall",
+        "Harem",
+        "Ironworks",
+        "Masquerade",
+        "Mining Village",
+        "Minion",
+        "Nobles",
+        "Pawn",
+        "Saboteur",
+        "Scout",
+        "Secret Chamber",
+        "Shanty Town",
+        "Steward",
+        "Swindler",
+        "Torturer",
+        "Trading Post",
+        "Tribute",
+        "Upgrade",
+        "Wishing Well"
+      ],
+      "display": "Hovin Juonet"
+    },
+    {
+      "group": "Seaside",
+      "description": "Kortit Dominion: Kaukaisista rannoista",
+      "cards": [
+        "Ambassador",
+        "Bazaar",
+        "Caravan",
+        "Cutpurse",
+        "Embargo",
+        "Explorer",
+        "Fishing Village",
+        "Ghost Ship",
+        "Haven",
+        "Island",
+        "Lighthouse",
+        "Lookout",
+        "Merchant Ship",
+        "Native Village",
+        "Navigator",
+        "Outpost",
+        "Pearl Diver",
+        "Pirate Ship",
+        "Salvager",
+        "Sea Hag",
+        "Smugglers",
+        "Tactician",
+        "Treasure Map",
+        "Treasury",
+        "Warehouse",
+        "Wharf"
+      ],
+      "display": "Kaukaiset Rannat"
+    },
+    {
+      "group": "Alchemy",
+      "description": "Kortit Dominion: Alkemiasta",
+      "cards": [
+        "Alchemist",
+        "Apothecary",
+        "Apprentice",
+        "Familiar",
+        "Golem",
+        "Herbalist",
+        "Philosopher's Stone",
+        "Possession",
+        "Scrying Pool",
+        "Transmute",
+        "University",
+        "Vineyard"
+      ],
+      "display": "Alkemia"
+    },
+    {
+      "group": "Prosperity",
+      "description": "Kortit Dominion: Nousukaudesta",
+      "cards": [
+        "Bank",
+        "Bishop",
+        "City",
+        "Contraband",
+        "Counting House",
+        "Expand",
+        "Forge",
+        "Goons",
+        "Grand Market",
+        "Hoard",
+        "King's Court",
+        "Loan",
+        "Mint",
+        "Monument",
+        "Mountebank",
+        "Peddler",
+        "Quarry",
+        "Rabble",
+        "Royal Seal",
+        "Talisman",
+        "Trade Route",
+        "Vault",
+        "Venture",
+        "Watchtower",
+        "Worker's Village"
+      ],
+      "display": "Nousukausi"
+    },
+    {
+      "group": "Cornucopia",
+      "description": "Kortit Dominion: Elonkorjuusta",
+      "cards": [
+        "Fairgrounds",
+        "Farming Village",
+        "Fortune Teller ",
+        "Hamlet",
+        "Harvest",
+        "Horn of Plenty",
+        "Horse Traders",
+        "Hunting Party",
+        "Jester",
+        "Menagerie",
+        "Remake",
+        "Tournament",
+        "Young Witch"
+      ],
+      "display": "Elonkorjuu"
+    },
+    {
+      "group": "Hinterlands",
+      "description": "Kortit Dominion: Rajaseuduista",
+      "cards": [
+        "Border Village",
+        "Cache",
+        "Cartographer",
+        "Crossroads",
+        "Develop",
+        "Duchess",
+        "Embassy",
+        "Farmland",
+        "Fool's Gold",
+        "Haggler",
+        "Highway",
+        "Ill-Gotten Gains",
+        "Inn",
+        "Jack of all Trades",
+        "Mandarin",
+        "Margrave",
+        "Noble Brigand",
+        "Nomad Camp",
+        "Oasis",
+        "Oracle",
+        "Scheme",
+        "Silk Road",
+        "Spice Merchant",
+        "Stables",
+        "Trader",
+        "Tunnel"
+      ],
+      "display": "Rajaseudut"
+    },
+    {
+      "group": "Dark Ages",
+      "description": "Kortit Dominion: Katovuosista",
+      "cards": [
+        "Altar",
+        "Armory",
+        "Band of Misfits",
+        "Bandit Camp",
+        "Beggar",
+        "Catacombs",
+        "Count",
+        "Cultist",
+        "Death Cart",
+        "Forager",
+        "Fortress",
+        "Graverobber",
+        "Hermit",
+        "Hunting Grounds",
+        "Ironmonger",
+        "Junk Dealer",
+        "Marauder",
+        "Market Square",
+        "Mystic",
+        "Pillage",
+        "Poor House",
+        "Procession",
+        "Rebuild",
+        "Rogue",
+        "Sage",
+        "Scavenger",
+        "Squire",
+        "Storeroom",
+        "Urchin",
+        "Vagrant",
+        "Wandering Minstrel",
+        "Counterfeit",
+        "Feodum",
+        "Rats",
+        "Knights"
+      ],
+      "display": "Katovuodet"
+    },
+    {
+      "group": "Guilds",
+      "description": "Kortit Dominion: Killoista",
+      "cards": [
+        "Advisor",
+        "Baker",
+        "Butcher",
+        "Candlestick Maker",
+        "Doctor",
+        "Herald",
+        "Journeyman",
+        "Masterpiece",
+        "Merchant Guild",
+        "Plaza",
+        "Soothsayer",
+        "Stonemason",
+        "Taxman"
+      ],
+      "display": "Killat"
+    },
+    {
+      "group": "Promo",
+      "description": "Dominionin promokortit",
+      "cards": [
+        "Black Market",
+        "Envoy",
+        "Stash",
+        "Walled Village",
+        "Governor",
+        "Prince"
+      ]
+    },
+    {
+      "group": "Defense",
+      "description": "Kortit joka suojaavat hyökkäykseltä",
+      "cards": [
+        "Lighthouse",
+        "Moat",
+        "Secret Chamber",
+        "Watchtower",
+        "Horse Traders",
+        "Fool's Gold",
+        "Trader",
+        "Tunnel",
+        "Market Square"
+      ],
+      "display": "Vastaveto"
+    },
+    {
+      "group": "Attack",
+      "description": "Kortit joilla voi hyökätä",
+      "cards": [
+        "Ambassador",
+        "Bureaucrat",
+        "Cutpurse",
+        "Familiar",
+        "Ghost Ship",
+        "Militia",
+        "Minion",
+        "Pirate Ship",
+        "Saboteur",
+        "Scrying Pool",
+        "Sea Hag",
+        "Spy",
+        "Swindler",
+        "Thief",
+        "Torturer",
+        "Witch",
+        "Goons",
+        "Mountebank",
+        "Rabble",
+        "Fortune Teller ",
+        "Jester",
+        "Young Witch",
+        "Margrave",
+        "Noble Brigand",
+        "Oracle",
+        "Cultist",
+        "Marauder",
+        "Pillage",
+        "Rogue",
+        "Urchin",
+        "Knights",
+        "Soothsayer",
+        "Taxman"
+      ],
+      "display": "Hyökkäys"
+    },
+    {
+      "group": "Cost 2",
+      "description": "Kortit jotka maksavat 2",
+      "cards": [
+        "Cellar",
+        "Chapel",
+        "Courtyard",
+        "Embargo",
+        "Haven",
+        "Herbalist",
+        "Lighthouse",
+        "Moat",
+        "Native Village",
+        "Pawn",
+        "Pearl Diver",
+        "Secret Chamber",
+        "Hamlet",
+        "Crossroads",
+        "Duchess",
+        "Fool's Gold",
+        "Beggar",
+        "Poor House",
+        "Squire",
+        "Vagrant",
+        "Candlestick Maker",
+        "Stonemason"
+      ],
+      "display": "Hinta 2"
+    },
+    {
+      "group": "Cost 3",
+      "description": "Kortit jotka maksavat 3",
+      "cards": [
+        "Ambassador",
+        "Black Market",
+        "Chancellor",
+        "Fishing Village",
+        "Great Hall",
+        "Lookout",
+        "Masquerade",
+        "Shanty Town",
+        "Smugglers",
+        "Steward",
+        "Swindler",
+        "Village",
+        "Warehouse",
+        "Wishing Well",
+        "Woodcutter",
+        "Workshop",
+        "Loan",
+        "Trade Route",
+        "Watchtower",
+        "Fortune Teller ",
+        "Menagerie",
+        "Develop",
+        "Oasis",
+        "Oracle",
+        "Scheme",
+        "Tunnel",
+        "Forager",
+        "Hermit",
+        "Market Square",
+        "Sage",
+        "Storeroom",
+        "Urchin",
+        "Doctor",
+        "Masterpiece"
+      ],
+      "display": "Hinta 3"
+    },
+    {
+      "group": "Cost 3-",
+      "description": "Kortit jotka maksavat 3 tai vähemmän",
+      "cards": [
+        "Ambassador",
+        "Black Market",
+        "Cellar",
+        "Chancellor",
+        "Chapel",
+        "Courtyard",
+        "Embargo",
+        "Fishing Village",
+        "Great Hall",
+        "Haven",
+        "Herbalist",
+        "Lighthouse",
+        "Lookout",
+        "Masquerade",
+        "Moat",
+        "Native Village",
+        "Pawn",
+        "Pearl Diver",
+        "Secret Chamber",
+        "Shanty Town",
+        "Smugglers",
+        "Steward",
+        "Swindler",
+        "Village",
+        "Warehouse",
+        "Wishing Well",
+        "Woodcutter",
+        "Workshop",
+        "Loan",
+        "Trade Route",
+        "Watchtower",
+        "Fortune Teller ",
+        "Hamlet",
+        "Menagerie",
+        "Crossroads",
+        "Develop",
+        "Duchess",
+        "Fool's Gold",
+        "Oasis",
+        "Oracle",
+        "Scheme",
+        "Tunnel",
+        "Beggar",
+        "Forager",
+        "Hermit",
+        "Market Square",
+        "Poor House",
+        "Sage",
+        "Squire",
+        "Storeroom",
+        "Urchin",
+        "Vagrant",
+        "Candlestick Maker",
+        "Doctor",
+        "Masterpiece",
+        "Stonemason"
+      ],
+      "display": "Hinta 3-"
+    },
+    {
+      "group": "Cost 4",
+      "description": "Kortit jotka maksavat 4",
+      "cards": [
+        "Baron",
+        "Bridge",
+        "Bureaucrat",
+        "Caravan",
+        "Conspirator",
+        "Coppersmith",
+        "Cutpurse",
+        "Envoy",
+        "Feast",
+        "Gardens",
+        "Ironworks",
+        "Island",
+        "Militia",
+        "Mining Village",
+        "Moneylender",
+        "Navigator",
+        "Pirate Ship",
+        "Remodel",
+        "Salvager",
+        "Scout",
+        "Sea Hag",
+        "Smithy",
+        "Spy",
+        "Thief",
+        "Throne Room",
+        "Treasure Map",
+        "Bishop",
+        "Monument",
+        "Quarry",
+        "Talisman",
+        "Worker's Village",
+        "Farming Village",
+        "Horse Traders",
+        "Remake",
+        "Tournament",
+        "Young Witch",
+        "Walled Village",
+        "Jack of all Trades",
+        "Noble Brigand",
+        "Nomad Camp",
+        "Silk Road",
+        "Spice Merchant",
+        "Trader",
+        "Armory",
+        "Death Cart",
+        "Fortress",
+        "Ironmonger",
+        "Marauder",
+        "Procession",
+        "Scavenger",
+        "Wandering Minstrel",
+        "Feodum",
+        "Rats",
+        "Advisor",
+        "Herald",
+        "Plaza",
+        "Taxman"
+      ],
+      "display": "Hinta 4"
+    },
+    {
+      "group": "Cost 5",
+      "description": "Kortit jotka maksavat 5",
+      "cards": [
+        "Apprentice",
+        "Bazaar",
+        "Council Room",
+        "Duke",
+        "Explorer",
+        "Festival",
+        "Ghost Ship",
+        "Laboratory",
+        "Library",
+        "Market",
+        "Merchant Ship",
+        "Mine",
+        "Minion",
+        "Outpost",
+        "Saboteur",
+        "Stash",
+        "Tactician",
+        "Torturer",
+        "Trading Post",
+        "Treasury",
+        "Tribute",
+        "Upgrade",
+        "Wharf",
+        "Witch",
+        "City",
+        "Contraband",
+        "Counting House",
+        "Mint",
+        "Mountebank",
+        "Rabble",
+        "Royal Seal",
+        "Vault",
+        "Venture",
+        "Harvest",
+        "Horn of Plenty",
+        "Hunting Party",
+        "Jester",
+        "Cache",
+        "Cartographer",
+        "Embassy",
+        "Haggler",
+        "Highway",
+        "Ill-Gotten Gains",
+        "Inn",
+        "Mandarin",
+        "Margrave",
+        "Stables",
+        "Governor",
+        "Band of Misfits",
+        "Bandit Camp",
+        "Catacombs",
+        "Count",
+        "Cultist",
+        "Graverobber",
+        "Junk Dealer",
+        "Mystic",
+        "Pillage",
+        "Rebuild",
+        "Rogue",
+        "Counterfeit",
+        "Knights",
+        "Baker",
+        "Butcher",
+        "Journeyman",
+        "Merchant Guild",
+        "Soothsayer"
+      ],
+      "display": "Hinta 5"
+    },
+    {
+      "group": "Cost 6",
+      "description": "Kortit jotka maksavat 6",
+      "cards": [
+        "Adventurer",
+        "Harem",
+        "Nobles",
+        "Goons",
+        "Grand Market",
+        "Hoard",
+        "Fairgrounds",
+        "Border Village",
+        "Farmland",
+        "Altar",
+        "Hunting Grounds"
+      ],
+      "display": "Hinta 6"
+    },
+    {
+      "group": "Cost 6+",
+      "description": "Kortit jotka maksavat 6 tai enemmän",
+      "cards": [
+        "Adventurer",
+        "Harem",
+        "Nobles",
+        "Bank",
+        "Expand",
+        "Forge",
+        "Goons",
+        "Grand Market",
+        "Hoard",
+        "King's Court",
+        "Peddler",
+        "Fairgrounds",
+        "Border Village",
+        "Farmland",
+        "Altar",
+        "Hunting Grounds"
+      ],
+      "display": "Hinta 6+"
+    },
+    {
+      "group": "Cost 7+",
+      "description": "Kortit jotka maksavat 7 tai enemmän",
+      "cards": [
+        "Bank",
+        "Expand",
+        "Forge",
+        "King's Court",
+        "Peddler"
+      ],
+      "display": "Hinta 7+"
+    },
+    {
+      "group": "Potion",
+      "description": "Kortit jotka maksavat tai käyttävät rohtoa",
+      "cards": [
+        "Alchemist",
+        "Apothecary",
+        "Apprentice",
+        "Familiar",
+        "Golem",
+        "Philosopher's Stone",
+        "Possession",
+        "Scrying Pool",
+        "Transmute",
+        "University",
+        "Vineyard"
+      ],
+      "display": "Rohto"
+    },
+    {
+      "group": "Component",
+      "description": "Kortit jotka tarvitsevat komponenttia",
+      "cards": [
+        "Embargo",
+        "Island",
+        "Native Village",
+        "Pirate Ship",
+        "Bishop",
+        "Goons",
+        "Monument",
+        "Trade Route",
+        "Baker",
+        "Butcher",
+        "Candlestick Maker",
+        "Merchant Guild",
+        "Plaza"
+      ],
+      "display": "Komponentti"
+    },
+    {
+      "group": "Victory",
+      "description": "Kortit jotka lisäävät voittopisteitä",
+      "cards": [
+        "Duke",
+        "Gardens",
+        "Great Hall",
+        "Harem",
+        "Island",
+        "Nobles",
+        "Vineyard",
+        "Fairgrounds",
+        "Farmland",
+        "Silk Road",
+        "Tunnel",
+        "Feodum"
+      ],
+      "display": "Piste"
+    },
+    {
+      "group": "Duration",
+      "description": "Kortit joissa toistuva toiminto",
+      "cards": [
+        "Caravan",
+        "Fishing Village",
+        "Haven",
+        "Lighthouse",
+        "Merchant Ship",
+        "Outpost",
+        "Tactician",
+        "Wharf"
+      ],
+      "display": "Toistuva"
+    },
+    {
+      "group": "Treasure",
+      "description": "Rahakortit",
+      "cards": [
+        "Harem",
+        "Philosopher's Stone",
+        "Stash",
+        "Bank",
+        "Contraband",
+        "Hoard",
+        "Loan",
+        "Quarry",
+        "Royal Seal",
+        "Talisman",
+        "Venture",
+        "Horn of Plenty",
+        "Cache",
+        "Fool's Gold",
+        "Ill-Gotten Gains",
+        "Counterfeit",
+        "Masterpiece"
+      ],
+      "display": "Raha"
+    },
+    {
+      "group": "Double Type",
+      "description": "Kortit jotka ovat usempaa tyyppiä",
+      "cards": [
+        "Great Hall",
+        "Harem",
+        "Island",
+        "Nobles",
+        "Fool's Gold",
+        "Tunnel"
+      ],
+      "display": "Kaksoistyyppi"
+    },
+    {
+      "group": "Deck Reduction",
+      "description": "Kortit jotka pienentävät pakkaasi",
+      "cards": [
+        "Ambassador",
+        "Apprentice",
+        "Chapel",
+        "Island",
+        "Lookout",
+        "Masquerade",
+        "Moneylender",
+        "Salvager",
+        "Steward",
+        "Trading Post",
+        "Upgrade",
+        "Bishop",
+        "Forge",
+        "Loan",
+        "Trade Route",
+        "Remake",
+        "Jack of all Trades",
+        "Count",
+        "Death Cart",
+        "Forager",
+        "Junk Dealer",
+        "Counterfeit",
+        "Doctor"
+      ],
+      "display": "Pakan pienennys"
+    },
+    {
+      "group": "Card Ordering",
+      "description": "Kortit jotka järjestelevät pakkaasi",
+      "cards": [
+        "Apothecary",
+        "Courtyard",
+        "Navigator",
+        "Pearl Diver",
+        "Scout",
+        "Treasury",
+        "Rabble",
+        "Royal Seal",
+        "Watchtower",
+        "Walled Village",
+        "Cartographer",
+        "Develop",
+        "Duchess",
+        "Jack of all Trades",
+        "Mandarin",
+        "Oracle",
+        "Armory",
+        "Beggar",
+        "Count",
+        "Graverobber",
+        "Scavenger",
+        "Wandering Minstrel",
+        "Doctor",
+        "Taxman"
+      ],
+      "display": "Pakan järjestely"
+    },
+    {
+      "group": "Plus Curses",
+      "description": "Kortit joilla annetaan kirouksia",
+      "cards": [
+        "Ambassador",
+        "Embargo",
+        "Familiar",
+        "Masquerade",
+        "Sea Hag",
+        "Swindler",
+        "Torturer",
+        "Witch",
+        "Mountebank",
+        "Jester",
+        "Young Witch",
+        "Ill-Gotten Gains",
+        "Soothsayer"
+      ],
+      "display": "Lisää kirouksia"
+    },
+    {
+      "group": "Plus Card",
+      "description": "Kortit jotka antavat nostaa kortteja",
+      "cards": [
+        "Alchemist",
+        "Apothecary",
+        "Caravan",
+        "Conspirator",
+        "Council Room",
+        "Courtyard",
+        "Familiar",
+        "Ghost Ship",
+        "Golem",
+        "Great Hall",
+        "Haven",
+        "Ironworks",
+        "Laboratory",
+        "Library",
+        "Market",
+        "Masquerade",
+        "Mining Village",
+        "Minion",
+        "Moat",
+        "Nobles",
+        "Pawn",
+        "Pearl Diver",
+        "Scrying Pool",
+        "Shanty Town",
+        "Smithy",
+        "Spy",
+        "Steward",
+        "Tactician",
+        "Torturer",
+        "Treasury",
+        "Tribute",
+        "Upgrade",
+        "Village",
+        "Warehouse",
+        "Wharf",
+        "Wishing Well",
+        "Witch",
+        "Bank",
+        "Counting House",
+        "Grand Market",
+        "Peddler",
+        "Rabble",
+        "Vault",
+        "Venture",
+        "Watchtower",
+        "Worker's Village",
+        "Hamlet",
+        "Hunting Party",
+        "Menagerie",
+        "Tournament",
+        "Young Witch",
+        "Walled Village",
+        "Border Village",
+        "Cartographer",
+        "Crossroads",
+        "Embassy",
+        "Highway",
+        "Inn",
+        "Jack of all Trades",
+        "Margrave",
+        "Oasis",
+        "Oracle",
+        "Scheme",
+        "Spice Merchant",
+        "Stables",
+        "Governor",
+        "Bandit Camp",
+        "Catacombs",
+        "Cultist",
+        "Fortress",
+        "Hunting Grounds",
+        "Ironmonger",
+        "Junk Dealer",
+        "Market Square",
+        "Mystic",
+        "Sage",
+        "Storeroom",
+        "Urchin",
+        "Vagrant",
+        "Wandering Minstrel",
+        "Rats",
+        "Advisor",
+        "Baker",
+        "Herald",
+        "Journeyman",
+        "Plaza"
+      ],
+      "display": "Lisää kortteja"
+    },
+    {
+      "group": "Plus Action",
+      "description": "Kortit jotka lisäävät toimintoja",
+      "cards": [
+        "Alchemist",
+        "Apothecary",
+        "Apprentice",
+        "Bazaar",
+        "Caravan",
+        "Cellar",
+        "Conspirator",
+        "Familiar",
+        "Festival",
+        "Fishing Village",
+        "Golem",
+        "Great Hall",
+        "Haven",
+        "Ironworks",
+        "Laboratory",
+        "Lighthouse",
+        "Lookout",
+        "Market",
+        "Mining Village",
+        "Minion",
+        "Native Village",
+        "Nobles",
+        "Pawn",
+        "Pearl Diver",
+        "Scout",
+        "Scrying Pool",
+        "Shanty Town",
+        "Spy",
+        "Tactician",
+        "Treasury",
+        "Tribute",
+        "University",
+        "Upgrade",
+        "Village",
+        "Warehouse",
+        "Wishing Well",
+        "City",
+        "Grand Market",
+        "Peddler",
+        "Worker's Village",
+        "Farming Village",
+        "Hamlet",
+        "Hunting Party",
+        "Menagerie",
+        "Tournament",
+        "Walled Village",
+        "Border Village",
+        "Cartographer",
+        "Crossroads",
+        "Highway",
+        "Inn",
+        "Oasis",
+        "Scheme",
+        "Spice Merchant",
+        "Stables",
+        "Governor",
+        "Prince",
+        "Bandit Camp",
+        "Forager",
+        "Fortress",
+        "Ironmonger",
+        "Junk Dealer",
+        "Market Square",
+        "Mystic",
+        "Rebuild",
+        "Sage",
+        "Squire",
+        "Urchin",
+        "Vagrant",
+        "Wandering Minstrel",
+        "Rats",
+        "Advisor",
+        "Baker",
+        "Candlestick Maker",
+        "Herald",
+        "Plaza"
+      ],
+      "display": "Lisää toimintoja"
+    },
+    {
+      "group": "Plus More Action",
+      "description": "Kortit jotka lisäävät useamman toiminnon",
+      "cards": [
+        "Bazaar",
+        "Festival",
+        "Fishing Village",
+        "Golem",
+        "Mining Village",
+        "Native Village",
+        "Nobles",
+        "Shanty Town",
+        "Tribute",
+        "University",
+        "Village",
+        "City",
+        "Worker's Village",
+        "Farming Village",
+        "Hamlet",
+        "Walled Village",
+        "Border Village",
+        "Crossroads",
+        "Inn",
+        "Bandit Camp",
+        "Fortress",
+        "Ironmonger",
+        "Squire",
+        "Wandering Minstrel",
+        "Herald",
+        "Plaza"
+      ],
+      "display": "Lisää useampi toiminto"
+    },
+    {
+      "group": "Plus Coin",
+      "description": "Kortit jotka lisäävät rahaa",
+      "cards": [
+        "Baron",
+        "Bazaar",
+        "Black Market",
+        "Bridge",
+        "Chancellor",
+        "Conspirator",
+        "Cutpurse",
+        "Embargo",
+        "Festival",
+        "Fishing Village",
+        "Herbalist",
+        "Ironworks",
+        "Lighthouse",
+        "Market",
+        "Merchant Ship",
+        "Militia",
+        "Mining Village",
+        "Minion",
+        "Navigator",
+        "Pawn",
+        "Philosopher's Stone",
+        "Salvager",
+        "Steward",
+        "Swindler",
+        "Treasury",
+        "Tribute",
+        "Woodcutter",
+        "Bishop",
+        "City",
+        "Goons",
+        "Grand Market",
+        "Monument",
+        "Mountebank",
+        "Peddler",
+        "Trade Route",
+        "Vault",
+        "Fortune Teller ",
+        "Harvest",
+        "Horse Traders",
+        "Jester",
+        "Tournament",
+        "Duchess",
+        "Haggler",
+        "Mandarin",
+        "Noble Brigand",
+        "Nomad Camp",
+        "Oasis",
+        "Spice Merchant",
+        "Count",
+        "Death Cart",
+        "Forager",
+        "Ironmonger",
+        "Junk Dealer",
+        "Mystic",
+        "Poor House",
+        "Rogue",
+        "Scavenger",
+        "Squire",
+        "Storeroom",
+        "Baker",
+        "Butcher",
+        "Candlestick Maker",
+        "Merchant Guild",
+        "Plaza"
+      ],
+      "display": "Lisää rahaa"
+    },
+    {
+      "group": "Plus Buy",
+      "description": "Kortit jotka lisäävät ostoja",
+      "cards": [
+        "Baron",
+        "Bridge",
+        "Council Room",
+        "Festival",
+        "Herbalist",
+        "Market",
+        "Pawn",
+        "Salvager",
+        "Tactician",
+        "Wharf",
+        "Woodcutter",
+        "City",
+        "Contraband",
+        "Goons",
+        "Grand Market",
+        "Trade Route",
+        "Worker's Village",
+        "Horse Traders",
+        "Develop",
+        "Margrave",
+        "Nomad Camp",
+        "Spice Merchant",
+        "Forager",
+        "Market Square",
+        "Squire",
+        "Storeroom",
+        "Counterfeit",
+        "Candlestick Maker",
+        "Merchant Guild"
+      ],
+      "display": "Lisää ostoja"
+    },
+    {
+      "group": "Gain",
+      "description": "Kortit joilla saat kortteja ostamatta",
+      "cards": [
+        "Baron",
+        "Bureaucrat",
+        "Explorer",
+        "Ironworks",
+        "Smugglers",
+        "Thief",
+        "Treasure Map",
+        "University",
+        "Workshop",
+        "Hoard",
+        "Mint",
+        "Talisman",
+        "Horn of Plenty",
+        "Tournament",
+        "Duchess",
+        "Jack of all Trades",
+        "Altar",
+        "Armory",
+        "Bandit Camp",
+        "Beggar",
+        "Catacombs",
+        "Count",
+        "Graverobber",
+        "Hermit",
+        "Hunting Grounds",
+        "Marauder",
+        "Pillage",
+        "Rogue",
+        "Squire",
+        "Urchin",
+        "Feodum",
+        "Rats",
+        "Soothsayer",
+        "Stonemason",
+        "Taxman"
+      ],
+      "display": "Otto"
+    },
+    {
+      "group": "Looter",
+      "description": "Kortit jotka antavat jollekkin raunion",
+      "cards": [
+        "Cultist",
+        "Death Cart",
+        "Marauder"
+      ],
+      "display": "Ryöstäjä"
+    },
+    {
+      "group": "Gain Spoils",
+      "description": "Kortit joilla saat sotasaaliin",
+      "cards": [
+        "Bandit Camp",
+        "Marauder",
+        "Pillage"
+      ],
+      "display": "Sotasaalis"
+    }
+  ],
+  "basic_cards": [
+    {
+      "card": "Potion",
+      "set": "Alkemia",
+      "cost": "4",
+      "type": "Raha",
+      "display": "Rohto"
+    },
+    {
+      "card": "Colony",
+      "set": "Nousukausi",
+      "cost": "11",
+      "type": "Piste",
+      "display": "Siirtomaa"
+    },
+    {
+      "card": "Platinum",
+      "set": "Nousukausi",
+      "cost": "9",
+      "type": "Raha",
+      "display": "Platina"
+    },
+    {
+      "card": "Shelter",
+      "set": "Katovuodet",
+      "cost": "1",
+      "type": "Suoja",
+      "display": "Suoja"
+    },
+    {
+      "card": "Ruins",
+      "set": "Katovuodet",
+      "cost": "0",
+      "type": "Toiminta - Hyökkäys",
+      "display": "Raunio"
+    },
+    {
+      "card": "Spoils",
+      "set": "Katovuodet",
+      "cost": "0*",
+      "type": "Raha",
+      "display": "Sotasaalis"
+    },
+    {
+      "card": "Madman",
+      "set": "Katovuodet",
+      "cost": "0*",
+      "type": "Toiminta",
+      "display": "Kylähullu"
+    },
+    {
+      "card": "Mercenary",
+      "set": "Katovuodet",
+      "cost": "0*",
+      "type": "Toiminta - Hyökkäys",
+      "display": "Palkkasoturi"
+    }
+  ]
+}

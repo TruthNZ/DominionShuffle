@@ -1,1 +1,2857 @@
-{"cards":[{"card":"Alchemist","set":"현자의 연금술","cost":"P3","type":"액션"},{"card":"Apothecary","set":"현자의 연금술","cost":"P2","type":"액션"},{"card":"Apprentice","set":"현자의 연금술","cost":"5","type":"액션"},{"card":"Familiar","set":"현자의 연금술","cost":"P3","type":"액션 – 공격"},{"card":"Golem","set":"현자의 연금술","cost":"P4","type":"액션"},{"card":"Herbalist","set":"현자의 연금술","cost":"2","type":"액션"},{"card":"Philosopher's Stone","set":"현자의 연금술","cost":"P3","type":"재물"},{"card":"Possession","set":"현자의 연금술","cost":"P6","type":"액션"},{"card":"Scrying Pool","set":"현자의 연금술","cost":"P2","type":"액션 – 공격"},{"card":"Transmute","set":"현자의 연금술","cost":"P0","type":"액션"},{"card":"University","set":"현자의 연금술","cost":"P2","type":"액션"},{"card":"Vineyard","set":"현자의 연금술","cost":"P0","type":"승점"},{"card":"Fairgrounds","set":"풍요의 뿔","cost":"6","type":"승점"},{"card":"Farming Village","set":"풍요의 뿔","cost":"4","type":"액션"},{"card":"Fortune Teller ","set":"풍요의 뿔","cost":"3","type":"액션 – 공격"},{"card":"Hamlet","set":"풍요의 뿔","cost":"2","type":"액션"},{"card":"Harvest","set":"풍요의 뿔","cost":"5","type":"액션"},{"card":"Horn of Plenty","set":"풍요의 뿔","cost":"5","type":"재물"},{"card":"Horse Traders","set":"풍요의 뿔","cost":"4","type":"액션 – 반응"},{"card":"Hunting Party","set":"풍요의 뿔","cost":"5","type":"액션"},{"card":"Jester","set":"풍요의 뿔","cost":"5","type":"액션 – 공격"},{"card":"Menagerie","set":"풍요의 뿔","cost":"3","type":"액션"},{"card":"Remake","set":"풍요의 뿔","cost":"4","type":"액션"},{"card":"Tournament","set":"풍요의 뿔","cost":"4","type":"액션"},{"card":"Young Witch","set":"풍요의 뿔","cost":"4","type":"액션 – 공격"},{"card":"Border Village","set":"오지의 사람들","cost":"6","type":"액션"},{"card":"Cache","set":"오지의 사람들","cost":"5","type":"재물"},{"card":"Cartographer","set":"오지의 사람들","cost":"5","type":"액션"},{"card":"Crossroads","set":"오지의 사람들","cost":"2","type":"액션"},{"card":"Develop","set":"오지의 사람들","cost":"3","type":"액션"},{"card":"Duchess","set":"오지의 사람들","cost":"2","type":"액션"},{"card":"Embassy","set":"오지의 사람들","cost":"5","type":"액션"},{"card":"Farmland","set":"오지의 사람들","cost":"6","type":"승점"},{"card":"Fool's Gold","set":"오지의 사람들","cost":"2","type":"재물 – 반응"},{"card":"Haggler","set":"오지의 사람들","cost":"5","type":"액션"},{"card":"Highway","set":"오지의 사람들","cost":"5","type":"액션"},{"card":"Ill-Gotten Gains","set":"오지의 사람들","cost":"5","type":"재물"},{"card":"Inn","set":"오지의 사람들","cost":"5","type":"액션"},{"card":"Jack of all Trades","set":"오지의 사람들","cost":"4","type":"액션"},{"card":"Mandarin","set":"오지의 사람들","cost":"5","type":"액션"},{"card":"Margrave","set":"오지의 사람들","cost":"5","type":"액션 – 공격"},{"card":"Noble Brigand","set":"오지의 사람들","cost":"4","type":"액션 – 공격"},{"card":"Nomad Camp","set":"오지의 사람들","cost":"4","type":"액션"},{"card":"Oasis","set":"오지의 사람들","cost":"3","type":"액션"},{"card":"Oracle","set":"오지의 사람들","cost":"3","type":"액션"},{"card":"Scheme","set":"오지의 사람들","cost":"3","type":"액션"},{"card":"Silk Road","set":"오지의 사람들","cost":"4","type":"승점"},{"card":"Spice Merchant","set":"오지의 사람들","cost":"4","type":"액션"},{"card":"Stables","set":"오지의 사람들","cost":"5","type":"액션"},{"card":"Trader","set":"오지의 사람들","cost":"4","type":"액션 – 반응"},{"card":"Tunnel","set":"오지의 사람들","cost":"3","type":"승점 – 반응"},{"card":"Baron","set":"정복자의 바다","cost":"4","type":"액션","display":"남작"},{"card":"Bridge","set":"정복자의 바다","cost":"4","type":"액션","display":"다리"},{"card":"Conspirator","set":"정복자의 바다","cost":"4","type":"액션","display":"공모자"},{"card":"Coppersmith","set":"정복자의 바다","cost":"4","type":"액션","display":"동세공인"},{"card":"Courtyard","set":"정복자의 바다","cost":"2","type":"액션","display":"안마당"},{"card":"Duke","set":"정복자의 바다","cost":"5","type":"승점","display":"공작"},{"card":"Great Hall","set":"정복자의 바다","cost":"3","type":"액션 – 승점","display":"대회당"},{"card":"Harem","set":"정복자의 바다","cost":"6","type":"재물 – 승점","display":"하렘"},{"card":"Ironworks","set":"정복자의 바다","cost":"4","type":"액션","display":"철공소"},{"card":"Masquerade","set":"정복자의 바다","cost":"3","type":"액션","display":"가면무도회"},{"card":"Mining Village","set":"정복자의 바다","cost":"4","type":"액션","display":"광산촌"},{"card":"Minion","set":"정복자의 바다","cost":"5","type":"액션 – 공격","display":"하수인"},{"card":"Nobles","set":"정복자의 바다","cost":"6","type":"액션 – 승점","display":"귀족"},{"card":"Pawn","set":"정복자의 바다","cost":"2","type":"액션","display":"졸개"},{"card":"Saboteur","set":"정복자의 바다","cost":"5","type":"액션 – 공격","display":"파괴공작원"},{"card":"Scout","set":"정복자의 바다","cost":"4","type":"액션","display":"정찰병"},{"card":"Secret Chamber","set":"정복자의 바다","cost":"2","type":"액션 – 반응","display":"비밀의 방"},{"card":"Shanty Town","set":"정복자의 바다","cost":"3","type":"액션","display":"빈민가"},{"card":"Steward","set":"정복자의 바다","cost":"3","type":"액션","display":"집사"},{"card":"Swindler","set":"정복자의 바다","cost":"3","type":"액션 – 공격","display":"사기꾼"},{"card":"Torturer","set":"정복자의 바다","cost":"5","type":"액션 – 공격","display":"고문기술자"},{"card":"Trading Post","set":"정복자의 바다","cost":"5","type":"액션","display":"교역소"},{"card":"Tribute","set":"정복자의 바다","cost":"5","type":"액션","display":"공물"},{"card":"Upgrade","set":"정복자의 바다","cost":"5","type":"액션","display":"개선"},{"card":"Wishing Well","set":"정복자의 바다","cost":"3","type":"액션","display":"소원의 우물"},{"card":"Adventurer","set":"기본판","cost":"6","type":"액션","display":"모험가"},{"card":"Bureaucrat","set":"기본판","cost":"4","type":"액션 – 공격","display":"관료"},{"card":"Cellar","set":"기본판","cost":"2","type":"액션","display":"저장고"},{"card":"Chancellor","set":"기본판","cost":"3","type":"액션","display":"법관"},{"card":"Chapel","set":"기본판","cost":"2","type":"액션","display":"예배당"},{"card":"Council Room","set":"기본판","cost":"5","type":"액션","display":"회의실"},{"card":"Feast","set":"기본판","cost":"4","type":"액션","display":"연회"},{"card":"Festival","set":"기본판","cost":"5","type":"액션","display":"축제"},{"card":"Gardens","set":"기본판","cost":"4","type":"승점","display":"정원"},{"card":"Laboratory","set":"기본판","cost":"5","type":"액션","display":"실험실"},{"card":"Library","set":"기본판","cost":"5","type":"액션","display":"도서관"},{"card":"Market","set":"기본판","cost":"5","type":"액션","display":"시장"},{"card":"Militia","set":"기본판","cost":"4","type":"액션 – 공격","display":"민병대"},{"card":"Mine","set":"기본판","cost":"5","type":"액션","display":"광산"},{"card":"Moat","set":"기본판","cost":"2","type":"액션 – 반응","display":"해자"},{"card":"Moneylender","set":"기본판","cost":"4","type":"액션","display":"대금업자"},{"card":"Remodel","set":"기본판","cost":"4","type":"액션","display":"개조"},{"card":"Smithy","set":"기본판","cost":"4","type":"액션","display":"대장장이"},{"card":"Spy","set":"기본판","cost":"4","type":"액션 – 공격","display":"첩자"},{"card":"Thief","set":"기본판","cost":"4","type":"액션 – 공격","display":"도둑"},{"card":"Throne Room","set":"기본판","cost":"4","type":"액션","display":"알현실"},{"card":"Village","set":"기본판","cost":"3","type":"액션","display":"마을"},{"card":"Witch","set":"기본판","cost":"5","type":"액션 – 공격","display":"마녀"},{"card":"Woodcutter","set":"기본판","cost":"3","type":"액션","display":"나무꾼"},{"card":"Workshop","set":"기본판","cost":"3","type":"액션","display":"작업장"},{"card":"Black Market","set":"프로모션 카드","cost":"3","type":"액션","display":"암시장"},{"card":"Envoy","set":"프로모션 카드","cost":"4","type":"액션","display":"사절"},{"card":"Stash","set":"프로모션 카드","cost":"5","type":"재물","display":"비자금"},{"card":"Walled Village","set":"프로모션 카드","cost":"4","type":"액션","display":"성벽 마을"},{"card":"Governor","set":"프로모션 카드","cost":"5","type":"액션","display":"주지사"},{"card":"Prince","set":"프로모션 카드","cost":"8","type":"액션"},{"card":"Bank","set":"번영","cost":"7","type":"재물"},{"card":"Bishop","set":"번영","cost":"4","type":"액션"},{"card":"City","set":"번영","cost":"5","type":"액션"},{"card":"Contraband","set":"번영","cost":"5","type":"재물"},{"card":"Counting House","set":"번영","cost":"5","type":"액션"},{"card":"Expand","set":"번영","cost":"7","type":"액션"},{"card":"Forge","set":"번영","cost":"7","type":"액션"},{"card":"Goons","set":"번영","cost":"6","type":"액션 – 공격"},{"card":"Grand Market","set":"번영","cost":"6","type":"액션"},{"card":"Hoard","set":"번영","cost":"6","type":"재물"},{"card":"King's Court","set":"번영","cost":"7","type":"액션"},{"card":"Loan","set":"번영","cost":"3","type":"재물"},{"card":"Mint","set":"번영","cost":"5","type":"액션"},{"card":"Monument","set":"번영","cost":"4","type":"액션"},{"card":"Mountebank","set":"번영","cost":"5","type":"액션 – 공격"},{"card":"Peddler","set":"번영","cost":"8*","type":"액션"},{"card":"Quarry","set":"번영","cost":"4","type":"재물"},{"card":"Rabble","set":"번영","cost":"5","type":"액션 – 공격"},{"card":"Royal Seal","set":"번영","cost":"5","type":"재물"},{"card":"Talisman","set":"번영","cost":"4","type":"재물"},{"card":"Trade Route","set":"번영","cost":"3","type":"액션"},{"card":"Vault","set":"번영","cost":"5","type":"액션"},{"card":"Venture","set":"번영","cost":"5","type":"재물"},{"card":"Watchtower","set":"번영","cost":"3","type":"액션 – 반응"},{"card":"Worker's Village","set":"번영","cost":"4","type":"액션"},{"card":"Ambassador","set":"정복자의 바다","cost":"3","type":"액션","display":"대사"},{"card":"Bazaar","set":"정복자의 바다","cost":"5","type":"액션","display":"상점가"},{"card":"Caravan","set":"정복자의 바다","cost":"4","type":"액션 – 지속","display":"대상"},{"card":"Cutpurse","set":"정복자의 바다","cost":"4","type":"액션 – 공격","display":"소매치기"},{"card":"Embargo","set":"정복자의 바다","cost":"2","type":"액션","display":"입항금지"},{"card":"Explorer","set":"정복자의 바다","cost":"5","type":"액션","display":"탐험가"},{"card":"Fishing Village","set":"정복자의 바다","cost":"3","type":"액션 – 지속","display":"어촌"},{"card":"Ghost Ship","set":"정복자의 바다","cost":"5","type":"액션 – 공격","display":"유령선"},{"card":"Haven","set":"정복자의 바다","cost":"2","type":"액션 – 지속","display":"정박소"},{"card":"Island","set":"정복자의 바다","cost":"4","type":"액션 – 승점","display":"섬"},{"card":"Lighthouse","set":"정복자의 바다","cost":"2","type":"액션 – 지속","display":"등대"},{"card":"Lookout","set":"정복자의 바다","cost":"3","type":"액션","display":"망루"},{"card":"Merchant Ship","set":"정복자의 바다","cost":"5","type":"액션 – 지속","display":"상선"},{"card":"Native Village","set":"정복자의 바다","cost":"2","type":"액션","display":"원주민 마을"},{"card":"Navigator","set":"정복자의 바다","cost":"4","type":"액션","display":"항해사"},{"card":"Outpost","set":"정복자의 바다","cost":"5","type":"액션 – 지속","display":"전진기지"},{"card":"Pearl Diver","set":"정복자의 바다","cost":"2","type":"액션","display":"진주조개잡이"},{"card":"Pirate Ship","set":"정복자의 바다","cost":"4","type":"액션 – 공격","display":"해적선"},{"card":"Salvager","set":"정복자의 바다","cost":"4","type":"액션","display":"인양작업"},{"card":"Sea Hag","set":"정복자의 바다","cost":"4","type":"액션 – 공격","display":"바다 마녀"},{"card":"Smugglers","set":"정복자의 바다","cost":"3","type":"액션","display":"밀수업자"},{"card":"Tactician","set":"정복자의 바다","cost":"5","type":"액션 – 지속","display":"책략가"},{"card":"Treasure Map","set":"정복자의 바다","cost":"4","type":"액션","display":"보물지도"},{"card":"Treasury","set":"정복자의 바다","cost":"5","type":"액션","display":"보물창고"},{"card":"Warehouse","set":"정복자의 바다","cost":"3","type":"액션","display":"창고"},{"card":"Wharf","set":"정복자의 바다","cost":"5","type":"액션 – 지속","display":"부두"},{"card":"Altar","set":"암흑의 시대","cost":"6","type":"액션","display":"제단"},{"card":"Armory","set":"암흑의 시대","cost":"4","type":"액션","display":"무기고"},{"card":"Band of Misfits","set":"암흑의 시대","cost":"5","type":"액션","display":"부적응자"},{"card":"Bandit Camp","set":"암흑의 시대","cost":"5","type":"액션","display":"산적 소굴"},{"card":"Beggar","set":"암흑의 시대","cost":"2","type":"액션 – 반응","display":"거지"},{"card":"Catacombs","set":"암흑의 시대","cost":"5","type":"액션","display":"납골당"},{"card":"Count","set":"암흑의 시대","cost":"5","type":"액션","display":"백작"},{"card":"Cultist","set":"암흑의 시대","cost":"5","type":"액션 – 공격 – 약탈","display":"광신도"},{"card":"Death Cart","set":"암흑의 시대","cost":"4","type":"액션 – 약탈","display":"시체운반수레"},{"card":"Forager","set":"암흑의 시대","cost":"3","type":"액션","display":"식량 약탈자"},{"card":"Fortress","set":"암흑의 시대","cost":"4","type":"액션","display":"요새"},{"card":"Graverobber","set":"암흑의 시대","cost":"5","type":"액션","display":"도굴꾼"},{"card":"Hermit","set":"암흑의 시대","cost":"3","type":"액션","display":"은둔자"},{"card":"Hunting Grounds","set":"암흑의 시대","cost":"6","type":"액션","display":"사냥터"},{"card":"Ironmonger","set":"암흑의 시대","cost":"4","type":"액션","display":"철물상"},{"card":"Junk Dealer","set":"암흑의 시대","cost":"5","type":"액션","display":"고물상"},{"card":"Marauder","set":"암흑의 시대","cost":"4","type":"액션 – 공격 – 약탈","display":"습격자"},{"card":"Market Square","set":"암흑의 시대","cost":"3","type":"액션 – 반응","display":"시장 광장"},{"card":"Mystic","set":"암흑의 시대","cost":"5","type":"액션","display":"신비주의자"},{"card":"Pillage","set":"암흑의 시대","cost":"5","type":"액션 – 공격","display":"강탈"},{"card":"Poor House","set":"암흑의 시대","cost":"1","type":"액션","display":"빈민구제소"},{"card":"Procession","set":"암흑의 시대","cost":"4","type":"액션","display":"행렬"},{"card":"Rebuild","set":"암흑의 시대","cost":"5","type":"액션","display":"재건축"},{"card":"Rogue","set":"암흑의 시대","cost":"5","type":"액션 – 공격","display":"방랑자"},{"card":"Sage","set":"암흑의 시대","cost":"3","type":"액션","display":"현자"},{"card":"Scavenger","set":"암흑의 시대","cost":"4","type":"액션","display":"쓰레기 뒤지는 사람"},{"card":"Squire","set":"암흑의 시대","cost":"2","type":"액션","display":"종자"},{"card":"Storeroom","set":"암흑의 시대","cost":"3","type":"액션","display":"저장실"},{"card":"Urchin","set":"암흑의 시대","cost":"3","type":"액션 – 공격","display":"양아치"},{"card":"Vagrant","set":"암흑의 시대","cost":"2","type":"액션","display":"부랑자"},{"card":"Wandering Minstrel","set":"암흑의 시대","cost":"4","type":"액션","display":"방랑 시인"},{"card":"Counterfeit","set":"암흑의 시대","cost":"5","type":"재물","display":"위조"},{"card":"Feodum","set":"암흑의 시대","cost":"4","type":"승점","display":"봉토"},{"card":"Rats","set":"암흑의 시대","cost":"4","type":"액션","display":"쥐떼"},{"card":"Knights","set":"암흑의 시대","cost":"5","type":"액션 – 공격 – 기사","display":"기사"},{"card":"Advisor","set":"길드를 위하여","cost":"4","type":"액션","display":"고문"},{"card":"Baker","set":"길드를 위하여","cost":"5","type":"액션","display":"제빵사"},{"card":"Butcher","set":"길드를 위하여","cost":"5","type":"액션","display":"도살자"},{"card":"Candlestick Maker","set":"길드를 위하여","cost":"2","type":"액션","display":"촛대제작자"},{"card":"Doctor","set":"길드를 위하여","cost":"3+","type":"액션","display":"의사"},{"card":"Herald","set":"길드를 위하여","cost":"4+","type":"액션","display":"전령"},{"card":"Journeyman","set":"길드를 위하여","cost":"5","type":"액션","display":"여행자"},{"card":"Masterpiece","set":"길드를 위하여","cost":"3+","type":"재물","display":"명작"},{"card":"Merchant Guild","set":"길드를 위하여","cost":"5","type":"액션","display":"상인조합"},{"card":"Plaza","set":"길드를 위하여","cost":"4","type":"액션","display":"광장"},{"card":"Soothsayer","set":"길드를 위하여","cost":"5","type":"액션 – 공격","display":"예언자"},{"card":"Stonemason","set":"길드를 위하여","cost":"2+","type":"액션","display":"석공"},{"card":"Taxman","set":"길드를 위하여","cost":"4","type":"액션 – 공격","display":"세금징수원"}],"groups":[{"group":"All","description":"모든 도미니언 카드","cards":["Adventurer","Alchemist","Ambassador","Apothecary","Apprentice","Baron","Bazaar","Black Market","Bridge","Bureaucrat","Caravan","Cellar","Chancellor","Chapel","Conspirator","Coppersmith","Council Room","Courtyard","Cutpurse","Duke","Embargo","Envoy","Explorer","Familiar","Feast","Festival","Fishing Village","Gardens","Ghost Ship","Golem","Great Hall","Harem","Haven","Herbalist","Ironworks","Island","Laboratory","Library","Lighthouse","Lookout","Market","Masquerade","Merchant Ship","Militia","Mine","Mining Village","Minion","Moat","Moneylender","Native Village","Navigator","Nobles","Outpost","Pawn","Pearl Diver","Philosopher's Stone","Pirate Ship","Possession","Remodel","Saboteur","Salvager","Scout","Scrying Pool","Sea Hag","Secret Chamber","Shanty Town","Smithy","Smugglers","Spy","Stash","Steward","Swindler","Tactician","Thief","Throne Room","Torturer","Trading Post","Transmute","Treasure Map","Treasury","Tribute","University","Upgrade","Village","Vineyard","Warehouse","Wharf","Wishing Well","Witch","Woodcutter","Workshop","Bank","Bishop","City","Contraband","Counting House","Expand","Forge","Goons","Grand Market","Hoard","King's Court","Loan","Mint","Monument","Mountebank","Peddler","Quarry","Rabble","Royal Seal","Talisman","Trade Route","Vault","Venture","Watchtower","Worker's Village","Fairgrounds","Farming Village","Fortune Teller ","Hamlet","Harvest","Horn of Plenty","Horse Traders","Hunting Party","Jester","Menagerie","Remake","Tournament","Young Witch","Walled Village","Border Village","Cache","Cartographer","Crossroads","Develop","Duchess","Embassy","Farmland","Fool's Gold","Haggler","Highway","Ill-Gotten Gains","Inn","Jack of all Trades","Mandarin","Margrave","Noble Brigand","Nomad Camp","Oasis","Oracle","Scheme","Silk Road","Spice Merchant","Stables","Trader","Tunnel","Governor","Prince","Altar","Armory","Band of Misfits","Bandit Camp","Beggar","Catacombs","Count","Cultist","Death Cart","Forager","Fortress","Graverobber","Hermit","Hunting Grounds","Ironmonger","Junk Dealer","Marauder","Market Square","Mystic","Pillage","Poor House","Procession","Rebuild","Rogue","Sage","Scavenger","Squire","Storeroom","Urchin","Vagrant","Wandering Minstrel","Counterfeit","Feodum","Rats","Knights","Advisor","Baker","Butcher","Candlestick Maker","Doctor","Herald","Journeyman","Masterpiece","Merchant Guild","Plaza","Soothsayer","Stonemason","Taxman"],"display":"모두"},{"group":"Main Set","description":"Cards from the first Dominion","cards":["Adventurer","Bureaucrat","Cellar","Chancellor","Chapel","Council Room","Feast","Festival","Gardens","Laboratory","Library","Market","Militia","Mine","Moat","Moneylender","Remodel","Smithy","Spy","Thief","Throne Room","Village","Witch","Woodcutter","Workshop"],"display":"기본판"},{"group":"Intrigue","description":"Cards from Dominion: Intrigue","cards":["Baron","Bridge","Conspirator","Coppersmith","Courtyard","Duke","Great Hall","Harem","Ironworks","Masquerade","Mining Village","Minion","Nobles","Pawn","Saboteur","Scout","Secret Chamber","Shanty Town","Steward","Swindler","Torturer","Trading Post","Tribute","Upgrade","Wishing Well"],"display":"장막 뒤의 사람들"},{"group":"Seaside","description":"Cards from Dominion: Seaside","cards":["Ambassador","Bazaar","Caravan","Cutpurse","Embargo","Explorer","Fishing Village","Ghost Ship","Haven","Island","Lighthouse","Lookout","Merchant Ship","Native Village","Navigator","Outpost","Pearl Diver","Pirate Ship","Salvager","Sea Hag","Smugglers","Tactician","Treasure Map","Treasury","Warehouse","Wharf"],"display":"정복자의 바다"},{"group":"Alchemy","description":"Cards from Dominion: Alchemy","cards":["Alchemist","Apothecary","Apprentice","Familiar","Golem","Herbalist","Philosopher's Stone","Possession","Scrying Pool","Transmute","University","Vineyard"],"display":"현자의 연금술"},{"group":"Prosperity","description":"Cards from Dominion: Prosperity","cards":["Bank","Bishop","City","Contraband","Counting House","Expand","Forge","Goons","Grand Market","Hoard","King's Court","Loan","Mint","Monument","Mountebank","Peddler","Quarry","Rabble","Royal Seal","Talisman","Trade Route","Vault","Venture","Watchtower","Worker's Village"],"display":"번영"},{"group":"Cornucopia","description":"Cards from Dominion: Cornucopia","cards":["Fairgrounds","Farming Village","Fortune Teller ","Hamlet","Harvest","Horn of Plenty","Horse Traders","Hunting Party","Jester","Menagerie","Remake","Tournament","Young Witch"],"display":"풍요의 뿔"},{"group":"Hinterlands","description":"Cards from Dominion: Hinterlands","cards":["Border Village","Cache","Cartographer","Crossroads","Develop","Duchess","Embassy","Farmland","Fool's Gold","Haggler","Highway","Ill-Gotten Gains","Inn","Jack of all Trades","Mandarin","Margrave","Noble Brigand","Nomad Camp","Oasis","Oracle","Scheme","Silk Road","Spice Merchant","Stables","Trader","Tunnel"],"display":"오지의 사람들"},{"group":"Dark Ages","description":"Cards from Dominion: Dark Ages","cards":["Altar","Armory","Band of Misfits","Bandit Camp","Beggar","Catacombs","Count","Cultist","Death Cart","Forager","Fortress","Graverobber","Hermit","Hunting Grounds","Ironmonger","Junk Dealer","Marauder","Market Square","Mystic","Pillage","Poor House","Procession","Rebuild","Rogue","Sage","Scavenger","Squire","Storeroom","Urchin","Vagrant","Wandering Minstrel","Counterfeit","Feodum","Rats","Knights"],"display":"암흑의 시대"},{"group":"Guilds","description":"Cards from Dominion: Guilds","cards":["Advisor","Baker","Butcher","Candlestick Maker","Doctor","Herald","Journeyman","Masterpiece","Merchant Guild","Plaza","Soothsayer","Stonemason","Taxman"],"display":"길드를 위하여"},{"group":"Promo","description":"프로모션 카드","cards":["Black Market","Envoy","Stash","Walled Village","Governor","Prince"],"display":"프로모션 카드"},{"group":"Defense","description":"방어 카드","cards":["Lighthouse","Moat","Secret Chamber","Watchtower","Horse Traders","Fool's Gold","Trader","Tunnel","Market Square"],"display":"방어"},{"group":"Attack","description":"공격 카드","cards":["Ambassador","Bureaucrat","Cutpurse","Familiar","Ghost Ship","Militia","Minion","Pirate Ship","Saboteur","Scrying Pool","Sea Hag","Spy","Swindler","Thief","Torturer","Witch","Goons","Mountebank","Rabble","Fortune Teller ","Jester","Young Witch","Margrave","Noble Brigand","Oracle","Cultist","Marauder","Pillage","Rogue","Urchin","Knights","Soothsayer","Taxman"],"display":"공격"},{"group":"Cost 2","description":"비용이 2 이하인 카드","cards":["Cellar","Chapel","Courtyard","Embargo","Haven","Herbalist","Lighthouse","Moat","Native Village","Pawn","Pearl Diver","Secret Chamber","Hamlet","Crossroads","Duchess","Fool's Gold","Beggar","Poor House","Squire","Vagrant","Candlestick Maker","Stonemason"]},{"group":"Cost 3","description":"비용이 3인 카드","cards":["Ambassador","Black Market","Chancellor","Fishing Village","Great Hall","Lookout","Masquerade","Shanty Town","Smugglers","Steward","Swindler","Village","Warehouse","Wishing Well","Woodcutter","Workshop","Loan","Trade Route","Watchtower","Fortune Teller ","Menagerie","Develop","Oasis","Oracle","Scheme","Tunnel","Forager","Hermit","Market Square","Sage","Storeroom","Urchin","Doctor","Masterpiece"]},{"group":"Cost 3-","description":"비용이 3 이하인 카드","cards":["Ambassador","Black Market","Cellar","Chancellor","Chapel","Courtyard","Embargo","Fishing Village","Great Hall","Haven","Herbalist","Lighthouse","Lookout","Masquerade","Moat","Native Village","Pawn","Pearl Diver","Secret Chamber","Shanty Town","Smugglers","Steward","Swindler","Village","Warehouse","Wishing Well","Woodcutter","Workshop","Loan","Trade Route","Watchtower","Fortune Teller ","Hamlet","Menagerie","Crossroads","Develop","Duchess","Fool's Gold","Oasis","Oracle","Scheme","Tunnel","Beggar","Forager","Hermit","Market Square","Poor House","Sage","Squire","Storeroom","Urchin","Vagrant","Candlestick Maker","Doctor","Masterpiece","Stonemason"],"display":"Cost 3 이하"},{"group":"Cost 4","description":"비용이 4인 카드","cards":["Baron","Bridge","Bureaucrat","Caravan","Conspirator","Coppersmith","Cutpurse","Envoy","Feast","Gardens","Ironworks","Island","Militia","Mining Village","Moneylender","Navigator","Pirate Ship","Remodel","Salvager","Scout","Sea Hag","Smithy","Spy","Thief","Throne Room","Treasure Map","Bishop","Monument","Quarry","Talisman","Worker's Village","Farming Village","Horse Traders","Remake","Tournament","Young Witch","Walled Village","Jack of all Trades","Noble Brigand","Nomad Camp","Silk Road","Spice Merchant","Trader","Armory","Death Cart","Fortress","Ironmonger","Marauder","Procession","Scavenger","Wandering Minstrel","Feodum","Rats","Advisor","Herald","Plaza","Taxman"]},{"group":"Cost 5","description":"비용이 5인 카드","cards":["Apprentice","Bazaar","Council Room","Duke","Explorer","Festival","Ghost Ship","Laboratory","Library","Market","Merchant Ship","Mine","Minion","Outpost","Saboteur","Stash","Tactician","Torturer","Trading Post","Treasury","Tribute","Upgrade","Wharf","Witch","City","Contraband","Counting House","Mint","Mountebank","Rabble","Royal Seal","Vault","Venture","Harvest","Horn of Plenty","Hunting Party","Jester","Cache","Cartographer","Embassy","Haggler","Highway","Ill-Gotten Gains","Inn","Mandarin","Margrave","Stables","Governor","Band of Misfits","Bandit Camp","Catacombs","Count","Cultist","Graverobber","Junk Dealer","Mystic","Pillage","Rebuild","Rogue","Counterfeit","Knights","Baker","Butcher","Journeyman","Merchant Guild","Soothsayer"]},{"group":"Cost 6","description":"비용이 6인 카드","cards":["Adventurer","Harem","Nobles","Goons","Grand Market","Hoard","Fairgrounds","Border Village","Farmland","Altar","Hunting Grounds"]},{"group":"Cost 6+","description":"비용이 6이상인 카드","cards":["Adventurer","Harem","Nobles","Bank","Expand","Forge","Goons","Grand Market","Hoard","King's Court","Peddler","Fairgrounds","Border Village","Farmland","Altar","Hunting Grounds"],"display":"Cost 6 이상"},{"group":"Cost 7+","description":"비용이 7이상인 카드","cards":["Bank","Expand","Forge","King's Court","Peddler"],"display":"Cost 7 이상"},{"group":"Potion","description":"포션을 이용하는 카드","cards":["Alchemist","Apothecary","Apprentice","Familiar","Golem","Philosopher's Stone","Possession","Scrying Pool","Transmute","University","Vineyard"],"display":"포션"},{"group":"Component","description":"토큰 등 구성품이 추가로 필요한 카드","cards":["Embargo","Island","Native Village","Pirate Ship","Bishop","Goons","Monument","Trade Route","Baker","Butcher","Candlestick Maker","Merchant Guild","Plaza"],"display":"구성품"},{"group":"Victory","description":"승점 카드","cards":["Duke","Gardens","Great Hall","Harem","Island","Nobles","Vineyard","Fairgrounds","Farmland","Silk Road","Tunnel","Feodum"],"display":"승점"},{"group":"Duration","description":"지속효과를 가진 카드","cards":["Caravan","Fishing Village","Haven","Lighthouse","Merchant Ship","Outpost","Tactician","Wharf"],"display":"지속"},{"group":"Treasure","description":"재물 카드","cards":["Harem","Philosopher's Stone","Stash","Bank","Contraband","Hoard","Loan","Quarry","Royal Seal","Talisman","Venture","Horn of Plenty","Cache","Fool's Gold","Ill-Gotten Gains","Counterfeit","Masterpiece"],"display":"재물"},{"group":"Double Type","description":"예) 귀족: 승점카드이면서 액션카드","cards":["Great Hall","Harem","Island","Nobles","Fool's Gold","Tunnel"],"display":"다기능"},{"group":"Deck Reduction","description":"덱 수를 줄일 수 있는 카드","cards":["Ambassador","Apprentice","Chapel","Island","Lookout","Masquerade","Moneylender","Salvager","Steward","Trading Post","Upgrade","Bishop","Forge","Loan","Trade Route","Remake","Jack of all Trades","Count","Death Cart","Forager","Junk Dealer","Counterfeit","Doctor"],"display":"덱 감소"},{"group":"Card Ordering","description":"카드 순서를 변경할 수 있는 카드","cards":["Apothecary","Courtyard","Navigator","Pearl Diver","Scout","Treasury","Rabble","Royal Seal","Watchtower","Walled Village","Cartographer","Develop","Duchess","Jack of all Trades","Mandarin","Oracle","Armory","Beggar","Count","Graverobber","Scavenger","Wandering Minstrel","Doctor","Taxman"],"display":"카드 순서 변경"},{"group":"Plus Curses","description":"다른 플레이어에게 저주 카드를 줄 수 있는 카드","cards":["Ambassador","Embargo","Familiar","Masquerade","Sea Hag","Swindler","Torturer","Witch","Mountebank","Jester","Young Witch","Ill-Gotten Gains","Soothsayer"],"display":"저주 추가"},{"group":"Plus Card","description":"핸드에 카드를 추가할 수 있는 카드","cards":["Alchemist","Apothecary","Caravan","Conspirator","Council Room","Courtyard","Familiar","Ghost Ship","Golem","Great Hall","Haven","Ironworks","Laboratory","Library","Market","Masquerade","Mining Village","Minion","Moat","Nobles","Pawn","Pearl Diver","Scrying Pool","Shanty Town","Smithy","Spy","Steward","Tactician","Torturer","Treasury","Tribute","Upgrade","Village","Warehouse","Wharf","Wishing Well","Witch","Bank","Counting House","Grand Market","Peddler","Rabble","Vault","Venture","Watchtower","Worker's Village","Hamlet","Hunting Party","Menagerie","Tournament","Young Witch","Walled Village","Border Village","Cartographer","Crossroads","Embassy","Highway","Inn","Jack of all Trades","Margrave","Oasis","Oracle","Scheme","Spice Merchant","Stables","Governor","Bandit Camp","Catacombs","Cultist","Fortress","Hunting Grounds","Ironmonger","Junk Dealer","Market Square","Mystic","Sage","Storeroom","Urchin","Vagrant","Wandering Minstrel","Rats","Advisor","Baker","Herald","Journeyman","Plaza"],"display":"카드 추가"},{"group":"Plus Action","description":"액션 추가할 수 있는 카드","cards":["Alchemist","Apothecary","Apprentice","Bazaar","Caravan","Cellar","Conspirator","Familiar","Festival","Fishing Village","Golem","Great Hall","Haven","Ironworks","Laboratory","Lighthouse","Lookout","Market","Mining Village","Minion","Native Village","Nobles","Pawn","Pearl Diver","Scout","Scrying Pool","Shanty Town","Spy","Tactician","Treasury","Tribute","University","Upgrade","Village","Warehouse","Wishing Well","City","Grand Market","Peddler","Worker's Village","Farming Village","Hamlet","Hunting Party","Menagerie","Tournament","Walled Village","Border Village","Cartographer","Crossroads","Highway","Inn","Oasis","Scheme","Spice Merchant","Stables","Governor","Prince","Bandit Camp","Forager","Fortress","Ironmonger","Junk Dealer","Market Square","Mystic","Rebuild","Sage","Squire","Urchin","Vagrant","Wandering Minstrel","Rats","Advisor","Baker","Candlestick Maker","Herald","Plaza"],"display":"액션 추가"},{"group":"Plus More Action","description":"액션을 2회 이상 추가할 수 있는 카드","cards":["Bazaar","Festival","Fishing Village","Golem","Mining Village","Native Village","Nobles","Shanty Town","Tribute","University","Village","City","Worker's Village","Farming Village","Hamlet","Walled Village","Border Village","Crossroads","Inn","Bandit Camp","Fortress","Ironmonger","Squire","Wandering Minstrel","Herald","Plaza"],"display":"액션 2회 이상 추가"},{"group":"Plus Coin","description":"돈을 추가할 수 있는 카드","cards":["Baron","Bazaar","Black Market","Bridge","Chancellor","Conspirator","Cutpurse","Embargo","Festival","Fishing Village","Herbalist","Ironworks","Lighthouse","Market","Merchant Ship","Militia","Mining Village","Minion","Navigator","Pawn","Philosopher's Stone","Salvager","Steward","Swindler","Treasury","Tribute","Woodcutter","Bishop","City","Goons","Grand Market","Monument","Mountebank","Peddler","Trade Route","Vault","Fortune Teller ","Harvest","Horse Traders","Jester","Tournament","Duchess","Haggler","Mandarin","Noble Brigand","Nomad Camp","Oasis","Spice Merchant","Count","Death Cart","Forager","Ironmonger","Junk Dealer","Mystic","Poor House","Rogue","Scavenger","Squire","Storeroom","Baker","Butcher","Candlestick Maker","Merchant Guild","Plaza"],"display":"돈 추가"},{"group":"Plus Buy","description":"구매를 추가할 수 있는 카드","cards":["Baron","Bridge","Council Room","Festival","Herbalist","Market","Pawn","Salvager","Tactician","Wharf","Woodcutter","City","Contraband","Goons","Grand Market","Trade Route","Worker's Village","Horse Traders","Develop","Margrave","Nomad Camp","Spice Merchant","Forager","Market Square","Squire","Storeroom","Counterfeit","Candlestick Maker","Merchant Guild"],"display":"구매 추가"},{"group":"Gain","description":"구매없이 카드를 얻을 수 있는 카드","cards":["Baron","Bureaucrat","Explorer","Ironworks","Smugglers","Thief","Treasure Map","University","Workshop","Hoard","Mint","Talisman","Horn of Plenty","Tournament","Duchess","Jack of all Trades","Altar","Armory","Bandit Camp","Beggar","Catacombs","Count","Graverobber","Hermit","Hunting Grounds","Marauder","Pillage","Rogue","Squire","Urchin","Feodum","Rats","Soothsayer","Stonemason","Taxman"],"display":"획득"},{"group":"Looter","description":"다른 플레이어에게 폐허 카드를 줄 수 있는 카드","cards":["Cultist","Death Cart","Marauder"],"display":"약탈"},{"group":"Gain Spoils","description":"전리품 카드를 얻을 수 있는 카드","cards":["Bandit Camp","Marauder","Pillage"],"display":"전리품 획득"}],"basic_cards":[{"card":"Potion","set":"현자의 연금술","cost":"4","type":"재물"},{"card":"Colony","set":"번영","cost":"11","type":"승점"},{"card":"Platinum","set":"번영","cost":"9","type":"재물"},{"card":"Shelter","set":"암흑의 시대","cost":"1","type":"Shelter","display":"피난처"},{"card":"Ruins","set":"암흑의 시대","cost":"0","type":"액션 – 공격","display":"폐허"},{"card":"Spoils","set":"암흑의 시대","cost":"0*","type":"재물","display":"전리품"},{"card":"Madman","set":"암흑의 시대","cost":"0*","type":"액션","display":"미치광이"},{"card":"Mercenary","set":"암흑의 시대","cost":"0*","type":"액션 – 공격","display":"용병"}]}
+{
+  "cards": [
+    {
+      "card": "Alchemist",
+      "set": "현자의 연금술",
+      "cost": "P3",
+      "type": "액션"
+    },
+    {
+      "card": "Apothecary",
+      "set": "현자의 연금술",
+      "cost": "P2",
+      "type": "액션"
+    },
+    {
+      "card": "Apprentice",
+      "set": "현자의 연금술",
+      "cost": "5",
+      "type": "액션"
+    },
+    {
+      "card": "Familiar",
+      "set": "현자의 연금술",
+      "cost": "P3",
+      "type": "액션 – 공격"
+    },
+    {
+      "card": "Golem",
+      "set": "현자의 연금술",
+      "cost": "P4",
+      "type": "액션"
+    },
+    {
+      "card": "Herbalist",
+      "set": "현자의 연금술",
+      "cost": "2",
+      "type": "액션"
+    },
+    {
+      "card": "Philosopher's Stone",
+      "set": "현자의 연금술",
+      "cost": "P3",
+      "type": "재물"
+    },
+    {
+      "card": "Possession",
+      "set": "현자의 연금술",
+      "cost": "P6",
+      "type": "액션"
+    },
+    {
+      "card": "Scrying Pool",
+      "set": "현자의 연금술",
+      "cost": "P2",
+      "type": "액션 – 공격"
+    },
+    {
+      "card": "Transmute",
+      "set": "현자의 연금술",
+      "cost": "P0",
+      "type": "액션"
+    },
+    {
+      "card": "University",
+      "set": "현자의 연금술",
+      "cost": "P2",
+      "type": "액션"
+    },
+    {
+      "card": "Vineyard",
+      "set": "현자의 연금술",
+      "cost": "P0",
+      "type": "승점"
+    },
+    {
+      "card": "Fairgrounds",
+      "set": "풍요의 뿔",
+      "cost": "6",
+      "type": "승점"
+    },
+    {
+      "card": "Farming Village",
+      "set": "풍요의 뿔",
+      "cost": "4",
+      "type": "액션"
+    },
+    {
+      "card": "Fortune Teller ",
+      "set": "풍요의 뿔",
+      "cost": "3",
+      "type": "액션 – 공격"
+    },
+    {
+      "card": "Hamlet",
+      "set": "풍요의 뿔",
+      "cost": "2",
+      "type": "액션"
+    },
+    {
+      "card": "Harvest",
+      "set": "풍요의 뿔",
+      "cost": "5",
+      "type": "액션"
+    },
+    {
+      "card": "Horn of Plenty",
+      "set": "풍요의 뿔",
+      "cost": "5",
+      "type": "재물"
+    },
+    {
+      "card": "Horse Traders",
+      "set": "풍요의 뿔",
+      "cost": "4",
+      "type": "액션 – 반응"
+    },
+    {
+      "card": "Hunting Party",
+      "set": "풍요의 뿔",
+      "cost": "5",
+      "type": "액션"
+    },
+    {
+      "card": "Jester",
+      "set": "풍요의 뿔",
+      "cost": "5",
+      "type": "액션 – 공격"
+    },
+    {
+      "card": "Menagerie",
+      "set": "풍요의 뿔",
+      "cost": "3",
+      "type": "액션"
+    },
+    {
+      "card": "Remake",
+      "set": "풍요의 뿔",
+      "cost": "4",
+      "type": "액션"
+    },
+    {
+      "card": "Tournament",
+      "set": "풍요의 뿔",
+      "cost": "4",
+      "type": "액션"
+    },
+    {
+      "card": "Young Witch",
+      "set": "풍요의 뿔",
+      "cost": "4",
+      "type": "액션 – 공격"
+    },
+    {
+      "card": "Border Village",
+      "set": "오지의 사람들",
+      "cost": "6",
+      "type": "액션"
+    },
+    {
+      "card": "Cache",
+      "set": "오지의 사람들",
+      "cost": "5",
+      "type": "재물"
+    },
+    {
+      "card": "Cartographer",
+      "set": "오지의 사람들",
+      "cost": "5",
+      "type": "액션"
+    },
+    {
+      "card": "Crossroads",
+      "set": "오지의 사람들",
+      "cost": "2",
+      "type": "액션"
+    },
+    {
+      "card": "Develop",
+      "set": "오지의 사람들",
+      "cost": "3",
+      "type": "액션"
+    },
+    {
+      "card": "Duchess",
+      "set": "오지의 사람들",
+      "cost": "2",
+      "type": "액션"
+    },
+    {
+      "card": "Embassy",
+      "set": "오지의 사람들",
+      "cost": "5",
+      "type": "액션"
+    },
+    {
+      "card": "Farmland",
+      "set": "오지의 사람들",
+      "cost": "6",
+      "type": "승점"
+    },
+    {
+      "card": "Fool's Gold",
+      "set": "오지의 사람들",
+      "cost": "2",
+      "type": "재물 – 반응"
+    },
+    {
+      "card": "Haggler",
+      "set": "오지의 사람들",
+      "cost": "5",
+      "type": "액션"
+    },
+    {
+      "card": "Highway",
+      "set": "오지의 사람들",
+      "cost": "5",
+      "type": "액션"
+    },
+    {
+      "card": "Ill-Gotten Gains",
+      "set": "오지의 사람들",
+      "cost": "5",
+      "type": "재물"
+    },
+    {
+      "card": "Inn",
+      "set": "오지의 사람들",
+      "cost": "5",
+      "type": "액션"
+    },
+    {
+      "card": "Jack of all Trades",
+      "set": "오지의 사람들",
+      "cost": "4",
+      "type": "액션"
+    },
+    {
+      "card": "Mandarin",
+      "set": "오지의 사람들",
+      "cost": "5",
+      "type": "액션"
+    },
+    {
+      "card": "Margrave",
+      "set": "오지의 사람들",
+      "cost": "5",
+      "type": "액션 – 공격"
+    },
+    {
+      "card": "Noble Brigand",
+      "set": "오지의 사람들",
+      "cost": "4",
+      "type": "액션 – 공격"
+    },
+    {
+      "card": "Nomad Camp",
+      "set": "오지의 사람들",
+      "cost": "4",
+      "type": "액션"
+    },
+    {
+      "card": "Oasis",
+      "set": "오지의 사람들",
+      "cost": "3",
+      "type": "액션"
+    },
+    {
+      "card": "Oracle",
+      "set": "오지의 사람들",
+      "cost": "3",
+      "type": "액션"
+    },
+    {
+      "card": "Scheme",
+      "set": "오지의 사람들",
+      "cost": "3",
+      "type": "액션"
+    },
+    {
+      "card": "Silk Road",
+      "set": "오지의 사람들",
+      "cost": "4",
+      "type": "승점"
+    },
+    {
+      "card": "Spice Merchant",
+      "set": "오지의 사람들",
+      "cost": "4",
+      "type": "액션"
+    },
+    {
+      "card": "Stables",
+      "set": "오지의 사람들",
+      "cost": "5",
+      "type": "액션"
+    },
+    {
+      "card": "Trader",
+      "set": "오지의 사람들",
+      "cost": "4",
+      "type": "액션 – 반응"
+    },
+    {
+      "card": "Tunnel",
+      "set": "오지의 사람들",
+      "cost": "3",
+      "type": "승점 – 반응"
+    },
+    {
+      "card": "Baron",
+      "set": "정복자의 바다",
+      "cost": "4",
+      "type": "액션",
+      "display": "남작"
+    },
+    {
+      "card": "Bridge",
+      "set": "정복자의 바다",
+      "cost": "4",
+      "type": "액션",
+      "display": "다리"
+    },
+    {
+      "card": "Conspirator",
+      "set": "정복자의 바다",
+      "cost": "4",
+      "type": "액션",
+      "display": "공모자"
+    },
+    {
+      "card": "Coppersmith",
+      "set": "정복자의 바다",
+      "cost": "4",
+      "type": "액션",
+      "display": "동세공인"
+    },
+    {
+      "card": "Courtyard",
+      "set": "정복자의 바다",
+      "cost": "2",
+      "type": "액션",
+      "display": "안마당"
+    },
+    {
+      "card": "Duke",
+      "set": "정복자의 바다",
+      "cost": "5",
+      "type": "승점",
+      "display": "공작"
+    },
+    {
+      "card": "Great Hall",
+      "set": "정복자의 바다",
+      "cost": "3",
+      "type": "액션 – 승점",
+      "display": "대회당"
+    },
+    {
+      "card": "Harem",
+      "set": "정복자의 바다",
+      "cost": "6",
+      "type": "재물 – 승점",
+      "display": "하렘"
+    },
+    {
+      "card": "Ironworks",
+      "set": "정복자의 바다",
+      "cost": "4",
+      "type": "액션",
+      "display": "철공소"
+    },
+    {
+      "card": "Masquerade",
+      "set": "정복자의 바다",
+      "cost": "3",
+      "type": "액션",
+      "display": "가면무도회"
+    },
+    {
+      "card": "Mining Village",
+      "set": "정복자의 바다",
+      "cost": "4",
+      "type": "액션",
+      "display": "광산촌"
+    },
+    {
+      "card": "Minion",
+      "set": "정복자의 바다",
+      "cost": "5",
+      "type": "액션 – 공격",
+      "display": "하수인"
+    },
+    {
+      "card": "Nobles",
+      "set": "정복자의 바다",
+      "cost": "6",
+      "type": "액션 – 승점",
+      "display": "귀족"
+    },
+    {
+      "card": "Pawn",
+      "set": "정복자의 바다",
+      "cost": "2",
+      "type": "액션",
+      "display": "졸개"
+    },
+    {
+      "card": "Saboteur",
+      "set": "정복자의 바다",
+      "cost": "5",
+      "type": "액션 – 공격",
+      "display": "파괴공작원"
+    },
+    {
+      "card": "Scout",
+      "set": "정복자의 바다",
+      "cost": "4",
+      "type": "액션",
+      "display": "정찰병"
+    },
+    {
+      "card": "Secret Chamber",
+      "set": "정복자의 바다",
+      "cost": "2",
+      "type": "액션 – 반응",
+      "display": "비밀의 방"
+    },
+    {
+      "card": "Shanty Town",
+      "set": "정복자의 바다",
+      "cost": "3",
+      "type": "액션",
+      "display": "빈민가"
+    },
+    {
+      "card": "Steward",
+      "set": "정복자의 바다",
+      "cost": "3",
+      "type": "액션",
+      "display": "집사"
+    },
+    {
+      "card": "Swindler",
+      "set": "정복자의 바다",
+      "cost": "3",
+      "type": "액션 – 공격",
+      "display": "사기꾼"
+    },
+    {
+      "card": "Torturer",
+      "set": "정복자의 바다",
+      "cost": "5",
+      "type": "액션 – 공격",
+      "display": "고문기술자"
+    },
+    {
+      "card": "Trading Post",
+      "set": "정복자의 바다",
+      "cost": "5",
+      "type": "액션",
+      "display": "교역소"
+    },
+    {
+      "card": "Tribute",
+      "set": "정복자의 바다",
+      "cost": "5",
+      "type": "액션",
+      "display": "공물"
+    },
+    {
+      "card": "Upgrade",
+      "set": "정복자의 바다",
+      "cost": "5",
+      "type": "액션",
+      "display": "개선"
+    },
+    {
+      "card": "Wishing Well",
+      "set": "정복자의 바다",
+      "cost": "3",
+      "type": "액션",
+      "display": "소원의 우물"
+    },
+    {
+      "card": "Adventurer",
+      "set": "기본판",
+      "cost": "6",
+      "type": "액션",
+      "display": "모험가"
+    },
+    {
+      "card": "Bureaucrat",
+      "set": "기본판",
+      "cost": "4",
+      "type": "액션 – 공격",
+      "display": "관료"
+    },
+    {
+      "card": "Cellar",
+      "set": "기본판",
+      "cost": "2",
+      "type": "액션",
+      "display": "저장고"
+    },
+    {
+      "card": "Chancellor",
+      "set": "기본판",
+      "cost": "3",
+      "type": "액션",
+      "display": "법관"
+    },
+    {
+      "card": "Chapel",
+      "set": "기본판",
+      "cost": "2",
+      "type": "액션",
+      "display": "예배당"
+    },
+    {
+      "card": "Council Room",
+      "set": "기본판",
+      "cost": "5",
+      "type": "액션",
+      "display": "회의실"
+    },
+    {
+      "card": "Feast",
+      "set": "기본판",
+      "cost": "4",
+      "type": "액션",
+      "display": "연회"
+    },
+    {
+      "card": "Festival",
+      "set": "기본판",
+      "cost": "5",
+      "type": "액션",
+      "display": "축제"
+    },
+    {
+      "card": "Gardens",
+      "set": "기본판",
+      "cost": "4",
+      "type": "승점",
+      "display": "정원"
+    },
+    {
+      "card": "Laboratory",
+      "set": "기본판",
+      "cost": "5",
+      "type": "액션",
+      "display": "실험실"
+    },
+    {
+      "card": "Library",
+      "set": "기본판",
+      "cost": "5",
+      "type": "액션",
+      "display": "도서관"
+    },
+    {
+      "card": "Market",
+      "set": "기본판",
+      "cost": "5",
+      "type": "액션",
+      "display": "시장"
+    },
+    {
+      "card": "Militia",
+      "set": "기본판",
+      "cost": "4",
+      "type": "액션 – 공격",
+      "display": "민병대"
+    },
+    {
+      "card": "Mine",
+      "set": "기본판",
+      "cost": "5",
+      "type": "액션",
+      "display": "광산"
+    },
+    {
+      "card": "Moat",
+      "set": "기본판",
+      "cost": "2",
+      "type": "액션 – 반응",
+      "display": "해자"
+    },
+    {
+      "card": "Moneylender",
+      "set": "기본판",
+      "cost": "4",
+      "type": "액션",
+      "display": "대금업자"
+    },
+    {
+      "card": "Remodel",
+      "set": "기본판",
+      "cost": "4",
+      "type": "액션",
+      "display": "개조"
+    },
+    {
+      "card": "Smithy",
+      "set": "기본판",
+      "cost": "4",
+      "type": "액션",
+      "display": "대장장이"
+    },
+    {
+      "card": "Spy",
+      "set": "기본판",
+      "cost": "4",
+      "type": "액션 – 공격",
+      "display": "첩자"
+    },
+    {
+      "card": "Thief",
+      "set": "기본판",
+      "cost": "4",
+      "type": "액션 – 공격",
+      "display": "도둑"
+    },
+    {
+      "card": "Throne Room",
+      "set": "기본판",
+      "cost": "4",
+      "type": "액션",
+      "display": "알현실"
+    },
+    {
+      "card": "Village",
+      "set": "기본판",
+      "cost": "3",
+      "type": "액션",
+      "display": "마을"
+    },
+    {
+      "card": "Witch",
+      "set": "기본판",
+      "cost": "5",
+      "type": "액션 – 공격",
+      "display": "마녀"
+    },
+    {
+      "card": "Woodcutter",
+      "set": "기본판",
+      "cost": "3",
+      "type": "액션",
+      "display": "나무꾼"
+    },
+    {
+      "card": "Workshop",
+      "set": "기본판",
+      "cost": "3",
+      "type": "액션",
+      "display": "작업장"
+    },
+    {
+      "card": "Black Market",
+      "set": "프로모션 카드",
+      "cost": "3",
+      "type": "액션",
+      "display": "암시장"
+    },
+    {
+      "card": "Envoy",
+      "set": "프로모션 카드",
+      "cost": "4",
+      "type": "액션",
+      "display": "사절"
+    },
+    {
+      "card": "Stash",
+      "set": "프로모션 카드",
+      "cost": "5",
+      "type": "재물",
+      "display": "비자금"
+    },
+    {
+      "card": "Walled Village",
+      "set": "프로모션 카드",
+      "cost": "4",
+      "type": "액션",
+      "display": "성벽 마을"
+    },
+    {
+      "card": "Governor",
+      "set": "프로모션 카드",
+      "cost": "5",
+      "type": "액션",
+      "display": "주지사"
+    },
+    {
+      "card": "Prince",
+      "set": "프로모션 카드",
+      "cost": "8",
+      "type": "액션"
+    },
+    {
+      "card": "Bank",
+      "set": "번영",
+      "cost": "7",
+      "type": "재물"
+    },
+    {
+      "card": "Bishop",
+      "set": "번영",
+      "cost": "4",
+      "type": "액션"
+    },
+    {
+      "card": "City",
+      "set": "번영",
+      "cost": "5",
+      "type": "액션"
+    },
+    {
+      "card": "Contraband",
+      "set": "번영",
+      "cost": "5",
+      "type": "재물"
+    },
+    {
+      "card": "Counting House",
+      "set": "번영",
+      "cost": "5",
+      "type": "액션"
+    },
+    {
+      "card": "Expand",
+      "set": "번영",
+      "cost": "7",
+      "type": "액션"
+    },
+    {
+      "card": "Forge",
+      "set": "번영",
+      "cost": "7",
+      "type": "액션"
+    },
+    {
+      "card": "Goons",
+      "set": "번영",
+      "cost": "6",
+      "type": "액션 – 공격"
+    },
+    {
+      "card": "Grand Market",
+      "set": "번영",
+      "cost": "6",
+      "type": "액션"
+    },
+    {
+      "card": "Hoard",
+      "set": "번영",
+      "cost": "6",
+      "type": "재물"
+    },
+    {
+      "card": "King's Court",
+      "set": "번영",
+      "cost": "7",
+      "type": "액션"
+    },
+    {
+      "card": "Loan",
+      "set": "번영",
+      "cost": "3",
+      "type": "재물"
+    },
+    {
+      "card": "Mint",
+      "set": "번영",
+      "cost": "5",
+      "type": "액션"
+    },
+    {
+      "card": "Monument",
+      "set": "번영",
+      "cost": "4",
+      "type": "액션"
+    },
+    {
+      "card": "Mountebank",
+      "set": "번영",
+      "cost": "5",
+      "type": "액션 – 공격"
+    },
+    {
+      "card": "Peddler",
+      "set": "번영",
+      "cost": "8*",
+      "type": "액션"
+    },
+    {
+      "card": "Quarry",
+      "set": "번영",
+      "cost": "4",
+      "type": "재물"
+    },
+    {
+      "card": "Rabble",
+      "set": "번영",
+      "cost": "5",
+      "type": "액션 – 공격"
+    },
+    {
+      "card": "Royal Seal",
+      "set": "번영",
+      "cost": "5",
+      "type": "재물"
+    },
+    {
+      "card": "Talisman",
+      "set": "번영",
+      "cost": "4",
+      "type": "재물"
+    },
+    {
+      "card": "Trade Route",
+      "set": "번영",
+      "cost": "3",
+      "type": "액션"
+    },
+    {
+      "card": "Vault",
+      "set": "번영",
+      "cost": "5",
+      "type": "액션"
+    },
+    {
+      "card": "Venture",
+      "set": "번영",
+      "cost": "5",
+      "type": "재물"
+    },
+    {
+      "card": "Watchtower",
+      "set": "번영",
+      "cost": "3",
+      "type": "액션 – 반응"
+    },
+    {
+      "card": "Worker's Village",
+      "set": "번영",
+      "cost": "4",
+      "type": "액션"
+    },
+    {
+      "card": "Ambassador",
+      "set": "정복자의 바다",
+      "cost": "3",
+      "type": "액션",
+      "display": "대사"
+    },
+    {
+      "card": "Bazaar",
+      "set": "정복자의 바다",
+      "cost": "5",
+      "type": "액션",
+      "display": "상점가"
+    },
+    {
+      "card": "Caravan",
+      "set": "정복자의 바다",
+      "cost": "4",
+      "type": "액션 – 지속",
+      "display": "대상"
+    },
+    {
+      "card": "Cutpurse",
+      "set": "정복자의 바다",
+      "cost": "4",
+      "type": "액션 – 공격",
+      "display": "소매치기"
+    },
+    {
+      "card": "Embargo",
+      "set": "정복자의 바다",
+      "cost": "2",
+      "type": "액션",
+      "display": "입항금지"
+    },
+    {
+      "card": "Explorer",
+      "set": "정복자의 바다",
+      "cost": "5",
+      "type": "액션",
+      "display": "탐험가"
+    },
+    {
+      "card": "Fishing Village",
+      "set": "정복자의 바다",
+      "cost": "3",
+      "type": "액션 – 지속",
+      "display": "어촌"
+    },
+    {
+      "card": "Ghost Ship",
+      "set": "정복자의 바다",
+      "cost": "5",
+      "type": "액션 – 공격",
+      "display": "유령선"
+    },
+    {
+      "card": "Haven",
+      "set": "정복자의 바다",
+      "cost": "2",
+      "type": "액션 – 지속",
+      "display": "정박소"
+    },
+    {
+      "card": "Island",
+      "set": "정복자의 바다",
+      "cost": "4",
+      "type": "액션 – 승점",
+      "display": "섬"
+    },
+    {
+      "card": "Lighthouse",
+      "set": "정복자의 바다",
+      "cost": "2",
+      "type": "액션 – 지속",
+      "display": "등대"
+    },
+    {
+      "card": "Lookout",
+      "set": "정복자의 바다",
+      "cost": "3",
+      "type": "액션",
+      "display": "망루"
+    },
+    {
+      "card": "Merchant Ship",
+      "set": "정복자의 바다",
+      "cost": "5",
+      "type": "액션 – 지속",
+      "display": "상선"
+    },
+    {
+      "card": "Native Village",
+      "set": "정복자의 바다",
+      "cost": "2",
+      "type": "액션",
+      "display": "원주민 마을"
+    },
+    {
+      "card": "Navigator",
+      "set": "정복자의 바다",
+      "cost": "4",
+      "type": "액션",
+      "display": "항해사"
+    },
+    {
+      "card": "Outpost",
+      "set": "정복자의 바다",
+      "cost": "5",
+      "type": "액션 – 지속",
+      "display": "전진기지"
+    },
+    {
+      "card": "Pearl Diver",
+      "set": "정복자의 바다",
+      "cost": "2",
+      "type": "액션",
+      "display": "진주조개잡이"
+    },
+    {
+      "card": "Pirate Ship",
+      "set": "정복자의 바다",
+      "cost": "4",
+      "type": "액션 – 공격",
+      "display": "해적선"
+    },
+    {
+      "card": "Salvager",
+      "set": "정복자의 바다",
+      "cost": "4",
+      "type": "액션",
+      "display": "인양작업"
+    },
+    {
+      "card": "Sea Hag",
+      "set": "정복자의 바다",
+      "cost": "4",
+      "type": "액션 – 공격",
+      "display": "바다 마녀"
+    },
+    {
+      "card": "Smugglers",
+      "set": "정복자의 바다",
+      "cost": "3",
+      "type": "액션",
+      "display": "밀수업자"
+    },
+    {
+      "card": "Tactician",
+      "set": "정복자의 바다",
+      "cost": "5",
+      "type": "액션 – 지속",
+      "display": "책략가"
+    },
+    {
+      "card": "Treasure Map",
+      "set": "정복자의 바다",
+      "cost": "4",
+      "type": "액션",
+      "display": "보물지도"
+    },
+    {
+      "card": "Treasury",
+      "set": "정복자의 바다",
+      "cost": "5",
+      "type": "액션",
+      "display": "보물창고"
+    },
+    {
+      "card": "Warehouse",
+      "set": "정복자의 바다",
+      "cost": "3",
+      "type": "액션",
+      "display": "창고"
+    },
+    {
+      "card": "Wharf",
+      "set": "정복자의 바다",
+      "cost": "5",
+      "type": "액션 – 지속",
+      "display": "부두"
+    },
+    {
+      "card": "Altar",
+      "set": "암흑의 시대",
+      "cost": "6",
+      "type": "액션",
+      "display": "제단"
+    },
+    {
+      "card": "Armory",
+      "set": "암흑의 시대",
+      "cost": "4",
+      "type": "액션",
+      "display": "무기고"
+    },
+    {
+      "card": "Band of Misfits",
+      "set": "암흑의 시대",
+      "cost": "5",
+      "type": "액션",
+      "display": "부적응자"
+    },
+    {
+      "card": "Bandit Camp",
+      "set": "암흑의 시대",
+      "cost": "5",
+      "type": "액션",
+      "display": "산적 소굴"
+    },
+    {
+      "card": "Beggar",
+      "set": "암흑의 시대",
+      "cost": "2",
+      "type": "액션 – 반응",
+      "display": "거지"
+    },
+    {
+      "card": "Catacombs",
+      "set": "암흑의 시대",
+      "cost": "5",
+      "type": "액션",
+      "display": "납골당"
+    },
+    {
+      "card": "Count",
+      "set": "암흑의 시대",
+      "cost": "5",
+      "type": "액션",
+      "display": "백작"
+    },
+    {
+      "card": "Cultist",
+      "set": "암흑의 시대",
+      "cost": "5",
+      "type": "액션 – 공격 – 약탈",
+      "display": "광신도"
+    },
+    {
+      "card": "Death Cart",
+      "set": "암흑의 시대",
+      "cost": "4",
+      "type": "액션 – 약탈",
+      "display": "시체운반수레"
+    },
+    {
+      "card": "Forager",
+      "set": "암흑의 시대",
+      "cost": "3",
+      "type": "액션",
+      "display": "식량 약탈자"
+    },
+    {
+      "card": "Fortress",
+      "set": "암흑의 시대",
+      "cost": "4",
+      "type": "액션",
+      "display": "요새"
+    },
+    {
+      "card": "Graverobber",
+      "set": "암흑의 시대",
+      "cost": "5",
+      "type": "액션",
+      "display": "도굴꾼"
+    },
+    {
+      "card": "Hermit",
+      "set": "암흑의 시대",
+      "cost": "3",
+      "type": "액션",
+      "display": "은둔자"
+    },
+    {
+      "card": "Hunting Grounds",
+      "set": "암흑의 시대",
+      "cost": "6",
+      "type": "액션",
+      "display": "사냥터"
+    },
+    {
+      "card": "Ironmonger",
+      "set": "암흑의 시대",
+      "cost": "4",
+      "type": "액션",
+      "display": "철물상"
+    },
+    {
+      "card": "Junk Dealer",
+      "set": "암흑의 시대",
+      "cost": "5",
+      "type": "액션",
+      "display": "고물상"
+    },
+    {
+      "card": "Marauder",
+      "set": "암흑의 시대",
+      "cost": "4",
+      "type": "액션 – 공격 – 약탈",
+      "display": "습격자"
+    },
+    {
+      "card": "Market Square",
+      "set": "암흑의 시대",
+      "cost": "3",
+      "type": "액션 – 반응",
+      "display": "시장 광장"
+    },
+    {
+      "card": "Mystic",
+      "set": "암흑의 시대",
+      "cost": "5",
+      "type": "액션",
+      "display": "신비주의자"
+    },
+    {
+      "card": "Pillage",
+      "set": "암흑의 시대",
+      "cost": "5",
+      "type": "액션 – 공격",
+      "display": "강탈"
+    },
+    {
+      "card": "Poor House",
+      "set": "암흑의 시대",
+      "cost": "1",
+      "type": "액션",
+      "display": "빈민구제소"
+    },
+    {
+      "card": "Procession",
+      "set": "암흑의 시대",
+      "cost": "4",
+      "type": "액션",
+      "display": "행렬"
+    },
+    {
+      "card": "Rebuild",
+      "set": "암흑의 시대",
+      "cost": "5",
+      "type": "액션",
+      "display": "재건축"
+    },
+    {
+      "card": "Rogue",
+      "set": "암흑의 시대",
+      "cost": "5",
+      "type": "액션 – 공격",
+      "display": "방랑자"
+    },
+    {
+      "card": "Sage",
+      "set": "암흑의 시대",
+      "cost": "3",
+      "type": "액션",
+      "display": "현자"
+    },
+    {
+      "card": "Scavenger",
+      "set": "암흑의 시대",
+      "cost": "4",
+      "type": "액션",
+      "display": "쓰레기 뒤지는 사람"
+    },
+    {
+      "card": "Squire",
+      "set": "암흑의 시대",
+      "cost": "2",
+      "type": "액션",
+      "display": "종자"
+    },
+    {
+      "card": "Storeroom",
+      "set": "암흑의 시대",
+      "cost": "3",
+      "type": "액션",
+      "display": "저장실"
+    },
+    {
+      "card": "Urchin",
+      "set": "암흑의 시대",
+      "cost": "3",
+      "type": "액션 – 공격",
+      "display": "양아치"
+    },
+    {
+      "card": "Vagrant",
+      "set": "암흑의 시대",
+      "cost": "2",
+      "type": "액션",
+      "display": "부랑자"
+    },
+    {
+      "card": "Wandering Minstrel",
+      "set": "암흑의 시대",
+      "cost": "4",
+      "type": "액션",
+      "display": "방랑 시인"
+    },
+    {
+      "card": "Counterfeit",
+      "set": "암흑의 시대",
+      "cost": "5",
+      "type": "재물",
+      "display": "위조"
+    },
+    {
+      "card": "Feodum",
+      "set": "암흑의 시대",
+      "cost": "4",
+      "type": "승점",
+      "display": "봉토"
+    },
+    {
+      "card": "Rats",
+      "set": "암흑의 시대",
+      "cost": "4",
+      "type": "액션",
+      "display": "쥐떼"
+    },
+    {
+      "card": "Knights",
+      "set": "암흑의 시대",
+      "cost": "5",
+      "type": "액션 – 공격 – 기사",
+      "display": "기사"
+    },
+    {
+      "card": "Advisor",
+      "set": "길드를 위하여",
+      "cost": "4",
+      "type": "액션",
+      "display": "고문"
+    },
+    {
+      "card": "Baker",
+      "set": "길드를 위하여",
+      "cost": "5",
+      "type": "액션",
+      "display": "제빵사"
+    },
+    {
+      "card": "Butcher",
+      "set": "길드를 위하여",
+      "cost": "5",
+      "type": "액션",
+      "display": "도살자"
+    },
+    {
+      "card": "Candlestick Maker",
+      "set": "길드를 위하여",
+      "cost": "2",
+      "type": "액션",
+      "display": "촛대제작자"
+    },
+    {
+      "card": "Doctor",
+      "set": "길드를 위하여",
+      "cost": "3+",
+      "type": "액션",
+      "display": "의사"
+    },
+    {
+      "card": "Herald",
+      "set": "길드를 위하여",
+      "cost": "4+",
+      "type": "액션",
+      "display": "전령"
+    },
+    {
+      "card": "Journeyman",
+      "set": "길드를 위하여",
+      "cost": "5",
+      "type": "액션",
+      "display": "여행자"
+    },
+    {
+      "card": "Masterpiece",
+      "set": "길드를 위하여",
+      "cost": "3+",
+      "type": "재물",
+      "display": "명작"
+    },
+    {
+      "card": "Merchant Guild",
+      "set": "길드를 위하여",
+      "cost": "5",
+      "type": "액션",
+      "display": "상인조합"
+    },
+    {
+      "card": "Plaza",
+      "set": "길드를 위하여",
+      "cost": "4",
+      "type": "액션",
+      "display": "광장"
+    },
+    {
+      "card": "Soothsayer",
+      "set": "길드를 위하여",
+      "cost": "5",
+      "type": "액션 – 공격",
+      "display": "예언자"
+    },
+    {
+      "card": "Stonemason",
+      "set": "길드를 위하여",
+      "cost": "2+",
+      "type": "액션",
+      "display": "석공"
+    },
+    {
+      "card": "Taxman",
+      "set": "길드를 위하여",
+      "cost": "4",
+      "type": "액션 – 공격",
+      "display": "세금징수원"
+    }
+  ],
+  "groups": [
+    {
+      "group": "All",
+      "description": "모든 도미니언 카드",
+      "cards": [
+        "Adventurer",
+        "Alchemist",
+        "Ambassador",
+        "Apothecary",
+        "Apprentice",
+        "Baron",
+        "Bazaar",
+        "Black Market",
+        "Bridge",
+        "Bureaucrat",
+        "Caravan",
+        "Cellar",
+        "Chancellor",
+        "Chapel",
+        "Conspirator",
+        "Coppersmith",
+        "Council Room",
+        "Courtyard",
+        "Cutpurse",
+        "Duke",
+        "Embargo",
+        "Envoy",
+        "Explorer",
+        "Familiar",
+        "Feast",
+        "Festival",
+        "Fishing Village",
+        "Gardens",
+        "Ghost Ship",
+        "Golem",
+        "Great Hall",
+        "Harem",
+        "Haven",
+        "Herbalist",
+        "Ironworks",
+        "Island",
+        "Laboratory",
+        "Library",
+        "Lighthouse",
+        "Lookout",
+        "Market",
+        "Masquerade",
+        "Merchant Ship",
+        "Militia",
+        "Mine",
+        "Mining Village",
+        "Minion",
+        "Moat",
+        "Moneylender",
+        "Native Village",
+        "Navigator",
+        "Nobles",
+        "Outpost",
+        "Pawn",
+        "Pearl Diver",
+        "Philosopher's Stone",
+        "Pirate Ship",
+        "Possession",
+        "Remodel",
+        "Saboteur",
+        "Salvager",
+        "Scout",
+        "Scrying Pool",
+        "Sea Hag",
+        "Secret Chamber",
+        "Shanty Town",
+        "Smithy",
+        "Smugglers",
+        "Spy",
+        "Stash",
+        "Steward",
+        "Swindler",
+        "Tactician",
+        "Thief",
+        "Throne Room",
+        "Torturer",
+        "Trading Post",
+        "Transmute",
+        "Treasure Map",
+        "Treasury",
+        "Tribute",
+        "University",
+        "Upgrade",
+        "Village",
+        "Vineyard",
+        "Warehouse",
+        "Wharf",
+        "Wishing Well",
+        "Witch",
+        "Woodcutter",
+        "Workshop",
+        "Bank",
+        "Bishop",
+        "City",
+        "Contraband",
+        "Counting House",
+        "Expand",
+        "Forge",
+        "Goons",
+        "Grand Market",
+        "Hoard",
+        "King's Court",
+        "Loan",
+        "Mint",
+        "Monument",
+        "Mountebank",
+        "Peddler",
+        "Quarry",
+        "Rabble",
+        "Royal Seal",
+        "Talisman",
+        "Trade Route",
+        "Vault",
+        "Venture",
+        "Watchtower",
+        "Worker's Village",
+        "Fairgrounds",
+        "Farming Village",
+        "Fortune Teller ",
+        "Hamlet",
+        "Harvest",
+        "Horn of Plenty",
+        "Horse Traders",
+        "Hunting Party",
+        "Jester",
+        "Menagerie",
+        "Remake",
+        "Tournament",
+        "Young Witch",
+        "Walled Village",
+        "Border Village",
+        "Cache",
+        "Cartographer",
+        "Crossroads",
+        "Develop",
+        "Duchess",
+        "Embassy",
+        "Farmland",
+        "Fool's Gold",
+        "Haggler",
+        "Highway",
+        "Ill-Gotten Gains",
+        "Inn",
+        "Jack of all Trades",
+        "Mandarin",
+        "Margrave",
+        "Noble Brigand",
+        "Nomad Camp",
+        "Oasis",
+        "Oracle",
+        "Scheme",
+        "Silk Road",
+        "Spice Merchant",
+        "Stables",
+        "Trader",
+        "Tunnel",
+        "Governor",
+        "Prince",
+        "Altar",
+        "Armory",
+        "Band of Misfits",
+        "Bandit Camp",
+        "Beggar",
+        "Catacombs",
+        "Count",
+        "Cultist",
+        "Death Cart",
+        "Forager",
+        "Fortress",
+        "Graverobber",
+        "Hermit",
+        "Hunting Grounds",
+        "Ironmonger",
+        "Junk Dealer",
+        "Marauder",
+        "Market Square",
+        "Mystic",
+        "Pillage",
+        "Poor House",
+        "Procession",
+        "Rebuild",
+        "Rogue",
+        "Sage",
+        "Scavenger",
+        "Squire",
+        "Storeroom",
+        "Urchin",
+        "Vagrant",
+        "Wandering Minstrel",
+        "Counterfeit",
+        "Feodum",
+        "Rats",
+        "Knights",
+        "Advisor",
+        "Baker",
+        "Butcher",
+        "Candlestick Maker",
+        "Doctor",
+        "Herald",
+        "Journeyman",
+        "Masterpiece",
+        "Merchant Guild",
+        "Plaza",
+        "Soothsayer",
+        "Stonemason",
+        "Taxman"
+      ],
+      "display": "모두"
+    },
+    {
+      "group": "Main Set",
+      "description": "Cards from the first Dominion",
+      "cards": [
+        "Adventurer",
+        "Bureaucrat",
+        "Cellar",
+        "Chancellor",
+        "Chapel",
+        "Council Room",
+        "Feast",
+        "Festival",
+        "Gardens",
+        "Laboratory",
+        "Library",
+        "Market",
+        "Militia",
+        "Mine",
+        "Moat",
+        "Moneylender",
+        "Remodel",
+        "Smithy",
+        "Spy",
+        "Thief",
+        "Throne Room",
+        "Village",
+        "Witch",
+        "Woodcutter",
+        "Workshop"
+      ],
+      "display": "기본판"
+    },
+    {
+      "group": "Intrigue",
+      "description": "Cards from Dominion: Intrigue",
+      "cards": [
+        "Baron",
+        "Bridge",
+        "Conspirator",
+        "Coppersmith",
+        "Courtyard",
+        "Duke",
+        "Great Hall",
+        "Harem",
+        "Ironworks",
+        "Masquerade",
+        "Mining Village",
+        "Minion",
+        "Nobles",
+        "Pawn",
+        "Saboteur",
+        "Scout",
+        "Secret Chamber",
+        "Shanty Town",
+        "Steward",
+        "Swindler",
+        "Torturer",
+        "Trading Post",
+        "Tribute",
+        "Upgrade",
+        "Wishing Well"
+      ],
+      "display": "장막 뒤의 사람들"
+    },
+    {
+      "group": "Seaside",
+      "description": "Cards from Dominion: Seaside",
+      "cards": [
+        "Ambassador",
+        "Bazaar",
+        "Caravan",
+        "Cutpurse",
+        "Embargo",
+        "Explorer",
+        "Fishing Village",
+        "Ghost Ship",
+        "Haven",
+        "Island",
+        "Lighthouse",
+        "Lookout",
+        "Merchant Ship",
+        "Native Village",
+        "Navigator",
+        "Outpost",
+        "Pearl Diver",
+        "Pirate Ship",
+        "Salvager",
+        "Sea Hag",
+        "Smugglers",
+        "Tactician",
+        "Treasure Map",
+        "Treasury",
+        "Warehouse",
+        "Wharf"
+      ],
+      "display": "정복자의 바다"
+    },
+    {
+      "group": "Alchemy",
+      "description": "Cards from Dominion: Alchemy",
+      "cards": [
+        "Alchemist",
+        "Apothecary",
+        "Apprentice",
+        "Familiar",
+        "Golem",
+        "Herbalist",
+        "Philosopher's Stone",
+        "Possession",
+        "Scrying Pool",
+        "Transmute",
+        "University",
+        "Vineyard"
+      ],
+      "display": "현자의 연금술"
+    },
+    {
+      "group": "Prosperity",
+      "description": "Cards from Dominion: Prosperity",
+      "cards": [
+        "Bank",
+        "Bishop",
+        "City",
+        "Contraband",
+        "Counting House",
+        "Expand",
+        "Forge",
+        "Goons",
+        "Grand Market",
+        "Hoard",
+        "King's Court",
+        "Loan",
+        "Mint",
+        "Monument",
+        "Mountebank",
+        "Peddler",
+        "Quarry",
+        "Rabble",
+        "Royal Seal",
+        "Talisman",
+        "Trade Route",
+        "Vault",
+        "Venture",
+        "Watchtower",
+        "Worker's Village"
+      ],
+      "display": "번영"
+    },
+    {
+      "group": "Cornucopia",
+      "description": "Cards from Dominion: Cornucopia",
+      "cards": [
+        "Fairgrounds",
+        "Farming Village",
+        "Fortune Teller ",
+        "Hamlet",
+        "Harvest",
+        "Horn of Plenty",
+        "Horse Traders",
+        "Hunting Party",
+        "Jester",
+        "Menagerie",
+        "Remake",
+        "Tournament",
+        "Young Witch"
+      ],
+      "display": "풍요의 뿔"
+    },
+    {
+      "group": "Hinterlands",
+      "description": "Cards from Dominion: Hinterlands",
+      "cards": [
+        "Border Village",
+        "Cache",
+        "Cartographer",
+        "Crossroads",
+        "Develop",
+        "Duchess",
+        "Embassy",
+        "Farmland",
+        "Fool's Gold",
+        "Haggler",
+        "Highway",
+        "Ill-Gotten Gains",
+        "Inn",
+        "Jack of all Trades",
+        "Mandarin",
+        "Margrave",
+        "Noble Brigand",
+        "Nomad Camp",
+        "Oasis",
+        "Oracle",
+        "Scheme",
+        "Silk Road",
+        "Spice Merchant",
+        "Stables",
+        "Trader",
+        "Tunnel"
+      ],
+      "display": "오지의 사람들"
+    },
+    {
+      "group": "Dark Ages",
+      "description": "Cards from Dominion: Dark Ages",
+      "cards": [
+        "Altar",
+        "Armory",
+        "Band of Misfits",
+        "Bandit Camp",
+        "Beggar",
+        "Catacombs",
+        "Count",
+        "Cultist",
+        "Death Cart",
+        "Forager",
+        "Fortress",
+        "Graverobber",
+        "Hermit",
+        "Hunting Grounds",
+        "Ironmonger",
+        "Junk Dealer",
+        "Marauder",
+        "Market Square",
+        "Mystic",
+        "Pillage",
+        "Poor House",
+        "Procession",
+        "Rebuild",
+        "Rogue",
+        "Sage",
+        "Scavenger",
+        "Squire",
+        "Storeroom",
+        "Urchin",
+        "Vagrant",
+        "Wandering Minstrel",
+        "Counterfeit",
+        "Feodum",
+        "Rats",
+        "Knights"
+      ],
+      "display": "암흑의 시대"
+    },
+    {
+      "group": "Guilds",
+      "description": "Cards from Dominion: Guilds",
+      "cards": [
+        "Advisor",
+        "Baker",
+        "Butcher",
+        "Candlestick Maker",
+        "Doctor",
+        "Herald",
+        "Journeyman",
+        "Masterpiece",
+        "Merchant Guild",
+        "Plaza",
+        "Soothsayer",
+        "Stonemason",
+        "Taxman"
+      ],
+      "display": "길드를 위하여"
+    },
+    {
+      "group": "Promo",
+      "description": "프로모션 카드",
+      "cards": [
+        "Black Market",
+        "Envoy",
+        "Stash",
+        "Walled Village",
+        "Governor",
+        "Prince"
+      ],
+      "display": "프로모션 카드"
+    },
+    {
+      "group": "Defense",
+      "description": "방어 카드",
+      "cards": [
+        "Lighthouse",
+        "Moat",
+        "Secret Chamber",
+        "Watchtower",
+        "Horse Traders",
+        "Fool's Gold",
+        "Trader",
+        "Tunnel",
+        "Market Square"
+      ],
+      "display": "방어"
+    },
+    {
+      "group": "Attack",
+      "description": "공격 카드",
+      "cards": [
+        "Ambassador",
+        "Bureaucrat",
+        "Cutpurse",
+        "Familiar",
+        "Ghost Ship",
+        "Militia",
+        "Minion",
+        "Pirate Ship",
+        "Saboteur",
+        "Scrying Pool",
+        "Sea Hag",
+        "Spy",
+        "Swindler",
+        "Thief",
+        "Torturer",
+        "Witch",
+        "Goons",
+        "Mountebank",
+        "Rabble",
+        "Fortune Teller ",
+        "Jester",
+        "Young Witch",
+        "Margrave",
+        "Noble Brigand",
+        "Oracle",
+        "Cultist",
+        "Marauder",
+        "Pillage",
+        "Rogue",
+        "Urchin",
+        "Knights",
+        "Soothsayer",
+        "Taxman"
+      ],
+      "display": "공격"
+    },
+    {
+      "group": "Cost 2",
+      "description": "비용이 2 이하인 카드",
+      "cards": [
+        "Cellar",
+        "Chapel",
+        "Courtyard",
+        "Embargo",
+        "Haven",
+        "Herbalist",
+        "Lighthouse",
+        "Moat",
+        "Native Village",
+        "Pawn",
+        "Pearl Diver",
+        "Secret Chamber",
+        "Hamlet",
+        "Crossroads",
+        "Duchess",
+        "Fool's Gold",
+        "Beggar",
+        "Poor House",
+        "Squire",
+        "Vagrant",
+        "Candlestick Maker",
+        "Stonemason"
+      ]
+    },
+    {
+      "group": "Cost 3",
+      "description": "비용이 3인 카드",
+      "cards": [
+        "Ambassador",
+        "Black Market",
+        "Chancellor",
+        "Fishing Village",
+        "Great Hall",
+        "Lookout",
+        "Masquerade",
+        "Shanty Town",
+        "Smugglers",
+        "Steward",
+        "Swindler",
+        "Village",
+        "Warehouse",
+        "Wishing Well",
+        "Woodcutter",
+        "Workshop",
+        "Loan",
+        "Trade Route",
+        "Watchtower",
+        "Fortune Teller ",
+        "Menagerie",
+        "Develop",
+        "Oasis",
+        "Oracle",
+        "Scheme",
+        "Tunnel",
+        "Forager",
+        "Hermit",
+        "Market Square",
+        "Sage",
+        "Storeroom",
+        "Urchin",
+        "Doctor",
+        "Masterpiece"
+      ]
+    },
+    {
+      "group": "Cost 3-",
+      "description": "비용이 3 이하인 카드",
+      "cards": [
+        "Ambassador",
+        "Black Market",
+        "Cellar",
+        "Chancellor",
+        "Chapel",
+        "Courtyard",
+        "Embargo",
+        "Fishing Village",
+        "Great Hall",
+        "Haven",
+        "Herbalist",
+        "Lighthouse",
+        "Lookout",
+        "Masquerade",
+        "Moat",
+        "Native Village",
+        "Pawn",
+        "Pearl Diver",
+        "Secret Chamber",
+        "Shanty Town",
+        "Smugglers",
+        "Steward",
+        "Swindler",
+        "Village",
+        "Warehouse",
+        "Wishing Well",
+        "Woodcutter",
+        "Workshop",
+        "Loan",
+        "Trade Route",
+        "Watchtower",
+        "Fortune Teller ",
+        "Hamlet",
+        "Menagerie",
+        "Crossroads",
+        "Develop",
+        "Duchess",
+        "Fool's Gold",
+        "Oasis",
+        "Oracle",
+        "Scheme",
+        "Tunnel",
+        "Beggar",
+        "Forager",
+        "Hermit",
+        "Market Square",
+        "Poor House",
+        "Sage",
+        "Squire",
+        "Storeroom",
+        "Urchin",
+        "Vagrant",
+        "Candlestick Maker",
+        "Doctor",
+        "Masterpiece",
+        "Stonemason"
+      ],
+      "display": "Cost 3 이하"
+    },
+    {
+      "group": "Cost 4",
+      "description": "비용이 4인 카드",
+      "cards": [
+        "Baron",
+        "Bridge",
+        "Bureaucrat",
+        "Caravan",
+        "Conspirator",
+        "Coppersmith",
+        "Cutpurse",
+        "Envoy",
+        "Feast",
+        "Gardens",
+        "Ironworks",
+        "Island",
+        "Militia",
+        "Mining Village",
+        "Moneylender",
+        "Navigator",
+        "Pirate Ship",
+        "Remodel",
+        "Salvager",
+        "Scout",
+        "Sea Hag",
+        "Smithy",
+        "Spy",
+        "Thief",
+        "Throne Room",
+        "Treasure Map",
+        "Bishop",
+        "Monument",
+        "Quarry",
+        "Talisman",
+        "Worker's Village",
+        "Farming Village",
+        "Horse Traders",
+        "Remake",
+        "Tournament",
+        "Young Witch",
+        "Walled Village",
+        "Jack of all Trades",
+        "Noble Brigand",
+        "Nomad Camp",
+        "Silk Road",
+        "Spice Merchant",
+        "Trader",
+        "Armory",
+        "Death Cart",
+        "Fortress",
+        "Ironmonger",
+        "Marauder",
+        "Procession",
+        "Scavenger",
+        "Wandering Minstrel",
+        "Feodum",
+        "Rats",
+        "Advisor",
+        "Herald",
+        "Plaza",
+        "Taxman"
+      ]
+    },
+    {
+      "group": "Cost 5",
+      "description": "비용이 5인 카드",
+      "cards": [
+        "Apprentice",
+        "Bazaar",
+        "Council Room",
+        "Duke",
+        "Explorer",
+        "Festival",
+        "Ghost Ship",
+        "Laboratory",
+        "Library",
+        "Market",
+        "Merchant Ship",
+        "Mine",
+        "Minion",
+        "Outpost",
+        "Saboteur",
+        "Stash",
+        "Tactician",
+        "Torturer",
+        "Trading Post",
+        "Treasury",
+        "Tribute",
+        "Upgrade",
+        "Wharf",
+        "Witch",
+        "City",
+        "Contraband",
+        "Counting House",
+        "Mint",
+        "Mountebank",
+        "Rabble",
+        "Royal Seal",
+        "Vault",
+        "Venture",
+        "Harvest",
+        "Horn of Plenty",
+        "Hunting Party",
+        "Jester",
+        "Cache",
+        "Cartographer",
+        "Embassy",
+        "Haggler",
+        "Highway",
+        "Ill-Gotten Gains",
+        "Inn",
+        "Mandarin",
+        "Margrave",
+        "Stables",
+        "Governor",
+        "Band of Misfits",
+        "Bandit Camp",
+        "Catacombs",
+        "Count",
+        "Cultist",
+        "Graverobber",
+        "Junk Dealer",
+        "Mystic",
+        "Pillage",
+        "Rebuild",
+        "Rogue",
+        "Counterfeit",
+        "Knights",
+        "Baker",
+        "Butcher",
+        "Journeyman",
+        "Merchant Guild",
+        "Soothsayer"
+      ]
+    },
+    {
+      "group": "Cost 6",
+      "description": "비용이 6인 카드",
+      "cards": [
+        "Adventurer",
+        "Harem",
+        "Nobles",
+        "Goons",
+        "Grand Market",
+        "Hoard",
+        "Fairgrounds",
+        "Border Village",
+        "Farmland",
+        "Altar",
+        "Hunting Grounds"
+      ]
+    },
+    {
+      "group": "Cost 6+",
+      "description": "비용이 6이상인 카드",
+      "cards": [
+        "Adventurer",
+        "Harem",
+        "Nobles",
+        "Bank",
+        "Expand",
+        "Forge",
+        "Goons",
+        "Grand Market",
+        "Hoard",
+        "King's Court",
+        "Peddler",
+        "Fairgrounds",
+        "Border Village",
+        "Farmland",
+        "Altar",
+        "Hunting Grounds"
+      ],
+      "display": "Cost 6 이상"
+    },
+    {
+      "group": "Cost 7+",
+      "description": "비용이 7이상인 카드",
+      "cards": [
+        "Bank",
+        "Expand",
+        "Forge",
+        "King's Court",
+        "Peddler"
+      ],
+      "display": "Cost 7 이상"
+    },
+    {
+      "group": "Potion",
+      "description": "포션을 이용하는 카드",
+      "cards": [
+        "Alchemist",
+        "Apothecary",
+        "Apprentice",
+        "Familiar",
+        "Golem",
+        "Philosopher's Stone",
+        "Possession",
+        "Scrying Pool",
+        "Transmute",
+        "University",
+        "Vineyard"
+      ],
+      "display": "포션"
+    },
+    {
+      "group": "Component",
+      "description": "토큰 등 구성품이 추가로 필요한 카드",
+      "cards": [
+        "Embargo",
+        "Island",
+        "Native Village",
+        "Pirate Ship",
+        "Bishop",
+        "Goons",
+        "Monument",
+        "Trade Route",
+        "Baker",
+        "Butcher",
+        "Candlestick Maker",
+        "Merchant Guild",
+        "Plaza"
+      ],
+      "display": "구성품"
+    },
+    {
+      "group": "Victory",
+      "description": "승점 카드",
+      "cards": [
+        "Duke",
+        "Gardens",
+        "Great Hall",
+        "Harem",
+        "Island",
+        "Nobles",
+        "Vineyard",
+        "Fairgrounds",
+        "Farmland",
+        "Silk Road",
+        "Tunnel",
+        "Feodum"
+      ],
+      "display": "승점"
+    },
+    {
+      "group": "Duration",
+      "description": "지속효과를 가진 카드",
+      "cards": [
+        "Caravan",
+        "Fishing Village",
+        "Haven",
+        "Lighthouse",
+        "Merchant Ship",
+        "Outpost",
+        "Tactician",
+        "Wharf"
+      ],
+      "display": "지속"
+    },
+    {
+      "group": "Treasure",
+      "description": "재물 카드",
+      "cards": [
+        "Harem",
+        "Philosopher's Stone",
+        "Stash",
+        "Bank",
+        "Contraband",
+        "Hoard",
+        "Loan",
+        "Quarry",
+        "Royal Seal",
+        "Talisman",
+        "Venture",
+        "Horn of Plenty",
+        "Cache",
+        "Fool's Gold",
+        "Ill-Gotten Gains",
+        "Counterfeit",
+        "Masterpiece"
+      ],
+      "display": "재물"
+    },
+    {
+      "group": "Double Type",
+      "description": "예) 귀족: 승점카드이면서 액션카드",
+      "cards": [
+        "Great Hall",
+        "Harem",
+        "Island",
+        "Nobles",
+        "Fool's Gold",
+        "Tunnel"
+      ],
+      "display": "다기능"
+    },
+    {
+      "group": "Deck Reduction",
+      "description": "덱 수를 줄일 수 있는 카드",
+      "cards": [
+        "Ambassador",
+        "Apprentice",
+        "Chapel",
+        "Island",
+        "Lookout",
+        "Masquerade",
+        "Moneylender",
+        "Salvager",
+        "Steward",
+        "Trading Post",
+        "Upgrade",
+        "Bishop",
+        "Forge",
+        "Loan",
+        "Trade Route",
+        "Remake",
+        "Jack of all Trades",
+        "Count",
+        "Death Cart",
+        "Forager",
+        "Junk Dealer",
+        "Counterfeit",
+        "Doctor"
+      ],
+      "display": "덱 감소"
+    },
+    {
+      "group": "Card Ordering",
+      "description": "카드 순서를 변경할 수 있는 카드",
+      "cards": [
+        "Apothecary",
+        "Courtyard",
+        "Navigator",
+        "Pearl Diver",
+        "Scout",
+        "Treasury",
+        "Rabble",
+        "Royal Seal",
+        "Watchtower",
+        "Walled Village",
+        "Cartographer",
+        "Develop",
+        "Duchess",
+        "Jack of all Trades",
+        "Mandarin",
+        "Oracle",
+        "Armory",
+        "Beggar",
+        "Count",
+        "Graverobber",
+        "Scavenger",
+        "Wandering Minstrel",
+        "Doctor",
+        "Taxman"
+      ],
+      "display": "카드 순서 변경"
+    },
+    {
+      "group": "Plus Curses",
+      "description": "다른 플레이어에게 저주 카드를 줄 수 있는 카드",
+      "cards": [
+        "Ambassador",
+        "Embargo",
+        "Familiar",
+        "Masquerade",
+        "Sea Hag",
+        "Swindler",
+        "Torturer",
+        "Witch",
+        "Mountebank",
+        "Jester",
+        "Young Witch",
+        "Ill-Gotten Gains",
+        "Soothsayer"
+      ],
+      "display": "저주 추가"
+    },
+    {
+      "group": "Plus Card",
+      "description": "핸드에 카드를 추가할 수 있는 카드",
+      "cards": [
+        "Alchemist",
+        "Apothecary",
+        "Caravan",
+        "Conspirator",
+        "Council Room",
+        "Courtyard",
+        "Familiar",
+        "Ghost Ship",
+        "Golem",
+        "Great Hall",
+        "Haven",
+        "Ironworks",
+        "Laboratory",
+        "Library",
+        "Market",
+        "Masquerade",
+        "Mining Village",
+        "Minion",
+        "Moat",
+        "Nobles",
+        "Pawn",
+        "Pearl Diver",
+        "Scrying Pool",
+        "Shanty Town",
+        "Smithy",
+        "Spy",
+        "Steward",
+        "Tactician",
+        "Torturer",
+        "Treasury",
+        "Tribute",
+        "Upgrade",
+        "Village",
+        "Warehouse",
+        "Wharf",
+        "Wishing Well",
+        "Witch",
+        "Bank",
+        "Counting House",
+        "Grand Market",
+        "Peddler",
+        "Rabble",
+        "Vault",
+        "Venture",
+        "Watchtower",
+        "Worker's Village",
+        "Hamlet",
+        "Hunting Party",
+        "Menagerie",
+        "Tournament",
+        "Young Witch",
+        "Walled Village",
+        "Border Village",
+        "Cartographer",
+        "Crossroads",
+        "Embassy",
+        "Highway",
+        "Inn",
+        "Jack of all Trades",
+        "Margrave",
+        "Oasis",
+        "Oracle",
+        "Scheme",
+        "Spice Merchant",
+        "Stables",
+        "Governor",
+        "Bandit Camp",
+        "Catacombs",
+        "Cultist",
+        "Fortress",
+        "Hunting Grounds",
+        "Ironmonger",
+        "Junk Dealer",
+        "Market Square",
+        "Mystic",
+        "Sage",
+        "Storeroom",
+        "Urchin",
+        "Vagrant",
+        "Wandering Minstrel",
+        "Rats",
+        "Advisor",
+        "Baker",
+        "Herald",
+        "Journeyman",
+        "Plaza"
+      ],
+      "display": "카드 추가"
+    },
+    {
+      "group": "Plus Action",
+      "description": "액션 추가할 수 있는 카드",
+      "cards": [
+        "Alchemist",
+        "Apothecary",
+        "Apprentice",
+        "Bazaar",
+        "Caravan",
+        "Cellar",
+        "Conspirator",
+        "Familiar",
+        "Festival",
+        "Fishing Village",
+        "Golem",
+        "Great Hall",
+        "Haven",
+        "Ironworks",
+        "Laboratory",
+        "Lighthouse",
+        "Lookout",
+        "Market",
+        "Mining Village",
+        "Minion",
+        "Native Village",
+        "Nobles",
+        "Pawn",
+        "Pearl Diver",
+        "Scout",
+        "Scrying Pool",
+        "Shanty Town",
+        "Spy",
+        "Tactician",
+        "Treasury",
+        "Tribute",
+        "University",
+        "Upgrade",
+        "Village",
+        "Warehouse",
+        "Wishing Well",
+        "City",
+        "Grand Market",
+        "Peddler",
+        "Worker's Village",
+        "Farming Village",
+        "Hamlet",
+        "Hunting Party",
+        "Menagerie",
+        "Tournament",
+        "Walled Village",
+        "Border Village",
+        "Cartographer",
+        "Crossroads",
+        "Highway",
+        "Inn",
+        "Oasis",
+        "Scheme",
+        "Spice Merchant",
+        "Stables",
+        "Governor",
+        "Prince",
+        "Bandit Camp",
+        "Forager",
+        "Fortress",
+        "Ironmonger",
+        "Junk Dealer",
+        "Market Square",
+        "Mystic",
+        "Rebuild",
+        "Sage",
+        "Squire",
+        "Urchin",
+        "Vagrant",
+        "Wandering Minstrel",
+        "Rats",
+        "Advisor",
+        "Baker",
+        "Candlestick Maker",
+        "Herald",
+        "Plaza"
+      ],
+      "display": "액션 추가"
+    },
+    {
+      "group": "Plus More Action",
+      "description": "액션을 2회 이상 추가할 수 있는 카드",
+      "cards": [
+        "Bazaar",
+        "Festival",
+        "Fishing Village",
+        "Golem",
+        "Mining Village",
+        "Native Village",
+        "Nobles",
+        "Shanty Town",
+        "Tribute",
+        "University",
+        "Village",
+        "City",
+        "Worker's Village",
+        "Farming Village",
+        "Hamlet",
+        "Walled Village",
+        "Border Village",
+        "Crossroads",
+        "Inn",
+        "Bandit Camp",
+        "Fortress",
+        "Ironmonger",
+        "Squire",
+        "Wandering Minstrel",
+        "Herald",
+        "Plaza"
+      ],
+      "display": "액션 2회 이상 추가"
+    },
+    {
+      "group": "Plus Coin",
+      "description": "돈을 추가할 수 있는 카드",
+      "cards": [
+        "Baron",
+        "Bazaar",
+        "Black Market",
+        "Bridge",
+        "Chancellor",
+        "Conspirator",
+        "Cutpurse",
+        "Embargo",
+        "Festival",
+        "Fishing Village",
+        "Herbalist",
+        "Ironworks",
+        "Lighthouse",
+        "Market",
+        "Merchant Ship",
+        "Militia",
+        "Mining Village",
+        "Minion",
+        "Navigator",
+        "Pawn",
+        "Philosopher's Stone",
+        "Salvager",
+        "Steward",
+        "Swindler",
+        "Treasury",
+        "Tribute",
+        "Woodcutter",
+        "Bishop",
+        "City",
+        "Goons",
+        "Grand Market",
+        "Monument",
+        "Mountebank",
+        "Peddler",
+        "Trade Route",
+        "Vault",
+        "Fortune Teller ",
+        "Harvest",
+        "Horse Traders",
+        "Jester",
+        "Tournament",
+        "Duchess",
+        "Haggler",
+        "Mandarin",
+        "Noble Brigand",
+        "Nomad Camp",
+        "Oasis",
+        "Spice Merchant",
+        "Count",
+        "Death Cart",
+        "Forager",
+        "Ironmonger",
+        "Junk Dealer",
+        "Mystic",
+        "Poor House",
+        "Rogue",
+        "Scavenger",
+        "Squire",
+        "Storeroom",
+        "Baker",
+        "Butcher",
+        "Candlestick Maker",
+        "Merchant Guild",
+        "Plaza"
+      ],
+      "display": "돈 추가"
+    },
+    {
+      "group": "Plus Buy",
+      "description": "구매를 추가할 수 있는 카드",
+      "cards": [
+        "Baron",
+        "Bridge",
+        "Council Room",
+        "Festival",
+        "Herbalist",
+        "Market",
+        "Pawn",
+        "Salvager",
+        "Tactician",
+        "Wharf",
+        "Woodcutter",
+        "City",
+        "Contraband",
+        "Goons",
+        "Grand Market",
+        "Trade Route",
+        "Worker's Village",
+        "Horse Traders",
+        "Develop",
+        "Margrave",
+        "Nomad Camp",
+        "Spice Merchant",
+        "Forager",
+        "Market Square",
+        "Squire",
+        "Storeroom",
+        "Counterfeit",
+        "Candlestick Maker",
+        "Merchant Guild"
+      ],
+      "display": "구매 추가"
+    },
+    {
+      "group": "Gain",
+      "description": "구매없이 카드를 얻을 수 있는 카드",
+      "cards": [
+        "Baron",
+        "Bureaucrat",
+        "Explorer",
+        "Ironworks",
+        "Smugglers",
+        "Thief",
+        "Treasure Map",
+        "University",
+        "Workshop",
+        "Hoard",
+        "Mint",
+        "Talisman",
+        "Horn of Plenty",
+        "Tournament",
+        "Duchess",
+        "Jack of all Trades",
+        "Altar",
+        "Armory",
+        "Bandit Camp",
+        "Beggar",
+        "Catacombs",
+        "Count",
+        "Graverobber",
+        "Hermit",
+        "Hunting Grounds",
+        "Marauder",
+        "Pillage",
+        "Rogue",
+        "Squire",
+        "Urchin",
+        "Feodum",
+        "Rats",
+        "Soothsayer",
+        "Stonemason",
+        "Taxman"
+      ],
+      "display": "획득"
+    },
+    {
+      "group": "Looter",
+      "description": "다른 플레이어에게 폐허 카드를 줄 수 있는 카드",
+      "cards": [
+        "Cultist",
+        "Death Cart",
+        "Marauder"
+      ],
+      "display": "약탈"
+    },
+    {
+      "group": "Gain Spoils",
+      "description": "전리품 카드를 얻을 수 있는 카드",
+      "cards": [
+        "Bandit Camp",
+        "Marauder",
+        "Pillage"
+      ],
+      "display": "전리품 획득"
+    }
+  ],
+  "basic_cards": [
+    {
+      "card": "Potion",
+      "set": "현자의 연금술",
+      "cost": "4",
+      "type": "재물"
+    },
+    {
+      "card": "Colony",
+      "set": "번영",
+      "cost": "11",
+      "type": "승점"
+    },
+    {
+      "card": "Platinum",
+      "set": "번영",
+      "cost": "9",
+      "type": "재물"
+    },
+    {
+      "card": "Shelter",
+      "set": "암흑의 시대",
+      "cost": "1",
+      "type": "Shelter",
+      "display": "피난처"
+    },
+    {
+      "card": "Ruins",
+      "set": "암흑의 시대",
+      "cost": "0",
+      "type": "액션 – 공격",
+      "display": "폐허"
+    },
+    {
+      "card": "Spoils",
+      "set": "암흑의 시대",
+      "cost": "0*",
+      "type": "재물",
+      "display": "전리품"
+    },
+    {
+      "card": "Madman",
+      "set": "암흑의 시대",
+      "cost": "0*",
+      "type": "액션",
+      "display": "미치광이"
+    },
+    {
+      "card": "Mercenary",
+      "set": "암흑의 시대",
+      "cost": "0*",
+      "type": "액션 – 공격",
+      "display": "용병"
+    }
+  ]
+}
