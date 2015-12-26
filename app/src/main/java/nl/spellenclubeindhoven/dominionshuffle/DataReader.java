@@ -27,7 +27,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.util.zip.GZIPInputStream;
 
 import nl.spellenclubeindhoven.dominionshuffle.data.CardSelector;
 import nl.spellenclubeindhoven.dominionshuffle.data.Data;
@@ -52,7 +51,7 @@ public class DataReader {
 		if(dominionData != null) return false;
 
 		try {
-			InputStream inputStream = new GZIPInputStream(application.getResources().openRawResource(R.raw.data));
+			InputStream inputStream = application.getResources().openRawResource(R.raw.data);
 			dominionData = Data.read(readStringFromStream(inputStream));
 		} catch (Exception ignore) {
 			ignore.printStackTrace();
