@@ -11,18 +11,18 @@ Neue deutsche Übersetzungen hinzugefügt von Christoph Moritz.\n
 Einladung -Karte aufgenommen.\n
 Behoben: Fehler bei der Erzeugung von Bane für Junge Hexe\n
 -- Google Translate --\n
-++ Version 1.11 ++\nNeues Sprachsystem. Nur eine Kopie der Kerndaten muss aktualisiert werden; dann sind nur noch die �bersetzungen zu erg�nzen.\nWenn jemand �bersetzungen bereitstellt, werde ich diese in die App einpflegen.\n
+++ Version 1.11 ++\nNeues Sprachsystem. Nur eine Kopie der Kerndaten muss aktualisiert werden; dann sind nur noch die Übersetzungen zu ergänzen.\nWenn jemand Übersetzungen bereitstellt, werde ich diese in die App einpflegen.\n
 \n
 ++ Version 1.10 ++\n
-Option hinzugef�gt, mehr oder weniger als 10 Karten zu ziehen.\nKeine Tr�nke, Ruinen, Beute oder Zusatzkarten (wie z.B. der Verr�ckte f�r den Eremit) ziehen - diese werden in der App nicht ben�tigt, da bekannt sein sollte, dass sie erforderlich sind, wenn ihre jeweiligen Voraussetzungen gegeben sind.\n
-Sprachwahl f�r Karten deaktiviert (da diese derzeit nicht funktioniert; sorry an alle nicht-englischsprechenden Spieler)\nBeide vorgenannten Optionen wurden in eine Einstellungsansicht �berf�hrt.\n
-Default Einstellungen hinzugef�gt f�r: Alle Karten inkludiert. Maximal 2 Ereignisse. Diese default-Einstellungen werden nur verwendet, wenn die App ohne existierende Daten gestartet wird.\nMischen aus dem Men� entfernt - sollte aus dem Mischen-Tab aufgerufen werden.\n
+Option hinzugefügt, mehr oder weniger als 10 Karten zu ziehen.\nKeine Tränke, Ruinen, Beute oder Zusatzkarten (wie z.B. der Verrückte für den Eremit) ziehen - diese werden in der App nicht benötigt, da bekannt sein sollte, dass sie erforderlich sind, wenn ihre jeweiligen Voraussetzungen gegeben sind.\n
+Sprachwahl für Karten deaktiviert (da diese derzeit nicht funktioniert; sorry an alle nicht-englischsprechenden Spieler)\nBeide vorgenannten Optionen wurden in eine Einstellungsansicht überführt.\n
+Default Einstellungen hinzugefügt für: Alle Karten inkludiert. Maximal 2 Ereignisse. Diese default-Einstellungen werden nur verwendet, wenn die App ohne existierende Daten gestartet wird.\nMischen aus dem Menü entfernt - sollte aus dem Mischen-Tab aufgerufen werden.\n
 \n
 ++ Version 1.9 ++\nGebaut auf Basis von Joran Jessuruns version\n
-Abenteuer-Karten hinzugef�gt.\n
-Ereignisse hinzugef�gt, und das Verhalten aktualisiert, dass Ereignisse nicht gegen die Anzahl an K�nigreichkarten gerechnet werden.\n
+Abenteuer-Karten hinzugefügt.\n
+Ereignisse hinzugefügt, und das Verhalten aktualisiert, dass Ereignisse nicht gegen die Anzahl an Königreichkarten gerechnet werden.\n
 \n
 ++ Bekannte Bugs ++\n
-Nicht-englische Sprachen funktionieren nicht (sorry).\nGewaltsame Auswahl einer nicht-K�nigreichkarte (z.B. Trank, platin, Unterschlupf, Ereignis etc.) f�hren manchmal dazu, dass mehr oder weniger als zehn K�nigreichkarten gezogen werden.
+Nicht-englische Sprachen funktionieren nicht (sorry).\nGewaltsame Auswahl einer nicht-Königreichkarte (z.B. Trank, platin, Unterschlupf, Ereignis etc.) führen manchmal dazu, dass mehr oder weniger als zehn Königreichkarten gezogen werden.
     </string>
 </resources>
