@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="releasenotes_title">Release Notes</string>
+    <string name="releasenotes_value">++ Version 1.13 ++\n
+Aanvullende Nederlandstalige vertalingen toegevoegd door Tom Vandeweyer.\n
+++ Version 1.12 ++\n
+Aanvullende Duitstalige vertalingen toegevoegd door Christoph Moritz.\n
+Promokaart Summon (Tevoorschijn Toveren) toegevoegd\n
+Bug opgelost in verband met het juist genereren van de bankaart voor Jonge Heks\n
+++ Version 1.11 ++\n
+Vernieuwd Taalsysteem. Nu moet slechts 1 versie van de kerndata geupdated worden. Vanuit aparte bestanden worden vervolgens de vertalingen gekoppeld voor alle kaartnamen, types, beschrijvingen, enz.\nVrijwilligers voor het aanleveren van vertalingen voor nog niet beschikbare talen zijn steeds welkom.\n
+\n
+++ Version 1.10 ++\n
+Mogelijkheid toegevoegd om meer of minder dan 10 kaarten te selecteren.\nToverdrank, Ruïnekaarten, Buitkaarten of andere supplementaire kaarten (zoals Krankzinnige bij Kluizenaar) zijn niet nodig in deze app, aangezien ze samen klaargelegd moeten worden met koninkrijkkaarten.\n
+Kaarttaal selectie uitgeschakeld aangezien het defect is (verontschuldigingen aan de niet-Engelstaligen).\n
+De 2 eerder vermelde opties werden verplaatst naar een apart Instellingenvenster.\nStandaard Instellingen toegevoegd: Inclusief alle kaarten. Maximum 2 Gebeurtenissen. Enkel actief indien de app wordt opgestart zonder vooraf ingestelde data.\nSchud verwijderd uit het menu - vanaf nu toegankelijk via de Schud Tab.\n
+\n
+++ Version 1.9 ++\n
+Gebouwd bovenop Joran Jessurun\'s versie\nKaarten van 
+Avonturen toegevoegd\n
+Gebeurtenissen toegevoegd en nodige aanpassingen gemaakt om Gebeurtenissen niet te laten meetellen bij het selecteren van de koninkrijkkaarten.\n
+\n
+++ Bekende bugs ++\n
+Niet-Engelstalige talen werken niet (sorry).\n
+Het opnemen van een niet-koninkrijkkaart (zoals Toverdrank, Platina, Onderdak, Gebeurtenis, enz.) resulteert soms in de selectie van meer of minder dan 10 effectieve koninkrijkkaarten.
+    </string>
+</resources>

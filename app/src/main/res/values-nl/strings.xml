@@ -1,91 +1,93 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="app_name">Dominion Shuffle</string>
-	<string name="loading">Dominionkaarten en groepen aan het laden</string>
-	<string-array name="sort_items">
-		<item>Kosten, Uitbreiding, Naam</item>
-		<item>Uitbreiding, Kosten Naam</item>
-		<item>Kosten, Naam</item>
-		<item>Uitbreiding, Naam</item>
-		<item>Naam</item>
-	</string-array>
-	<string-array name="minmax_array">
-		<item>Kies minimum</item>
-		<item>Kies maximum</item>
-		<item>Configureer</item>
-		<item>Wis instellingen</item>
-	</string-array>
-	<string-array name="minumum_items_conditional">
-		<item>Geen minimum</item>
-		<item>Voorwaardelijk</item>
-		<item>1</item>
-		<item>2</item>
-		<item>3</item>
-		<item>4</item>
-		<item>5</item>
-		<item>6</item>
-		<item>7</item>
-		<item>8</item>
-		<item>9</item>
-		<item>10</item>
-	</string-array>
-	<string-array name="minumum_items">
-		<item>Geen minimum</item>
-		<item>1</item>
-		<item>2</item>
-		<item>3</item>
-		<item>4</item>
-		<item>5</item>
-		<item>6</item>
-		<item>7</item>
-		<item>8</item>
-		<item>9</item>
-		<item>10</item>
-	</string-array>
-	<string-array name="maximum_items">
-		<item>Geen maximum</item>
-		<item>1</item>
-		<item>2</item>
-		<item>3</item>
-		<item>4</item>
-		<item>5</item>
-		<item>6</item>
-		<item>7</item>
-		<item>8</item>
-		<item>9</item>
-	</string-array>
-<string name="result_title">Dominion Shuffle - Resultaat</string>
-<string name="show_group_title">Groep \'%s\' kaarten</string>
-<string name="solve_dialog_title">Fout bij Oplossen</string>
-<string name="ok">OK</string>
-<string name="display_result_dialog_title">Toon resultaat</string>
-<string name="result_no_result">Er is nog geen resultaat gegenereerd.</string>
-<string name="sort_cards_dialog_title">Sorteer kaarten op</string>
-<string name="toast_all_cleared">Alle selecties zijn gewist</string>
-<string name="retry">Opnieuw</string>
-<string name="cancel">Annuleer</string>
-<string name="error_loading">Fout bij laden gegevens</string>
-<string name="tab_select">Selecteer</string>
-<string name="tab_constraints">Beperk</string>
-<string name="tab_generate">Schud</string>
-<string name="app_description">Selecteer tien willekeurige Dominion kaarten gegeven de opgelegde regels</string>
-<string name="load_dialog_title">Dominion Shuffle - Laad Regels</string>
-<string name="save_dialog_title">Dominion Shuffle - Bewaar Regels</string>
-<string name="empty">Leeg</string>
-<string name="unnamed">Naamloos</string>
-<string name="save_rules_as">Bewaar de regels als</string>
-<string name="save">Bewaar</string>
-<string name="toast_loaded_rules">Geladen regels \'%s\'</string>
-<string name="toast_no_data_found">Geen gegevens gevonden</string>
-<string name="toast_saved_rules_as">Regels bewaard als \'%s\'</string>
-<string name="toast_error_saving_rules">Fout bij het bewaren van de regels</string>
-<string name="limit_title">Configureer Grensen</string>
-<string name="minimum">Minimum</string>
-<string name="maximum">Maximum</string>
-<string name="limit_condition_text">Gebruik het minimum als minimaal één kaart uit de volgende groep (of kaart) geselecteerd wordt.</string>
-<string name="no_card_or_group_selected">Niets geselecteerd</string>
-<string name="card_language">Kaarttaal</string>
-<string name="loaded_cache">Kan de kaarten niet downloaden. Er wordt nu een (oude) kopie gebruikt.</string>
-<string name="group">Groep</string>
-<string name="card">Kaart</string>
+    <string name="app_name">Dominion Shuffle</string>
+    <string name="loading">Dominionkaarten en groepen aan het laden</string>
+    <string-array name="sort_items">
+        <item>Kosten, Uitbreiding, Naam</item>
+        <item>Uitbreiding, Kosten Naam</item>
+        <item>Kosten, Naam</item>
+        <item>Uitbreiding, Naam</item>
+        <item>Naam</item>
+    </string-array>
+    <string-array name="minmax_array">
+        <item>Kies minimum</item>
+        <item>Kies maximum</item>
+        <item>Configureer</item>
+        <item>Wis instellingen</item>
+    </string-array>
+    <string-array name="minumum_items_conditional">
+        <item>Geen minimum</item>
+        <item>Voorwaardelijk</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="minumum_items">
+        <item>Geen minimum</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="maximum_items">
+        <item>Geen maximum</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string name="result_title">Dominion Shuffle - Resultaat</string>
+    <string name="show_group_title">Groep \'%s\' kaarten</string>
+    <string name="solve_dialog_title">Fout bij Oplossen</string>
+    <string name="ok">OK</string>
+    <string name="display_result_dialog_title">Toon resultaat</string>
+    <string name="result_no_result">Er is nog geen resultaat gegenereerd.</string>
+    <string name="sort_cards_dialog_title">Sorteer kaarten op</string>
+    <string name="toast_all_cleared">Alle selecties zijn gewist</string>
+    <string name="retry">Opnieuw</string>
+    <string name="cancel">Annuleer</string>
+    <string name="error_loading">Fout bij laden gegevens</string>
+    <string name="tab_select">Selecteer</string>
+    <string name="tab_constraints">Beperk</string>
+    <string name="tab_generate">Schud</string>
+    <string name="app_description">Selecteer tien willekeurige Dominion kaarten gegeven de opgelegde regels</string>
+    <string name="load_dialog_title">Dominion Shuffle - Laad Regels</string>
+    <string name="save_dialog_title">Dominion Shuffle - Bewaar Regels</string>
+    <string name="empty">Leeg</string>
+    <string name="unnamed">Naamloos</string>
+    <string name="save_rules_as">Bewaar de regels als</string>
+    <string name="save">Bewaar</string>
+    <string name="toast_loaded_rules">Geladen regels \'%s\'</string>
+    <string name="toast_no_data_found">Geen gegevens gevonden</string>
+    <string name="toast_saved_rules_as">Regels bewaard als \'%s\'</string>
+    <string name="toast_error_saving_rules">Fout bij het bewaren van de regels</string>
+    <string name="limit_title">Configureer Grensen</string>
+    <string name="minimum">Minimum</string>
+    <string name="maximum">Maximum</string>
+    <string name="limit_condition_text">Gebruik het minimum als minimaal één kaart uit de volgende groep (of kaart) geselecteerd wordt.</string>
+    <string name="no_card_or_group_selected">Niets geselecteerd</string>
+    <string name="card_language">Kaarttaal</string>
+    <string name="loaded_cache">Kan de kaarten niet downloaden. Er wordt nu een (oude) kopie gebruikt.</string>
+    <string name="group">Groep</string>
+    <string name="card">Kaart</string>
+    <string name="bane">Ban</string>
+    <string name="cards_to_draw">Bij te trekken kaarten</string>
 </resources>

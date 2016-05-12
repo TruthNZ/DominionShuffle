@@ -5,7 +5,7 @@ android {
     buildToolsVersion "22.0.1"
 
     defaultConfig {
-        applicationId "nl.spellenclubeindhoven.dominionshuffle"
+        applicationId "nz.geek.truth.dominionshuffle"
         minSdkVersion 19
         targetSdkVersion 19
     }

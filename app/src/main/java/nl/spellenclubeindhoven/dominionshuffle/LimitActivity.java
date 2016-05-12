@@ -83,7 +83,7 @@ public class LimitActivity extends Activity {
 		groupsAndCards.addAll(data.getAll());
 		
 		SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);		
-		Collections.sort(groupsAndCards, new CardComparator(CardComparator.SORT_SET_NAME, prefs.getString("lang", "en")));
+		Collections.sort(groupsAndCards, new CardComparator(CardComparator.SORT_SET_NAME, this));
 		
 		conditionSpinner = (Spinner) findViewById(R.id.conditionSpinner);
 		conditionSpinner.setOnItemSelectedListener(onConditionSpinnerItemSelected);

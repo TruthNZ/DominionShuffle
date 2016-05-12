@@ -65,7 +65,7 @@ public abstract class CardListActivity extends ListActivity {
 		
 		compact = prefs.getBoolean("compact", compact);
 
-		Collections.sort(cards, new CardComparator(prefs.getInt("sort", CardComparator.SORT_SET_COST_NAME), globalPrefs.getString("lang", "en")));
+		Collections.sort(cards, new CardComparator(prefs.getInt("sort", CardComparator.SORT_SET_COST_NAME), this));
 		adapter = new CardAdapter(this, cards);
 		adapter.setCompact(compact);
 		adapter.setResult(result);
@@ -175,7 +175,7 @@ public abstract class CardListActivity extends ListActivity {
 			SharedPreferences globalPrefs = PreferenceManager.getDefaultSharedPreferences(CardListActivity.this);
 			prefs.edit().putInt("sort", which).commit();
 			
-			Collections.sort(cards, new CardComparator(which, globalPrefs.getString("lang", "en")));
+			Collections.sort(cards, new CardComparator(which, CardListActivity.this));
 			((CardAdapter) getListAdapter()).notifyDataSetChanged();
 			dialog.dismiss();
 		}

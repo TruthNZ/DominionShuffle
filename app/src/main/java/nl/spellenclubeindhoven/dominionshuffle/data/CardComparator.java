@@ -22,9 +22,13 @@
 
 package nl.spellenclubeindhoven.dominionshuffle.data;
 
+import android.content.Context;
+
 import java.text.Collator;
 import java.util.Comparator;
 import java.util.Locale;
+
+import nl.spellenclubeindhoven.dominionshuffle.Localise;
 
 public class CardComparator implements Comparator<Object> {
 	private Collator collator;
@@ -35,10 +39,12 @@ public class CardComparator implements Comparator<Object> {
 	public static final int SORT_NAME = 4;
 
 	private int sort;
+    private Context context;
 	
-	public CardComparator(int sort, String locale) {
+	public CardComparator(int sort, Context context) {
 		this.sort = sort;
-		this.collator = Collator.getInstance(new Locale(locale));
+        this.context = context;
+		this.collator = Collator.getInstance(Locale.getDefault());
 	}
 	
 	public int getSort() {
@@ -49,29 +55,31 @@ public class CardComparator implements Comparator<Object> {
 		if(obj1 instanceof Card && obj2 instanceof Card) {
 			Card card1 = (Card)obj1;
 			Card card2 = (Card)obj2;
-			int result;
+            String card1Name = Localise.getCardName(card1.getName(), context);
+            String card2Name = Localise.getCardName(card2.getName(), context);
+            int result;
 			
 			switch(sort) {
 			case SORT_COST_SET_NAME:
 				result = card1.getCost().compareTo(card2.getCost());
 				if(result == 0) result = collator.compare(card1.getSet(), card2.getSet());
-				if(result == 0) result = collator.compare(card1.getName(), card2.getName());
+				if(result == 0) result = collator.compare(card1Name, card2Name);
 				return result;
 			case SORT_SET_COST_NAME:
 				result = collator.compare(card1.getSet(), card2.getSet());
 				if(result == 0) result = card1.getCost().compareTo(card2.getCost());
-				if(result == 0) result = collator.compare(card1.getName(), card2.getName());
+				if(result == 0) result = collator.compare(card1Name, card2Name);
 				return result;
 			case SORT_SET_NAME:
 				result = collator.compare(card1.getSet(), card2.getSet());
-				if(result == 0) result = collator.compare(card1.getName(), card2.getName());
+				if(result == 0) result = collator.compare(card1Name, card2Name);
 				return result;
 			case SORT_COST_NAME:
 				result = card1.getCost().compareTo(card2.getCost());
-				if(result == 0) result = collator.compare(card1.getName(), card2.getName());
+				if(result == 0) result = collator.compare(card1Name, card2Name);
 				return result;
 			case SORT_NAME:
-				return collator.compare(card1.getName(), card2.getName());
+				return collator.compare(card1Name, card2Name);
 			}
 		}
 		

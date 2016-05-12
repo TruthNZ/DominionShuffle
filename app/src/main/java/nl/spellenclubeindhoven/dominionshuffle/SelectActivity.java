@@ -578,7 +578,7 @@ public class SelectActivity extends TabActivity implements OnScrollListener {
 			SharedPreferences globalPrefs = PreferenceManager.getDefaultSharedPreferences(SelectActivity.this);
 			
 			prefs.edit().putInt("sort", which).commit();
-			CardComparator comparator = new CardComparator(which, globalPrefs.getString("lang", "en"));
+			CardComparator comparator = new CardComparator(which, SelectActivity.this);
             Collections.sort(groupsAndCards, comparator);
 			inExAdapter.setCardComparator(comparator);
 			constraintAdapter.setCardComparator(comparator);
@@ -595,7 +595,7 @@ public class SelectActivity extends TabActivity implements OnScrollListener {
 	private CardComparator getPreferredCardComparator() {
 		SharedPreferences prefs = getPreferences(MODE_PRIVATE);
 		SharedPreferences globalPrefs = PreferenceManager.getDefaultSharedPreferences(SelectActivity.this);
-		return new CardComparator(prefs.getInt("sort", CardComparator.SORT_SET_NAME), globalPrefs.getString("lang", "en"));
+		return new CardComparator(prefs.getInt("sort", CardComparator.SORT_SET_NAME), this);
 	}
 
 	private android.content.DialogInterface.OnClickListener onMinMaxClickListener = new android.content.DialogInterface.OnClickListener() {
