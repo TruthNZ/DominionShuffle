@@ -35,8 +35,6 @@
     <string name="Cost_2_Description">Kaarten die 2 geld kosten in aanschaf</string>
     <string name="Cost_3">Kostprijs 3</string>
     <string name="Cost_3_Description">Kaarten die 3 geld kosten in aanschaf</string>
-    <string name="Cost_3_Or_Less">Kostprijs 3-</string>
-    <string name="Cost_3_Or_Less_Description">Kaarten die 3 geld of minder kosten in aanschaf</string>
     <string name="Cost_4">Kostprijs 4</string>
     <string name="Cost_4_Description">Kaarten die 4 geld kosten in aanschaf</string>
     <string name="Cost_5">Kostprijs 5</string>
