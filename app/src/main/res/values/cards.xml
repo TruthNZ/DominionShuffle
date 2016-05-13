@@ -266,7 +266,21 @@
     <string name="Trade">Trade</string>
     <string name="Training">Training</string>
     <string name="Travelling_Fair">Travelling Fair</string>
-<!--  Promo cards -->
+    <!-- Empires -->
+    <string name="Capital">Capital</string>
+    <string name="Catapult">Catapult</string>
+    <string name="Chariot_Race">Chariot Race</string>
+    <string name="City_Quarter">City Quarter</string>
+    <string name="Crown">Crown</string>
+    <string name="Enchantress">Enchantress</string>
+    <string name="Farmers_Market">Farmers Market</string>
+    <string name="Gladiator">Gladiator</string>
+    <string name="Grounds_Keeper">Grounds Keeper</string>
+    <string name="Royal_Blacksmith">Royal Blacksmith</string>
+    <string name="Settlers">Settlers</string>
+    <string name="Temple">Temple</string>
+    <string name="Villa">Villa</string>
+    <!--  Promo cards -->
     <string name="Black_Market">Black Market</string>
     <string name="Envoy">Envoy</string>
     <string name="Stash">Stash</string>

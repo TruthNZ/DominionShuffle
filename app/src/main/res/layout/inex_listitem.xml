@@ -25,6 +25,29 @@
         android:typeface="serif"></TextView>
 
     <ImageView
+        android:id="@+id/debtIcon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/icon"
+        android:src="@drawable/debt"></ImageView>
+
+
+    <TextView
+        android:id="@+id/debtValue"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignLeft="@+id/debtIcon"
+        android:layout_alignTop="@+id/debtIcon"
+        android:gravity="center"
+        android:text="2"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="serif"></TextView>
+
+    <ImageView
         android:id="@+id/checkbox"
         android:layout_width="32dp"
         android:layout_height="32dp"
@@ -53,7 +76,7 @@
         android:layout_marginBottom="2dip"
         android:layout_marginTop="2dip"
         android:layout_toLeftOf="@+id/checkbox"
-        android:layout_toRightOf="@+id/icon"
+        android:layout_toRightOf="@+id/debtIcon"
         android:ellipsize="end"
         android:text="Card or Groupname"
         android:textSize="22sp"></TextView>
@@ -65,7 +88,7 @@
         android:layout_alignWithParentIfMissing="true"
         android:layout_below="@+id/name"
         android:layout_toLeftOf="@+id/checkbox"
-        android:layout_toRightOf="@+id/icon"
+        android:layout_toRightOf="@+id/debtIcon"
         android:paddingBottom="5dp"
         android:text="Description. Wat gebeurt er met een langere description?"></TextView>
 

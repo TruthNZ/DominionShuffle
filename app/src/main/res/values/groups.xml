@@ -22,6 +22,8 @@
     <string name="Guilds_Description">Cards from Dominion: Guilds</string>
     <string name="Adventures">Adventures</string>
     <string name="Adventures_Description">Cards from Dominion: Adventures</string>
+    <string name="Empires">Empires</string>
+    <string name="Empires_Description">Cards from Dominion: Empires</string>
     <string name="Promo">Promo</string>
     <string name="Promo_Description">Promotion cards</string>
     <string name="Events">Events</string>

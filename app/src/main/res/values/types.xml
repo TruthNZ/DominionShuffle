@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="Action">Action</string>
+    <string name="Gathering">Gathering</string>
     <string name="Treasure">Treasure</string>
     <string name="Victory">Victory</string>
     <string name="Curse">Curse</string>

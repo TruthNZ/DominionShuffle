@@ -33,6 +33,7 @@ import android.text.style.ForegroundColorSpan;
 import android.text.style.RelativeSizeSpan;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 class CardOrGroupHolder {
@@ -44,9 +45,11 @@ class CardOrGroupHolder {
 	private View row;
 	private TextView nameView;
 	private TextView descriptionView;
+    private TextView debtValueView;
 	private TextView iconValueView;
 	private TextView setView;
 	private TextView setCompactView;
+    private ImageView debtView;
 	private ImageView iconView;
 	private ImageView checkboxView;
 	private TextView checkboxValueView;
@@ -62,6 +65,8 @@ class CardOrGroupHolder {
 		setView = (TextView) row.findViewById(R.id.set);
 		iconValueView = (TextView) row.findViewById(R.id.iconValue);
 		iconView = (ImageView) row.findViewById(R.id.icon);
+        debtView = (ImageView) row.findViewById(R.id.debtIcon);
+        debtValueView = (TextView) row.findViewById(R.id.debtValue);
 		checkboxView = (ImageView) row.findViewById(R.id.checkbox);
 		checkboxValueView = (TextView) row.findViewById(R.id.checkboxValue);
 		extendedInfoView = (View) row.findViewById(R.id.extendedInfo);
@@ -74,24 +79,101 @@ class CardOrGroupHolder {
 	}
 	
 	public void setIconValue(String cost) {
+        if (cost == null) {
+            debtView.setVisibility(View.GONE);
+            debtValueView.setVisibility(View.GONE);
+            setNameDescriptionRightOfCoin();
+        } else {
+            final int debtCostIndex = cost.indexOf('D');
+            if (debtCostIndex != -1) {
+                // We have a Debt String
+                String debtCost = cost.substring(debtCostIndex + 1);
+                debtView.setVisibility(View.VISIBLE);
+                debtValueView.setText(debtCost);
+                debtValueView.setVisibility(View.VISIBLE);
+                setNameDescriptionRightOfDebt();
+
+                if (debtCostIndex == 0) {
+                    cost = null;
+                    setDebtLeft();
+                } else {
+                    cost = cost.substring(0, debtCostIndex);
+                    setDebtRightOfCoin();
+                }
+            } else {
+                debtView.setVisibility(View.GONE);
+                debtValueView.setVisibility(View.GONE);
+                setNameDescriptionRightOfCoin();
+            }
+        }
+
 		if(cost == null) {
 			iconView.setVisibility(View.GONE);
-			iconValueView.setVisibility(View.GONE); 
-		}
-		else {
-			if(cost.startsWith("P")) {
-				iconView.setImageResource(R.drawable.potion);
-				cost = cost.substring(1);
-			}
-			else {
-				iconView.setImageResource(R.drawable.coin);
-			}
-			iconView.setVisibility(View.VISIBLE);
-			iconValueView.setText(cost);
-			iconValueView.setVisibility(View.VISIBLE);
+			iconValueView.setVisibility(View.GONE);
+		} else {
+            if(cost.startsWith("P")) {
+                iconView.setImageResource(R.drawable.potion);
+                cost = cost.substring(1);
+            }
+            else {
+                iconView.setImageResource(R.drawable.coin);
+            }
+            iconView.setVisibility(View.VISIBLE);
+            iconValueView.setText(cost);
+            iconValueView.setVisibility(View.VISIBLE);
 		}
 	}
-	
+
+    /**
+     * Sets the Name and Description fields to be right of the Coin icon
+     */
+    protected void setNameDescriptionRightOfCoin() {
+        RelativeLayout.LayoutParams nameLayoutParameters = ((RelativeLayout.LayoutParams)nameView.getLayoutParams());
+        nameLayoutParameters.removeRule(RelativeLayout.RIGHT_OF);
+        nameLayoutParameters.addRule(RelativeLayout.RIGHT_OF, iconView.getId());
+
+        RelativeLayout.LayoutParams descriptionLayoutParameters = ((RelativeLayout.LayoutParams)descriptionView.getLayoutParams());
+        descriptionLayoutParameters.removeRule(RelativeLayout.RIGHT_OF);
+        descriptionLayoutParameters.addRule(RelativeLayout.RIGHT_OF, iconView.getId());
+    }
+
+    /**
+     * Sets the Name and Description fields to be right of the Debt icon
+     */
+    protected void setNameDescriptionRightOfDebt() {
+        RelativeLayout.LayoutParams nameLayoutParameters = ((RelativeLayout.LayoutParams)nameView.getLayoutParams());
+        nameLayoutParameters.removeRule(RelativeLayout.RIGHT_OF);
+        nameLayoutParameters.addRule(RelativeLayout.RIGHT_OF, debtView.getId());
+
+        RelativeLayout.LayoutParams descriptionLayoutParameters = ((RelativeLayout.LayoutParams)descriptionView.getLayoutParams());
+        descriptionLayoutParameters.removeRule(RelativeLayout.RIGHT_OF);
+        descriptionLayoutParameters.addRule(RelativeLayout.RIGHT_OF, debtView.getId());
+    }
+
+    /**
+     * Sets the Name and Description fields to be right of the Debt icon
+     */
+    protected void setDebtRightOfCoin() {
+        RelativeLayout.LayoutParams debtLayoutParameters = ((RelativeLayout.LayoutParams)debtView.getLayoutParams());
+        debtLayoutParameters.removeRule(RelativeLayout.RIGHT_OF);
+        debtLayoutParameters.addRule(RelativeLayout.RIGHT_OF, iconView.getId());
+
+        RelativeLayout.LayoutParams debtValueLayoutParameters = ((RelativeLayout.LayoutParams)debtValueView.getLayoutParams());
+        debtValueLayoutParameters.removeRule(RelativeLayout.RIGHT_OF);
+        debtValueLayoutParameters.addRule(RelativeLayout.RIGHT_OF, iconView.getId());
+    }
+
+    /**
+     * Sets the Name and Description fields to be right of the Debt icon
+     */
+    protected void setDebtLeft() {
+        RelativeLayout.LayoutParams debtLayoutParameters = ((RelativeLayout.LayoutParams)debtView.getLayoutParams());
+        debtLayoutParameters.removeRule(RelativeLayout.RIGHT_OF);
+
+        RelativeLayout.LayoutParams debtValueLayoutParameters = ((RelativeLayout.LayoutParams)debtValueView.getLayoutParams());
+        debtValueLayoutParameters.removeRule(RelativeLayout.RIGHT_OF);
+    }
+
 	public void hideCheckBoxValue() {
 		checkboxValueView.setVisibility(View.GONE);
 	}
