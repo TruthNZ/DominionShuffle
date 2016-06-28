@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 	package="nl.spellenclubeindhoven.dominionshuffle"
-	android:installLocation="auto" android:versionName="1.12.1" android:versionCode="57">
+	android:installLocation="auto" android:versionName="1.14" android:versionCode="57">
 	<application android:icon="@drawable/icon" android:label="@string/app_name"
 		android:name="Application" android:description="@string/app_description">
 		<activity android:label="@string/app_name" android:name=".SelectActivity">
