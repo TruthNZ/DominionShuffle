@@ -55,6 +55,7 @@
         <item>9</item>
     </string-array>
     <string name="result_title">Dominion Shuffle - Resultaat</string>
+    <string name="settings_title">Dominion Shuffle - Instellingen</string>
     <string name="show_group_title">Groep \'%s\' kaarten</string>
     <string name="solve_dialog_title">Fout bij Oplossen</string>
     <string name="ok">OK</string>

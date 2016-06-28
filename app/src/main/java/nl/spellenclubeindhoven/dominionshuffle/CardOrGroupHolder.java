@@ -48,12 +48,10 @@ class CardOrGroupHolder {
     private TextView debtValueView;
 	private TextView iconValueView;
 	private TextView setView;
-	private TextView setCompactView;
     private ImageView debtView;
 	private ImageView iconView;
 	private ImageView checkboxView;
 	private TextView checkboxValueView;
-	private View extendedInfoView;
 	private boolean baneCard;
 	static private int baneColor;
 	static private String baneText;
@@ -69,8 +67,6 @@ class CardOrGroupHolder {
         debtValueView = (TextView) row.findViewById(R.id.debtValue);
 		checkboxView = (ImageView) row.findViewById(R.id.checkbox);
 		checkboxValueView = (TextView) row.findViewById(R.id.checkboxValue);
-		extendedInfoView = (View) row.findViewById(R.id.extendedInfo);
-		setCompactView = (TextView) row.findViewById(R.id.setCompact);
 		
 		if(baneText == null) {
 			baneText = " (" + row.getContext().getString(R.string.bane) + ")";
@@ -295,20 +291,15 @@ class CardOrGroupHolder {
 	
 	public void setSet(String set) {
 		setView.setText(set);
-		if(setCompactView != null) {
-			setCompactView.setText(set);
-		}
 	}
 	
 	public void setCompact(boolean compact) {
 		if(compact) {
-			extendedInfoView.setVisibility(View.GONE);
-			setCompactView.setVisibility(View.VISIBLE);
+            descriptionView.setVisibility(View.GONE);
 			
 		}
 		else {
-			extendedInfoView.setVisibility(View.VISIBLE);
-			setCompactView.setVisibility(View.GONE);
+            descriptionView.setVisibility(View.VISIBLE);
 		}
 	}
 

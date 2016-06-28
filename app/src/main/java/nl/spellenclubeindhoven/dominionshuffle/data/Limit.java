@@ -142,4 +142,17 @@ public class Limit {
         }
         return true;
     }
+
+    /**
+     * Checks to see if this limit's maximum is satisfied by the provided collection of cards.<br/>
+     * If this limit has no maximum (represented by Integer.MAX) it is always satisfied.
+     */
+    public boolean maximumSatisified(Collection<Card> cards) {
+        if (minimum < Integer.MAX_VALUE && this.appliesTo(cards)) {
+            if (maximum < count(cards)) {
+                return false;
+            }
+        }
+        return true;
+    }
 }

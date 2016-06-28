@@ -22,6 +22,8 @@
 
 package nl.spellenclubeindhoven.dominionshuffle.data;
 
+import android.util.Log;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -119,7 +121,7 @@ public class Data {
 				types.add(jsonTypes.getString(j));
 			}
 			boolean basicOrNonSupply = jsonCard.optBoolean("basic", false) || jsonCard.optBoolean("nonSupply", false);
-			Card card = new Card(
+            Card card = new Card(
 				jsonCard.getString("card"),
 				jsonCard.getString("set"),
 				jsonCard.getString("cost"),

@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:onClick="close">
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:onClick="close"
+              android:orientation="vertical">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/releasenotes_title"
-        android:id="@+id/textView" />
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
 
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="fill_parent"
-        android:text="@string/releasenotes_value"
-        android:id="@+id/textView2" />
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/releasenotes_value"/>
+    </ScrollView>
 </LinearLayout>

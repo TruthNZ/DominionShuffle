@@ -49,6 +49,7 @@ public class CardSelector {
     // Static Constants
     private final static int DEFAULT_CARDS_TO_DRAW = 10;
     private final static String EVENT = "Event";
+    private final static String LANDMARK = "Landmark";
     private final static String COST_2_Group = "Cost_2";
     private final static String COST_3_Group = "Cost_3";
     private final static String POTION_CARD = "Potion";
@@ -147,6 +148,14 @@ public class CardSelector {
     private Result generateSolution(final Result existingResult, final Set<Card> existingAvailableCards) throws SolveError {
         // First add the Bane card if needed.
         addBaneIfNeeded(existingResult, existingAvailableCards);
+        Log.d(CardSelector.class.getSimpleName(), "Current Card List: " + existingResult);
+
+        // Check to ensure most recent card added hasn't taken us over any maximum limits
+        for (final Limit limit: allLimits.values()) {
+            if (!limit.maximumSatisified(existingResult.getCards())) {
+                throw new SolveError(R.string.solveerror_unsatisfied_rule, "");
+            }
+        }
 
         // Check if we have completed the Solution
         if (countDrawCards(existingResult.getCards(), existingResult) == getCardsToDraw()) {
@@ -230,7 +239,7 @@ public class CardSelector {
     private int countDrawCards(final Collection<Card> cards, final Result result) {
         int count = 0;
         for (final Card card : cards) {
-            if (!card.isBasicOrNonSupply() && !card.getTypes().contains(EVENT) && !(result.getBaneCard() == card)) {
+            if (!card.isBasicOrNonSupply() && !card.getTypes().contains(EVENT)&& !card.getTypes().contains(LANDMARK) && !(result.getBaneCard() == card)) {
                 count++;
             }
         }

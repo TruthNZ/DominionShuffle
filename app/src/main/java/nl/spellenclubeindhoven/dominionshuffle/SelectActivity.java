@@ -64,7 +64,6 @@ import nl.spellenclubeindhoven.dominionshuffle.data.Group;
 import nl.spellenclubeindhoven.dominionshuffle.data.Limit;
 import nl.spellenclubeindhoven.dominionshuffle.data.SectionedCardOrGroupAdapter;
 import nl.spellenclubeindhoven.dominionshuffle.data.SolveError;
-import nl.spellenclubeindhoven.dominionshuffle.widget.CustomFastScrollView;
 
 public class SelectActivity extends TabActivity implements OnScrollListener {
 	private static final int MENU_SORT = 1;
@@ -88,7 +87,6 @@ public class SelectActivity extends TabActivity implements OnScrollListener {
 	private Application application;
 	private InExAdapter inExAdapter;
 	private ConstraintAdapter constraintAdapter;
-	private CustomFastScrollView inexFastScrollView, constraintFastScrollView;
 	@SuppressWarnings("unused")
 	private DialogInterface dialog;
 	private List<Object> groupsAndCards;
@@ -114,27 +112,20 @@ public class SelectActivity extends TabActivity implements OnScrollListener {
 		TabHost tabs = getTabHost();
 
 		TabHost.TabSpec spec = tabs.newTabSpec("inex");
-		spec.setContent(R.id.inex_fastscrollview);
+		spec.setContent(R.id.inexList);
 		spec.setIndicator(getResources().getString(R.string.tab_select), getResources().getDrawable(R.drawable.select_tab));
 		tabs.addTab(spec);
 
 		spec = tabs.newTabSpec("constraint");
-		spec.setContent(R.id.constraint_fastscrollview);
+		spec.setContent(R.id.constraintList);
 		spec.setIndicator(getResources().getString(R.string.tab_constraints), getResources().getDrawable(R.drawable.limits_tab));
 		tabs.addTab(spec);
 
-		spec = tabs.newTabSpec("generate");
+        spec = tabs.newTabSpec("generate");
 		spec.setContent(R.id.generateButtons);
 		spec.setIndicator(getResources().getString(R.string.tab_generate), getResources().getDrawable(R.drawable.shuffle_tab));
 		tabs.addTab(spec);
 
-		inexFastScrollView = ((CustomFastScrollView)findViewById(R.id.inex_fastscrollview));
-		inexFastScrollView.setOnScrollListener(this);
-		
-		constraintFastScrollView = ((CustomFastScrollView)findViewById(R.id.constraint_fastscrollview));
-		constraintFastScrollView.setOnScrollListener(this);
-		
-		
 		groupsAndCards = new LinkedList<Object>();
 
 		inExAdapter = new InExAdapter(this, groupsAndCards, cardSelector, getPreferredCardComparator());
@@ -338,6 +329,7 @@ public class SelectActivity extends TabActivity implements OnScrollListener {
 
                 cardSelector.addIncludedGroup(data.getGroup("All"));
                 cardSelector.setLimitMaximum(data.getGroup("Events"), 2);
+                cardSelector.setLimitMaximum(data.getGroup("Landmarks"), 2);
 
             } else {
                 cardSelector.fromJson(selectorData, dataReader.getData());
@@ -585,9 +577,9 @@ public class SelectActivity extends TabActivity implements OnScrollListener {
 			inExAdapter.notifyDataSetChanged();
 			constraintAdapter.notifyDataSetChanged();
 			inExAdapter.refreshSections();
-			inexFastScrollView.listItemsChanged();
+			//inexFastScrollView.listItemsChanged();
 			constraintAdapter.refreshSections();
-			constraintFastScrollView.listItemsChanged();
+			//constraintFastScrollView.listItemsChanged();
 			dialog.dismiss();
 		}
 	};
@@ -670,7 +662,7 @@ public class SelectActivity extends TabActivity implements OnScrollListener {
 		inExAdapter.notifyDataSetChanged();
 		constraintAdapter.notifyDataSetChanged();		
 		inExAdapter.refreshSections();
-		inexFastScrollView.listItemsChanged();
+		//inexFastScrollView.listItemsChanged();
 	}
 
 	private static class InExAdapter extends SectionedCardOrGroupAdapter {

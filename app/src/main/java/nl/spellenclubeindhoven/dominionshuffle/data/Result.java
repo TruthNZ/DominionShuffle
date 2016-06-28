@@ -62,4 +62,15 @@ public class Result {
     public void setCards(List<Card> cards) {
         this.cards = cards;
     }
+
+    @Override
+    public String toString() {
+        StringBuilder stringBuilder = new StringBuilder("[");
+        for (final Card card : cards) {
+            stringBuilder.append(card.getName());
+            stringBuilder.append(", ");
+        }
+        stringBuilder.append("]");
+        return stringBuilder.toString();
+    }
 }

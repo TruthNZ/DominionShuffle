@@ -1,13 +1,15 @@
 package nl.spellenclubeindhoven.dominionshuffle.data;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import nl.spellenclubeindhoven.dominionshuffle.R;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.widget.ArrayAdapter;
 import android.widget.SectionIndexer;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import nl.spellenclubeindhoven.dominionshuffle.Localise;
+import nl.spellenclubeindhoven.dominionshuffle.R;
 
 /**
  * Abstract class intended to be extended by the InexAdapter and the ConstraintsAdapter.  Basically, it's an
@@ -137,8 +139,8 @@ public abstract class SectionedCardOrGroupAdapter extends ArrayAdapter<Object> i
 		case CardComparator.SORT_SET_NAME:
 		default:
 			// sections are the set
-			return card.getSet();
-		}
+            return Localise.getSetName(card.getSet(), getContext());
+        }
 	}
 
 	/**
