@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 	package="nl.spellenclubeindhoven.dominionshuffle"
-	android:installLocation="auto" android:versionName="1.14" android:versionCode="57">
+	android:installLocation="auto">
 	<application android:icon="@drawable/icon" android:label="@string/app_name"
 		android:name="Application" android:description="@string/app_description">
 		<activity android:label="@string/app_name" android:name=".SelectActivity">
@@ -16,7 +16,6 @@
 		<activity android:name=".LoadSaveActivity"></activity>
 		<activity android:name=".LimitActivity" android:label="@string/limit_title"></activity>
 	</application>
-	<!--<uses-sdk android:minSdkVersion="3" android:targetSdkVersion="4"/>-->
 	<!--<uses-permission android:name="android.permission.WAKE_LOCK"></uses-permission>-->
 	<supports-screens android:largeScreens="false" android:resizeable="true" android:anyDensity="true" android:smallScreens="true" android:normalScreens="true"></supports-screens>
     <uses-feature android:required="false" android:name="android.hardware.touchscreen"></uses-feature>

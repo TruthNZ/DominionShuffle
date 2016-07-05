@@ -4,3 +4,4 @@ local.properties
 build/
 app/build/
 app/*.apk
+app/app.iml
