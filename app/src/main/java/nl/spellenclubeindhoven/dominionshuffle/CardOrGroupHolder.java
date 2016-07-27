@@ -125,11 +125,9 @@ class CardOrGroupHolder {
      */
     protected void setNameDescriptionRightOfCoin() {
         RelativeLayout.LayoutParams nameLayoutParameters = ((RelativeLayout.LayoutParams)nameView.getLayoutParams());
-        nameLayoutParameters.removeRule(RelativeLayout.RIGHT_OF);
-        nameLayoutParameters.addRule(RelativeLayout.RIGHT_OF, iconView.getId());
+         nameLayoutParameters.addRule(RelativeLayout.RIGHT_OF, iconView.getId());
 
         RelativeLayout.LayoutParams descriptionLayoutParameters = ((RelativeLayout.LayoutParams)descriptionView.getLayoutParams());
-        descriptionLayoutParameters.removeRule(RelativeLayout.RIGHT_OF);
         descriptionLayoutParameters.addRule(RelativeLayout.RIGHT_OF, iconView.getId());
     }
 
@@ -138,11 +136,9 @@ class CardOrGroupHolder {
      */
     protected void setNameDescriptionRightOfDebt() {
         RelativeLayout.LayoutParams nameLayoutParameters = ((RelativeLayout.LayoutParams)nameView.getLayoutParams());
-        nameLayoutParameters.removeRule(RelativeLayout.RIGHT_OF);
         nameLayoutParameters.addRule(RelativeLayout.RIGHT_OF, debtView.getId());
 
         RelativeLayout.LayoutParams descriptionLayoutParameters = ((RelativeLayout.LayoutParams)descriptionView.getLayoutParams());
-        descriptionLayoutParameters.removeRule(RelativeLayout.RIGHT_OF);
         descriptionLayoutParameters.addRule(RelativeLayout.RIGHT_OF, debtView.getId());
     }
 
@@ -151,11 +147,9 @@ class CardOrGroupHolder {
      */
     protected void setDebtRightOfCoin() {
         RelativeLayout.LayoutParams debtLayoutParameters = ((RelativeLayout.LayoutParams)debtView.getLayoutParams());
-        debtLayoutParameters.removeRule(RelativeLayout.RIGHT_OF);
         debtLayoutParameters.addRule(RelativeLayout.RIGHT_OF, iconView.getId());
 
         RelativeLayout.LayoutParams debtValueLayoutParameters = ((RelativeLayout.LayoutParams)debtValueView.getLayoutParams());
-        debtValueLayoutParameters.removeRule(RelativeLayout.RIGHT_OF);
         debtValueLayoutParameters.addRule(RelativeLayout.RIGHT_OF, iconView.getId());
     }
 
@@ -164,10 +158,15 @@ class CardOrGroupHolder {
      */
     protected void setDebtLeft() {
         RelativeLayout.LayoutParams debtLayoutParameters = ((RelativeLayout.LayoutParams)debtView.getLayoutParams());
-        debtLayoutParameters.removeRule(RelativeLayout.RIGHT_OF);
+        //debtLayoutParameters.removeRule(RelativeLayout.RIGHT_OF);
+        // Use the following instead to support lower APIs
+        debtLayoutParameters.addRule(RelativeLayout.RIGHT_OF, 0);
+
 
         RelativeLayout.LayoutParams debtValueLayoutParameters = ((RelativeLayout.LayoutParams)debtValueView.getLayoutParams());
-        debtValueLayoutParameters.removeRule(RelativeLayout.RIGHT_OF);
+        //debtValueLayoutParameters.removeRule(RelativeLayout.RIGHT_OF);
+        // Use the following instead to support lower APIs
+        debtValueLayoutParameters.addRule(RelativeLayout.RIGHT_OF, 0);
     }
 
 	public void hideCheckBoxValue() {

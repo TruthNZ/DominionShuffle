@@ -43,7 +43,7 @@ import java.util.SortedSet;
 import java.util.TreeSet;
 
 import nl.spellenclubeindhoven.dominionshuffle.R;
-import nl.spellenclubeindhoven.dominionshuffle.SettingsFragment;
+import nl.spellenclubeindhoven.dominionshuffle.SettingsActivity;
 
 public class CardSelector {
     // Static Constants
@@ -452,7 +452,7 @@ public class CardSelector {
 	} */
 
     private int getCardsToDraw() {
-        String cardsToDraw = PreferenceManager.getDefaultSharedPreferences(this.context).getString(SettingsFragment.CARDS_TO_DRAW, null);
+        String cardsToDraw = PreferenceManager.getDefaultSharedPreferences(this.context).getString(SettingsActivity.CARDS_TO_DRAW, null);
         if (cardsToDraw == null) {
             return DEFAULT_CARDS_TO_DRAW;
         }
