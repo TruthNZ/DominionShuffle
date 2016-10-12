@@ -2,10 +2,18 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="All">All</string>
     <string name="All_Description">All Dominion cards</string>
-    <string name="Main_Set">Main Set</string>
-    <string name="Main_Set_Description">Cards from the first Dominion</string>
+    <string name="Main_Set">Base Set</string>
+    <string name="Main_Set_Description">Cards in both Editions of Base Dominion</string>
+    <string name="Main_Set_First">Base Set 1st Ed.</string>
+    <string name="Main_Set_First_Description">Cards from the First Edition Base Dominion</string>
+    <string name="Main_Set_Second">Base Set 2nd Ed.</string>
+    <string name="Main_Set_Second_Description">Cards from the Second Edition Base Dominion</string>
     <string name="Intrigue">Intrigue</string>
-    <string name="Intrigue_Description">Cards from Dominion: Intrigue</string>
+    <string name="Intrigue_Description">Cards in both Editions of Dominion: Intrigue</string>
+    <string name="Intrigue_First">Intrigue 1st Ed</string>
+    <string name="Intrigue_First_Description">Cards from First Edition Dominion: Intrigue</string>
+    <string name="Intrigue_Second">Intrigue 2nd Ed</string>
+    <string name="Intrigue_Second_Description">Cards from Second Edition Dominion: Intrigue</string>
     <string name="Seaside">Seaside</string>
     <string name="Seaside_Description">Cards from Dominion: Seaside</string>
     <string name="Alchemy">Alchemy</string>

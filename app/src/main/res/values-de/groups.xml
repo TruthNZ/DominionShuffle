@@ -5,6 +5,10 @@
     <string name="All_Description">Alle Dominionkarten</string>
     <string name="Main_Set">Was für eine Welt!</string>
     <string name="Main_Set_Description">Karten aus Dominion: Was für eine Welt!</string>
+    <string name="Main_Set_First">Was für eine Welt! 1st Ausg.</string>
+    <string name="Main_Set_First_Description">Karten aus Erste Ausgabe Dominion: Was für eine Welt!</string>
+    <string name="Main_Set_Second">Was für eine Welt! 2nd Ausg.</string>
+    <string name="Main_Set_Second_Description">Karten aus Zweite Ausgabe Dominion: Was für eine Welt!</string>
     <string name="Intrigue">Die Intrige!</string>
     <string name="Intrigue_Description">Karten aus Dominion: Die Intrige!</string>
     <string name="Seaside">Seaside</string>
@@ -23,6 +27,8 @@
     <string name="Guilds_Description">Karten aus Dominion: Die Gilden</string>
     <string name="Adventures">Abenteuer</string>
     <string name="Adventures_Description">Karten aus Dominion: Abenteuer</string>
+    <string name="Empires">Empires</string>
+    <string name="Empires_Description">Karten aus Dominion: Empires</string>
     <string name="Promo">Promo</string>
     <string name="Promo_Description">Promokarten</string>
     <string name="Events">Ereignisse</string>

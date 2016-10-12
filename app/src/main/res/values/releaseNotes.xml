@@ -2,6 +2,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="releasenotes_title">Release Notes</string>
     <string name="releasenotes_value">
+++ Version 1.15 ++\n
+2nd Edition Base Dominion and Intrigue.\n
+Cards in both sets will show as Base Set, Cards only in 1st Ed will show as Base Set 1st Ed., and Cards only in 2nd Ed will show as Base Set 2nd Ed. Similar for Intrigue cards.\n
+Translations for German/Dutch are via Google Translate currently. I apologise to speakers of the languages for any botching of it.
 ++ Version 1.14 ++\n
 Empires!\n
 English only at this time.\n

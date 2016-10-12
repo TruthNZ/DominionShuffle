@@ -5,6 +5,10 @@
     <string name="All_Description">Alle Dominionkaarten</string>
     <string name="Main_Set">Basisspel</string>
     <string name="Main_Set_Description">Kaarten van het basisspel</string>
+    <string name="Main_Set_First">Basisspel 1st ed.</string>
+    <string name="Main_Set_First_Description">Kaarten van het eerste editie basisspel</string>
+    <string name="Main_Set_Second">Basisspel 2nd ed.</string>
+    <string name="Main_Set_Second_Description">Kaarten van het tweede editie basisspel</string>
     <string name="Intrigue">Intrige</string>
     <string name="Intrigue_Description">Kaarten van Dominion: Intrige</string>
     <string name="Seaside">Heis de Zeilen</string>
@@ -23,6 +27,8 @@
     <string name="Guilds_Description">Kaarten van de uitbreiding De Gilden</string>
     <string name="Adventures">Avonturen</string>
     <string name="Adventures_Description">Kaarten van de uitbreiding Avonturen</string>
+    <string name="Empires">Empires</string>
+    <string name="Empires_Description">Kaarten van de uitbreiding Empires</string>
     <string name="Promo">Promokaarten</string>
     <string name="Promo_Description">Kaarten afkomstig uit promo\'s</string>
     <string name="Events">Gebeurtenissen</string>

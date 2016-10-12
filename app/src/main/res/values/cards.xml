@@ -325,6 +325,22 @@
     <string name="Triumphal_Arch">Triumphal Arch</string>
     <string name="Wall">Wall</string>
     <string name="Wolf_Den">Wolf Den</string>
+    <!--  Base 2nd Edition Cards -->
+    <string name="Artisan">Artisan</string>
+    <string name="Bandit">Bandit</string>
+    <string name="Harbinger">Harbinger</string>
+    <string name="Merchant">Merchant</string>
+    <string name="Poacher">Poacher</string>
+    <string name="Sentry">Sentry</string>
+    <string name="Vassal">Vassal</string>
+    <!--  Intrigue 2nd Edition Cards -->
+    <string name="Courtier">Courtier</string>
+    <string name="Diplomat">Diplomat</string>
+    <string name="Lurker">Lurker</string>
+    <string name="Mill">Mill</string>
+    <string name="Patrol">Patrol</string>
+    <string name="Replace">Replace</string>
+    <string name="Secret_Passage">Secret Passage</string>
     <!--  Promo cards -->
     <string name="Black_Market">Black Market</string>
     <string name="Envoy">Envoy</string>
