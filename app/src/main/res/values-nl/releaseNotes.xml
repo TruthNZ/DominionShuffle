@@ -2,8 +2,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="releasenotes_title">Release Notes</string>
     <string name="releasenotes_value">
+++ Version 1.15.2 ++\n
+Toegevoegd 2 Ed kaarten en Sauna/Wak promotie de juiste Groepen.\n
 ++ Version 1.15.1 ++\n
-Sauna/Wak Promotie kaart toegevoegd.\n
+Sauna/Wak promotie kaart toegevoegd.\n
 ++ Version 1.15 ++\n
 2nd Editie Base Dominion en intriges.\n
 Kaarten in beide sets zal te zien zijn als Base Set, kaarten alleen in 1 Ed zal te zien zijn als 1 basisset Ed., En kaarten alleen in de 2e Ed zal te zien zijn als Base Set 2 Ed. Hetzelfde voor Intrigue kaarten.\n
