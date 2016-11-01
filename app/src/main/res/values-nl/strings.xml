@@ -90,5 +90,6 @@
     <string name="group">Groep</string>
     <string name="card">Kaart</string>
     <string name="bane">Ban</string>
+    <string name="obelisk">Obelisk</string>
     <string name="cards_to_draw">Bij te trekken kaarten</string>
 </resources>

@@ -2,6 +2,11 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="releasenotes_title">Release Notes</string>
     <string name="releasenotes_value">
+-- &lt;Google Translate&gt; --\n
+++ Version 1.15.3 ++\n
+Nieuwe Icon Graphics door EldVarg.\n
+Toegevoegde evenementen en bezienswaardigheden groep mogelijk te maken voor de regel van niet meer dan 2.\n
+Toegevoegd code voor Obelisk Card (Op dit moment niet halen Ruins stapelen echter).\n
 ++ Version 1.15.2 ++\n
 Toegevoegd 2 Ed kaarten en Sauna/Wak promotie de juiste Groepen.\n
 ++ Version 1.15.1 ++\n
@@ -13,6 +18,7 @@ Vertalingen van Duits / Nederlands zijn via Google momenteel Translate. Ik veron
 ++ Version 1.14 ++\n
 Empires!\n
 Alleen in het Engels op dit moment.
+-- &lt;\\Google Translate&gt; --\n
 ++ Version 1.13 ++\n
 Aanvullende Nederlandstalige vertalingen toegevoegd door Tom Vandeweyer.\n
 ++ Version 1.12 ++\n

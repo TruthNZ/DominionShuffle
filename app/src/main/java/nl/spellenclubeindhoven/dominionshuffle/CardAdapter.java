@@ -59,6 +59,7 @@ class CardAdapter extends ArrayAdapter<Card> {
 		Card card = getItem(position);
 
 		holder.setBaneCard(result != null && card == result.getBaneCard());
+        holder.setObeliskCard(result != null && card == result.getObeliskCard());
 		holder.setCompact(compact);
 		holder.setName(Localise.getSetName(card.getName(), getContext()));
 		StringBuilder type = new StringBuilder();

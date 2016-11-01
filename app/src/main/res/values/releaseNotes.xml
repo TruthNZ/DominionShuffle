@@ -2,6 +2,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="releasenotes_title">Release Notes</string>
     <string name="releasenotes_value">
+++ Version 1.15.3 ++\n
+New Icon Graphics by EldVarg.\n
+Added Events and Landmarks group to allow for rule of no more than 2.\n
+Added code for Obelisk Card (Doesn\'t currently pick Ruins pile however).\n
 ++ Version 1.15.2 ++\n
 Added 2nd Ed cards, and Sauna/Avanto Promo to appropriate Groups.\n
 ++ Version 1.15.1 ++\n

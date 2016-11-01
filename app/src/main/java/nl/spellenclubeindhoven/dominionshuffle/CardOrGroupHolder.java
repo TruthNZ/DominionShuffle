@@ -29,6 +29,7 @@ import nl.spellenclubeindhoven.dominionshuffle.data.Group;
 import android.content.Context;
 import android.text.Spannable;
 import android.text.SpannableString;
+import android.text.SpannableStringBuilder;
 import android.text.style.ForegroundColorSpan;
 import android.text.style.RelativeSizeSpan;
 import android.view.View;
@@ -53,8 +54,11 @@ class CardOrGroupHolder {
 	private ImageView checkboxView;
 	private TextView checkboxValueView;
 	private boolean baneCard;
+    private boolean obeliskCard;
 	static private int baneColor;
 	static private String baneText;
+    static private int obeliskColor;
+    static private String obeliskText;
 	
 	public CardOrGroupHolder(View row) {
 		this.row = row;
@@ -72,6 +76,11 @@ class CardOrGroupHolder {
 			baneText = " (" + row.getContext().getString(R.string.bane) + ")";
 			baneColor = row.getContext().getResources().getColor(R.color.bane_color);
 		}
+
+        if (obeliskText == null) {
+            obeliskText = " (" + row.getContext().getString(R.string.obelisk) + ")";
+            obeliskColor = row.getContext().getResources().getColor(R.color.obelisk_color);
+        }
 	}
 	
 	public void setIconValue(String cost) {
@@ -267,17 +276,23 @@ class CardOrGroupHolder {
         nameView.setText(displayName);
     }
 
-	public void setName(String name) {
+	public void setName(final String name) {
+        final SpannableStringBuilder spannable = new SpannableStringBuilder(name);
 		if(baneCard) {
-			Spannable spannable = new SpannableString(name + baneText);
-			int start = name.length() + 1;
-			int end = spannable.length();
-			spannable.setSpan(new ForegroundColorSpan(baneColor), start, end, 0);
-			spannable.setSpan(new RelativeSizeSpan(0.60f), start, end, 0);
-			nameView.setText(spannable);
-		} else {
-            nameView.setText(name);
+            final int start = spannable.length() + 1;
+            spannable.append(baneText);
+            final int end = spannable.length();
+            spannable.setSpan(new ForegroundColorSpan(baneColor), start, end, 0);
+            spannable.setSpan(new RelativeSizeSpan(0.60f), start, end, 0);
         }
+        if(obeliskCard) {
+            final int start = spannable.length() + 1;
+            spannable.append(obeliskText);
+            final int end = spannable.length();
+            spannable.setSpan(new ForegroundColorSpan(obeliskColor), start, end, 0);
+            spannable.setSpan(new RelativeSizeSpan(0.60f), start, end, 0);
+		}
+        nameView.setText(spannable);
 	}
 	
 	public void setDescription(String description) {
@@ -323,4 +338,8 @@ class CardOrGroupHolder {
 	public void setBaneCard(boolean baneCard) {
 		this.baneCard = baneCard;
 	}
+
+    public void setObeliskCard(boolean obeliskCard) {
+        this.obeliskCard = obeliskCard;
+    }
 }

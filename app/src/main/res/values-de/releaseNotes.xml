@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--  Translated by Christoph Moritz <cmoritz@web.de> -->
-
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-
     <string name="releasenotes_title">Release Notes</string>
-
     <string name="releasenotes_value">
+-- &lt;Google Translate&gt; --\n
+++ Version 1.15.3 ++\n
+Neue Ikonen-Grafiken durch EldVarg.\n
+Added Ereignisse und Wahrzeichen Gruppe für die Regel von nicht mehr als 2 erlauben.\n
+Zusätzlicher Code für Obelisk Card (Hebt derzeit nicht Ruinen Haufen jedoch).\n
 ++ Version 1.15.2 ++\n
 Hinzugefügt 2. Ed. Karten und Sauna/Eisloch förderung zu entsprechenden Gruppen.\n
 ++ Version 1.15.1 ++\n
@@ -20,11 +22,10 @@ Englisch nur zu diesem Zeitpunkt.
 ++ Version 1.13 ++\n
 New Dutch Übersetzungen hinzugefügt von Tom Vandeweyer
 ++ Version 1.12 ++\n
--- Google Translate --\n
 Neue deutsche Übersetzungen hinzugefügt von Christoph Moritz.\n
 Einladung -Karte aufgenommen.\n
 Behoben: Fehler bei der Erzeugung von Bane für Junge Hexe\n
--- Google Translate --\n
+-- &lt;\\Google Translate&gt; --\n
 ++ Version 1.11 ++\nNeues Sprachsystem. Nur eine Kopie der Kerndaten muss aktualisiert werden; dann sind nur noch die Übersetzungen zu ergänzen.\nWenn jemand Übersetzungen bereitstellt, werde ich diese in die App einpflegen.\n
 \n
 ++ Version 1.10 ++\n

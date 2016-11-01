@@ -30,12 +30,14 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Map;
 import java.util.Random;
 import java.util.Set;
@@ -58,10 +60,12 @@ public class CardSelector {
     private final static String COLONY_CARD = "Colony";
     private final static String PLATINUM_CARD = "Platinum";
     private final static String SHELTER_CARD = "Shelter";
+    private final static String OBELISK_CARD = "Obelisk";
     private final static String YOUNG_WITCH_CARD = "Young_Witch";
     private final static String DARK_AGES_GROUP = "Dark_Ages";
     private final static String LOOTER_GROUP = "Looter";
     private final static String RUINS_CARD = "Ruins";
+    private final static String ACTION_TYPE = "Action";
 
     // Final Class variables
     final private Context context;
@@ -141,17 +145,16 @@ public class CardSelector {
         //addPotionIfNeeded(result);
         drawColonyPlatinum(result);
         drawShelter(result);
+        drawObelisk(result);
 
         return result;
     }
 
     private Result generateSolution(final Result existingResult, final Set<Card> existingAvailableCards) throws SolveError {
-        // First add the Bane card if needed.
-        addBaneIfNeeded(existingResult, existingAvailableCards);
         Log.d(CardSelector.class.getSimpleName(), "Current Card List: " + existingResult);
 
         // Check to ensure most recent card added hasn't taken us over any maximum limits
-        for (final Limit limit: allLimits.values()) {
+        for (final Limit limit : allLimits.values()) {
             if (!limit.maximumSatisified(existingResult.getCards())) {
                 throw new SolveError(R.string.solveerror_unsatisfied_rule, "");
             }
@@ -161,6 +164,8 @@ public class CardSelector {
         if (countDrawCards(existingResult.getCards(), existingResult) == getCardsToDraw()) {
             // We've drawn the correct number of cards, now check our limits
             if (checkLimitsSatisfied(existingResult)) {
+                // First add the Bane card if needed.
+                addBaneIfNeeded(existingResult, existingAvailableCards);
                 // This is a valid Solution!
                 return existingResult;
             } else {
@@ -215,7 +220,7 @@ public class CardSelector {
             throw new SolveError(R.string.solveerror_rules_to_strict, "Can not select cards using given rules, try relaxing them");
         }
 
-        // Randomise selection from the set
+        // Randomise selection from the set - Iterating through isn't very efficient, but without writing a combined List Set class ourself is the easiest choice.
         final int cardToFetch = this.random.nextInt(pickSource.size());
         final Iterator<Card> iterator = pickSource.iterator();
         for (int i = 0; i < cardToFetch; i++) {
@@ -239,27 +244,12 @@ public class CardSelector {
     private int countDrawCards(final Collection<Card> cards, final Result result) {
         int count = 0;
         for (final Card card : cards) {
-            if (!card.isBasicOrNonSupply() && !card.getTypes().contains(EVENT)&& !card.getTypes().contains(LANDMARK) && !(result.getBaneCard() == card)) {
+            if (!card.isBasicOrNonSupply() && !card.getTypes().contains(EVENT) && !card.getTypes().contains(LANDMARK) && !(result.getBaneCard() == card)) {
                 count++;
             }
         }
         return count;
     }
-
-    /*
-    private void addPotionIfNeeded(final Result result) {
-        for (Card card : result.getCards()) {
-            if (card.getCost().startsWith(POTION_COST)) {
-                // Check Potion hasn't already been added (e.g. by forced selection)
-                Card potion = data.getCard(POTION_CARD);
-                if (!result.getCards().contains(potion)) {
-                    result.addCard(potion);
-                }
-                return;
-            }
-        }
-    }
-    */
 
     /**
      * If either Colony or Platinum have been added, add the other (if not excluded).<br/>
@@ -334,7 +324,7 @@ public class CardSelector {
         // Check if Young Witch is in the selection
         boolean youngWitchInSelection = false;
         Card youngWitch = data.getCard(YOUNG_WITCH_CARD);
-        for (Card card: result.getCards()) {
+        for (Card card : result.getCards()) {
             if (card == youngWitch) {
                 youngWitchInSelection = true;
                 break;
@@ -399,57 +389,37 @@ public class CardSelector {
 
         // Randomly determine if shelter cards should be added
         if (random.nextInt(getCardsToDraw()) < count) {
-            // Add the Colony and Platinum, where they're not excluded.
             result.addCard(shelter);
         }
     }
 
-    /*
-    private void handleDarkAges(Data data, Solution solution) {
-		Group looterCards = data.getGroup("Looter");
-		for (Card card : solution.getCards()) {
-			if (looterCards.contains(card)) {
-				solution.forcePick(data.getCard("Ruins"));
-				// Break early - if we don't we get a
-				// ConcurrentModificationException, because we modified
-				// solution.
-				break;
-			}
-		}
+    /**
+     * Check if we need to identify a card for the Obelisk Landmark
+     */
+    private void drawObelisk(Result result) {
+        final Card obelisk = data.getCard(OBELISK_CARD);
 
-		Group getSpoilsCards = data.getGroup("Gain Spoils");
-		for (Card card : solution.getCards()) {
-			if (getSpoilsCards.contains(card)) {
-				solution.forcePick(data.getCard("Spoils"));
-				// Break early - if we don't we get a
-				// ConcurrentModificationException, because we modified
-				// solution.
-				break;
-			}
-		}
+        // If we don't have obelisk, just return
+        if (!result.getCards().contains(obelisk)) {
+            return;
+        }
 
-		Card hermit = data.getCard("Hermit");
-		for (Card card : solution.getCards()) {
-			if (hermit.equals(card)) {
-				solution.forcePick(data.getCard("Madman"));
-				// Break early - if we don't we get a
-				// ConcurrentModificationException, because we modified
-				// solution.
-				break;
-			}
-		}
+        // Create a list of only action cards from the result
+        List<Card> actionCards = new ArrayList<>();
+        for (Card card : result.getCards()) {
+            if (card.getTypes().contains(ACTION_TYPE)) {
+                actionCards.add(card);
+            }
+        }
 
-		Card urchin = data.getCard("Urchin");
-		for (Card card : solution.getCards()) {
-			if (urchin.equals(card)) {
-				solution.forcePick(data.getCard("Mercenary"));
-				// Break early - if we don't we get a
-				// ConcurrentModificationException, because we modified
-				// solution.
-				break;
-			}
-		}
-	} */
+        if (actionCards.isEmpty()) {
+            // Wierd, but technically possible - means they will have the obelisk card in play, but it has no effect on the game (under rules at the time of this).
+            return;
+        }
+
+        final int cardToFetch = this.random.nextInt(actionCards.size());
+        result.setObeliskCard(actionCards.get(cardToFetch));
+    }
 
     private int getCardsToDraw() {
         String cardsToDraw = PreferenceManager.getDefaultSharedPreferences(this.context).getString(SettingsActivity.CARDS_TO_DRAW, null);

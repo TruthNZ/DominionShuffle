@@ -91,6 +91,7 @@
 	<string name="group">Gruppe</string>
 	<string name="card">Karte</string>	
 	<string name="bane">Bann</string>
+    <string name="obelisk">Obelisk</string>
 	<string name="cards_to_draw">zu ziehende Karten</string>
 
 

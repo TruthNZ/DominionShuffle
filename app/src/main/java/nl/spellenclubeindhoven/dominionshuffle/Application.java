@@ -76,13 +76,18 @@ public class Application extends android.app.Application {
 			}
 			
 			Card baneCard = null;
+            Card obeliskCard = null;
 			if(jsonResult.has("baneCard")) {
 				baneCard = dataReader.getData().getCard(jsonResult.getString("baneCard"));
 			}
+            if(jsonResult.has("obeliskCard")) {
+                obeliskCard = dataReader.getData().getCard(jsonResult.getString("obeliskCard"));
+            }
 
 			result = new Result();
 			result.setCards(cards);
 			result.setBaneCard(baneCard);
+            result.setObeliskCard(obeliskCard);
 		} catch (JSONException ignore) {
 			ignore.printStackTrace();
 		} 
@@ -103,6 +108,9 @@ public class Application extends android.app.Application {
 			if(result.getBaneCard() != null) {
 				jsonResult.put("baneCard", result.getBaneCard().getName());
 			}
+            if(result.getObeliskCard() != null) {
+                jsonResult.put("obeliskCard", result.getObeliskCard().getName());
+            }
 			DataReader.writeStringToFile(this, "result.json", jsonResult.toString());
 		} catch (JSONException ignore) {
 			ignore.printStackTrace();

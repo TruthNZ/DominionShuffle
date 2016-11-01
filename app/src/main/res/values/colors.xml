@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="bane_color">#009900</color>
+    <color name="bane_color">#990000</color>
+    <color name="obelisk_color">#009900</color>
 </resources>

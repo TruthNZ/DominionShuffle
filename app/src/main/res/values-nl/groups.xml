@@ -33,6 +33,10 @@
     <string name="Promo_Description">Kaarten afkomstig uit promo\'s</string>
     <string name="Events">Gebeurtenissen</string>
     <string name="Events_Description">Kaarten van het type Gebeurtenis</string>
+    <string name="Landmarks">Herkenningspunt</string>
+    <string name="Landmarks_Description">Additional ways to score points</string>
+    <string name="Events_Landmarks">Gebeurtenissen of Herkenningspunt</string>
+    <string name="Events_Landmarks_Description">Gebeurtenissen of Herkenningspunt. Voorgestelde regel is niet meer dan 2 uit deze groep.</string>
     <string name="Defense">Reactiekaarten</string>
     <string name="Defense_Description">Kaarten die iets doen als reactie op andere kaarten</string>
     <string name="Attack_Group">Aanvalkaarten</string>

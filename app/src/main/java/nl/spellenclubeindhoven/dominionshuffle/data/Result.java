@@ -32,7 +32,9 @@ import java.util.List;
  * @author Truth
  */
 public class Result {
+    public static final String bane = "bane";
     private Card baneCard;
+    private Card obeliskCard;
     private List<Card> cards = new LinkedList<>();
 
     public Result() {
@@ -40,6 +42,7 @@ public class Result {
 
     public Result(Result result) {
         this.baneCard = result.baneCard;
+        this.obeliskCard = result.obeliskCard;
         this.cards = new LinkedList<>(result.cards);
     }
 
@@ -51,8 +54,16 @@ public class Result {
         return baneCard;
     }
 
+    public Card getObeliskCard() {
+        return obeliskCard;
+    }
+
     public void setBaneCard(Card baneCard) {
         this.baneCard = baneCard;
+    }
+
+    public void setObeliskCard(Card obeliskCard) {
+        this.obeliskCard = obeliskCard;
     }
 
     public List<Card> getCards() {

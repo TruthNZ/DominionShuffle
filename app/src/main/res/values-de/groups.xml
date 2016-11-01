@@ -33,6 +33,10 @@
     <string name="Promo_Description">Promokarten</string>
     <string name="Events">Ereignisse</string>
     <string name="Events_Description">Ereignisse</string>
+    <string name="Landmarks">Wahrzeichen</string>
+    <string name="Landmarks_Description">Zusätzliche Möglichkeiten, Punkte zu punkten</string>
+    <string name="Events_Landmarks">Ereignisse oder Wahrzeichen</string>
+    <string name="Events_Landmarks_Description">Ereignisse oder Wahrzeichen. Vorgeschlagene Regel ist nicht mehr als 2 von dieser Gruppe.</string>
     <string name="Defense">Verteidigung</string>
     <string name="Defense_Description">Karten, die vor Angriffen schützen</string>
     <string name="Attack_Group">Angriff</string>

@@ -38,6 +38,8 @@
     <string name="Events_Description">Events</string>
     <string name="Landmarks">Landmarks</string>
     <string name="Landmarks_Description">Additional ways to score points</string>
+    <string name="Events_Landmarks">Events or Landmarks</string>
+    <string name="Events_Landmarks_Description">Events and Landmarks. Suggested rule is no more than 2 from this group.</string>
     <string name="Defense">Defense</string>
     <string name="Defense_Description">Cards that protect from attack cards</string>
     <string name="Attack_Group">Attack</string>
