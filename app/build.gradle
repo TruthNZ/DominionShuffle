@@ -8,8 +8,8 @@ android {
         applicationId "nz.geek.truth.dominionshuffle"
         minSdkVersion 1
         targetSdkVersion 19
-		versionCode 64
-		versionName "1.15.3"
+		versionCode 65
+		versionName "1.15.4"
     }
 
     compileOptions {
