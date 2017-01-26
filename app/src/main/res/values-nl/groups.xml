@@ -30,7 +30,7 @@
     <string name="Empires">Keizerrijken</string>
     <string name="Empires_Description">Kaarten van de uitbreiding Keizerrijken</string>
     <string name="Promo">Promokaarten</string>
-    <string name="Promo_Description">Kaarten afkomstig uit promo's</string>
+    <string name="Promo_Description">Kaarten afkomstig uit promo\'s</string>
     <string name="Events">Gebeurtenissen</string>
     <string name="Events_Description">Kaarten van het type Gebeurtenis</string>
     <string name="Landmarks">Herkenningspunt</string>
