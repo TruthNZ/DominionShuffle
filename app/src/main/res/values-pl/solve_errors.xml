@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<string name="solveerror_rules_to_strict">Nie można wybrać kart dla podanych zasad</string>
-<string name="solveerror_overconstrainted_mimumums">Minimalne wymagania nie mogą być spełnione</string>
-<string name="solveerror_unsatisfied_rule">Zasada nie jest spełniona dla wybranych kart</string>
-<string name="solveerror_too_many_cards">Więcej niż 10 kart jest wybranych</string>
-<string name="solveerror_not_enough_cards">Brak wystarczającej liczby kart do wyboru</string>
+<string name="solveerror_rules_to_strict">Nie można wybrać kart dla podanych reguł</string>
+<string name="solveerror_overconstrainted_mimumums">Nie wszystkie minimalne wymagania mogą być spełnione</string>
+<string name="solveerror_unsatisfied_rule">Reguła nie jest spełniona dla wybranych kart</string>
+<string name="solveerror_too_many_cards">Zaznaczono więcej niż 10 kart</string>
+<string name="solveerror_not_enough_cards">Za mało kart do wyboru</string>
 </resources>

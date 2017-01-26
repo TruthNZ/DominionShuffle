@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<string name="solveerror_rules_to_strict">Kortteja ei voida valita näillä säännöillä, löysää sääntöjä</string>
-<string name="solveerror_overconstrainted_mimumums">Kaikkia minimisääntöjä ei voida noudattaa</string>
-<string name="solveerror_unsatisfied_rule">Sääntöjä ei voi noudattaa valituille korteille</string>
-<string name="solveerror_too_many_cards">Yritetään valita enemmän kuin 10 korttia</string>
-<string name="solveerror_not_enough_cards">Ei tarpeeksi kortteja valintaa varten</string>
+    <string name="solveerror_rules_to_strict">Kortteja ei voida valita annetuilla säännöillä; kevennä sääntöjä</string>
+    <string name="solveerror_overconstrainted_mimumums">Kaikkia minimisääntöjä ei voida noudattaa</string>
+    <string name="solveerror_unsatisfied_rule">Sääntöjä ei voi noudattaa valituille korteille</string>
+    <string name="solveerror_too_many_cards">Yritetään valita yli 10 korttia</string>
+    <string name="solveerror_not_enough_cards">Ei tarpeeksi kortteja valintaa varten</string>
 </resources>

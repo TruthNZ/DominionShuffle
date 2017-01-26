@@ -1,8 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="releasenotes_title">Release Notes</string>
     <string name="releasenotes_value">
 -- &lt;Google Translate&gt; --\n
+++ Version 1.16 ++\n
+Finse Vertalingen toegevoegd door Joonas Lahtiharju.\n
+Poolse Vertalingen toegevoegd door Pawel Pawlak.\n
+(Release Notes niet inbegrepen bij beide vertalingen)\n
+Bijgewerkt Nederlandstalige vertalingen toegevoegd door Tom Vandeweyer.\n
 ++ Version 1.15.4 ++\n
 Bijgewerkt Duitse vertalingen van Martin Binder.\n
 ++ Version 1.15.3 ++\n
@@ -13,14 +18,14 @@ Toegevoegd code voor Obelisk Card (Op dit moment niet halen Ruins stapelen echte
 Toegevoegd 2 Ed kaarten en Sauna/Wak promotie de juiste Groepen.\n
 ++ Version 1.15.1 ++\n
 Sauna/Wak promotie kaart toegevoegd.\n
-++ Version 1.15 ++\n
-2nd Editie Base Dominion en intriges.\n
-Kaarten in beide sets zal te zien zijn als Base Set, kaarten alleen in 1 Ed zal te zien zijn als 1 basisset Ed., En kaarten alleen in de 2e Ed zal te zien zijn als Base Set 2 Ed. Hetzelfde voor Intrigue kaarten.\n
-Vertalingen van Duits / Nederlands zijn via Google momenteel Translate. Ik verontschuldig mij bij de sprekers van de talen voor beunhazen ervan.
-++ Version 1.14 ++\n
-Empires!\n
-Alleen in het Engels op dit moment.
 -- &lt;\\Google Translate&gt; --\n
+++ Version 1.15 ++\n
+2de Editie Basisspel en Intrige.\n
+Kaarten die in in beide sets voorkomen zullen te zien zijn als Basisspel, kaarten die alleen in de 1e Editie voorkomen zullen te zien zijn als Basisspel 1e Editie, en kaarten die alleen voorkomen in de 2e Editie zullen te zien zijn als Basisspel 2e Editie. Hetzelfde voor de kaarten van Intrige.\n
+Vertalingen hiervoor naar Duits en Nederlands zijn gemaakt via Google Translate. Ik verontschuldig mij dan ook voor de mogelijke foute of slechte vertalingen.
+++ Version 1.14 ++\n
+Keizerrijken!\n
+Alleen in het Engels op dit moment.
 ++ Version 1.13 ++\n
 Aanvullende Nederlandstalige vertalingen toegevoegd door Tom Vandeweyer.\n
 ++ Version 1.12 ++\n
@@ -31,7 +36,7 @@ Bug opgelost in verband met het juist genereren van de bankaart voor Jonge Heks\
 Vernieuwd Taalsysteem. Nu moet slechts 1 versie van de kerndata geupdated worden. Vanuit aparte bestanden worden vervolgens de vertalingen gekoppeld voor alle kaartnamen, types, beschrijvingen, enz.\nVrijwilligers voor het aanleveren van vertalingen voor nog niet beschikbare talen zijn steeds welkom.\n
 \n
 ++ Version 1.10 ++\n
-Mogelijkheid toegevoegd om meer of minder dan 10 kaarten te selecteren.\nToverdrank, Ru�nekaarten, Buitkaarten of andere supplementaire kaarten (zoals Krankzinnige bij Kluizenaar) zijn niet nodig in deze app, aangezien ze samen klaargelegd moeten worden met koninkrijkkaarten.\n
+Mogelijkheid toegevoegd om meer of minder dan 10 kaarten te selecteren.\nToverdrank, Ruinekaarten, Buitkaarten of andere supplementaire kaarten (zoals Krankzinnige bij Kluizenaar) zijn niet nodig in deze app, aangezien ze samen klaargelegd moeten worden met koninkrijkkaarten.\n
 Kaarttaal selectie uitgeschakeld aangezien het defect is (verontschuldigingen aan de niet-Engelstaligen).\n
 De 2 eerder vermelde opties werden verplaatst naar een apart Instellingenvenster.\nStandaard Instellingen toegevoegd: Inclusief alle kaarten. Maximum 2 Gebeurtenissen. Enkel actief indien de app wordt opgestart zonder vooraf ingestelde data.\nSchud verwijderd uit het menu - vanaf nu toegankelijk via de Schud Tab.\n
 \n

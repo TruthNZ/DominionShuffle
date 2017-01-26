@@ -58,6 +58,8 @@
     <string name="Cost_6_Or_More_Description">Cards of cost 6 or more</string>
     <string name="Cost_7_Or_More">Cost 7+</string>
     <string name="Cost_7_Or_More_Description">Cards of cost 7 or more</string>
+    <string name="Cost_Debt">Cost Debt</string>
+    <string name="Cost_Debt_Description">Cards that have Debt in their cost</string>
     <string name="Potion_Group">Potion</string>
     <string name="Potion_Group_Description">Cards that cost or use potions</string>
     <string name="Component">Component</string>

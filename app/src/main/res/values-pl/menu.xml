@@ -7,10 +7,13 @@
 <string name="menu_last_result">Ostatni wynik</string>
 <string name="menu_clear_all">Wyczyść wszystko</string>
 <string name="menu_close">Zamknij</string>
-<string name="menu_compact_view">Lista kompaktowa</string>
+<string name="menu_compact_view">Lista zwarta</string>
 <string name="menu_expanded_view">Lista rozszerzona</string>
 <string name="menu_exclude_all">Wyklucz wszystkie</string>
-<string name="menu_require_all">Akceptuj wszystkie</string>
+<string name="menu_require_all">Wymagaj wszystkich</string>
 <string name="menu_load">Wczytaj</string>
 <string name="menu_save">Zapisz</string>
+<string name="menu_about">O programie</string>
+<string name="menu_settings">Ustawienia</string>
+<string name="menu_launch_androminion">Uruchom Androminion</string>
 </resources>

@@ -2,6 +2,11 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="releasenotes_title">Release Notes</string>
     <string name="releasenotes_value">
+++ Version 1.16 ++\n
+Finnish Translations added by Joonas Lahtiharju.\n
+Polish Translations added by Pawel Pawlak.\n
+(Release Notes not included for both translations).\n
+Updated Dutch Translations by Tom Vandeweyer.\n
 ++ Version 1.15.4 ++\n
 Updated German Translations by Martin Binder.\n
 ++ Version 1.15.3 ++\n

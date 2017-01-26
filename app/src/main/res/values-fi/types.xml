@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="Action">Toiminta</string>
+    <string name="Gathering">Keräävä</string>
+    <string name="Treasure">Raha</string>
+    <string name="Victory">Pistekortti</string>
+    <string name="Curse">Kirous</string>
+    <string name="Attack">Hyökkäys</string>
+    <string name="Reaction">Vastaveto</string>
+    <string name="Duration">Toistuva</string>
+    <string name="Prize">Palkinto</string>
+    <string name="Shelter">Suoja</string>
+    <string name="Looter">Ryöstäjä</string>
+    <string name="Ruins">Raunio</string>
+    <string name="Knight">Ritari</string>
+    <string name="Reserve">Reservi</string>
+    <string name="Traveller">Matkaaja</string>
+    <string name="Event">Tapahtuma</string>
+    <string name="Landmark">Maamerkki</string>
+</resources>

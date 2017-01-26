@@ -55,6 +55,7 @@
 		<item>9</item>
 	</string-array>
 <string name="result_title">Dominion Shuffle - Wynik</string>
+<string name="settings_title">Dominion Shuffle - Ustawienia</string>
 <string name="show_group_title">Grupa \'%s\' kart</string>
 <string name="solve_dialog_title">Rozwiąż problem</string>
 <string name="ok">OK</string>
@@ -69,23 +70,26 @@
 <string name="tab_constraints">Ograniczenia</string>
 <string name="tab_generate">Losuj</string>
 <string name="app_description">Losowo wybierz 10 kart według zadanych ograniczeń</string>
-<string name="load_dialog_title">Dominion Shuffle - Wczytaj Zasady</string>
-<string name="save_dialog_title">Dominion Shuffle - Zapisz Zasady</string>
+<string name="load_dialog_title">Dominion Shuffle - Wczytaj reguły</string>
+<string name="save_dialog_title">Dominion Shuffle - Zapisz reguły</string>
 <string name="empty">Pusty</string>
 <string name="unnamed">Brak nazwy</string>
-<string name="save_rules_as">Zapisz zasady jako</string>
+<string name="save_rules_as">Zapisz reguły jako</string>
 <string name="save">Zapisz</string>
-<string name="toast_loaded_rules">Wczytaj zasady \'%s\'</string>
-<string name="toast_no_data_found">Dane nieodnalezione</string>
-<string name="toast_saved_rules_as">Zasady zapisane jako \'%s\'</string>
-<string name="toast_error_saving_rules">Błąd podczas zapisu</string>
+<string name="toast_loaded_rules">Wczytaj reguły \'%s\'</string>
+<string name="toast_no_data_found">Nie znaleziono danych</string>
+<string name="toast_saved_rules_as">Reguły zapisane jako \'%s\'</string>
+<string name="toast_error_saving_rules">Błąd podczas zapisu reguł</string>
 <string name="limit_title">Ustawienia ograniczeń</string>
 <string name="minimum">Minimum</string>
 <string name="maximum">Maksimum</string>
 <string name="limit_condition_text">Ustaw minium jeżeli co najmniej jedna z grup (lub karta) jest zaznaczona.</string>
 <string name="no_card_or_group_selected">Brak zaznaczenia.</string>
 <string name="card_language">Język kart</string>
+<string name="loaded_cache">Nie można pobrać kart; ładowanie poprzednich danych.</string>
 <string name="group">Grupa</string>
 <string name="card">Karta</string>
-<string name="bane">Bane</string>
+<string name="bane">Stos zguby</string>
+<string name="obelisk">Obelisk</string>
+<string name="cards_to_draw">Liczba kart do wylosowania</string>
 </resources>
