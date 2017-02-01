@@ -69,7 +69,7 @@
     <string name="tab_select">Selecteer</string>
     <string name="tab_constraints">Beperk</string>
     <string name="tab_generate">Schud</string>
-    <string name="app_description">Selecteer tien willekeurige Dominion kaarten gegeven de opgelegde regels</string>
+    <string name="app_description">Selecteer tien willekeurige Dominionkaarten gegeven de opgelegde regels</string>
     <string name="load_dialog_title">Dominion Shuffle - Laad Regels</string>
     <string name="save_dialog_title">Dominion Shuffle - Bewaar Regels</string>
     <string name="empty">Leeg</string>
@@ -80,7 +80,7 @@
     <string name="toast_no_data_found">Geen gegevens gevonden</string>
     <string name="toast_saved_rules_as">Regels bewaard als \'%s\'</string>
     <string name="toast_error_saving_rules">Fout bij het bewaren van de regels</string>
-    <string name="limit_title">Configureer Grensen</string>
+    <string name="limit_title">Configureer Grenzen</string>
     <string name="minimum">Minimum</string>
     <string name="maximum">Maximum</string>
     <string name="limit_condition_text">Gebruik het minimum als minimaal één kaart uit de volgende groep (of kaart) geselecteerd wordt.</string>

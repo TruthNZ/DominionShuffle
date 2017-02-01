@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--  Translated by Tom Vandeweyer <tom.vandeweyer@gmail.com> -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <string name="Action">Aktion</string>
+    <string name="Action">Actie</string>
+    <string name="Gathering">Verzamel</string>    
     <string name="Treasure">Geld</string>
     <string name="Victory">Overwinningspunten</string>
     <string name="Curse">Vloek</string>
@@ -16,4 +17,5 @@
     <string name="Reserve">Reserve</string>
     <string name="Traveller">Reiziger</string>
     <string name="Event">Gebeurtenis</string>
+    <string name="Landmark">Bezienswaardigheid</string>
 </resources>

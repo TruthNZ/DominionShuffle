@@ -55,6 +55,8 @@
     <string name="Cost_6_Or_More_Description">Karten mit Kosten 6 oder mehr</string>
     <string name="Cost_7_Or_More">Kosten 7+</string>
     <string name="Cost_7_Or_More_Description">Karten mit Kosten 7 oder mehr</string>
+    <string name="Cost_Debt">Schulden Kosten</string>
+    <string name="Cost_Debt_Description">Karten, die Schulden in ihren Kosten haben</string>
     <string name="Potion_Group">Trank</string>
     <string name="Potion_Group_Description">Karten, die Trankkarten kosten oder verwenden</string>
     <string name="Component">Komponenten</string>

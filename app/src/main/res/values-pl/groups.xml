@@ -58,6 +58,8 @@
     <string name="Cost_6_Or_More_Description">Karty o koszcie 6 lub większym</string>
     <string name="Cost_7_Or_More">Koszt 7+</string>
     <string name="Cost_7_Or_More_Description">Karty o koszcie 7 lub większym</string>
+    <string name="Cost_Debt">Koszt zadłużenia</string>
+    <string name="Cost_Debt_Description">Karty, które mają dług w kosztach</string>
     <string name="Potion_Group">Eliksir</string>
     <string name="Potion_Group_Description">Karty mające w koszcie Eliksir lub go używające</string>
     <string name="Component">Akcesoria</string>

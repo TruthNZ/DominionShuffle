@@ -3,6 +3,6 @@
 <string name="solveerror_rules_to_strict">Kan geen kaarten selecteren met de huidige regels, probeer de regels minder strikt te maken</string>
 <string name="solveerror_overconstrainted_mimumums">Er kan niet aan alle minimumeisen voldaan worden</string>
 <string name="solveerror_unsatisfied_rule">Er kon niet aan een regel voldaan worden voor de geselecteerde kaarten</string>
-<string name="solveerror_too_many_cards">Er wordt geprobeerd meer dan tien kaarten te kiezen</string>
-<string name="solveerror_not_enough_cards">Er zijn niet genoeg kaarten om uit te kiezen</string>
+<string name="solveerror_too_many_cards">Er kunnen per spel slechts 10 koninkrijkkaarten geselecteerd worden. Er zijn er nu teveel geselecteerd.</string>
+<string name="solveerror_not_enough_cards">Er moeten per spel 10 koninkrijkkaarten geselecteerd worden. Er zijn er nu te weinig geselecteerd.</string>
 </resources>
