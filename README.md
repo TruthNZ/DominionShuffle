@@ -9,4 +9,4 @@ This was forked in order to update it for the Adventures Expansion, and now the 
 
 Despite the many other Dominion Shuffling Apps out there, I chose to update this one because I like the ability to select limits and optional conditions. I also happen to prefer the interface over the other Apps.
 
-
+This is released under the MIT Licence: https://en.wikipedia.org/wiki/MIT_License
