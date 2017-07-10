@@ -327,21 +327,21 @@
     <string name="Windfall">Glücksfall</string>
     <string name="Wolf_Den">Wolfsbau</string>
     <!--  Base 2nd Edition Cards -->
-    <string name="Artisan">Handwerker</string>
-    <string name="Bandit">Bandit</string>
-    <string name="Harbinger">Vorbote</string>
-    <string name="Merchant">Händler</string>
-    <string name="Poacher">Wilderer</string>
-    <string name="Sentry">Posten</string>
+    <string name="Artisan">Töpferei</string>
+    <string name="Bandit">Banditin</string>
+    <string name="Harbinger">Vorbotin</string>
+    <string name="Merchant">Händlerin</string>
+    <string name="Poacher">Wilddiebin</string>
+    <string name="Sentry">Torwächterin</string>
     <string name="Vassal">Vasall</string>
     <!--  Intrigue 2nd Edition Cards -->
-    <string name="Courtier">Höfling</string>
-    <string name="Diplomat">Diplomat</string>
-    <string name="Lurker">Lurker</string>
+    <string name="Courtier">Höflinge</string>
+    <string name="Diplomat">Diplomatin</string>
+    <string name="Lurker">Herumtreiberin</string>
     <string name="Mill">Mühle</string>
-    <string name="Patrol">Patrouillieren</string>
-    <string name="Replace">Ersetzen</string>
-    <string name="Secret_Passage">Secret Passage</string>
+    <string name="Patrol">Patrouille</string>
+    <string name="Replace">Austausch</string>
+    <string name="Secret_Passage">Geheimgang</string>
     <!--  Promokarten -->
     <string name="Black_Market">Schwarzmarkt</string>
     <string name="Envoy">Gesandter</string>
