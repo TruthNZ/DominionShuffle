@@ -11,6 +11,10 @@
     <string name="Main_Set_Second_Description">Karten aus Zweite Ausgabe Dominion: Was für eine Welt!</string>
     <string name="Intrigue">Die Intrige!</string>
     <string name="Intrigue_Description">Karten aus Dominion: Die Intrige!</string>
+    <string name="Intrigue_First">Die Intrige 1. Ausgabe</string>
+    <string name="Intrigue_First_Description">Karten aus erste Ausgabe Dominion: Die Intrige!</string>
+    <string name="Intrigue_Second">Die Intrige 2. Ausgabe</string>
+    <string name="Intrigue_Second_Description">Karten aus zweite Ausgabe Dominion: Die Intrige!</string>
     <string name="Seaside">Seaside</string>
     <string name="Seaside_Description">Karten aus Dominion: Seaside</string>
     <string name="Alchemy">Die Alchemisten</string>
@@ -33,10 +37,10 @@
     <string name="Promo_Description">Promokarten</string>
     <string name="Events">Ereignisse</string>
     <string name="Events_Description">Ereignisse</string>
-    <string name="Landmarks">Wahrzeichen</string>
+    <string name="Landmarks">Landmarken</string>
     <string name="Landmarks_Description">Zusätzliche Möglichkeiten, Punkte zu punkten</string>
-    <string name="Events_Landmarks">Ereignisse oder Wahrzeichen</string>
-    <string name="Events_Landmarks_Description">Ereignisse oder Wahrzeichen. Vorgeschlagene Regel ist nicht mehr als 2 von dieser Gruppe.</string>
+    <string name="Events_Landmarks">Ereignisse oder Landmarken</string>
+    <string name="Events_Landmarks_Description">Ereignisse oder Landmarken. Vorgeschlagene Regel ist nicht mehr als 2 von dieser Gruppe.</string>
     <string name="Defense">Verteidigung</string>
     <string name="Defense_Description">Karten, die vor Angriffen schützen</string>
     <string name="Attack_Group">Angriff</string>
