@@ -508,7 +508,9 @@
 	<string name="obelisk">Obelisco</string>
 	<string name="releasenotes_title">Notas de la versión</string>
 	<string name="releasenotes_value">"++ Version 1.16.3 ++
- Translation to Spanish, by Diego and Diego. To date 11/11/2017.
+		Nocturne Cards added - English only at this stage.
+		Dismantle Promo added - English only at this stage.
+ Translation for all other cards to Spanish, by Diego and Diego. To date 11/11/2017.
 
  ++ Version 1.16.2 ++
  Further fixes to incorrect German translations, by Martin Binder and bin101.

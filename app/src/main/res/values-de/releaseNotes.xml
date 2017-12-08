@@ -3,6 +3,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="releasenotes_title">Versionshinweise</string>
     <string name="releasenotes_value">
+        ++ Version 1.16.3 ++
+		Nocturne Cards added - English only at this stage.
+		Dismantle Promo added - English only at this stage.
+ Translation for all other cards to Spanish, by Diego and Diego. To date 11/11/2017.
 -- &lt;Google Translate&gt; --\n
 ++ Version 1.16.2 ++\n
 Weitere Fixes auf falsche deutsche Übersetzungen, von Martin Binder und bin101.\n
