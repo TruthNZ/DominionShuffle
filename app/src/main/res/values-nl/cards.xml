@@ -4,7 +4,7 @@
 
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
 
-<!--  Basisspel -->
+    <!--  Basisspel -->
 
     <string name="Adventurer">Avonturier</string>
 
@@ -56,7 +56,7 @@
 
     <string name="Workshop">Werkplaats</string>
 
-<!--  Intrige! -->
+    <!--  Intrige! -->
 
     <string name="Baron">Baron</string>
     <string name="Bridge">Brug</string>
@@ -106,7 +106,7 @@
 
     <string name="Wishing_Well">Wensput</string>
 
-<!--  Heis De Zeilen -->
+    <!--  Heis De Zeilen -->
 
     <string name="Ambassador">Boodschapper</string>
 
@@ -160,7 +160,7 @@
 
     <string name="Wharf">Scheepswerf</string>
 
-<!--  De Alchemisten -->
+    <!--  De Alchemisten -->
 
     <string name="Alchemist">Alchemist</string>
 
@@ -188,7 +188,7 @@
 
     <string name="Potion">Toverdrank</string>
 
-<!--  Welvaart -->
+    <!--  Welvaart -->
 
     <string name="Bank">Bank</string>
 
@@ -241,7 +241,7 @@
 
     <string name="Platinum">Platina</string>
 
-<!--  Overvloed -->
+    <!--  Overvloed -->
 
     <string name="Fairgrounds">Kermisterrein</string>
 
@@ -269,7 +269,7 @@
 
     <string name="Young_Witch">Jonge Heks</string>
 
-<!--  Het Achterland -->
+    <!--  Het Achterland -->
 
     <string name="Border_Village">Grensdorp</string>
 
@@ -323,7 +323,7 @@
 
     <string name="Tunnel">Tunnel</string>
 
-<!--  De Donkere Middeleeuwen -->
+    <!--  De Donkere Middeleeuwen -->
 
     <string name="Altar">Altaar</string>
 
@@ -399,7 +399,7 @@
 
     <string name="Mercenary">Huurling</string>
 
-<!--  De Gilden -->
+    <!--  De Gilden -->
 
     <string name="Advisor">Adviseur</string>
 
@@ -427,7 +427,7 @@
 
     <string name="Taxman">Belastinginner</string>
 
-<!--  Avonturen -->
+    <!--  Avonturen -->
 
     <string name="Amulet">Amulet</string>
 
@@ -527,7 +527,7 @@
 
     <string name="Travelling_Fair">Kermis</string>
 
-<!-- Keizerrijken -->
+    <!-- Keizerrijken -->
 
     <string name="Engineer">Ingenieur</string>
 
@@ -645,7 +645,7 @@
 
     <string name="Wolf_Den">Wolvenhol</string>
 
-<!--  Basisspel 2de Editie -->
+    <!--  Basisspel 2de Editie -->
 
     <string name="Artisan">Ambachtsman</string>
 
@@ -661,7 +661,7 @@
 
     <string name="Vassal">Vazal</string>
 
-<!--  Intrige 2de Editie -->
+    <!--  Intrige 2de Editie -->
 
     <string name="Courtier">Hoveling</string>
 
@@ -677,7 +677,7 @@
 
     <string name="Secret_Passage">Geheime Doorgang</string>
 
-<!--  Promokaarten -->
+    <!--  Promokaarten -->
 
     <string name="Black_Market">Zwarte Markt</string>
 
@@ -694,4 +694,39 @@
     <string name="Summon">Oproepen</string>
 
     <string name="Sauna_Avanto">Sauna - Bijt</string>
+
+    <string name="Dismantle">Dismantle</string>
+    <!--  Nocturne cards -->
+    <string name="Druid">Druid</string>
+    <string name="Faithful_Hound">Faithful Hound</string>
+    <string name="Guardian">Guardian</string>
+    <string name="Monastery">Monastery</string>
+    <string name="Pixie">Pixie</string>
+    <string name="Tracker">Tracker</string>
+    <string name="Changeling">Changeling</string>
+    <string name="Fool">Fool</string>
+    <string name="Ghost_Town">Ghost Town</string>
+    <string name="Leprechaun">Leprechaun</string>
+    <string name="Night_Watchman">Night Watchman</string>
+    <string name="Secret_Cave">Secret Cave</string>
+    <string name="Bard">Bard</string>
+    <string name="Blessed_Village">Blessed Village</string>
+    <string name="Cemetery">Cemetery</string>
+    <string name="Conclave">Conclave</string>
+    <string name="Devils_Workshop">Devil\'s Workshop</string>
+    <string name="Exorcist">Exorcist</string>
+    <string name="Necromancer">Necromancer</string>
+    <string name="Shepherd">Shepherd</string>
+    <string name="Skulk">Skulk</string>
+    <string name="Cobbler">Cobbler</string>
+    <string name="Cursed_Village">Curse Village</string>
+    <string name="Den_of_Sin">Den of Sin</string>
+    <string name="Idol">Idol</string>
+    <string name="Pooka">Pooka</string>
+    <string name="Sacred_Grove">Sacred_Grove</string>
+    <string name="Tormentor">Tormentor</string>
+    <string name="Tragic_Hero">Tragic Hero</string>
+    <string name="Vampire">Vampire</string>
+    <string name="Werewolf">Werewolf</string>
+    <string name="Raider">Raider</string>
 </resources>

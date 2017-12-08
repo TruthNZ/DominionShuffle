@@ -183,4 +183,16 @@
     <string name="Gain_Spoils">Buit Nemen</string>
 
     <string name="Gain_Spoils_Description">Kaarten die Buitkaarten opleveren</string>
+
+
+    <string name="Nocturne">Nocturne</string>
+    <string name="Nocturne_Description">Cards from Dominion: Nocturne</string>
+    <string name="Fate">Fate</string>
+    <string name="Fate_Description">Cards with the Fate Type, which draw Boons</string>
+    <string name="Night">Night</string>
+    <string name="Night_Description">Night Cards that are played after the Buy Phase</string>
+    <string name="Heirloom">Heirloom</string>
+    <string name="Heirloom_Description">Heirloom Cards replace starting Coppers</string>
+    <string name="Doom">Doom</string>
+    <string name="Doom_Description">Cards with the Doom Type, which give Hexes</string>
 </resources>
