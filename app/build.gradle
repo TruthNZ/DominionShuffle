@@ -9,7 +9,7 @@ android {
         minSdkVersion 1
         targetSdkVersion 19
 		versionCode 70
-		versionName "1.16.2"
+		versionName "1.17"
     }
 
     compileOptions {
