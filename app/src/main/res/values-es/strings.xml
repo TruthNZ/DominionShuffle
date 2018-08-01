@@ -1,60 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-	<string name="app_description">Seleccione al azar 10 cartas Dominion usando las restricciones dadas</string>
-	<string name="app_name">Dominion Shuffle</string>
-	<string name="bane">Perdición</string>
-	<string name="cancel">Cancelar</string>
-	<string name="card">Carta</string>
-	<string name="card_language">Idioma de la Carta</string>
-	<string name="display_result_dialog_title">Mostrar resultado</string>
-	<string name="empty">Vacio</string>
-	<string name="error_loading">Error al cargar datos</string>
-	<string name="group">Group</string>
-	<string name="limit_condition_text">Ajuste el mínimo si se selecciona al menos una carta de entre el grupo siguiente (o cartas)..</string>
-	<string name="limit_title">Configuración de límite</string>
-	<string name="load_dialog_title">Barajar Dominion - Reglas de carga</string>
-	<string name="loaded_cache">No se pudieron descargar las cartas, usando la versión en caché.</string>
-	<string name="loading">Cargando cartas y grupos de Dominion</string>
-	<string name="maximum">Máximo</string>
-	<string name="menu_clear_all">Borrar todo</string>
-	<string name="menu_close">Cerrar</string>
-	<string name="menu_compact_view">Lista compacta</string>
-	<string name="menu_exclude_all">Excluir todo</string>
-	<string name="menu_expanded_view">Lista expandida</string>
-	<string name="menu_last_result">Último resultado</string>
-	<string name="menu_load">Cargar</string>
-	<string name="menu_lock_lists">Listas bloqueadas</string>
-	<string name="menu_require_all">Requerir todo</string>
-	<string name="menu_save">Grabar</string>
-	<string name="menu_shuffle">Barajar</string>
-	<string name="menu_sort">Ordenar</string>
-	<string name="menu_unlock_lists">Listas Desbloqueadas</string>
-	<string name="minimum">Mínimo</string>
-	<string name="no_card_or_group_selected">Nada seleccionado</string>
-	<string name="ok">OK</string>
-	<string name="result_no_result">Ningún resultado generado aún.</string>
-	<string name="result_title">Dominion Barajado - Resultado</string>
-	<string name="retry">Reintentar</string>
-	<string name="save">Grabar</string>
-	<string name="save_dialog_title">Dominion Barajado - Reglas Gravadas</string>
-	<string name="save_rules_as">Reglas Gravadas como,</string>
-	<string name="show_group_title">"Grupo '%s' cartas"</string>
-	<string name="solve_dialog_title">Resuelve el error</string>
-	<string name="solveerror_not_enough_cards">No hay suficientes cartas para elegir</string>
-	<string name="solveerror_overconstrainted_mimumums">No todas las reglas mínimas pueden ser satisfechas</string>
-	<string name="solveerror_rules_to_strict">No se pueden seleccionar las cartas usando las reglas dadas, intente relajarlas</string>
-	<string name="solveerror_too_many_cards">Intentando elegir más de 10 cartas</string>
-	<string name="solveerror_unsatisfied_rule">La regla no se cumple para las cartas seleccionadas</string>
-	<string name="sort_cards_dialog_title">Ordenar cartas por</string>
-	<string name="tab_constraints">Límites</string>
-	<string name="tab_generate">Barajar</string>
-	<string name="tab_select">Selecionar</string>
-	<string name="toast_all_cleared">Todas las selecciones se borran</string>
-	<string name="toast_error_saving_rules">Error al guardar las reglas</string>
-	<string name="toast_loaded_rules">"Cargando reglas '%s'"</string>
-	<string name="toast_no_data_found">Datos no encontrados</string>
-	<string name="toast_saved_rules_as">"Gravando Reglas como '%s'"</string>
-	<string name="unnamed">Sin nombre</string>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
 	<string name="Action">Acción</string>
 	<string name="Advance">Avanzar</string>
 	<string name="Adventurer">Aventura</string>
@@ -90,6 +35,7 @@
 	<string name="Bandit_Fort">Fortaleza de Bandidos</string>
 	<string name="Bank">Banco</string>
 	<string name="Banquet">Convite</string>
+	<string name="Bard">Bardo</string>
 	<string name="Baron">Barón</string>
 	<string name="Basilica">Basilica</string>
 	<string name="Baths">Baños</string>
@@ -98,6 +44,7 @@
 	<string name="Beggar">Mendigo</string>
 	<string name="Bishop">Obispo</string>
 	<string name="Black_Market">Mercado Negro</string>
+	<string name="Blessed_Village">Aldea Bendecida</string>
 	<string name="Bonfire">Hoguera</string>
 	<string name="Border_Village">Pueblo Fronterizo</string>
 	<string name="Borrow">Pedir Prestado</string>
@@ -117,17 +64,21 @@
 	<string name="Catacombs">Catacumbas</string>
 	<string name="Catapult_Rocks">Catapulta/Rocas</string>
 	<string name="Cellar">Sótano</string>
+	<string name="Cemetery">Cementerio</string>
 	<string name="Chancellor">Canciller</string>
+	<string name="Changeling">Cambiaformas</string>
 	<string name="Chapel">Capilla</string>
 	<string name="Chariot_Race">Carrera de Carros</string>
 	<string name="Charm">La Gracia</string>
 	<string name="City">Ciudad</string>
 	<string name="City_Quarter">Barrio de la Ciudad</string>
+	<string name="Cobbler">Zapatero</string>
 	<string name="Coin_of_the_Realm">Moneda del Reino</string>
 	<string name="Colonnade">Columnata</string>
 	<string name="Colony">Colonia</string>
 	<string name="Component">Componente</string>
 	<string name="Component_Description">Cartas que necesitan componentes</string>
+	<string name="Conclave">Cónclave</string>
 	<string name="Conquest">Conquista</string>
 	<string name="Conspirator">Conspirador</string>
 	<string name="Contraband">Contrabando</string>
@@ -158,8 +109,10 @@
 	<string name="Courtyard">Patio</string>
 	<string name="Crossroads">Encrucijada</string>
 	<string name="Crown">Corona</string>
+	<string name="Crypt">Sepultura</string>
 	<string name="Cultist">Sectario</string>
 	<string name="Curse">Maldición</string>
+	<string name="Cursed_Village">Pueblo Maldito</string>
 	<string name="Cutpurse">Ratero</string>
 	<string name="Dark_Ages">Edades Oscuras</string>
 	<string name="Dark_Ages_Description">Cartas del Dominion: Edades Oscuras</string>
@@ -170,14 +123,20 @@
 	<string name="Defense_Description">Cartas que protegen ataques</string>
 	<string name="Defiled_Shrine">Santuario Profanado</string>
 	<string name="Delve">Profundizar</string>
+	<string name="Den_of_Sin">Antro del pecado</string>
 	<string name="Develop">Desarrollo</string>
+	<string name="Devils_Workshop">"Taller del Diablo"</string>
 	<string name="Diplomat">Diplomático</string>
+	<string name="Dismantle">Demolición</string>
 	<string name="Distant_Lands">Tierras Lejanas</string>
 	<string name="Doctor">Médico</string>
 	<string name="Dominate">Dominar</string>
 	<string name="Donate">Donar</string>
+	<string name="Doom">Condenar</string>
+	<string name="Doom_Description">Las cartas con el tipo Condenar, dan Maleficios</string>
 	<string name="Double_Type">Doble tipo</string>
 	<string name="Double_Type_Description">Cartas que son de varios tipos</string>
+	<string name="Druid">Druida</string>
 	<string name="Duchess">Duquesa</string>
 	<string name="Duke">Duque</string>
 	<string name="Dungeon">Mazmorra</string>
@@ -197,21 +156,26 @@
 	<string name="Events">Eventos</string>
 	<string name="Events_Description">Eventos</string>
 	<string name="Events_Landmarks">Eventos o Lugares</string>
-	<string name="Events_Landmarks_Description">Eventos y Lugares. Sugiere no más de 2 de este grupo.</string>
+	<string name="Events_Landmarks_Description">Eventos y Lugares. Sugiero no más de 2 de este grupo.</string>
+	<string name="Exorcist">Exorcista</string>
 	<string name="Expand">Expansión</string>
 	<string name="Expedition">Expedición</string>
 	<string name="Explorer">Exploradora</string>
 	<string name="Fairgrounds">Recinto Ferial</string>
+	<string name="Faithful_Hound">Sabueso Fiel</string>
 	<string name="Familiar">Familiar</string>
-	<string name="Farmers_Market">"Mercado de Granjeros"</string>
+	<string name="Farmers_Market">Mercado de Granjeros</string>
 	<string name="Farming_Village">Poblado Agrícola</string>
 	<string name="Farmland">Tierra de Labranza</string>
+	<string name="Fate">Destino</string>
+	<string name="Fate_Description">Las cartas con tipo Destino, atraen Favores</string>
 	<string name="Feast">Banquete</string>
 	<string name="Feodum">Feudo</string>
 	<string name="Ferry">Transbordador</string>
 	<string name="Festival">Festival</string>
 	<string name="Fishing_Village">Pueblo de Pescadores</string>
-	<string name="Fools_Gold">"Oro Falso"</string>
+	<string name="Fool">Tonto</string>
+	<string name="Fools_Gold">Oro Falso</string>
 	<string name="Forager">Merodeador</string>
 	<string name="Forge">Forja</string>
 	<string name="Fortress">Fortaleza</string>
@@ -223,8 +187,10 @@
 	<string name="Gain_Spoils">Ganar Botines</string>
 	<string name="Gain_Spoils_Description">Cartas que permiten obtener botines</string>
 	<string name="Gardens">Jardines</string>
+	<string name="Gathering">Reunión</string>
 	<string name="Gear">Engranaje</string>
 	<string name="Ghost_Ship">Barco Fantasma</string>
+	<string name="Ghost_Town">Pueblo Fantasma</string>
 	<string name="Giant">Gigante</string>
 	<string name="Gladiator_Fortune">Gladiador/Suerte</string>
 	<string name="Golem">Golem</string>
@@ -234,6 +200,7 @@
 	<string name="Graverobber">Ladrón de Tumbas</string>
 	<string name="Great_Hall">Gran Sala</string>
 	<string name="Groundskeeper">Jardinero</string>
+	<string name="Guardian">Guardián</string>
 	<string name="Guide">Guía</string>
 	<string name="Guilds">Gremios</string>
 	<string name="Guilds_Description">Cartas del Dominion: Gremios</string>
@@ -244,6 +211,8 @@
 	<string name="Harvest">Cosecha</string>
 	<string name="Haunted_Woods">Bosque Embrujado</string>
 	<string name="Haven">Puerto</string>
+	<string name="Heirloom">Legado</string>
+	<string name="Heirloom_Description">Las cartas de Legado reemplazan a los Cobres Iniciales</string>
 	<string name="Herald">Emisario</string>
 	<string name="Herbalist">Herbalista</string>
 	<string name="Hermit">Ermitaño</string>
@@ -256,6 +225,7 @@
 	<string name="Horse_Traders">Tratantes de Caballos</string>
 	<string name="Hunting_Grounds">Coto de Caza</string>
 	<string name="Hunting_Party">Cacería</string>
+	<string name="Idol">Ídolo</string>
 	<string name="Ill_Gotten_Gains">Dinero Sucio</string>
 	<string name="Inheritance">Herencia</string>
 	<string name="Inn">Posada</string>
@@ -273,7 +243,7 @@
 	<string name="Journeyman">Oficial</string>
 	<string name="Junk_Dealer">Chatarrero</string>
 	<string name="Keep">Guardar</string>
-	<string name="Kings_Court">"Corte Real"</string>
+	<string name="Kings_Court">Corte Real</string>
 	<string name="Knight">Caballero</string>
 	<string name="Knights">Caballeros</string>
 	<string name="Laboratory">Laboratorio</string>
@@ -282,6 +252,7 @@
 	<string name="Landmarks">Lugares</string>
 	<string name="Landmarks_Description">Formas adicionales de ganar Puntos de Victoria</string>
 	<string name="Legionary">Legionario</string>
+	<string name="Leprechaun">Duende</string>
 	<string name="Library">Biblioteca</string>
 	<string name="Lighthouse">Faro</string>
 	<string name="Loan">Prestamo</string>
@@ -322,6 +293,7 @@
 	<string name="Miser">Tacaño</string>
 	<string name="Mission">Misión</string>
 	<string name="Moat">Foso</string>
+	<string name="Monastery">Monasterio</string>
 	<string name="Moneylender">Prestamista</string>
 	<string name="Monument">Monumento</string>
 	<string name="Mountain_Pass">Paso de Montaña</string>
@@ -330,8 +302,14 @@
 	<string name="Mystic">Pitonisa</string>
 	<string name="Native_Village">Poblado Indigena</string>
 	<string name="Navigator">Navegante</string>
+	<string name="Necromancer">Nigromante</string>
+	<string name="Night">Noche</string>
+	<string name="Night_Description">Las cartas de Noche se juegan después de la Fase de Compra</string>
+	<string name="Night_Watchman">Guardia de la Noche</string>
 	<string name="Noble_Brigand">Bandido Honrado</string>
 	<string name="Nobles">Nobles</string>
+	<string name="Nocturne">Nocturno</string>
+	<string name="Nocturne_Description">Cartas del Dominion: Nocturno</string>
 	<string name="Nomad_Camp">Campamento Nómada</string>
 	<string name="Oasis">Oasis</string>
 	<string name="Obelisk">Obelisco</string>
@@ -348,10 +326,11 @@
 	<string name="Pearl_Diver">Pescador de Perlas</string>
 	<string name="Peasant">Campesino</string>
 	<string name="Peddler">Buhonero</string>
-	<string name="Philosophers_Stone">"Piedra Filosofal"</string>
+	<string name="Philosophers_Stone">Piedra Filosofal</string>
 	<string name="Pilgrimage">Peregrinación</string>
 	<string name="Pillage">Pillaje</string>
 	<string name="Pirate_Ship">Barco Pirata</string>
+	<string name="Pixie">Duendecito</string>
 	<string name="Plan">Planificar</string>
 	<string name="Platinum">Platino</string>
 	<string name="Plaza">Plaza</string>
@@ -368,6 +347,7 @@
 	<string name="Plus_More_Action">Más de una acción</string>
 	<string name="Plus_More_Action_Description">Cartas que dan dos o más acciones</string>
 	<string name="Poacher">Cazador Furtivo</string>
+	<string name="Pooka">Pooka</string>
 	<string name="Poor_House">Hospicio</string>
 	<string name="Port">Portuario</string>
 	<string name="Possession">Posesión</string>
@@ -385,6 +365,7 @@
 	<string name="Quest">Gesta</string>
 	<string name="Rabble">Chusma</string>
 	<string name="Raid">Redada</string>
+	<string name="Raider">Asaltante</string>
 	<string name="Ranger">Guardabosques</string>
 	<string name="Ratcatcher">Exterminador de Ratas</string>
 	<string name="Rats">Ratas</string>
@@ -403,6 +384,7 @@
 	<string name="Royal_Seal">Sello Real</string>
 	<string name="Ruins">Ruinas</string>
 	<string name="Saboteur">Saboteador</string>
+	<string name="Sacred_Grove">Arboleda Sagrada</string>
 	<string name="Sacrifice">Sacrificio</string>
 	<string name="Sage">Sabio</string>
 	<string name="Salt_the_Earth">Sal de la Tierra</string>
@@ -418,13 +400,16 @@
 	<string name="Seaside">Terramar</string>
 	<string name="Seaside_Description">Cartas del Dominion: Terramar</string>
 	<string name="Seaway">Vía Marítima</string>
+	<string name="Secret_Cave">Cueva Secreta</string>
 	<string name="Secret_Chamber">Cámara Secreta</string>
 	<string name="Secret_Passage">Pasadizo Secreto</string>
 	<string name="Sentry">Centinela</string>
 	<string name="Settlers_Bustling_Village">Colonos/Pueblo Animado</string>
 	<string name="Shanty_Town">Chabolas</string>
 	<string name="Shelter">Cobijo ó Protección</string>
+	<string name="Shepherd">Pastor</string>
 	<string name="Silk_Road">Ruta de la Seda</string>
+	<string name="Skulk">Esconderse</string>
 	<string name="Smithy">Herrería</string>
 	<string name="Smugglers">Contrabandista</string>
 	<string name="Soothsayer">Vidente</string>
@@ -449,13 +434,16 @@
 	<string name="Thief">Ladrón</string>
 	<string name="Throne_Room">Salón del Trono</string>
 	<string name="Tomb">Tumba</string>
+	<string name="Tormentor">Atormentador</string>
 	<string name="Torturer">Torturador</string>
 	<string name="Tournament">Torneo</string>
 	<string name="Tower">Torre</string>
+	<string name="Tracker">Rastreador</string>
 	<string name="Trade">Comercio</string>
 	<string name="Trade_Route">Ruta Comercial</string>
 	<string name="Trader">Comerciante</string>
 	<string name="Trading_Post">Puesto Comercial</string>
+	<string name="Tragic_Hero">Héroe Trágico</string>
 	<string name="Training">Entrenamiento</string>
 	<string name="Transmogrify">Transformar</string>
 	<string name="Transmute">Transmutar</string>
@@ -475,6 +463,7 @@
 	<string name="Upgrade">Mejora</string>
 	<string name="Urchin">Pillastre</string>
 	<string name="Vagrant">Vagabundo</string>
+	<string name="Vampire">Vampiro</string>
 	<string name="Vassal">Vasallo</string>
 	<string name="Vault">Cripta</string>
 	<string name="Venture">Especulación</string>
@@ -490,6 +479,7 @@
 	<string name="Warehouse">Almacén</string>
 	<string name="Watchtower">Atalaya</string>
 	<string name="Wedding">Casamiento</string>
+	<string name="Werewolf">Hombre Lobo</string>
 	<string name="Wharf">Muelle</string>
 	<string name="Wild_Hunt">Caza Salvaje</string>
 	<string name="Windfall">Ganancia Inesperada</string>
@@ -498,18 +488,56 @@
 	<string name="Witch">Bruja</string>
 	<string name="Wolf_Den">Guarida del Lobo</string>
 	<string name="Woodcutter">Leñadores</string>
-	<string name="Workers_Village">"Pueblo de Trabajadores"</string>
+	<string name="Workers_Village">Pueblo de Trabajadores</string>
 	<string name="Workshop">Taller</string>
 	<string name="Young_Witch">Bruja Joven</string>
+	<string name="app_description">Seleccione al azar 10 cartas Dominion usando las restricciones dadas</string>
+	<string name="app_name">Dominion Shuffle</string>
+	<string name="bane">Perdición</string>
+	<string name="cancel">Cancelar</string>
+	<string name="card">Carta</string>
+	<string name="card_language">Idioma de la Carta</string>
 	<string name="cards_to_draw">Cartas a robar</string>
+	<string name="display_result_dialog_title">Mostrar resultado</string>
+	<string name="empty">Vacio</string>
+	<string name="error_loading">Error al cargar datos</string>
+	<string name="group">Grupo</string>
+	<string name="limit_condition_text">Ajuste el mínimo si se selecciona al menos una carta de entre el grupo siguiente (o cartas)..</string>
+	<string name="limit_title">Configuración de límite</string>
+	<string name="load_dialog_title">Barajar Dominion - Reglas de carga</string>
+	<string name="loaded_cache">No se pudieron descargar las cartas, usando la versión en caché.</string>
+	<string name="loading">Cargando cartas y grupos de Dominion</string>
+	<string name="maximum">Máximo</string>
 	<string name="menu_about">Acerca de</string>
-	<string name="menu_launch_androminion">Launch Androminion</string>
+	<string name="menu_clear_all">Borrar todo</string>
+	<string name="menu_close">Cerrar</string>
+	<string name="menu_compact_view">Lista compacta</string>
+	<string name="menu_exclude_all">Excluir todo</string>
+	<string name="menu_expanded_view">Lista expandida</string>
+	<string name="menu_last_result">Último resultado</string>
+	<string name="menu_launch_androminion">Lanzar el Androminion</string>
+	<string name="menu_load">Cargar</string>
+	<string name="menu_lock_lists">Listas bloqueadas</string>
+	<string name="menu_require_all">Requerir todo</string>
+	<string name="menu_save">Grabar</string>
 	<string name="menu_settings">Ajustes</string>
+	<string name="menu_shuffle">Barajar</string>
+	<string name="menu_sort">Ordenar</string>
+	<string name="menu_unlock_lists">Listas Desbloqueadas</string>
+	<string name="minimum">Mínimo</string>
+	<string name="no_card_or_group_selected">Nada seleccionado</string>
 	<string name="obelisk">Obelisco</string>
+	<string name="ok">OK</string>
+
 	<string name="releasenotes_title">Notas de la versión</string>
-	<string name="releasenotes_value">"++ Version 1.17 ++
-		Nocturne Cards added - English only at this stage.
-		Dismantle Promo added - English only at this stage.
+	<string name="releasenotes_value">++ Version 1.17.1 ++
+Updated Spanish Translations, too Nocturne Cards ALL, Crypt Card (Kingdom card).
+Updated Spanish Translations Dismantle Promo.
+By Diego and Diego. To date 12/09/2017.
+
+++ Version 1.17 ++
+\u0009\u0009Nocturne Cards added - English only at this stage.
+\u0009\u0009Dismantle Promo added - English only at this stage.
  Translation for all other cards to Spanish, by Diego and Diego. To date 11/11/2017.
 
  ++ Version 1.16.2 ++
@@ -530,7 +558,7 @@
  ++ Version 1.15.3 ++
  New Icon Graphics by EldVarg.
  Added Events and Landmarks group to allow for rule of no more than 2.
- Added code for Obelisk Card (Doesn't currently pick Ruins pile however).
+ Added code for Obelisk Card (Doesn\'t currently pick Ruins pile however).
 
  ++ Version 1.15.2 ++
  Added 2nd Ed cards, and Sauna/Avanto Promo to appropriate Groups.
@@ -571,53 +599,29 @@
  Added Events, and updated behaviour to not count Events against drawn Kingdom Cards.
 
  ++ Known Bugs ++
- Non-English Languages are not working (Sorry)."</string>
-	<string name="Gathering">Reunión</string>
+ Non-English Languages are not working (Sorry).</string>
+	<string name="result_no_result">Ningún resultado generado aún.</string>
+	<string name="result_title">Dominion Barajado - Resultado</string>
+	<string name="retry">Reintentar</string>
+	<string name="save">Grabar</string>
+	<string name="save_dialog_title">Dominion Barajado - Reglas Gravadas</string>
+	<string name="save_rules_as">Reglas Gravadas como,</string>
 	<string name="settings_title">Dominion Shuffle - Ajustes</string>
-	<string name="Dismantle">Dismantle</string>
-	<!--  Nocturne cards -->
-	<string name="Druid">Druid</string>
-	<string name="Faithful_Hound">Faithful Hound</string>
-	<string name="Guardian">Guardian</string>
-	<string name="Monastery">Monastery</string>
-	<string name="Pixie">Pixie</string>
-	<string name="Tracker">Tracker</string>
-	<string name="Changeling">Changeling</string>
-	<string name="Fool">Fool</string>
-	<string name="Ghost_Town">Ghost Town</string>
-	<string name="Leprechaun">Leprechaun</string>
-	<string name="Night_Watchman">Night Watchman</string>
-	<string name="Secret_Cave">Secret Cave</string>
-	<string name="Bard">Bard</string>
-	<string name="Blessed_Village">Blessed Village</string>
-	<string name="Cemetery">Cemetery</string>
-	<string name="Conclave">Conclave</string>
-	<string name="Devils_Workshop">Devil\'s Workshop</string>
-	<string name="Exorcist">Exorcist</string>
-	<string name="Necromancer">Necromancer</string>
-	<string name="Shepherd">Shepherd</string>
-	<string name="Skulk">Skulk</string>
-	<string name="Cobbler">Cobbler</string>
-	<string name="Cursed_Village">Curse Village</string>
-	<string name="Den_of_Sin">Den of Sin</string>
-	<string name="Idol">Idol</string>
-	<string name="Pooka">Pooka</string>
-	<string name="Sacred_Grove">Sacred_Grove</string>
-	<string name="Tormentor">Tormentor</string>
-	<string name="Tragic_Hero">Tragic Hero</string>
-	<string name="Vampire">Vampire</string>
-	<string name="Werewolf">Werewolf</string>
-	<string name="Raider">Raider</string>
-
-
-	<string name="Nocturne">Nocturne</string>
-	<string name="Nocturne_Description">Cards from Dominion: Nocturne</string>
-	<string name="Fate">Fate</string>
-	<string name="Fate_Description">Cards with the Fate Type, which draw Boons</string>
-	<string name="Night">Night</string>
-	<string name="Night_Description">Night Cards that are played after the Buy Phase</string>
-	<string name="Heirloom">Heirloom</string>
-	<string name="Heirloom_Description">Heirloom Cards replace starting Coppers</string>
-	<string name="Doom">Doom</string>
-	<string name="Doom_Description">Cards with the Doom Type, which give Hexes</string>
+	<string name="show_group_title">"Grupo '%s' cartas"</string>
+	<string name="solve_dialog_title">Resuelve el error</string>
+	<string name="solveerror_not_enough_cards">No hay suficientes cartas para elegir</string>
+	<string name="solveerror_overconstrainted_mimumums">No todas las reglas mínimas pueden ser satisfechas</string>
+	<string name="solveerror_rules_to_strict">No se pueden seleccionar las cartas usando las reglas dadas, intente relajarlas</string>
+	<string name="solveerror_too_many_cards">Intentando elegir más de 10 cartas</string>
+	<string name="solveerror_unsatisfied_rule">La regla no se cumple para las cartas seleccionadas</string>
+	<string name="sort_cards_dialog_title">Ordenar cartas por</string>
+	<string name="tab_constraints">Límites</string>
+	<string name="tab_generate">Barajar</string>
+	<string name="tab_select">Selecionar</string>
+	<string name="toast_all_cleared">Todas las selecciones se borran</string>
+	<string name="toast_error_saving_rules">Error al guardar las reglas</string>
+	<string name="toast_loaded_rules">"Cargando reglas '%s'"</string>
+	<string name="toast_no_data_found">Datos no encontrados</string>
+	<string name="toast_saved_rules_as">"Gravando Reglas como '%s'"</string>
+	<string name="unnamed">Sin nombre</string>
 </resources>
