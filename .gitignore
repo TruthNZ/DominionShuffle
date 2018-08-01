@@ -5,3 +5,4 @@ build/
 app/build/
 app/*.apk
 app/app.iml
+app/release

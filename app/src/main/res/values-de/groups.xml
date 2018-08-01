@@ -97,13 +97,13 @@
     <string name="Gain_Spoils_Description">Karten, mit denen man Beutekarten erhalten kann</string>
 
     <string name="Nocturne">Nocturne</string>
-    <string name="Nocturne_Description">Cards from Dominion: Nocturne</string>
-    <string name="Fate">Fate</string>
-    <string name="Fate_Description">Cards with the Fate Type, which draw Boons</string>
-    <string name="Night">Night</string>
-    <string name="Night_Description">Night Cards that are played after the Buy Phase</string>
-    <string name="Heirloom">Heirloom</string>
-    <string name="Heirloom_Description">Heirloom Cards replace starting Coppers</string>
-    <string name="Doom">Doom</string>
-    <string name="Doom_Description">Cards with the Doom Type, which give Hexes</string>
+    <string name="Nocturne_Description">Karten aus Dominion: Nocturne</string>
+    <string name="Fate">Segen</string>
+    <string name="Fate_Description">Karten mit dem Schicksalstyp, die Boons zeichnen</string>
+    <string name="Night">Nacht</string>
+    <string name="Night_Description">Nachtkarten, die nach der Kaufphase gespielt werden</string>
+    <string name="Heirloom">Erbstück</string>
+    <string name="Heirloom_Description">Erbstück karten ersetzen den beginnenden Coppers</string>
+    <string name="Doom">Unheil</string>
+    <string name="Doom_Description">Karten mit dem Doom-Typ, die Verhexungen ergeben</string>
 </resources>
