@@ -7,7 +7,7 @@ android {
     defaultConfig {
         applicationId "nz.geek.truth.dominionshuffle"
         minSdkVersion 1
-        targetSdkVersion 19
+        targetSdkVersion 26
 		versionCode 73
 		versionName "1.18"
     }

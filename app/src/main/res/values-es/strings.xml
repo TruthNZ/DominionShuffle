@@ -155,8 +155,8 @@
 	<string name="Event">Evento</string>
 	<string name="Events">Eventos</string>
 	<string name="Events_Description">Eventos</string>
-	<string name="Events_Landmarks">Eventos o Lugares</string>
-	<string name="Events_Landmarks_Description">Eventos y Lugares. Sugiero no más de 2 de este grupo.</string>
+	<string name="Events_Landmarks_Projects">Eventos o Lugares</string>
+	<string name="Events_Landmarks_Projects_Description">Eventos y Lugares. Sugiero no más de 2 de este grupo.</string>
 	<string name="Exorcist">Exorcista</string>
 	<string name="Expand">Expansión</string>
 	<string name="Expedition">Expedición</string>

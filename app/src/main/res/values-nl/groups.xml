@@ -1,190 +1,95 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-
-<!--  Translated by Tom Vandeweyer <tom.vandeweyer@gmail.com> -->
-
+﻿<?xml version="1.0" encoding="utf-8"?><!--  Translated by Tom Vandeweyer <tom.vandeweyer@gmail.com> -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-
     <string name="All">Alles</string>
-
     <string name="All_Description">Alle Dominionkaarten</string>
-
     <string name="Main_Set">Basisspel</string>
-
     <string name="Main_Set_Description">Kaarten van het basisspel</string>
-
     <string name="Main_Set_First">Basisspel 1ste editie</string>
-
     <string name="Main_Set_First_Description">Kaarten van de eerste editie van het basisspel</string>
-
     <string name="Main_Set_Second">Basisspel 2de editie</string>
-
     <string name="Main_Set_Second_Description">Kaarten van de tweede editie van het basisspel</string>
-
     <string name="Intrigue">Intrige</string>
-
     <string name="Intrigue_Description">Kaarten van Dominion: Intrige</string>
-
     <string name="Seaside">Heis de Zeilen</string>
-
     <string name="Seaside_Description">Kaarten van de uitbreiding Heis de Zeilen</string>
-
     <string name="Alchemy">De Alchemisten</string>
-
     <string name="Alchemy_Description">Kaarten van de uitbreiding De Alchemisten</string>
-
     <string name="Prosperity">Welvaart</string>
-
     <string name="Prosperity_Description">Kaarten van de uitbreiding Welvaart</string>
-
     <string name="Cornucopia">Overvloed</string>
-
     <string name="Cornucopia_Description">Kaarten van de uitbreiding Overvloed</string>
-
     <string name="Hinterlands">Het Achterland</string>
-
     <string name="Hinterlands_Description">Kaarten van de uitbreiding Het Achterland</string>
-
     <string name="Dark_Ages">De Donkere Middeleeuwen</string>
-
     <string name="Dark_Ages_Description">Kaarten van de uitbreiding De Donkere Middeleeuwen</string>
-
     <string name="Guilds">De Gilden</string>
-
     <string name="Guilds_Description">Kaarten van de uitbreiding De Gilden</string>
-
     <string name="Adventures">Avonturen</string>
-
     <string name="Adventures_Description">Kaarten van de uitbreiding Avonturen</string>
-
     <string name="Empires">Keizerrijken</string>
-
     <string name="Empires_Description">Kaarten van de uitbreiding Keizerrijken</string>
-
     <string name="Promo">Promokaarten</string>
-
     <string name="Promo_Description">Kaarten afkomstig uit promo\'s</string>
-
     <string name="Events">Gebeurtenissen</string>
-
     <string name="Events_Description">Kaarten van het type Gebeurtenis</string>
-
     <string name="Landmarks">Bezienswaardigheden</string>
-
     <string name="Landmarks_Description">Alternatieve manieren om punten te scoren (of te verliezen)</string>
-
-    <string name="Events_Landmarks">Gebeurtenissen - Bezienswaardigheden</string>
-
-    <string name="Events_Landmarks_Description">Voeg Gebeurtenissen of Bezienswaardigheden toe. Bij voorkeur niet meer dan 2 uit deze groep, zoals wordt gesuggereerd in de spelregels.</string>
-
+    <string name="Events_Landmarks_Projects">Gebeurtenissen - Bezienswaardigheden</string>
+    <string name="Events_Landmarks_Projects_Description">Voeg Gebeurtenissen of Bezienswaardigheden toe. Bij voorkeur niet meer dan 2 uit deze groep, zoals wordt gesuggereerd in de spelregels.</string>
     <string name="Defense">Reactiekaarten</string>
-
     <string name="Defense_Description">Kaarten die iets doen als reactie op andere kaarten</string>
-
     <string name="Attack_Group">Aanvalskaarten</string>
-
     <string name="Attack_Group_Description">Kaarten die een ongunstig effect kunnen hebben op andere spelers</string>
-
     <string name="Cost_2">Kostprijs 2</string>
-
     <string name="Cost_2_Description">Kaarten die 2 geld kosten</string>
-
     <string name="Cost_3">Kostprijs 3</string>
-
     <string name="Cost_3_Description">Kaarten die 3 geld kosten</string>
-
     <string name="Cost_4">Kostprijs 4</string>
-
     <string name="Cost_4_Description">Kaarten die 4 geld kosten</string>
-
     <string name="Cost_5">Kostprijs 5</string>
-
     <string name="Cost_5_Description">Kaarten die 5 geld kosten</string>
-
     <string name="Cost_6">Kostprijs 6</string>
-
     <string name="Cost_6_Description">Kaarten die 6 geld kosten</string>
-
     <string name="Cost_6_Or_More">Kostprijs 6+</string>
-
     <string name="Cost_6_Or_More_Description">Kaarten die 6 geld of meer kosten</string>
-
     <string name="Cost_7_Or_More">Kostprijs 7+</string>
-
     <string name="Cost_7_Or_More_Description">Kaarten die 7 geld of meer kosten</string>
-
     <string name="Cost_Debt">Schulden</string>
-
     <string name="Cost_Debt_Description">Kaarten die je schuldfiches geven wanneer je ze aanschaft</string>
-
     <string name="Potion_Group">Toverdrank</string>
-
     <string name="Potion_Group_Description">Kaarten die deels of volledig met Toverdrank moeten aangeschaft worden</string>
-
     <string name="Component">Extra Componenten</string>
-
     <string name="Component_Description">Kaarten die gebruik maken van fiches, tableaus of munten</string>
-
     <string name="Victory_Group">Overwinningspunten</string>
-
     <string name="Victory_Group_Description">Kaarten die overwinningspunten waard zijn</string>
-
     <string name="Duration_Group">Duurzame kaarten</string>
-
     <string name="Duration_Group_Description">Kaarten die langer dan één beurt blijven liggen</string>
-
     <string name="Treasure_Group">Geldkaarten</string>
-
     <string name="Treasure_Group_Description">Kaarten van het type Geld</string>
-
     <string name="Double_Type">Gecombineerde kaarttypes</string>
-
     <string name="Double_Type_Description">Kaarten met meerdere kaarttypes</string>
-
     <string name="Deck_Reduction">Deck-reducerende kaarten</string>
-
     <string name="Deck_Reduction_Description">Kaarten die ervoor zorgen dat het deck uitgedund worden </string>
-
     <string name="Card_Ordering">Kaartsortering</string>
-
     <string name="Card_Ordering_Description">Kaarten die de volgorde van de kaarten in het deck wijzigen</string>
-
     <string name="Plus_Curses">Plus Vloeken</string>
-
     <string name="Plus_Curses_Description">Kaarten die andere spelers Vloeken kunnen laten nemen</string>
-
     <string name="Plus_Card">Plus Kaarten</string>
-
     <string name="Plus_Card_Description">Kaarten die je extra kaarten laten bijtrekken</string>
-
     <string name="Plus_Action">Plus Actie</string>
-
     <string name="Plus_Action_Description">Kaarten die je een extra actie geven</string>
-
     <string name="Plus_More_Action">Plus Meerdere Acties</string>
-
     <string name="Plus_More_Action_Description">Kaarten die je meerdere acties geven</string>
-
     <string name="Plus_Coin">Plus Geld</string>
-
     <string name="Plus_Coin_Description">Kaarten die extra geld bijtellen</string>
-
     <string name="Plus_Buy">Plus Aanschaf</string>
-
     <string name="Plus_Buy_Description">Kaarten die extra aanschaf geven</string>
-
     <string name="Gain">Nemen</string>
-
     <string name="Gain_Description">Kaarten die kaarten laten nemen, zonder ze aan te schaffen</string>
-
     <string name="Looter_Group">Plunderkaarten</string>
-
     <string name="Looter_Group_Description">Kaarten die andere spelers Ruïnekaarten kunnen laten nemen</string>
-
     <string name="Gain_Spoils">Buit Nemen</string>
-
     <string name="Gain_Spoils_Description">Kaarten die Buitkaarten opleveren</string>
-
-
     <string name="Nocturne">Nocturne</string>
     <string name="Nocturne_Description">Cards from Dominion: Nocturne</string>
     <string name="Fate">Fate</string>
