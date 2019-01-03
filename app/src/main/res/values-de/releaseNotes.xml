@@ -3,6 +3,8 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="releasenotes_title">Versionshinweise</string>
     <string name="releasenotes_value">
+++ Version 1.18 ++\n
+Added Renaissance\n
 ++ Version 1.17.2 ++\n
 German Nocturne Translations by Martin Binder.\n
 ++ Version 1.17.1 ++\n

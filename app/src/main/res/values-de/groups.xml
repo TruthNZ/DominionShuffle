@@ -33,14 +33,20 @@
     <string name="Adventures_Description">Karten aus Dominion: Abenteuer</string>
     <string name="Empires">Empires</string>
     <string name="Empires_Description">Karten aus Dominion: Empires</string>
+    <string name="Nocturne">Nocturne</string>
+    <string name="Nocturne_Description">Karten aus Dominion: Nocturne</string>
+    <string name="Renaissance">Renaissance</string>
+    <string name="Renaissance_Description">Karten aus Dominion: Renaissance</string>
     <string name="Promo">Promo</string>
     <string name="Promo_Description">Promokarten</string>
     <string name="Events">Ereignisse</string>
     <string name="Events_Description">Ereignisse</string>
     <string name="Landmarks">Landmarken</string>
     <string name="Landmarks_Description">Zusätzliche Möglichkeiten, Punkte zu punkten</string>
-    <string name="Events_Landmarks">Ereignisse oder Landmarken</string>
-    <string name="Events_Landmarks_Description">Ereignisse oder Landmarken. Vorgeschlagene Regel ist nicht mehr als 2 von dieser Gruppe.</string>
+    <string name="Projects">Projekte</string>
+    <string name="Projects_Description">Permanente, kaufbare Effekte, die nicht an Karten gebunden sind</string>
+    <string name="Events_Landmarks_Projects">Ereignisse, Landmarken und Projekte</string>
+    <string name="Events_Landmarks_Projects_Description">Vorgeschlagene Regel ist nicht mehr als 2 von dieser Gruppe.</string>
     <string name="Defense">Verteidigung</string>
     <string name="Defense_Description">Karten, die vor Angriffen schützen</string>
     <string name="Attack_Group">Angriff</string>
@@ -95,9 +101,6 @@
     <string name="Looter_Group_Description">Karten, bei deren Ausspielen andere Spieler Ruinen nehmen müssen</string>
     <string name="Gain_Spoils">Beute nehmen</string>
     <string name="Gain_Spoils_Description">Karten, mit denen man Beutekarten erhalten kann</string>
-
-    <string name="Nocturne">Nocturne</string>
-    <string name="Nocturne_Description">Karten aus Dominion: Nocturne</string>
     <string name="Fate">Segen</string>
     <string name="Fate_Description">Karten mit dem Schicksalstyp, die Boons zeichnen</string>
     <string name="Night">Nacht</string>
