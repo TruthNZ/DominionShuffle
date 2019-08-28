@@ -90,20 +90,16 @@
     <string name="Plus_Buy_Description">Karty dające dodatkowe zakupy</string>
     <string name="Gain">Dodawanie</string>
     <string name="Gain_Description">Karty umożliwiające dodawanie innych kart bez kupowania</string>
-    <string name="Looter_Group">Looter</string>
+    <string name="Looter_Group">Szabrownik</string>
     <string name="Looter_Group_Description">Karty rozdające karty Ruin</string>
-    <string name="Gain_Spoils">Dodawanie Spoils</string>
-    <string name="Gain_Spoils_Description">Karty umożliwiające dodawanie karty Spoils</string>
-
-
-    <string name="Nocturne">Nocturne</string>
-    <string name="Nocturne_Description">Cards from Dominion: Nocturne</string>
-    <string name="Fate">Fate</string>
-    <string name="Fate_Description">Cards with the Fate Type, which draw Boons</string>
-    <string name="Night">Night</string>
-    <string name="Night_Description">Night Cards that are played after the Buy Phase</string>
-    <string name="Heirloom">Heirloom</string>
-    <string name="Heirloom_Description">Heirloom Cards replace starting Coppers</string>
-    <string name="Doom">Doom</string>
-    <string name="Doom_Description">Cards with the Doom Type, which give Hexes</string>
+    <string name="Gain_Spoils">Łupy</string>
+    <string name="Gain_Spoils_Description">Karty umożliwiające dodawanie karty Łupów</string>
+    <string name="Fate">Los</string>
+    <string name="Fate_Description">Karty typu Los dające Dary</string>
+    <string name="Night">Noc</string>
+    <string name="Night_Description">Karty typu Noc zagrywane po fazie zakupów</string>
+    <string name="Heirloom">Dziedzictwo</string>
+    <string name="Heirloom_Description">Karty dziedzictwa zastępujące startowe miedziaki</string>
+    <string name="Doom">Dar</string>
+    <string name="Doom_Description">Karty typu Dar dające klątwy</string>
 </resources>
