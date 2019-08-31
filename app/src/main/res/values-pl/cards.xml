@@ -325,7 +325,7 @@
     <string name="Triumphal_Arch">Łuk triumfalny</string>
     <string name="Wall">Mur</string>
     <string name="Wolf_Den">Wilcze leże</string>
-<Base 2nd Edition Cards -->
+<!--  Base 2nd Edition Cards -->
     <string name="Artisan">Rękodzielnik</string>
     <string name="Bandit">Bandyta</string>
     <string name="Harbinger">Zwiastun</string>
@@ -333,7 +333,7 @@
     <string name="Poacher">Kłusownik</string>
     <string name="Sentry">Wartownik</string>
     <string name="Vassal">Wasal</string>
-<Intrigue 2nd Edition Cards -->
+<!--  Intrigue 2nd Edition Cards -->
     <string name="Courtier">Dworzanie</string>
     <string name="Diplomat">Dyplomata</string>
     <string name="Lurker">Intrygant</string>
