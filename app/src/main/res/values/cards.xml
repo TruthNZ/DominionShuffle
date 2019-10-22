@@ -351,6 +351,8 @@
     <string name="Summon">Summon</string>
     <string name="Sauna_Avanto">Sauna/Avanto</string>
     <string name="Dismantle">Dismantle</string>
+	<string name="Church">Church</string>
+	<string name="Captain">Captain</string>
     <!--  Nocturne cards -->
     <string name="Druid">Druid</string>
     <string name="Faithful_Hound">Faithful Hound</string>
