@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="Action">Action</string>
+    <string name="Gathering">Collecte</string>
+    <string name="Treasure">Trésor</string>
+    <string name="Victory">Victoire</string>
+    <string name="Curse">Malédiction</string>
+    <string name="Attack">Attaque</string>
+    <string name="Reaction">Réaction</string>
+    <string name="Duration">Durée</string>
+    <string name="Prize">Prix</string>
+    <string name="Shelter">Refuge</string>
+    <string name="Looter">Pillard</string>
+    <string name="Ruins">Ruines</string>
+    <string name="Knight">Chevalier</string>
+    <string name="Reserve">Réserve</string>
+    <string name="Traveller">Itinérant</string>
+    <string name="Event">Evénement</string>
+    <string name="Landmark">Jalon</string>
+    <string name="Project">Projet</string>
+</resources>
