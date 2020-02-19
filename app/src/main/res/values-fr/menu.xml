@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<string name="menu_lock_lists">Listes synchrones</string>
-<string name="menu_unlock_lists">Listes indépendantes</string>
-<string name="menu_sort">Trier</string>
-<string name="menu_shuffle">Mélanger</string>
-<string name="menu_last_result">Dernier résultat</string>
-<string name="menu_clear_all">Remettre à zéro</string>
-<string name="menu_close">Fermer</string>
-<string name="menu_compact_view">Liste compacte</string>
-<string name="menu_expanded_view">Liste étendue</string>
-<string name="menu_exclude_all">Tout exclure</string>
-<string name="menu_require_all">Tout inclure</string>
-<string name="menu_load">Charger</string>
-<string name="menu_save">Sauvergarder</string>
+    <string name="menu_lock_lists">Listes synchrones</string>
+    <string name="menu_unlock_lists">Listes indépendantes</string>
+    <string name="menu_sort">Trier</string>
+    <string name="menu_shuffle">Mélanger</string>
+    <string name="menu_last_result">Dernier résultat</string>
+    <string name="menu_clear_all">Remettre à zéro</string>
+    <string name="menu_close">Fermer</string>
+    <string name="menu_compact_view">Liste compacte</string>
+    <string name="menu_expanded_view">Liste étendue</string>
+    <string name="menu_exclude_all">Tout exclure</string>
+    <string name="menu_require_all">Tout inclure</string>
+    <string name="menu_load">Charger</string>
+    <string name="menu_save">Sauvergarder</string>
+    <string name="menu_about">A propos</string>
+    <string name="menu_settings">Paramètres</string>
+    <string name="menu_launch_androminion">Lancer Androminion</string>
 </resources>
