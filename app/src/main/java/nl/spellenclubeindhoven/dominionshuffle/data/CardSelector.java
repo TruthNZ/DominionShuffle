@@ -53,6 +53,7 @@ public class CardSelector {
     private final static String EVENT = "Event";
     private final static String LANDMARK = "Landmark";
     private final static String PROJECT = "Project";
+    private final static String WAY = "Way";
     private final static String COST_2_Group = "Cost_2";
     private final static String COST_3_Group = "Cost_3";
     private final static String POTION_CARD = "Potion";
@@ -245,7 +246,7 @@ public class CardSelector {
     private int countDrawCards(final Collection<Card> cards, final Result result) {
         int count = 0;
         for (final Card card : cards) {
-            if (!card.isBasicOrNonSupply() && !card.getTypes().contains(EVENT) && !card.getTypes().contains(LANDMARK) && !card.getTypes().contains(PROJECT) && !(result.getBaneCard() == card)) {
+            if (!card.isBasicOrNonSupply() && !card.getTypes().contains(EVENT) && !card.getTypes().contains(LANDMARK) && !card.getTypes().contains(PROJECT) && !card.getTypes().contains(WAY) && !(result.getBaneCard() == card)) {
                 count++;
             }
         }

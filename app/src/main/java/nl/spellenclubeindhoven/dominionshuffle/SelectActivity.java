@@ -336,7 +336,8 @@ public class SelectActivity extends TabActivity implements OnScrollListener {
                 // Load Default Settings instead
 
                 cardSelector.addIncludedGroup(data.getGroup("All"));
-                cardSelector.setLimitMaximum(data.getGroup("Events_Landmarks_Projects"), 2);
+				cardSelector.setLimitMaximum(data.getGroup("Ways"), 1);
+                cardSelector.setLimitMaximum(data.getGroup("Events_Landmarks_Projects_Ways"), 2);
 
             } else {
                 cardSelector.fromJson(selectorData, dataReader.getData());
