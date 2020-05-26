@@ -7,7 +7,7 @@
     <string name="Main_Set_First">Valtakunta 1. laitos</string>
     <string name="Main_Set_First_Description">Kortit Dominion - Valtakunta 1. laitoksesta</string>
     <string name="Main_Set_Second">Valtakunta 2. laitos</string>
-    <string name="Main_Set_Second_Description">Kortit Dominion - Valtakuta 2. laitoksesta</string>
+    <string name="Main_Set_Second_Description">Kortit Dominion - Valtakunta 2. laitoksesta</string>
     <string name="Intrigue">Hovin Juonet</string>
     <string name="Intrigue_Description">Kortit Dominion - Hovin Juonet molemmista laitoksista</string>
     <string name="Intrigue_First">Hovin Juonet 1. laitos</string>
@@ -38,8 +38,8 @@
     <string name="Events_Description">Tapahtumakortit</string>
     <string name="Landmarks">Maamerkit</string>
     <string name="Landmarks_Description">Maamerkki-kortit</string>
-    <string name="Events_Landmarks_Projects">Tapahtumat tai Maamerkit</string>
-    <string name="Events_Landmarks_Projects_Description">Tapahtumat ja Maamerkit, suositus on max. 2 korttia tästä ryhmästä</string>
+    <string name="Events_Landmarks_Projects_Ways">Tapahtumat tai Maamerkit</string>
+    <string name="Events_Landmarks_Projects_Ways_Description">Tapahtumat ja Maamerkit, suositus on max. 2 korttia tästä ryhmästä</string>
     <string name="Defense">Puolustus</string>
     <string name="Defense_Description">Kortit, jotka suojelevat muiden pelaajien hyökkäyskorteilta</string>
     <string name="Attack_Group">Hyökkäys</string>

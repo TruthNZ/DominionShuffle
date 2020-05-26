@@ -44,8 +44,8 @@
     <string name="Landmarks_Description">Façon additionnelle de recevoir des points</string>
     <string name="Projects">Projets</string>
     <string name="Projects_Description">Effets permanent achetables</string>
-    <string name="Events_Landmarks_Projects">Evénement, Jalon et Projets</string>
-    <string name="Events_Landmarks_Projects_Description">La règle suggérée est de ne pas en avoir plus de deux de ce groupe</string>
+    <string name="Events_Landmarks_Projects_Ways">Evénement, Jalon et Projets</string>
+    <string name="Events_Landmarks_Projects_Ways_Description">La règle suggérée est de ne pas en avoir plus de deux de ce groupe</string>
     <string name="Defense">Défence</string>
     <string name="Defense_Description">Cartes protégeant de cartes Attaque</string>
     <string name="Attack_Group">Attaque</string>

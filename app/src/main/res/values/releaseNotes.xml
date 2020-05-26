@@ -2,6 +2,8 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="releasenotes_title">Release Notes</string>
     <string name="releasenotes_value">
+++ Version 1.3.0 ++ \n
+Added Menagerie Cards (English only currently)\n
 ++ Version 1.21 ++ \n
 French Translations by le-scode\n
 ++ Version 1.20 ++ \n

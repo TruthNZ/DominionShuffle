@@ -38,8 +38,8 @@
     <string name="Events_Description">Zdarzenia</string>
     <string name="Landmarks">Krajobrazy</string>
     <string name="Landmarks_Description">Dodatkowe sposoby zdobywania punktów.</string>
-    <string name="Events_Landmarks_Projects">Zdarzenia lub Krajobrazy</string>
-    <string name="Events_Landmarks_Projects_Description">Zdarzenia i Krajobrazy. Sugerowane jest nie włączanie więcej niż 2 kart z tej grupy.</string>
+    <string name="Events_Landmarks_Projects_Ways">Zdarzenia lub Krajobrazy</string>
+    <string name="Events_Landmarks_Projects_Ways_Description">Zdarzenia i Krajobrazy. Sugerowane jest nie włączanie więcej niż 2 kart z tej grupy.</string>
     <string name="Defense">Obrona</string>
     <string name="Defense_Description">Karty chroniące przed atakami</string>
     <string name="Attack_Group">Atak</string>

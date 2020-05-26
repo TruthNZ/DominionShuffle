@@ -45,8 +45,8 @@
     <string name="Landmarks_Description">Zusätzliche Möglichkeiten, Punkte zu punkten</string>
     <string name="Projects">Projekte</string>
     <string name="Projects_Description">Permanente, kaufbare Effekte, die nicht an Karten gebunden sind</string>
-    <string name="Events_Landmarks_Projects">Ereignisse, Landmarken und Projekte</string>
-    <string name="Events_Landmarks_Projects_Description">Vorgeschlagene Regel ist nicht mehr als 2 von dieser Gruppe.</string>
+    <string name="Events_Landmarks_Projects_Ways">Ereignisse, Landmarken und Projekte</string>
+    <string name="Events_Landmarks_Projects_Ways_Description">Vorgeschlagene Regel ist nicht mehr als 2 von dieser Gruppe.</string>
     <string name="Defense">Verteidigung</string>
     <string name="Defense_Description">Karten, die vor Angriffen schützen</string>
     <string name="Attack_Group">Angriff</string>

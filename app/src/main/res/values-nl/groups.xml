@@ -34,8 +34,8 @@
     <string name="Events_Description">Kaarten van het type Gebeurtenis</string>
     <string name="Landmarks">Bezienswaardigheden</string>
     <string name="Landmarks_Description">Alternatieve manieren om punten te scoren (of te verliezen)</string>
-    <string name="Events_Landmarks_Projects">Gebeurtenissen - Bezienswaardigheden</string>
-    <string name="Events_Landmarks_Projects_Description">Voeg Gebeurtenissen of Bezienswaardigheden toe. Bij voorkeur niet meer dan 2 uit deze groep, zoals wordt gesuggereerd in de spelregels.</string>
+    <string name="Events_Landmarks_Projects_Ways">Gebeurtenissen - Bezienswaardigheden</string>
+    <string name="Events_Landmarks_Projects_Ways_Description">Voeg Gebeurtenissen of Bezienswaardigheden toe. Bij voorkeur niet meer dan 2 uit deze groep, zoals wordt gesuggereerd in de spelregels.</string>
     <string name="Defense">Reactiekaarten</string>
     <string name="Defense_Description">Kaarten die iets doen als reactie op andere kaarten</string>
     <string name="Attack_Group">Aanvalskaarten</string>
