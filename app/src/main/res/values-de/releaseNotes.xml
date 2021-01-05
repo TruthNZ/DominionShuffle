@@ -3,6 +3,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="releasenotes_title">Versionshinweise</string>
     <string name="releasenotes_value">
+++ Version 1.3.1 ++ \n
+German Translations for Menagerie, provided by Martin Binder and bin101.\n
+Sorry this took so long, last year was ... complex.\n
 ++ Version 1.3.0 ++ \n
 Added Menagerie Cards (English only currently)\n
 ++ Version 1.21 ++ \n
