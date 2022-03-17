@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-<!--  Base Game -->
+    <!--  Base Game -->
     <string name="Adventurer">Adventurer</string>
     <string name="Bureaucrat">Bureaucrat</string>
     <string name="Cellar">Cellar</string>
@@ -504,4 +504,59 @@
     <string name="Way_of_the_Squirrel">Way of the Squirrel</string>
     <string name="Way_of_the_Turtle">Way of the Turtle</string>
     <string name="Way_of_the_Worm">Way of the Worm</string>
+	<!-- Allies Cards -->
+	<string name="Bauble">Bauble</string>
+	<string name="Sycophant">Sycophant</string>
+	<string name="Townsfolk">Townsfolk</string>
+	<string name="Augurs">Augurs</string>
+	<string name="Clashes">Clashes</string>
+	<string name="Forts">Forts</string>
+	<string name="Merchant_Camp">Merchant Camp</string>
+	<string name="Importer">Importer</string>
+	<string name="Odysseys">Odysseys</string>
+	<string name="Sentinel">Sentinel</string>
+	<string name="Underling">Underling</string>
+	<string name="Wizards">Wizards</string>
+	<string name="Broker">Broker</string>
+	<string name="Carpenter">Carpenter</string>
+	<string name="Courier">Courier</string>
+	<string name="Innkeeper">Innkeeper</string>
+	<string name="Royal_Galley">Royal Galley</string>
+	<string name="Town">Town</string>
+	<string name="Barbarian">Barbarian</string>
+	<string name="Capital_City">Capital City</string>
+	<string name="Contract">Contract</string>
+	<string name="Emissary">Emissary</string>
+	<string name="Galleria">Galleria</string>
+	<string name="Guildmaster">Guildmaster</string>
+	<string name="Highwayman">Highwayman</string>
+	<string name="Hunter">Hunter</string>
+	<string name="Modify">Modify</string>
+	<string name="Skirmisher">Skirmisher</string>
+	<string name="Specialist">Specialist</string>
+	<string name="Swap">Swap</string>
+	<string name="Marquis">Marquis</string>
+	<string name="Architects_Guild">Architects\' Guild</string>
+	<string name="Band_of_Nomads">Band of Nomads</string>
+	<string name="Cave_Dwellers">Cave Dwellers</string>
+	<string name="Circle_of_Witches">Circle of Witches</string>
+	<string name="City_state">City-state</string>
+	<string name="Coastal_Haven">Coastal Haven</string>
+	<string name="Crafters_Guild">Crafters\' Guild</string>
+	<string name="Desert_Guides">Desert Guides</string>
+	<string name="Family_of_Inventors">Family of Inventors</string>
+	<string name="Fellowship_of_Scribes">Fellowship of Scribes</string>
+	<string name="Forest_Dwellers">Forest Dwellers</string>
+	<string name="Gang_of_Pickpockets">Gang of Pickpockets</string>
+	<string name="Island_Folk">Island Folk</string>
+	<string name="League_of_Bankers">League of Bankers</string>
+	<string name="League_of_Shopkeepers">League of Shopkeepers</string>
+	<string name="Market_Towns">Market Towns</string>
+	<string name="Mountain_Folk">Mountain Folk</string>
+	<string name="Order_of_Astrologers">Order of Astrologers</string>
+	<string name="Order_of_Masons">Order of Masons</string>
+	<string name="Peaceful_Cult">Peaceful Cult</string>
+	<string name="Plateau_Shepherds">Plateau Shepherds</string>
+	<string name="Trappers_Lodge">Trappers\' Lodge</string>
+	<string name="Woodworkers_Guild">Woodworkers\' Guild</string>
 </resources>

@@ -37,6 +37,10 @@
     <string name="Nocturne_Description">Karten aus Dominion: Nocturne</string>
     <string name="Renaissance">Renaissance</string>
     <string name="Renaissance_Description">Karten aus Dominion: Renaissance</string>
+    <string name="Menagerie_Set">Menagerie</string>
+    <string name="Menagerie_Set_Description">Karten aus Dominion: Menagerie</string>
+    <string name="Allies">Verbündete</string>
+    <string name="Allies_Description">Karten aus Dominion: Verbündete</string>
     <string name="Promo">Promo</string>
     <string name="Promo_Description">Promokarten</string>
     <string name="Events">Ereignisse</string>
@@ -47,6 +51,10 @@
     <string name="Projects_Description">Permanente, kaufbare Effekte, die nicht an Karten gebunden sind</string>
     <string name="Events_Landmarks_Projects_Ways">Ereignisse, Landmarken und Projekte</string>
     <string name="Events_Landmarks_Projects_Ways_Description">Vorgeschlagene Regel ist nicht mehr als 2 von dieser Gruppe.</string>
+    <string name="Ally_Cards">Verbündete Karten</string>
+    <string name="Ally_Cards_Description">Bieten Sie Möglichkeiten zur Verwendung von Gunst-Token an. Standardregel ist nur 1 Karte aus dieser Gruppe, wenn Liaisons gezogen werden.</string>
+    <string name="Liaisons">Kontakt</string>
+    <string name="Liaisons_Description">Karten, mit denen Sie Gunstmarker sammeln können</string>
     <string name="Defense">Verteidigung</string>
     <string name="Defense_Description">Karten, die vor Angriffen schützen</string>
     <string name="Attack_Group">Angriff</string>

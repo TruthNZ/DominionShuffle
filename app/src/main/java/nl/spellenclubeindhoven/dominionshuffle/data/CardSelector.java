@@ -32,42 +32,20 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.Comparator;
-import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Map;
 import java.util.Random;
 import java.util.Set;
-import java.util.SortedSet;
-import java.util.TreeSet;
+import java.util.SortedMap;
+import java.util.TreeMap;
 
+import nl.spellenclubeindhoven.dominionshuffle.Constants;
 import nl.spellenclubeindhoven.dominionshuffle.R;
 import nl.spellenclubeindhoven.dominionshuffle.SettingsActivity;
 
 public class CardSelector {
-    // Static Constants
-    private final static int DEFAULT_CARDS_TO_DRAW = 10;
-    private final static String EVENT = "Event";
-    private final static String LANDMARK = "Landmark";
-    private final static String PROJECT = "Project";
-    private final static String WAY = "Way";
-    private final static String COST_2_Group = "Cost_2";
-    private final static String COST_3_Group = "Cost_3";
-    private final static String POTION_CARD = "Potion";
-    private final static String POTION_COST = "P";
-    private final static String PROSPERITY_GROUP = "Prosperity";
-    private final static String COLONY_CARD = "Colony";
-    private final static String PLATINUM_CARD = "Platinum";
-    private final static String SHELTER_CARD = "Shelter";
-    private final static String OBELISK_CARD = "Obelisk";
-    private final static String YOUNG_WITCH_CARD = "Young_Witch";
-    private final static String DARK_AGES_GROUP = "Dark_Ages";
-    private final static String LOOTER_GROUP = "Looter";
-    private final static String RUINS_CARD = "Ruins";
-    private final static String ACTION_TYPE = "Action";
 
     // Final Class variables
     final private Context context;
@@ -76,11 +54,12 @@ public class CardSelector {
     final private Set<Card> includedCards = new HashSet<>();
     final private Set<Card> excludedCards = new HashSet<>();
     final private Set<Card> requiredCards = new HashSet<>();
-    final private Map<Group, Limit> allLimits = new HashMap<>();
+    final private SortedMap<Group, Limit> allLimits = new TreeMap<>((g1, g2) -> g1.getCards().size() - g2.getCards().size());
     final private Random random = new Random();
 
+    private int version;
+
     // Dynamic Class variables
-    private SortedSet<Limit> minimumLimits;
     private Data data;
 
     public CardSelector(Context context) {
@@ -120,18 +99,6 @@ public class CardSelector {
         // Specifically included Cards are highest priority
         availableCards.addAll(includedCards);
 
-        // Sort Minimum Limits as we want smallest first
-        minimumLimits = new TreeSet<>(new Comparator<Limit>() {
-            public int compare(Limit a1, Limit a2) {
-                return a1.getGroup().getCards().size() - a2.getGroup().getCards().size();
-            }
-        });
-        for (Limit limit : allLimits.values()) {
-            if (limit.getMinimum() > 0) {
-                minimumLimits.add(limit);
-            }
-        }
-
         Result result = new Result();
 
         // First add required Cards
@@ -140,7 +107,7 @@ public class CardSelector {
         }
 
         // Generate a Solution
-        result = generateSolution(result, availableCards);
+        result = generateSolution(result, availableCards, allLimits);
 
         // We have a valid solution in terms of draw cards
         // Now check for and apply rules for specific cards
@@ -148,15 +115,16 @@ public class CardSelector {
         drawColonyPlatinum(result);
         drawShelter(result);
         drawObelisk(result);
+        drawAlly(result);
 
         return result;
     }
 
-    private Result generateSolution(final Result existingResult, final Set<Card> existingAvailableCards) throws SolveError {
+    private Result generateSolution(final Result existingResult, final Set<Card> existingAvailableCards, final SortedMap<Group, Limit> existingLimits) throws SolveError {
         Log.d(CardSelector.class.getSimpleName(), "Current Card List: " + existingResult);
 
         // Check to ensure most recent card added hasn't taken us over any maximum limits
-        for (final Limit limit : allLimits.values()) {
+        for (final Limit limit : existingLimits.values()) {
             if (!limit.maximumSatisified(existingResult.getCards())) {
                 throw new SolveError(R.string.solveerror_unsatisfied_rule, "");
             }
@@ -165,7 +133,7 @@ public class CardSelector {
         // Check if we have completed the Solution
         if (countDrawCards(existingResult.getCards(), existingResult) == getCardsToDraw()) {
             // We've drawn the correct number of cards, now check our limits
-            if (checkLimitsSatisfied(existingResult)) {
+            if (checkLimitsSatisfied(existingResult, existingLimits)) {
                 // First add the Bane card if needed.
                 addBaneIfNeeded(existingResult, existingAvailableCards);
                 // This is a valid Solution!
@@ -178,23 +146,69 @@ public class CardSelector {
 
         // Loop trying cards, and seeing if having picked that card we can complete a Solution
         final Set<Card> availableCards = new HashSet<>(existingAvailableCards);
+        final SortedMap<Group, Limit> limits = new TreeMap<>(existingLimits);
         while (true) { // Loop until we either return, or throw an exception
 
             // Pick the next card
-            final Result result = pickCard(existingResult, availableCards);
+            final Card pickedCard = pickCard(existingResult, availableCards, limits);
+
+            // Remove from the availableList
+            availableCards.remove(pickedCard);
+
+            Result result = new Result(existingResult);
+            result.addCard(pickedCard);
+
+            checkAllies(pickedCard, limits);
 
             // Try generating more of the Solution with this card
             try {
-                return generateSolution(result, availableCards);
+                return generateSolution(result, availableCards, limits);
             } catch (SolveError solveError) {
                 // Nope, continue loop to try next card
             }
         }
     }
 
+    /**
+     * Check we satisfy the rules for Allies and Liaisons, using Limits to do so
+     * @param pickedCard
+     * @param limits
+     */
+    private void checkAllies(Card pickedCard, SortedMap<Group, Limit> limits) {
+        // Ensure we have a least one Ally card if we have an Liaison card
+        if (pickedCard.getTypes().contains(Constants.TYPE_LIAISON)) {
+            final Group alliesGroup = data.getGroup(Constants.GROUP_ALLIES);
+            final Limit alliesLimit;
+            if (!limits.containsKey(alliesGroup)) {
+                alliesLimit = new Limit(alliesGroup);
+                limits.put(alliesGroup, alliesLimit);
+            } else {
+                alliesLimit = limits.get(alliesGroup);
+            }
+            if (alliesLimit.getMinimum() < 1) {
+                alliesLimit.setMinimum(1);
+            }
+        }
 
-    private boolean checkLimitsSatisfied(final Result result) {
-        for (final Limit limit : allLimits.values()) {
+        // Ensure we have an Liaison card if we have a Ally card
+        if (pickedCard.getTypes().contains(Constants.TYPE_ALLY)) {
+            final Group liaisonsGroup = data.getGroup(Constants.GROUP_LIAISONS);
+            final Limit liaisonsLimit;
+            if (!limits.containsKey(liaisonsGroup)) {
+                liaisonsLimit = new Limit(liaisonsGroup);
+                limits.put(liaisonsGroup, liaisonsLimit);
+            } else {
+                liaisonsLimit = limits.get(liaisonsGroup);
+            }
+            if (liaisonsLimit.getMinimum() < 1) {
+                liaisonsLimit.setMinimum(1);
+            }
+        }
+    }
+
+
+    private boolean checkLimitsSatisfied(final Result result, final SortedMap<Group, Limit> limits) {
+        for (final Limit limit : limits.values()) {
             if (!limit.isSatisfied(result.getCards())) {
                 return false;
             }
@@ -203,14 +217,14 @@ public class CardSelector {
     }
 
     /**
-     * Pick a Card and remove it from the availableCards List.<br/>
+     * Pick a Card.<br/>
      * If we have any minimumLimit, pick from the smallest (first in list) to satisfy it.
      */
-    private Result pickCard(final Result existingResult, final Set<Card> availableCards) throws SolveError {
+    private Card pickCard(final Result existingResult, final Set<Card> availableCards, final SortedMap<Group, Limit> limits) throws SolveError {
         Set<Card> pickSource = availableCards;
 
         // Check to see if there's still a minimumLimit to satisfy
-        for (final Limit minimumLimit : minimumLimits) {
+        for (final Limit minimumLimit : limits.values()) {
             if (!minimumLimit.minimumSatisfied(existingResult.getCards())) {
                 pickSource = new HashSet<>(availableCards);
                 pickSource.retainAll(minimumLimit.getGroup().getCards());
@@ -230,13 +244,7 @@ public class CardSelector {
         }
         final Card pickedCard = iterator.next();
 
-        // Remove from the availableList
-        availableCards.remove(pickedCard);
-
-        Result result = new Result(existingResult);
-        result.addCard(pickedCard);
-
-        return result;
+        return pickedCard;
     }
 
     /**
@@ -246,7 +254,7 @@ public class CardSelector {
     private int countDrawCards(final Collection<Card> cards, final Result result) {
         int count = 0;
         for (final Card card : cards) {
-            if (!card.isBasicOrNonSupply() && !card.getTypes().contains(EVENT) && !card.getTypes().contains(LANDMARK) && !card.getTypes().contains(PROJECT) && !card.getTypes().contains(WAY) && !(result.getBaneCard() == card)) {
+            if (!card.isBasicOrNonSupply() && !card.getTypes().contains(Constants.TYPE_EVENT) && !card.getTypes().contains(Constants.TYPE_LANDMARK) && !card.getTypes().contains(Constants.TYPE_PROJECT) && !card.getTypes().contains(Constants.TYPE_WAY) && !card.getTypes().contains(Constants.TYPE_ALLY) && !(result.getBaneCard() == card)) {
                 count++;
             }
         }
@@ -259,8 +267,8 @@ public class CardSelector {
      * Checks the number of prosperity cards to the total drawn, and randomly draws the Colony and Platinum based on the ratio
      */
     private void drawColonyPlatinum(final Result result) {
-        final Card colony = data.getCard(COLONY_CARD);
-        final Card platinum = data.getCard(PLATINUM_CARD);
+        final Card colony = data.getCard(Constants.CARD_COLONY);
+        final Card platinum = data.getCard(Constants.CARD_PLATINUM);
         final boolean colonyExcluded = this.excludedCards.contains(colony);
         final boolean platinumExcluded = this.excludedCards.contains(platinum);
 
@@ -294,7 +302,7 @@ public class CardSelector {
         // We have neither Colony nor Platinum, do calculation to determine if we should add them
 
         // Count the number of prosperity cards
-        Group prosperityCards = data.getGroup(PROSPERITY_GROUP);
+        Group prosperityCards = data.getGroup(Constants.GROUP_PROSPERITY);
         int count = 0;
         for (Card card : result.getCards()) {
             if (prosperityCards.contains(card)) {
@@ -325,7 +333,7 @@ public class CardSelector {
 
         // Check if Young Witch is in the selection
         boolean youngWitchInSelection = false;
-        Card youngWitch = data.getCard(YOUNG_WITCH_CARD);
+        Card youngWitch = data.getCard(Constants.CARD_YOUNG_WITCH);
         for (Card card : result.getCards()) {
             if (card == youngWitch) {
                 youngWitchInSelection = true;
@@ -337,8 +345,8 @@ public class CardSelector {
             return;
         }
 
-        final Group cost2 = data.getGroup(COST_2_Group);
-        final Group cost3 = data.getGroup(COST_3_Group);
+        final Group cost2 = data.getGroup(Constants.GROUP_COST_2);
+        final Group cost3 = data.getGroup(Constants.GROUP_COST_3);
         final Set<Card> cost2Or3Cards = new HashSet<>(cost2.getCards());
         cost2Or3Cards.addAll(cost3.getCards());
         cost2Or3Cards.retainAll(availableCards);
@@ -373,7 +381,7 @@ public class CardSelector {
      * Shelter is actually a type of Basic cards, but we treat and display it as a single card for convenience.
      */
     private void drawShelter(Result result) {
-        final Card shelter = data.getCard(SHELTER_CARD);
+        final Card shelter = data.getCard(Constants.CARD_SHELTER);
 
         // Check if it was already a required card
         if (result.getCards().contains(shelter)) {
@@ -381,7 +389,7 @@ public class CardSelector {
         }
 
         // Count the number of dark ages cards
-        Group darkAgesCards = data.getGroup(DARK_AGES_GROUP);
+        Group darkAgesCards = data.getGroup(Constants.GROUP_DARK_AGES);
         int count = 0;
         for (Card card : result.getCards()) {
             if (darkAgesCards.contains(card)) {
@@ -399,7 +407,7 @@ public class CardSelector {
      * Check if we need to identify a card for the Obelisk Landmark
      */
     private void drawObelisk(Result result) {
-        final Card obelisk = data.getCard(OBELISK_CARD);
+        final Card obelisk = data.getCard(Constants.CARD_OBELISK);
 
         // If we don't have obelisk, just return
         if (!result.getCards().contains(obelisk)) {
@@ -409,7 +417,7 @@ public class CardSelector {
         // Create a list of only action cards from the result
         List<Card> actionCards = new ArrayList<>();
         for (Card card : result.getCards()) {
-            if (card.getTypes().contains(ACTION_TYPE)) {
+            if (card.getTypes().contains(Constants.TYPE_ACTION)) {
                 actionCards.add(card);
             }
         }
@@ -423,10 +431,14 @@ public class CardSelector {
         result.setObeliskCard(actionCards.get(cardToFetch));
     }
 
+    private void drawAlly(Result result) {
+        //@TODO
+    }
+
     private int getCardsToDraw() {
         String cardsToDraw = PreferenceManager.getDefaultSharedPreferences(this.context).getString(SettingsActivity.CARDS_TO_DRAW, null);
         if (cardsToDraw == null) {
-            return DEFAULT_CARDS_TO_DRAW;
+            return Constants.DEFAULT_CARDS_TO_DRAW;
         }
         return Integer.parseInt(cardsToDraw);
     }
@@ -768,5 +780,13 @@ public class CardSelector {
         for (Card card : cards) {
             addRequiredCard(card);
         }
+    }
+
+    public int getVersion() {
+        return version;
+    }
+
+    public void setVersion(int version) {
+        this.version = version;
     }
 }

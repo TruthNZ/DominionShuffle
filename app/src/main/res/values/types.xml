@@ -18,4 +18,6 @@
     <string name="Event">Event</string>
     <string name="Landmark">Landmark</string>
     <string name="Project">Project</string>
+    <string name="Liaison">Liaison</string>
+    <string name="Ally">Ally</string>
 </resources>

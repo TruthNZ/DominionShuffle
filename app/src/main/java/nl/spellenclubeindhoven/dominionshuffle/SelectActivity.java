@@ -29,7 +29,10 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.os.Environment;
 import android.preference.PreferenceManager;
 import android.view.KeyEvent;
 import android.view.Menu;
@@ -335,13 +338,34 @@ public class SelectActivity extends TabActivity implements OnScrollListener {
             if (selectorData == null || "".equals(selectorData)) {
                 // Load Default Settings instead
 
-                cardSelector.addIncludedGroup(data.getGroup("All"));
-				cardSelector.setLimitMaximum(data.getGroup("Ways"), 1);
-                cardSelector.setLimitMaximum(data.getGroup("Events_Landmarks_Projects_Ways"), 2);
+                cardSelector.addIncludedGroup(data.getGroup(Constants.GROUP_ALL));
+				cardSelector.setLimitMaximum(data.getGroup(Constants.GROUP_WAYS), 1);
+                cardSelector.setLimitMaximum(data.getGroup(Constants.GROUP_EVENTS_LANDMARKS_PROJECTS_WAYS), 2);
+				Group alliesGroup = data.getGroup(Constants.GROUP_ALLIES);
+				Group liaisonsGroup = data.getGroup(Constants.GROUP_LIAISONS);
+				cardSelector.setLimitMaximum(alliesGroup, 1);
+				cardSelector.setCondition(alliesGroup, liaisonsGroup);
+				cardSelector.setLimitMinimum(alliesGroup, 1);
+				cardSelector.setCondition(liaisonsGroup, alliesGroup);
+				cardSelector.setLimitMinimum(liaisonsGroup, 1);
 
-            } else {
+			} else {
                 cardSelector.fromJson(selectorData, dataReader.getData());
-            }
+
+                if (cardSelector.getVersion() < Constants.VERSION_ALLIES) {
+                	// Add new defaults for Allies
+					Group alliesGroup = data.getGroup(Constants.GROUP_ALLIES);
+					Group liaisonsGroup = data.getGroup(Constants.GROUP_LIAISONS);
+					cardSelector.setLimitMaximum(alliesGroup, 1);
+					cardSelector.setCondition(alliesGroup, liaisonsGroup);
+					cardSelector.setLimitMinimum(alliesGroup, 1);
+					cardSelector.setCondition(liaisonsGroup, alliesGroup);
+					cardSelector.setLimitMinimum(liaisonsGroup, 1);
+				}
+
+			}
+
+			cardSelector.setVersion(BuildConfig.VERSION_CODE);
 		} catch (JSONException ignore) {
 			ignore.printStackTrace();
 		}
@@ -643,16 +667,7 @@ public class SelectActivity extends TabActivity implements OnScrollListener {
 
 	private void loadData() {
 		dataReader.loadData();
-		afterDataLoadedStuff();
-	}
-	
-	private void reloadData() {
-		application.setCardSelectedLoaded(false);
-		dataReader.reset();
-		loadData();
-	}
-		
-	private void afterDataLoadedStuff() {
+
 		groupsAndCards.clear();		
 		groupsAndCards.addAll(dataReader.getData().getAll());
 

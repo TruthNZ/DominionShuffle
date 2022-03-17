@@ -135,8 +135,7 @@ public class Limit {
      */
     public boolean minimumSatisfied(Collection<Card> cards) {
         if (minimum > 0 && this.appliesTo(cards)) {
-            int count = count(cards);
-            if (minimum > count) {
+            if (minimum > count(cards)) {
                 return false;
             }
         }

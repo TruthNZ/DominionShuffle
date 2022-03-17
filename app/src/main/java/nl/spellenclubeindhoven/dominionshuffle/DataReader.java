@@ -42,6 +42,7 @@ import android.preference.PreferenceManager;
 public class DataReader {
 	private Data dominionData;
 	private Application application;
+	private String version;
 	
 
 	public DataReader(Application application) {
@@ -60,10 +61,6 @@ public class DataReader {
 		}
 		
 		return true;
-	}
-
-	public void reset() {
-		dominionData = null;
 	}
 
 	public Data getData() {
