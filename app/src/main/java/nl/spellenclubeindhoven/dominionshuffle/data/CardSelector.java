@@ -54,7 +54,14 @@ public class CardSelector {
     final private Set<Card> includedCards = new HashSet<>();
     final private Set<Card> excludedCards = new HashSet<>();
     final private Set<Card> requiredCards = new HashSet<>();
-    final private SortedMap<Group, Limit> allLimits = new TreeMap<>((g1, g2) -> g1.getCards().size() - g2.getCards().size());
+    final private SortedMap<Group, Limit> allLimits = new TreeMap<>((g1, g2) -> {
+        final int g1Size = g1.getCards().size();
+        final int g2Size = g2.getCards().size();
+        if (g1Size != g2Size) {
+            return g1Size - g2Size;
+        }
+        return g1.getName().compareTo(g2.getName());
+    });
     final private Random random = new Random();
 
     private int version;
