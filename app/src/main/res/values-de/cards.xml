@@ -508,16 +508,16 @@
 	<!-- Allies Cards -->
 	<string name="Bauble">Tand</string>
 	<string name="Sycophant">Schmeichler</string>
-	<string name="Townsfolk">Townsfolk</string>
+	<string name="Townsfolk">Bürger</string>
 	<string name="Augurs">Augurinnen</string>
-	<string name="Clashes">Clashes</string>
-	<string name="Forts">Forts</string>
+	<string name="Clashes">Konflikte</string>
+	<string name="Forts">Bastionen</string>
 	<string name="Merchant_Camp">Händlerlager</string>
 	<string name="Importer">Importeurin</string>
 	<string name="Odysseys">Irrfahrten</string>
 	<string name="Sentinel">Wächter</string>
 	<string name="Underling">Untergebener</string>
-	<string name="Wizards">Wizards</string>
+	<string name="Wizards">Zauberer</string>
 	<string name="Broker">Mittelsmann</string>
 	<string name="Carpenter">Schreinerin</string>
 	<string name="Courier">Botin</string>
