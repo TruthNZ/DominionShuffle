@@ -559,4 +559,34 @@
 	<string name="Plateau_Shepherds">Plateau Shepherds</string>
 	<string name="Trappers_Lodge">Trappers\' Lodge</string>
 	<string name="Woodworkers_Guild">Woodworkers\' Guild</string>
+    <!-- Seaside Second Edition Cards -->
+    <string name="Astrolabe">Astrolabe</string>
+    <string name="Monkey">Monkey</string>
+    <string name="Sea_Chart">Sea Chart</string>
+    <string name="Blockade">Blockade</string>
+    <string name="Sailor">Sailor</string>
+    <string name="Tide_Pools">Tide Pools</string>
+    <string name="Corsair">Corsair</string>
+    <string name="Pirate">Pirate</string>
+    <string name="Sea_Witch">Sea Witch</string>
+    <!-- Prosperity Second Edition Cards -->
+    <string name="Anvil">Anvil</string>
+    <string name="Clerk">Clerk</string>
+    <string name="Investment">Investment</string>
+    <string name="Tiara">Tiara</string>
+    <string name="Charlatan">Charlatan</string>
+    <string name="Collection">Collection</string>
+    <string name="Crystal_Ball">Crystal Ball</string>
+    <string name="Magnate">Magnate</string>
+    <string name="War_Chest">War Chest</string>
+    <!-- Hinterlands Second Edition Cards -->
+    <string name="Guard_Dog">Guard Dog</string>
+    <string name="Nomads">Nomads</string>
+    <string name="Trail">Trail</string>
+    <string name="Weaver">Weaver</string>
+    <string name="Berserker">Berserker</string>
+    <string name="Cauldron">Cauldron</string>
+    <string name="Souk">Souk</string>
+    <string name="Wheelwright">Wheelwright</string>
+    <string name="Witchs_Hut">Witch\'s Hut</string>
 </resources>

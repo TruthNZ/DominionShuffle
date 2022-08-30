@@ -309,10 +309,11 @@ public class CardSelector {
         // We have neither Colony nor Platinum, do calculation to determine if we should add them
 
         // Count the number of prosperity cards
-        Group prosperityCards = data.getGroup(Constants.GROUP_PROSPERITY);
+        Group prosperityFirstCards = data.getGroup(Constants.GROUP_PROSPERITY_FIRST);
+        Group prosperitySecondCards = data.getGroup(Constants.GROUP_PROSPERITY_FIRST);
         int count = 0;
         for (Card card : result.getCards()) {
-            if (prosperityCards.contains(card)) {
+            if (prosperityFirstCards.contains(card) || prosperitySecondCards.contains(card)) {
                 count++;
             }
         }

@@ -433,4 +433,14 @@
     <string name="Innovation">Innovation</string>
     <string name="Canal">Canal</string>
     <string name="Citadel">Citadel</string>
+    <!-- Seaside Second Edition Cards -->
+    <string name="Astrolabe">Astrolabium</string>
+    <string name="Monkey">Singe</string>
+    <string name="Sea_Chart">Carte Marine</string>
+    <string name="Blockade">Blocus</string>
+    <string name="Sailor">Navigatrice</string>
+    <string name="Tide_Pools">Marée</string>
+    <string name="Corsair">Corsaire</string>
+    <string name="Pirate">Pirate</string>
+    <string name="Sea_Witch">Sorcière Marine</string>
 </resources>

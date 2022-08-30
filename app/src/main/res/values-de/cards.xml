@@ -560,4 +560,34 @@
 	<string name="Plateau_Shepherds">Schäfer der Hochebene</string>
 	<string name="Trappers_Lodge">Hütte der Fallensteller</string>
 	<string name="Woodworkers_Guild">Holzarbeitergilde</string>
+    <!-- Seaside Second Edition Cards -->
+    <string name="Astrolabe">Astrolabium</string>
+    <string name="Monkey">Affe</string>
+    <string name="Sea_Chart">Seekarte</string>
+    <string name="Blockade">Blockade</string>
+    <string name="Sailor">Seefahrerin</string>
+    <string name="Tide_Pools">Gezeitenbecken</string>
+    <string name="Corsair">Korsarenschiff</string>
+    <string name="Pirate">Piratin</string>
+    <string name="Sea_Witch">Meerhexe</string>
+    <!-- Prosperity Second Edition Cards -->
+    <string name="Anvil">Amboss</string>
+    <string name="Clerk">Buchhalterin</string>
+    <string name="Investment">Geldanlage</string>
+    <string name="Tiara">Brautkrone</string>
+    <string name="Charlatan">Wunderheilerin</string>
+    <string name="Collection">Sammelsurium</string>
+    <string name="Crystal_Ball">Kristallkugel</string>
+    <string name="Magnate">Magnatin</string>
+    <string name="War_Chest">Waffenkiste</string>
+    <!-- Hinterlands Second Edition Cards -->
+    <string name="Guard_Dog">Wachhund</string>
+    <string name="Nomads">Nomaden</string>
+    <string name="Trail">Pfad</string>
+    <string name="Weaver">Weberin</string>
+    <string name="Berserker">Berserker</string>
+    <string name="Cauldron">Hexenkressel</string>
+    <string name="Souk">Souk</string>
+    <string name="Wheelwright">Radmacherin</string>
+    <string name="Witchs_Hut">Hexenhütte</string>
 </resources>

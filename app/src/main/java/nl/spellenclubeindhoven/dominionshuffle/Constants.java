@@ -21,7 +21,8 @@ public final class Constants {
     public final static String GROUP_DARK_AGES = "Dark_Ages";
     public final static String GROUP_EVENTS_LANDMARKS_PROJECTS_WAYS = "Events_Landmarks_Projects_Ways";
     public final static String GROUP_LIAISONS = "Liaisons";
-    public final static String GROUP_PROSPERITY = "Prosperity";
+    public final static String GROUP_PROSPERITY_FIRST = "Prosperity_First";
+    public final static String GROUP_PROSPERITY_SECOND = "Prosperity_Second";
     public final static String GROUP_WAYS = "Ways";
     public static final String STRING = "string";
     public final static String TYPE_ACTION = "Action";
