@@ -23,6 +23,7 @@
 package nl.spellenclubeindhoven.dominionshuffle;
 
 import java.util.LinkedList;
+import java.util.List;
 
 import nl.spellenclubeindhoven.dominionshuffle.data.Card;
 import nl.spellenclubeindhoven.dominionshuffle.data.CardSelector;
@@ -77,17 +78,26 @@ public class Application extends android.app.Application {
 			
 			Card baneCard = null;
             Card obeliskCard = null;
+			List<Card> traitCards = null;
 			if(jsonResult.has("baneCard")) {
 				baneCard = dataReader.getData().getCard(jsonResult.getString("baneCard"));
 			}
             if(jsonResult.has("obeliskCard")) {
                 obeliskCard = dataReader.getData().getCard(jsonResult.getString("obeliskCard"));
             }
+			if(jsonResult.has("traitCards")) {
+                JSONArray jsonTraits = jsonResult.getJSONArray("traitCards");
+				for (int i=0; i<jsonTraits.length(); i++)
+				{
+					traitCards.add(dataReader.getData().getCard(jsonTraits.getString(i)));
+				}
+            }
 
 			result = new Result();
 			result.setCards(cards);
 			result.setBaneCard(baneCard);
             result.setObeliskCard(obeliskCard);
+			result.setTraitCards(traitCards);
 		} catch (JSONException ignore) {
 			ignore.printStackTrace();
 		} 
@@ -111,6 +121,9 @@ public class Application extends android.app.Application {
             if(result.getObeliskCard() != null) {
                 jsonResult.put("obeliskCard", result.getObeliskCard().getName());
             }
+			if(result.getTraitCards() != null) {
+				jsonResult.put("traitCards", result.getTraitCards());
+			}
 			DataReader.writeStringToFile(this, "result.json", jsonResult.toString());
 		} catch (JSONException ignore) {
 			ignore.printStackTrace();

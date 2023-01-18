@@ -35,6 +35,7 @@ public class Result {
     public static final String bane = "bane";
     private Card baneCard;
     private Card obeliskCard;
+    private List<Card> traitCards;
     private List<Card> cards = new LinkedList<>();
 
     public Result() {
@@ -43,6 +44,7 @@ public class Result {
     public Result(Result result) {
         this.baneCard = result.baneCard;
         this.obeliskCard = result.obeliskCard;
+        this.traitCards = result.traitCards;
         this.cards = new LinkedList<>(result.cards);
     }
 
@@ -58,6 +60,10 @@ public class Result {
         return obeliskCard;
     }
 
+    public List<Card> getTraitCards() {
+        return traitCards;
+    }
+
     public void setBaneCard(Card baneCard) {
         this.baneCard = baneCard;
     }
@@ -65,6 +71,10 @@ public class Result {
     public void setObeliskCard(Card obeliskCard) {
         this.obeliskCard = obeliskCard;
     }
+
+    public void addTraitCard(Card traitCard) { this.traitCards.add(traitCard); }
+
+    public void setTraitCards(List<Card> traitCards) { this.traitCards = traitCards; }
 
     public List<Card> getCards() {
         return cards;

@@ -19,19 +19,21 @@ public final class Constants {
     public final static String GROUP_COST_2 = "Cost_2";
     public final static String GROUP_COST_3 = "Cost_3";
     public final static String GROUP_DARK_AGES = "Dark_Ages";
-    public final static String GROUP_EVENTS_LANDMARKS_PROJECTS_WAYS = "Events_Landmarks_Projects_Ways";
+    public final static String GROUP_EVENTS_LANDMARKS_PROJECTS_WAYS_TRAITS = "Events_Landmarks_Projects_Ways_Traits";
     public final static String GROUP_LIAISONS = "Liaisons";
     public final static String GROUP_PROSPERITY_FIRST = "Prosperity_First";
     public final static String GROUP_PROSPERITY_SECOND = "Prosperity_Second";
     public final static String GROUP_WAYS = "Ways";
     public static final String STRING = "string";
     public final static String TYPE_ACTION = "Action";
+    public final static String TYPE_TREASURE = "Treasure";
     public final static String TYPE_ALLY = "Ally";
     public final static String TYPE_EVENT = "Event";
     public final static String TYPE_LANDMARK = "Landmark";
     public final static String TYPE_LIAISON = "Liaison";
     public final static String TYPE_PROJECT = "Project";
     public final static String TYPE_WAY = "Way";
+    public final static String TYPE_TRAIT = "Trait";
 
     /**
      * Private Constructor to prevent this class ever being instantiated.

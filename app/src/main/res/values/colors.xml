@@ -2,4 +2,5 @@
 <resources>
     <color name="bane_color">#990000</color>
     <color name="obelisk_color">#009900</color>
+    <color name="trait_color">#000099</color>
 </resources>

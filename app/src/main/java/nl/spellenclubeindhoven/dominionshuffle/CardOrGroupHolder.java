@@ -55,10 +55,13 @@ class CardOrGroupHolder {
 	private TextView checkboxValueView;
 	private boolean baneCard;
     private boolean obeliskCard;
+	private boolean traitCard;
 	static private int baneColor;
 	static private String baneText;
     static private int obeliskColor;
     static private String obeliskText;
+	static private int traitColor;
+    static private String traitText;
 	
 	public CardOrGroupHolder(View row) {
 		this.row = row;
@@ -80,6 +83,11 @@ class CardOrGroupHolder {
         if (obeliskText == null) {
             obeliskText = " (" + row.getContext().getString(R.string.obelisk) + ")";
             obeliskColor = row.getContext().getResources().getColor(R.color.obelisk_color);
+        }
+
+		if (traitText == null) {
+            traitText = " (" + row.getContext().getString(R.string.trait) + ")";
+            traitColor = row.getContext().getResources().getColor(R.color.trait_color);
         }
 	}
 	
@@ -292,6 +300,13 @@ class CardOrGroupHolder {
             spannable.setSpan(new ForegroundColorSpan(obeliskColor), start, end, 0);
             spannable.setSpan(new RelativeSizeSpan(0.60f), start, end, 0);
 		}
+		if(traitCard) {
+            final int start = spannable.length() + 1;
+            spannable.append(traitText);
+            final int end = spannable.length();
+            spannable.setSpan(new ForegroundColorSpan(traitColor), start, end, 0);
+            spannable.setSpan(new RelativeSizeSpan(0.60f), start, end, 0);
+		}
         nameView.setText(spannable);
 	}
 	
@@ -342,4 +357,8 @@ class CardOrGroupHolder {
     public void setObeliskCard(boolean obeliskCard) {
         this.obeliskCard = obeliskCard;
     }
+
+	public void setTraitCard(boolean traitCard) {
+		this.traitCard = traitCard;
+	}
 }

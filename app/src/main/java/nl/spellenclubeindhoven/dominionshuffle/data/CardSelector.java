@@ -122,6 +122,7 @@ public class CardSelector {
         drawColonyPlatinum(result);
         drawShelter(result);
         drawObelisk(result);
+        drawTrait(result);
         drawAlly(result);
 
         return result;
@@ -261,7 +262,7 @@ public class CardSelector {
     private int countDrawCards(final Collection<Card> cards, final Result result) {
         int count = 0;
         for (final Card card : cards) {
-            if (!card.isBasicOrNonSupply() && !card.getTypes().contains(Constants.TYPE_EVENT) && !card.getTypes().contains(Constants.TYPE_LANDMARK) && !card.getTypes().contains(Constants.TYPE_PROJECT) && !card.getTypes().contains(Constants.TYPE_WAY) && !card.getTypes().contains(Constants.TYPE_ALLY) && !(result.getBaneCard() == card)) {
+            if (!card.isBasicOrNonSupply() && !card.getTypes().contains(Constants.TYPE_EVENT) && !card.getTypes().contains(Constants.TYPE_LANDMARK) && !card.getTypes().contains(Constants.TYPE_PROJECT) && !card.getTypes().contains(Constants.TYPE_WAY) && !card.getTypes().contains(Constants.TYPE_ALLY) && !card.getTypes().contains(Constants.TYPE_TRAIT) && !(result.getBaneCard() == card)) {
                 count++;
             }
         }
@@ -437,6 +438,52 @@ public class CardSelector {
 
         final int cardToFetch = this.random.nextInt(actionCards.size());
         result.setObeliskCard(actionCards.get(cardToFetch));
+    }
+
+    /**
+     * Check if we need to identify a card for a Trait to apply to
+     */
+    private void drawTrait(Result result) {
+        // If we have no traits, just return
+        int numTraits = 0;
+        for (Card card: result.getCards())
+        {
+            if(card.getTypes().contains(Constants.TYPE_TRAIT))
+            {
+                numTraits += 1;
+            }
+        }
+        
+        if (numTraits == 0) {
+            return;
+        }
+
+        // Create a list of only action and treasure cards from the result
+        List<Card> actionTreasureCards = new ArrayList<>();
+        for (Card card : result.getCards()) {
+            if (card.getTypes().contains(Constants.TYPE_ACTION) || card.getTypes().contains(Constants.TYPE_TREASURE)) {
+                actionTreasureCards.add(card);
+            }
+        }
+
+        if (actionTreasureCards.isEmpty()) {
+            // Wierd, but technically possible - means they will have the trait card in play, but it has no effect on the game (under rules at the time of this).
+            return;
+        }
+        if (actionTreasureCards.size() < numTraits)
+        {
+            // If not enough cards to apply traits to, just select as many as possible and the rest will have no effect
+            numTraits = actionTreasureCards.size();
+        }
+        List<Card> traitCards = new ArrayList<>();
+        int cardToFetch;
+        for (int i=0; i<numTraits; i++)
+        {
+            cardToFetch = this.random.nextInt(actionTreasureCards.size());
+            traitCards.add(actionTreasureCards.get(cardToFetch));
+            actionTreasureCards.remove(cardToFetch);
+        }
+        result.setTraitCards(traitCards);
     }
 
     private void drawAlly(Result result) {
