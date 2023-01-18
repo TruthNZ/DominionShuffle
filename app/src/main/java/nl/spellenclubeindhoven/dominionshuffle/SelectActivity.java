@@ -340,7 +340,7 @@ public class SelectActivity extends TabActivity implements OnScrollListener {
 
                 cardSelector.addIncludedGroup(data.getGroup(Constants.GROUP_ALL));
 				cardSelector.setLimitMaximum(data.getGroup(Constants.GROUP_WAYS), 1);
-                cardSelector.setLimitMaximum(data.getGroup(Constants.GROUP_EVENTS_LANDMARKS_PROJECTS_WAYS), 2);
+                cardSelector.setLimitMaximum(data.getGroup(Constants.GROUP_EVENTS_LANDMARKS_PROJECTS_WAYS_TRAITS), 2);
 				Group alliesGroup = data.getGroup(Constants.GROUP_ALLIES);
 				Group liaisonsGroup = data.getGroup(Constants.GROUP_LIAISONS);
 				cardSelector.setLimitMaximum(alliesGroup, 1);

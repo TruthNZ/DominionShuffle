@@ -52,6 +52,8 @@
     <string name="Menagerie_Set_Description">Cards from Dominion: Menagerie</string>
     <string name="Allies">Allies</string>
     <string name="Allies_Description">Cards from Dominion: Allies</string>
+    <string name="Plunder_Set">Plunder</string>
+    <string name="Plunder_Set_Description">Cards from Dominion: Plunder</string>
     <string name="Promo">Promo</string>
     <string name="Promo_Description">Promotion cards</string>
     <string name="Events">Events</string>
@@ -62,8 +64,10 @@
     <string name="Projects_Description">Permanent, buyable effects not attached to cards</string>
     <string name="Ways">Ways</string>
     <string name="Ways_Description">Alternative ways to play cards. Suggested rule is no more than 1 from this group.</string>
-    <string name="Events_Landmarks_Projects_Ways">Events, Landmarks, Projects, and Ways</string>
-    <string name="Events_Landmarks_Projects_Ways_Description">Suggested rule is no more than 2 from this group.</string>
+    <string name="Traits">Traits</string>
+    <string name="Traits_Description">Modifiers for card piles</string>
+    <string name="Events_Landmarks_Projects_Ways_Traits">Events, Landmarks, Projects, Ways, and Traits</string>
+    <string name="Events_Landmarks_Projects_Ways_Traits_Description">Suggested rule is no more than 2 from this group.</string>
     <string name="Ally_Cards">Ally Cards</string>
     <string name="Ally_Cards_Description">Ways to use favor tokens. Default rule is only 1 card from this group if a Liaisons is drawn.</string>
     <string name="Liaisons">Liaisons</string>
@@ -122,6 +126,8 @@
     <string name="Looter_Group_Description">Cards that let someone gain ruins</string>
     <string name="Gain_Spoils">Gain Spoils</string>
     <string name="Gain_Spoils_Description">Cards that let you gain spoils</string>
+    <string name="Gain_Loot">Gain Loot</string>
+    <string name="Gain_Loot_Description">Cards that let you gain Loot</string>
     <string name="Fate">Fate</string>
     <string name="Fate_Description">Cards with the Fate Type, which draw Boons</string>
     <string name="Night">Night</string>

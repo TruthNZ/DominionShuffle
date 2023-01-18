@@ -91,5 +91,6 @@
 	<string name="card">Card</string>
 	<string name="bane">Bane</string>
     <string name="obelisk">Obelisk</string>
+	<string name="trait">Trait</string>
 	<string name="cards_to_draw">Cards to Draw</string>
 </resources>
