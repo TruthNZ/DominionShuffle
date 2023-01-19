@@ -22,6 +22,7 @@
 
 package nl.spellenclubeindhoven.dominionshuffle.data;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -35,7 +36,7 @@ public class Result {
     public static final String bane = "bane";
     private Card baneCard;
     private Card obeliskCard;
-    private List<Card> traitCards;
+    private List<Card> traitCards = new ArrayList<>();
     private List<Card> cards = new LinkedList<>();
 
     public Result() {
@@ -44,7 +45,7 @@ public class Result {
     public Result(Result result) {
         this.baneCard = result.baneCard;
         this.obeliskCard = result.obeliskCard;
-        this.traitCards = result.traitCards;
+        this.traitCards = new ArrayList<>(result.traitCards);
         this.cards = new LinkedList<>(result.cards);
     }
 

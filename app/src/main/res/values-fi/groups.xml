@@ -50,8 +50,8 @@
     <string name="Events_Description">Tapahtumakortit</string>
     <string name="Landmarks">Maamerkit</string>
     <string name="Landmarks_Description">Maamerkki-kortit</string>
-    <string name="Events_Landmarks_Projects_Ways">Tapahtumat tai Maamerkit</string>
-    <string name="Events_Landmarks_Projects_Ways_Description">Tapahtumat ja Maamerkit, suositus on max. 2 korttia tästä ryhmästä</string>
+    <string name="Events_Landmarks_Projects_Ways_Traits">Tapahtumat tai Maamerkit</string>
+    <string name="Events_Landmarks_Projects_Ways_Traits_Description">Tapahtumat ja Maamerkit, suositus on max. 2 korttia tästä ryhmästä</string>
     <string name="Defense">Puolustus</string>
     <string name="Defense_Description">Kortit, jotka suojelevat muiden pelaajien hyökkäyskorteilta</string>
     <string name="Attack_Group">Hyökkäys</string>
