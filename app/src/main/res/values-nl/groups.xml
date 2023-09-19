@@ -1,5 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?><!--  Translated by Tom Vandeweyer <tom.vandeweyer@gmail.com> -->
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Translated by Tom Vandeweyer <tom.vandeweyer@gmail.com> & Ngwalme <ngwalme@gmail.com> -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    
     <string name="All">Alles</string>
     <string name="All_Description">Alle Dominionkaarten</string>
     <string name="Main_Set">Basisspel</string>
@@ -10,6 +12,10 @@
     <string name="Main_Set_Second_Description">Kaarten van de tweede editie van het basisspel</string>
     <string name="Intrigue">Intrige</string>
     <string name="Intrigue_Description">Kaarten van Dominion: Intrige</string>
+    <string name="Intrigue_First">Intrige 1ste editie</string>
+    <string name="Intrigue_First_Description">Kaarten van de eerste editie van Dominion: Intrige</string>
+    <string name="Intrigue_Second">Intrigue 2e editie</string>
+    <string name="Intrigue_Second_Description">Kaarten van de eerste editie van Dominion: Intrige</string>
     <string name="Seaside">Heis de Zeilen</string>
     <string name="Seaside_Description">Kaarten van de uitbreiding Heis de Zeilen</string>
     <string name="Seaside_First">Heis de Zeilen 1ste editie</string>
@@ -40,14 +46,34 @@
     <string name="Adventures_Description">Kaarten van de uitbreiding Avonturen</string>
     <string name="Empires">Keizerrijken</string>
     <string name="Empires_Description">Kaarten van de uitbreiding Keizerrijken</string>
+    <string name="Nocturne">Nocturne</string>
+    <string name="Nocturne_Description">Cards from Dominion: Nocturne</string>
+    <string name="Renaissance">Renaissance</string>
+    <string name="Renaissance_Description">Kaarten van de uitbreiding Renaissance</string>
+    <string name="Menagerie_Set">Menagerie</string>
+    <string name="Menagerie_Set_Description">Kaarten van de uitbreiding Menagerie</string>
+    <string name="Allies">Bondgenoten</string>
+    <string name="Allies_Description">Kaarten van de uitbreiding Bondgenoten</string>
+    <string name="Plunder_Set">Plunder</string>
+    <string name="Plunder_Set_Description">Cards from Dominion: Plunder</string>
     <string name="Promo">Promokaarten</string>
     <string name="Promo_Description">Kaarten afkomstig uit promo\'s</string>
     <string name="Events">Gebeurtenissen</string>
     <string name="Events_Description">Kaarten van het type Gebeurtenis</string>
     <string name="Landmarks">Bezienswaardigheden</string>
     <string name="Landmarks_Description">Alternatieve manieren om punten te scoren (of te verliezen)</string>
+    <string name="Projects">Projecten</string>
+    <string name="Projects_Description">Permanente, te kopen vaardigheden die los staan van de kaarten</string>
+    <string name="Ways">Sporen</string>
+    <string name="Ways_Description">Alternatieve wijze om actiekaarten te spelen. Bij voorkeur niet meer dan 1 uit deze groep, zoals wordt gesuggereerd in de spelregels.</string>
+    <string name="Traits">Traits</string>
+    <string name="Traits_Description">Modifiers for card piles</string>
     <string name="Events_Landmarks_Projects_Ways">Gebeurtenissen - Bezienswaardigheden</string>
     <string name="Events_Landmarks_Projects_Ways_Description">Voeg Gebeurtenissen of Bezienswaardigheden toe. Bij voorkeur niet meer dan 2 uit deze groep, zoals wordt gesuggereerd in de spelregels.</string>
+    <string name="Ally_Cards">Ally Cards</string>
+    <string name="Ally_Cards_Description">Ways to use favor tokens. Default rule is only 1 card from this group if a Liaisons is drawn.</string>
+    <string name="Liaisons">Liaisons</string>
+    <string name="Liaisons_Description">Cards that allow you to accumulate Favor tokens</string>
     <string name="Defense">Reactiekaarten</string>
     <string name="Defense_Description">Kaarten die iets doen als reactie op andere kaarten</string>
     <string name="Attack_Group">Aanvalskaarten</string>
@@ -102,8 +128,8 @@
     <string name="Looter_Group_Description">Kaarten die andere spelers Ruïnekaarten kunnen laten nemen</string>
     <string name="Gain_Spoils">Buit Nemen</string>
     <string name="Gain_Spoils_Description">Kaarten die Buitkaarten opleveren</string>
-    <string name="Nocturne">Nocturne</string>
-    <string name="Nocturne_Description">Cards from Dominion: Nocturne</string>
+    <string name="Gain_Loot">Gain Loot</string>
+    <string name="Gain_Loot_Description">Cards that let you gain Loot</string>
     <string name="Fate">Fate</string>
     <string name="Fate_Description">Cards with the Fate Type, which draw Boons</string>
     <string name="Night">Night</string>

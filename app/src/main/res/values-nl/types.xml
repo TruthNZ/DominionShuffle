@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!--  Translated by Tom Vandeweyer <tom.vandeweyer@gmail.com> -->
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Translated by Tom Vandeweyer <tom.vandeweyer@gmail.com> & Ngwalme <ngwalme@gmail.com> -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="Action">Actie</string>
     <string name="Gathering">Verzamel</string>    
@@ -18,4 +18,8 @@
     <string name="Traveller">Reiziger</string>
     <string name="Event">Gebeurtenis</string>
     <string name="Landmark">Bezienswaardigheid</string>
+    <string name="Project">Project</string>
+    <string name="Liaison">Liaison</string>
+    <string name="Ally">Bondgenoot</string>
+    <string name="Trait">Trait</string>
 </resources>
