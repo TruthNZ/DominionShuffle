@@ -7,7 +7,7 @@ android {
         applicationId "nz.geek.truth.dominionshuffle"
         minSdkVersion 3
         targetSdkVersion 33
-		versionCode 86
+		versionCode 87
 		versionName "1.6.2"
     }
 
