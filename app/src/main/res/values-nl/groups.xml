@@ -68,8 +68,8 @@
     <string name="Ways_Description">Alternatieve wijze om actiekaarten te spelen. Bij voorkeur niet meer dan 1 uit deze groep, zoals wordt gesuggereerd in de spelregels.</string>
     <string name="Traits">Traits</string>
     <string name="Traits_Description">Modifiers for card piles</string>
-    <string name="Events_Landmarks_Projects_Ways">Gebeurtenissen - Bezienswaardigheden</string>
-    <string name="Events_Landmarks_Projects_Ways_Description">Voeg Gebeurtenissen of Bezienswaardigheden toe. Bij voorkeur niet meer dan 2 uit deze groep, zoals wordt gesuggereerd in de spelregels.</string>
+    <string name="Events_Landmarks_Projects_Ways_Traits">Gebeurtenissen, monumenten, projecten, manieren en eigenschappen</string>
+    <string name="Events_Landmarks_Projects_Ways_Traits_Description">Bij voorkeur niet meer dan 2 uit deze groep, zoals wordt gesuggereerd in de spelregels.</string>
     <string name="Ally_Cards">Ally Cards</string>
     <string name="Ally_Cards_Description">Ways to use favor tokens. Default rule is only 1 card from this group if a Liaisons is drawn.</string>
     <string name="Liaisons">Liaisons</string>
