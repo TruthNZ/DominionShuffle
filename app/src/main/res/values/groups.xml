@@ -29,7 +29,11 @@
     <string name="Prosperity_Second">Prosperity 2nd Ed</string>
     <string name="Prosperity_Second_Description">Cards from Second Edition Dominion: Prosperity</string>
     <string name="Cornucopia">Cornucopia</string>
-    <string name="Cornucopia_Description">Cards from Dominion: Cornucopia</string>
+    <string name="Cornucopia_Description">Cards in both Editions of Dominion: Cornucopia</string>
+    <string name="Cornucopia_First">Cornucopia 1st Ed</string>
+    <string name="Cornucopia_First_Description">Cards from First Edition Dominion: Cornucopia</string>
+    <string name="Cornucopia_And_Guilds_Second">Cornucopia &amp; Guids 2nd Ed</string>
+    <string name="Cornucopia_And_Guilds_Second_Description">Cards from the Second Edition Dominion: Cornucopia &amp; Guilds</string>
     <string name="Hinterlands">Hinterlands</string>
     <string name="Hinterlands_Description">Cards in both Editions of Dominion: Hinterlands</string>
     <string name="Hinterlands_First">Hinterlands 1st Ed</string>
@@ -39,7 +43,9 @@
     <string name="Dark_Ages">Dark Ages</string>
     <string name="Dark_Ages_Description">Cards from Dominion: Dark Ages</string>
     <string name="Guilds">Guilds</string>
-    <string name="Guilds_Description">Cards from Dominion: Guilds</string>
+    <string name="Guilds_Description">Cards in both Editions of Dominion: Guilds</string>
+    <string name="Guilds_First">Guilds 1st Ed</string>
+    <string name="Guilds_First_Description">Cards from First Edition Dominion: Guilds</string>
     <string name="Adventures">Adventures</string>
     <string name="Adventures_Description">Cards from Dominion: Adventures</string>
     <string name="Empires">Empires</string>

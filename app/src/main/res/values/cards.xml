@@ -660,4 +660,19 @@
     <string name="Rich">Rich</string>
     <string name="Shy">Shy</string>
     <string name="Tireless">Tireless</string>
+    <!-- Cornucopia and Guilds Second Edition -->
+    <string name="Farrier">Farrier</string>
+    <string name="Shop">Shop</string>
+    <string name="Infirmary">Infirmary</string>
+    <string name="Farmhands">Farmhands</string>
+    <string name="Carnival">Carnival</string>
+    <string name="Ferryman">Ferryman</string>
+    <string name="Footpad">Footpad</string>
+    <string name="Joust">Joust</string>
+    <string name="Coronet">Coronet</string>
+    <string name="Courser">Courser</string>
+    <string name="Demesne">Demesne</string>
+    <string name="Housecarl">Housecarl</string>
+    <string name="Huge_Turnip">Huge Turnip</string>
+    <string name="Renown">Renown</string>
 </resources>
