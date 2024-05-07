@@ -33,6 +33,7 @@ import java.util.List;
  */
 public class Result {
     public static final String bane = "bane";
+    private Card ferrymanExtraCard;
     private Card baneCard;
     private Card obeliskCard;
     private List<Card> traitCards;
@@ -42,6 +43,7 @@ public class Result {
     }
 
     public Result(Result result) {
+        this.ferrymanExtraCard = result.ferrymanExtraCard;
         this.baneCard = result.baneCard;
         this.obeliskCard = result.obeliskCard;
         this.traitCards = result.traitCards;
@@ -51,6 +53,8 @@ public class Result {
     public void addCard(Card card) {
         this.cards.add(card);
     }
+
+    public Card getFerrymanExtraCard() { return ferrymanExtraCard; }
 
     public Card getBaneCard() {
         return baneCard;
@@ -62,6 +66,10 @@ public class Result {
 
     public List<Card> getTraitCards() {
         return traitCards;
+    }
+
+    public void setFerrymanExtraCard(Card ferrymanExtraCard) {
+        this.ferrymanExtraCard = ferrymanExtraCard;
     }
 
     public void setBaneCard(Card baneCard) {

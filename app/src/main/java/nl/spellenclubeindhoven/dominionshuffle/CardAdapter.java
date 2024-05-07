@@ -58,6 +58,7 @@ class CardAdapter extends ArrayAdapter<Card> {
 
 		Card card = getItem(position);
 
+		holder.setFerrymanExtraCard(result != null && card == result.getFerrymanExtraCard());
 		holder.setBaneCard(result != null && card == result.getBaneCard());
         holder.setObeliskCard(result != null && card == result.getObeliskCard());
 		holder.setTraitCard(result != null && result.getTraitCards() != null && result.getTraitCards().contains(card));

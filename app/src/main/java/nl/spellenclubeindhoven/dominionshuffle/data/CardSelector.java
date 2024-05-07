@@ -144,6 +144,8 @@ public class CardSelector {
             if (checkLimitsSatisfied(existingResult, existingLimits)) {
                 // First add the Bane card if needed.
                 addBaneIfNeeded(existingResult, existingAvailableCards);
+                // Also add an extra pile for Ferryman if needed.
+                addFerrymanExtraIfNeeded(existingResult, existingAvailableCards);
                 // This is a valid Solution!
                 return existingResult;
             } else {
@@ -329,6 +331,61 @@ public class CardSelector {
                 result.addCard(platinum);
             }
         }
+    }
+
+    /**
+     * Check the current results to determine if we need to add a pile for Ferryman
+     */
+    private void addFerrymanExtraIfNeeded(final Result result, final Set<Card> availableCards) throws SolveError {
+        // Firstly have we already done the Ferryman extra card
+        if (result.getFerrymanExtraCard() != null) {
+            return;
+        }
+
+        // Check if Ferryman is in the selection
+        boolean ferrymanInSelection = false;
+        Card ferryman = data.getCard(Constants.CARD_FERRYMAN);
+        for (Card card : result.getCards()) {
+            if (card == ferryman) {
+                ferrymanInSelection = true;
+                break;
+            }
+        }
+        if (!ferrymanInSelection) {
+            // Ferryman isn't in selection, don't do anything.
+            return;
+        }
+
+        final Group cost3 = data.getGroup(Constants.GROUP_COST_3);
+        final Group cost4 = data.getGroup(Constants.GROUP_COST_4);
+        final Set<Card> cost3Or4Cards = new HashSet<>(cost3.getCards());
+        cost3Or4Cards.addAll(cost4.getCards());
+        cost3Or4Cards.retainAll(availableCards);
+
+        // Filter out Basic and Non-Supply Cards
+        // While it means looping through again before we find our random card, we have to so we know how many to count from.
+        for (Iterator<Card> i = cost3Or4Cards.iterator(); i.hasNext(); ) {
+            if (i.next().isBasicOrNonSupply()) {
+                i.remove();
+            }
+        }
+
+        if (cost3Or4Cards.isEmpty()) {
+            throw new SolveError(R.string.solveerror_not_enough_cards, "Not enough cost 3 or 4 cards for selecting an extra pile for Ferryman");
+        }
+
+        // Randomise selection from the set
+        final int cardToFetch = this.random.nextInt(cost3Or4Cards.size());
+        final Iterator<Card> iterator = cost3Or4Cards.iterator();
+        for (int i = 0; i < cardToFetch; i++) {
+            iterator.next();
+        }
+        final Card ferrymanExtraCard = iterator.next();
+
+        result.setFerrymanExtraCard(ferrymanExtraCard);
+        result.addCard(ferrymanExtraCard);
+
+        availableCards.remove(ferrymanExtraCard);
     }
 
     /**

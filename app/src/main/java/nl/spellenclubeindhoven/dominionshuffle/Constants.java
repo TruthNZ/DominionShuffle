@@ -10,6 +10,7 @@ public final class Constants {
 
     public final static String CARD_COLONY = "Colony";
     public final static String CARD_OBELISK = "Obelisk";
+    public final static String CARD_FERRYMAN = "Ferryman";
     public final static String CARD_PLATINUM = "Platinum";
     public final static String CARD_SHELTER = "Shelter";
     public final static String CARD_YOUNG_WITCH = "Young_Witch";
@@ -18,6 +19,7 @@ public final class Constants {
     public final static String GROUP_ALLIES = "Ally_Cards";
     public final static String GROUP_COST_2 = "Cost_2";
     public final static String GROUP_COST_3 = "Cost_3";
+    public final static String GROUP_COST_4 = "Cost_4";
     public final static String GROUP_DARK_AGES = "Dark_Ages";
     public final static String GROUP_EVENTS_LANDMARKS_PROJECTS_WAYS_TRAITS = "Events_Landmarks_Projects_Ways_Traits";
     public final static String GROUP_LIAISONS = "Liaisons";

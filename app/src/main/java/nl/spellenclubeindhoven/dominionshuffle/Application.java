@@ -75,10 +75,14 @@ public class Application extends android.app.Application {
 				if (card == null) return;
 				cards.add(card);
 			}
-			
+
+			Card ferrymanExtraCard = null;
 			Card baneCard = null;
             Card obeliskCard = null;
 			List<Card> traitCards = null;
+			if (jsonResult.has("ferrymanExtraCard")) {
+				ferrymanExtraCard = dataReader.getData().getCard(jsonResult.getString("ferrymanExtraCard"));
+			}
 			if(jsonResult.has("baneCard")) {
 				baneCard = dataReader.getData().getCard(jsonResult.getString("baneCard"));
 			}
@@ -95,6 +99,7 @@ public class Application extends android.app.Application {
 
 			result = new Result();
 			result.setCards(cards);
+			result.setFerrymanExtraCard(ferrymanExtraCard);
 			result.setBaneCard(baneCard);
             result.setObeliskCard(obeliskCard);
 			result.setTraitCards(traitCards);
@@ -115,6 +120,9 @@ public class Application extends android.app.Application {
 		
 		try {
 			jsonResult.put("cards", jsonCards);
+			if(result.getFerrymanExtraCard() != null) {
+				jsonResult.put("ferrymanExtraCard", result.getFerrymanExtraCard().getName());
+			}
 			if(result.getBaneCard() != null) {
 				jsonResult.put("baneCard", result.getBaneCard().getName());
 			}

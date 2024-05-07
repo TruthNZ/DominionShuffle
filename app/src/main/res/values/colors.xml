@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="ferryman_extra_color">#550000</color>
     <color name="bane_color">#990000</color>
     <color name="obelisk_color">#009900</color>
     <color name="trait_color">#000099</color>

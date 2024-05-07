@@ -53,9 +53,12 @@ class CardOrGroupHolder {
 	private ImageView iconView;
 	private ImageView checkboxView;
 	private TextView checkboxValueView;
+	private boolean ferrymanExtraCard;
 	private boolean baneCard;
     private boolean obeliskCard;
 	private boolean traitCard;
+	static private int ferrymanExtraColor;
+	static private String ferrymanExtraText;
 	static private int baneColor;
 	static private String baneText;
     static private int obeliskColor;
@@ -74,7 +77,12 @@ class CardOrGroupHolder {
         debtValueView = (TextView) row.findViewById(R.id.debtValue);
 		checkboxView = (ImageView) row.findViewById(R.id.checkbox);
 		checkboxValueView = (TextView) row.findViewById(R.id.checkboxValue);
-		
+
+		if(ferrymanExtraText == null) {
+			ferrymanExtraText = " (" + "Ferryman extra" + ")";
+			ferrymanExtraColor = row.getContext().getResources().getColor(R.color.ferryman_extra_color);
+		}
+
 		if(baneText == null) {
 			baneText = " (" + row.getContext().getString(R.string.bane) + ")";
 			baneColor = row.getContext().getResources().getColor(R.color.bane_color);
@@ -286,6 +294,13 @@ class CardOrGroupHolder {
 
 	public void setName(final String name) {
         final SpannableStringBuilder spannable = new SpannableStringBuilder(name);
+		if(ferrymanExtraCard) {
+			final int start = spannable.length() + 1;
+			spannable.append(ferrymanExtraText);
+			final int end = spannable.length();
+			spannable.setSpan(new ForegroundColorSpan(ferrymanExtraColor), start, end, 0);
+			spannable.setSpan(new RelativeSizeSpan(0.60f), start, end, 0);
+		}
 		if(baneCard) {
             final int start = spannable.length() + 1;
             spannable.append(baneText);
@@ -348,6 +363,10 @@ class CardOrGroupHolder {
 
 	public float getRightArea() {
 		return row.getWidth() - row.getWidth() / 3.0f;
+	}
+
+	public void setFerrymanExtraCard(boolean ferrymanExtraCard) {
+		this.ferrymanExtraCard = ferrymanExtraCard;
 	}
 
 	public void setBaneCard(boolean baneCard) {
