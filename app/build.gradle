@@ -6,9 +6,9 @@ android {
     defaultConfig {
         applicationId "nz.geek.truth.dominionshuffle"
         minSdkVersion 3
-        targetSdkVersion 33
-		versionCode 87
-		versionName "1.6.2"
+        targetSdk 33
+        versionCode 88
+		versionName "1.7.0"
     }
 
     compileOptions {
@@ -26,4 +26,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    namespace 'nl.spellenclubeindhoven.dominionshuffle'
+    dependenciesInfo {
+        includeInBundle true
+        includeInApk true
+    }
+    buildToolsVersion '34.0.0'
 }
