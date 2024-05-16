@@ -1,14 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 33
+    compileSdkVersion 34
 
     defaultConfig {
         applicationId "nz.geek.truth.dominionshuffle"
         minSdkVersion 3
-        targetSdk 33
-        versionCode 88
-		versionName "1.7.0"
+        targetSdk 34
+        versionCode 89
+		versionName '1.7.1'
     }
 
     compileOptions {
