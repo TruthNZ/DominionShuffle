@@ -32,4 +32,10 @@ android {
         includeInApk true
     }
     buildToolsVersion '34.0.0'
+
+    bundle {
+        language {
+            enableSplit = false
+        }
+    }
 }
