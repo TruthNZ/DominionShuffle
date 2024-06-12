@@ -1,14 +1,15 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 34
+    namespace 'nl.spellenclubeindhoven.dominionshuffle'
 
     defaultConfig {
         applicationId "nz.geek.truth.dominionshuffle"
-        minSdkVersion 3
+        compileSdk 34
+        minSdk 3
         targetSdk 34
-        versionCode 91
-		versionName '1.7.3'
+        versionCode 93
+		versionName '1.7.5'
     }
 
     compileOptions {
@@ -22,26 +23,10 @@ android {
         }
         release {
             minifyEnabled true
-            shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    namespace 'nl.spellenclubeindhoven.dominionshuffle'
-    dependenciesInfo {
-        includeInBundle true
-        includeInApk true
-    }
-    buildToolsVersion '34.0.0'
-
-    bundle {
-        language {
-            enableSplit = false
-        }
-        density {
-            enableSplit = false
-        }
-        abi {
-            enableSplit = false
-        }
+    buildFeatures {
+        buildConfig true
     }
 }
