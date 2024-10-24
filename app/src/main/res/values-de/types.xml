@@ -20,4 +20,6 @@
     <string name="Project">Projekt</string>
     <string name="Liaison">Kontakt</string>
     <string name="Ally">Verbündeter</string>
+    <string name="Trait">Merkmal</string>
+    <string name="Prophecy">Prophezeiung</string>
 </resources>

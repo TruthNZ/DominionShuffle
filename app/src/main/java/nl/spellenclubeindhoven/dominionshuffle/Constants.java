@@ -23,6 +23,7 @@ public final class Constants {
     public final static String GROUP_DARK_AGES = "Dark_Ages";
     public final static String GROUP_EVENTS_LANDMARKS_PROJECTS_WAYS_TRAITS = "Events_Landmarks_Projects_Ways_Traits";
     public final static String GROUP_LIAISONS = "Liaisons";
+    public final static String GROUP_PROPHECIES = "Prophecies";
     public final static String GROUP_PROSPERITY_FIRST = "Prosperity_First";
     public final static String GROUP_PROSPERITY_SECOND = "Prosperity_Second";
     public final static String GROUP_WAYS = "Ways";
@@ -33,6 +34,7 @@ public final class Constants {
     public final static String TYPE_EVENT = "Event";
     public final static String TYPE_LANDMARK = "Landmark";
     public final static String TYPE_LIAISON = "Liaison";
+    public final static String TYPE_OMEN = "Omen";
     public final static String TYPE_PROJECT = "Project";
     public final static String TYPE_WAY = "Way";
     public final static String TYPE_TRAIT = "Trait";

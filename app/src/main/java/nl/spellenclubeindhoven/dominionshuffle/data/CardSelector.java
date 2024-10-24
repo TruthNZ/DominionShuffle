@@ -146,6 +146,8 @@ public class CardSelector {
                 addBaneIfNeeded(existingResult, existingAvailableCards);
                 // Also add an extra pile for Ferryman if needed.
                 addFerrymanExtraIfNeeded(existingResult, existingAvailableCards);
+                // Add a Prophecy if needed
+                addProphecyIfNeeded(existingResult);
                 // This is a valid Solution!
                 return existingResult;
             } else {
@@ -386,6 +388,35 @@ public class CardSelector {
         result.addCard(ferrymanExtraCard);
 
         availableCards.remove(ferrymanExtraCard);
+    }
+
+    private void addProphecyIfNeeded(final Result result) throws SolveError {
+        boolean omenExists = false;
+        // Have to use this old style search to support older android
+        for (Card card: result.getCards()) {
+            if (card.getTypes().contains(Constants.TYPE_OMEN)) {
+                omenExists = true;
+                break;
+            }
+        }
+
+        if (omenExists) {
+            Set<Card> prophecies = new HashSet<>(data.getGroup(Constants.GROUP_PROPHECIES).getCards());
+            prophecies.removeAll(excludedCards);
+            if (prophecies.isEmpty()) {
+                throw new SolveError(R.string.solveerror_no_prophecies_found, "No prophecies found to draw from");
+            }
+
+            // Randomise selection from the set - Iterating through isn't very efficient, but without writing a combined List Set class ourself is the easiest choice.
+            final int cardToFetch = this.random.nextInt(prophecies.size());
+            final Iterator<Card> iterator = prophecies.iterator();
+            for (int i = 0; i < cardToFetch; i++) {
+                iterator.next();
+            }
+            final Card pickedProphecy = iterator.next();
+
+            result.addCard(pickedProphecy);
+        }
     }
 
     /**

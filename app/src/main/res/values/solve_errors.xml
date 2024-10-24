@@ -5,4 +5,5 @@
 <string name="solveerror_unsatisfied_rule">Rule is not satisfied for selected cards</string>
 <string name="solveerror_too_many_cards">Trying to pick more than 10 cards</string>
 <string name="solveerror_not_enough_cards">Not enough cards to select from</string>
+<string name="solveerror_no_prophecies_found">No prophecies found to draw from</string>
 </resources>

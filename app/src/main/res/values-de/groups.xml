@@ -59,6 +59,8 @@
     <string name="Menagerie_Set_Description">Karten aus Menagerie</string>
     <string name="Allies">Verbündete</string>
     <string name="Allies_Description">Karten aus Verbündete</string>
+    <string name="Rising_Sun">Rising Sun</string>
+    <string name="Rising_Sun_Description">Karten aus Rising Sun</string>
     <string name="Promo">Promo</string>
     <string name="Promo_Description">Promokarten</string>
     <string name="Events">Ereignisse</string>
@@ -138,5 +140,11 @@
     <string name="Heirloom">Erbstück</string>
     <string name="Heirloom_Description">Erbstück karten ersetzen den beginnenden Coppers</string>
     <string name="Doom">Unheil</string>
-    <string name="Doom_Description">Karten mit dem Doom-Typ, die Verhexungen ergeben</string>
+    <string name="Doom_Description">Karten mit dem Typ Doom, die Verhexungen ergeben</string>
+    <string name="Prophecies">Prophezeiungen</string>
+    <string name="Prophecies_Description">Prophezeiung Karten</string>
+    <string name="Omens">Omens</string>
+    <string name="Omens_Description">Karten mit dem Typ Omen, die Prophezeiungen ins Spiel bringen</string>
+    <string name="Shadows">Schatten</string>
+    <string name="Shadows_Description">Karten mit dem Typ Schatten, die direkt aus deinem Deck gespielt werden können</string>
 </resources>

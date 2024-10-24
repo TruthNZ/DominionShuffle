@@ -8,8 +8,8 @@ android {
         compileSdk 34
         minSdk 3
         targetSdk 34
-        versionCode 93
-		versionName '1.7.5'
+        versionCode 94
+		versionName '1.8.0'
     }
 
     compileOptions {

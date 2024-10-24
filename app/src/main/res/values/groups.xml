@@ -60,6 +60,8 @@
     <string name="Allies_Description">Cards from Allies</string>
     <string name="Plunder_Set">Plunder</string>
     <string name="Plunder_Set_Description">Cards from Plunder</string>
+    <string name="Rising_Sun">Rising Sun</string>
+    <string name="Rising_Sun_Description">Cards from Rising Sun</string>
     <string name="Promo">Promo</string>
     <string name="Promo_Description">Promotion cards</string>
     <string name="Events">Events</string>
@@ -142,4 +144,10 @@
     <string name="Heirloom_Description">Heirloom Cards replace starting Coppers</string>
     <string name="Doom">Doom</string>
     <string name="Doom_Description">Cards with the Doom Type, which give Hexes</string>
+    <string name="Prophecies">Prophecies</string>
+    <string name="Prophecies_Description">Prophecy Cards</string>
+    <string name="Omens">Omens</string>
+    <string name="Omens_Description">Cards with the Omen Type, which bring Prophecies into play</string>
+    <string name="Shadows">Shadows</string>
+    <string name="Shadows_Description">Cards with the Shadows Type, which can be played directly from your deck</string>
 </resources>
