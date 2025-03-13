@@ -327,33 +327,7 @@
     <string name="Triumphal_Arch">Triomfboog</string>
     <string name="Wall">Muur</string>
     <string name="Wolf_Den">Wolvenhol</string>
-    <!--  Basisspel 2de Editie -->
-    <string name="Artisan">Ambachtsman</string>
-    <string name="Bandit">Bandiet</string>
-    <string name="Harbinger">Voorbode</string>
-    <string name="Merchant">Handelaar</string>
-    <string name="Poacher">Stroper</string>
-    <string name="Sentry">Schildwacht</string>
-    <string name="Vassal">Vazal</string>
-    <!--  Intrige 2de Editie -->
-    <string name="Courtier">Hoveling</string>
-    <string name="Diplomat">Diplomaat</string>
-    <string name="Lurker">Lurker</string>
-    <string name="Mill">Molen</string>
-    <string name="Patrol">Patrouille</string>
-    <string name="Replace">Vervangen</string>
-    <string name="Secret_Passage">Geheime Doorgang</string>
-    <!--  Promokaarten -->
-    <string name="Black_Market">Zwarte Markt</string>
-    <string name="Envoy">Gezant</string>
-    <string name="Stash">Geldbuidel</string>
-    <string name="Walled_Village">Versterkt Dorp</string>
-    <string name="Governor">Gouverneur</string>
-    <string name="Prince">Prins</string>
-    <string name="Summon">Oproepen</string>
-    <string name="Sauna_Avanto">Sauna_Avanto</string>
-    <string name="Dismantle">Ontmantelen</string>
-    <!--  Nocturne cards -->
+	<!--  Nocturne cards -->
     <string name="Druid">Druïde</string>
     <string name="Faithful_Hound">Trouwe Hond</string>
     <string name="Guardian">Beschermer</string>
@@ -387,7 +361,7 @@
     <string name="Vampire">Vampier</string>
     <string name="Werewolf">Weerwolf</string>
     <string name="Raider">Plunderaar</string>
-    <!-- Renaissance Cards -->
+    <!-- Renaissance -->
     <string name="Border_Guard">Grenswacht</string>
     <string name="Ducat">Dukaat</string>
     <string name="Lackeys">Kamerbedienden</string>
@@ -433,7 +407,7 @@
     <string name="Innovation">Vernieuwing</string>
     <string name="Canal">Kanaal</string>
     <string name="Citadel">Citadel</string>
-    <!-- Menagerie Cards -->
+    <!-- Menagerie -->
     <string name="Black_Cat">Zwarte Kat</string>
     <string name="Sleigh">Slede</string>
     <string name="Supplies">Voorraden</string>
@@ -504,8 +478,7 @@
     <string name="Way_of_the_Squirrel">Spoor van de Eekhoorn</string>
     <string name="Way_of_the_Turtle">Spoor van de Schildpad</string>
     <string name="Way_of_the_Worm">Spoor van de Worm</string>
-    
-    	<!-- Allies Cards -->
+	<!-- Bondgenoten -->
     <string name="Bauble">Kerstbal</string>
     <string name="Sycophant">Hielenlikker</string>
     <string name="Townsfolk">Stedelingen</string>
@@ -537,62 +510,164 @@
 	<string name="Specialist">Specialist</string>
 	<string name="Swap">Ruilen</string>
 	<string name="Marquis">Markies</string>
-    <string name="Architects_Guild">Architecten Gilde</string>
-<string name="Band_of_Nomads">Band of Nomads</string>
+	<string name="Architects_Guild">Bouwmeestersgilde</string>
+	<string name="Band_of_Nomads">Groep Nomaden</string>
     <string name="Cave_Dwellers">Holbewoners</string>
     <string name="Circle_of_Witches">Heksencirkel</string>
     <string name="City_state">Stadstaat</string>
     <string name="Coastal_Haven">Kusthaven</string>
-<string name="Crafters_Guild">Crafters\' Guild</string>
-<string name="Desert_Guides">Desert Guides</string>
-<string name="Family_of_Inventors">Family of Inventors</string>
-<string name="Fellowship_of_Scribes">Fellowship of Scribes</string>
-<string name="Forest_Dwellers">Forest Dwellers</string>
-    <string name="Gang_of_Pickpockets">Bende zakkenrollers</string>
-<string name="Island_Folk">Island Folk</string>
+	<string name="Crafters_Guild">Ambachtsgilde</string>
+	<string name="Desert_Guides">Woestijngidsen</string>
+	<string name="Family_of_Inventors">Uitvindersgezin</string>
+	<string name="Fellowship_of_Scribes">Schrijversgenootschap</string>
+	<string name="Forest_Dwellers">Bosbewoners</string>
+    <string name="Gang_of_Pickpockets">Bende Zakkenrollers</string>
+	<string name="Island_Folk">Eilandbewoners</string>
     <string name="League_of_Bankers">Bankiersverbond</string>
-<string name="League_of_Shopkeepers">League of Shopkeepers</string>
-<string name="Market_Towns">Market Towns</string>
-<string name="Mountain_Folk">Mountain Folk</string>
-    <string name="Order_of_Astrologers">Astrologenorde</string>
-<string name="Order_of_Masons">Order of Masons</string>
-<string name="Peaceful_Cult">Peaceful Cult</string>
-<string name="Plateau_Shepherds">Plateau Shepherds</string>
-<string name="Trappers_Lodge">Trappers\' Lodge</string>
-<string name="Woodworkers_Guild">Woodworkers\' Guild</string>
+	<string name="League_of_Shopkeepers">Winkeliersverbond</string>
+	<string name="Market_Towns">Marktsteden</string>
+	<string name="Mountain_Folk">Bergbewoners</string>
+	<string name="Order_of_Astrologers">Astrologenorde</string>
+	<string name="Order_of_Masons">Metselaarsorde</string>
+	<string name="Peaceful_Cult">Vreedzame Sekte</string>
+	<string name="Plateau_Shepherds">Hooglandherders</string>
+	<string name="Trappers_Lodge">Jaagershut</string>
+	<string name="Woodworkers_Guild">Timmermansgilde</string>
+   <!--  Plunder  -->
+	<string name="Cage">Kooi</string>
+	<string name="Grotto">Spelonk</string>
+	<string name="Jewelled_Egg">Gedecoreerd Ei</string>
+	<string name="Search">Zoektocht</string>
+	<string name="Shaman">Sjamaan</string>
+	<string name="Secluded_Shrine">Verlaten Tempel</string>
+	<string name="Siren">Sirene</string>
+	<string name="Stowaway">Bergruimte</string>
+	<string name="Taskmaster">Opziener</string>
+	<string name="Abundance">Overvloed</string>
+	<string name="Cabin_Boy">Scheepsjongen</string>
+	<string name="Crucible">Smeltkroes</string>
+	<string name="Flagship">Vlaggenschip</string>
+	<string name="Fortune_Hunter">Fortuinzoeker</string>
+	<string name="Gondola">Gondel</string>
+	<string name="Harbor_Village">Havendorp</string>
+	<string name="Landing_Party">Landingstroepen</string>
+	<string name="Mapmaker">Kaartenmaker</string>
+	<string name="Maroon">Gestrand</string>
+	<string name="Rope">Touw</string>
+	<string name="Swamp_Shacks">Moerasthutten</string>
+	<string name="Tools">Gereedschappen</string>
+	<string name="Buried_Treasure">Begraven Schat</string>
+	<string name="Crew">Bemanning</string>
+	<string name="Cutthroat">Moordenares</string>
+	<string name="Enlarge">Vergroten</string>
+	<string name="Figurine">Beeldje</string>
+	<string name="First_Mate">Eerste Stuurman</string>
+	<string name="Frigate">Fregat</string>
+	<string name="Longship">Langschip</string>
+	<string name="Mining_Road">Mijnweg</string>
+	<string name="Pendant">Pendant</string>
+	<string name="Pickaxe">Houweel</string>
+	<string name="Pilgrim">Pelgrim</string>
+	<string name="Quartermaster">Kwartiermeester</string>
+	<string name="Silver_Mine">Zilvermijn</string>
+	<string name="Trickster">Bedrieger</string>
+	<string name="Wealthy_Village">Welvarend Dorp</string>
+	<string name="Sack_Of_Loot">Zak met Buit</string>
+	<string name="Kings_Cache">Koninklijke Schatkamer</string>
+	<string name="Bury">Begraven</string>
+	<string name="Avoid">Vermijden</string>
+	<string name="Deliver">Bezorgen</string>
+	<string name="Peril">Berdreigen</string>
+	<string name="Rush">Haasten</string>
+	<string name="Foray">Binnenvallen</string>
+	<string name="Launch">Lanceren</string>
+	<string name="Mirror">Spiegelen</string>
+	<string name="Prepare">Voorbereiden</string>
+	<string name="Scrounge">Klaplopen</string>
+	<string name="Journey">Reizen</string>
+	<string name="Maelstrom">Draaikolk</string>
+	<string name="Looting">Leegroven</string>
+	<string name="Invasion">Invasie</string>
+	<string name="Prosper">Floreren</string>
+	<string name="Cheap">Goedkoop</string>
+	<string name="Cursed">Vervloekt</string>
+	<string name="Fated">Gedoemd</string>
+	<string name="Fawning">Vleiend</string>
+	<string name="Friendly">Vriendelijk</string>
+	<string name="Hasty">Haastig</string>
+	<string name="Inherited">Geërfd</string>
+	<string name="Inspiring">Insprirerend</string>
+	<string name="Nearby">Nabijgelegen</string>
+	<string name="Patient">Geduldig</string>
+	<string name="Pious">Vroom</string>
+	<string name="Reckless">Roekeloos</string>
+	<string name="Rich">Rijk</string>
+	<string name="Shy">Verlegen</string>
+	<string name="Tireless">Onvermoeibaar</string> 
     
-    
-    
-    
-    <!-- Seaside Second Edition Cards -->
-    <string name="Astrolabe">Astrolabe</string>
-    <string name="Monkey">Monkey</string>
-    <string name="Sea_Chart">Sea Chart</string>
-    <string name="Blockade">Blockade</string>
-    <string name="Sailor">Sailor</string>
-    <string name="Tide_Pools">Tide Pools</string>
-    <string name="Corsair">Corsair</string>
-    <string name="Pirate">Pirate</string>
-    <string name="Sea_Witch">Sea Witch</string>
-    <!-- Prosperity Second Edition Cards -->
-    <string name="Anvil">Anvil</string>
-    <string name="Clerk">Clerk</string>
-    <string name="Investment">Investment</string>
-    <string name="Tiara">Tiara</string>
-    <string name="Charlatan">Charlatan</string>
-    <string name="Collection">Collection</string>
-    <string name="Crystal_Ball">Crystal Ball</string>
-    <string name="Magnate">Magnate</string>
-    <string name="War_Chest">War Chest</string>
-    <!-- Hinterlands Second Edition Cards -->
-    <string name="Guard_Dog">Guard Dog</string>
-    <string name="Nomads">Nomads</string>
-    <string name="Trail">Trail</string>
-    <string name="Weaver">Weaver</string>
+	<!--  Basisspel 2de Editie -->
+    <string name="Artisan">Ambachtsman</string>
+    <string name="Bandit">Bandiet</string>
+    <string name="Harbinger">Voorbode</string>
+    <string name="Merchant">Handelaar</string>
+    <string name="Poacher">Stroper</string>
+    <string name="Sentry">Schildwacht</string>
+    <string name="Vassal">Vazal</string>
+    <!--  Intrige 2de Editie -->
+    <string name="Courtier">Hoveling</string>
+    <string name="Diplomat">Diplomaat</string>
+    <string name="Lurker">Voyeur</string>
+    <string name="Mill">Molen</string>
+    <string name="Patrol">Patrouille</string>
+    <string name="Replace">Vervangen</string>
+    <string name="Secret_Passage">Geheime Doorgang</string>
+    <!-- Heis de Zeilen Second Edition -->
+    <string name="Astrolabe">Sextant</string>
+    <string name="Monkey">Aap</string>
+    <string name="Sea_Chart">Zeekaart</string>
+    <string name="Blockade">Blokkade</string>
+    <string name="Sailor">Zeeman</string>
+    <string name="Tide_Pools">Getijdenpoelen</string>
+    <string name="Corsair">Zeerover</string>
+    <string name="Pirate">Piraat</string>
+    <string name="Sea_Witch">Zeekol</string>
+    <!-- Welvaart Second Edition -->
+    <string name="Anvil">Aambeeld</string>
+    <string name="Clerk">Klerk</string>
+    <string name="Investment">Investering</string>
+    <string name="Tiara">Hoofdtooi</string>
+    <string name="Charlatan">Kwakzalver</string>
+    <string name="Collection">Collectie</string>
+    <string name="Crystal_Ball">Kristallen Bal</string>
+    <string name="Magnate">Magnaat</string>
+    <string name="War_Chest">Krijgskas</string>
+	
+	<!--  Promokaarten -->
+    <string name="Envoy">Gezant</string>
+	<string name="Black_Market">Zwarte Markt</string>
+    <string name="Stash">Geldbuidel</string>
+    <string name="Walled_Village">Walled Village</string>
+    <string name="Governor">Gouverneur</string>
+    <string name="Prince">Prins</string>
+    <string name="Summon">Summon</string>
+    <string name="Sauna_Avanto">Sauna_Avanto</string>
+    <string name="Dismantle">Ontmantelen</string>
+	<string name="Church">Church</string>
+	<string name="Captain">Captain</string>
+	<string name="Marchland">Marchland</string>
+	
+ 	<!-- !!Not officially in print, fan translation only!! -->
+	
+	<!-- Het Achterland Second Edition Cards -->
+	<string name="Guard_Dog">Waakhond</string>
+    <string name="Nomads">Nomaden</string>
+    <string name="Trail">Pad</string>
+    <string name="Weaver">Weefster</string>
     <string name="Berserker">Berserker</string>
-    <string name="Cauldron">Cauldron</string>
+    <string name="Cauldron">Heksenketel</string>
     <string name="Souk">Souk</string>
-    <string name="Wheelwright">Wheelwright</string>
-    <string name="Witchs_Hut">Witch\'s Hut</string>
+    <string name="Wheelwright">Wagenmaker</string>
+    <string name="Witchs_Hut">Heksenhut</string>
+
 
 </resources>
